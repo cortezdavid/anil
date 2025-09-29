@@ -1,0 +1,166 @@
+{
+  "types": [
+    {
+      "id": "NORMAL",
+      "name": "Normal",
+      "weaknesses": ["FIGHTING"],
+      "resistances": [],
+      "immunities": ["GHOST"],
+      "isPseudoType": false,
+      "isSpecialType": false
+    },
+    {
+      "id": "FIGHTING",
+      "name": "Lucha",
+      "weaknesses": ["FLYING", "PSYCHIC", "FAIRY"],
+      "resistances": ["ROCK", "BUG", "DARK"],
+      "immunities": [],
+      "isPseudoType": false,
+      "isSpecialType": false
+    },
+    {
+      "id": "FLYING",
+      "name": "Volador",
+      "weaknesses": ["ROCK", "ELECTRIC", "ICE"],
+      "resistances": ["FIGHTING", "BUG", "GRASS"],
+      "immunities": ["GROUND"],
+      "isPseudoType": false,
+      "isSpecialType": false
+    },
+    {
+      "id": "POISON",
+      "name": "Veneno",
+      "weaknesses": ["GROUND", "PSYCHIC"],
+      "resistances": ["FIGHTING", "POISON", "BUG", "GRASS", "FAIRY"],
+      "immunities": [],
+      "isPseudoType": false,
+      "isSpecialType": false
+    },
+    {
+      "id": "GROUND",
+      "name": "Tierra",
+      "weaknesses": ["WATER", "GRASS", "ICE"],
+      "resistances": ["POISON", "ROCK"],
+      "immunities": ["ELECTRIC"],
+      "isPseudoType": false,
+      "isSpecialType": false
+    },
+    {
+      "id": "ROCK",
+      "name": "Roca",
+      "weaknesses": ["FIGHTING", "GROUND", "STEEL", "WATER", "GRASS"],
+      "resistances": ["NORMAL", "FLYING", "POISON", "FIRE"],
+      "immunities": [],
+      "isPseudoType": false,
+      "isSpecialType": false
+    },
+    {
+      "id": "BUG",
+      "name": "Bicho",
+      "weaknesses": ["FLYING", "ROCK", "FIRE"],
+      "resistances": ["FIGHTING", "GROUND", "GRASS"],
+      "immunities": [],
+      "isPseudoType": false,
+      "isSpecialType": false
+    },
+    {
+      "id": "GHOST",
+      "name": "Fantasma",
+      "weaknesses": ["GHOST", "DARK"],
+      "resistances": ["POISON", "BUG"],
+      "immunities": ["NORMAL", "FIGHTING"],
+      "isPseudoType": false,
+      "isSpecialType": false
+    },
+    {
+      "id": "STEEL",
+      "name": "Acero",
+      "weaknesses": ["FIGHTING", "GROUND", "FIRE"],
+      "resistances": ["NORMAL", "FLYING", "ROCK", "BUG", "STEEL", "GRASS", "PSYCHIC", "ICE", "DRAGON", "FAIRY"],
+      "immunities": ["POISON"],
+      "isPseudoType": false,
+      "isSpecialType": false
+    },
+    {
+      "id": "FIRE",
+      "name": "Fuego",
+      "weaknesses": ["GROUND", "ROCK", "WATER"],
+      "resistances": ["BUG", "STEEL", "FIRE", "GRASS", "ICE", "FAIRY"],
+      "immunities": [],
+      "isPseudoType": false,
+      "isSpecialType": true
+    },
+    {
+      "id": "WATER",
+      "name": "Agua",
+      "weaknesses": ["GRASS", "ELECTRIC"],
+      "resistances": ["STEEL", "FIRE", "WATER", "ICE"],
+      "immunities": [],
+      "isPseudoType": false,
+      "isSpecialType": true
+    },
+    {
+      "id": "GRASS",
+      "name": "Planta",
+      "weaknesses": ["FLYING", "POISON", "BUG", "FIRE", "ICE"],
+      "resistances": ["GROUND", "WATER", "GRASS", "ELECTRIC"],
+      "immunities": [],
+      "isPseudoType": false,
+      "isSpecialType": true
+    },
+    {
+      "id": "ELECTRIC",
+      "name": "Eléctrico",
+      "weaknesses": ["GROUND"],
+      "resistances": ["FLYING", "STEEL", "ELECTRIC"],
+      "immunities": [],
+      "isPseudoType": false,
+      "isSpecialType": true
+    },
+    {
+      "id": "PSYCHIC",
+      "name": "Psíquico",
+      "weaknesses": ["BUG", "GHOST", "DARK"],
+      "resistances": ["FIGHTING", "PSYCHIC"],
+      "immunities": [],
+      "isPseudoType": false,
+      "isSpecialType": true
+    },
+    {
+      "id": "ICE",
+      "name": "Hielo",
+      "weaknesses": ["FIGHTING", "ROCK", "STEEL", "FIRE"],
+      "resistances": ["ICE"],
+      "immunities": [],
+      "isPseudoType": false,
+      "isSpecialType": true
+    },
+    {
+      "id": "DRAGON",
+      "name": "Dragón",
+      "weaknesses": ["ICE", "DRAGON", "FAIRY"],
+      "resistances": ["FIRE", "WATER", "GRASS", "ELECTRIC"],
+      "immunities": [],
+      "isPseudoType": false,
+      "isSpecialType": true
+    },
+    {
+      "id": "DARK",
+      "name": "Siniestro",
+      "weaknesses": ["FIGHTING", "BUG", "FAIRY"],
+      "resistances": ["GHOST", "DARK"],
+      "immunities": ["PSYCHIC"],
+      "isPseudoType": false,
+      "isSpecialType": true
+    },
+    {
+      "id": "FAIRY",
+      "name": "Hada",
+      "weaknesses": ["POISON", "STEEL"],
+      "resistances": ["FIGHTING", "BUG", "DARK"],
+      "immunities": ["DRAGON"],
+      "isPseudoType": false,
+      "isSpecialType": true
+    }
+  ]
+}
