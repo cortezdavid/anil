@@ -4,7 +4,7 @@ import types from "../../data/types.json"
 import abilitiesData from "../../data/abilities.json"
 import itemsData from "../../data/items.json"
 import PokemonFront from "../pokemonFront/PokemonFront";
-import MovimientosSection from "../movimientosSection/movimientosSection";
+// import MovimientosSection from "../movimientosSection/movimientosSection";
 
 const Pokemon = () => {
   const { id } = useParams();
