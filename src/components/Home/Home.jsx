@@ -92,7 +92,7 @@ const Home = () => {
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:text-blue-800 font-bold hover:underline transition-colors duration-200"
               >
-                Erick Lostie (@Eric_Lostie)
+                Eric Lostie (@Eric_Lostie)
               </a>
             </p>
           </div>
