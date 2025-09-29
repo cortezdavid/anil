@@ -56,16 +56,15 @@ const Pokemon = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-100 to-indigo-100">
       {/* Aquí va tu Navbar */}
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         {/* Título del Pokémon */}
-        <h1 className="text-4xl font-black text-gray-900 mb-8 uppercase tracking-wider">
+        <h1 className="text-4xl font-black text-blue-900 mb-8 uppercase tracking-wider drop-shadow-sm">
           {pokemon.name}
         </h1>
 
-        {/* Layout principal - 3 columnas */}
         {/* Layout principal */}
         <div className="space-y-8">
 
@@ -73,9 +72,9 @@ const Pokemon = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
 
             {/* Columna 1 - Sprite + Info básica */}
-            <div className="bg-white rounded-lg shadow-sm p-6 h-fit">
+            <div className="bg-gradient-to-br from-blue-300 to-blue-600 rounded-xl shadow-2xl p-6 h-fit border-2 border-none">
               {/* Sprite del Pokémon */}
-              <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg p-6 mb-6 flex justify-center border border-gray-100">
+              <div className="bg-blue-100 rounded-xl p-8 mb-6 flex justify-center border-2 border-blue-300 shadow-lg">
                 <PokemonFront img={pokemon.image} scale={200} />
               </div>
 
@@ -83,12 +82,12 @@ const Pokemon = () => {
               <div className="space-y-4">
                 {/* Tipos con badges */}
                 <div className="flex flex-col">
-                  <span className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">Tipo</span>
+                  <span className="text-sm font-black text-blue-900 uppercase tracking-wide mb-3">Tipo</span>
                   <div className="flex gap-2 flex-wrap">
                     {pokemon.types.map((type, index) => (
                       <span
                         key={index}
-                        className={`px-3 py-1 rounded-full text-xs font-semibold text-white ${getTypeColor(type)}`}
+                        className={`px-4 py-1.5 rounded-full text-sm font-bold text-white ${getTypeColor(type)} shadow-lg border-2 border-white/30`}
                       >
                         {getTypeName(type)}
                       </span>
@@ -98,32 +97,32 @@ const Pokemon = () => {
 
                 {/* Datos físicos */}
                 <div className="grid grid-cols-2 gap-4">
-                  <div className="bg-gray-50 rounded-lg p-3 text-center">
-                    <div className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-1">Altura</div>
-                    <div className="text-lg font-bold text-gray-900">{pokemon.physicalData.height}</div>
-                    <div className="text-xs text-gray-500">metros</div>
+                  <div className="bg-white rounded-xl p-4 text-center shadow-lg">
+                    <div className="text-xs font-black text-blue-700 uppercase tracking-wider mb-2">Altura</div>
+                    <div className="text-2xl font-black text-blue-900">{pokemon.physicalData.height}</div>
+                    <div className="text-xs font-semibold text-blue-600">metros</div>
                   </div>
-                  <div className="bg-gray-50 rounded-lg p-3 text-center">
-                    <div className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-1">Peso</div>
-                    <div className="text-lg font-bold text-gray-900">{pokemon.physicalData.weight}</div>
-                    <div className="text-xs text-gray-500">kg</div>
+                  <div className="bg-white rounded-xl p-4 text-center shadow-lg">
+                    <div className="text-xs font-black text-blue-700 uppercase tracking-wider mb-2">Peso</div>
+                    <div className="text-2xl font-black text-blue-900">{pokemon.physicalData.weight}</div>
+                    <div className="text-xs font-semibold text-blue-600">kg</div>
                   </div>
                 </div>
 
                 {/* Habilidades */}
                 <div>
-                  <span className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2 block">Habilidades</span>
+                  <span className="text-sm font-black text-blue-900 uppercase tracking-wide mb-3 block">Habilidades</span>
                   <div className="space-y-2">
                     {pokemon.abilities.map((ability, index) => {
                       return (
                         <div
                           key={index}
-                          className="relative flex items-center justify-between bg-blue-50 hover:bg-blue-100 rounded-lg px-3 py-2 transition-colors duration-150"
+                          className="relative flex items-center justify-between bg-white hover:bg-blue-50 rounded-lg px-4 py-3 transition-all duration-150 shadow-lg"
                         >
-                          <span className="text-sm font-medium text-blue-900 capitalize">
+                          <span className="text-sm font-bold text-blue-900">
                             {getAbilityName(ability)}
                           </span>
-                          <span className="text-xs text-blue-600">Normal</span>
+                          <span className="text-xs font-bold text-white bg-blue-600 px-3 py-1 rounded-full shadow-sm">Normal</span>
                         </div>
                       );
                     })}
@@ -133,13 +132,12 @@ const Pokemon = () => {
                         return (
                           <div
                             key={`hidden-${index}`}
-                            className="relative flex items-center justify-between bg-purple-50 hover:bg-purple-100 rounded-lg px-3 py-2 transition-colors duration-150"
+                            className="relative flex items-center justify-between bg-white hover:bg-indigo-50 rounded-lg px-4 py-3 transition-all duration-150 shadow-lg"
                           >
-                            <span className="text-sm font-medium text-purple-900 capitalize">
+                            <span className="text-sm font-bold text-indigo-900">
                               {getAbilityName(ability)}
                             </span>
-                            <span className="text-xs text-purple-600">Oculta</span>
-
+                            <span className="text-xs font-bold text-white bg-indigo-600 px-3 py-1 rounded-full shadow-sm">Oculta</span>
                           </div>
                         );
                       })}
@@ -151,122 +149,135 @@ const Pokemon = () => {
             {/* Columna 2 - Stack vertical con Ubicación y Descripción */}
             <div className="space-y-6">
               {/* Ubicación */}
-              <div className="bg-white rounded-lg shadow-sm p-6">
-                <h2 className="text-2xl font-bold text-gray-900 mb-4 tracking-wider">
+              <div className="bg-gradient-to-br from-blue-300 to-blue-600 rounded-xl shadow-2xl p-6 border-2 border-none">
+                <h2 className="text-2xl font-black text-blue-900 mb-4 tracking-wider uppercase drop-shadow-sm">
                   Ubicación
                 </h2>
-                {/* Placeholder para imagen de ubicación */}
-                <img src={pokemon.location} alt={pokemon.name} className="block mx-auto" />
-                <span className="font-semibold text-gray-700">{pokemon.route}</span>
+                {/* Imagen de ubicación con fondo blanco */}
+                <div className="bg-white rounded-lg p-4 mb-3 shadow-lg">
+                  <img src={pokemon.location} alt={pokemon.name} className="block mx-auto rounded-lg" />
+                </div>
+                <div className="bg-white rounded-lg px-4 py-2 shadow-md">
+                  <span className="font-bold text-blue-900">{pokemon.route}</span>
+                </div>
               </div>
 
               {/* Descripción */}
-              <div className="bg-white rounded-lg shadow-sm p-6">
-                <h2 className="text-xl font-bold text-gray-900 mb-4">Descripción</h2>
-                <p className="text-gray-700 text-sm leading-relaxed">
-                  {pokemon.pokedex}
-                </p>
+              <div className="bg-gradient-to-br from-blue-300 to-blue-600 rounded-xl shadow-2xl p-6 border-2 border-none">
+                <h2 className="text-2xl font-black text-blue-900 mb-4 tracking-wider uppercase drop-shadow-sm">
+                  Descripción
+                </h2>
+                <div className="bg-white rounded-lg p-4 shadow-lg">
+                  <p className="text-gray-900 text-base leading-relaxed font-medium">
+                    {pokemon.pokedex}
+                  </p>
+                </div>
               </div>
             </div>
+
+            {/* text-sm font-bold text-gray-900 text-center w-8 */}
 
             {/* Columna 3 - Stack vertical con Stats y Evolución */}
             <div className="space-y-6">
               {/* Base Stats */}
-              <div className="bg-white rounded-lg shadow-sm p-6">
-                <h2 className="text-xl font-bold text-gray-900 mb-6">Estadísticas base</h2>
-                <div className="space-y-4">
+              <div className="bg-gradient-to-br from-blue-300 to-blue-600 rounded-xl shadow-2xl p-6 border-2 border-none">
+                <h2 className="text-2xl font-black text-blue-900 mb-6 uppercase tracking-wider drop-shadow-sm">Estadísticas base</h2>
 
-                  <div className="grid grid-cols-4 gap-4 items-center">
-                    <span className="text-sm font-medium text-gray-700 text-right">PS:</span>
-                    <span className="text-sm font-bold text-gray-900 text-center w-8">{pokemon.baseStats.hp}</span>
-                    <div className="col-span-2">
-                      <div className="bg-gray-200 rounded-full h-3 relative">
-                        <div
-                          className="bg-red-500 h-3 rounded-full transition-all duration-500 ease-out"
-                          style={{ width: `${Math.min((pokemon.baseStats.hp / 255) * 100, 100)}%` }}
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
+                <div className="bg-white rounded-lg p-4 shadow-lg">
+                  <div className="space-y-4">
 
-                  <div className="grid grid-cols-4 gap-4 items-center">
-                    <span className="text-sm font-medium text-gray-700 text-right">Ataque:</span>
-                    <span className="text-sm font-bold text-gray-900 text-center w-8">{pokemon.baseStats.attack}</span>
-                    <div className="col-span-2">
-                      <div className="bg-gray-200 rounded-full h-3 relative">
-                        <div
-                          className="bg-orange-500 h-3 rounded-full transition-all duration-500 ease-out"
-                          style={{ width: `${Math.min((pokemon.baseStats.attack / 255) * 100, 100)}%` }}
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-4 gap-4 items-center">
-                    <span className="text-sm font-medium text-gray-700 text-right">Defensa:</span>
-                    <span className="text-sm font-bold text-gray-900 text-center w-8">{pokemon.baseStats.defense}</span>
-                    <div className="col-span-2">
-                      <div className="bg-gray-200 rounded-full h-3 relative">
-                        <div
-                          className="bg-blue-500 h-3 rounded-full transition-all duration-500 ease-out"
-                          style={{ width: `${Math.min((pokemon.baseStats.defense / 255) * 100, 100)}%` }}
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-4 gap-4 items-center">
-                    <span className="text-sm font-medium text-gray-700 text-right">At. Esp:</span>
-                    <span className="text-sm font-bold text-gray-900 text-center w-8">{pokemon.baseStats.specialAttack}</span>
-                    <div className="col-span-2">
-                      <div className="bg-gray-200 rounded-full h-3 relative">
-                        <div
-                          className="bg-purple-500 h-3 rounded-full transition-all duration-500 ease-out"
-                          style={{ width: `${Math.min((pokemon.baseStats.specialAttack / 255) * 100, 100)}%` }}
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-4 gap-4 items-center">
-                    <span className="text-sm font-medium text-gray-700 text-right">Def. Esp:</span>
-                    <span className="text-sm font-bold text-gray-900 text-center w-8">{pokemon.baseStats.specialDefense}</span>
-                    <div className="col-span-2">
-                      <div className="bg-gray-200 rounded-full h-3 relative">
-                        <div
-                          className="bg-pink-500 h-3 rounded-full transition-all duration-500 ease-out"
-                          style={{ width: `${Math.min((pokemon.baseStats.specialDefense / 255) * 100, 100)}%` }}
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="grid grid-cols-4 gap-4 items-center">
-                    <span className="text-sm font-medium text-gray-700 text-right">Velocidad:</span>
-                    <span className="text-sm font-bold text-gray-900 text-center w-8">{pokemon.baseStats.speed}</span>
-                    <div className="col-span-2">
-                      <div className="bg-gray-200 rounded-full h-3 relative">
-                        <div
-                          className="bg-green-500 h-3 rounded-full transition-all duration-500 ease-out"
-                          style={{ width: `${Math.min((pokemon.baseStats.speed / 255) * 100, 100)}%` }}
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Total */}
-                  <div className="pt-4 mt-4 border-t border-gray-200">
                     <div className="grid grid-cols-4 gap-4 items-center">
-                      <span className="text-sm font-bold text-gray-900 text-right">Total:</span>
-                      <span className="text-sm font-bold text-blue-600 text-center w-8">
-                        {Object.values(pokemon.baseStats).reduce((sum, stat) => sum + stat, 0)}
-                      </span>
+                      <span className="text-sm font-bold text-gray-700 text-right">PS:</span>
+                      <span className="text-sm font-bold text-gray-900 text-center w-8">{pokemon.baseStats.hp}</span>
                       <div className="col-span-2">
                         <div className="bg-gray-200 rounded-full h-3 relative">
                           <div
-                            className="bg-gradient-to-r from-blue-500 to-purple-600 h-3 rounded-full transition-all duration-700 ease-out"
-                            style={{ width: `${Math.min((Object.values(pokemon.baseStats).reduce((sum, stat) => sum + stat, 0) / 720) * 100, 100)}%` }}
+                            className="bg-red-500 h-3 rounded-full transition-all duration-500 ease-out"
+                            style={{ width: `${Math.min((pokemon.baseStats.hp / 255) * 100, 100)}%` }}
                           ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-4 gap-4 items-center">
+                      <span className="text-sm font-bold text-gray-700 text-right">Ataque:</span>
+                      <span className="text-sm font-bold text-gray-900 text-center w-8">{pokemon.baseStats.attack}</span>
+                      <div className="col-span-2">
+                        <div className="bg-gray-200 rounded-full h-3 relative">
+                          <div
+                            className="bg-orange-500 h-3 rounded-full transition-all duration-500 ease-out"
+                            style={{ width: `${Math.min((pokemon.baseStats.attack / 255) * 100, 100)}%` }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-4 gap-4 items-center">
+                      <span className="text-sm font-bold text-gray-700 text-right">Defensa:</span>
+                      <span className="text-sm font-bold text-gray-900 text-center w-8">{pokemon.baseStats.defense}</span>
+                      <div className="col-span-2">
+                        <div className="bg-gray-200 rounded-full h-3 relative">
+                          <div
+                            className="bg-yellow-500 h-3 rounded-full transition-all duration-500 ease-out"
+                            style={{ width: `${Math.min((pokemon.baseStats.defense / 255) * 100, 100)}%` }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-4 gap-4 items-center">
+                      <span className="text-sm font-bold text-gray-700 text-right">At. Esp:</span>
+                      <span className="text-sm font-bold text-gray-900 text-center w-8">{pokemon.baseStats.specialAttack}</span>
+                      <div className="col-span-2">
+                        <div className="bg-gray-200 rounded-full h-3 relative">
+                          <div
+                            className="bg-purple-500 h-3 rounded-full transition-all duration-500 ease-out"
+                            style={{ width: `${Math.min((pokemon.baseStats.specialAttack / 255) * 100, 100)}%` }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-4 gap-4 items-center">
+                      <span className="text-sm font-bold text-gray-700 text-right">Def. Esp:</span>
+                      <span className="text-sm font-bold text-gray-900 text-center w-8">{pokemon.baseStats.specialDefense}</span>
+                      <div className="col-span-2">
+                        <div className="bg-gray-200 rounded-full h-3 relative">
+                          <div
+                            className="bg-green-500 h-3 rounded-full transition-all duration-500 ease-out"
+                            style={{ width: `${Math.min((pokemon.baseStats.specialDefense / 255) * 100, 100)}%` }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="grid grid-cols-4 gap-4 items-center">
+                      <span className="text-sm font-bold text-gray-700 text-right">Velocidad:</span>
+                      <span className="text-sm font-bold text-gray-900 text-center w-8">{pokemon.baseStats.speed}</span>
+                      <div className="col-span-2">
+                        <div className="bg-gray-200 rounded-full h-3 relative">
+                          <div
+                            className="bg-pink-500 h-3 rounded-full transition-all duration-500 ease-out"
+                            style={{ width: `${Math.min((pokemon.baseStats.speed / 255) * 100, 100)}%` }}
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Total */}
+                    <div className="pt-4 mt-4 border-t border-gray-300">
+                      <div className="grid grid-cols-4 gap-4 items-center">
+                        <span className="text-sm font-black text-gray-900 text-right">Total:</span>
+                        <span className="text-sm font-black text-gray-900 text-center w-8">
+                          {Object.values(pokemon.baseStats).reduce((sum, stat) => sum + stat, 0)}
+                        </span>
+                        <div className="col-span-2">
+                          <div className="bg-gray-200 rounded-full h-3 relative">
+                            <div
+                              className="bg-gradient-to-r from-blue-500 to-purple-600 h-3 rounded-full transition-all duration-700 ease-out"
+                              style={{ width: `${Math.min((Object.values(pokemon.baseStats).reduce((sum, stat) => sum + stat, 0) / 720) * 100, 100)}%` }}
+                            ></div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -275,8 +286,8 @@ const Pokemon = () => {
               </div>
 
               {/* Evolución */}
-              <div className="bg-white rounded-lg shadow-sm p-6">
-                <h2 className="text-xl font-bold text-gray-900 mb-4">Evolución</h2>
+              <div className="bg-gradient-to-br from-blue-300 to-blue-600 rounded-xl shadow-2xl p-6 border-2 border-none">
+                <h2 className="text-2xl font-black text-blue-900 mb-4 uppercase tracking-wider drop-shadow-sm">Evolución</h2>
 
                 {pokemon.evolutions && pokemon.evolutions.length > 0 ? (
                   <div className="space-y-4">
@@ -286,39 +297,39 @@ const Pokemon = () => {
                         to={`/pokemon/${evo.species.toLowerCase()}`}
                         className="block"
                       >
-                        <div className="flex items-center justify-between p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg hover:from-blue-100 hover:to-purple-100 transition-all duration-200 border border-gray-200 hover:border-blue-300">
+                        <div className="flex items-center justify-between p-4 bg-white rounded-lg hover:bg-blue-50 transition-all duration-200 shadow-lg hover:shadow-xl">
 
                           {/* Flecha y método */}
                           <div className="flex flex-col items-center">
                             <div className="text-2xl text-blue-600 mb-1">→</div>
-                            <div className="text-xs text-gray-600 text-center">
-                              <div className="font-semibold">{evo.method}</div>
+                            <div className=" text-sm text-blue-900 text-center">
+                              <div className="font-bold">{evo.method}</div>
                               {evo.requirement && (
-                                <div className="text-gray-500">{getItemName(evo.requirement)}</div>
+                                <div className="text-gray-600">{getItemName(evo.requirement)}</div>
                               )}
                             </div>
                           </div>
 
                           {/* Sprite + nombre */}
                           <div className="flex items-center space-x-4 flex-1 ml-4">
-                            <div className="bg-white rounded-lg p-2 shadow-sm">
+                            <div className="bg-blue-50 rounded-lg p-2 border border-blue-200">
                               <PokemonFront
                                 img={`/images/pokemonFront/${evo.species}.png`}
                                 scale={80}
                               />
                             </div>
                             <div>
-                              <div className="font-bold text-lg text-gray-900 capitalize">
+                              <div className="font-black text-lg text-blue-900 capitalize">
                                 {evo.species.toLowerCase()}
                               </div>
-                              <div className="text-sm text-gray-500">
+                              <div className="text-sm font-semibold text-blue-700">
                                 Siguiente evolución
                               </div>
                             </div>
                           </div>
 
                           {/* Icono de enlace */}
-                          <div className="text-gray-400">
+                          <div className="text-blue-600">
                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                             </svg>
@@ -328,9 +339,9 @@ const Pokemon = () => {
                     ))}
                   </div>
                 ) : (
-                  <div className="text-center py-8">
+                  <div className="bg-white rounded-lg p-8 text-center shadow-lg">
                     <div className="text-4xl mb-2">✨</div>
-                    <p className="text-gray-500 text-sm">
+                    <p className="text-gray-700 font-semibold">
                       Este Pokémon no tiene más evoluciones
                     </p>
                   </div>
