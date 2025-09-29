@@ -336,20 +336,62 @@ const Pokemon = () => {
               <div className="bg-white rounded-lg shadow-sm p-6">
                 <h2 className="text-xl font-bold text-gray-900 mb-4">Evolución</h2>
 
-                {pokemon.evolutions ? (
-                  <div className="flex items-center space-x-4">
+                {pokemon.evolutions && pokemon.evolutions.length > 0 ? (
+                  <div className="space-y-4">
                     {pokemon.evolutions.map((evo, index) => (
-                      <div key={index} className="flex items-center space-x-4">
-                        {evo.species}
-                        <Link to={`/pokemon/${evo.species.toLowerCase()}`} className="inline-block">
-                          <PokemonFront img={`/images/pokemonFront/${evo.species}.png`} scale={100} />
-                        </Link>
-                        <p>{evo.method} {evo.requirement}</p>
-                      </div>
+                      <Link
+                        key={index}
+                        to={`/pokemon/${evo.species.toLowerCase()}`}
+                        className="block"
+                      >
+                        <div className="flex items-center justify-between p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg hover:from-blue-100 hover:to-purple-100 transition-all duration-200 border border-gray-200 hover:border-blue-300">
+
+                          {/* Flecha y método */}
+                          <div className="flex flex-col items-center">
+                            <div className="text-2xl text-blue-600 mb-1">→</div>
+                            <div className="text-xs text-gray-600 text-center">
+                              <div className="font-semibold">{evo.method}</div>
+                              {evo.requirement && (
+                                <div className="text-gray-500">{evo.requirement}</div>
+                              )}
+                            </div>
+                          </div>
+
+                          {/* Sprite + nombre */}
+                          <div className="flex items-center space-x-4 flex-1 ml-4">
+                            <div className="bg-white rounded-lg p-2 shadow-sm">
+                              <PokemonFront
+                                img={`/images/pokemonFront/${evo.species}.png`}
+                                scale={80}
+                              />
+                            </div>
+                            <div>
+                              <div className="font-bold text-lg text-gray-900 capitalize">
+                                {evo.species.toLowerCase()}
+                              </div>
+                              <div className="text-sm text-gray-500">
+                                Siguiente evolución
+                              </div>
+                            </div>
+                          </div>
+
+                          {/* Icono de enlace */}
+                          <div className="text-gray-400">
+                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                            </svg>
+                          </div>
+                        </div>
+                      </Link>
                     ))}
                   </div>
                 ) : (
-                  <p className="text-gray-500 text-sm">No tiene más evoluciones.</p>
+                  <div className="text-center py-8">
+                    <div className="text-4xl mb-2">✨</div>
+                    <p className="text-gray-500 text-sm">
+                      Este Pokémon no tiene más evoluciones
+                    </p>
+                  </div>
                 )}
               </div>
             </div>
