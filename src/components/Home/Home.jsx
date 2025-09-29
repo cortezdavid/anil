@@ -15,7 +15,7 @@ const Home = () => {
         </div>
 
         {/* Hero Section */}
-        <div className="bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl shadow-2xl p-8 sm:p-12 mb-12 border-4 border-blue-800">
+        <div className="bg-gradient-to-br from-blue-500 to-blue-700 rounded-2xl shadow-2xl p-8 sm:p-12 mb-12">
           <h1 className="text-4xl sm:text-5xl font-black text-white text-center mb-6 drop-shadow-lg">
             Bienvenido a la Pokédex de Añil
           </h1>
@@ -43,7 +43,7 @@ const Home = () => {
 
         {/* Features */}
         <div className="grid md:grid-cols-3 gap-6 mb-12">
-          <div className="bg-white rounded-xl shadow-lg p-6 border-2 border-blue-300">
+          <div className="bg-white rounded-xl shadow-lg p-6">
             <div className="text-4xl mb-4 text-center">🗺️</div>
             <h3 className="text-xl font-black text-blue-900 mb-3 text-center">Ubicaciones</h3>
             <p className="text-gray-700 text-center font-medium">
@@ -51,7 +51,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="bg-white rounded-xl shadow-lg p-6 border-2 border-blue-300">
+          <div className="bg-white rounded-xl shadow-lg p-6">
             <div className="text-4xl mb-4 text-center">📊</div>
             <h3 className="text-xl font-black text-blue-900 mb-3 text-center">Estadísticas</h3>
             <p className="text-gray-700 text-center font-medium">
@@ -59,7 +59,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="bg-white rounded-xl shadow-lg p-6 border-2 border-blue-300">
+          <div className="bg-white rounded-xl shadow-lg p-6">
             <div className="text-4xl mb-4 text-center">🔄</div>
             <h3 className="text-xl font-black text-blue-900 mb-3 text-center">Evoluciones</h3>
             <p className="text-gray-700 text-center font-medium">
@@ -82,7 +82,7 @@ const Home = () => {
         </div>
 
         {/* About Section */}
-        <div className="bg-gradient-to-br from-white to-blue-50 rounded-xl shadow-lg p-8 border-2 border-blue-300">
+        <div className="bg-gradient-to-br from-white to-blue-50 rounded-xl shadow-lg p-8">
           <div className="text-center space-y-3">
             <p className="text-gray-800 font-medium">
               <span className="font-black text-blue-900">Juego creado por:</span>{' '}
