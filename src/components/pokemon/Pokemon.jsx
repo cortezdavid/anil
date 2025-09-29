@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router-dom";
 import data from "../../data/pokemones.json";
 import types from "../../data/types.json"
 import abilitiesData from "../../data/abilities.json"
+import itemsData from "../../data/items.json"
 import PokemonFront from "../pokemonFront/PokemonFront";
 import MovimientosSection from "../movimientosSection/movimientosSection";
 
@@ -13,15 +14,21 @@ const Pokemon = () => {
 
   if (!pokemon) return <p>Pokémon no encontrado</p>;
 
-  function getTypeName(typeId) {
+  const getTypeName = (typeId) => {
     const typeObj = types.types.find(t => t.id === typeId);
     return typeObj ? typeObj.name : typeId;
   }
 
-  function getAbilityName(id) {
+  const getAbilityName = (id) => {
     const ability = abilitiesData.abilities.find(a => a.id === id);
     return ability ? ability.name : id;
   }
+
+  const getItemName = (id) => {
+    const item = itemsData.items.find(i => i.id === id);
+    return item ? item.name : id; // Si no existe, devuelve el id tal cual
+  }
+
 
 
   const getTypeColor = (type) => {
@@ -108,96 +115,31 @@ const Pokemon = () => {
                   <span className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2 block">Habilidades</span>
                   <div className="space-y-2">
                     {pokemon.abilities.map((ability, index) => {
-                      const abilityData = abilitiesData.abilities.find(a => a.id === ability);
                       return (
                         <div
                           key={index}
-                          className="relative flex items-center justify-between bg-blue-50 hover:bg-blue-100 rounded-lg px-3 py-2 cursor-help transition-colors duration-150"
-                          onMouseEnter={(e) => {
-                            const tooltip = e.currentTarget.querySelector('.tooltip');
-                            if (tooltip) tooltip.classList.remove('hidden');
-                          }}
-                          onMouseLeave={(e) => {
-                            const tooltip = e.currentTarget.querySelector('.tooltip');
-                            if (tooltip) tooltip.classList.add('hidden');
-                          }}
+                          className="relative flex items-center justify-between bg-blue-50 hover:bg-blue-100 rounded-lg px-3 py-2 transition-colors duration-150"
                         >
                           <span className="text-sm font-medium text-blue-900 capitalize">
                             {getAbilityName(ability)}
                           </span>
                           <span className="text-xs text-blue-600">Normal</span>
-
-                          {abilityData?.description && (
-                            <div className="tooltip hidden absolute z-50 left-0 top-full mt-2 bg-gray-900 text-white p-3 rounded-lg shadow-xl min-w-64 max-w-80">
-                              <div className="absolute -top-2 left-4 w-0 h-0 border-l-4 border-r-4 border-b-4 border-l-transparent border-r-transparent border-b-gray-900"></div>
-
-                              <div className="space-y-2">
-                                <div className="font-bold text-lg text-blue-300">
-                                  {abilityData.name}
-                                </div>
-
-                                <div className="text-xs">
-                                  <span className="bg-blue-600 px-2 py-1 rounded text-xs font-medium">
-                                    Habilidad Normal
-                                  </span>
-                                </div>
-
-                                <div className="pt-2 border-t border-gray-700">
-                                  <p className="text-sm text-gray-300 leading-relaxed">
-                                    {abilityData.description}
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                          )}
                         </div>
                       );
                     })}
 
                     {pokemon.hiddenAbilities &&
                       pokemon.hiddenAbilities.map((ability, index) => {
-                        const abilityData = abilitiesData.abilities.find(a => a.id === ability);
                         return (
                           <div
                             key={`hidden-${index}`}
-                            className="relative flex items-center justify-between bg-purple-50 hover:bg-purple-100 rounded-lg px-3 py-2 cursor-help transition-colors duration-150"
-                            onMouseEnter={(e) => {
-                              const tooltip = e.currentTarget.querySelector('.tooltip');
-                              if (tooltip) tooltip.classList.remove('hidden');
-                            }}
-                            onMouseLeave={(e) => {
-                              const tooltip = e.currentTarget.querySelector('.tooltip');
-                              if (tooltip) tooltip.classList.add('hidden');
-                            }}
+                            className="relative flex items-center justify-between bg-purple-50 hover:bg-purple-100 rounded-lg px-3 py-2 transition-colors duration-150"
                           >
                             <span className="text-sm font-medium text-purple-900 capitalize">
                               {getAbilityName(ability)}
                             </span>
                             <span className="text-xs text-purple-600">Oculta</span>
 
-                            {abilityData?.description && (
-                              <div className="tooltip hidden absolute z-50 left-0 top-full mt-2 bg-gray-900 text-white p-3 rounded-lg shadow-xl min-w-64 max-w-80">
-                                <div className="absolute -top-2 left-4 w-0 h-0 border-l-4 border-r-4 border-b-4 border-l-transparent border-r-transparent border-b-gray-900"></div>
-
-                                <div className="space-y-2">
-                                  <div className="font-bold text-lg text-purple-300">
-                                    {abilityData.name}
-                                  </div>
-
-                                  <div className="text-xs">
-                                    <span className="bg-purple-600 px-2 py-1 rounded text-xs font-medium">
-                                      Habilidad Oculta
-                                    </span>
-                                  </div>
-
-                                  <div className="pt-2 border-t border-gray-700">
-                                    <p className="text-sm text-gray-300 leading-relaxed">
-                                      {abilityData.description}
-                                    </p>
-                                  </div>
-                                </div>
-                              </div>
-                            )}
                           </div>
                         );
                       })}
@@ -352,7 +294,7 @@ const Pokemon = () => {
                             <div className="text-xs text-gray-600 text-center">
                               <div className="font-semibold">{evo.method}</div>
                               {evo.requirement && (
-                                <div className="text-gray-500">{evo.requirement}</div>
+                                <div className="text-gray-500">{getItemName(evo.requirement)}</div>
                               )}
                             </div>
                           </div>
@@ -398,9 +340,9 @@ const Pokemon = () => {
           </div>
 
           {/* Movimientos - Ancho completo abajo */}
-          <div className="bg-white rounded-lg shadow-sm p-6">
+          {/* <div className="bg-white rounded-lg shadow-sm p-6">
             <MovimientosSection pokemon={pokemon} />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
