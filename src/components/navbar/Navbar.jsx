@@ -17,7 +17,7 @@ const Navbar = () => {
       const filtered = pokemones.filter(
         p => p.name.toLowerCase().includes(value.toLowerCase())
       );
-      setSuggestions(filtered.slice(0, 15));
+      setSuggestions(filtered);
     } else {
       setSuggestions([]);
     }
