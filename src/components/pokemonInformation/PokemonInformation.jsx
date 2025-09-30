@@ -13,7 +13,7 @@ const PokemonInformation = ({ pokemon }) => {
     return ability ? ability.name : id;
   }
 
-  
+
   const getTypeColor = (type) => {
     const colors = {
       'FIRE': 'bg-red-500',
@@ -41,6 +41,10 @@ const PokemonInformation = ({ pokemon }) => {
   return (
     <div className="bg-gradient-to-br from-blue-300 to-blue-600 rounded-xl shadow-2xl p-6 h-fit border-2 border-none">
       {/* Sprite del Pokémon */}
+      {/* Título del Pokémon */}
+      <h1 className="text-4xl font-black text-blue-900 mb-4 uppercase tracking-wider drop-shadow-sm">
+        {pokemon.name}
+      </h1>
       <div className="bg-blue-100 rounded-xl p-8 mb-6 flex justify-center border-2 border-blue-300 shadow-lg">
         <PokemonFront img={pokemon.image} scale={200} />
       </div>
