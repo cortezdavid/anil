@@ -87,7 +87,7 @@ const Pokemon = () => {
                     {pokemon.types.map((type, index) => (
                       <span
                         key={index}
-                        className={`px-4 py-1.5 rounded-full text-sm font-bold text-white ${getTypeColor(type)} shadow-lg border-2 border-white/30`}
+                        className={`px-4 py-1.5 rounded-full text-sm font-bold text-white ${getTypeColor(type)} shadow-lg`}
                       >
                         {getTypeName(type)}
                       </span>
