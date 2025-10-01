@@ -1320,6 +1320,132 @@
           "requirement": "LEAFSTONE"
         }
       ]
+    },
+    {
+      "id": "ELECTRODE1",
+      "image": "/images/pokemonFront/ELECTRODE_1.png",
+      "location": "/images/location/ELECTRODE_1.jpg",
+      "baseId": "ELECTRODE",
+      "name": "Electrode",
+      "form": "Forma Hisui",
+      "pokedex": "Su complexión superficial es muy semejante a la de un bonguri. Cuando se enoja, la electricidad que emite es veinte veces más potente que la de un rayo.",
+      "types": [
+        "ELECTRIC",
+        "GRASS"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 50,
+        "defense": 70,
+        "specialAttack": 150,
+        "specialDefense": 80,
+        "speed": 80
+      },
+      "abilities": [
+        "GRASSYSURGE"
+      ],
+      "hiddenAbilities": [
+        "ELECTRICSURGE"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 71.0
+      }
+    },
+    {
+      "id": "EXEGGUTOR1",
+      "image": "/images/pokemonFront/EXEGGUTOR_1.png",
+      "location": "/images/location/EXEGGUTOR_1.jpg",
+      "baseId": "EXEGGUTOR",
+      "name": "Exeggutor",
+      "form": "Forma Alola",
+      "pokedex": "Los intensos rayos solares que bañan su hábitat le han conferido un poder y aspecto que muchos consideran su forma original.",
+      "types": [
+        "GRASS",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defense": 85,
+        "specialAttack": 55,
+        "specialDefense": 125,
+        "speed": 75
+      },
+      "abilities": [
+        "FRISK"
+      ],
+      "hiddenAbilities": [
+        "HARVEST"
+      ],
+      "physicalData": {
+        "height": 10.9,
+        "weight": 415.6
+      }
+    },
+    {
+      "id": "MAROWAK1",
+      "image": "/images/pokemonFront/MAROWAK_1.png",
+      "location": "/images/location/MAROWAK_1.jpg",
+      "baseId": "MAROWAK",
+      "name": "Marowak",
+      "form": "Forma Alola",
+      "pokedex": "El hueso que lleva en la mano es de su madre. La pena que siente por su hijo es tan intensa que lo protege con llamas más allá de la muerte.",
+      "types": [
+        "FIRE",
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 110,
+        "specialAttack": 65,
+        "specialDefense": 50,
+        "speed": 80
+      },
+      "abilities": [
+        "CURSEDBODY",
+        "LIGHTNINGROD"
+      ],
+      "hiddenAbilities": [
+        "ROCKHEAD"
+      ],
+      "physicalData": {
+        "height": 1,
+        "weight": 34.0
+      }
+    },
+    {
+      "id": "WEEZING1",
+      "image": "/images/pokemonFront/WEEZING_1.png",
+      "location": "/images/location/WEEZING_1.jpg",
+      "baseId": "WEEZING",
+      "name": "Weezing",
+      "form": "Forma Galar",
+      "pokedex": "Se desconoce el motivo, pero adoptó esta forma tiempo atrás, cuando las numerosas chimeneas de las fábricas de la región contaminaban el aire.",
+      "types": [
+        "POISON",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 120,
+        "specialAttack": 60,
+        "specialDefense": 95,
+        "speed": 70
+      },
+      "abilities": [
+        "LEVITATE",
+        "NEUTRALIZINGGAS"
+      ],
+      "hiddenAbilities": [
+        "MISTYSURGE"
+      ],
+      "physicalData": {
+        "height": 3,
+        "weight": 16
+      }
     }
   ]
 }
