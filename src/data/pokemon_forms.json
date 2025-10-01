@@ -193,6 +193,250 @@
         "height": 0.7,
         "weight": 25.5
       }
+    },
+    {
+      "id": "BLASTOISE1",
+      "image": "/images/pokemonFront/BLASTOISE_1.png",
+      "location": "/images/location/BLASTOISE_1.jpg",
+      "baseId": "BLASTOISE",
+      "name": "Blastoise X",
+      "form": "Mega Blastoise X",
+      "types": [
+        "WATER"
+      ],
+      "MegaStore": "BLASTOISINITEX",
+      "baseStats": {
+        "hp": 79,
+        "attack": 103,
+        "defense": 120,
+        "specialAttack": 78,
+        "specialDefense": 135,
+        "speed": 115
+      },
+      "abilities": [
+        "MEGALAUNCHER"
+      ],
+      "hiddenAbilities": [
+        "MEGALAUNCHER"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 101.1
+      }
+    },
+    {
+      "id": "BLASTOISE2",
+      "image": "/images/pokemonFront/BLASTOISE_2.png",
+      "location": "/images/location/BLASTOISE_2.jpg",
+      "baseId": "BLASTOISE",
+      "name": "Blastoise y",
+      "form": "Mega Blastoise y",
+      "types": [
+        "WATER",
+        "STEEL"
+      ],
+      "MegaStore": "BLASTOISINITEX",
+      "baseStats": {
+        "hp": 79,
+        "attack": 93,
+        "defense": 140,
+        "specialAttack": 58,
+        "specialDefense": 115,
+        "speed": 145
+      },
+      "abilities": [
+        "SHELLARMOR"
+      ],
+      "hiddenAbilities": [
+        "SHELLARMOR"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 300.0
+      }
+    },
+    {
+      "id": "BEEDRILL1",
+      "image": "/images/pokemonFront/BEEDRILL_1.png",
+      "location": "/images/location/BEEDRILL_1.jpg",
+      "baseId": "BEEDRILL",
+      "name": "Mega Beedrill",
+      "form": "Mega Beedrill",
+      "types": [
+        "BUG",
+        "POISON"
+      ],
+      "MegaStore": "BEEDRILLITE",
+      "baseStats": {
+        "hp": 65,
+        "attack": 150,
+        "defense": 40,
+        "specialAttack": 145,
+        "specialDefense": 15,
+        "speed": 80
+      },
+      "abilities": [
+        "ADAPTABILITY"
+      ],
+      "hiddenAbilities": [
+        "ADAPTABILITY"
+      ],
+      "physicalData": {
+        "height": 1.4,
+        "weight": 40.5
+      }
+    },
+    {
+      "id": "PIDGEOT1",
+      "image": "/images/pokemonFront/PIDGEOT_1.png",
+      "location": "/images/location/PIDGEOT_1.jpg",
+      "baseId": "PIDGEOT",
+      "name": "Mega Pidgeot",
+      "form": "Mega Pidgeot",
+      "types": [
+        "NORMAL",
+        "FLYING"
+      ],
+      "MegaStore": "PIDGEOTITE",
+      "baseStats": {
+        "hp": 83,
+        "attack": 80,
+        "defense": 80,
+        "specialAttack": 121,
+        "specialDefense": 135,
+        "speed": 80
+      },
+      "abilities": [
+        "NOGUARD"
+      ],
+      "hiddenAbilities": [
+        "NOGUARD"
+      ],
+      "physicalData": {
+        "height": 2.2,
+        "weight": 50.5
+      }
+    },
+    {
+      "id": "PIKACHU17",
+      "image": "/images/pokemonFront/PIKACHU_17.png",
+      "location": "/images/location/PIKACHU_17.jpg",
+      "baseId": "PIKACHU",
+      "name": "Mega Pikachu",
+      "form": "Mega Pikachu",
+      "types": [
+        "ELECTRIC"
+      ],
+      "MegaStore": "PIKACHUITE",
+      "baseStats": {
+        "hp": 55,
+        "attack": 135,
+        "defense": 100,
+        "specialAttack": 110,
+        "specialDefense": 130,
+        "speed": 100
+      },
+      "abilities": [
+        "SOBRECARGA"
+      ],
+      "hiddenAbilities": [
+        "SOBRECARGA"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": "???"
+      }
+    },
+    {
+      "id": "RAICHU1",
+      "image": "/images/pokemonFront/RAICHU_1.png",
+      "location": "/images/location/RAICHU_1.jpg",
+      "baseId": "RAICHU",
+      "name": "Raichu",
+      "form": "Forma Alola",
+      "pokedex": "Controla la electricidad a voluntad. Puede subirse a su propia cola y desplazarse flotando con sus poderes telequinéticos.",
+      "types": [
+        "ELECTRIC",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 85,
+        "defense": 50,
+        "specialAttack": 110,
+        "specialDefense": 95,
+        "speed": 85
+      },
+      "abilities": [
+        "PSYCHICSURGE"
+      ],
+      "hiddenAbilities": [
+        "SURGESURFER"
+      ],
+      "physicalData": {
+        "height": 0.7,
+        "weight": 21.0
+      }
+    },
+    {
+      "id": "RAICHU2",
+      "image": "/images/pokemonFront/RAICHU_2.png",
+      "location": "/images/location/RAICHU_2.jpg",
+      "baseId": "RAICHU",
+      "name": "Mega Raichu",
+      "form": "Mega Raichu X",
+      "types": [
+        "ELECTRIC"
+      ],
+      "MegaStore": "RAICHUITEX",
+      "baseStats": {
+        "hp": 60,
+        "attack": 130,
+        "defense": 75,
+        "specialAttack": 130,
+        "specialDefense": 90,
+        "speed": 90
+      },
+      "abilities": [
+        "RECKLESS"
+      ],
+      "hiddenAbilities": [
+        "RECKLESS"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 38.0
+      }
+    },
+    {
+      "id": "RAICHU3",
+      "image": "/images/pokemonFront/RAICHU_3.png",
+      "location": "/images/location/RAICHU_3.jpg",
+      "baseId": "RAICHU",
+      "name": "Mega Raichu",
+      "form": "Mega Raichu Y",
+      "types": [
+        "ELECTRIC"
+      ],
+      "MegaStore": "RAICHUITEY",
+      "baseStats": {
+        "hp": 60,
+        "attack": 90,
+        "defense": 65,
+        "specialAttack": 130,
+        "specialDefense": 130,
+        "speed": 100
+      },
+      "abilities": [
+        "ADAPTABILITY"
+      ],
+      "hiddenAbilities": [
+        "ADAPTABILITY"
+      ],
+      "physicalData": {
+        "height": 1.0,
+        "weight": 26.0
+      }
     }
   ]
 }

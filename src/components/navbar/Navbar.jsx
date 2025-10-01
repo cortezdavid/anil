@@ -83,13 +83,13 @@ const Navbar = () => {
                 to="/objetos"
                 className="text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200"
               >
-                Objetos
+                Vacio
               </Link>
               <Link
                 to="/contacto"
                 className="text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200"
               >
-                Contacto
+                Vacio
               </Link>
             </div>
           </div>
