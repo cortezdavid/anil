@@ -127,9 +127,9 @@
     {
       "id": "RATTATA1",
       "image": "/images/pokemonFront/RATTATA_1.png",
-      "location": "/images/location/RATTATA.jpg",
+      "location": "/images/location/RATTATA_1.jpg",
       "baseId": "RATTATA",
-      "name": "Rattata",
+      "name": "Rattata de Alola",
       "form": "Forma Alola",
       "pokedex": "Comienza su actividad cuando se pone el sol. Recorre la ciudad en pos de buena comida para su jefe, que suele ser un Raticate.",
       "types": [
@@ -730,7 +730,8 @@
         "speed": 65
       },
       "abilities": [
-        "FURCOAT","TECHNICIAN"
+        "FURCOAT",
+        "TECHNICIAN"
       ],
       "hiddenAbilities": [
         "RATTLED"
@@ -738,6 +739,378 @@
       "physicalData": {
         "height": 1.1,
         "weight": 33.0
+      }
+    },
+    {
+      "id": "ALAKAZAM1",
+      "image": "/images/pokemonFront/ALAKAZAM_1.png",
+      "location": "/images/location/ALAKAZAM_1.jpg",
+      "baseId": "ALAKAZAM",
+      "name": "Mega Alakazam",
+      "form": "Mega Alakazam",
+      "types": [
+        "PSYCHIC"
+      ],
+      "MegaStore": "ALAKAZITE",
+      "baseStats": {
+        "hp": 55,
+        "attack": 50,
+        "defense": 65,
+        "specialAttack": 150,
+        "specialDefense": 175,
+        "speed": 95
+      },
+      "abilities": [
+        "TRACE"
+      ],
+      "hiddenAbilities": [
+        "TRACE"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 48.0
+      }
+    },
+    {
+      "id": "MACHAMP1",
+      "image": "/images/pokemonFront/MACHAMP_1.png",
+      "location": "/images/location/MACHAMP_1.jpg",
+      "baseId": "MACHAMP",
+      "name": "Mega Machamp",
+      "form": "Mega Machamp",
+      "types": [
+        "FIGHTING",
+        "GROUND"
+      ],
+      "MegaStore": "MACHAMPITE",
+      "baseStats": {
+        "hp": 90,
+        "attack": 160,
+        "defense": 100,
+        "specialAttack": 75,
+        "specialDefense": 75,
+        "speed": 95
+      },
+      "abilities": [
+        "NOGUARD"
+      ],
+      "hiddenAbilities": [
+        "NOGUARD"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": "???"
+      }
+    },
+    {
+      "id": "VICTREEBEL1",
+      "image": "/images/pokemonFront/VICTREEBEL_1.png",
+      "location": "/images/location/VICTREEBEL_1.jpg",
+      "baseId": "VICTREEBEL",
+      "name": "Mega Machamp",
+      "form": "Mega Machamp",
+      "types": [
+        "GRASS",
+        "POISON"
+      ],
+      "MegaStore": "VICTREEBELITE",
+      "baseStats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 110,
+        "specialAttack": 50,
+        "specialDefense": 125,
+        "speed": 110
+      },
+      "abilities": [
+        "CORROSION"
+      ],
+      "hiddenAbilities": [
+        "CORROSION"
+      ],
+      "physicalData": {
+        "height": 4.5,
+        "weight": 125.5
+      }
+    },
+    {
+      "id": "GEODUDE",
+      "image": "/images/pokemonFront/GEODUDE_1.png",
+      "location": "/images/location/GEODUDE_1.jpg",
+      "baseId": "GEODUDE",
+      "name": "Geodude",
+      "form": "Forma Alola",
+      "pokedex": "Su cuerpo de piedra está magnetizado. En los puntos donde el campo magnético se intensifica hay masas compactas de arena ferruginosa.",
+      "types": [
+        "ROCK",
+        "ELECTRIC"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 80,
+        "defense": 100,
+        "specialAttack": 20,
+        "specialDefense": 30,
+        "speed": 30
+      },
+      "abilities": [
+        "MAGNETPULL",
+        "STURDY"
+      ],
+      "hiddenAbilities": [
+        "GALVANIZE"
+      ],
+      "physicalData": {
+        "height": 0.4,
+        "weight": 20.3
+      },
+      "evolutions": [
+        {
+          "species": "GRAVELER_1",
+          "method": "Nivel",
+          "requirement": 25
+        }
+      ]
+    },
+    {
+      "id": "GRAVELER1",
+      "image": "/images/pokemonFront/GRAVELER_1.png",
+      "location": "/images/location/GRAVELER_1.jpg",
+      "baseId": "GRAVELER",
+      "name": "Graveler",
+      "form": "Forma Alola",
+      "pokedex": "Se alimenta de dravita, su manjar favorito. Tras digerirla, queda convertida en cristales que brotan en la superficie de su cuerpo.",
+      "types": [
+        "ROCK",
+        "ELECTRIC"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 95,
+        "defense": 115,
+        "specialAttack": 35,
+        "specialDefense": 45,
+        "speed": 45
+      },
+      "abilities": [
+        "MAGNETPULL",
+        "STURDY"
+      ],
+      "hiddenAbilities": [
+        "GALVANIZE"
+      ],
+      "physicalData": {
+        "height": 1.0,
+        "weight": 110.0
+      },
+      "evolutions": [
+        {
+          "species": "GOLEM_1",
+          "method": "Nivel",
+          "requirement": 45
+        }
+      ]
+    },
+    {
+      "id": "GOLEM1",
+      "image": "/images/pokemonFront/GOLEM_1.png",
+      "location": "/images/location/GOLEM_1.jpg",
+      "baseId": "GOLEM",
+      "name": "Golem",
+      "form": "Forma Alola",
+      "pokedex": "Lanza rocas cargadas de electricidad. Basta con que rocen al enemigo para entumecerlo hasta el punto de hacerle perder la consciencia.",
+      "types": [
+        "ROCK",
+        "ELECTRIC"
+      ],
+      "baseStats": {
+        "hp": 110,
+        "attack": 120,
+        "defense": 130,
+        "specialAttack": 45,
+        "specialDefense": 55,
+        "speed": 65
+      },
+      "abilities": [
+        "MAGNETPULL",
+        "STURDY"
+      ],
+      "hiddenAbilities": [
+        "GALVANIZE"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 316.0
+      }
+    },
+    {
+      "id": "PONYTA1",
+      "image": "/images/pokemonFront/PONYTA_1.png",
+      "location": "/images/location/PONYTA_1.jpg",
+      "baseId": "PONYTA",
+      "name": "Ponyta",
+      "form": "Forma Galar",
+      "pokedex": "Su pequeño cuerno posee poderes curativos capaces de sanar heridas no muy graves con tan solo un leve roce.",
+      "types": [
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 85,
+        "defense": 55,
+        "specialAttack": 90,
+        "specialDefense": 65,
+        "speed": 65
+      },
+      "abilities": [
+        "RUNAWAY",
+        "PASTELVEIL"
+      ],
+      "hiddenAbilities": [
+        "ANTICIPATION"
+      ],
+      "physicalData": {
+        "height": 0.8,
+        "weight": 24.0
+      },
+      "evolutions": [
+        {
+          "species": "RAPIDASH_1",
+          "method": "Nivel",
+          "requirement": 40
+        }
+      ]
+    },
+    {
+      "id": "RAPIDASH1",
+      "image": "/images/pokemonFront/RAPIDASH_1.png",
+      "location": "/images/location/RAPIDASH_1.jpg",
+      "baseId": "RAPIDASH",
+      "name": "Rapidash",
+      "form": "Forma Galar",
+      "pokedex": "Es un Pokémon orgulloso y gallardo. Atraviesa bosques sin esfuerzo concentrando sus poderes psíquicos en el pelaje de las patas.",
+      "types": [
+        "PSYCHIC",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 110,
+        "defense": 70,
+        "specialAttack": 105,
+        "specialDefense": 80,
+        "speed": 80
+      },
+      "abilities": [
+        "IMMUNITY",
+        "PASTELVEIL"
+      ],
+      "hiddenAbilities": [
+        "ANTICIPATION"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 80.0
+      }
+    },
+    {
+      "id": "SLOWPOKE1",
+      "image": "/images/pokemonFront/SLOWPOKE_1.png",
+      "location": "/images/location/SLOWPOKE_1.jpg",
+      "baseId": "SLOWPOKE",
+      "name": "Slowpoke",
+      "form": "Forma Galar",
+      "pokedex": "Siempre está distraído, pero, de vez en cuando, muestra un extraño rictus en el rostro, tal vez debido a su alimentación.",
+      "types": [
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 65,
+        "defense": 65,
+        "specialAttack": 15,
+        "specialDefense": 40,
+        "speed": 40
+      },
+      "abilities": [
+        "GLUTTONY",
+        "OWNTEMPO"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 36
+      },
+      "evolutions": [
+        {
+          "species": "SLOWBRO_1",
+          "method": "Objeto",
+          "requirement": "GALARICACUFF"
+        },
+        {
+          "species": "SLOWKING_1",
+          "method": "Objeto",
+          "requirement": "GALARICAWREATH"
+        }
+      ]
+    },
+    {
+      "id": "SLOWBRO1",
+      "image": "/images/pokemonFront/SLOWBRO_1.png",
+      "location": "/images/location/SLOWBRO_1.jpg",
+      "baseId": "SLOWBRO",
+      "name": "Slowbro",
+      "form": "Forma Galar",
+      "pokedex": "La impresión del mordisco del Shellder provocó una reacción química con las especias que había ingerido, tras lo cual adquirió el tipo Veneno.",
+      "types": [
+        "POISON",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 65,
+        "defense": 80,
+        "specialAttack": 30,
+        "specialDefense": 110,
+        "speed": 110
+      },
+      "abilities": [
+        "QUICKDRAW",
+        "MEGALAUNCHER"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 70.5
+      }
+    },
+    {
+      "id": "SLOWBRO2",
+      "image": "/images/pokemonFront/SLOWBRO_2.png",
+      "location": "/images/location/SLOWBRO_2.jpg",
+      "baseId": "SLOWBRO",
+      "name": "Mega Slowbro",
+      "form": "Mega Slowbro",
+      "types": [
+        "WATER",
+        "PSYCHIC"
+      ],
+      "MegaStore": "SLOWBRONITE",
+      "baseStats": {
+        "hp": 95,
+        "attack": 75,
+        "defense": 180,
+        "specialAttack": 30,
+        "specialDefense": 130,
+        "speed": 80
+      },
+      "abilities": [
+        "SHELLARMOR"
+      ],
+      "hiddenAbilities": [
+        "SHELLARMOR"
+      ],
+      "physicalData": {
+        "height": 2.0,
+        "weight": 120.0
       }
     }
   ]

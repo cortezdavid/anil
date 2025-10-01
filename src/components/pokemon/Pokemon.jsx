@@ -42,24 +42,12 @@ const Pokemon = () => {
       <div className="max-w-7xl mx-auto px-4 py-8">
         <Navegation pokemones={pokemones} />
         <div className="space-y-8">
-          {variants.length > 0 && (
-            <div className="mb-6 flex gap-4">
-              <button onClick={handleBaseForm} className="px-4 py-2 bg-gray-200 rounded-lg shadow hover:bg-gray-300">
-                {pokemon.name}
-              </button>
-              {variants.map(variant => (
-                <button
-                  key={variant.id}
-                  onClick={() => handleFormChange(variant)}
-                  className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600"
-                >
-                  {variant.form}
-                </button>
-              ))}
-            </div>
-          )}
+          <div className="mb-8">
+            {/* Selector de formas - solo si hay variantes */}
+
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <PokemonInformation pokemon={displayPokemon} />
+            <PokemonInformation pokemon={displayPokemon} variants={variants} handleFormChange={handleFormChange} handleBaseForm={handleBaseForm} selectedForm={selectedForm} />
             <div className="space-y-6">
               <PokemonRoute pokemon={displayPokemon} />
               <PokemonDescription pokemon={displayPokemon} />

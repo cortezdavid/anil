@@ -1,8 +1,10 @@
 import PokemonFront from "../pokemonFront/PokemonFront";
 import types from "../../data/types.json"
 import abilitiesData from "../../data/abilities.json"
+import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 
-const PokemonInformation = ({ pokemon }) => {
+const PokemonInformation = ({ pokemon, variants, handleFormChange, handleBaseForm, selectedForm }) => {
   const getTypeName = (typeId) => {
     const typeObj = types.types.find(t => t.id === typeId);
     return typeObj ? typeObj.name : typeId;
@@ -40,11 +42,41 @@ const PokemonInformation = ({ pokemon }) => {
 
   return (
     <div className="bg-gradient-to-br from-blue-300 to-blue-600 rounded-xl shadow-2xl p-6 h-fit border-2 border-none">
-      {/* Sprite del Pokémon */}
-      {/* Título del Pokémon */}
-      <h1 className="text-4xl font-black text-blue-900 mb-4 uppercase tracking-wider drop-shadow-sm">
-        {pokemon.name}
-      </h1>
+
+      {/* Título + Selector de formas */}
+      <div className="mb-6">
+        <h1 className="text-3xl font-black text-blue-900 mb-3 uppercase tracking-wider drop-shadow-sm">
+          {pokemon.name}
+        </h1>
+
+        {variants.length > 0 && (
+          <div className="flex flex-wrap gap-2">
+            <button
+              onClick={handleBaseForm}
+              className={`px-3 py-1.5 rounded-lg text-sm font-bold transition-all duration-200 ${!selectedForm
+                ? 'bg-blue-900 text-white shadow-md'
+                : 'bg-white/80 text-blue-900 hover:bg-white'
+                }`}
+            >
+              Normal
+            </button>
+            {variants.map(variant => (
+              <button
+                key={variant.id}
+                onClick={() => handleFormChange(variant)}
+                className={`px-3 py-1.5 rounded-lg text-sm font-bold transition-all duration-200 ${selectedForm?.id === variant.id
+                  ? 'bg-blue-900 text-white shadow-md'
+                  : 'bg-white/80 text-blue-900 hover:bg-white'
+                  }`}
+              >
+                {variant.form}
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* Sprite */}
       <div className="bg-blue-100 rounded-xl p-8 mb-6 flex justify-center border-2 border-blue-300 shadow-lg">
         <PokemonFront img={pokemon.image} scale={200} />
       </div>
