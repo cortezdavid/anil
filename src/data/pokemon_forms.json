@@ -1112,6 +1112,214 @@
         "height": 2.0,
         "weight": 120.0
       }
+    },
+    {
+      "id": "FARFETCHD1",
+      "image": "/images/pokemonFront/FARFETCHD_1.png",
+      "location": "/images/location/FARFETCHD_1.jpg",
+      "baseId": "FARFETCHD",
+      "name": "Farfetch'd",
+      "form": "Forma Galar",
+      "pokedex": "Este es el aspecto de los Farfetch'd que habitan en Galar. Son guerreros fieros y osados que luchan blandiendo un puerro grueso y firme.",
+      "types": [
+        "FIGHTING"
+      ],
+      "baseStats": {
+        "hp": 52,
+        "attack": 95,
+        "defense": 55,
+        "specialAttack": 55,
+        "specialDefense": 58,
+        "speed": 62
+      },
+      "abilities": [
+        "STEADFAST"
+      ],
+      "hiddenAbilities": [
+        "SCRAPPY"
+      ],
+      "physicalData": {
+        "height": 0.8,
+        "weight": 42.0
+      },
+      "evolutions": [
+        {
+          "species": "SIRFETCHD",
+          "method": "Nivel",
+          "requirement": 36
+        }
+      ]
+    },
+    {
+      "id": "GRIMER1",
+      "image": "/images/pokemonFront/GRIMER_1.png",
+      "location": "/images/location/GRIMER_1.jpg",
+      "baseId": "GRIMER",
+      "name": "Grimer",
+      "form": "Forma Alola",
+      "pokedex": "Los Grimer se introdujeron para remediar la nociva proliferación de residuos. Su aspecto cambió de un día para otro.",
+      "types": [
+        "POISON",
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 60,
+        "defense": 50,
+        "specialAttack": 25,
+        "specialDefense": 60,
+        "speed": 50
+      },
+      "abilities": [
+        "POISONTOUCH",
+        "GLUTTONY"
+      ],
+      "hiddenAbilities": [
+        "POWEROFALCHEMY"
+      ],
+      "physicalData": {
+        "height": 0.7,
+        "weight": 42.0
+      },
+      "evolutions": [
+        {
+          "species": "MUK_1",
+          "method": "Nivel",
+          "requirement": 32
+        }
+      ]
+    },
+    {
+      "id": "MUK1",
+      "image": "/images/pokemonFront/MUK_1.png",
+      "location": "/images/location/MUK_1.jpg",
+      "baseId": "MUK",
+      "name": "Muk",
+      "form": "Forma Alola",
+      "pokedex": "Los colores vivísimos que presenta su cuerpo se deben a las constantes reacciones químicas que produce en su interior la ingesta de basura.",
+      "types": [
+        "POISON",
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "attack": 105,
+        "defense": 75,
+        "specialAttack": 50,
+        "specialDefense": 65,
+        "speed": 100
+      },
+      "abilities": [
+        "POISONTOUCH",
+        "GLUTTONY"
+      ],
+      "hiddenAbilities": [
+        "POWEROFALCHEMY"
+      ],
+      "physicalData": {
+        "height": 1.0,
+        "weight": 52.0
+      }
+    },
+    {
+      "id": "GENGAR1",
+      "image": "/images/pokemonFront/GENGAR_1.png",
+      "location": "/images/location/GENGAR_1.jpg",
+      "baseId": "GENGAR",
+      "name": "Mega Gengar X",
+      "form": "Mega Gengar X",
+      "types": [
+        "GHOST",
+        "POISON"
+      ],
+      "MegaStore": "GENGARITEX",
+      "baseStats": {
+        "hp": 60,
+        "attack": 75,
+        "defense": 80,
+        "specialAttack": 130,
+        "specialDefense": 160,
+        "speed": 95
+      },
+      "abilities": [
+        "SHADOWTAG"
+      ],
+      "hiddenAbilities": [
+        "SHADOWTAG"
+      ],
+      "physicalData": {
+        "height": 1.4,
+        "weight": 6
+      }
+    },
+    {
+      "id": "GENGAR2",
+      "image": "/images/pokemonFront/GENGAR_2.png",
+      "location": "/images/location/GENGAR_2.jpg",
+      "baseId": "GENGAR",
+      "name": "Mega Gengar y",
+      "form": "Mega Gengar y",
+      "types": [
+        "GHOST",
+        "DARK"
+      ],
+      "MegaStore": "GENGARITEY",
+      "baseStats": {
+        "hp": 60,
+        "attack": 95,
+        "defense": 110,
+        "specialAttack": 90,
+        "specialDefense": 130,
+        "speed": 115
+      },
+      "abilities": [
+        "PERISHBODY"
+      ],
+      "hiddenAbilities": [
+        "PERISHBODY"
+      ],
+      "physicalData": {
+        "height": 3.1,
+        "weight": 10
+      }
+    },
+    {
+      "id": "VOLTORB1",
+      "image": "/images/pokemonFront/VOLTORB_1.png",
+      "location": "/images/location/VOLTORB_1.jpg",
+      "baseId": "VOLTORB",
+      "name": "Voltorb",
+      "form": "Forma Hisui",
+      "pokedex": "Curioso ejemplar que guarda cierta similitud con una Poké Ball. Cuanto más se altera, mayor es la descarga eléctrica que libera, a la que sigue una carcajada.",
+      "types": [
+        "ELECTRIC",
+        "GRASS"
+      ],
+      "baseStats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 50,
+        "specialAttack": 100,
+        "specialDefense": 55,
+        "speed": 55
+      },
+      "abilities": [
+        "ELECTRICSURGE"
+      ],
+      "hiddenAbilities": [
+        "STATIC"
+      ],
+      "physicalData": {
+        "height": 0.5,
+        "weight": 13.0
+      },
+      "evolutions": [
+        {
+          "species": "ELECTRODE_1",
+          "method": "Objeto",
+          "requirement": "LEAFSTONE"
+        }
+      ]
     }
   ]
 }
