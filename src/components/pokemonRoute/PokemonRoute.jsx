@@ -8,9 +8,11 @@ const PokemonRoute = ({ pokemon }) => {
 			<div className="bg-white rounded-lg p-4 mb-3 shadow-lg">
 				<img src={pokemon.location} alt={pokemon.name} className="block mx-auto rounded-lg" />
 			</div>
-			<div className="bg-white rounded-lg px-4 py-2 shadow-md">
-				<span className="font-bold text-blue-900">{pokemon.route}</span>
-			</div>
+			{pokemon.route && (
+				<div className="bg-white rounded-lg px-4 py-2 shadow-md">
+					<span className="font-bold text-blue-900">{pokemon.route}</span>
+				</div>
+			)}
 		</div>)
 }
 
