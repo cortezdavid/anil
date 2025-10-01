@@ -1,0 +1,22 @@
+{
+  "variants": [
+    {
+      "id": "VENASAUR1",
+      "baseId": "VENUSAUR",
+      "FormName": "Mega Venasaur",
+      "MegaStore": "VENUSAURITEX",
+      "baseStats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 123,
+        "specialAttack": 80,
+        "specialDefense": 122,
+        "speed": 120
+      },
+      "abilities": "THICKFAT",
+      "hiddenAbilities": "THICKFAT",
+      "height": 2.4,
+      "weight": 155.5
+    }
+  ]
+}
