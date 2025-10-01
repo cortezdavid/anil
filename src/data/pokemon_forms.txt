@@ -1,37 +1,4 @@
-﻿# Consulta la documentación en la wiki para aprender cómo editar este archivo.
-#-------------------------------
-[VENUSAUR,1]
-FormName = Mega Venusaur X
-MegaStone = VENUSAURITEX
-BaseStats = 80,100,123,80,122,120
-BaseExp = 313
-Abilities = THICKFAT
-HiddenAbilities = THICKFAT
-Height = 2.4
-Weight = 155.5
-Generation = 6
-#-------------------------------
-[CHARIZARD,1]
-FormName = Mega Charizard X
-MegaStone = CHARIZARDITEX
-Types = FIRE,DRAGON
-BaseStats = 78,130,111,100,130,85
-BaseExp = 317
-Abilities = TOUGHCLAWS
-HiddenAbilities = TOUGHCLAWS
-Weight = 110.5
-Color = Black
-Generation = 6
-#-------------------------------
-[CHARIZARD,2]
-FormName = Mega Charizard Y
-MegaStone = CHARIZARDITEY
-BaseStats = 78,104,78,100,159,115
-BaseExp = 317
-Abilities = DROUGHT
-HiddenAbilities = DROUGHT
-Weight = 100.5
-Generation = 6
+﻿
 #-------------------------------
 [BLASTOISE,1]
 FormName = Mega Blastoise X
@@ -64,37 +31,6 @@ HiddenAbilities = NOGUARD
 Height = 2.2
 Weight = 50.5
 Generation = 6
-#-------------------------------
-[RATTATA,1]
-FormName = Forma Alola
-Region = Alola
-Types = DARK,NORMAL
-Abilities = GLUTTONY,HUSTLE
-HiddenAbilities = THICKFAT
-TutorMoves = ATTRACT,BLIZZARD,BODYSLAM,CAPTIVATE,CONFIDE,COUNTER,COVET,CUT,DARKPULSE,DEFENSECURL,DIG,DOUBLEEDGE,DOUBLETEAM,EMBARGO,ENDEAVOR,ENDURE,FACADE,FRUSTRATION,GRASSKNOT,HEADBUTT,HIDDENPOWER,ICEBEAM,ICYWIND,IRONTAIL,LASTRESORT,MIMIC,MUDSLAP,NATURALGIFT,PLUCK,PROTECT,QUASH,RAINDANCE,REST,RETALIATE,RETURN,ROCKSMASH,ROUND,SECRETPOWER,SHADOWBALL,SHADOWCLAW,SHOCKWAVE,SLEEPTALK,SLUDGEBOMB,SNARL,SNATCH,SNORE,SUBSTITUTE,SUCKERPUNCH,SUNNYDAY,SUPERFANG,SWAGGER,SWIFT,TAUNT,THIEF,TORMENT,UPROAR,UTURN,ZENHEADBUTT
-EggMoves = COUNTER,FINALGAMBIT,FURYSWIPES,MEFIRST,REVENGE,REVERSAL,SNATCH,STOCKPILE,SWALLOW,SWITCHEROO,UPROAR
-Weight = 3.8
-Color = Black
-Pokedex = Comienza su actividad cuando se pone el sol. Recorre la ciudad en pos de buena comida para su jefe, que suele ser un Raticate.
-Generation = 7
-Flags = InheritFormWithEverStone
-WildItemUncommon = PECHABERRY
-Evolutions = RATICATE,LevelNight,20
-#-------------------------------
-[RATICATE,1]
-FormName = Forma Alola
-Region = Alola
-Types = DARK,NORMAL
-BaseStats = 75,71,70,77,40,80
-Abilities = GLUTTONY,HUSTLE
-HiddenAbilities = THICKFAT
-TutorMoves = ATTRACT,BLIZZARD,BODYSLAM,BULKUP,CAPTIVATE,CONFIDE,COUNTER,COVET,CUT,DARKPULSE,DEFENSECURL,DIG,DOUBLEEDGE,DOUBLETEAM,EMBARGO,ENDEAVOR,ENDURE,FACADE,FRUSTRATION,GIGAIMPACT,GRASSKNOT,HEADBUTT,HIDDENPOWER,HYPERBEAM,ICEBEAM,ICYWIND,IRONTAIL,KNOCKOFF,LASTRESORT,MIMIC,MUDSLAP,NATURALGIFT,PLUCK,PROTECT,QUASH,RAINDANCE,REST,RETALIATE,RETURN,ROAR,ROCKSMASH,ROUND,SECRETPOWER,SHADOWBALL,SHADOWCLAW,SHOCKWAVE,SLEEPTALK,SLUDGEBOMB,SLUDGEWAVE,SNARL,SNATCH,SNORE,STOMPINGTANTRUM,STRENGTH,SUBSTITUTE,SUCKERPUNCH,SUNNYDAY,SUPERFANG,SWAGGER,SWIFT,SWORDSDANCE,TAUNT,THIEF,THROATCHOP,TORMENT,UPROAR,UTURN,VENOSHOCK,ZENHEADBUTT
-Weight = 25.5
-Color = Black
-Pokedex = Este gourmet es muy exigente con el sabor y la frescura de la comida. Si Raticate vive en un restaurante, no cabe duda de que es uno bueno.
-Generation = 7
-Flags = InheritFormWithEverStone
-WildItemUncommon = PECHABERRY
 #-------------------------------
 [PIKACHU,2]
 FormName = Forma Coqueta
@@ -3051,17 +2987,7 @@ HiddenAbilities = MULTISCALE
 Height = 2.2
 Weight = 290.0
 Generation = 10
-#-------------------------------
-[VENUSAUR,2]
-FormName = Mega Venusaur Y
-MegaStone = VENUSAURITEY
-BaseStats = 80,92,103,70,130,150
-BaseExp = 313
-Abilities = STURDYROOT
-HiddenAbilities = STURDYROOT
-Height = 2.4
-Weight = 207.3
-Generation = 10
+
 #-------------------------------
 [BLASTOISE,2]
 FormName = Mega Blastoise Y

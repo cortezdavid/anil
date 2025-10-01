@@ -1,4 +1,5 @@
 const PokemonDescription = ({ pokemon }) => {
+  if (!pokemon.pokedex) return null
   return (
     <div className="bg-gradient-to-br from-blue-300 to-blue-600 rounded-xl shadow-2xl p-6 border-2 border-none">
       <h2 className="text-2xl font-black text-blue-900 mb-4 tracking-wider uppercase drop-shadow-sm">

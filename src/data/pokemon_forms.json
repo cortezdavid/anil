@@ -1,9 +1,16 @@
 {
   "variants": [
     {
-      "id": "VENASAUR1",
+      "id": "VENUSAUR1",
+      "image": "/images/pokemonFront/VENUSAUR_1.png",
+      "location": "/images/location/VENUSAUR_1.jpg",
       "baseId": "VENUSAUR",
-      "FormName": "Mega Venasaur",
+      "name": "Venasaur X",
+      "form": "Mega Venasaur X",
+      "types": [
+        "GRASS",
+        "POISON"
+      ],
       "MegaStore": "VENUSAURITEX",
       "baseStats": {
         "hp": 80,
@@ -13,10 +20,179 @@
         "specialDefense": 122,
         "speed": 120
       },
-      "abilities": "THICKFAT",
-      "hiddenAbilities": "THICKFAT",
-      "height": 2.4,
-      "weight": 155.5
+      "abilities": [
+        "THICKFAT"
+      ],
+      "hiddenAbilities": [
+        "THICKFAT"
+      ],
+      "physicalData": {
+        "height": 2.4,
+        "weight": 155.5
+      }
+    },
+    {
+      "id": "VENUSAUR2",
+      "image": "/images/pokemonFront/VENUSAUR_2.png",
+      "location": "/images/location/VENUSAUR_2.jpg",
+      "baseId": "VENUSAUR",
+      "name": "Venasaur Y",
+      "form": "Mega Venasaur Y",
+      "types": [
+        "GRASS",
+        "POISON"
+      ],
+      "MegaStore": "VENUSAURITEY",
+      "baseStats": {
+        "hp": 80,
+        "attack": 92,
+        "defense": 103,
+        "specialAttack": 70,
+        "specialDefense": 130,
+        "speed": 150
+      },
+      "abilities": [
+        "STURDYROOT"
+      ],
+      "hiddenAbilities": [
+        "STURDYROOT"
+      ],
+      "physicalData": {
+        "height": 2.4,
+        "weight": 207.3
+      }
+    },
+    {
+      "id": "CHARIZARD1",
+      "image": "/images/pokemonFront/CHARIZARD_1.png",
+      "location": "/images/location/CHARIZARD_1.jpg",
+      "baseId": "CHARIZARD",
+      "name": "Charizard X",
+      "form": "Mega Charizard X",
+      "types": [
+        "FIRE",
+        "DRAGON"
+      ],
+      "MegaStore": "CHARIZARDITEX",
+      "baseStats": {
+        "hp": 78,
+        "attack": 130,
+        "defense": 111,
+        "specialAttack": 100,
+        "specialDefense": 130,
+        "speed": 85
+      },
+      "abilities": [
+        "TOUGHCLAWS"
+      ],
+      "hiddenAbilities": [
+        "TOUGHCLAWS"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 110.5
+      }
+    },
+    {
+      "id": "CHARIZARD2",
+      "image": "/images/pokemonFront/CHARIZARD_2.png",
+      "location": "/images/location/CHARIZARD_2.jpg",
+      "baseId": "CHARIZARD",
+      "name": "Charizard Y",
+      "form": "Mega Charizard Y",
+      "types": [
+        "FIRE",
+        "FLYING"
+      ],
+      "MegaStore": "CHARIZARDITEY",
+      "baseStats": {
+        "hp": 78,
+        "attack": 104,
+        "defense": 78,
+        "specialAttack": 100,
+        "specialDefense": 159,
+        "speed": 115
+      },
+      "abilities": [
+        "DROUGHT"
+      ],
+      "hiddenAbilities": [
+        "DROUGHT"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 100.5
+      }
+    },
+    {
+      "id": "RATTATA1",
+      "image": "/images/pokemonFront/RATTATA_1.png",
+      "location": "/images/location/RATTATA.jpg",
+      "baseId": "RATTATA",
+      "name": "Rattata",
+      "form": "Forma Alola",
+      "pokedex": "Comienza su actividad cuando se pone el sol. Recorre la ciudad en pos de buena comida para su jefe, que suele ser un Raticate.",
+      "types": [
+        "DARK",
+        "NORMAL"
+      ],
+      "baseStats": {
+        "hp": 30,
+        "attack": 56,
+        "defense": 35,
+        "specialAttack": 72,
+        "specialDefense": 25,
+        "speed": 35
+      },
+      "abilities": [
+        "GLUTTONY"
+      ],
+      "hiddenAbilities": [
+        "HUSTLE"
+      ],
+      "physicalData": {
+        "height": 0.3,
+        "weight": 3.8
+      },
+      "evolutions": [
+        {
+          "species": "RATICATE_1",
+          "method": "Nivel",
+          "requirement": 20
+        }
+      ]
+    },
+    {
+      "id": "RATICATE1",
+      "image": "/images/pokemonFront/RATICATE_1.png",
+      "location": "/images/location/RATICATE_1.jpg",
+      "baseId": "RATICATE",
+      "name": "Raticate",
+      "form": "Forma Alola",
+      "pokedex": "Este gourmet es muy exigente con el sabor y la frescura de la comida. Si Raticate vive en un restaurante, no cabe duda de que es uno bueno.",
+      "types": [
+        "DARK",
+        "NORMAL"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 71,
+        "defense": 70,
+        "specialAttack": 77,
+        "specialDefense": 40,
+        "speed": 80
+      },
+      "abilities": [
+        "GLUTTONY",
+        "HUSTLE"
+      ],
+      "hiddenAbilities": [
+        "THICKFAT"
+      ],
+      "physicalData": {
+        "height": 0.7,
+        "weight": 25.5
+      }
     }
   ]
 }
