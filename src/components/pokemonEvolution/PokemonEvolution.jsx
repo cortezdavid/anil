@@ -44,7 +44,7 @@ const PokemonEvolution = ({ pokemon }) => {
                   </div>
                   <div>
                     <div className="font-black text-lg text-blue-900 capitalize">
-                      {evo.species.toLowerCase()}
+                      {evo.species.replace(/_\d+$/, "").toLowerCase()}
                     </div>
                     <div className="text-sm font-semibold text-blue-700">
                       Siguiente evolución

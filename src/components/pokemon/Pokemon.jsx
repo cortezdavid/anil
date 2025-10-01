@@ -15,7 +15,6 @@ const Pokemon = () => {
   const pokemon = pokemones.find(p => p.id.toLowerCase() === id.toLowerCase());
 
   const variants = dataVariant.variants.filter(v => v.baseId === pokemon.id);
-  console.log(variants);
 
   // Estado para controlar qué forma se está mostrando
   const [selectedForm, setSelectedForm] = useState(null); // null = forma base

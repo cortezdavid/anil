@@ -437,6 +437,308 @@
         "height": 1.0,
         "weight": 26.0
       }
+    },
+    {
+      "id": "SANDSHREW1",
+      "image": "/images/pokemonFront/SANDSHREW_1.png",
+      "location": "/images/location/SANDSHREW_1.jpg",
+      "baseId": "SANDSHREW",
+      "name": "Sandshrew",
+      "form": "Forma Alola",
+      "pokedex": "Vive en montañas nevadas. Su caparazón de acero es muy resistente, pero tiene tal dureza que no le permite enrollarse del todo.",
+      "types": [
+        "ICE",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 90,
+        "specialAttack": 40,
+        "specialDefense": 10,
+        "speed": 35
+      },
+      "abilities": [
+        "SNOWCLOAK"
+      ],
+      "hiddenAbilities": [
+        "SLUSHRUSH"
+      ],
+      "physicalData": {
+        "height": 0.7,
+        "weight": 40.0
+      },
+      "evolutions": [
+        {
+          "species": "SANDSLASH_1",
+          "method": "Objeto",
+          "requirement": "ICESTONE"
+        }
+      ]
+    },
+    {
+      "id": "SANDSLASH1",
+      "image": "/images/pokemonFront/SANDSLASH_1.png",
+      "location": "/images/location/SANDSLASH_1.jpg",
+      "baseId": "SANDSLASH",
+      "name": "Sandshrew",
+      "form": "Forma Alola",
+      "pokedex": "Cambió su hábitat a las montañas nevadas tras huir de una erupción volcánica. Esparce nieve por doquier cuando corretea por ella.",
+      "types": [
+        "ICE",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 100,
+        "defense": 110,
+        "specialAttack": 90,
+        "specialDefense": 45,
+        "speed": 55
+      },
+      "abilities": [
+        "SNOWCLOAK"
+      ],
+      "hiddenAbilities": [
+        "SLUSHRUSH"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 55.0
+      }
+    },
+    {
+      "id": "VULPIX1",
+      "image": "/images/pokemonFront/VULPIX_1.png",
+      "location": "/images/location/VULPIX_1.jpg",
+      "baseId": "VULPIX",
+      "name": "Vulpix",
+      "form": "Forma Alola",
+      "pokedex": "Cuando hace calor, crea rocas de hielo con sus seis colas y las disemina por los alrededores para enfriar su cuerpo.",
+      "types": [
+        "ICE"
+      ],
+      "baseStats": {
+        "hp": 38,
+        "attack": 41,
+        "defense": 40,
+        "specialAttack": 65,
+        "specialDefense": 60,
+        "speed": 65
+      },
+      "abilities": [
+        "SNOWCLOAK"
+      ],
+      "hiddenAbilities": [
+        "SNOWWARNING"
+      ],
+      "physicalData": {
+        "height": 0.6,
+        "weight": 9.9
+      },
+      "evolutions": [
+        {
+          "species": "NINETALES_1",
+          "method": "Objeto",
+          "requirement": "ICESTONE"
+        }
+      ]
+    },
+    {
+      "id": "NINETALES1",
+      "image": "/images/pokemonFront/NINETALES_1.png",
+      "location": "/images/location/NINETALES_1.jpg",
+      "baseId": "NINETALES",
+      "name": "Ninetales",
+      "form": "Forma Alola",
+      "pokedex": "En su pelaje se crean cristales de hielo con los que cubre al enemigo. Quien lo enfada acaba congelado al instante.",
+      "types": [
+        "ICE",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 73,
+        "attack": 76,
+        "defense": 75,
+        "specialAttack": 100,
+        "specialDefense": 100,
+        "speed": 100
+      },
+      "abilities": [
+        "SNOWCLOAK"
+      ],
+      "hiddenAbilities": [
+        "SNOWWARNING"
+      ],
+      "physicalData": {
+        "height": 1.1,
+        "weight": 19.9
+      }
+    },
+    {
+      "id": "DIGLETT1",
+      "image": "/images/pokemonFront/DIGLETT_1.png",
+      "location": "/images/location/DIGLETT_1.jpg",
+      "baseId": "DIGLETT",
+      "name": "Diglett",
+      "form": "Forma Alola",
+      "pokedex": "Los pelillos metálicos de la cabeza son fruto de una mutación. Se comunica con sus compañeros bamboleándose.",
+      "types": [
+        "GROUND",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 10,
+        "attack": 55,
+        "defense": 30,
+        "specialAttack": 90,
+        "specialDefense": 35,
+        "speed": 45
+      },
+      "abilities": [
+        "SANDVEIL",
+        "TANGLINGHAIR"
+      ],
+      "physicalData": {
+        "height": 0.2,
+        "weight": 1.0
+      },
+      "evolutions": [
+        {
+          "species": "DUGTRIO_1",
+          "method": "Nivel",
+          "requirement": 26
+        }
+      ]
+    },
+    {
+      "id": "DUGTRIO1",
+      "image": "/images/pokemonFront/DUGTRIO_1.png",
+      "location": "/images/location/DUGTRIO_1.jpg",
+      "baseId": "DUGTRIO",
+      "name": "Dugtrio",
+      "form": "Forma Alola",
+      "pokedex": "Su pelo dorado y brillante le sirve de protección. Se dice que recoger los pelos que se le caen trae mala suerte.",
+      "types": [
+        "GROUND",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 35,
+        "attack": 100,
+        "defense": 60,
+        "specialAttack": 110,
+        "specialDefense": 50,
+        "speed": 70
+      },
+      "abilities": [
+        "SANDVEIL"
+      ],
+      "hiddenAbilities": [
+        "TANGLINGHAIR"
+      ],
+      "physicalData": {
+        "height": 0.7,
+        "weight": 66.6
+      }
+    },
+    {
+      "id": "MEOWTH1",
+      "image": "/images/pokemonFront/MEOWTH_1.png",
+      "location": "/images/location/MEOWTH_1.jpg",
+      "baseId": "MEOWTH",
+      "name": "Meowth",
+      "form": "Forma Alola",
+      "pokedex": "Es un Pokémon muy orgulloso e inteligente. Se vale de su astucia en combate para atacar los puntos débiles de sus enemigos con obstinación.",
+      "types": [
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 40,
+        "attack": 35,
+        "defense": 35,
+        "specialAttack": 90,
+        "specialDefense": 50,
+        "speed": 40
+      },
+      "abilities": [
+        "RATTLED"
+      ],
+      "physicalData": {
+        "height": 0.4,
+        "weight": 4.2
+      },
+      "evolutions": [
+        {
+          "species": "PERSIAN_1",
+          "requirement": "Felicidad"
+        }
+      ]
+    },
+    {
+      "id": "MEOWTH2",
+      "image": "/images/pokemonFront/MEOWTH_2.png",
+      "location": "/images/location/MEOWTH_2.jpg",
+      "baseId": "MEOWTH",
+      "name": "Meowth",
+      "form": "Forma Galar",
+      "pokedex": "Cuanto más oscura es la moneda de su frente, mayor respeto inspira en sus congéneres. Es muy osado y no conoce el miedo.",
+      "types": [
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defense": 55,
+        "specialAttack": 40,
+        "specialDefense": 40,
+        "speed": 40
+      },
+      "abilities": [
+        "PICKUP",
+        "TOUGHCLAWS"
+      ],
+      "physicalData": {
+        "height": 0.4,
+        "weight": 7.5
+      },
+      "evolutions": [
+        {
+          "species": "PERRSERKER",
+          "method": "Nivel",
+          "requirement": 28
+        }
+      ]
+    },
+    {
+      "id": "PERSIAN1",
+      "image": "/images/pokemonFront/PERSIAN_1.png",
+      "location": "/images/location/PERSIAN_1.jpg",
+      "baseId": "PERSIAN",
+      "name": "Persian",
+      "form": "Forma Alola",
+      "pokedex": "Muestra arrogancia hacia cualquier otro ser. Combate con tácticas rastreras y cobardes, atacando por sorpresa o desde la oscuridad.",
+      "types": [
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 60,
+        "defense": 60,
+        "specialAttack": 115,
+        "specialDefense": 75,
+        "speed": 65
+      },
+      "abilities": [
+        "FURCOAT","TECHNICIAN"
+      ],
+      "hiddenAbilities": [
+        "RATTLED"
+      ],
+      "physicalData": {
+        "height": 1.1,
+        "weight": 33.0
+      }
     }
   ]
 }
