@@ -42,13 +42,6 @@ const MT = () => {
     return colors[type] || 'bg-gray-500';
   };
 
-  const getCategoryIcon = (category) => {
-    if (category === 'Físico') return '💥';
-    if (category === 'Special') return '✨';
-    if (category === 'Status') return '🔧';
-    return '';
-  };
-
   const toggleMT = (mtId) => {
     setOpenMT(openMT === mtId ? null : mtId);
   };
@@ -81,8 +74,8 @@ const MT = () => {
               placeholder="Buscar por nombre, MT o ubicación..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="w-full px-4 py-3 pr-12 text-gray-900 bg-white border-2 border-blue-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-all duration-200 font-medium shadow-lg"
-            />
+              className="w-full px-4 py-3 pr-12 text-gray-900 bg-white rounded-lg shadow-lg font-medium 
+             border-none outline-none focus:outline-none focus:border-none focus:ring-0"           />
             <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
               <svg className="h-5 w-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -110,7 +103,7 @@ const MT = () => {
               const isOpen = openMT === mt.id;
 
               return (
-                <div key={mt.id} className="bg-white rounded-xl shadow-lg overflow-hidden border-2 border-blue-300">
+                <div key={mt.id} className="bg-white rounded-xl shadow-lg overflow-hidden">
                   {/* Header clickeable */}
                   <button
                     onClick={() => toggleMT(mt.id)}
@@ -150,7 +143,7 @@ const MT = () => {
                     <div className="bg-gradient-to-br from-blue-100 via-blue-50 to-white p-6">
                       <div className="grid md:grid-cols-2 gap-6">
                         {/* Imagen */}
-                        <div className="bg-white rounded-lg p-4 shadow-md border-2 border-blue-200">
+                        <div className="bg-white rounded-lg p-4 shadow-md">
                           <img
                             src={mt.img}
                             alt={`Ubicación ${mt.id}`}
@@ -172,7 +165,6 @@ const MT = () => {
                             <div className="space-y-3">
                               <div className="flex items-center justify-between pb-3 border-b border-blue-200">
                                 <div className="flex items-center space-x-2">
-                                  <span className="text-xl">{getCategoryIcon(moveData.category)}</span>
                                   <span className="text-sm font-semibold text-gray-700">Categoría</span>
                                 </div>
                                 <span className="text-sm font-black text-blue-900">{moveData.category}</span>
