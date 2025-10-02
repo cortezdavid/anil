@@ -52,23 +52,6 @@ const MT = () => {
     setOpenMT(openMT === mtId ? null : mtId);
   };
 
-  {
-    mts.map(mt => {
-      console.log('MT completo:', mt); // Mira la consola del navegador en Vercel
-      console.log('Route value:', mt.route);
-      console.log('Route type:', typeof mt.route);
-
-      return (
-        <li key={mt.id}>
-          <p>{mt.id}</p>
-          <p>Route directo: "{mt.route}"</p>
-          <p>Route con OR: {mt.route || 'UNDEFINED'}</p>
-          <p>Keys del objeto: {Object.keys(mt).join(', ')}</p>
-        </li>
-      );
-    })
-  }
-
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-100 to-indigo-100">
