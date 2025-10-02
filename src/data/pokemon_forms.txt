@@ -65,16 +65,6 @@
 
 ---------------------------
 
-[KANGASKHAN,1]
-FormName = Mega Kangaskhan
-MegaStone = KANGASKHANITE
-BaseStats = 105,115,100,100,60,100
-BaseExp = 207
-Abilities = PARENTALBOND
-HiddenAbilities = PARENTALBOND
-Weight = 100.0
-Generation = 6
-#-------------------------------
 [MRMIME,1]
 FormName = Forma Galar
 Region = Galar
@@ -94,30 +84,7 @@ Generation = 8
 Flags = InheritFormWithEverStone
 Evolutions = MRRIME,Level,42
 #-------------------------------
-[PINSIR,1]
-FormName = Mega Pinsir
-MegaStone = PINSIRITE
-Types = BUG,FLYING
-BaseStats = 65,155,120,105,65,90
-BaseExp = 210
-Abilities = AERILATE
-HiddenAbilities = AERILATE
-Height = 1.7
-Weight = 59.0
-Shape = MultiWinged
-Generation = 6
-#-------------------------------
-[GYARADOS,1]
-FormName = Mega Gyarados
-MegaStone = GYARADOSITE
-Types = WATER,DARK
-BaseStats = 95,155,109,81,70,130
-BaseExp = 224
-Abilities = MOLDBREAKER
-HiddenAbilities = MOLDBREAKER
-Weight = 305.0
-Generation = 6
-#-------------------------------
+
 [AERODACTYL,1]
 FormName = Mega Aerodactyl
 MegaStone = AERODACTYLITE

@@ -128,6 +128,7 @@
       "id": "RATTATA1",
       "image": "/images/pokemonFront/RATTATA_1.png",
       "location": "/images/location/RATTATA_1.jpg",
+      "route": "Villa Azabache",
       "baseId": "RATTATA",
       "name": "Rattata de Alola",
       "form": "Forma Alola",
@@ -166,6 +167,7 @@
       "id": "RATICATE1",
       "image": "/images/pokemonFront/RATICATE_1.png",
       "location": "/images/location/RATICATE_1.jpg",
+      "route": "Villa Azabache",
       "baseId": "RATICATE",
       "name": "Raticate",
       "form": "Forma Alola",
@@ -1445,6 +1447,2073 @@
       "physicalData": {
         "height": 3,
         "weight": 16
+      }
+    },
+    {
+      "id": "KANGASKHAN1",
+      "image": "/images/pokemonFront/KANGASKHAN_1.png",
+      "location": "/images/location/KANGASKHAN_1.jpg",
+      "baseId": "KANGASKHAN",
+      "name": "Mega Kangaskhan",
+      "form": "Mega Kangaskhan",
+      "MegaStore": "KANGASKHANITE",
+      "types": [],
+      "baseStats": {
+        "hp": 105,
+        "attack": 115,
+        "defense": 100,
+        "specialAttack": 100,
+        "specialDefense": 60,
+        "speed": 100
+      },
+      "abilities": [
+        "PARENTALBOND"
+      ],
+      "hiddenAbilities": [
+        "PARENTALBOND"
+      ],
+      "physicalData": {
+        "height": 2.2,
+        "weight": 100
+      }
+    },
+    {
+      "id": "PINSIR1",
+      "image": "/images/pokemonFront/PINSIR_1.png",
+      "location": "/images/location/PINSIR_1.jpg",
+      "baseId": "PINSIR",
+      "name": "Mega Pinsir",
+      "form": "Mega Pinsir",
+      "MegaStore": "PINSIRITE",
+      "types": [
+        "BUG",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 155,
+        "defense": 120,
+        "specialAttack": 105,
+        "specialDefense": 65,
+        "speed": 90
+      },
+      "abilities": [
+        "AERILATE"
+      ],
+      "hiddenAbilities": [
+        "AERILATE"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 59
+      }
+    },
+    {
+      "id": "GYARADOS1",
+      "image": "/images/pokemonFront/GYARADOS_1.png",
+      "location": "/images/location/GYARADOS_1.jpg",
+      "baseId": "GYARADOS",
+      "name": "Mega Gyarados",
+      "form": "Mega Gyarados",
+      "MegaStore": "GYARADOSITE",
+      "types": [
+        "WATER",
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 155,
+        "defense": 109,
+        "specialAttack": 81,
+        "specialDefense": 70,
+        "speed": 130
+      },
+      "abilities": [
+        "MOLDBREAKER"
+      ],
+      "hiddenAbilities": [
+        "MOLDBREAKER"
+      ],
+      "physicalData": {
+        "height": 6.5,
+        "weight": 305
+      }
+    },
+    {
+      "id": "AERODACTYL1",
+      "image": "/images/pokemonFront/AERODACTYL_1.png",
+      "location": "/images/location/AERODACTYL_1.jpg",
+      "baseId": "AERODACTYL",
+      "name": "Mega Aerodactyl",
+      "form": "Mega Aerodactyl",
+      "MegaStore": "AERODACTYLITE",
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 135,
+        "defense": 85,
+        "specialAttack": 150,
+        "specialDefense": 70,
+        "speed": 95
+      },
+      "abilities": [
+        "TOUGHCLAWS"
+      ],
+      "hiddenAbilities": [
+        "TOUGHCLAWS"
+      ],
+      "physicalData": {
+        "height": 2.1,
+        "weight": 79
+      }
+    },
+    {
+      "id": "MEWTWO1",
+      "image": "/images/pokemonFront/MEWTWO_1.png",
+      "location": "/images/location/MEWTWO_1.jpg",
+      "baseId": "MEWTWO",
+      "name": "Mewtwo X",
+      "form": "Mega Mewtwo X",
+      "MegaStore": "MEWTWONITEX",
+      "types": [
+        "PSYCHIC",
+        "FIGHTING"
+      ],
+      "baseStats": {
+        "hp": 106,
+        "attack": 190,
+        "defense": 100,
+        "specialAttack": 130,
+        "specialDefense": 154,
+        "speed": 100
+      },
+      "abilities": [
+        "STEADFAST"
+      ],
+      "hiddenAbilities": [
+        "STEADFAST"
+      ],
+      "physicalData": {
+        "height": 2.3,
+        "weight": 127
+      }
+    },
+    {
+      "id": "MEWTWO2",
+      "image": "/images/pokemonFront/MEWTWO_2.png",
+      "location": "/images/location/MEWTWO_2.jpg",
+      "baseId": "MEWTWO",
+      "name": "Mewtwo Y",
+      "form": "Mega Mewtwo Y",
+      "MegaStore": "MEWTWONITEY",
+      "types": [
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 106,
+        "attack": 150,
+        "defense": 70,
+        "specialAttack": 140,
+        "specialDefense": 194,
+        "speed": 120
+      },
+      "abilities": [
+        "INSOMNIA"
+      ],
+      "hiddenAbilities": [
+        "INSOMNIA"
+      ],
+      "physicalData": {
+        "height": 1.5,
+        "weight": 33
+      }
+    },
+    {
+      "id": "AMPHAROS1",
+      "image": "/images/pokemonFront/AMPHAROS_1.png",
+      "location": "/images/location/AMPHAROS_1.jpg",
+      "baseId": "AMPHAROS",
+      "name": "Mega Ampharos",
+      "form": "Mega Ampharos",
+      "MegaStore": "AMPHAROSITE",
+      "types": [
+        "ELECTRIC",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 95,
+        "defense": 105,
+        "specialAttack": 45,
+        "specialDefense": 165,
+        "speed": 110
+      },
+      "abilities": [
+        "MOLDBREAKER"
+      ],
+      "hiddenAbilities": [
+        "MOLDBREAKER"
+      ],
+      "physicalData": {
+        "height": 1.4,
+        "weight": 61.5
+      }
+    },
+    {
+      "id": "STEELIX1",
+      "image": "/images/pokemonFront/STEELIX_1.png",
+      "location": "/images/location/STEELIX_1.jpg",
+      "baseId": "STEELIX",
+      "name": "Mega Steelix",
+      "form": "Mega Steelix",
+      "MegaStore": "STEELIXITE",
+      "types": [
+        "STEEL",
+        "GROUND"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 125,
+        "defense": 230,
+        "specialAttack": 30,
+        "specialDefense": 55,
+        "speed": 95
+      },
+      "abilities": [
+        "SHEERFORCE"
+      ],
+      "hiddenAbilities": [
+        "SHEERFORCE"
+      ],
+      "physicalData": {
+        "height": 10.5,
+        "weight": 740
+      }
+    },
+    {
+      "id": "SCIZOR1",
+      "image": "/images/pokemonFront/SCIZOR_1.png",
+      "location": "/images/location/SCIZOR_1.jpg",
+      "baseId": "SCIZOR",
+      "name": "Mega Scizor",
+      "form": "Mega Scizor",
+      "MegaStore": "SCIZORITE",
+      "types": [
+        "BUG",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 150,
+        "defense": 140,
+        "specialAttack": 75,
+        "specialDefense": 65,
+        "speed": 100
+      },
+      "abilities": [
+        "TECHNICIAN"
+      ],
+      "hiddenAbilities": [
+        "TECHNICIAN"
+      ],
+      "physicalData": {
+        "height": 2,
+        "weight": 125
+      }
+    },
+    {
+      "id": "HERACROSS1",
+      "image": "/images/pokemonFront/HERACROSS_1.png",
+      "location": "/images/location/HERACROSS_1.jpg",
+      "baseId": "HERACROSS",
+      "name": "Mega Heracross",
+      "form": "Mega Heracross",
+      "MegaStore": "HERACRONITE",
+      "types": [
+        "BUG",
+        "FIGHTING"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 185,
+        "defense": 115,
+        "specialAttack": 75,
+        "specialDefense": 40,
+        "speed": 105
+      },
+      "abilities": [
+        "SKILLLINK"
+      ],
+      "hiddenAbilities": [
+        "SKILLLINK"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 62.5
+      }
+    },
+    {
+      "id": "HOUNDOOM1",
+      "image": "/images/pokemonFront/HOUNDOOM_1.png",
+      "location": "/images/location/HOUNDOOM_1.jpg",
+      "baseId": "HOUNDOOM",
+      "name": "Mega Houndoom",
+      "form": "Mega Houndoom",
+      "MegaStore": "HOUNDOOMINITE",
+      "types": [
+        "DARK",
+        "FIRE"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 90,
+        "defense": 90,
+        "specialAttack": 115,
+        "specialDefense": 140,
+        "speed": 90
+      },
+      "abilities": [
+        "SOLARPOWER"
+      ],
+      "hiddenAbilities": [
+        "SOLARPOWER"
+      ],
+      "physicalData": {
+        "height": 1.9,
+        "weight": 49.5
+      }
+    },
+    {
+      "id": "TYRANITAR1",
+      "image": "/images/pokemonFront/TYRANITAR_1.png",
+      "location": "/images/location/TYRANITAR_1.jpg",
+      "baseId": "TYRANITAR",
+      "name": "Mega Tyranitar",
+      "form": "Mega Tyranitar",
+      "MegaStore": "TYRANITARITE",
+      "types": [
+        "ROCK",
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 164,
+        "defense": 150,
+        "specialAttack": 71,
+        "specialDefense": 95,
+        "speed": 120
+      },
+      "abilities": [],
+      "hiddenAbilities": [
+        "SANDSTREAM"
+      ],
+      "physicalData": {
+        "height": 2.5,
+        "weight": 255
+      }
+    },
+    {
+      "id": "SCEPTILE1",
+      "image": "/images/pokemonFront/SCEPTILE_1.png",
+      "location": "/images/location/SCEPTILE_1.jpg",
+      "baseId": "SCEPTILE",
+      "name": "Mega Sceptile",
+      "form": "Mega Sceptile",
+      "MegaStore": "SCEPTILITE",
+      "types": [
+        "GRASS",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 145,
+        "defense": 75,
+        "specialAttack": 145,
+        "specialDefense": 110,
+        "speed": 85
+      },
+      "abilities": [
+        "SILVANO"
+      ],
+      "hiddenAbilities": [
+        "SILVANO"
+      ],
+      "physicalData": {
+        "height": 1.9,
+        "weight": 55.2
+      }
+    },
+    {
+      "id": "BLAZIKEN1",
+      "image": "/images/pokemonFront/BLAZIKEN_1.png",
+      "location": "/images/location/BLAZIKEN_1.jpg",
+      "baseId": "BLAZIKEN",
+      "name": "Mega Blaziken",
+      "form": "Mega Blaziken",
+      "MegaStore": "BLAZIKENITE",
+      "types": [
+        "FIRE",
+        "FIGHTING"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 160,
+        "defense": 80,
+        "specialAttack": 100,
+        "specialDefense": 130,
+        "speed": 80
+      },
+      "abilities": [
+        "SPEEDBOOST"
+      ],
+      "hiddenAbilities": [
+        "SPEEDBOOST"
+      ],
+      "physicalData": {
+        "height": 1.9,
+        "weight": 52
+      }
+    },
+    {
+      "id": "SWAMPERT1",
+      "image": "/images/pokemonFront/SWAMPERT_1.png",
+      "location": "/images/location/SWAMPERT_1.jpg",
+      "baseId": "SWAMPERT",
+      "name": "Mega Swampert",
+      "form": "Mega Swampert",
+      "MegaStore": "SWAMPERTITE",
+      "types": [
+        "WATER",
+        "GROUND"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 150,
+        "defense": 110,
+        "specialAttack": 70,
+        "specialDefense": 95,
+        "speed": 110
+      },
+      "abilities": [
+        "SWIFTSWIM"
+      ],
+      "hiddenAbilities": [
+        "SWIFTSWIM"
+      ],
+      "physicalData": {
+        "height": 1.9,
+        "weight": 102
+      }
+    },
+    {
+      "id": "GARDEVOIR1",
+      "image": "/images/pokemonFront/GARDEVOIR_1.png",
+      "location": "/images/location/GARDEVOIR_1.jpg",
+      "baseId": "GARDEVOIR",
+      "name": "Mega Gardevoir",
+      "form": "Mega Gardevoir",
+      "MegaStore": "GARDEVOIRITE",
+      "types": [
+        "PSYCHIC",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 68,
+        "attack": 85,
+        "defense": 65,
+        "specialAttack": 100,
+        "specialDefense": 165,
+        "speed": 135
+      },
+      "abilities": [
+        "PIXILATE"
+      ],
+      "hiddenAbilities": [
+        "PIXILATE"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 48.4
+      }
+    },
+    {
+      "id": "SABLEYE1",
+      "image": "/images/pokemonFront/SABLEYE_1.png",
+      "location": "/images/location/SABLEYE_1.jpg",
+      "baseId": "SABLEYE",
+      "name": "Mega Sableye",
+      "form": "Mega Sableye",
+      "MegaStore": "SABLENITE",
+      "types": [
+        "DARK",
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 85,
+        "defense": 125,
+        "specialAttack": 20,
+        "specialDefense": 85,
+        "speed": 115
+      },
+      "abilities": [
+        "MAGICBOUNCE"
+      ],
+      "hiddenAbilities": [
+        "MAGICBOUNCE"
+      ],
+      "physicalData": {
+        "height": 0.5,
+        "weight": 161
+      }
+    },
+    {
+      "id": "MAWILE1",
+      "image": "/images/pokemonFront/MAWILE_1.png",
+      "location": "/images/location/MAWILE_1.jpg",
+      "baseId": "MAWILE",
+      "name": "Mega Mawile",
+      "form": "Mega Mawile",
+      "MegaStore": "MAWILITE",
+      "types": [
+        "STEEL",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 105,
+        "defense": 125,
+        "specialAttack": 50,
+        "specialDefense": 55,
+        "speed": 95
+      },
+      "abilities": [
+        "HUGEPOWER"
+      ],
+      "hiddenAbilities": [
+        "HUGEPOWER"
+      ],
+      "physicalData": {
+        "height": 1,
+        "weight": 23.5
+      }
+    },
+    {
+      "id": "AGGRON1",
+      "image": "/images/pokemonFront/AGGRON_1.png",
+      "location": "/images/location/AGGRON_1.jpg",
+      "baseId": "AGGRON",
+      "name": "Mega Aggron",
+      "form": "Mega Aggron",
+      "MegaStore": "AGGRONITE",
+      "types": [
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 140,
+        "defense": 230,
+        "specialAttack": 50,
+        "specialDefense": 60,
+        "speed": 80
+      },
+      "abilities": [
+        "FILTER"
+      ],
+      "hiddenAbilities": [
+        "FILTER"
+      ],
+      "physicalData": {
+        "height": 2.2,
+        "weight": 395
+      }
+    },
+    {
+      "id": "MEDICHAM1",
+      "image": "/images/pokemonFront/MEDICHAM_1.png",
+      "location": "/images/location/MEDICHAM_1.jpg",
+      "baseId": "MEDICHAM",
+      "name": "Mega Medicham",
+      "form": "Mega Medicham",
+      "MegaStore": "MEDICHAMITE",
+      "types": [
+        "FIGHTING",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 100,
+        "defense": 85,
+        "specialAttack": 100,
+        "specialDefense": 80,
+        "speed": 85
+      },
+      "abilities": [
+        "PUREPOWER"
+      ],
+      "hiddenAbilities": [
+        "PUREPOWER"
+      ],
+      "physicalData": {
+        "height": 1.3,
+        "weight": 31.5
+      }
+    },
+    {
+      "id": "MANECTRIC1",
+      "image": "/images/pokemonFront/MANECTRIC_1.png",
+      "location": "/images/location/MANECTRIC_1.jpg",
+      "baseId": "MANECTRIC",
+      "name": "Mega Manectric",
+      "form": "Mega Manectric",
+      "MegaStore": "MANECTITE",
+      "types": [
+        "ELECTRIC"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 75,
+        "defense": 80,
+        "specialAttack": 135,
+        "specialDefense": 135,
+        "speed": 80
+      },
+      "abilities": [
+        "INTIMIDATE"
+      ],
+      "hiddenAbilities": [
+        "INTIMIDATE"
+      ],
+      "physicalData": {
+        "height": 1.8,
+        "weight": 44
+      }
+    },
+    {
+      "id": "SHARPEDO1",
+      "image": "/images/pokemonFront/SHARPEDO_1.png",
+      "location": "/images/location/SHARPEDO_1.jpg",
+      "baseId": "SHARPEDO",
+      "name": "Mega Sharpedo",
+      "form": "Mega Sharpedo",
+      "MegaStore": "SHARPEDONITE",
+      "types": [
+        "WATER",
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 140,
+        "defense": 70,
+        "specialAttack": 105,
+        "specialDefense": 110,
+        "speed": 65
+      },
+      "abilities": [
+        "STRONGJAW"
+      ],
+      "hiddenAbilities": [
+        "STRONGJAW"
+      ],
+      "physicalData": {
+        "height": 2.5,
+        "weight": 130.3
+      }
+    },
+    {
+      "id": "CAMERUPT1",
+      "image": "/images/pokemonFront/CAMERUPT_1.png",
+      "location": "/images/location/CAMERUPT_1.jpg",
+      "baseId": "CAMERUPT",
+      "name": "Mega Camerupt",
+      "form": "Mega Camerupt",
+      "MegaStore": "CAMERUPTITE",
+      "types": [
+        "FIRE",
+        "GROUND"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 120,
+        "defense": 100,
+        "specialAttack": 30,
+        "specialDefense": 135,
+        "speed": 105
+      },
+      "abilities": [
+        "SHEERFORCE"
+      ],
+      "hiddenAbilities": [
+        "SHEERFORCE"
+      ],
+      "physicalData": {
+        "height": 2.5,
+        "weight": 320.5
+      }
+    },
+    {
+      "id": "ALTARIA1",
+      "image": "/images/pokemonFront/ALTARIA_1.png",
+      "location": "/images/location/ALTARIA_1.jpg",
+      "baseId": "ALTARIA",
+      "name": "Mega Altaria",
+      "form": "Mega Altaria",
+      "MegaStore": "ALTARIANITE",
+      "types": [
+        "DRAGON",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 110,
+        "defense": 110,
+        "specialAttack": 90,
+        "specialDefense": 120,
+        "speed": 105
+      },
+      "abilities": [
+        "PIXILATE"
+      ],
+      "hiddenAbilities": [
+        "PIXILATE"
+      ],
+      "physicalData": {
+        "height": 1.5,
+        "weight": 20.6
+      }
+    },
+    {
+      "id": "BANETTE1",
+      "image": "/images/pokemonFront/BANETTE_1.png",
+      "location": "/images/location/BANETTE_1.jpg",
+      "baseId": "BANETTE",
+      "name": "Mega Banette",
+      "form": "Mega Banette",
+      "MegaStore": "BANETTITE",
+      "types": [
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 64,
+        "attack": 165,
+        "defense": 75,
+        "specialAttack": 75,
+        "specialDefense": 93,
+        "speed": 83
+      },
+      "abilities": [
+        "PRANKSTER"
+      ],
+      "hiddenAbilities": [
+        "PRANKSTER"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 13
+      }
+    },
+    {
+      "id": "ABSOL1",
+      "image": "/images/pokemonFront/ABSOL_1.png",
+      "location": "/images/location/ABSOL_1.jpg",
+      "baseId": "ABSOL",
+      "name": "Mega Absol",
+      "form": "Mega Absol",
+      "MegaStore": "ABSOLITE",
+      "types": [
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 150,
+        "defense": 60,
+        "specialAttack": 115,
+        "specialDefense": 115,
+        "speed": 60
+      },
+      "abilities": [
+        "MAGICBOUNCE"
+      ],
+      "hiddenAbilities": [
+        "MAGICBOUNCE"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 49
+      }
+    },
+    {
+      "id": "GLALIE1",
+      "image": "/images/pokemonFront/GLALIE_1.png",
+      "location": "/images/location/GLALIE_1.jpg",
+      "baseId": "GLALIE",
+      "name": "Mega Glalie",
+      "form": "Mega Glalie",
+      "MegaStore": "GLALITITE",
+      "types": [
+        "ICE",
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 130,
+        "defense": 80,
+        "specialAttack": 100,
+        "specialDefense": 130,
+        "speed": 80
+      },
+      "abilities": [
+        "REFRIGERATE"
+      ],
+      "hiddenAbilities": [
+        "REFRIGERATE"
+      ],
+      "physicalData": {
+        "height": 2.1,
+        "weight": 350.2
+      }
+    },
+    {
+      "id": "SALAMENCE1",
+      "image": "/images/pokemonFront/SALAMENCE_1.png",
+      "location": "/images/location/SALAMENCE_1.jpg",
+      "baseId": "SALAMENCE",
+      "name": "Mega Salamence",
+      "form": "Mega Salamence",
+      "MegaStore": "SALAMENCITE",
+      "types": [
+        "DRAGON",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 145,
+        "defense": 130,
+        "specialAttack": 120,
+        "specialDefense": 120,
+        "speed": 90
+      },
+      "abilities": [
+        "AERILATE"
+      ],
+      "hiddenAbilities": [
+        "AERILATE"
+      ],
+      "physicalData": {
+        "height": 1.8,
+        "weight": 112.6
+      }
+    },
+    {
+      "id": "METAGROSS1",
+      "image": "/images/pokemonFront/METAGROSS_1.png",
+      "location": "/images/location/METAGROSS_1.jpg",
+      "baseId": "METAGROSS",
+      "name": "Mega Metagross",
+      "form": "Mega Metagross",
+      "MegaStore": "METAGROSSITE",
+      "types": [
+        "STEEL",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 145,
+        "defense": 130,
+        "specialAttack": 120,
+        "specialDefense": 120,
+        "speed": 90
+      },
+      "abilities": [
+        "TOUGHCLAWS"
+      ],
+      "hiddenAbilities": [
+        "TOUGHCLAWS"
+      ],
+      "physicalData": {
+        "height": 2.5,
+        "weight": 942.9
+      }
+    },
+    {
+      "id": "LATIAS1",
+      "image": "/images/pokemonFront/LATIAS_1.png",
+      "location": "/images/location/LATIAS_1.jpg",
+      "baseId": "LATIAS",
+      "name": "Mega Latias",
+      "form": "Mega Latias",
+      "MegaStore": "LATIASITE",
+      "types": [
+        "DRAGON",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 120,
+        "specialAttack": 110,
+        "specialDefense": 140,
+        "speed": 150
+      },
+      "abilities": [
+        "LEVITATE"
+      ],
+      "hiddenAbilities": [
+        "LEVITATE"
+      ],
+      "physicalData": {
+        "height": 1.8,
+        "weight": 52
+      }
+    },
+    {
+      "id": "LATIOS1",
+      "image": "/images/pokemonFront/LATIOS_1.png",
+      "location": "/images/location/LATIOS_1.jpg",
+      "baseId": "LATIOS",
+      "name": "Mega Latios",
+      "form": "Mega Latios",
+      "MegaStore": "LATIOSITE",
+      "types": [
+        "DRAGON",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 130,
+        "defense": 100,
+        "specialAttack": 110,
+        "specialDefense": 160,
+        "speed": 120
+      },
+      "abilities": [
+        "LEVITATE"
+      ],
+      "hiddenAbilities": [
+        "LEVITATE"
+      ],
+      "physicalData": {
+        "height": 2.3,
+        "weight": 70
+      }
+    },
+    {
+      "id": "RAYQUAZA1",
+      "image": "/images/pokemonFront/RAYQUAZA_1.png",
+      "location": "/images/location/RAYQUAZA_1.jpg",
+      "baseId": "RAYQUAZA",
+      "name": "Mega Rayquaza",
+      "form": "Mega Rayquaza",
+      "MegaStore": "DRAGONASCENT",
+      "types": [
+        "DRAGON",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "attack": 180,
+        "defense": 100,
+        "specialAttack": 115,
+        "specialDefense": 180,
+        "speed": 100
+      },
+      "abilities": [
+        "DELTASTREAM"
+      ],
+      "hiddenAbilities": [
+        "DELTASTREAM"
+      ],
+      "physicalData": {
+        "height": 10.8,
+        "weight": 392
+      }
+    },
+    {
+      "id": "LOPUNNY1",
+      "image": "/images/pokemonFront/LOPUNNY_1.png",
+      "location": "/images/location/LOPUNNY_1.jpg",
+      "baseId": "LOPUNNY",
+      "name": "Mega Lopunny",
+      "form": "Mega Lopunny",
+      "MegaStore": "LOPUNNITE",
+      "types": [
+        "NORMAL",
+        "FIGHTING"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 136,
+        "defense": 94,
+        "specialAttack": 135,
+        "specialDefense": 54,
+        "speed": 96
+      },
+      "abilities": [
+        "SCRAPPY"
+      ],
+      "hiddenAbilities": [
+        "SCRAPPY"
+      ],
+      "physicalData": {
+        "height": 1.3,
+        "weight": 28.3
+      }
+    },
+    {
+      "id": "GARCHOMP1",
+      "image": "/images/pokemonFront/GARCHOMP_1.png",
+      "location": "/images/location/GARCHOMP_1.jpg",
+      "baseId": "GARCHOMP",
+      "name": "Mega Garchomp",
+      "form": "Mega Garchomp",
+      "MegaStore": "GARCHOMPITE",
+      "types": ["DRAGON","GROUND"],
+      "baseStats": {
+        "hp": 108,
+        "attack": 170,
+        "defense": 115,
+        "specialAttack": 92,
+        "specialDefense": 120,
+        "speed": 95
+      },
+      "abilities": [
+        "SANDFORCE"
+      ],
+      "hiddenAbilities": [
+        "SANDFORCE"
+      ],
+      "physicalData": {
+        "height": null,
+        "weight": null
+      }
+    },
+    {
+      "id": "LUCARIO1",
+      "image": "/images/pokemonFront/LUCARIO_1.png",
+      "location": "/images/location/LUCARIO_1.jpg",
+      "baseId": "LUCARIO",
+      "name": "Mega Lucario",
+      "form": "Mega Lucario",
+      "MegaStore": "LUCARIONITE",
+      "types": ["FIGHTING","STEEL"],
+      "baseStats": {
+        "hp": 70,
+        "attack": 145,
+        "defense": 88,
+        "specialAttack": 112,
+        "specialDefense": 140,
+        "speed": 70
+      },
+      "abilities": [
+        "ADAPTABILITY"
+      ],
+      "hiddenAbilities": [
+        "ADAPTABILITY"
+      ],
+      "physicalData": {
+        "height": 1.3,
+        "weight": 57.5
+      }
+    },
+    {
+      "id": "ABOMASNOW1",
+      "image": "/images/pokemonFront/ABOMASNOW_1.png",
+      "location": "/images/location/ABOMASNOW_1.jpg",
+      "baseId": "ABOMASNOW",
+      "name": "Mega Abomasnow",
+      "form": "Mega Abomasnow",
+      "MegaStore": "ABOMASITE",
+      "types": ["GRASS","ICE"],
+      "baseStats": {
+        "hp": 90,
+        "attack": 132,
+        "defense": 105,
+        "specialAttack": 30,
+        "specialDefense": 132,
+        "speed": 105
+      },
+      "abilities": ["SNOWWARNING"],
+      "hiddenAbilities": [
+        "SNOWWARNING"
+      ],
+      "physicalData": {
+        "height": 2.7,
+        "weight": 185
+      }
+    },
+    {
+      "id": "GALLADE1",
+      "image": "/images/pokemonFront/GALLADE_1.png",
+      "location": "/images/location/GALLADE_1.jpg",
+      "baseId": "GALLADE",
+      "name": "Mega Gallade",
+      "form": "Mega Gallade",
+      "MegaStore": "GALLADITE",
+      "types": ["PSYCHIC","FIGHTING"],
+      "baseStats": {
+        "hp": 68,
+        "attack": 165,
+        "defense": 95,
+        "specialAttack": 110,
+        "specialDefense": 65,
+        "speed": 115
+      },
+      "abilities": [
+        "INNERFOCUS"
+      ],
+      "hiddenAbilities": [
+        "INNERFOCUS"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 56.4
+      }
+    },
+    {
+      "id": "AUDINO1",
+      "image": "/images/pokemonFront/AUDINO_1.png",
+      "location": "/images/location/AUDINO_1.jpg",
+      "baseId": "AUDINO",
+      "name": "Mega Audino",
+      "form": "Mega Audino",
+      "MegaStore": "AUDINITE",
+      "types": [
+        "NORMAL",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 103,
+        "attack": 60,
+        "defense": 126,
+        "specialAttack": 50,
+        "specialDefense": 80,
+        "speed": 126
+      },
+      "abilities": [
+        "HEALER"
+      ],
+      "hiddenAbilities": [
+        "HEALER"
+      ],
+      "physicalData": {
+        "height": 1.5,
+        "weight": 32
+      }
+    },
+    {
+      "id": "DIANCIE1",
+      "image": "/images/pokemonFront/DIANCIE_1.png",
+      "location": "/images/location/DIANCIE_1.jpg",
+      "baseId": "DIANCIE",
+      "name": "Mega Diancie",
+      "form": "Mega Diancie",
+      "MegaStore": "DIANCITE",
+      "types": ["ROCK","FAIRY"],
+      "baseStats": {
+        "hp": 50,
+        "attack": 160,
+        "defense": 110,
+        "specialAttack": 110,
+        "specialDefense": 160,
+        "speed": 110
+      },
+      "abilities": [
+        "MAGICBOUNCE"
+      ],
+      "hiddenAbilities": [
+        "MAGICBOUNCE"
+      ],
+      "physicalData": {
+        "height": 1.1,
+        "weight": 27.8
+      }
+    },
+    {
+      "id": "DRAGONITE1",
+      "image": "/images/pokemonFront/DRAGONITE_1.png",
+      "location": "/images/location/DRAGONITE_1.jpg",
+      "baseId": "DRAGONITE",
+      "name": "Mega Dragonite",
+      "form": "Mega Dragonite",
+      "MegaStore": "DRAGONITITE",
+      "types": ["DRAGON","FLYING"],
+      "baseStats": {
+        "hp": 91,
+        "attack": 154,
+        "defense": 105,
+        "specialAttack": 120,
+        "specialDefense": 120,
+        "speed": 110
+      },
+      "abilities": [
+        "MULTISCALE"
+      ],
+      "hiddenAbilities": [
+        "MULTISCALE"
+      ],
+      "physicalData": {
+        "height": 2.2,
+        "weight": 290
+      }
+    },
+    {
+      "id": "KINGLER1",
+      "image": "/images/pokemonFront/KINGLER_1.png",
+      "location": "/images/location/KINGLER_1.jpg",
+      "baseId": "KINGLER",
+      "name": "Mega Kingler",
+      "form": "Mega Kingler",
+      "MegaStore": "KINGLERITE",
+      "types": ["WATER"],
+      "baseStats": {
+        "hp": 75,
+        "attack": 170,
+        "defense": 135,
+        "specialAttack": 75,
+        "specialDefense": 70,
+        "speed": 75
+      },
+      "abilities": [
+        "TOUGHCLAWS"
+      ],
+      "hiddenAbilities": [
+        "TOUGHCLAWS"
+      ],
+      "physicalData": {
+        "height": 2,
+        "weight": 150
+      }
+    },
+    {
+      "id": "LAPRAS1",
+      "image": "/images/pokemonFront/LAPRAS_1.png",
+      "location": "/images/location/LAPRAS_1.jpg",
+      "baseId": "LAPRAS",
+      "name": "Mega Lapras",
+      "form": "Mega Lapras",
+      "MegaStore": "LAPRASITE",
+      "types": ["WATER","ICE"],
+      "baseStats": {
+        "hp": 130,
+        "attack": 95,
+        "defense": 100,
+        "specialAttack": 80,
+        "specialDefense": 125,
+        "speed": 105
+      },
+      "abilities": [
+        "REFRIGERATE"
+      ],
+      "hiddenAbilities": [
+        "REFRIGERATE"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": "???"
+      }
+    },
+    {
+      "id": "GARBODOR1",
+      "image": "/images/pokemonFront/GARBODOR_1.png",
+      "location": "/images/location/GARBODOR_1.jpg",
+      "baseId": "GARBODOR",
+      "name": "Mega Garbodor",
+      "form": "Mega Garbodor",
+      "MegaStore": "GARBODORITE",
+      "types": [
+        "POISON",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 125,
+        "defense": 112,
+        "specialAttack": 55,
+        "specialDefense": 95,
+        "speed": 112
+      },
+      "abilities": [
+        "MAGNETPULL"
+      ],
+      "hiddenAbilities": [
+        "MAGNETPULL"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": "???"
+      }
+    },
+    {
+      "id": "CORVIKNIGHT1",
+      "image": "/images/pokemonFront/CORVIKNIGHT_1.png",
+      "location": "/images/location/CORVIKNIGHT_1.jpg",
+      "baseId": "CORVIKNIGHT",
+      "name": "Mega Corviknight",
+      "form": "Mega Corviknight",
+      "MegaStore": "CORVIKNIGHTITE",
+      "types": [
+        "FLYING",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 98,
+        "attack": 117,
+        "defense": 125,
+        "specialAttack": 87,
+        "specialDefense": 73,
+        "speed": 95
+      },
+      "abilities": [
+        "RECKLESS"
+      ],
+      "hiddenAbilities": [
+        "RECKLESS"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": 120
+      }
+    },
+    {
+      "id": "ORBEETLE1",
+      "image": "/images/pokemonFront/ORBEETLE_1.png",
+      "location": "/images/location/ORBEETLE_1.jpg",
+      "baseId": "ORBEETLE",
+      "name": "Mega Orbeetle",
+      "form": "Mega Orbeetle",
+      "MegaStore": "ORBEETLEITE",
+      "types": [
+        "BUG",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 65,
+        "defense": 130,
+        "specialAttack": 100,
+        "specialDefense": 110,
+        "speed": 140
+      },
+      "abilities": [
+        "NEUROFORCE"
+      ],
+      "hiddenAbilities": [
+        "NEUROFORCE"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": "???"
+      }
+    },
+    {
+      "id": "BUTTERFREE1",
+      "image": "/images/pokemonFront/BUTTERFREE_1.png",
+      "location": "/images/location/BUTTERFREE_1.jpg",
+      "baseId": "BUTTERFREE",
+      "name": "Mega Butterfree",
+      "form": "Mega Butterfree",
+      "MegaStore": "BUTTERFREEITE",
+      "types": [
+        "BUG",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 55,
+        "defense": 70,
+        "specialAttack": 110,
+        "specialDefense": 120,
+        "speed": 130
+      },
+      "abilities": [
+        "COMPOUNDEYES"
+      ],
+      "hiddenAbilities": [
+        "COMPOUNDEYES"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": "???"
+      }
+    },
+    {
+      "id": "DREDNAW1",
+      "image": "/images/pokemonFront/DREDNAW_1.png",
+      "location": "/images/location/DREDNAW_1.jpg",
+      "baseId": "DREDNAW",
+      "name": "Mega Drednaw",
+      "form": "Mega Drednaw",
+      "MegaStore": "DREDNAWITE",
+      "types": [
+        "WATER",
+        "ROCK"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 145,
+        "defense": 130,
+        "specialAttack": 74,
+        "specialDefense": 58,
+        "speed": 88
+      },
+      "abilities": [
+        "SOLIDROCK"
+      ],
+      "hiddenAbilities": [
+        "SOLIDROCK"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": 115.5
+      }
+    },
+    {
+      "id": "COALOSSAL1",
+      "image": "/images/pokemonFront/COALOSSAL_1.png",
+      "location": "/images/location/COALOSSAL_1.jpg",
+      "baseId": "COALOSSAL",
+      "name": "Mega Coalossal",
+      "form": "Mega Coalossal",
+      "MegaStore": "COALOSSALITE",
+      "types": [
+        "ROCK",
+        "FIRE"
+      ],
+      "baseStats": {
+        "hp": 110,
+        "attack": 110,
+        "defense": 140,
+        "specialAttack": 30,
+        "specialDefense": 110,
+        "speed": 110
+      },
+      "abilities": [
+        "FLAMEBODY"
+      ],
+      "hiddenAbilities": [
+        "FLAMEBODY"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": 310.5
+      }
+    },
+    {
+      "id": "FLAPPLE1",
+      "image": "/images/pokemonFront/FLAPPLE_1.png",
+      "location": "/images/location/FLAPPLE_1.jpg",
+      "baseId": "FLAPPLE",
+      "name": "Mega Flapple",
+      "form": "Mega Flapple",
+      "MegaStore": "FLAPPLETUNITE",
+      "types": [
+        "GRASS",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 110,
+        "attack": 125,
+        "defense": 100,
+        "specialAttack": 50,
+        "specialDefense": 100,
+        "speed": 100
+      },
+      "abilities": [
+        "HUSTLE"
+      ],
+      "hiddenAbilities": [
+        "HUSTLE"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": 1
+      }
+    },
+    {
+      "id": "APPLETUN1",
+      "image": "/images/pokemonFront/APPLETUN_1.png",
+      "location": "/images/location/APPLETUN_1.jpg",
+      "baseId": "APPLETUN",
+      "name": "Mega Appletun",
+      "form": "Mega Appletun",
+      "MegaStore": "FLAPPLETUNITE",
+      "types": [
+        "GRASS",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 110,
+        "attack": 105,
+        "defense": 100,
+        "specialAttack": 50,
+        "specialDefense": 120,
+        "speed": 100
+      },
+      "abilities": [
+        "THICKFAT"
+      ],
+      "hiddenAbilities": [
+        "THICKFAT"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": 13
+      }
+    },
+    {
+      "id": "SANDACONDA1",
+      "image": "/images/pokemonFront/SANDACONDA_1.png",
+      "location": "/images/location/SANDACONDA_1.jpg",
+      "baseId": "SANDACONDA",
+      "name": "Mega Sandaconda",
+      "form": "Mega Sandaconda",
+      "MegaStore": "SANDACONDITE",
+      "types": [
+        "GROUND"
+      ],
+      "baseStats": {
+        "hp": 72,
+        "attack": 137,
+        "defense": 125,
+        "specialAttack": 131,
+        "specialDefense": 75,
+        "speed": 80
+      },
+      "abilities": [
+        "SANDSTREAM"
+      ],
+      "hiddenAbilities": [
+        "SANDSTREAM"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": 65.5
+      }
+    },
+    {
+      "id": "TOXTRICITY2",
+      "image": "/images/pokemonFront/TOXTRICITY_2.png",
+      "location": "/images/location/TOXTRICITY_2.jpg",
+      "baseId": "TOXTRICITY",
+      "name": "Mega Toxtricity",
+      "form": "Mega Toxtricity",
+      "MegaStore": "TOXTRICITITE",
+      "types": [
+        "ELECTRIC",
+        "POISON"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 118,
+        "defense": 90,
+        "specialAttack": 95,
+        "specialDefense": 144,
+        "speed": 80
+      },
+      "abilities": [
+        "DOWNLOAD"
+      ],
+      "hiddenAbilities": [
+        "DOWNLOAD"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": 40
+      }
+    },
+    {
+      "id": "CENTISKORCH1",
+      "image": "/images/pokemonFront/CENTISKORCH_1.png",
+      "location": "/images/location/CENTISKORCH_1.jpg",
+      "baseId": "CENTISKORCH",
+      "name": "Mega Centiskorch",
+      "form": "Mega Centiskorch",
+      "MegaStore": "CENTISKORCHITE",
+      "types": [
+        "FIRE",
+        "BUG"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 145,
+        "defense": 95,
+        "specialAttack": 95,
+        "specialDefense": 100,
+        "speed": 90
+      },
+      "abilities": [
+        "BLAZE"
+      ],
+      "hiddenAbilities": [
+        "BLAZE"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": 120
+      }
+    },
+    {
+      "id": "HATTERENE1",
+      "image": "/images/pokemonFront/HATTERENE_1.png",
+      "location": "/images/location/HATTERENE_1.jpg",
+      "baseId": "HATTERENE",
+      "name": "Mega Hatterene",
+      "form": "Mega Hatterene",
+      "MegaStore": "HATTERENITE",
+      "types": [
+        "PSYCHIC",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 57,
+        "attack": 110,
+        "defense": 115,
+        "specialAttack": 49,
+        "specialDefense": 156,
+        "speed": 123
+      },
+      "abilities": [
+        "MAGICBOUNCE"
+      ],
+      "hiddenAbilities": [
+        "MAGICBOUNCE"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": 120
+      }
+    },
+    {
+      "id": "GRIMMSNARL1",
+      "image": "/images/pokemonFront/GRIMMSNARL_1.png",
+      "location": "/images/location/GRIMMSNARL_1.jpg",
+      "baseId": "GRIMMSNARL",
+      "name": "Mega Grimmsnarl",
+      "form": "Mega Grimmsnarl",
+      "MegaStore": "GRIMMSNARLITE",
+      "types": [
+        "DARK",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 150,
+        "defense": 85,
+        "specialAttack": 90,
+        "specialDefense": 115,
+        "speed": 75
+      },
+      "abilities": [
+        "SHEERFORCE"
+      ],
+      "hiddenAbilities": [
+        "SHEERFORCE"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": 120
+      }
+    },
+    {
+      "id": "ALCREMIE63",
+      "image": "/images/pokemonFront/ALCREMIE_63.png",
+      "location": "/images/location/ALCREMIE_63.jpg",
+      "baseId": "ALCREMIE",
+      "name": "Mega Alcremie",
+      "form": "Mega Alcremie",
+      "MegaStore": "ALCREMITE",
+      "types": [
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 80,
+        "defense": 105,
+        "specialAttack": 64,
+        "specialDefense": 130,
+        "speed": 151
+      },
+      "abilities": [
+        "REGENERATOR"
+      ],
+      "hiddenAbilities": [
+        "REGENERATOR"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": 5
+      }
+    },
+    {
+      "id": "COPPERAJAH1",
+      "image": "/images/pokemonFront/COPPERAJAH_1.png",
+      "location": "/images/location/COPPERAJAH_1.jpg",
+      "baseId": "COPPERAJAH",
+      "name": "Mega Copperajah",
+      "form": "Mega Copperajah",
+      "MegaStore": "COPPERAJITE",
+      "types": [
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 122,
+        "attack": 150,
+        "defense": 99,
+        "specialAttack": 80,
+        "specialDefense": 80,
+        "speed": 69
+      },
+      "abilities": [
+        "SHEERFORCE"
+      ],
+      "hiddenAbilities": [
+        "SHEERFORCE"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": 650
+      }
+    },
+    {
+      "id": "DURALUDON1",
+      "image": "/images/pokemonFront/DURALUDON_1.png",
+      "location": "/images/location/DURALUDON_1.jpg",
+      "baseId": "DURALUDON",
+      "name": "Mega Duraludon",
+      "form": "Mega Duraludon",
+      "MegaStore": "DURALUDONITE",
+      "types": [
+        "STEEL",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 115,
+        "defense": 135,
+        "specialAttack": 105,
+        "specialDefense": 140,
+        "speed": 70
+      },
+      "abilities": [
+        "CLEARBODY"
+      ],
+      "hiddenAbilities": [
+        "CLEARBODY"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": 600
+      }
+    },
+    {
+      "id": "HAWLUCHA1",
+      "image": "/images/pokemonFront/HAWLUCHA_1.png",
+      "location": "/images/location/HAWLUCHA_1.jpg",
+      "baseId": "HAWLUCHA",
+      "name": "Mega Hawlucha",
+      "form": "Mega Hawlucha",
+      "MegaStore": "HAWLUCHITE",
+      "types": ["FIGHTING","FLYING"],
+      "baseStats": {
+        "hp": 78,
+        "attack": 132,
+        "defense": 105,
+        "specialAttack": 118,
+        "specialDefense": 74,
+        "speed": 93
+      },
+      "abilities": [
+        "MOLDBREAKER"
+      ],
+      "hiddenAbilities": [
+        "MOLDBREAKER"
+      ],
+      "physicalData": {
+        "height": 1,
+        "weight": 25
+      }
+    },
+    {
+      "id": "EEVEE2",
+      "image": "/images/pokemonFront/EEVEE_2.png",
+      "location": "/images/location/EEVEE_2.jpg",
+      "baseId": "EEVEE",
+      "name": "Mega Eevee",
+      "form": "Mega Eevee",
+      "MegaStore": "EEVEEITE",
+      "types": ["NORMAL"],
+      "baseStats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 110,
+        "specialAttack": 75,
+        "specialDefense": 80,
+        "speed": 115
+      },
+      "abilities": [
+        "ADAPTABILITY"
+      ],
+      "hiddenAbilities": [
+        "ADAPTABILITY"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": "???"
+      }
+    },
+    {
+      "id": "MALAMAR1",
+      "image": "/images/pokemonFront/MALAMAR_1.png",
+      "location": "/images/location/MALAMAR_1.jpg",
+      "baseId": "MALAMAR",
+      "name": "Mega Malamar",
+      "form": "Mega Malamar",
+      "MegaStore": "MALAMARITE",
+      "types": ["DARK","PSYCHIC"],
+      "baseStats": {
+        "hp": 86,
+        "attack": 110,
+        "defense": 108,
+        "specialAttack": 93,
+        "specialDefense": 108,
+        "speed": 95
+      },
+      "abilities": [
+        "NEUROFORCE"
+      ],
+      "hiddenAbilities": [
+        "NEUROFORCE"
+      ],
+      "physicalData": {
+        "height": 2.9,
+        "weight": 69.8
+      }
+    },
+    {
+      "id": "JUMPLUFF1",
+      "image": "/images/pokemonFront/JUMPLUFF_1.png",
+      "location": "/images/location/JUMPLUFF_1.jpg",
+      "baseId": "JUMPLUFF",
+      "name": "Mega Jumpluff",
+      "form": "Mega Jumpluff",
+      "MegaStore": "JUMPLUFITE",
+      "types": ["GRASS","FLYING"],
+      "baseStats": {
+        "hp": 75,
+        "attack": 100,
+        "defense": 100,
+        "specialAttack": 130,
+        "specialDefense": 55,
+        "speed": 125
+      },
+      "abilities": [
+        "WINDRIDER"
+      ],
+      "hiddenAbilities": [
+        "WINDRIDER"
+      ],
+      "physicalData": {
+        "height": 1.8,
+        "weight": 20
+      }
+    },
+    {
+      "id": "RILLABOOM1",
+      "image": "/images/pokemonFront/RILLABOOM_1.png",
+      "location": "/images/location/RILLABOOM_1.jpg",
+      "baseId": "RILLABOOM",
+      "name": "Mega Rillaboom",
+      "form": "Mega Rillaboom",
+      "MegaStore": "RILLABOOMITE",
+      "types": ["GRASS"],
+      "baseStats": {
+        "hp": 100,
+        "attack": 155,
+        "defense": 120,
+        "specialAttack": 66,
+        "specialDefense": 100,
+        "speed": 90
+      },
+      "abilities": [
+        "PUNKROCK"
+      ],
+      "hiddenAbilities": [
+        "PUNKROCK"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": "???"
+      }
+    },
+    {
+      "id": "CINDERACE1",
+      "image": "/images/pokemonFront/CINDERACE_1.png",
+      "location": "/images/location/CINDERACE_1.jpg",
+      "baseId": "CINDERACE",
+      "name": "Mega Cinderace",
+      "form": "Mega Cinderace",
+      "MegaStore": "CINDERECITE",
+      "types": ["FIRE"],
+      "baseStats": {
+        "hp": 80,
+        "attack": 146,
+        "defense": 85,
+        "specialAttack": 139,
+        "specialDefense": 95,
+        "speed": 85
+      },
+      "abilities": [
+        "LIBERO"
+      ],
+      "hiddenAbilities": [
+        "LIBERO"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": "???"
+      }
+    },
+    {
+      "id": "INTELEON1",
+      "image": "/images/pokemonFront/INTELEON_1.png",
+      "location": "/images/location/INTELEON_1.jpg",
+      "baseId": "INTELEON",
+      "name": "Mega Inteleon",
+      "form": "Mega Inteleon",
+      "MegaStore": "INTELEONITE",
+      "types": ["WATER","DARK"],
+      "baseStats": {
+        "hp": 70,
+        "attack": 95,
+        "defense": 75,
+        "specialAttack": 140,
+        "specialDefense": 175,
+        "speed": 75
+      },
+      "abilities": [
+        "SNIPER"
+      ],
+      "hiddenAbilities": [
+        "SNIPER"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": "???"
+      }
+    },
+    {
+      "id": "SNORLAX1",
+      "image": "/images/pokemonFront/SNORLAX_1.png",
+      "location": "/images/location/SNORLAX_1.jpg",
+      "baseId": "SNORLAX",
+      "name": "Mega Snorlax",
+      "form": "Mega Snorlax",
+      "MegaStore": "SNORLAXITE",
+      "types": ["NORMAL"],
+      "baseStats": {
+        "hp": 160,
+        "attack": 130,
+        "defense": 85,
+        "specialAttack": 30,
+        "specialDefense": 95,
+        "speed": 140
+      },
+      "abilities": [
+        "THICKFAT"
+      ],
+      "hiddenAbilities": [
+        "THICKFAT"
+      ],
+      "physicalData": {
+        "height": 3.4,
+        "weight": 730
+      }
+    },
+    {
+      "id": "CHESNAUGHT1",
+      "image": "/images/pokemonFront/CHESNAUGHT_1.png",
+      "location": "/images/location/CHESNAUGHT_1.jpg",
+      "baseId": "CHESNAUGHT",
+      "name": "Mega Chesnaught",
+      "form": "Mega Chesnaught",
+      "MegaStore": "CHESNAUGHTITE",
+      "types": ["GRASS","FIGHTING"],
+      "baseStats": {
+        "hp": 100,
+        "attack": 137,
+        "defense": 142,
+        "specialAttack": 84,
+        "specialDefense": 84,
+        "speed": 95
+      },
+      "abilities": [
+        "BULLETPROOF"
+      ],
+      "hiddenAbilities": [
+        "BULLETPROOF"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 90
+      }
+    },
+    {
+      "id": "DELPHOX1",
+      "image": "/images/pokemonFront/DELPHOX_1.png",
+      "location": "/images/location/DELPHOX_1.jpg",
+      "baseId": "DELPHOX",
+      "name": "Mega Delphox",
+      "form": "Mega Delphox",
+      "MegaStore": "DELPHOXITE",
+      "types": ["FIRE","PSYCHIC"],
+      "baseStats": {
+        "hp": 75,
+        "attack": 89,
+        "defense": 92,
+        "specialAttack": 124,
+        "specialDefense": 134,
+        "speed": 120
+      },
+      "abilities": [
+        "MAGICGUARD"
+      ],
+      "hiddenAbilities": [
+        "MAGICGUARD"
+      ],
+      "physicalData": {
+        "height": 1.5,
+        "weight": 39
+      }
+    },
+    {
+      "id": "GRENINJA3",
+      "image": "/images/pokemonFront/GRENINJA_3.png",
+      "location": "/images/location/GRENINJA_3.jpg",
+      "baseId": "GRENINJA",
+      "name": "Mega Greninja",
+      "form": "Mega Greninja",
+      "MegaStore": "GRENINJITE",
+      "types": ["WATER","DARK"],
+      "baseStats": {
+        "hp": 72,
+        "attack": 115,
+        "defense": 87,
+        "specialAttack": 142,
+        "specialDefense": 123,
+        "speed": 91
+      },
+      "abilities": [
+        "SKILLLINK"
+      ],
+      "hiddenAbilities": [
+        "SKILLLINK"
+      ],
+      "physicalData": {
+        "height": 1.5,
+        "weight": 40
       }
     }
   ]
