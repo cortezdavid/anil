@@ -147,18 +147,18 @@ const Navbar = () => {
 
             {/* Links móvil */}
             <Link
-              to="/objetos"
+              to="/mt"
               onClick={() => setMobileMenuOpen(false)}
               className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-3 rounded-lg text-sm font-bold transition-all duration-200"
             >
-              Objetos
+              Mt's
             </Link>
             <Link
               to="/contacto"
               onClick={() => setMobileMenuOpen(false)}
               className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-3 rounded-lg text-sm font-bold transition-all duration-200"
             >
-              Contacto
+              Vacio
             </Link>
           </div>
         )}
