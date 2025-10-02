@@ -80,10 +80,10 @@ const Navbar = () => {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
               <Link
-                to="/objetos"
+                to="/mt"
                 className="text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200"
               >
-                Vacio
+                Mt's
               </Link>
               <Link
                 to="/contacto"

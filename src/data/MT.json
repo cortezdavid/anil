@@ -1,0 +1,790 @@
+{
+  "mt": [
+    {
+      "id": "MT01",
+      "move": "BLIZZARD",
+      "img": "/images/mt/MT01.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT02",
+      "move": "DRAGONCLAW",
+      "img": "/images/mt/MT02.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT03",
+      "move": "PSYSHOCK",
+      "img": "/images/mt/MT03.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT04",
+      "move": "CALMMIND",
+      "img": "/images/mt/MT04.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT05",
+      "move": "METRONOME",
+      "img": "/images/mt/MT05.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT06",
+      "move": "IRONHEAD",
+      "img": "/images/mt/MT06.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT07",
+      "move": "HAIL",
+      "img": "/images/mt/MT07.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT08",
+      "move": "BULKUP",
+      "img": "/images/mt/MT08.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT09",
+      "move": "LIQUIDATION",
+      "img": "/images/mt/MT09.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT10",
+      "move": "STEALTHROCK",
+      "img": "/images/mt/MT10.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT11",
+      "move": "SUNNYDAY",
+      "img": "/images/mt/MT11.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT12",
+      "move": "TAUNT",
+      "img": "/images/mt/MT12.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT13",
+      "move": "ICEBEAM",
+      "img": "/images/mt/MT13.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT14",
+      "move": "HIDDENPOWER",
+      "img": "/images/mt/MT14.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT15",
+      "move": "SURF",
+      "img": "/images/mt/MT15.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT16",
+      "move": "LIGHTSCREEN",
+      "img": "/images/mt/MT16.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT17",
+      "move": "PROTECT",
+      "img": "/images/mt/MT17.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT18",
+      "move": "RAINDANCE",
+      "img": "/images/mt/MT18.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT19",
+      "move": "ESCALOFRIO",
+      "img": "/images/mt/MT19.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT20",
+      "move": "BRINE",
+      "img": "/images/mt/MT20.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT21",
+      "move": "SIGNALBEAM",
+      "img": "/images/mt/MT21.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT22",
+      "move": "SOLARBEAM",
+      "img": "/images/mt/MT22.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT23",
+      "move": "AIRCUTTER",
+      "img": "/images/mt/MT23.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT24",
+      "move": "THUNDERBOLT",
+      "img": "/images/mt/MT24.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT25",
+      "move": "SEEDBOMB",
+      "img": "/images/mt/MT25.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT26",
+      "move": "EARTHQUAKE",
+      "img": "/images/mt/MT26.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT27",
+      "move": "RETURN",
+      "img": "/images/mt/MT27.jpg",
+      "route": "Ciudad Plateada"
+    },
+    {
+      "id": "MT28",
+      "move": "FLY",
+      "img": "/images/mt/MT28.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT29",
+      "move": "PSYCHIC",
+      "img": "/images/mt/MT29.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT30",
+      "move": "SHADOWBALL",
+      "img": "/images/mt/MT30.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT31",
+      "move": "BRICKBREAK",
+      "img": "/images/mt/MT31.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT32",
+      "move": "AQUATAIL",
+      "img": "/images/mt/MT32.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT33",
+      "move": "REFLECT",
+      "img": "/images/mt/MT33.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT34",
+      "move": "POWERGEM",
+      "img": "/images/mt/MT34.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT35",
+      "move": "LOWKICK",
+      "img": "/images/mt/MT35.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT36",
+      "move": "SLUDGEBOMB",
+      "img": "/images/mt/MT36.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT37",
+      "move": "SANDSTORM",
+      "img": "/images/mt/MT37.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT38",
+      "move": "FIREBLAST",
+      "img": "/images/mt/MT38.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT39",
+      "move": "ROCKTOMB",
+      "img": "/images/mt/MT39.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT40",
+      "move": "AERIALACE",
+      "img": "/images/mt/MT40.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT41",
+      "move": "FIREPUNCH",
+      "img": "/images/mt/MT41.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT42",
+      "move": "FACADE",
+      "img": "/images/mt/MT42.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT43",
+      "move": "FLAMECHARGE",
+      "img": "/images/mt/MT43.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT44",
+      "move": "REST",
+      "img": "/images/mt/MT44.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT45",
+      "move": "ATTRACT",
+      "img": "/images/mt/MT45.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT46",
+      "move": "THIEF",
+      "img": "/images/mt/MT46.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT47",
+      "move": "FURYCUTTER",
+      "img": "/images/mt/MT47.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT48",
+      "move": "THUNDERPUNCH",
+      "img": "/images/mt/MT48.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT49",
+      "move": "ICEPUNCH",
+      "img": "/images/mt/MT49.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT50",
+      "move": "ZENHEADBUTT",
+      "img": "/images/mt/MT50.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT51",
+      "move": "WATERPULSE",
+      "img": "/images/mt/MT51.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT52",
+      "move": "FOCUSBLAST",
+      "img": "/images/mt/MT52.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT53",
+      "move": "ENERGYBALL",
+      "img": "/images/mt/MT53.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT54",
+      "move": "FALSESWIPE",
+      "img": "/images/mt/MT54.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT55",
+      "move": "CHILLINGWATER",
+      "img": "/images/mt/MT55.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT56",
+      "move": "IRONTAIL",
+      "img": "/images/mt/MT56.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT57",
+      "move": "CHARGEBEAM",
+      "img": "/images/mt/MT57.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT58",
+      "move": "FLAMETHROWER",
+      "img": "/images/mt/MT58.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT59",
+      "move": "INCINERATE",
+      "img": "/images/mt/MT59.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT60",
+      "move": "STEELWING",
+      "img": "/images/mt/MT60.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT61",
+      "move": "WILLOWISP",
+      "img": "/images/mt/MT61.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT62",
+      "move": "ACROBATICS",
+      "img": "/images/mt/MT62.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT63",
+      "move": "GIGADRAIN",
+      "img": "/images/mt/MT63.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT64",
+      "move": "DRAGONPULSE",
+      "img": "/images/mt/MT64.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT65",
+      "move": "SHADOWCLAW",
+      "img": "/images/mt/MT65.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT66",
+      "move": "PAYBACK",
+      "img": "/images/mt/MT66.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT67",
+      "move": "DUALWINGBEAT",
+      "img": "/images/mt/MT67.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT68",
+      "move": "PLAYROUGH",
+      "img": "/images/mt/MT68.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT69",
+      "move": "SHOCKWAVE",
+      "img": "/images/mt/MT69.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT70",
+      "move": "HYPERVOICE",
+      "img": "/images/mt/MT70.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT71",
+      "move": "STONEEDGE",
+      "img": "/images/mt/MT71.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT72",
+      "move": "VOLTSWITCH",
+      "img": "/images/mt/MT72.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT73",
+      "move": "THUNDERWAVE",
+      "img": "/images/mt/MT73.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT74",
+      "move": "GYROBALL",
+      "img": "/images/mt/MT74.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT75",
+      "move": "SWORDSDANCE",
+      "img": "/images/mt/MT75.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT76",
+      "move": "THUNDER",
+      "img": "/images/mt/MT76.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT77",
+      "move": "DAZZLINGGLEAM",
+      "img": "/images/mt/MT77.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT78",
+      "move": "BULLDOZE",
+      "img": "/images/mt/MT78.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT79",
+      "move": "NASTYPLOT",
+      "img": "/images/mt/MT79.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT80",
+      "move": "ROCKSLIDE",
+      "img": "/images/mt/MT80.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT81",
+      "move": "XSCISSOR",
+      "img": "/images/mt/MT81.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT82",
+      "move": "MEGAHORN",
+      "img": "/images/mt/MT82.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT83",
+      "move": "WORKUP",
+      "img": "/images/mt/MT83.jpg",
+      "route": "Ciudad Verde"
+    },
+    {
+      "id": "MT84",
+      "move": "POISONJAB",
+      "img": "/images/mt/MT84.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT85",
+      "move": "ICYWIND",
+      "img": "/images/mt/MT85.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT86",
+      "move": "GRASSKNOT",
+      "img": "/images/mt/MT86.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT87",
+      "move": "DARKPULSE",
+      "img": "/images/mt/MT87.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT88",
+      "move": "EARTHPOWER",
+      "img": "/images/mt/MT88.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT89",
+      "move": "UTURN",
+      "img": "/images/mt/MT89.jpg",
+      "route": "Bosque Verde"
+    },
+    {
+      "id": "MT90",
+      "move": "SUBSTITUTE",
+      "img": "/images/mt/MT90.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT91",
+      "move": "FLASHCANNON",
+      "img": "/images/mt/MT91.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT92",
+      "move": "HEATWAVE",
+      "img": "/images/mt/MT92.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT93",
+      "move": "WILDCHARGE",
+      "img": "/images/mt/MT93.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT94",
+      "move": "ROCKSMASH",
+      "img": "/images/mt/MT94.jpg",
+      "route": "Ciudad Plateada"
+    },
+    {
+      "id": "MT95",
+      "move": "FLIPTURN",
+      "img": "/images/mt/MT95.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT96",
+      "move": "DRAINPUNCH",
+      "img": "/images/mt/MT96.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT97",
+      "move": "SCORCHINGSANDS",
+      "img": "/images/mt/MT97.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT98",
+      "move": "TOXICSPIKES",
+      "img": "/images/mt/MT98.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT99",
+      "move": "TRIPLEAXEL",
+      "img": "/images/mt/MT99.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT100",
+      "move": "DRACOMETEOR",
+      "img": "/images/mt/MT100.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT101",
+      "move": "POUNCE",
+      "img": "/images/mt/MT101.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT102",
+      "move": "TRAILBLAZE",
+      "img": "/images/mt/MT102.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT103",
+      "move": "ICESPINNER",
+      "img": "/images/mt/MT103.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT104",
+      "move": "ECHOEDVOICE",
+      "img": "/images/mt/MT104.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT105",
+      "move": "ROOST",
+      "img": "/images/mt/MT105.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT106",
+      "move": "SUPERPOWER",
+      "img": "/images/mt/MT106.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT107",
+      "move": "TRICKROOM",
+      "img": "/images/mt/MT107.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT108",
+      "move": "STRENGTH",
+      "img": "/images/mt/MT108.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT109",
+      "move": "BULLETSEED",
+      "img": "/images/mt/MT109.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT110",
+      "move": "HYPERBEAM",
+      "img": "/images/mt/MT110.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT111",
+      "move": "SAFEGUARD",
+      "img": "/images/mt/MT111.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT112",
+      "move": "DIG",
+      "img": "/images/mt/MT112.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT113",
+      "move": "DOUBLETEAM",
+      "img": "/images/mt/MT113.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT114",
+      "move": "TORMENT",
+      "img": "/images/mt/MT114.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT115",
+      "move": "BUGBUZZ",
+      "img": "/images/mt/MT115.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT116",
+      "move": "SNARL",
+      "img": "/images/mt/MT116.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT117",
+      "move": "PLUCK",
+      "img": "/images/mt/MT117.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT118",
+      "move": "WATERFALL",
+      "img": "/images/mt/MT118.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT119",
+      "move": "ROCKCLIMB",
+      "img": "/images/mt/MT119.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT120",
+      "move": "AVALANCHE",
+      "img": "/images/mt/MT120.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT121",
+      "move": "TOXIC",
+      "img": "/images/mt/MT121.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT122",
+      "move": "SUPERCELLSLAM",
+      "img": "/images/mt/MT122.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT123",
+      "move": "SCALD",
+      "img": "/images/mt/MT123.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT124",
+      "move": "DRAGONCHEER",
+      "img": "/images/mt/MT124.jpg",
+      "route": ""
+    },
+    {
+      "id": "MT125",
+      "move": "ALLURINGVOICE",
+      "img": "/images/mt/MT125.jpg",
+      "route": ""
+    },
+    {
+      "id": "HM01",
+      "move": "CUT",
+      "img": "/images/mt/HM01.jpg",
+      "route": ""
+    },
+    {
+      "id": "HM02",
+      "move": "FLY",
+      "img": "/images/mt/HM02.jpg",
+      "route": ""
+    },
+    {
+      "id": "HM03",
+      "move": "SURF",
+      "img": "/images/mt/HM03.jpg",
+      "route": ""
+    },
+    {
+      "id": "HM04",
+      "move": "STRENGTH",
+      "img": "/images/mt/HM04.jpg",
+      "route": ""
+    },
+    {
+      "id": "HM05",
+      "move": "WATERFALL",
+      "img": "/images/mt/HM05.jpg",
+      "route": ""
+    },
+    {
+      "id": "HM06",
+      "move": "DIVE",
+      "img": "/images/mt/HM06.jpg",
+      "route": ""
+    }
+  ]
+}

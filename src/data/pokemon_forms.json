@@ -4322,7 +4322,7 @@
       }
     },
     {
-      "id": "TOXTRICITY",
+      "id": "TOXTRICITY1",
       "image": "/images/pokemonFront/TOXTRICITY_1.png",
       "location": "/images/location/TOXTRICITY_1.jpg",
       "baseId": "TOXTRICITY",
@@ -4354,7 +4354,7 @@
       }
     },
     {
-      "id": "GROWLITHE",
+      "id": "GROWLITHE1",
       "image": "/images/pokemonFront/GROWLITHE_1.png",
       "location": "/images/location/GROWLITHE_1.jpg",
       "baseId": "GROWLITHE",
@@ -4383,6 +4383,76 @@
       "physicalData": {
         "height": 0.8,
         "weight": 22.7
+      },
+      "evolutions": [
+        {
+          "species": "ARCANINE_1",
+          "method": "Objeto",
+          "requirement": "FIRESTONE"
+        }
+      ]
+    },
+    {
+      "id": "ARCANINE1",
+      "image": "/images/pokemonFront/ARCANINE_1.png",
+      "location": "/images/location/ARCANINE_1.jpg",
+      "baseId": "ARCANINE",
+      "name": "Arcanine",
+      "form": "Forma Hisui",
+      "pokedex": "Lanza dentelladas con colmillos envueltos en un intenso fuego. A pesar de su gran tamaño, es un maestro de las fintas y juguetea alrededor de sus oponentes.",
+      "types": [
+        "FIRE",
+        "ROCK"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 115,
+        "defense": 80,
+        "specialAttack": 90,
+        "specialDefense": 95,
+        "speed": 80
+      },
+      "abilities": [
+        "INTIMIDATE",
+        "FLASHFIRE"
+      ],
+      "hiddenAbilities": [
+        "ROCKHEAD"
+      ],
+      "physicalData": {
+        "height": 2,
+        "weight": 168
+      }
+    },
+    {
+      "id": "TAUROS1",
+      "image": "/images/pokemonFront/TAUROS_1.png",
+      "location": "/images/location/TAUROS_1.jpg",
+      "baseId": "TAUROS",
+      "name": "Tauros",
+      "form": "Forma Paldea",
+      "pokedex": "La Variedad Combatiente se distingue por su fornida y poderosa musculatura y por su temperamento especialmente agresivo.",
+      "types": [
+        "FIGHTING"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 110,
+        "defense": 105,
+        "specialAttack": 100,
+        "specialDefense": 30,
+        "speed": 70
+      },
+      "abilities": [
+        "INTIMIDATE",
+        "ACOMETIDA"
+      ],
+      "hiddenAbilities": [
+        "CUDCHEW"
+      ],
+      "physicalData": {
+        "height": 1.4,
+        "weight": 115
       }
     }
   ]
