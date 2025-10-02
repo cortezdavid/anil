@@ -42,10 +42,6 @@ const Pokemon = () => {
       <div className="max-w-7xl mx-auto px-4 py-8">
         <Navegation pokemones={pokemones} />
         <div className="space-y-8">
-          <div className="mb-8">
-            {/* Selector de formas - solo si hay variantes */}
-
-          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <PokemonInformation pokemon={displayPokemon} variants={variants} handleFormChange={handleFormChange} handleBaseForm={handleBaseForm} selectedForm={selectedForm} />
             <div className="space-y-6">
