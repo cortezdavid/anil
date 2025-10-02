@@ -52,6 +52,24 @@ const MT = () => {
     setOpenMT(openMT === mtId ? null : mtId);
   };
 
+  {
+    mts.map(mt => {
+      console.log('MT completo:', mt); // Mira la consola del navegador en Vercel
+      console.log('Route value:', mt.route);
+      console.log('Route type:', typeof mt.route);
+
+      return (
+        <li key={mt.id}>
+          <p>{mt.id}</p>
+          <p>Route directo: "{mt.route}"</p>
+          <p>Route con OR: {mt.route || 'UNDEFINED'}</p>
+          <p>Keys del objeto: {Object.keys(mt).join(', ')}</p>
+        </li>
+      );
+    })
+  }
+
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-blue-100 to-indigo-100">
       <div className="max-w-7xl mx-auto px-4 py-8">
@@ -78,7 +96,7 @@ const MT = () => {
                     <div className="bg-blue-600 text-white font-black px-4 py-2 rounded-lg shadow-md">
                       {mt.id}
                     </div>
-                    
+
                     {/* Nombre del movimiento */}
                     <div className="text-left">
                       <div className="font-black text-lg text-gray-900">{moveData.name}</div>
@@ -91,10 +109,10 @@ const MT = () => {
                     <span className={`px-3 py-1 rounded-full text-xs font-bold text-white ${getTypeColor(moveData.type)}`}>
                       {getTypeName(moveData.type)}
                     </span>
-                    <svg 
+                    <svg
                       className={`w-6 h-6 text-blue-600 transform transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
-                      fill="none" 
-                      stroke="currentColor" 
+                      fill="none"
+                      stroke="currentColor"
                       viewBox="0 0 24 24"
                     >
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -108,8 +126,8 @@ const MT = () => {
                     <div className="grid md:grid-cols-2 gap-6">
                       {/* Imagen */}
                       <div className="bg-white rounded-lg p-4 shadow-md border-2 border-blue-200">
-                        <img 
-                          src={mt.img} 
+                        <img
+                          src={mt.img}
                           alt={`Ubicación ${mt.id}`}
                           className="w-full h-auto rounded-lg"
                         />
