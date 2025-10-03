@@ -749,42 +749,6 @@
       "move": "ALLURINGVOICE",
       "img": "/images/mt/MT125.jpg",
       "route": ""
-    },
-    {
-      "id": "HM01",
-      "move": "CUT",
-      "img": "/images/mt/HM01.jpg",
-      "route": ""
-    },
-    {
-      "id": "HM02",
-      "move": "FLY",
-      "img": "/images/mt/HM02.jpg",
-      "route": ""
-    },
-    {
-      "id": "HM03",
-      "move": "SURF",
-      "img": "/images/mt/HM03.jpg",
-      "route": ""
-    },
-    {
-      "id": "HM04",
-      "move": "STRENGTH",
-      "img": "/images/mt/HM04.jpg",
-      "route": ""
-    },
-    {
-      "id": "HM05",
-      "move": "WATERFALL",
-      "img": "/images/mt/HM05.jpg",
-      "route": ""
-    },
-    {
-      "id": "HM06",
-      "move": "DIVE",
-      "img": "/images/mt/HM06.jpg",
-      "route": ""
     }
   ]
 }
