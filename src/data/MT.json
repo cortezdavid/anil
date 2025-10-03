@@ -58,7 +58,7 @@
       "id": "MT10",
       "move": "STEALTHROCK",
       "img": "/images/mt/MT10.jpg",
-      "route": ""
+      "route": "Ciudad Fucsia"
     },
     {
       "id": "MT11",
@@ -82,7 +82,7 @@
       "id": "MT14",
       "move": "HIDDENPOWER",
       "img": "/images/mt/MT14.jpg",
-      "route": ""
+      "route": "Torre Pokémon"
     },
     {
       "id": "MT15",
@@ -100,7 +100,7 @@
       "id": "MT17",
       "move": "PROTECT",
       "img": "/images/mt/MT17.jpg",
-      "route": ""
+      "route": "Pueblo Marengo"
     },
     {
       "id": "MT18",
@@ -178,7 +178,7 @@
       "id": "MT30",
       "move": "SHADOWBALL",
       "img": "/images/mt/MT30.jpg",
-      "route": ""
+      "route": "Torre Pokémon"
     },
     {
       "id": "MT31",
@@ -328,7 +328,7 @@
       "id": "MT55",
       "move": "CHILLINGWATER",
       "img": "/images/mt/MT55.jpg",
-      "route": ""
+      "route": "Ruta 12"
     },
     {
       "id": "MT56",
@@ -394,7 +394,7 @@
       "id": "MT66",
       "move": "PAYBACK",
       "img": "/images/mt/MT66.jpg",
-      "route": ""
+      "route": "Ciudad Azulona"
     },
     {
       "id": "MT67",
@@ -484,7 +484,7 @@
       "id": "MT81",
       "move": "XSCISSOR",
       "img": "/images/mt/MT81.jpg",
-      "route": ""
+      "route": "Ruta 13"
     },
     {
       "id": "MT82",
@@ -574,7 +574,7 @@
       "id": "MT96",
       "move": "DRAINPUNCH",
       "img": "/images/mt/MT96.jpg",
-      "route": ""
+      "route": "Ruta 13"
     },
     {
       "id": "MT97",
@@ -628,7 +628,7 @@
       "id": "MT105",
       "move": "ROOST",
       "img": "/images/mt/MT105.jpg",
-      "route": ""
+      "route": "Ruta 15"
     },
     {
       "id": "MT106",
