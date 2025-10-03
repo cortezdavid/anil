@@ -22,7 +22,7 @@
       "id": "MT04",
       "move": "CALMMIND",
       "img": "/images/mt/MT04.jpg",
-      "route": ""
+      "route": "Ciudad Azafrán"
     },
     {
       "id": "MT05",
@@ -46,7 +46,7 @@
       "id": "MT08",
       "move": "BULKUP",
       "img": "/images/mt/MT08.jpg",
-      "route": ""
+      "route": "Ciudad Azafrán"
     },
     {
       "id": "MT09",
@@ -88,7 +88,7 @@
       "id": "MT15",
       "move": "SURF",
       "img": "/images/mt/MT15.jpg",
-      "route": ""
+      "route": "Zona Safari"
     },
     {
       "id": "MT16",
@@ -112,7 +112,7 @@
       "id": "MT19",
       "move": "ESCALOFRIO",
       "img": "/images/mt/MT19.jpg",
-      "route": ""
+      "route": "Ciudad Verde"
     },
     {
       "id": "MT20",
@@ -148,13 +148,13 @@
       "id": "MT25",
       "move": "SEEDBOMB",
       "img": "/images/mt/MT25.jpg",
-      "route": ""
+      "route": "Ruta 11"
     },
     {
       "id": "MT26",
       "move": "EARTHQUAKE",
       "img": "/images/mt/MT26.jpg",
-      "route": ""
+      "route": "Ruta 19"
     },
     {
       "id": "MT27",
@@ -166,13 +166,13 @@
       "id": "MT28",
       "move": "FLY",
       "img": "/images/mt/MT28.jpg",
-      "route": ""
+      "route": "Ruta 16"
     },
     {
       "id": "MT29",
       "move": "PSYCHIC",
       "img": "/images/mt/MT29.jpg",
-      "route": ""
+      "route": "Ciudad Azafrán"
     },
     {
       "id": "MT30",
@@ -214,7 +214,7 @@
       "id": "MT36",
       "move": "SLUDGEBOMB",
       "img": "/images/mt/MT36.jpg",
-      "route": ""
+      "route": "Ciudad Fucsia"
     },
     {
       "id": "MT37",
@@ -298,7 +298,7 @@
       "id": "MT50",
       "move": "ZENHEADBUTT",
       "img": "/images/mt/MT50.jpg",
-      "route": ""
+      "route": "Ciudad Azafrán"
     },
     {
       "id": "MT51",
@@ -370,7 +370,7 @@
       "id": "MT62",
       "move": "ACROBATICS",
       "img": "/images/mt/MT62.jpg",
-      "route": ""
+      "route": "Zona Safari"
     },
     {
       "id": "MT63",
@@ -418,7 +418,7 @@
       "id": "MT70",
       "move": "HYPERVOICE",
       "img": "/images/mt/MT70.jpg",
-      "route": ""
+      "route": "Ruta 11"
     },
     {
       "id": "MT71",
@@ -448,7 +448,7 @@
       "id": "MT75",
       "move": "SWORDSDANCE",
       "img": "/images/mt/MT75.jpg",
-      "route": ""
+      "route": "Ruta 1"
     },
     {
       "id": "MT76",
@@ -538,7 +538,7 @@
       "id": "MT90",
       "move": "SUBSTITUTE",
       "img": "/images/mt/MT90.jpg",
-      "route": ""
+      "route": "Ciudad Azulona"
     },
     {
       "id": "MT91",
@@ -592,7 +592,7 @@
       "id": "MT99",
       "move": "TRIPLEAXEL",
       "img": "/images/mt/MT99.jpg",
-      "route": ""
+      "route": "Ruta 10 Norte"
     },
     {
       "id": "MT100",
@@ -634,7 +634,7 @@
       "id": "MT106",
       "move": "SUPERPOWER",
       "img": "/images/mt/MT106.jpg",
-      "route": ""
+      "route": "Ciudad Azafrán"
     },
     {
       "id": "MT107",
@@ -646,7 +646,7 @@
       "id": "MT108",
       "move": "STRENGTH",
       "img": "/images/mt/MT108.jpg",
-      "route": ""
+      "route": "Ciudad Fucsia"
     },
     {
       "id": "MT109",
