@@ -11,7 +11,7 @@ import types from "../../data/types.json"
 
 
 const Trainers = () => {
-  const [selectedStarter, setSelectedStarter] = useState("fire");
+  const [selectedStarter, setSelectedStarter] = useState("ground");
   const [selectedDifficulty, setSelectedDifficulty] = useState("easy");
 
   const trainersData = {
@@ -84,7 +84,7 @@ const Trainers = () => {
           Entrenadores
         </h1>
 
-       {/* Selectores en una fila */}
+        {/* Selectores en una fila */}
         <div className="mb-8 grid grid-cols-1 lg:grid-cols-2 gap-6">
           {/* Selector de inicial */}
           <div>
@@ -92,15 +92,6 @@ const Trainers = () => {
               Elige tu inicial
             </h2>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-              <button
-                onClick={() => setSelectedStarter("fire")}
-                className={`w-full sm:w-auto px-6 py-3 rounded-xl font-black transition-all duration-200 ${selectedStarter === "fire"
-                  ? "bg-red-600 text-white shadow-xl scale-105"
-                  : "bg-white text-red-600 border-2 border-red-600 hover:bg-red-50"
-                  }`}
-              >
-                Fuego
-              </button>
               <button
                 onClick={() => setSelectedStarter("ground")}
                 className={`w-full sm:w-auto px-6 py-3 rounded-xl font-black transition-all duration-200 ${selectedStarter === "ground"
@@ -110,6 +101,7 @@ const Trainers = () => {
               >
                 Planta
               </button>
+
               <button
                 onClick={() => setSelectedStarter("water")}
                 className={`w-full sm:w-auto px-6 py-3 rounded-xl font-black transition-all duration-200 ${selectedStarter === "water"
@@ -118,6 +110,15 @@ const Trainers = () => {
                   }`}
               >
                 Agua
+              </button>
+              <button
+                onClick={() => setSelectedStarter("fire")}
+                className={`w-full sm:w-auto px-6 py-3 rounded-xl font-black transition-all duration-200 ${selectedStarter === "fire"
+                  ? "bg-red-600 text-white shadow-xl scale-105"
+                  : "bg-white text-red-600 border-2 border-red-600 hover:bg-red-50"
+                  }`}
+              >
+                Fuego
               </button>
             </div>
           </div>
@@ -135,16 +136,16 @@ const Trainers = () => {
                   : "bg-white text-green-500 border-2 border-green-500 hover:bg-green-50"
                   }`}
               >
-                Fácil
+                Clásico
               </button>
               <button
                 onClick={() => setSelectedDifficulty("normal")}
                 className={`w-full sm:w-auto px-6 py-3 rounded-xl font-black transition-all duration-200 ${selectedDifficulty === "normal"
-                  ? "bg-yellow-500 text-white shadow-xl scale-105"
-                  : "bg-white text-yellow-500 border-2 border-yellow-500 hover:bg-yellow-50"
+                  ? "bg-blue-500 text-white shadow-xl scale-105"
+                  : "bg-white text-blue-500 border-2 border-blue-500 hover:bg-blue-50"
                   }`}
               >
-                Normal
+                Completo
               </button>
               <button
                 onClick={() => setSelectedDifficulty("hard")}
@@ -153,7 +154,7 @@ const Trainers = () => {
                   : "bg-white text-red-500 border-2 border-red-500 hover:bg-red-50"
                   }`}
               >
-                Difícil
+                Radical
               </button>
             </div>
           </div>
@@ -163,7 +164,7 @@ const Trainers = () => {
         <div className="space-y-6">
           {trainers.map((trainer) => {
             const trainerData = trainer.difficulties[selectedDifficulty];
-            
+
             return (
               <div key={trainer.id}>
                 {/* Siempre mostrar ubicación */}

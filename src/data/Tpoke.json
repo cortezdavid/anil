@@ -1,0 +1,59 @@
+{
+	"id": 1,
+	"trainer": "",
+	"location": "",
+	"img": "/images/trainers/AZUL.png",
+	"difficulties": {
+		"easy": {
+			"items": "",
+			"pokemon": [
+				{
+					"name": "",
+					"level": "",
+					"item": "",
+					"abilit": "",
+					"moves": [
+						"",
+						"",
+						"",
+						""
+					]
+				}
+			]
+		},
+		"normal": {
+			"items": "",
+			"pokemon": [
+				{
+					"name": "",
+					"level": "",
+					"item": "",
+					"abilit": "",
+					"moves": [
+						"",
+						"",
+						"",
+						""
+					]
+				},
+			]
+		},
+		"hard": {
+			"items": "",
+			"pokemon": [
+				{
+					"name": "",
+					"level": "",
+					"item": "",
+					"abilit": "BLZE",
+					"moves": [
+						"",
+						"",
+						"",
+						""
+					]
+				}
+			]
+		}
+	}
+}

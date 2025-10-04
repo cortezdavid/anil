@@ -7,35 +7,31 @@
       "img": "/images/trainers/AZUL.png",
       "difficulties": {
         "easy": {
-          "items": "POTION",
+          "items": "",
           "pokemon": [
             {
               "name": "CHARMANDER",
               "level": "5",
-              "item": "SUPERPOTION",
+              "item": "",
               "abilit": "BLAZE",
               "moves": [
-                "TACKLE",
-                "GROWL",
-                "GLARE",
-                "FORESIGHT"
+                "SCRATCH",
+                "GROWL"
               ]
             }
           ]
         },
         "normal": {
-          "items": "SUPERPOTION",
+          "items": "",
           "pokemon": [
             {
-              "name": "CHARMELEON",
+              "name": "CHARMANDER",
               "level": "5",
-              "item": "SUPERPOTION",
+              "item": "",
               "abilit": "BLAZE",
               "moves": [
-                "TACKLE",
-                "GROWL",
-                "GLARE",
-                "FORESIGHT"
+                "SCRATCH",
+                "GROWL"
               ]
             }
           ]
@@ -44,15 +40,13 @@
           "items": "",
           "pokemon": [
             {
-              "name": "CHARIZARD",
+              "name": "CHARMANDER",
               "level": "5",
-              "item": "SUPERPOTION",
+              "item": "",
               "abilit": "BLAZE",
               "moves": [
-                "TACKLE",
-                "GROWL",
-                "GLARE",
-                "FORESIGHT"
+                "SCRATCH",
+                "GROWL"
               ]
             }
           ]
@@ -62,99 +56,57 @@
     {
       "id": 2,
       "trainer": "Azul",
-      "location": "laboratorio",
+      "location": "Ruta 20",
       "img": "/images/trainers/AZUL.png",
       "difficulties": {
         "easy": {
           "items": "POTION",
           "pokemon": [
             {
-              "name": "CHARMANDER",
-              "level": "5",
-              "item": "SUPERPOTION",
-              "abilit": "BLAZE",
+              "name": "PIDGEY",
+              "level": "7",
+              "item": "",
+              "abilit": "desconocido",
               "moves": [
                 "TACKLE",
-                "GROWL",
-                "GLARE",
-                "FORESIGHT"
+                "SANDATTACK"
               ]
             },
             {
               "name": "CHARMANDER",
-              "level": "5",
-              "item": "SUPERPOTION",
+              "level": "8",
+              "item": "",
               "abilit": "BLAZE",
               "moves": [
-                "TACKLE",
+                "SCRATCH",
                 "GROWL",
-                "GLARE",
-                "FORESIGHT"
-              ]
-            },
-            {
-              "name": "CHARMANDER",
-              "level": "5",
-              "item": "SUPERPOTION",
-              "abilit": "BLAZE",
-              "moves": [
-                "TACKLE",
-                "GROWL",
-                "GLARE",
-                "FORESIGHT"
-              ]
-            },
-            {
-              "name": "CHARMANDER",
-              "level": "5",
-              "item": "SUPERPOTION",
-              "abilit": "BLAZE",
-              "moves": [
-                "TACKLE",
-                "GROWL",
-                "GLARE",
-                "FORESIGHT"
+                "EMBER"
               ]
             }
           ]
         },
         "normal": {
-          "items": "SUPERPOTION",
+          "items": "POTION",
           "pokemon": [
             {
-              "name": "CHARMELEON",
-              "level": "5",
-              "item": "SUPERPOTION",
-              "abilit": "BLAZE",
+              "name": "PIDGEY",
+              "level": "7",
+              "item": "",
+              "abilit": "desconocido",
               "moves": [
                 "TACKLE",
-                "GROWL",
-                "GLARE",
-                "FORESIGHT"
+                "SANDATTACK"
               ]
             },
             {
-              "name": "CHARMELEON",
-              "level": "5",
-              "item": "SUPERPOTION",
+              "name": "CHARMANDER",
+              "level": "8",
+              "item": "",
               "abilit": "BLAZE",
               "moves": [
-                "TACKLE",
+                "SCRATCH",
                 "GROWL",
-                "GLARE",
-                "FORESIGHT"
-              ]
-            },
-            {
-              "name": "CHARMELEON",
-              "level": "5",
-              "item": "SUPERPOTION",
-              "abilit": "BLAZE",
-              "moves": [
-                "TACKLE",
-                "GROWL",
-                "GLARE",
-                "FORESIGHT"
+                "EMBER"
               ]
             }
           ]
@@ -163,51 +115,391 @@
           "items": "",
           "pokemon": [
             {
-              "name": "CHARIZARD",
-              "level": "5",
-              "item": "SUPERPOTION",
-              "abilit": "BLAZE",
+              "name": "PIDGEY",
+              "level": "7",
+              "item": "",
+              "abilit": "desconocido",
               "moves": [
-                "TACKLE",
-                "GROWL",
-                "GLARE",
-                "FORESIGHT"
+                "QUICKATTACK",
+                "SANDATTACK",
+                "WINGATTACK"
               ]
             },
             {
-              "name": "CHARIZARD",
-              "level": "5",
-              "item": "SUPERPOTION",
+              "name": "CHARMANDER",
+              "level": "8",
+              "item": "",
               "abilit": "BLAZE",
               "moves": [
-                "TACKLE",
+                "SCRATCH",
                 "GROWL",
-                "GLARE",
-                "FORESIGHT"
+                "EMBER"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "trainer": "Hoja",
+      "location": "Ruta 2 Sur",
+      "img": "/images/trainers/HOJA.png",
+      "difficulties": {
+        "easy": {
+          "items": "POTION",
+          "pokemon": [
+            {
+              "name": "MANKEY",
+              "level": "6",
+              "item": "",
+              "abilit": "ANGERPOINT",
+              "moves": [
+                "SCRATCH",
+                "LEER",
+                "FOCUSENERGY",
+                "LOWKICK"
               ]
             },
             {
-              "name": "CHARIZARD",
-              "level": "5",
-              "item": "SUPERPOTION",
-              "abilit": "BLAZE",
+              "name": "SQUIRTLE",
+              "level": "7",
+              "item": "",
+              "abilit": "TORRENT",
               "moves": [
                 "TACKLE",
-                "GROWL",
-                "GLARE",
-                "FORESIGHT"
+                "TAILWHIP",
+                "BUBBLE"
+              ]
+            }
+          ]
+        },
+        "normal": {
+          "items": "POTION",
+          "pokemon": [
+            {
+              "name": "MANKEY",
+              "level": "6",
+              "item": "",
+              "abilit": "ANGERPOINT",
+              "moves": [
+                "SCRATCH",
+                "LEER",
+                "FOCUSENERGY",
+                "LOWKICK"
               ]
             },
             {
-              "name": "CHARIZARD",
-              "level": "5",
-              "item": "SUPERPOTION",
-              "abilit": "BLAZE",
+              "name": "SQUIRTLE",
+              "level": "7",
+              "item": "",
+              "abilit": "TORRENT",
               "moves": [
                 "TACKLE",
-                "GROWL",
-                "GLARE",
-                "FORESIGHT"
+                "TAILWHIP",
+                "BUBBLE"
+              ]
+            }
+          ]
+        },
+        "hard": {
+          "items": "",
+          "pokemon": [
+            {
+              "name": "MANKEY",
+              "level": "6",
+              "item": "",
+              "abilit": "ANGERPOINT",
+              "moves": [
+                "SCRATCH",
+                "LEER",
+                "FOCUSENERGY",
+                "LOWKICK"
+              ]
+            },
+            {
+              "name": "SQUIRTLE",
+              "level": "7",
+              "item": "",
+              "abilit": "TORRENT",
+              "moves": [
+                "TACKLE",
+                "TAILWHIP",
+                "BUBBLE"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "trainer": "Norman",
+      "location": "Museo",
+      "img": "/images/trainers/NORMAN.png",
+      "difficulties": {
+        "easy": {
+          "items": "",
+          "pokemon": [
+            {
+              "name": "SLAKOTH",
+              "level": "11",
+              "item": "SILKSCARF",
+              "abilit": "TRUANT",
+              "moves": [
+                "YAWN",
+                "HEADBUTT",
+                "ROCKSMASH",
+                "SLACKOFF"
+              ]
+            },
+            {
+              "name": "SKITTY",
+              "level": "11",
+              "item": "FOCUSSASH",
+              "abilit": "PIXILATE",
+              "moves": [
+                "FAKEOUT",
+                "DISARMINGVOICE",
+                "CHARM",
+                "QUICKATTACK"
+              ]
+            },
+            {
+              "name": "LOUDRED",
+              "level": "12",
+              "item": "SITRUSBERRY",
+              "abilit": "SOUNDPROOF",
+              "moves": [
+                "ECHOEDVOICE",
+                "WORKUP",
+                "BITE",
+                "SUPERSONIC"
+              ]
+            }
+          ]
+        },
+        "normal": {
+          "items": "",
+          "pokemon": [
+            {
+              "name": "SLAKOTH",
+              "level": "11",
+              "item": "SILKSCARF",
+              "abilit": "TRUANT",
+              "moves": [
+                "YAWN",
+                "HEADBUTT",
+                "ROCKSMASH",
+                "SLACKOFF"
+              ]
+            },
+            {
+              "name": "SKITTY",
+              "level": "11",
+              "item": "FOCUSSASH",
+              "abilit": "PIXILATE",
+              "moves": [
+                "FAKEOUT",
+                "DISARMINGVOICE",
+                "CHARM",
+                "QUICKATTACK"
+              ]
+            },
+            {
+              "name": "LOUDRED",
+              "level": "12",
+              "item": "SITRUSBERRY",
+              "abilit": "SOUNDPROOF",
+              "moves": [
+                "ECHOEDVOICE",
+                "WORKUP",
+                "BITE",
+                "SUPERSONIC"
+              ]
+            }
+          ]
+        },
+        "hard": {
+          "items": "",
+          "pokemon": [
+            {
+              "name": "SLAKOTH",
+              "level": "11",
+              "item": "SILKSCARF",
+              "abilit": "TRUANT",
+              "moves": [
+                "YAWN",
+                "HEADBUTT",
+                "ROCKSMASH",
+                "SLACKOFF"
+              ]
+            },
+            {
+              "name": "SKITTY",
+              "level": "11",
+              "item": "FOCUSSASH",
+              "abilit": "PIXILATE",
+              "moves": [
+                "FAKEOUT",
+                "DISARMINGVOICE",
+                "CHARM",
+                "QUICKATTACK"
+              ]
+            },
+            {
+              "name": "LOUDRED",
+              "level": "12",
+              "item": "SITRUSBERRY",
+              "abilit": "SOUNDPROOF",
+              "moves": [
+                "ECHOEDVOICE",
+                "WORKUP",
+                "BITE",
+                "SUPERSONIC"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "trainer": "Brock",
+      "location": "Ciudad Plateada",
+      "img": "/images/trainers/BROCK.png",
+      "difficulties": {
+        "easy": {
+          "items": "SUPERPOTION",
+          "pokemon": [
+            {
+              "name": "OMANYTE",
+              "level": "12",
+              "item": "RINDOBERRY",
+              "abilit": "SWIFTSWIM",
+              "moves": [
+                "BIND",
+                "WATERGUN",
+                "ANCIENTPOWER",
+                "STEALTHROCK"
+              ]
+            },
+            {
+              "name": "BONSLY",
+              "level": "12",
+              "item": "MUSCLEBAND",
+              "abilit": "STURDY",
+              "moves": [
+                "ROCKTOMB",
+                "TRAILBLAZE",
+                "ROCKSMASH",
+                "FLAIL"
+              ]
+            },
+            {
+              "name": "ONIX",
+              "level": "14",
+              "item": "",
+              "abilit": "STURDY",
+              "moves": [
+                "ROAR",
+                "SANDSTORM",
+                "SANDTOMB",
+                "ROCKTOMB"
+              ]
+            }
+          ]
+        },
+        "normal": {
+          "items": "SUPERPOTION",
+          "pokemon": [
+            {
+              "name": "DWEBBLE",
+              "level": "12",
+              "item": "",
+              "abilit": "WEAKARMOR",
+              "moves": [
+                "BUGBITE",
+                "ROCKTOMB",
+                "SANDATTACK",
+                "STEALTHROCK"
+              ]
+            },
+            {
+              "name": "BONSLY",
+              "level": "12",
+              "item": "MUSCLEBAND",
+              "abilit": "STURDY",
+              "moves": [
+                "ROCKTOMB",
+                "TRAILBLAZE",
+                "ROCKSMASH",
+                "FLAIL"
+              ]
+            },
+            {
+              "name": "ONIX",
+              "level": "14",
+              "item": "",
+              "abilit": "STURDY",
+              "moves": [
+                "ROAR",
+                "SANDSTORM",
+                "SANDTOMB",
+                "ROCKTOMB"
+              ]
+            }
+          ]
+        },
+        "hard": {
+          "items": "",
+          "pokemon": [
+            {
+              "name": "DWEBBLE",
+              "level": "12",
+              "item": "ORANBERRY",
+              "abilit": "WEAKARMOR",
+              "moves": [
+                "BUGBITE",
+                "ROCKTOMB",
+                "BULLDOZE",
+                "STEALTHROCK"
+              ]
+            },
+            {
+              "name": "TYRUNT",
+              "level": "12",
+              "item": "DRAGONFANG",
+              "abilit": "---",
+              "moves": [
+                "ROCKTOMB",
+                "DRAGONBREATH",
+                "BITE",
+                "STEALTHROCK"
+              ]
+            },
+            {
+              "name": "BONSLY",
+              "level": "13",
+              "item": "MIRACLESEED",
+              "abilit": "STURDY",
+              "moves": [
+                "ROCKTOMB",
+                "TRAILBLAZE",
+                "ROCKSMASH",
+                "BULLDOZE"
+              ]
+            },
+            {
+              "name": "ONIX",
+              "level": "14",
+              "item": "MUSCLEBAND",
+              "abilit": "STURDY",
+              "moves": [
+                "ROAR",
+                "SANDSTORM",
+                "BULLDOZE",
+                "ROCKTOMB"
               ]
             }
           ]
