@@ -28,7 +28,7 @@
       "id": "MT05",
       "move": "METRONOME",
       "img": "/images/mt/MT05.jpg",
-      "route": ""
+      "route": "Isla Canela"
     },
     {
       "id": "MT06",
@@ -76,7 +76,7 @@
       "id": "MT13",
       "move": "ICEBEAM",
       "img": "/images/mt/MT13.jpg",
-      "route": ""
+      "route": "Islas Espuma"
     },
     {
       "id": "MT14",
@@ -130,7 +130,7 @@
       "id": "MT22",
       "move": "SOLARBEAM",
       "img": "/images/mt/MT22.jpg",
-      "route": ""
+      "route": "Mansión Quemada"
     },
     {
       "id": "MT23",
@@ -190,7 +190,7 @@
       "id": "MT32",
       "move": "AQUATAIL",
       "img": "/images/mt/MT32.jpg",
-      "route": ""
+      "route": "Isla Canela"
     },
     {
       "id": "MT33",
@@ -364,7 +364,7 @@
       "id": "MT61",
       "move": "WILLOWISP",
       "img": "/images/mt/MT61.jpg",
-      "route": ""
+      "route": "Mansión Quemada"
     },
     {
       "id": "MT62",
@@ -568,7 +568,7 @@
       "id": "MT95",
       "move": "FLIPTURN",
       "img": "/images/mt/MT95.jpg",
-      "route": ""
+      "route": "Ruta 17"
     },
     {
       "id": "MT96",
@@ -580,7 +580,7 @@
       "id": "MT97",
       "move": "SCORCHINGSANDS",
       "img": "/images/mt/MT97.jpg",
-      "route": ""
+      "route": "Mansión Quemada"
     },
     {
       "id": "MT98",
@@ -616,7 +616,7 @@
       "id": "MT103",
       "move": "ICESPINNER",
       "img": "/images/mt/MT103.jpg",
-      "route": ""
+      "route": "Islas Espuma"
     },
     {
       "id": "MT104",
