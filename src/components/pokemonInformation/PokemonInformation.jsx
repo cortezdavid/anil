@@ -1,8 +1,6 @@
 import PokemonFront from "../pokemonFront/PokemonFront";
 import types from "../../data/types.json"
 import abilitiesData from "../../data/abilities.json"
-import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
 
 const PokemonInformation = ({ pokemon, variants, handleFormChange, handleBaseForm, selectedForm }) => {
   const getTypeName = (typeId) => {

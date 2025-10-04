@@ -86,10 +86,10 @@ const Navbar = () => {
                 Mt's
               </Link>
               <Link
-                to="/contacto"
+                to="/entrenadores"
                 className="text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200"
               >
-                Vacio
+                entrenadores
               </Link>
             </div>
           </div>
@@ -154,11 +154,11 @@ const Navbar = () => {
               Mt's
             </Link>
             <Link
-              to="/contacto"
+              to="/entrenadores"
               onClick={() => setMobileMenuOpen(false)}
               className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-3 rounded-lg text-sm font-bold transition-all duration-200"
             >
-              Vacio
+              entrenadores
             </Link>
           </div>
         )}

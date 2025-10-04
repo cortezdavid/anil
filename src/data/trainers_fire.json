@@ -1,0 +1,206 @@
+{
+  "trainers": [
+    {
+      "id": 1,
+      "trainer": "Azul",
+      "location": "laboratorio",
+      "img": "/images/trainers/AZUL.png",
+      "difficulties": {
+        "easy": {
+          "items": "POTION",
+          "pokemon": [
+            {
+              "name": "SQUIRTLE",
+              "level": "5",
+              "item": "SUPERPOTION",
+              "abilit": "BLAZE",
+              "moves": [
+                "TACKLE",
+                "GROWL",
+                "GLARE",
+                "FORESIGHT"
+              ]
+            }
+          ]
+        },
+        "normal": {
+          "items": "SUPERPOTION",
+          "pokemon": [
+            {
+              "name": "WARTORTLE",
+              "level": "5",
+              "item": "SUPERPOTION",
+              "abilit": "BLAZE",
+              "moves": [
+                "TACKLE",
+                "GROWL",
+                "GLARE",
+                "FORESIGHT"
+              ]
+            }
+          ]
+        },
+        "hard": {
+          "items": "",
+          "pokemon": [
+            {
+              "name": "BLASTOISE",
+              "level": "5",
+              "item": "SUPERPOTION",
+              "abilit": "BLAZE",
+              "moves": [
+                "TACKLE",
+                "GROWL",
+                "GLARE",
+                "FORESIGHT"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "trainer": "Azul",
+      "location": "laboratorio",
+      "img": "/images/trainers/AZUL.png",
+      "difficulties": {
+        "easy": {
+          "items": "POTION",
+          "pokemon": [
+            {
+              "name": "SQUIRTLE",
+              "level": "5",
+              "item": "SUPERPOTION",
+              "abilit": "BLAZE",
+              "moves": [
+                "TACKLE",
+                "GROWL",
+                "GLARE",
+                "FORESIGHT"
+              ]
+            },
+            {
+              "name": "SQUIRTLE",
+              "level": "5",
+              "item": "SUPERPOTION",
+              "abilit": "BLAZE",
+              "moves": [
+                "TACKLE",
+                "GROWL",
+                "GLARE",
+                "FORESIGHT"
+              ]
+            },
+            {
+              "name": "SQUIRTLE",
+              "level": "5",
+              "item": "SUPERPOTION",
+              "abilit": "BLAZE",
+              "moves": [
+                "TACKLE",
+                "GROWL",
+                "GLARE",
+                "FORESIGHT"
+              ]
+            }
+          ]
+        },
+        "normal": {
+          "items": "SUPERPOTION",
+          "pokemon": [
+            {
+              "name": "WARTORTLE",
+              "level": "5",
+              "item": "SUPERPOTION",
+              "abilit": "BLAZE",
+              "moves": [
+                "TACKLE",
+                "GROWL",
+                "GLARE",
+                "FORESIGHT"
+              ]
+            },
+            {
+              "name": "WARTORTLE",
+              "level": "5",
+              "item": "SUPERPOTION",
+              "abilit": "BLAZE",
+              "moves": [
+                "TACKLE",
+                "GROWL",
+                "GLARE",
+                "FORESIGHT"
+              ]
+            },
+            {
+              "name": "WARTORTLE",
+              "level": "5",
+              "item": "SUPERPOTION",
+              "abilit": "BLAZE",
+              "moves": [
+                "TACKLE",
+                "GROWL",
+                "GLARE",
+                "FORESIGHT"
+              ]
+            }
+          ]
+        },
+        "hard": {
+          "items": "",
+          "pokemon": [
+            {
+              "name": "BLASTOISE",
+              "level": "5",
+              "item": "SUPERPOTION",
+              "abilit": "BLAZE",
+              "moves": [
+                "TACKLE",
+                "GROWL",
+                "GLARE",
+                "FORESIGHT"
+              ]
+            },
+            {
+              "name": "BLASTOISE",
+              "level": "5",
+              "item": "SUPERPOTION",
+              "abilit": "BLAZE",
+              "moves": [
+                "TACKLE",
+                "GROWL",
+                "GLARE",
+                "FORESIGHT"
+              ]
+            },
+            {
+              "name": "BLASTOISE",
+              "level": "5",
+              "item": "SUPERPOTION",
+              "abilit": "BLAZE",
+              "moves": [
+                "TACKLE",
+                "GROWL",
+                "GLARE",
+                "FORESIGHT"
+              ]
+            },
+            {
+              "name": "BLASTOISE",
+              "level": "5",
+              "item": "SUPERPOTION",
+              "abilit": "BLAZE",
+              "moves": [
+                "TACKLE",
+                "GROWL",
+                "GLARE",
+                "FORESIGHT"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
