@@ -33,11 +33,11 @@ const Navbar = () => {
     <nav className="bg-gradient-to-r from-blue-500 to-blue-600 shadow-2xl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          
+
           {/* Logo/Home Link */}
           <div className="flex-shrink-0">
-            <Link 
-              to="/" 
+            <Link
+              to="/"
               className="text-2xl font-black text-white hover:text-blue-100 transition-colors duration-200 drop-shadow-md"
             >
               PokeAñil
@@ -89,14 +89,14 @@ const Navbar = () => {
                 to="/entrenadores"
                 className="text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200"
               >
-                entrenadores
+                Entrenadores
               </Link>
             </div>
           </div>
 
           {/* Botón menú móvil */}
           <div className="md:hidden">
-            <button 
+            <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="text-white hover:text-blue-100 p-2 rounded-lg hover:bg-blue-700 transition-colors duration-200"
             >
@@ -158,7 +158,7 @@ const Navbar = () => {
               onClick={() => setMobileMenuOpen(false)}
               className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-3 rounded-lg text-sm font-bold transition-all duration-200"
             >
-              entrenadores
+              Entrenadores
             </Link>
           </div>
         )}
