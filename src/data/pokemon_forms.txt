@@ -1,0 +1,744 @@
+﻿[BURMY,1]
+FormName = Forma Tronco Arena
+Color = Brown
+#-------------------------------
+[BURMY,2]
+FormName = Forma Tronco Basura
+Color = Red
+#-------------------------------
+[WORMADAM,1]
+FormName = Forma Tronco Arena
+Types = BUG,GROUND
+BaseStats = 60,79,105,36,59,85
+EVs = DEFENSE,2
+Moves = 0,QUIVERDANCE,1,SUCKERPUNCH,1,TACKLE,1,PROTECT,1,BUGBITE,10,PROTECT,15,BUGBITE,20,STRINGSHOT,23,CONFUSION,26,ROCKBLAST,29,HARDEN,32,PSYBEAM,35,INFESTATION,38,FLAIL,41,ATTRACT,44,PSYCHIC,47,FISSURE,50,BUGBUZZ
+TutorMoves = ALLYSWITCH,ATTRACT,BUGBITE,BUGBUZZ,BULLDOZE,CAPTIVATE,CONFIDE,DIG,DOUBLEEDGE,DOUBLETEAM,DREAMEATER,EARTHPOWER,EARTHQUAKE,ELECTROWEB,ENDEAVOR,ENDURE,FACADE,FLASH,FRUSTRATION,GIGADRAIN,GIGAIMPACT,HIDDENPOWER,HYPERBEAM,INFESTATION,MIMIC,MUDSLAP,NATURALGIFT,PROTECT,PSYCHIC,PSYCHUP,RAINDANCE,REST,RETURN,ROCKTOMB,ROUND,SAFEGUARD,SANDSTORM,SECRETPOWER,SHADOWBALL,SIGNALBEAM,SKILLSWAP,SLEEPTALK,SNORE,SOLARBEAM,STEALTHROCK,STRINGSHOT,STRUGGLEBUG,SUBSTITUTE,SUCKERPUNCH,SUNNYDAY,SWAGGER,TELEKINESIS,THIEF,UPROAR,VENOSHOCK
+Color = Brown
+#-------------------------------
+[WORMADAM,2]
+FormName = Forma Tronco Basura
+Types = BUG,STEEL
+BaseStats = 60,69,95,36,69,95
+EVs = DEFENSE,1,SPECIAL_DEFENSE,1
+Moves = 0,QUIVERDANCE,1,METALBURST,1,SUCKERPUNCH,1,TACKLE,1,PROTECT,1,BUGBITE,10,PROTECT,15,BUGBITE,20,STRINGSHOT,23,CONFUSION,26,METALBURST,29,METALSOUND,32,PSYBEAM,35,INFESTATION,38,FLAIL,41,ATTRACT,44,PSYCHIC,47,IRONHEAD,50,BUGBUZZ
+TutorMoves = ALLYSWITCH,ATTRACT,BUGBITE,BUGBUZZ,CAPTIVATE,CONFIDE,DIG,DOUBLEEDGE,DOUBLETEAM,DREAMEATER,ELECTROWEB,ENDEAVOR,ENDURE,FACADE,FLASH,FLASHCANNON,FRUSTRATION,GIGADRAIN,GIGAIMPACT,GUNKSHOT,GYROBALL,HIDDENPOWER,HYPERBEAM,INFESTATION,IRONDEFENSE,IRONHEAD,MAGNETRISE,MIMIC,NATURALGIFT,PROTECT,PSYCHIC,PSYCHUP,RAINDANCE,REST,RETURN,ROUND,SAFEGUARD,SECRETPOWER,SHADOWBALL,SIGNALBEAM,SKILLSWAP,SLEEPTALK,SNORE,SOLARBEAM,STEALTHROCK,STRINGSHOT,STRUGGLEBUG,SUBSTITUTE,SUCKERPUNCH,SUNNYDAY,SWAGGER,TELEKINESIS,THIEF,UPROAR,VENOSHOCK
+Color = Red
+#-------------------------------
+[CHERRIM,1]
+FormName = Forma Soleada
+Color = Pink
+Pokedex = Después de absorber mucha luz solar, Cherrim toma esta forma. Está lleno de energía mientras está así, y su vivacidad durará hasta el atardecer.
+#-------------------------------
+[SHELLOS,1]
+FormName = Forma Mar Este
+Color = Blue
+Pokedex = Su apariencia cambia según el entorno. Una teoría sugiere que vivir en mares fríos hace que Shellos adopte esta forma.
+#-------------------------------
+[GASTRODON,1]
+FormName = Forma Mar Este
+Color = Blue
+Pokedex = Su cuerpo está cubierto de una baba pegajosa. Es muy susceptible a la deshidratación, por lo que no puede pasar demasiado tiempo en tierra.
+#-------------------------------
+[ARCEUS,1]
+FormName = Tipo Lucha
+Types = FIGHTING
+#-------------------------------
+[ARCEUS,2]
+FormName = Tipo Volador
+Types = FLYING
+#-------------------------------
+[ARCEUS,3]
+FormName = Tipo Veneno
+Types = POISON
+#-------------------------------
+[ARCEUS,4]
+FormName = Tipo Tierra
+Types = GROUND
+#-------------------------------
+[ARCEUS,5]
+FormName = Tipo Roca
+Types = ROCK
+#-------------------------------
+[ARCEUS,6]
+FormName = Tipo Bicho
+Types = BUG
+#-------------------------------
+[ARCEUS,7]
+FormName = Tipo Fantasma
+Types = GHOST
+#-------------------------------
+[ARCEUS,8]
+FormName = Tipo Acero
+Types = STEEL
+#-------------------------------
+[ARCEUS,9]
+FormName = Tipo Desconocido
+Types = QMARKS
+#-------------------------------
+[ARCEUS,10]
+FormName = Tipo Fuego
+Types = FIRE
+#-------------------------------
+[ARCEUS,11]
+FormName = Tipo Agua
+Types = WATER
+#-------------------------------
+[ARCEUS,12]
+FormName = Tipo Planta
+Types = GRASS
+#-------------------------------
+[ARCEUS,13]
+FormName = Tipo Eléctrico
+Types = ELECTRIC
+#-------------------------------
+[ARCEUS,14]
+FormName = Tipo Psíquico
+Types = PSYCHIC
+#-------------------------------
+[ARCEUS,15]
+FormName = Tipo Hielo
+Types = ICE
+#-------------------------------
+[ARCEUS,16]
+FormName = Tipo Dragón
+Types = DRAGON
+#-------------------------------
+[ARCEUS,17]
+FormName = Tipo Siniestro
+Types = DARK
+#-------------------------------
+[ARCEUS,18]
+FormName = Tipo Hada
+Types = FAIRY
+Generation = 6
+#-------------------------------
+
+
+[DARMANITAN,1]
+FormName = Forma Daruma
+Types = FIRE,PSYCHIC
+BaseStats = 105,30,105,55,140,105
+BaseExp = 189
+EVs = SPECIAL_ATTACK,2
+Color = Blue
+Pokedex = Cuando resulta herido, se queda inmóvil como una piedra y medita para agudizar la mente.
+#-------------------------------
+
+[DARMANITAN,3]
+FormName = Forma Daruma de Galar
+Types = ICE,FIRE
+BaseStats = 105,160,55,135,30,55
+BaseExp = 189
+EVs = SPECIAL_ATTACK,2
+Abilities = GORILLATACTICS
+Moves = 0,ICICLECRASH,1,POWDERSNOW,1,TACKLE,1,TAUNT,1,BITE,12,AVALANCHE,16,WORKUP,20,ICEFANG,24,HEADBUTT,28,ICEPUNCH,32,UPROAR,38,BELLYDRUM,44,BLIZZARD,50,THRASH,56,SUPERPOWER
+TutorMoves = ATTRACT,AVALANCHE,BLIZZARD,BODYPRESS,BODYSLAM,BRICKBREAK,BULKUP,BULLDOZE,BURNINGJEALOUSY,CAPTIVATE,CONFIDE,DIG,DOUBLEEDGE,DOUBLETEAM,EARTHQUAKE,ENCORE,ENDURE,FACADE,FIREBLAST,FIREFANG,FIREPUNCH,FIRESPIN,FLAMETHROWER,FLAREBLITZ,FLING,FOCUSBLAST,FOCUSENERGY,FRUSTRATION,GIGAIMPACT,GRASSKNOT,GYROBALL,HEATWAVE,HIDDENPOWER,HYPERBEAM,ICEBEAM,ICEFANG,ICEPUNCH,IRONDEFENSE,IRONHEAD,LASHOUT,MEGAKICK,MEGAPUNCH,MIMIC,NATURALGIFT,OVERHEAT,PAYBACK,PROTECT,PSYCHIC,REST,RETURN,REVERSAL,ROCKSLIDE,ROCKTOMB,ROUND,SECRETPOWER,SLEEPTALK,SNORE,SOLARBEAM,STONEEDGE,SUBSTITUTE,SUNNYDAY,SUPERPOWER,SWAGGER,TAUNT,THIEF,TOXIC,UPROAR,UTURN,WILLOWISP,WORKUP,ZENHEADBUTT
+Height = 1.7
+Weight = 120.0
+Color = White
+Category = Daruma
+Pokedex = Adopta esta forma cuando monta en cólera y, hasta que esta remite, suelta llamaradas por doquier aun a riesgo de derretirse a sí mismo.
+Generation = 8
+#-------------------------------
+
+[DEERLING,1]
+FormName = Forma Verano
+Color = Green
+#-------------------------------
+[DEERLING,2]
+FormName = Forma Otoño
+Color = Red
+#-------------------------------
+[DEERLING,3]
+FormName = Forma Invierno
+Color = Brown
+#-------------------------------
+[SAWSBUCK,1]
+FormName = Forma Verano
+#-------------------------------
+[SAWSBUCK,2]
+FormName = Forma Otoño
+#-------------------------------
+[SAWSBUCK,3]
+FormName = Forma Invierno
+#-------------------------------
+[KYUREM,3]
+PokedexForm = 1
+BaseStats = 125,120,90,95,170,100
+BaseExp = 350
+EVs = SPECIAL_ATTACK,3
+Abilities = TURBOBLAZE
+Moves = 1,ICYWIND,1,DRAGONRAGE,8,IMPRISON,15,ANCIENTPOWER,22,ICEBEAM,29,DRAGONBREATH,36,SLASH,43,FUSIONFLARE,50,ICEBURN,57,DRAGONPULSE,64,NOBLEROAR,71,ENDEAVOR,78,BLIZZARD,85,OUTRAGE,92,HYPERVOICE
+Height = 3.6
+Pokedex = Como heraldo del mundo verdadero que ha de llegar para humanos y Pokémon, ha asumido la misión de protegerlo.
+#-------------------------------
+[KYUREM,4]
+PokedexForm = 2
+BaseStats = 125,170,100,95,120,90
+BaseExp = 350
+EVs = ATTACK,3
+Abilities = TERAVOLT
+Moves = 1,ICYWIND,1,DRAGONRAGE,8,IMPRISON,15,ANCIENTPOWER,22,ICEBEAM,29,DRAGONBREATH,36,SLASH,43,FUSIONBOLT,50,FREEZESHOCK,57,DRAGONPULSE,64,NOBLEROAR,71,ENDEAVOR,78,BLIZZARD,85,OUTRAGE,92,HYPERVOICE
+Height = 3.3
+Pokedex = Se dice que lucha con el objetivo de defender el mundo ideal para humanos y Pokémon que se hará realidad en el futuro.
+#-------------------------------
+[KELDEO,1]
+FormName = Forma Brío
+Pokedex = Su poder latente se ha concentrado en el cuerno de la frente y lo ha convertido en una espada que todo lo corta.
+#-------------------------------
+[MELOETTA,1]
+FormName = Forma Danza
+Types = NORMAL,FIGHTING
+BaseStats = 100,128,90,128,77,77
+EVs = ATTACK,1,DEFENSE,1,SPEED,1
+#-------------------------------
+[GENESECT,1]
+FormName = Forma FulgoROM
+#-------------------------------
+[GENESECT,2]
+FormName = Forma PiroROM
+#-------------------------------
+[GENESECT,3]
+FormName = Forma CrioROM
+#-------------------------------
+[GENESECT,4]
+FormName = Forma HidroROM
+#-------------------------------
+[GRENINJA,1]
+Abilities = BATTLEBOND
+HiddenAbilities = BATTLEBOND
+EggGroups = Undiscovered
+#-------------------------------
+[GRENINJA,2]
+FormName = Greninja Ash
+BaseStats = 72,145,67,132,153,71
+BaseExp = 320
+Abilities = BATTLEBOND
+HiddenAbilities = BATTLEBOND
+Generation = 7
+#-------------------------------
+[VIVILLON,1]
+FormName = Motivo Isleño
+#-------------------------------
+[VIVILLON,2]
+FormName = Motivo Continental
+#-------------------------------
+[VIVILLON,3]
+FormName = Motivo Oriental
+#-------------------------------
+[VIVILLON,4]
+FormName = Motivo Vergel
+#-------------------------------
+[VIVILLON,5]
+FormName = Motivo Estepa
+#-------------------------------
+[VIVILLON,6]
+FormName = Motivo Polar
+#-------------------------------
+[VIVILLON,7]
+FormName = Motivo Jungla
+#-------------------------------
+[VIVILLON,8]
+FormName = Motivo Marino
+#-------------------------------
+[VIVILLON,9]
+FormName = Motivo Moderno
+#-------------------------------
+[VIVILLON,10]
+FormName = Motivo Monzón
+#-------------------------------
+[VIVILLON,11]
+FormName = Motivo Océano
+#-------------------------------
+[VIVILLON,12]
+FormName = Motivo Taiga
+#-------------------------------
+[VIVILLON,13]
+FormName = Motivo Oasis
+#-------------------------------
+[VIVILLON,14]
+FormName = Motivo Desierto
+#-------------------------------
+[VIVILLON,15]
+FormName = Motivo Pantano
+#-------------------------------
+[VIVILLON,16]
+FormName = Motivo Solar
+#-------------------------------
+[VIVILLON,17]
+FormName = Motivo Tundra
+#-------------------------------
+[VIVILLON,18]
+FormName = Motivo Fantasía
+#-------------------------------
+[VIVILLON,19]
+FormName = Motivo Poké Ball
+#-------------------------------
+[FLABEBE,1]
+FormName = Forma Flor Amarilla
+#-------------------------------
+[FLABEBE,2]
+FormName = Forma Flor Naranja
+#-------------------------------
+[FLABEBE,3]
+FormName = Forma Flor Azul
+#-------------------------------
+[FLABEBE,4]
+FormName = Forma Flor Blanca
+#-------------------------------
+[FLOETTE,1]
+FormName = Forma Flor Amarilla
+#-------------------------------
+[FLOETTE,2]
+FormName = Forma Flor Naranja
+#-------------------------------
+[FLOETTE,3]
+FormName = Forma Flor Azul
+#-------------------------------
+[FLOETTE,4]
+FormName = Forma Flor Blanca
+#-------------------------------
+[FLOETTE,5]
+FormName = Forma Flor Eterna
+BaseStats = 74,65,67,92,125,128
+BaseExp = 243
+Moves = 1,TACKLE,1,VINEWHIP,1,FAIRYWIND,6,FAIRYWIND,10,LUCKYCHANT,15,RAZORLEAF,20,WISH,25,MAGICALLEAF,27,GRASSYTERRAIN,33,PETALBLIZZARD,38,AROMATHERAPY,43,MISTYTERRAIN,46,MOONBLAST,50,LIGHTOFRUIN,51,PETALDANCE,58,SOLARBEAM
+EggGroups = Undiscovered
+Pokedex = Hoy en día, la flor que lleva ya no se ve en la naturaleza. Se cree que alberga un temible poder.
+Evolutions = FLORGES,None,
+#-------------------------------
+[FLORGES,1]
+FormName = Forma Flor Amarilla
+#-------------------------------
+[FLORGES,2]
+FormName = Forma Flor Naranja
+#-------------------------------
+[FLORGES,3]
+FormName = Forma Flor Azul
+#-------------------------------
+[FLORGES,4]
+FormName = Forma Flor Blanca
+#-------------------------------
+[PUMPKABOO,1]
+FormName = Tamaño Normal
+BaseStats = 49,66,70,51,44,55
+HiddenAbilities = INSOMNIA
+Height = 0.4
+Weight = 5.0
+Pokedex = Las almas errantes de este mundo se introducen en su cuerpo e inician así su viaje al más allá.
+#-------------------------------
+[PUMPKABOO,2]
+FormName = Tamaño Grande
+BaseStats = 54,66,70,46,44,55
+Height = 0.5
+Weight = 7.5
+Pokedex = Se atribuye su gran tamaño al hecho de haber vivido en un lugar donde no escaseaban las almas errantes.
+#-------------------------------
+[PUMPKABOO,3]
+FormName = Tamaño Extragrande
+BaseStats = 59,66,70,41,44,55
+HiddenAbilities = INSOMNIA
+Height = 0.8
+Weight = 15.0
+Pokedex = Se atribuye su enorme tamaño al hecho de haber vivido en un lugar donde abundaban las almas errantes.
+WildItemCommon = MIRACLESEED
+WildItemUncommon = MIRACLESEED
+WildItemRare = MIRACLESEED
+#-------------------------------
+[GOURGEIST,1]
+FormName = Tamaño Normal
+BaseStats = 65,90,122,84,58,75
+HiddenAbilities = INSOMNIA
+Height = 0.9
+Weight = 12.5
+Pokedex = Se dice que los espeluznantes alaridos que emite bien entrada la noche son los lamentos de almas en pena desde el más allá.
+#-------------------------------
+[GOURGEIST,2]
+FormName = Tamaño Grande
+BaseStats = 75,95,122,69,58,75
+Height = 1.1
+Weight = 14.0
+Pokedex = Los Gourgeist Tamaño Grande se hacen pasar por adultos para tomar a los niños de la mano y llevárselos al otro mundo.
+#-------------------------------
+[GOURGEIST,3]
+FormName = Tamaño Extragrande
+BaseStats = 85,100,122,54,58,75
+HiddenAbilities = INSOMNIA
+Height = 1.7
+Weight = 39.0
+Pokedex = Los Gourgeist tamaño Extragrande se llevan a cualquiera al otro mundo, pues nadie puede resistir su fuerza.
+WildItemCommon = MIRACLESEED
+WildItemUncommon = MIRACLESEED
+WildItemRare = MIRACLESEED
+#-------------------------------
+[XERNEAS,1]
+FormName = Modo Activo
+#-------------------------------
+[ZYGARDE,1]
+FormName = Forma 10%
+BaseStats = 54,100,71,115,61,85
+BaseExp = 243
+Height = 1.2
+Weight = 33.5
+Color = Black
+Shape = Quadruped
+Pokedex = Zygarde adopta esta forma al reunir el 10% de sus células. Destaca en el combate a corta distancia.
+Generation = 7
+#-------------------------------
+[ZYGARDE,2]
+FormName = Forma Completa
+BaseStats = 216,100,121,85,91,95
+BaseExp = 354
+Abilities = POWERCONSTRUCT
+HiddenAbilities = POWERCONSTRUCT
+Height = 4.5
+Weight = 610.0
+Color = Black
+Shape = BipedalTail
+Pokedex = Esta es la forma definitiva de Zygarde. Por la boca de su pecho emite una potente energía que arrasa con todo.
+Generation = 7
+#-------------------------------
+[ORICORIO,1]
+FormName = Estilo Animado
+Types = ELECTRIC,FLYING
+Color = Yellow
+Pokedex = Crea una carga eléctrica al frotar sus plumas. Baila hacia sus enemigos y les lanza impactantes golpes eléctricos.
+#-------------------------------
+[ORICORIO,2]
+FormName = Estilo Plácido
+Types = PSYCHIC,FLYING
+Color = Pink
+Pokedex = Este Oricorio se relaja balanceándose suavemente. Esto aumenta su energía psíquica, que luego dispara a sus enemigos.
+#-------------------------------
+[ORICORIO,3]
+FormName = Estilo Refinado
+Types = GHOST,FLYING
+Color = Purple
+Pokedex = Convoca a los muertos con su danza de ensueño. De su malicia extrae poder para maldecir a sus enemigos.
+#-------------------------------
+[ROCKRUFF,2]
+Abilities = OWNTEMPO
+HiddenAbilities = OWNTEMPO
+Flags = InheritFormFromMother
+Evolutions = LYCANROC,LevelEvening,25
+#-------------------------------
+[SILVALLY,1]
+FormName = Tipo Lucha
+Types = FIGHTING
+#-------------------------------
+[SILVALLY,2]
+FormName = Tipo Volador
+Types = FLYING
+#-------------------------------
+[SILVALLY,3]
+FormName = Tipo Veneno
+Types = POISON
+#-------------------------------
+[SILVALLY,4]
+FormName = Tipo Tierra
+Types = GROUND
+#-------------------------------
+[SILVALLY,5]
+FormName = Tipo Roca
+Types = ROCK
+#-------------------------------
+[SILVALLY,6]
+FormName = Tipo Bicho
+Types = BUG
+#-------------------------------
+[SILVALLY,7]
+FormName = Tipo Fantasma
+Types = GHOST
+#-------------------------------
+[SILVALLY,8]
+FormName = Tipo Acero
+Types = STEEL
+#-------------------------------
+[SILVALLY,9]
+FormName = Tipo Desconocido
+Types = QMARKS
+#-------------------------------
+[SILVALLY,10]
+FormName = Tipo Fuego
+Types = FIRE
+#-------------------------------
+[SILVALLY,11]
+FormName = Tipo Agua
+Types = WATER
+#-------------------------------
+[SILVALLY,12]
+FormName = Tipo Planta
+Types = GRASS
+#-------------------------------
+[SILVALLY,13]
+FormName = Tipo Eléctrico
+Types = ELECTRIC
+#-------------------------------
+[SILVALLY,14]
+FormName = Tipo Psíquico
+Types = PSYCHIC
+#-------------------------------
+[SILVALLY,15]
+FormName = Tipo Hielo
+Types = ICE
+#-------------------------------
+[SILVALLY,16]
+FormName = Tipo Dragón
+Types = DRAGON
+#-------------------------------
+[SILVALLY,17]
+FormName = Tipo Siniestro
+Types = DARK
+#-------------------------------
+[SILVALLY,18]
+FormName = Tipo Hada
+Types = FAIRY
+#-------------------------------
+[MINIOR,7]
+FormName = Forma Núcleo Rojo
+BaseStats = 60,100,60,120,100,60
+BaseExp = 175
+EVs = ATTACK,1,SPECIAL_ATTACK,1
+Weight = 0.3
+Color = Red
+Pokedex = Se alimenta de las partículas que flotan la atmósfera. El color de su núcleo depende de la composición de estas.
+Flags = InheritFormFromMother
+#-------------------------------
+[MINIOR,8]
+FormName = Forma Núcleo Naranja
+BaseStats = 60,100,60,120,100,60
+BaseExp = 175
+EVs = ATTACK,1,SPECIAL_ATTACK,1
+Weight = 0.3
+Color = Red
+Pokedex = Se alimenta de las partículas que flotan la atmósfera. El color de su núcleo depende de la composición de estas.
+Flags = InheritFormFromMother
+#-------------------------------
+[MINIOR,9]
+FormName = Forma Núcleo Amarillo
+BaseStats = 60,100,60,120,100,60
+BaseExp = 175
+EVs = ATTACK,1,SPECIAL_ATTACK,1
+Weight = 0.3
+Color = Yellow
+Pokedex = Se alimenta de las partículas que flotan la atmósfera. El color de su núcleo depende de la composición de estas.
+Flags = InheritFormFromMother
+#-------------------------------
+[MINIOR,10]
+FormName = Forma Núcleo Verde
+BaseStats = 60,100,60,120,100,60
+BaseExp = 175
+EVs = ATTACK,1,SPECIAL_ATTACK,1
+Weight = 0.3
+Color = Green
+Pokedex = Se alimenta de las partículas que flotan la atmósfera. El color de su núcleo depende de la composición de estas.
+Flags = InheritFormFromMother
+#-------------------------------
+[MINIOR,11]
+FormName = Forma Núcleo Azul
+BaseStats = 60,100,60,120,100,60
+BaseExp = 175
+EVs = ATTACK,1,SPECIAL_ATTACK,1
+Weight = 0.3
+Color = Blue
+Pokedex = Se alimenta de las partículas que flotan la atmósfera. El color de su núcleo depende de la composición de estas.
+Flags = InheritFormFromMother
+#-------------------------------
+[MINIOR,12]
+FormName = Forma Núcleo Añil
+BaseStats = 60,100,60,120,100,60
+BaseExp = 175
+EVs = ATTACK,1,SPECIAL_ATTACK,1
+Weight = 0.3
+Color = Blue
+Pokedex = Se alimenta de las partículas que flotan la atmósfera. El color de su núcleo depende de la composición de estas.
+Flags = InheritFormFromMother
+#-------------------------------
+[MINIOR,13]
+FormName = Forma Núcleo Violeta
+BaseStats = 60,100,60,120,100,60
+BaseExp = 175
+EVs = ATTACK,1,SPECIAL_ATTACK,1
+Weight = 0.3
+Color = Purple
+Pokedex = Se alimenta de las partículas que flotan la atmósfera. El color de su núcleo depende de la composición de estas.
+Flags = InheritFormFromMother
+#-------------------------------
+[MIMIKYU,1]
+FormName = Forma Descubierta
+Pokedex = Le entristece que pueda descubrirse su identidad. Jamás perdona a quienes rompen su disfraz y no descansa hasta vengarse.
+#-------------------------------
+[NECROZMA,3]
+FormName = Forma Ultra-Necrozma
+Types = PSYCHIC,DRAGON
+BaseStats = 97,167,97,129,167,97
+BaseExp = 377
+EVs = ATTACK,1,SPECIAL_ATTACK,1,SPEED,1
+Abilities = NEUROFORCE
+Height = 7.5
+Color = Yellow
+Pokedex = Esta forma es el resultado de haber absorbido una gran cantidad de energía luminosa. Emite rayos láser por todo el cuerpo.
+#-------------------------------
+[MAGEARNA,1]
+FormName = Forma Color Vetusta
+Color = Red
+Pokedex = Este es el hermoso aspecto que presentaba Magearna cuando fue ofrecido como presente a la hija de un rey hace 500 años.
+#-------------------------------
+[CRAMORANT,1]
+FormName = Forma Tragatodo
+Pokedex = Debido a su insaciable apetito, intentó engullir un enorme Arrokuda y se le quedó atravesado en el gaznate.
+#-------------------------------
+[CRAMORANT,2]
+FormName = Forma Engulletodo
+Pokedex = Intentando engullir un Pikachu por accidente, se le quedó atragantado, aunque no parece importarle mucho.
+#-------------------------------
+
+[SINISTEA,1]
+FormName = Forma Genuina
+Pokedex = Espera a que algún incauto intente bebérselo para absorber su energía vital, pero suelen escupirlo enseguida debido a su mal sabor.
+Evolutions = POLTEAGEIST,Item,CHIPPEDPOT
+#-------------------------------
+[POLTEAGEIST,1]
+FormName = Forma Genuina
+Pokedex = Tiene un sabor y un aroma sumamente singulares. Si su Entrenador se hace pleno merecedor de su confianza, le permite catarlo ligeramente.
+#-------------------------------
+[MORPEKO,1]
+FormName = Forma Voraz
+Color = Purple
+Pokedex = El hambre lo ha vuelto agresivo y ha convertido la electricidad de sus carrillos en energía de tipo Siniestro.
+#-------------------------------
+[URSHIFU,1]
+FormName = Estilo Fluido
+Types = FIGHTING,WATER
+Moves = 0,SURGINGSTRIKES,1,AQUAJET,1,ROCKSMASH,1,LEER,1,ENDURE,1,FOCUSENERGY,12,AERIALACE,16,SCARYFACE,20,HEADBUTT,24,BRICKBREAK,28,DETECT,32,BULKUP,36,IRONHEAD,40,DYNAMICPUNCH,44,COUNTER,48,CLOSECOMBAT,52,FOCUSPUNCH
+TutorMoves = ACROBATICS,ATTRACT,AURASPHERE,BODYPRESS,BODYSLAM,BRICKBREAK,BRINE,BULKUP,CAPTIVATE,CLOSECOMBAT,COACHING,CONFIDE,DIG,DIVE,DOUBLEEDGE,DOUBLETEAM,DRAINPUNCH,ENDURE,FACADE,FALSESWIPE,FIREPUNCH,FOCUSBLAST,FOCUSENERGY,FRUSTRATION,GIGAIMPACT,HELPINGHAND,HIDDENPOWER,ICEPUNCH,IRONDEFENSE,IRONHEAD,LIQUIDATION,LOWKICK,LOWSWEEP,MEGAKICK,MEGAPUNCH,MIMIC,NATURALGIFT,POISONJAB,PROTECT,RAINDANCE,REST,RETALIATE,RETURN,REVENGE,REVERSAL,ROCKSLIDE,ROCKTOMB,ROUND,SCALD,SCARYFACE,SECRETPOWER,SLEEPTALK,SNORE,STONEEDGE,SUBSTITUTE,SUPERPOWER,SWAGGER,SWIFT,TAUNT,THUNDERPUNCH,TOXIC,UTURN,WATERFALL,WHIRLPOOL,WORKUP,ZENHEADBUTT,AERIALACE,CHILLINGWATER,FLING,FOCUSPUNCH,ICESPINNER,SWORDSDANCE,TAKEDOWN,TRAILBLAZE
+Pokedex = Su estilo de combate se inspira en el flujo del agua y consiste en castigar al oponente de forma constante e ininterrumpida.
+#-------------------------------
+[OSHAWOTT,1]
+Generation = 8
+#-------------------------------
+[DEWOTT,1]
+Generation = 8
+#-------------------------------
+[PETILIL,1]
+Generation = 8
+Region = Hisui
+#-------------------------------
+[BASCULIN,2]
+FormName = Forma Raya Roja
+Abilities = RECKLESS,ADAPTABILITY
+Moves = 1,WATERGUN,1,TAILWHIP,4,TACKLE,8,FLAIL,12,AQUAJET,16,BITE,20,SCARYFACE,24,HEADBUTT,28,SOAK,32,CRUNCH,36,TAKEDOWN,40,FINALGAMBIT,44,AQUATAIL,44,WAVECRASH,48,THRASH,52,DOUBLEEDGE,56,HEADSMASH
+TutorMoves = AGILITY,AQUATAIL,ASSURANCE,ATTRACT,BOUNCE,BRINE,CAPTIVATE,CONFIDE,CRUNCH,CUT,DIVE,DOUBLETEAM,ENDEAVOR,ENDURE,FACADE,FLIPTURN,FRUSTRATION,HAIL,HIDDENPOWER,HYDROPUMP,ICEBEAM,ICEFANG,ICYWIND,LIQUIDATION,MIMIC,MUDDYWATER,MUDSHOT,NATURALGIFT,PROTECT,PSYCHICFANGS,RAINDANCE,REST,RETURN,REVENGE,REVERSAL,ROUND,SCALD,SCALESHOT,SCARYFACE,SECRETPOWER,SLEEPTALK,SNORE,SUBSTITUTE,SUPERPOWER,SURF,SWAGGER,SWIFT,TAUNT,TOXIC,UPROAR,WATERFALL,WHIRLPOOL,ZENHEADBUTT,BLIZZARD,CHILLINGWATER,DOUBLEEDGE,SNOWSCAPE,TAKEDOWN,WATERPULSE
+EggMoves = BUBBLEBEAM,ENDEAVOR
+Category = Violento
+Pokedex = Los Basculin con la raya roja y aquellos con la raya azul se llevan fatal, pero algunos tienden a agruparse.
+Generation = 5
+Flags = InheritFormFromMother
+WildItemUncommon = DEEPSEATOOTH
+Evolutions = BASCULEGION,None,
+#-------------------------------
+[BASCULIN,3]
+FormName = Forma Raya Azul
+Abilities = ROCKHEAD,ADAPTABILITY
+Moves = 1,WATERGUN,1,TAILWHIP,4,TACKLE,8,FLAIL,12,AQUAJET,16,BITE,20,SCARYFACE,24,HEADBUTT,28,SOAK,32,CRUNCH,36,TAKEDOWN,40,FINALGAMBIT,44,AQUATAIL,44,WAVECRASH,48,THRASH,52,DOUBLEEDGE,56,HEADSMASH
+TutorMoves = AGILITY,AQUATAIL,ASSURANCE,ATTRACT,BOUNCE,BRINE,CAPTIVATE,CONFIDE,CRUNCH,CUT,DIVE,DOUBLETEAM,ENDEAVOR,ENDURE,FACADE,FLIPTURN,FRUSTRATION,HAIL,HIDDENPOWER,HYDROPUMP,ICEBEAM,ICEFANG,ICYWIND,LIQUIDATION,MIMIC,MUDDYWATER,MUDSHOT,NATURALGIFT,PROTECT,PSYCHICFANGS,RAINDANCE,REST,RETURN,REVENGE,REVERSAL,ROUND,SCALD,SCALESHOT,SCARYFACE,SECRETPOWER,SLEEPTALK,SNORE,SUBSTITUTE,SUPERPOWER,SURF,SWAGGER,SWIFT,TAUNT,TOXIC,UPROAR,WATERFALL,WHIRLPOOL,ZENHEADBUTT
+EggMoves = BUBBLEBEAM,ENDEAVOR
+Category = Violento
+Pokedex = Los Basculin con la raya roja y aquellos con la raya azul se llevan fatal, pero algunos tienden a agruparse.
+Generation = 5
+Flags = InheritFormFromMother
+WildItemUncommon = DEEPSEASCALE
+Evolutions = BASCULEGION,None,
+#-------------------------------
+[RUFFLET,1]
+Generation = 8
+Region = Hisui
+#-------------------------------
+[GOOMY,1]
+Generation = 8
+Region = Hisui
+#-------------------------------
+[BERGMITE,1]
+Generation = 8
+Region = Hisui
+#-------------------------------
+[ROWLET,1]
+Generation = 8
+Region = Hisui
+#-------------------------------
+[DARTRIX,1]
+Generation = 8
+Region = Hisui
+#-------------------------------
+[BASCULEGION,1]
+FormName = Forma Hembra
+BaseStats = 120,92,65,78,100,75
+#-------------------------------
+[DUDUNSPARCE,1]
+FormName = Forma Trinodular
+Height = 4.5
+Weight = 47.4
+#-------------------------------
+[MAUSHOLD,1]
+FormName = Familia de Tres
+Weight = 2.3
+#-------------------------------
+[TATSUGIRI,1]
+FormName = Forma Lánguida
+Color = Red
+Pokedex = Al parecer, tanto los motivos como el color de su cuerpo cambian para adaptarse a los gustos de la presa a la que quiere atraer.
+#-------------------------------
+[TATSUGIRI,2]
+FormName = Forma Recta
+Color = Yellow
+Pokedex = Se alimenta principalmente de Pokémon pájaro. Es consciente de que es débil, por lo que caza junto a un compañero.
+#-------------------------------
+[SQUAWKABILLY,1]
+FormName = Plumaje Azul
+Color = Blue
+#-------------------------------
+[SQUAWKABILLY,2]
+FormName = Plumaje Amarillo
+HiddenAbilities = SHEERFORCE
+Color = Yellow
+#-------------------------------
+[SQUAWKABILLY,3]
+FormName = Plumaje Blanco
+HiddenAbilities = SHEERFORCE
+Color = White
+#-------------------------------
+[POLTCHAGEIST,1]
+FormName = Forma Opulenta
+Pokedex = Absorbe la energía vital de aquellos que prueban un bocado de cualquier comida condimentada con el polvo que conforma su cuerpo.
+Evolutions = SINISTCHA,Item,MASTERPIECETEACUP
+#-------------------------------
+[SINISTCHA,1]
+FormName = Forma Exquisita
+Pokedex = Vive en un exquisito cuenco de té elaborado por un alfarero de renombre. Los coleccionistas más acérrimos se desviven por este Pokémon.
+#-------------------------------
+[TERAPAGOS,1]
+FormName = Forma Teracristal
+BaseStats = 95,95,110,85,105,110
+EVs = DEFENSE,2,SPECIAL_DEFENSE,2
+Abilities = TERASHELL
+Height = 0.3
+Weight = 16.0
+Shape = Head
+Pokedex = Cuando presiente peligro, se prepara para combatir formando un caparazón de cristales muy resistente mediante la teracristalización.
+#-------------------------------
+[TERAPAGOS,2]
+FormName = Forma Astral
+BaseStats = 95,105,140,85,135,140
+EVs = HP,3
+Abilities = TERAFORMZERO
+Height = 1.7
+Weight = 77.0
+Shape = Head
+Pokedex = Adopta esta forma cuando su energía Teracristal se ve amplificada descomunalmente. Se asemeja a la imagen del mundo que la gente tenía antaño.
+#-------------------------------
+[EEVEE,1]
+FormName = Eevee Lets Go
+BaseStats = 65,75,70,75,65,85
+Moves = 1,COVET,1,HELPINGHAND,1,TACKLE,1,GROWL,1,TAILWHIP,5,SANDATTACK,10,QUICKATTACK,15,BABYDOLLEYES,20,SWIFT,25,BITE,30,COPYCAT,35,BATONPASS,40,TAKEDOWN,40,EEVEEVOLLEY,40,BOUNCYBUBBLE,40,BUZZYBUZZ,40,SIZZLYSLIDE,40,GLITZYGLOW,40,BADDYBAD,40,SAPPYSEED,40,FREEZYFROST,40,SPARKLYSWIRL,45,CHARM,50,DOUBLEEDGE,55,LASTRESORT
+Evolutions = VAPOREON,None,
+#-------------------------------

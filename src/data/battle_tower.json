@@ -1,0 +1,199 @@
+{
+  "trainers": [
+    {
+      "id": 1,
+      "name": "Kris",
+      "img": "/images/battleTower/TB1.png"
+    },
+    {
+      "id": 2,
+      "name": "Plata",
+      "img": "/images/battleTower/TB2.png"
+    },
+    {
+      "id": 3,
+      "name": "Eusine",
+      "img": "/images/battleTower/TB3.png"
+    },
+    {
+      "id": 4,
+      "name": "Brendan",
+      "img": "/images/battleTower/TB4.png"
+    },
+    {
+      "id": 5,
+      "name": "Blasco",
+      "img": "/images/battleTower/TB5.png"
+    },
+    {
+      "id": 6,
+      "name": "Tristana",
+      "img": "/images/battleTower/TB6.png"
+    },
+    {
+      "id": 7,
+      "name": "Maya",
+      "img": "/images/battleTower/TB7.png"
+    },
+    {
+      "id": 8,
+      "name": "Israel",
+      "img": "/images/battleTower/TB8.png"
+    },
+    {
+      "id": 9,
+      "name": "Hilda",
+      "img": "/images/battleTower/TB9.png"
+    },
+    {
+      "id": 10,
+      "name": "Cheren",
+      "img": "/images/battleTower/TB10.png"
+    },
+    {
+      "id": 11,
+      "name": "Bel",
+      "img": "/images/battleTower/TB11.png"
+    },
+    {
+      "id": 12,
+      "name": "N",
+      "img": "/images/battleTower/TB12.png"
+    },
+    {
+      "id": 13,
+      "name": "Mundánez",
+      "img": "/images/battleTower/TB13.png"
+    },
+    {
+      "id": 14,
+      "name": "Serena",
+      "img": "/images/battleTower/TB14.png"
+    },
+    {
+      "id": 15,
+      "name": "Ciprés",
+      "img": "/images/battleTower/TB15.png"
+    },
+    {
+      "id": 16,
+      "name": "Dianta",
+      "img": "/images/battleTower/TB16.png"
+    },
+    {
+      "id": 17,
+      "name": "Gala",
+      "img": "/images/battleTower/TB17.png"
+    },
+    {
+      "id": 18,
+      "name": "Kukui",
+      "img": "/images/battleTower/TB18.png"
+    },
+    {
+      "id": 19,
+      "name": "Guzmán",
+      "img": "/images/battleTower/TB19.png"
+    },
+    {
+      "id": 20,
+      "name": "Francine",
+      "img": "/images/battleTower/TB20.png"
+    },
+    {
+      "id": 21,
+      "name": "Paul",
+      "img": "/images/battleTower/TB21.png"
+    },
+    {
+      "id": 22,
+      "name": "Sonia",
+      "img": "/images/battleTower/TB22.png"
+    },
+    {
+      "id": 23,
+      "name": "Lionel",
+      "img": "/images/battleTower/TB23.png"
+    },
+    {
+      "id": 24,
+      "name": "Mencía",
+      "img": "/images/battleTower/TB24.png"
+    },
+    {
+      "id": 25,
+      "name": "Damián",
+      "img": "/images/battleTower/TB25.png"
+    },
+    {
+      "id": 26,
+      "name": "Noa",
+      "img": "/images/battleTower/TB26.png"
+    },
+    {
+      "id": 27,
+      "name": "Eric Lostie",
+      "img": "/images/battleTower/TB27.png"
+    },
+    {
+      "id": 28,
+      "name": "Acromo",
+      "img": "/images/battleTower/TB28.png"
+    },
+    {
+      "id": 29,
+      "name": "Guayo",
+      "img": "/images/battleTower/TB29.png"
+    },
+    {
+      "id": 30,
+      "name": "Roxy",
+      "img": "/images/battleTower/TB30.png"
+    },
+    {
+      "id": 31,
+      "name": "Mostaz",
+      "img": "/images/battleTower/TB31.png"
+    },
+    {
+      "id": 32,
+      "name": "e-Nigma",
+      "img": "/images/battleTower/TB32.png"
+    },
+    {
+      "id": 33,
+      "name": "Ságita",
+      "img": "/images/battleTower/TB33.png"
+    },
+    {
+      "id": 34,
+      "name": "Cayena",
+      "img": "/images/battleTower/TB34.png"
+    },
+    {
+      "id": 35,
+      "name": "Skyflayer",
+      "img": "/images/battleTower/TB35.png"
+    },
+    {
+      "id": 36,
+      "name": "DPertierra",
+      "img": "/images/battleTower/TB36.png"
+    },
+    {
+      "id": 37,
+      "name": "Máximo",
+      "img": "/images/battleTower/TB37.png"
+    },
+    {
+      "id": 38,
+      "name": "Mirto",
+      "img": "/images/battleTower/TB38.png"
+    },
+    {
+      "id": 39,
+      "name": "Cintia",
+      "img": "/images/battleTower/TB39.png"
+    }
+  ]
+}

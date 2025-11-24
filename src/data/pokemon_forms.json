@@ -1,0 +1,6891 @@
+{
+  "variants": [
+    {
+      "id": "VENUSAUR1",
+      "image": "/images/pokemonFront/VENUSAUR_1.png",
+      "location": "/images/location/VENUSAUR_1.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "VENUSAUR",
+      "name": "Venusaur X",
+      "form": "Mega Venusaur X",
+      "types": [
+        "GRASS",
+        "POISON"
+      ],
+      "MegaStore": "VENUSAURITEX",
+      "baseStats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 123,
+        "specialAttack": 122,
+        "specialDefense": 120,
+        "speed": 80
+      },
+      "abilities": [
+        "THICKFAT"
+      ],
+      "physicalData": {
+        "height": 2.4,
+        "weight": 155.5
+      },
+      "pokedex": "Según parece, la flor de Venusaur adquiere unos colores muy vivos con una buena nutrición y mucho sol. El aroma delicado de esta flor calma los ánimos."
+    },
+    {
+      "id": "VENUSAUR2",
+      "image": "/images/pokemonFront/VENUSAUR_2.png",
+      "location": "/images/location/VENUSAUR_2.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "VENUSAUR",
+      "name": "Venusaur Y",
+      "form": "Mega Venusaur Y",
+      "types": [
+        "GRASS",
+        "POISON"
+      ],
+      "MegaStore": "VENUSAURITEY",
+      "baseStats": {
+        "hp": 80,
+        "attack": 92,
+        "defense": 103,
+        "specialAttack": 130,
+        "specialDefense": 150,
+        "speed": 70
+      },
+      "abilities": [
+        "STURDYROOT"
+      ],
+      "physicalData": {
+        "height": 2.4,
+        "weight": 207.3
+      },
+      "pokedex": "Según parece, la flor de Venusaur adquiere unos colores muy vivos con una buena nutrición y mucho sol. El aroma delicado de esta flor calma los ánimos."
+    },
+    {
+      "id": "CHARIZARD1",
+      "image": "/images/pokemonFront/CHARIZARD_1.png",
+      "location": "/images/location/CHARIZARD_1.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "CHARIZARD",
+      "name": "Charizard X",
+      "form": "Mega Charizard X",
+      "types": [
+        "FIRE",
+        "DRAGON"
+      ],
+      "MegaStore": "CHARIZARDITEX",
+      "baseStats": {
+        "hp": 78,
+        "attack": 130,
+        "defense": 111,
+        "specialAttack": 130,
+        "specialDefense": 85,
+        "speed": 100
+      },
+      "abilities": [
+        "TOUGHCLAWS"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 110.5
+      },
+      "pokedex": "Charizard va volando en busca de rivales fuertes. Echa fuego por la boca y es capaz de derretirlo todo, pero si su rival es más débil que él, no usará este ataque."
+    },
+    {
+      "id": "CHARIZARD2",
+      "image": "/images/pokemonFront/CHARIZARD_2.png",
+      "location": "/images/location/CHARIZARD_2.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "CHARIZARD",
+      "name": "Charizard Y",
+      "form": "Mega Charizard Y",
+      "types": [
+        "FIRE",
+        "FLYING"
+      ],
+      "MegaStore": "CHARIZARDITEY",
+      "baseStats": {
+        "hp": 78,
+        "attack": 104,
+        "defense": 78,
+        "specialAttack": 159,
+        "specialDefense": 115,
+        "speed": 100
+      },
+      "abilities": [
+        "DROUGHT"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 100.5
+      },
+      "pokedex": "Charizard va volando en busca de rivales fuertes. Echa fuego por la boca y es capaz de derretirlo todo, pero si su rival es más débil que él, no usará este ataque."
+    },
+    {
+      "id": "RATTATA1",
+      "image": "/images/pokemonFront/RATTATA_1.png",
+      "location": "/images/location/RATTATA_1.jpg",
+      "baseId": "RATTATA",
+      "name": "Rattata",
+      "form": "Forma Alola",
+      "pokedex": "Comienza su actividad cuando se pone el sol. Recorre la ciudad en pos de buena comida para su jefe, que suele ser un Raticate.",
+      "types": [
+        "DARK",
+        "NORMAL"
+      ],
+      "baseStats": {
+        "hp": 30,
+        "attack": 56,
+        "defense": 35,
+        "specialAttack": 25,
+        "specialDefense": 35,
+        "speed": 72
+      },
+      "abilities": [
+        "GLUTTONY",
+        "HUSTLE"
+      ],
+      "hiddenAbilities": [
+        "THICKFAT"
+      ],
+      "physicalData": {
+        "height": 0.3,
+        "weight": 3.8
+      },
+      "evolutionChain": [
+        {
+          "species": "RATTATA_1",
+          "evolvesTo": {
+            "species": "RATICATE_1",
+            "method": "Nivel",
+            "requirement": 20
+          }
+        },
+        {
+          "species": "RATICATE_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "RATICATE1",
+      "image": "/images/pokemonFront/RATICATE_1.png",
+      "location": "/images/location/RATICATE_1.jpg",
+      "route": "Villa Azabache",
+      "baseId": "RATICATE",
+      "name": "Raticate",
+      "form": "Forma Alola",
+      "pokedex": "Este gourmet es muy exigente con el sabor y la frescura de la comida. Si Raticate vive en un restaurante, no cabe duda de que es uno bueno.",
+      "types": [
+        "DARK",
+        "NORMAL"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 71,
+        "defense": 70,
+        "specialAttack": 40,
+        "specialDefense": 80,
+        "speed": 77
+      },
+      "abilities": [
+        "GLUTTONY",
+        "HUSTLE"
+      ],
+      "hiddenAbilities": [
+        "THICKFAT"
+      ],
+      "physicalData": {
+        "height": 0.7,
+        "weight": 25.5
+      },
+      "evolutionChain": [
+        {
+          "species": "RATTATA_1",
+          "evolvesTo": {
+            "species": "RATICATE_1",
+            "method": "Nivel",
+            "requirement": 20
+          }
+        },
+        {
+          "species": "RATICATE_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "BLASTOISE1",
+      "image": "/images/pokemonFront/BLASTOISE_1.png",
+      "location": "/images/location/BLASTOISE_1.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "BLASTOISE",
+      "name": "Blastoise X",
+      "form": "Mega Blastoise X",
+      "types": [
+        "WATER"
+      ],
+      "MegaStore": "BLASTOISINITEX",
+      "baseStats": {
+        "hp": 79,
+        "attack": 103,
+        "defense": 120,
+        "specialAttack": 135,
+        "specialDefense": 115,
+        "speed": 78
+      },
+      "abilities": [
+        "MEGALAUNCHER"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 101.1
+      },
+      "pokedex": "Lanza chorros de agua por los tubos del caparazón con gran precisión. Tiene tanta puntería que no fallaría al tirar contra una lata pequeña a 50 metros."
+    },
+    {
+      "id": "BLASTOISE2",
+      "image": "/images/pokemonFront/BLASTOISE_2.png",
+      "location": "/images/location/BLASTOISE_2.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "BLASTOISE",
+      "name": "Blastoise y",
+      "form": "Mega Blastoise y",
+      "types": [
+        "WATER",
+        "STEEL"
+      ],
+      "MegaStore": "BLASTOISINITEX",
+      "baseStats": {
+        "hp": 79,
+        "attack": 93,
+        "defense": 140,
+        "specialAttack": 115,
+        "specialDefense": 145,
+        "speed": 58
+      },
+      "abilities": [
+        "SHELLARMOR"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 300
+      },
+      "pokedex": "Lanza chorros de agua por los tubos del caparazón con gran precisión. Tiene tanta puntería que no fallaría al tirar contra una lata pequeña a 50 metros."
+    },
+    {
+      "id": "BEEDRILL1",
+      "image": "/images/pokemonFront/BEEDRILL_1.png",
+      "location": "/images/location/BEEDRILL_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "BEEDRILL",
+      "name": "Mega Beedrill",
+      "form": "Mega Beedrill",
+      "types": [
+        "BUG",
+        "POISON"
+      ],
+      "MegaStore": "BEEDRILLITE",
+      "baseStats": {
+        "hp": 65,
+        "attack": 150,
+        "defense": 40,
+        "specialAttack": 15,
+        "specialDefense": 80,
+        "speed": 145
+      },
+      "abilities": [
+        "ADAPTABILITY"
+      ],
+      "physicalData": {
+        "height": 1.4,
+        "weight": 40.5
+      },
+      "pokedex": "Los Beedrill defienden su territorio a toda costa. No conviene acercarse a su colmena, por seguridad. Si se les molesta, todo un enjambre atacará ferozmente."
+    },
+    {
+      "id": "PIDGEOT1",
+      "image": "/images/pokemonFront/PIDGEOT_1.png",
+      "location": "/images/location/PIDGEOT_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "PIDGEOT",
+      "name": "Mega Pidgeot",
+      "form": "Mega Pidgeot",
+      "types": [
+        "NORMAL",
+        "FLYING"
+      ],
+      "MegaStore": "PIDGEOTITE",
+      "baseStats": {
+        "hp": 83,
+        "attack": 80,
+        "defense": 80,
+        "specialAttack": 135,
+        "specialDefense": 80,
+        "speed": 121
+      },
+      "abilities": [
+        "NOGUARD"
+      ],
+      "physicalData": {
+        "height": 2.2,
+        "weight": 50.5
+      },
+      "pokedex": "Tiene un plumaje bonito e hipnótico. Muchos entrenadores se quedan embobados con las plumas que tiene en la cabeza y lo eligen como su Pokémon."
+    },
+    {
+      "id": "PIKACHU16",
+      "image": "/images/pokemonFront/PIKACHU_16.png",
+      "location": "/images/location/PIKACHU_16.jpg",
+      "baseId": "PIKACHU",
+      "name": "Pikachu",
+      "form": "Forma Amarillo",
+      "pokedex": "Tiene unas bolsas en las mejillas en las que almacena electricidad. Cuando la libera de golpe, la potencia de la descarga es igual a la de un rayo.",
+      "types": [
+        "ELECTRIC"
+      ],
+      "baseStats": {
+        "hp": 55,
+        "attack": 75,
+        "defense": 50,
+        "specialAttack": 70,
+        "specialDefense": 60,
+        "speed": 110
+      },
+      "abilities": [
+        "SOBRECARGA"
+      ],
+      "physicalData": {
+        "height": 0.4,
+        "weight": 6.0
+      },
+      "evolutionChain": [
+        {
+          "species": "PIKACHU_16",
+          "evolvesTo": {
+            "species": "PIKACHU_17",
+            "method": "Objeto",
+            "requirement": "PIKACHUITE"
+          }
+        },
+        {
+          "species": "PIKACHU_17",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "PIKACHU17",
+      "image": "/images/pokemonFront/PIKACHU_17.png",
+      "location": "/images/location/PIKACHU_17.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "PIKACHU",
+      "name": "Mega Pikachu",
+      "form": "Mega Pikachu",
+      "types": [
+        "ELECTRIC"
+      ],
+      "MegaStore": "PIKACHUITE",
+      "baseStats": {
+        "hp": 55,
+        "attack": 135,
+        "defense": 100,
+        "specialAttack": 130,
+        "specialDefense": 100,
+        "speed": 110
+      },
+      "abilities": [
+        "SOBRECARGA"
+      ],
+      "physicalData": {
+        "height": 0.4,
+        "weight": 6.0
+      },
+      "evolutionChain": [
+        {
+          "species": "PIKACHU_16",
+          "evolvesTo": {
+            "species": "PIKACHU_17",
+            "method": "Objeto",
+            "requirement": "PIKACHUITE"
+          }
+        },
+        {
+          "species": "PIKACHU_17",
+          "evolvesTo": null
+        }
+      ],
+      "pokedex": "Tiene unas bolsas en las mejillas en las que almacena electricidad. Cuando la libera de golpe, la potencia de la descarga es igual a la de un rayo."
+    },
+    {
+      "id": "RAICHU1",
+      "image": "/images/pokemonFront/RAICHU_1.png",
+      "location": "/images/location/RAICHU_1.jpg",
+      "baseId": "RAICHU",
+      "name": "Raichu",
+      "form": "Forma Alola",
+      "pokedex": "Controla la electricidad a voluntad. Puede subirse a su propia cola y desplazarse flotando con sus poderes telequinéticos.",
+      "types": [
+        "ELECTRIC",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 85,
+        "defense": 50,
+        "specialAttack": 95,
+        "specialDefense": 85,
+        "speed": 110
+      },
+      "abilities": [
+        "PSYCHICSURGE"
+      ],
+      "hiddenAbilities": [
+        "SURGESURFER"
+      ],
+      "physicalData": {
+        "height": 0.7,
+        "weight": 21
+      }
+    },
+    {
+      "id": "RAICHU2",
+      "image": "/images/pokemonFront/RAICHU_2.png",
+      "location": "/images/location/RAICHU_2.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "RAICHU",
+      "name": "Mega Raichu",
+      "form": "Mega Raichu X",
+      "types": [
+        "ELECTRIC"
+      ],
+      "MegaStore": "RAICHUITEX",
+      "baseStats": {
+        "hp": 60,
+        "attack": 130,
+        "defense": 75,
+        "specialAttack": 90,
+        "specialDefense": 90,
+        "speed": 130
+      },
+      "abilities": [
+        "RECKLESS"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 38
+      }
+    },
+    {
+      "id": "RAICHU3",
+      "image": "/images/pokemonFront/RAICHU_3.png",
+      "location": "/images/location/RAICHU_3.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "RAICHU",
+      "name": "Mega Raichu",
+      "form": "Mega Raichu Y",
+      "types": [
+        "ELECTRIC"
+      ],
+      "MegaStore": "RAICHUITEY",
+      "baseStats": {
+        "hp": 60,
+        "attack": 90,
+        "defense": 65,
+        "specialAttack": 130,
+        "specialDefense": 100,
+        "speed": 130
+      },
+      "abilities": [
+        "ADAPTABILITY"
+      ],
+      "physicalData": {
+        "height": 1,
+        "weight": 26
+      }
+    },
+    {
+      "id": "SANDSHREW1",
+      "image": "/images/pokemonFront/SANDSHREW_1.png",
+      "location": "/images/location/SANDSHREW_1.jpg",
+      "route": "Ruta 3",
+      "baseId": "SANDSHREW",
+      "name": "Sandshrew",
+      "form": "Forma Alola",
+      "pokedex": "Vive en montañas nevadas. Su caparazón de acero es muy resistente, pero tiene tal dureza que no le permite enrollarse del todo.",
+      "types": [
+        "ICE",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 75,
+        "defense": 90,
+        "specialAttack": 10,
+        "specialDefense": 35,
+        "speed": 40
+      },
+      "abilities": [
+        "SNOWCLOAK"
+      ],
+      "hiddenAbilities": [
+        "SLUSHRUSH"
+      ],
+      "physicalData": {
+        "height": 0.7,
+        "weight": 40
+      },
+      "evolutionChain": [
+        {
+          "species": "SANDSHREW_1",
+          "evolvesTo": {
+            "species": "SANDSLASH_1",
+            "method": "Objeto",
+            "requirement": "ICESTONE"
+          }
+        },
+        {
+          "species": "SANDSLASH_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "SANDSLASH1",
+      "image": "/images/pokemonFront/SANDSLASH_1.png",
+      "location": "/images/location/SANDSLASH_1.jpg",
+      "baseId": "SANDSLASH",
+      "name": "Sandslash",
+      "form": "Forma Alola",
+      "pokedex": "Cambió su hábitat a las montañas nevadas tras huir de una erupción volcánica. Esparce nieve por doquier cuando corretea por ella.",
+      "types": [
+        "ICE",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 100,
+        "defense": 110,
+        "specialAttack": 45,
+        "specialDefense": 55,
+        "speed": 90
+      },
+      "abilities": [
+        "SNOWCLOAK"
+      ],
+      "hiddenAbilities": [
+        "SLUSHRUSH"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 55
+      },
+      "evolutionChain": [
+        {
+          "species": "SANDSHREW_1",
+          "evolvesTo": {
+            "species": "SANDSLASH_1",
+            "method": "Objeto",
+            "requirement": "ICESTONE"
+          }
+        },
+        {
+          "species": "SANDSLASH_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "VULPIX1",
+      "image": "/images/pokemonFront/VULPIX_1.png",
+      "location": "/images/location/VULPIX_1.jpg",
+      "baseId": "VULPIX",
+      "name": "Vulpix",
+      "form": "Forma Alola",
+      "pokedex": "Cuando hace calor, crea rocas de hielo con sus seis colas y las disemina por los alrededores para enfriar su cuerpo.",
+      "types": [
+        "ICE"
+      ],
+      "baseStats": {
+        "hp": 38,
+        "attack": 41,
+        "defense": 40,
+        "specialAttack": 60,
+        "specialDefense": 65,
+        "speed": 65
+      },
+      "abilities": [
+        "SNOWCLOAK"
+      ],
+      "hiddenAbilities": [
+        "SNOWWARNING"
+      ],
+      "physicalData": {
+        "height": 0.6,
+        "weight": 9.9
+      },
+      "evolutionChain": [
+        {
+          "species": "VULPIX_1",
+          "evolvesTo": {
+            "species": "NINETALES_1",
+            "method": "Objeto",
+            "requirement": "ICESTONE"
+          }
+        },
+        {
+          "species": "NINETALES_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "NINETALES1",
+      "image": "/images/pokemonFront/NINETALES_1.png",
+      "location": "/images/location/NINETALES_1.jpg",
+      "route": "Islas Espuma",
+      "baseId": "NINETALES",
+      "name": "Ninetales",
+      "form": "Forma Alola",
+      "pokedex": "En su pelaje se crean cristales de hielo con los que cubre al enemigo. Quien lo enfada acaba congelado al instante.",
+      "types": [
+        "ICE",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 73,
+        "attack": 76,
+        "defense": 75,
+        "specialAttack": 100,
+        "specialDefense": 100,
+        "speed": 100
+      },
+      "abilities": [
+        "SNOWCLOAK"
+      ],
+      "hiddenAbilities": [
+        "SNOWWARNING"
+      ],
+      "physicalData": {
+        "height": 1.1,
+        "weight": 19.9
+      },
+      "evolutionChain": [
+        {
+          "species": "VULPIX_1",
+          "evolvesTo": {
+            "species": "NINETALES_1",
+            "method": "Objeto",
+            "requirement": "ICESTONE"
+          }
+        },
+        {
+          "species": "NINETALES_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "DIGLETT1",
+      "image": "/images/pokemonFront/DIGLETT_1.png",
+      "location": "/images/location/DIGLETT_1.jpg",
+      "route": "Túnel Diglett",
+      "baseId": "DIGLETT",
+      "name": "Diglett",
+      "form": "Forma Alola",
+      "pokedex": "Los pelillos metálicos de la cabeza son fruto de una mutación. Se comunica con sus compañeros bamboleándose.",
+      "types": [
+        "GROUND",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 10,
+        "attack": 55,
+        "defense": 30,
+        "specialAttack": 35,
+        "specialDefense": 45,
+        "speed": 90
+      },
+      "abilities": [
+        "SANDVEIL",
+        "TANGLINGHAIR"
+      ],
+      "hiddenAbilities": [
+        "SANDFORCE"
+      ],
+      "physicalData": {
+        "height": 0.2,
+        "weight": 1
+      },
+      "evolutionChain": [
+        {
+          "species": "DIGLETT_1",
+          "evolvesTo": {
+            "species": "DUGTRIO_1",
+            "method": "Nivel",
+            "requirement": 26
+          }
+        },
+        {
+          "species": "DUGTRIO_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "DUGTRIO1",
+      "image": "/images/pokemonFront/DUGTRIO_1.png",
+      "location": "/images/location/DUGTRIO_1.jpg",
+      "route": "Túnel Diglett",
+      "baseId": "DUGTRIO",
+      "name": "Dugtrio",
+      "form": "Forma Alola",
+      "pokedex": "Su pelo dorado y brillante le sirve de protección. Se dice que recoger los pelos que se le caen trae mala suerte.",
+      "types": [
+        "GROUND",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 35,
+        "attack": 100,
+        "defense": 60,
+        "specialAttack": 50,
+        "specialDefense": 70,
+        "speed": 110
+      },
+      "abilities": [
+        "SANDVEIL",
+        "TANGLINGHAIR"
+      ],
+      "hiddenAbilities": [
+        "TECHNICIAN"
+      ],
+      "physicalData": {
+        "height": 0.7,
+        "weight": 66.6
+      },
+      "evolutionChain": [
+        {
+          "species": "DIGLETT_1",
+          "evolvesTo": {
+            "species": "DUGTRIO_1",
+            "method": "Nivel",
+            "requirement": 26
+          }
+        },
+        {
+          "species": "DUGTRIO_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "MEOWTH1",
+      "image": "/images/pokemonFront/MEOWTH_1.png",
+      "location": "/images/location/MEOWTH_1.jpg",
+      "route": "Ruta 3",
+      "baseId": "MEOWTH",
+      "name": "Meowth",
+      "form": "Forma Alola",
+      "pokedex": "Es un Pokémon muy orgulloso e inteligente. Se vale de su astucia en combate para atacar los puntos débiles de sus enemigos con obstinación.",
+      "types": [
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 40,
+        "attack": 35,
+        "defense": 35,
+        "specialAttack": 50,
+        "specialDefense": 40,
+        "speed": 90
+      },
+      "abilities": [
+        "PICKUP",
+        "TECHNICIAN"
+      ],
+      "hiddenAbilities": [
+        "RATTLED"
+      ],
+      "physicalData": {
+        "height": 0.4,
+        "weight": 4.2
+      },
+      "evolutionChain": [
+        {
+          "species": "MEOWTH_1",
+          "evolvesTo": {
+            "species": "PERSIAN_1",
+            "method": "Felicidad",
+            "requirement": 28
+          }
+        },
+        {
+          "species": "PERSIAN_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "MEOWTH2",
+      "image": "/images/pokemonFront/MEOWTH_2.png",
+      "location": "/images/location/MEOWTH_2.jpg",
+      "route": "Ciudad Carmín",
+      "baseId": "MEOWTH",
+      "name": "Meowth",
+      "form": "Forma Galar",
+      "pokedex": "Cuanto más oscura es la moneda de su frente, mayor respeto inspira en sus congéneres. Es muy osado y no conoce el miedo.",
+      "types": [
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defense": 55,
+        "specialAttack": 40,
+        "specialDefense": 40,
+        "speed": 40
+      },
+      "abilities": [
+        "PICKUP",
+        "TOUGHCLAWS"
+      ],
+      "hiddenAbilities": [
+        "UNNERVE"
+      ],
+      "physicalData": {
+        "height": 0.4,
+        "weight": 7.5
+      },
+      "evolutionChain": [
+        {
+          "species": "MEOWTH_2",
+          "evolvesTo": {
+            "species": "PERRSERKER",
+            "method": "Nivel",
+            "requirement": 28
+          }
+        },
+        {
+          "species": "PERRSERKER",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "PERSIAN1",
+      "image": "/images/pokemonFront/PERSIAN_1.png",
+      "location": "/images/location/PERSIAN_1.jpg",
+      "route": "Ruta 28",
+      "baseId": "PERSIAN",
+      "name": "Persian",
+      "form": "Forma Alola",
+      "pokedex": "Muestra arrogancia hacia cualquier otro ser. Combate con tácticas rastreras y cobardes, atacando por sorpresa o desde la oscuridad.",
+      "types": [
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 60,
+        "defense": 60,
+        "specialAttack": 75,
+        "specialDefense": 65,
+        "speed": 115
+      },
+      "abilities": [
+        "FURCOAT",
+        "TECHNICIAN"
+      ],
+      "hiddenAbilities": [
+        "RATTLED"
+      ],
+      "physicalData": {
+        "height": 1.1,
+        "weight": 33
+      },
+      "evolutionChain": [
+        {
+          "species": "MEOWTH_1",
+          "evolvesTo": {
+            "species": "PERSIAN_1",
+            "method": "Felicidad",
+            "requirement": 28
+          }
+        },
+        {
+          "species": "PERSIAN_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "ALAKAZAM1",
+      "image": "/images/pokemonFront/ALAKAZAM_1.png",
+      "location": "/images/location/ALAKAZAM_1.jpg",
+      "route": "Ciudad Azafrán",
+      "baseId": "ALAKAZAM",
+      "name": "Mega Alakazam",
+      "form": "Mega Alakazam",
+      "types": [
+        "PSYCHIC"
+      ],
+      "MegaStore": "ALAKAZITE",
+      "baseStats": {
+        "hp": 55,
+        "attack": 50,
+        "defense": 65,
+        "specialAttack": 175,
+        "specialDefense": 95,
+        "speed": 150
+      },
+      "abilities": [
+        "TRACE"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 48
+      },
+      "pokedex": "Aunque tiene una gran capacidad psíquica y una inteligencia excepcional, la musculatura de Alakazam es muy débil. Para moverse, utiliza poderes psíquicos."
+    },
+    {
+      "id": "MACHAMP1",
+      "image": "/images/pokemonFront/MACHAMP_1.png",
+      "location": "/images/location/MACHAMP_1.jpg",
+      "route": "Ciudad Celeste",
+      "baseId": "MACHAMP",
+      "name": "Mega Machamp",
+      "form": "Mega Machamp",
+      "types": [
+        "FIGHTING",
+        "GROUND"
+      ],
+      "MegaStore": "MACHAMPITE",
+      "baseStats": {
+        "hp": 90,
+        "attack": 160,
+        "defense": 100,
+        "specialAttack": 75,
+        "specialDefense": 95,
+        "speed": 75
+      },
+      "abilities": [
+        "NOGUARD"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 130
+      },
+      "pokedex": "Es imposible defenderse de los puñetazos que reparte con los cuatro brazos que tiene. Si aparece un rival fuerte, le entran unas ganas enormes de luchar."
+    },
+    {
+      "id": "VICTREEBEL1",
+      "image": "/images/pokemonFront/VICTREEBEL_1.png",
+      "location": "/images/location/VICTREEBEL_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "VICTREEBEL",
+      "name": "Mega Victreebel",
+      "form": "Mega Victreebel",
+      "types": [
+        "GRASS",
+        "POISON"
+      ],
+      "MegaStore": "VICTREEBELITE",
+      "baseStats": {
+        "hp": 80,
+        "attack": 125,
+        "defense": 85,
+        "specialAttack": 135,
+        "specialDefense": 95,
+        "speed": 70
+      },
+      "abilities": [
+        "CORROSION"
+      ],
+      "physicalData": {
+        "height": 4.5,
+        "weight": 125.5
+      },
+      "pokedex": "Tiene una enredadera que le sale de la cabeza. Cuando la agita y colea, recuerda a un animal y así consigue atraer a sus presas. Si se le acerca un rival, lo engulle."
+    },
+    {
+      "id": "GEODUDE",
+      "image": "/images/pokemonFront/GEODUDE_1.png",
+      "location": "/images/location/GEODUDE_1.jpg",
+      "route": "Ruta 10 Norte",
+      "baseId": "GEODUDE",
+      "name": "Geodude",
+      "form": "Forma Alola",
+      "pokedex": "Su cuerpo de piedra está magnetizado. En los puntos donde el campo magnético se intensifica hay masas compactas de arena ferruginosa.",
+      "types": [
+        "ROCK",
+        "ELECTRIC"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 80,
+        "defense": 100,
+        "specialAttack": 30,
+        "specialDefense": 30,
+        "speed": 20
+      },
+      "abilities": [
+        "MAGNETPULL",
+        "STURDY"
+      ],
+      "hiddenAbilities": [
+        "GALVANIZE"
+      ],
+      "physicalData": {
+        "height": 0.4,
+        "weight": 20.3
+      },
+      "evolutionChain": [
+        {
+          "species": "GEODUDE_1",
+          "evolvesTo": {
+            "species": "GRAVELER_1",
+            "method": "Nivel",
+            "requirement": 25
+          }
+        },
+        {
+          "species": "GRAVELER_1",
+          "evolvesTo": {
+            "species": "GOLEM_1",
+            "method": "Nivel",
+            "requirement": 45
+          }
+        },
+        {
+          "species": "GOLEM_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "GRAVELER1",
+      "image": "/images/pokemonFront/GRAVELER_1.png",
+      "location": "/images/location/GRAVELER_1.jpg",
+      "baseId": "GRAVELER",
+      "name": "Graveler",
+      "form": "Forma Alola",
+      "pokedex": "Se alimenta de dravita, su manjar favorito. Tras digerirla, queda convertida en cristales que brotan en la superficie de su cuerpo.",
+      "types": [
+        "ROCK",
+        "ELECTRIC"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 95,
+        "defense": 115,
+        "specialAttack": 45,
+        "specialDefense": 45,
+        "speed": 35
+      },
+      "abilities": [
+        "MAGNETPULL",
+        "STURDY"
+      ],
+      "hiddenAbilities": [
+        "GALVANIZE"
+      ],
+      "physicalData": {
+        "height": 1,
+        "weight": 110
+      },
+      "evolutionChain": [
+        {
+          "species": "GEODUDE_1",
+          "evolvesTo": {
+            "species": "GRAVELER_1",
+            "method": "Nivel",
+            "requirement": 25
+          }
+        },
+        {
+          "species": "GRAVELER_1",
+          "evolvesTo": {
+            "species": "GOLEM_1",
+            "method": "Nivel",
+            "requirement": 45
+          }
+        },
+        {
+          "species": "GOLEM_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "GOLEM1",
+      "image": "/images/pokemonFront/GOLEM_1.png",
+      "location": "/images/location/GOLEM_1.jpg",
+      "route": "Ruta 29",
+      "baseId": "GOLEM",
+      "name": "Golem",
+      "form": "Forma Alola",
+      "pokedex": "Lanza rocas cargadas de electricidad. Basta con que rocen al enemigo para entumecerlo hasta el punto de hacerle perder la consciencia.",
+      "types": [
+        "ROCK",
+        "ELECTRIC"
+      ],
+      "baseStats": {
+        "hp": 110,
+        "attack": 120,
+        "defense": 130,
+        "specialAttack": 55,
+        "specialDefense": 65,
+        "speed": 45
+      },
+      "abilities": [
+        "MAGNETPULL",
+        "STURDY"
+      ],
+      "hiddenAbilities": [
+        "GALVANIZE"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 316
+      },
+      "evolutionChain": [
+        {
+          "species": "GEODUDE_1",
+          "evolvesTo": {
+            "species": "GRAVELER_1",
+            "method": "Nivel",
+            "requirement": 25
+          }
+        },
+        {
+          "species": "GRAVELER_1",
+          "evolvesTo": {
+            "species": "GOLEM_1",
+            "method": "Nivel",
+            "requirement": 45
+          }
+        },
+        {
+          "species": "GOLEM_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "PONYTA1",
+      "image": "/images/pokemonFront/PONYTA_1.png",
+      "location": "/images/location/PONYTA_1.jpg",
+      "baseId": "PONYTA",
+      "name": "Ponyta",
+      "form": "Forma Galar",
+      "pokedex": "Su pequeño cuerno posee poderes curativos capaces de sanar heridas no muy graves con tan solo un leve roce.",
+      "types": [
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 85,
+        "defense": 55,
+        "specialAttack": 65,
+        "specialDefense": 65,
+        "speed": 90
+      },
+      "abilities": [
+        "RUNAWAY",
+        "PASTELVEIL"
+      ],
+      "hiddenAbilities": [
+        "ANTICIPATION"
+      ],
+      "physicalData": {
+        "height": 0.8,
+        "weight": 24
+      },
+      "evolutionChain": [
+        {
+          "species": "PONYTA_1",
+          "evolvesTo": {
+            "species": "RAPIDASH_1",
+            "method": "Nivel",
+            "requirement": 40
+          }
+        },
+        {
+          "species": "RAPIDASH_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "RAPIDASH1",
+      "image": "/images/pokemonFront/RAPIDASH_1.png",
+      "location": "/images/location/RAPIDASH_1.jpg",
+      "route": "Bosque Arcoiris",
+      "baseId": "RAPIDASH",
+      "name": "Rapidash",
+      "form": "Forma Galar",
+      "pokedex": "Es un Pokémon orgulloso y gallardo. Atraviesa bosques sin esfuerzo concentrando sus poderes psíquicos en el pelaje de las patas.",
+      "types": [
+        "PSYCHIC",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 110,
+        "defense": 70,
+        "specialAttack": 80,
+        "specialDefense": 80,
+        "speed": 105
+      },
+      "abilities": [
+        "IMMUNITY",
+        "PASTELVEIL"
+      ],
+      "hiddenAbilities": [
+        "ANTICIPATION"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 80
+      },
+      "evolutionChain": [
+        {
+          "species": "PONYTA_1",
+          "evolvesTo": {
+            "species": "RAPIDASH_1",
+            "method": "Nivel",
+            "requirement": 40
+          }
+        },
+        {
+          "species": "RAPIDASH_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "SLOWPOKE1",
+      "image": "/images/pokemonFront/SLOWPOKE_1.png",
+      "location": "/images/location/SLOWPOKE_1.jpg",
+      "baseId": "SLOWPOKE",
+      "name": "Slowpoke",
+      "form": "Forma Galar",
+      "pokedex": "Siempre está distraído, pero, de vez en cuando, muestra un extraño rictus en el rostro, tal vez debido a su alimentación.",
+      "types": [
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 65,
+        "defense": 65,
+        "specialAttack": 40,
+        "specialDefense": 40,
+        "speed": 15
+      },
+      "abilities": [
+        "GLUTTONY",
+        "OWNTEMPO"
+      ],
+      "hiddenAbilities": [
+        "REGENERATOR"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 36
+      },
+      "evolutionChain": [
+        {
+          "species": "SLOWPOKE_1",
+          "evolvesTo": [
+            {
+              "species": "SLOWBRO_1",
+              "method": "Objeto",
+              "requirement": "GALARICACUFF"
+            },
+            {
+              "species": "SLOWKING_1",
+              "method": "Objeto",
+              "requirement": "GALARICAWREATH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SLOWBRO1",
+      "image": "/images/pokemonFront/SLOWBRO_1.png",
+      "location": "/images/location/SLOWBRO_1.jpg",
+      "route": "Islote Recuerdo",
+      "baseId": "SLOWBRO",
+      "name": "Slowbro",
+      "form": "Forma Galar",
+      "pokedex": "La impresión del mordisco del Shellder provocó una reacción química con las especias que había ingerido, tras lo cual adquirió el tipo Veneno.",
+      "types": [
+        "POISON",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 65,
+        "defense": 80,
+        "specialAttack": 110,
+        "specialDefense": 110,
+        "speed": 30
+      },
+      "abilities": [
+        "QUICKDRAW",
+        "MEGALAUNCHER"
+      ],
+      "hiddenAbilities": [
+        "REGENERATOR"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 70.5
+      },
+      "evolutionChain": [
+        {
+          "species": "SLOWPOKE_1",
+          "evolvesTo": [
+            {
+              "species": "SLOWBRO_1",
+              "method": "Objeto",
+              "requirement": "GALARICACUFF"
+            },
+            {
+              "species": "SLOWKING_1",
+              "method": "Objeto",
+              "requirement": "GALARICAWREATH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SLOWBRO2",
+      "image": "/images/pokemonFront/SLOWBRO_2.png",
+      "location": "/images/location/SLOWBRO_2.jpg",
+      "route": "Ruta 14",
+      "baseId": "SLOWBRO",
+      "name": "Mega Slowbro",
+      "form": "Mega Slowbro",
+      "types": [
+        "WATER",
+        "PSYCHIC"
+      ],
+      "MegaStore": "SLOWBRONITE",
+      "baseStats": {
+        "hp": 95,
+        "attack": 75,
+        "defense": 180,
+        "specialAttack": 130,
+        "specialDefense": 80,
+        "speed": 30
+      },
+      "abilities": [
+        "SHELLARMOR"
+      ],
+      "physicalData": {
+        "height": 2,
+        "weight": 120
+      },
+      "pokedex": "Lleva en la cola un Shellder enganchado por los dientes. Como Slowbro no puede pescar con la cola, se mete en el agua de mala gana en busca de sus presas."
+    },
+    {
+      "id": "FARFETCHD1",
+      "image": "/images/pokemonFront/FARFETCHD_1.png",
+      "location": "/images/location/FARFETCHD_1.jpg",
+      "route": "Ruta 9",
+      "baseId": "FARFETCHD",
+      "name": "Farfetch'd",
+      "form": "Forma Galar",
+      "pokedex": "Este es el aspecto de los Farfetch'd que habitan en Galar. Son guerreros fieros y osados que luchan blandiendo un puerro grueso y firme.",
+      "types": [
+        "FIGHTING"
+      ],
+      "baseStats": {
+        "hp": 52,
+        "attack": 95,
+        "defense": 55,
+        "specialAttack": 58,
+        "specialDefense": 62,
+        "speed": 55
+      },
+      "abilities": [
+        "STEADFAST"
+      ],
+      "hiddenAbilities": [
+        "SCRAPPY"
+      ],
+      "physicalData": {
+        "height": 0.8,
+        "weight": 42
+      },
+      "evolutionChain": [
+        {
+          "species": "FARFETCHD_1",
+          "evolvesTo": {
+            "species": "SIRFETCHD",
+            "method": "Nivel",
+            "requirement": 36
+          }
+        },
+        {
+          "species": "SIRFETCHD",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "GRIMER1",
+      "image": "/images/pokemonFront/GRIMER_1.png",
+      "location": "/images/location/GRIMER_1.jpg",
+      "baseId": "GRIMER",
+      "name": "Grimer",
+      "form": "Forma Alola",
+      "pokedex": "Los Grimer se introdujeron para remediar la nociva proliferación de residuos. Su aspecto cambió de un día para otro.",
+      "types": [
+        "POISON",
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 60,
+        "defense": 50,
+        "specialAttack": 60,
+        "specialDefense": 50,
+        "speed": 25
+      },
+      "abilities": [
+        "POISONTOUCH",
+        "GLUTTONY"
+      ],
+      "hiddenAbilities": [
+        "POWEROFALCHEMY"
+      ],
+      "physicalData": {
+        "height": 0.7,
+        "weight": 42
+      },
+      "evolutionChain": [
+        {
+          "species": "GRIMER_1",
+          "evolvesTo": {
+            "species": "MUK_1",
+            "method": "Nivel",
+            "requirement": 32
+          }
+        },
+        {
+          "species": "MUK_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "MUK1",
+      "image": "/images/pokemonFront/MUK_1.png",
+      "location": "/images/location/MUK_1.jpg",
+      "baseId": "MUK",
+      "name": "Muk",
+      "form": "Forma Alola",
+      "pokedex": "Los colores vivísimos que presenta su cuerpo se deben a las constantes reacciones químicas que produce en su interior la ingesta de basura.",
+      "types": [
+        "POISON",
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "attack": 105,
+        "defense": 75,
+        "specialAttack": 65,
+        "specialDefense": 100,
+        "speed": 50
+      },
+      "abilities": [
+        "POISONTOUCH",
+        "GLUTTONY"
+      ],
+      "hiddenAbilities": [
+        "POWEROFALCHEMY"
+      ],
+      "physicalData": {
+        "height": 1,
+        "weight": 52
+      },
+      "evolutionChain": [
+        {
+          "species": "GRIMER_1",
+          "evolvesTo": {
+            "species": "MUK_1",
+            "method": "Nivel",
+            "requirement": 32
+          }
+        },
+        {
+          "species": "MUK_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "GENGAR1",
+      "image": "/images/pokemonFront/GENGAR_1.png",
+      "location": "/images/location/GENGAR_1.jpg",
+      "route": "Ciudad Azafrán",
+      "baseId": "GENGAR",
+      "name": "Mega Gengar X",
+      "form": "Mega Gengar X",
+      "types": [
+        "GHOST",
+        "POISON"
+      ],
+      "MegaStore": "GENGARITEX",
+      "baseStats": {
+        "hp": 60,
+        "attack": 75,
+        "defense": 80,
+        "specialAttack": 160,
+        "specialDefense": 95,
+        "speed": 130
+      },
+      "abilities": [
+        "SHADOWTAG"
+      ],
+      "physicalData": {
+        "height": 1.4,
+        "weight": 6
+      },
+      "pokedex": "Si una noche oscura ves que tu sombra se adelanta de repente, en realidad estarás viendo a Gengar haciéndose pasar por la misma."
+    },
+    {
+      "id": "GENGAR2",
+      "image": "/images/pokemonFront/GENGAR_2.png",
+      "location": "/images/location/GENGAR_2.jpg",
+      "route": "Ciudad Azafrán",
+      "baseId": "GENGAR",
+      "name": "Mega Gengar y",
+      "form": "Mega Gengar y",
+      "types": [
+        "GHOST",
+        "DARK"
+      ],
+      "MegaStore": "GENGARITEY",
+      "baseStats": {
+        "hp": 60,
+        "attack": 95,
+        "defense": 110,
+        "specialAttack": 130,
+        "specialDefense": 115,
+        "speed": 90
+      },
+      "abilities": [
+        "PERISHBODY"
+      ],
+      "physicalData": {
+        "height": 3.1,
+        "weight": 10
+      },
+      "pokedex": "Si una noche oscura ves que tu sombra se adelanta de repente, en realidad estarás viendo a Gengar haciéndose pasar por la misma."
+    },
+    {
+      "id": "VOLTORB1",
+      "image": "/images/pokemonFront/VOLTORB_1.png",
+      "location": "/images/location/VOLTORB_1.jpg",
+      "route": "Ruta 10 Norte",
+      "baseId": "VOLTORB",
+      "name": "Voltorb",
+      "form": "Forma Hisui",
+      "pokedex": "Curioso ejemplar que guarda cierta similitud con una Poké Ball. Cuanto más se altera, mayor es la descarga eléctrica que libera, a la que sigue una carcajada.",
+      "types": [
+        "ELECTRIC",
+        "GRASS"
+      ],
+      "baseStats": {
+        "hp": 40,
+        "attack": 30,
+        "defense": 50,
+        "specialAttack": 55,
+        "specialDefense": 55,
+        "speed": 100
+      },
+      "abilities": [
+        "ELECTRICSURGE"
+      ],
+      "hiddenAbilities": [
+        "STATIC"
+      ],
+      "physicalData": {
+        "height": 0.5,
+        "weight": 13
+      },
+      "evolutionChain": [
+        {
+          "species": "VOLTORB_1",
+          "evolvesTo": {
+            "species": "ELECTRODE_1",
+            "method": "Objeto",
+            "requirement": "LEAFSTONE"
+          }
+        },
+        {
+          "species": "ELECTRODE_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "ELECTRODE1",
+      "image": "/images/pokemonFront/ELECTRODE_1.png",
+      "location": "/images/location/ELECTRODE_1.jpg",
+      "route": "Ruta 29",
+      "baseId": "ELECTRODE",
+      "name": "Electrode",
+      "form": "Forma Hisui",
+      "pokedex": "Su complexión superficial es muy semejante a la de un bonguri. Cuando se enoja, la electricidad que emite es veinte veces más potente que la de un rayo.",
+      "types": [
+        "ELECTRIC",
+        "GRASS"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 50,
+        "defense": 70,
+        "specialAttack": 80,
+        "specialDefense": 80,
+        "speed": 150
+      },
+      "abilities": [
+        "GRASSYSURGE"
+      ],
+      "hiddenAbilities": [
+        "ELECTRICSURGE"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 71
+      },
+      "evolutionChain": [
+        {
+          "species": "VOLTORB_1",
+          "evolvesTo": {
+            "species": "ELECTRODE_1",
+            "method": "Objeto",
+            "requirement": "LEAFSTONE"
+          }
+        },
+        {
+          "species": "ELECTRODE_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "EXEGGUTOR1",
+      "image": "/images/pokemonFront/EXEGGUTOR_1.png",
+      "location": "/images/location/EXEGGUTOR_1.jpg",
+      "route": "Ruta 17",
+      "baseId": "EXEGGUTOR",
+      "name": "Exeggutor",
+      "form": "Forma Alola",
+      "pokedex": "Los intensos rayos solares que bañan su hábitat le han conferido un poder y aspecto que muchos consideran su forma original.",
+      "types": [
+        "GRASS",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defense": 85,
+        "specialAttack": 125,
+        "specialDefense": 75,
+        "speed": 55
+      },
+      "abilities": [
+        "FRISK"
+      ],
+      "hiddenAbilities": [
+        "HARVEST"
+      ],
+      "physicalData": {
+        "height": 10.9,
+        "weight": 415.6
+      }
+    },
+    {
+      "id": "MAROWAK1",
+      "image": "/images/pokemonFront/MAROWAK_1.png",
+      "location": "/images/location/MAROWAK_1.jpg",
+      "route": "Volcán Canela",
+      "baseId": "MAROWAK",
+      "name": "Marowak",
+      "form": "Forma Alola",
+      "pokedex": "El hueso que lleva en la mano es de su madre. La pena que siente por su hijo es tan intensa que lo protege con llamas más allá de la muerte.",
+      "types": [
+        "FIRE",
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 80,
+        "defense": 110,
+        "specialAttack": 50,
+        "specialDefense": 80,
+        "speed": 65
+      },
+      "abilities": [
+        "CURSEDBODY",
+        "LIGHTNINGROD"
+      ],
+      "hiddenAbilities": [
+        "ROCKHEAD"
+      ],
+      "physicalData": {
+        "height": 1,
+        "weight": 34
+      },
+      "evolutionChain": [
+        {
+          "species": "CUBONE",
+          "stage": 1,
+          "evolvesTo": [
+            {
+              "species": "MAROWAK",
+              "method": "Nivel de Día",
+              "requirement": 28
+            },
+            {
+              "species": "MAROWAK_1",
+              "method": "Nivel de Noche",
+              "requirement": 28
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WEEZING1",
+      "image": "/images/pokemonFront/WEEZING_1.png",
+      "location": "/images/location/WEEZING_1.jpg",
+      "route": "Almacén Secreto",
+      "baseId": "WEEZING",
+      "name": "Weezing",
+      "form": "Forma Galar",
+      "pokedex": "Se desconoce el motivo, pero adoptó esta forma tiempo atrás, cuando las numerosas chimeneas de las fábricas de la región contaminaban el aire.",
+      "types": [
+        "POISON",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 120,
+        "specialAttack": 95,
+        "specialDefense": 70,
+        "speed": 60
+      },
+      "abilities": [
+        "LEVITATE",
+        "NEUTRALIZINGGAS"
+      ],
+      "hiddenAbilities": [
+        "MISTYSURGE"
+      ],
+      "physicalData": {
+        "height": 3,
+        "weight": 16
+      }
+    },
+    {
+      "id": "KANGASKHAN1",
+      "image": "/images/pokemonFront/KANGASKHAN_1.png",
+      "location": "/images/location/KANGASKHAN_1.jpg",
+      "route": "Camino de Bicis",
+      "baseId": "KANGASKHAN",
+      "name": "Mega Kangaskhan",
+      "form": "Mega Kangaskhan",
+      "MegaStore": "KANGASKHANITE",
+      "types": [
+        "NORMAL"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "attack": 115,
+        "defense": 100,
+        "specialAttack": 60,
+        "specialDefense": 100,
+        "speed": 100
+      },
+      "abilities": [
+        "PARENTALBOND"
+      ],
+      "physicalData": {
+        "height": 2.2,
+        "weight": 100
+      },
+      "pokedex": "Si te cruzas con uno que esté jugando, no lo molestes ni intentes atraparlo. Seguro que uno de sus progenitores anda cerca y reaccionará con enfado y violencia."
+    },
+    {
+      "id": "PINSIR1",
+      "image": "/images/pokemonFront/PINSIR_1.png",
+      "location": "/images/location/PINSIR_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "PINSIR",
+      "name": "Mega Pinsir",
+      "form": "Mega Pinsir",
+      "MegaStore": "PINSIRITE",
+      "types": [
+        "BUG",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 155,
+        "defense": 120,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 105
+      },
+      "abilities": [
+        "AERILATE"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 59
+      },
+      "pokedex": "Sus cuernos tienen fuerza para destrozar grandes troncos. Como odia el frío, cavan madrigueras bajo tierra donde duermen cuando bajan las temperaturas."
+    },
+    {
+      "id": "GYARADOS1",
+      "image": "/images/pokemonFront/GYARADOS_1.png",
+      "location": "/images/location/GYARADOS_1.jpg",
+      "route": "Ruta 24",
+      "baseId": "GYARADOS",
+      "name": "Mega Gyarados",
+      "form": "Mega Gyarados",
+      "MegaStore": "GYARADOSITE",
+      "types": [
+        "WATER",
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 155,
+        "defense": 109,
+        "specialAttack": 70,
+        "specialDefense": 130,
+        "speed": 81
+      },
+      "abilities": [
+        "MOLDBREAKER"
+      ],
+      "physicalData": {
+        "height": 6.5,
+        "weight": 305
+      },
+      "pokedex": "Es extremadamente feroz y violento. Cuando las personas comienzan a luchar, aparece y reduce a cenizas todo lo que pilla con intensas llamaradas."
+    },
+    {
+      "id": "AERODACTYL1",
+      "image": "/images/pokemonFront/AERODACTYL_1.png",
+      "location": "/images/location/AERODACTYL_1.jpg",
+      "route": "Cataratas Tohjo",
+      "baseId": "AERODACTYL",
+      "name": "Mega Aerodactyl",
+      "form": "Mega Aerodactyl",
+      "MegaStore": "AERODACTYLITE",
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 135,
+        "defense": 85,
+        "specialAttack": 70,
+        "specialDefense": 95,
+        "speed": 150
+      },
+      "abilities": [
+        "TOUGHCLAWS"
+      ],
+      "physicalData": {
+        "height": 2.1,
+        "weight": 79
+      },
+      "pokedex": "Surgió en la era de los dinosaurios. Se regeneró a partir de material genético contenido en ámbar. Se cree que fue el amo de los cielos en épocas pasadas."
+    },
+    {
+      "id": "MEWTWO1",
+      "image": "/images/pokemonFront/MEWTWO_1.png",
+      "location": "/images/location/MEWTWO_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "MEWTWO",
+      "name": "Mewtwo X",
+      "form": "Mega Mewtwo X",
+      "MegaStore": "MEWTWONITEX",
+      "types": [
+        "PSYCHIC",
+        "FIGHTING"
+      ],
+      "baseStats": {
+        "hp": 106,
+        "attack": 190,
+        "defense": 100,
+        "specialAttack": 154,
+        "specialDefense": 100,
+        "speed": 130
+      },
+      "abilities": [
+        "STEADFAST"
+      ],
+      "physicalData": {
+        "height": 2.3,
+        "weight": 127
+      },
+      "pokedex": "Fue creado por manipulación genética, pero, a pesar de que los científicos dieron a Mewtwo un cuerpo, no lograron dotarle de un corazón compasivo."
+    },
+    {
+      "id": "MEWTWO2",
+      "image": "/images/pokemonFront/MEWTWO_2.png",
+      "location": "/images/location/MEWTWO_2.jpg",
+      "route": "Torre Batalla",
+      "baseId": "MEWTWO",
+      "name": "Mewtwo Y",
+      "form": "Mega Mewtwo Y",
+      "MegaStore": "MEWTWONITEY",
+      "types": [
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 106,
+        "attack": 150,
+        "defense": 70,
+        "specialAttack": 194,
+        "specialDefense": 120,
+        "speed": 140
+      },
+      "abilities": [
+        "INSOMNIA"
+      ],
+      "physicalData": {
+        "height": 1.5,
+        "weight": 33
+      },
+      "pokedex": "Fue creado por manipulación genética, pero, a pesar de que los científicos dieron a Mewtwo un cuerpo, no lograron dotarle de un corazón compasivo."
+    },
+    {
+      "id": "AMPHAROS1",
+      "image": "/images/pokemonFront/AMPHAROS_1.png",
+      "location": "/images/location/AMPHAROS_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "AMPHAROS",
+      "name": "Mega Ampharos",
+      "form": "Mega Ampharos",
+      "MegaStore": "AMPHAROSITE",
+      "types": [
+        "ELECTRIC",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 95,
+        "defense": 105,
+        "specialAttack": 165,
+        "specialDefense": 110,
+        "speed": 45
+      },
+      "abilities": [
+        "MOLDBREAKER"
+      ],
+      "physicalData": {
+        "height": 1.4,
+        "weight": 61.5
+      },
+      "pokedex": "Desprende tanta luz que es posible verlo desde el espacio. Antes, la gente usaba su luz como sistema de comunicación con el que enviaba señales a gran distancia."
+    },
+    {
+      "id": "STEELIX1",
+      "image": "/images/pokemonFront/STEELIX_1.png",
+      "location": "/images/location/STEELIX_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "STEELIX",
+      "name": "Mega Steelix",
+      "form": "Mega Steelix",
+      "MegaStore": "STEELIXITE",
+      "types": [
+        "STEEL",
+        "GROUND"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 125,
+        "defense": 230,
+        "specialAttack": 55,
+        "specialDefense": 95,
+        "speed": 30
+      },
+      "abilities": [
+        "SHEERFORCE"
+      ],
+      "physicalData": {
+        "height": 10.5,
+        "weight": 740
+      },
+      "pokedex": "Vive a aún mayor profundidad que Onix. Se le conoce por cavar hacia el centro de la tierra. Hay datos que demuestran que ha llegado a alcanzar 1 km de profundidad."
+    },
+    {
+      "id": "SCIZOR1",
+      "image": "/images/pokemonFront/SCIZOR_1.png",
+      "location": "/images/location/SCIZOR_1.jpg",
+      "route": "Zona Safari",
+      "baseId": "SCIZOR",
+      "name": "Mega Scizor",
+      "form": "Mega Scizor",
+      "MegaStore": "SCIZORITE",
+      "types": [
+        "BUG",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 150,
+        "defense": 140,
+        "specialAttack": 65,
+        "specialDefense": 100,
+        "speed": 75
+      },
+      "abilities": [
+        "TECHNICIAN"
+      ],
+      "physicalData": {
+        "height": 2,
+        "weight": 125
+      },
+      "pokedex": "Scizor tiene un cuerpo duro como el acero en el que los ataques comunes apenas hacen mella. Este Pokémon bate las alas para regular su temperatura corporal."
+    },
+    {
+      "id": "HERACROSS1",
+      "image": "/images/pokemonFront/HERACROSS_1.png",
+      "location": "/images/location/HERACROSS_1.jpg",
+      "route": "Zona Safari",
+      "baseId": "HERACROSS",
+      "name": "Mega Heracross",
+      "form": "Mega Heracross",
+      "MegaStore": "HERACRONITE",
+      "types": [
+        "BUG",
+        "FIGHTING"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 185,
+        "defense": 115,
+        "specialAttack": 40,
+        "specialDefense": 105,
+        "speed": 75
+      },
+      "abilities": [
+        "SKILLLINK"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 62.5
+      },
+      "pokedex": "Va en grupo al bosque en busca de la dulce savia de los árboles. Cubierto con una coraza dura como el acero, luce su cuerno orgulloso y voltea con él a los rivales."
+    },
+    {
+      "id": "HOUNDOOM1",
+      "image": "/images/pokemonFront/HOUNDOOM_1.png",
+      "location": "/images/location/HOUNDOOM_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "HOUNDOOM",
+      "name": "Mega Houndoom",
+      "form": "Mega Houndoom",
+      "MegaStore": "HOUNDOOMINITE",
+      "types": [
+        "DARK",
+        "FIRE"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 90,
+        "defense": 90,
+        "specialAttack": 140,
+        "specialDefense": 90,
+        "speed": 115
+      },
+      "abilities": [
+        "SOLARPOWER"
+      ],
+      "physicalData": {
+        "height": 1.9,
+        "weight": 49.5
+      },
+      "pokedex": "En la manada de Houndoom, el que tiene los cuernos especialmente orientados hacia atrás ejerce de líder. Para elegir al jefe, estos Pokémon se baten entre sí."
+    },
+    {
+      "id": "TYRANITAR1",
+      "image": "/images/pokemonFront/TYRANITAR_1.png",
+      "location": "/images/location/TYRANITAR_1.jpg",
+      "route": "Monte Plateado",
+      "baseId": "TYRANITAR",
+      "name": "Mega Tyranitar",
+      "form": "Mega Tyranitar",
+      "MegaStore": "TYRANITARITE",
+      "types": [
+        "ROCK",
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 164,
+        "defense": 150,
+        "specialAttack": 95,
+        "specialDefense": 120,
+        "speed": 71
+      },
+      "abilities": [
+        "SANDSTREAM"
+      ],
+      "physicalData": {
+        "height": 2.5,
+        "weight": 255
+      },
+      "pokedex": "Tiene una fuerza imponente. Puede derribar una montaña para hacer su nido. Suele merodear por zonas montañosas en busca de rivales contra los que luchar."
+    },
+    {
+      "id": "SCEPTILE1",
+      "image": "/images/pokemonFront/SCEPTILE_1.png",
+      "location": "/images/location/SCEPTILE_1.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "SCEPTILE",
+      "name": "Mega Sceptile",
+      "form": "Mega Sceptile",
+      "MegaStore": "SCEPTILITE",
+      "types": [
+        "GRASS",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 145,
+        "defense": 75,
+        "specialAttack": 110,
+        "specialDefense": 85,
+        "speed": 145
+      },
+      "abilities": [
+        "SILVANO"
+      ],
+      "physicalData": {
+        "height": 1.9,
+        "weight": 55.2
+      },
+      "pokedex": "Cuando está en la selva, posee una fuerza sin igual. Este Pokémon se ocupa de que los árboles y las plantas crezcan bien. Regula su temperatura con la luz del sol."
+    },
+    {
+      "id": "BLAZIKEN1",
+      "image": "/images/pokemonFront/BLAZIKEN_1.png",
+      "location": "/images/location/BLAZIKEN_1.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "BLAZIKEN",
+      "name": "Mega Blaziken",
+      "form": "Mega Blaziken",
+      "MegaStore": "BLAZIKENITE",
+      "types": [
+        "FIRE",
+        "FIGHTING"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 160,
+        "defense": 80,
+        "specialAttack": 130,
+        "specialDefense": 80,
+        "speed": 100
+      },
+      "abilities": [
+        "SPEEDBOOST"
+      ],
+      "physicalData": {
+        "height": 1.9,
+        "weight": 52
+      },
+      "pokedex": "Aprende artes marciales en las que se dan puñetazos y patadas. Al cabo de varios años, se le queman las plumas y le crecen otras nuevas, muy flexibles, en su lugar."
+    },
+    {
+      "id": "SWAMPERT1",
+      "image": "/images/pokemonFront/SWAMPERT_1.png",
+      "location": "/images/location/SWAMPERT_1.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "SWAMPERT",
+      "name": "Mega Swampert",
+      "form": "Mega Swampert",
+      "MegaStore": "SWAMPERTITE",
+      "types": [
+        "WATER",
+        "GROUND"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 150,
+        "defense": 110,
+        "specialAttack": 95,
+        "specialDefense": 110,
+        "speed": 70
+      },
+      "abilities": [
+        "SWIFTSWIM"
+      ],
+      "physicalData": {
+        "height": 1.9,
+        "weight": 102
+      },
+      "pokedex": "Si detecta que se acerca una tormenta, protege su nido apilando cantos rodados para protegerlo del fuerte oleaje. Nada tan rápido como una moto acuática."
+    },
+    {
+      "id": "GARDEVOIR1",
+      "image": "/images/pokemonFront/GARDEVOIR_1.png",
+      "location": "/images/location/GARDEVOIR_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "GARDEVOIR",
+      "name": "Mega Gardevoir",
+      "form": "Mega Gardevoir",
+      "MegaStore": "GARDEVOIRITE",
+      "types": [
+        "PSYCHIC",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 68,
+        "attack": 85,
+        "defense": 65,
+        "specialAttack": 165,
+        "specialDefense": 135,
+        "speed": 100
+      },
+      "abilities": [
+        "PIXILATE"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 48.4
+      },
+      "pokedex": "Al parecer, no siente la fuerza de la gravedad porque se sostiene gracias a la energía psicoquinética. Por proteger a su entrenador, sería capaz de todo."
+    },
+    {
+      "id": "SABLEYE1",
+      "image": "/images/pokemonFront/SABLEYE_1.png",
+      "location": "/images/location/SABLEYE_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "SABLEYE",
+      "name": "Mega Sableye",
+      "form": "Mega Sableye",
+      "MegaStore": "SABLENITE",
+      "types": [
+        "DARK",
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 125,
+        "defense": 95,
+        "specialAttack": 85,
+        "specialDefense": 85,
+        "speed": 110
+      },
+      "abilities": [
+        "MAGICBOUNCE"
+      ],
+      "physicalData": {
+        "height": 0.5,
+        "weight": 161
+      },
+      "pokedex": "Cava conductos en cuevas usando sus afiladas garras para buscar rocas con las que alimentarse. Sableye permanece al acecho en la oscuridad; no es fácil verlo."
+    },
+    {
+      "id": "MAWILE1",
+      "image": "/images/pokemonFront/MAWILE_1.png",
+      "location": "/images/location/MAWILE_1.jpg",
+      "baseId": "MAWILE",
+      "name": "Mega Mawile",
+      "form": "Mega Mawile",
+      "MegaStore": "MAWILITE",
+      "types": [
+        "STEEL",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 105,
+        "defense": 125,
+        "specialAttack": 55,
+        "specialDefense": 95,
+        "speed": 50
+      },
+      "abilities": [
+        "HUGEPOWER"
+      ],
+      "physicalData": {
+        "height": 1,
+        "weight": 23.5
+      },
+      "pokedex": "Las gigantescas fauces que tiene fueron cuernos de acero en su día. Engaña al enemigo con gestos dóciles y a continuación abre sus fauces."
+    },
+    {
+      "id": "AGGRON1",
+      "image": "/images/pokemonFront/AGGRON_1.png",
+      "location": "/images/location/AGGRON_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "AGGRON",
+      "name": "Mega Aggron",
+      "form": "Mega Aggron",
+      "MegaStore": "AGGRONITE",
+      "types": [
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 140,
+        "defense": 230,
+        "specialAttack": 60,
+        "specialDefense": 80,
+        "speed": 50
+      },
+      "abilities": [
+        "FILTER"
+      ],
+      "physicalData": {
+        "height": 2.2,
+        "weight": 395
+      },
+      "pokedex": "Los cuernos de hierro que tiene le crecen poco a poco. Sirven para determinar la edad que tiene. Luce los desperfectos de su coraza en recuerdo de sus combates."
+    },
+    {
+      "id": "MEDICHAM1",
+      "image": "/images/pokemonFront/MEDICHAM_1.png",
+      "location": "/images/location/MEDICHAM_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "MEDICHAM",
+      "name": "Mega Medicham",
+      "form": "Mega Medicham",
+      "MegaStore": "MEDICHAMITE",
+      "types": [
+        "FIGHTING",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 100,
+        "defense": 85,
+        "specialAttack": 80,
+        "specialDefense": 85,
+        "speed": 100
+      },
+      "abilities": [
+        "PUREPOWER"
+      ],
+      "physicalData": {
+        "height": 1.3,
+        "weight": 31.5
+      },
+      "pokedex": "Gracias a agotadoras sesiones de yoga, ha adquirido la capacidad de prever las acciones del enemigo. Lucha realizando movimientos elegantes y rítmicos."
+    },
+    {
+      "id": "MANECTRIC1",
+      "image": "/images/pokemonFront/MANECTRIC_1.png",
+      "location": "/images/location/MANECTRIC_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "MANECTRIC",
+      "name": "Mega Manectric",
+      "form": "Mega Manectric",
+      "MegaStore": "MANECTITE",
+      "types": [
+        "ELECTRIC"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 75,
+        "defense": 80,
+        "specialAttack": 135,
+        "specialDefense": 80,
+        "speed": 135
+      },
+      "abilities": [
+        "INTIMIDATE"
+      ],
+      "physicalData": {
+        "height": 1.8,
+        "weight": 44
+      },
+      "pokedex": "Como los rayos caen cerca de donde está, se pensó que Manectric nacía de ellos. En combate, crea nubes de tormenta. Descarga electricidad desde su melena."
+    },
+    {
+      "id": "SHARPEDO1",
+      "image": "/images/pokemonFront/SHARPEDO_1.png",
+      "location": "/images/location/SHARPEDO_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "SHARPEDO",
+      "name": "Mega Sharpedo",
+      "form": "Mega Sharpedo",
+      "MegaStore": "SHARPEDONITE",
+      "types": [
+        "WATER",
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 140,
+        "defense": 70,
+        "specialAttack": 110,
+        "specialDefense": 65,
+        "speed": 105
+      },
+      "abilities": [
+        "STRONGJAW"
+      ],
+      "physicalData": {
+        "height": 2.5,
+        "weight": 130.3
+      },
+      "pokedex": "Este Pokémon, muy violento y astuto, es el terror de los mares. La textura de su piel reduce al mínimo la resistencia al agua. Llega a alcanzar los 120 km por hora."
+    },
+    {
+      "id": "CAMERUPT1",
+      "image": "/images/pokemonFront/CAMERUPT_1.png",
+      "location": "/images/location/CAMERUPT_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "CAMERUPT",
+      "name": "Mega Camerupt",
+      "form": "Mega Camerupt",
+      "MegaStore": "CAMERUPTITE",
+      "types": [
+        "FIRE",
+        "GROUND"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 120,
+        "defense": 100,
+        "specialAttack": 135,
+        "specialDefense": 105,
+        "speed": 30
+      },
+      "abilities": [
+        "SHEERFORCE"
+      ],
+      "physicalData": {
+        "height": 2.5,
+        "weight": 320.5
+      },
+      "pokedex": "Vive en el cráter de un volcán. Cada 10 años, los volcanes que tiene en el lomo entran en erupción de forma violenta. Se están investigando las posibles causas."
+    },
+    {
+      "id": "ALTARIA1",
+      "image": "/images/pokemonFront/ALTARIA_1.png",
+      "location": "/images/location/ALTARIA_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "ALTARIA",
+      "name": "Mega Altaria",
+      "form": "Mega Altaria",
+      "MegaStore": "ALTARIANITE",
+      "types": [
+        "DRAGON",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 110,
+        "defense": 110,
+        "specialAttack": 120,
+        "specialDefense": 105,
+        "speed": 90
+      },
+      "abilities": [
+        "PIXILATE"
+      ],
+      "physicalData": {
+        "height": 1.5,
+        "weight": 20.6
+      },
+      "pokedex": "Canturrea con una bella voz de soprano. Vuela entre las nubes blancas del cielo azul. Lanza ardientes bolas de fuego por el pico."
+    },
+    {
+      "id": "BANETTE1",
+      "image": "/images/pokemonFront/BANETTE_1.png",
+      "location": "/images/location/BANETTE_1.jpg",
+      "baseId": "BANETTE",
+      "name": "Mega Banette",
+      "form": "Mega Banette",
+      "MegaStore": "BANETTITE",
+      "types": [
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 64,
+        "attack": 165,
+        "defense": 75,
+        "specialAttack": 93,
+        "specialDefense": 83,
+        "speed": 75
+      },
+      "abilities": [
+        "PRANKSTER"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 13
+      },
+      "pokedex": "Solía ser un muñeco de felpa al que abandonaron. Dicen que vive en vertederos de basura y que va buscando al niño que lo tiró en su día."
+    },
+    {
+      "id": "ABSOL1",
+      "image": "/images/pokemonFront/ABSOL_1.png",
+      "location": "/images/location/ABSOL_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "ABSOL",
+      "name": "Mega Absol",
+      "form": "Mega Absol",
+      "MegaStore": "ABSOLITE",
+      "types": [
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 150,
+        "defense": 60,
+        "specialAttack": 115,
+        "specialDefense": 60,
+        "speed": 115
+      },
+      "abilities": [
+        "MAGICBOUNCE"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 49
+      },
+      "pokedex": "Detecta con precisión cualquier cambio producido en la atmósfera o la tierra y predice catástrofes naturales. Es un Pokémon longevo que vive 100 años."
+    },
+    {
+      "id": "GLALIE1",
+      "image": "/images/pokemonFront/GLALIE_1.png",
+      "location": "/images/location/GLALIE_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "GLALIE",
+      "name": "Mega Glalie",
+      "form": "Mega Glalie",
+      "MegaStore": "GLALITITE",
+      "types": [
+        "ICE",
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 130,
+        "defense": 80,
+        "specialAttack": 130,
+        "specialDefense": 80,
+        "speed": 100
+      },
+      "abilities": [
+        "REFRIGERATE"
+      ],
+      "physicalData": {
+        "height": 2.1,
+        "weight": 350.2
+      },
+      "pokedex": "Un Glalie tiene el poder de congelar al instante la humedad de la atmósfera: así forma una nube de cristales de hielo con forma de diamantes a su alrededor."
+    },
+    {
+      "id": "SALAMENCE1",
+      "image": "/images/pokemonFront/SALAMENCE_1.png",
+      "location": "/images/location/SALAMENCE_1.jpg",
+      "route": "Islote Recuerdo",
+      "baseId": "SALAMENCE",
+      "name": "Mega Salamence",
+      "form": "Mega Salamence",
+      "MegaStore": "SALAMENCITE",
+      "types": [
+        "DRAGON",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 145,
+        "defense": 130,
+        "specialAttack": 120,
+        "specialDefense": 90,
+        "speed": 120
+      },
+      "abilities": [
+        "AERILATE"
+      ],
+      "physicalData": {
+        "height": 1.8,
+        "weight": 112.6
+      },
+      "pokedex": "Después de muchos años, su estructura celular sufrió una mutación repentina y le crecieron alas. Cuando se enfada, no se atiene a razones y entra en cólera."
+    },
+    {
+      "id": "METAGROSS1",
+      "image": "/images/pokemonFront/METAGROSS_1.png",
+      "location": "/images/location/METAGROSS_1.jpg",
+      "route": "Cueva Glaciada",
+      "baseId": "METAGROSS",
+      "name": "Mega Metagross",
+      "form": "Mega Metagross",
+      "MegaStore": "METAGROSSITE",
+      "types": [
+        "STEEL",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 145,
+        "defense": 130,
+        "specialAttack": 120,
+        "specialDefense": 90,
+        "speed": 120
+      },
+      "abilities": [
+        "TOUGHCLAWS"
+      ],
+      "physicalData": {
+        "height": 2.5,
+        "weight": 942.9
+      },
+      "pokedex": "Metagross tiene cuatro cerebros unidos por una compleja red neuronal. Esta integración hace que sea más inteligente que un ordenador de última generación."
+    },
+    {
+      "id": "LATIAS1",
+      "image": "/images/pokemonFront/LATIAS_1.png",
+      "location": "/images/location/LATIAS_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "LATIAS",
+      "name": "Mega Latias",
+      "form": "Mega Latias",
+      "MegaStore": "LATIASITE",
+      "types": [
+        "DRAGON",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 120,
+        "specialAttack": 140,
+        "specialDefense": 150,
+        "speed": 110
+      },
+      "abilities": [
+        "LEVITATE"
+      ],
+      "physicalData": {
+        "height": 1.8,
+        "weight": 52
+      },
+      "pokedex": "Es parte de una manada de pequeño tamaño. Rara vez entra en contacto con la gente o con otros Pokémon. Si siente la presencia del enemigo, desaparece."
+    },
+    {
+      "id": "LATIOS1",
+      "image": "/images/pokemonFront/LATIOS_1.png",
+      "location": "/images/location/LATIOS_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "LATIOS",
+      "name": "Mega Latios",
+      "form": "Mega Latios",
+      "MegaStore": "LATIOSITE",
+      "types": [
+        "DRAGON",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 130,
+        "defense": 100,
+        "specialAttack": 160,
+        "specialDefense": 120,
+        "speed": 110
+      },
+      "abilities": [
+        "LEVITATE"
+      ],
+      "physicalData": {
+        "height": 2.3,
+        "weight": 70
+      },
+      "pokedex": "Incluso oculto, detecta la ubicación de los demás y capta sus emociones telepáticamente. Es tan inteligente que entiende el lenguaje humano."
+    },
+    {
+      "id": "RAYQUAZA1",
+      "image": "/images/pokemonFront/RAYQUAZA_1.png",
+      "location": "/images/location/RAYQUAZA_1.jpg",
+      "route": "Conocer movimiento Ascenso Draco",
+      "baseId": "RAYQUAZA",
+      "name": "Mega Rayquaza",
+      "form": "Mega Rayquaza",
+      "MegaStore": "DRAGONASCENT",
+      "types": [
+        "DRAGON",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "attack": 180,
+        "defense": 100,
+        "specialAttack": 180,
+        "specialDefense": 100,
+        "speed": 115
+      },
+      "abilities": [
+        "DELTASTREAM"
+      ],
+      "physicalData": {
+        "height": 10.8,
+        "weight": 392
+      },
+      "pokedex": "Este Pokémon vuela sin parar por la capa de ozono. Dicen que, si Kyogre y Groudon fueran a luchar, bajaría a tierra firme para apaciguarlos."
+    },
+    {
+      "id": "LOPUNNY1",
+      "image": "/images/pokemonFront/LOPUNNY_1.png",
+      "location": "/images/location/LOPUNNY_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "LOPUNNY",
+      "name": "Mega Lopunny",
+      "form": "Mega Lopunny",
+      "MegaStore": "LOPUNNITE",
+      "types": [
+        "NORMAL",
+        "FIGHTING"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 136,
+        "defense": 94,
+        "specialAttack": 54,
+        "specialDefense": 96,
+        "speed": 135
+      },
+      "abilities": [
+        "SCRAPPY"
+      ],
+      "physicalData": {
+        "height": 1.3,
+        "weight": 28.3
+      },
+      "pokedex": "Es un Pokémon muy precavido. Si siente peligro, se envuelve con el pelaje de sus orejas. Se preocupa de su imagen y siempre se arregla las orejas."
+    },
+    {
+      "id": "GARCHOMP1",
+      "image": "/images/pokemonFront/GARCHOMP_1.png",
+      "location": "/images/location/GARCHOMP_1.jpg",
+      "route": "Cabo Magenta",
+      "baseId": "GARCHOMP",
+      "name": "Mega Garchomp",
+      "form": "Mega Garchomp",
+      "MegaStore": "GARCHOMPITE",
+      "types": [
+        "DRAGON",
+        "GROUND"
+      ],
+      "baseStats": {
+        "hp": 108,
+        "attack": 170,
+        "defense": 115,
+        "specialAttack": 120,
+        "specialDefense": 95,
+        "speed": 92
+      },
+      "abilities": [
+        "SANDFORCE"
+      ],
+      "physicalData": {
+        "height": null,
+        "weight": null
+      },
+      "pokedex": "Cuando despliega su cuerpo y sus alas, parece un avión a reacción. Vuela a velocidad sónica. Sus alas crean cuchillas de viento que talan cualquier árbol."
+    },
+    {
+      "id": "LUCARIO1",
+      "image": "/images/pokemonFront/LUCARIO_1.png",
+      "location": "/images/location/LUCARIO_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "LUCARIO",
+      "name": "Mega Lucario",
+      "form": "Mega Lucario",
+      "MegaStore": "LUCARIONITE",
+      "types": [
+        "FIGHTING",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 145,
+        "defense": 88,
+        "specialAttack": 140,
+        "specialDefense": 70,
+        "speed": 112
+      },
+      "abilities": [
+        "ADAPTABILITY"
+      ],
+      "physicalData": {
+        "height": 1.3,
+        "weight": 57.5
+      },
+      "pokedex": "Puede sentir el aura de todas las cosas. Si se ha entrenado bien, puede percibir auras e identificar y asimilar sentimientos a 1 km."
+    },
+    {
+      "id": "ABOMASNOW1",
+      "image": "/images/pokemonFront/ABOMASNOW_1.png",
+      "location": "/images/location/ABOMASNOW_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "ABOMASNOW",
+      "name": "Mega Abomasnow",
+      "form": "Mega Abomasnow",
+      "MegaStore": "ABOMASITE",
+      "types": [
+        "GRASS",
+        "ICE"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 132,
+        "defense": 105,
+        "specialAttack": 132,
+        "specialDefense": 105,
+        "speed": 30
+      },
+      "abilities": [
+        "SNOWWARNING"
+      ],
+      "physicalData": {
+        "height": 2.7,
+        "weight": 185
+      },
+      "pokedex": "Es el abominable hombre de las nieves. Produce ventiscas en las montañas. Aparece con las flores de nieve y se retira cuando se les caen los pétalos."
+    },
+    {
+      "id": "GALLADE1",
+      "image": "/images/pokemonFront/GALLADE_1.png",
+      "location": "/images/location/GALLADE_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "GALLADE",
+      "name": "Mega Gallade",
+      "form": "Mega Gallade",
+      "MegaStore": "GALLADITE",
+      "types": [
+        "PSYCHIC",
+        "FIGHTING"
+      ],
+      "baseStats": {
+        "hp": 68,
+        "attack": 165,
+        "defense": 95,
+        "specialAttack": 65,
+        "specialDefense": 115,
+        "speed": 110
+      },
+      "abilities": [
+        "INNERFOCUS"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 56.4
+      },
+      "pokedex": "Este Pokémon es considerado todo un justiciero. Lucha con las espadas que salen de sus codos. Es un maestro de la cortesía y la esgrima."
+    },
+    {
+      "id": "AUDINO1",
+      "image": "/images/pokemonFront/AUDINO_1.png",
+      "location": "/images/location/AUDINO_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "AUDINO",
+      "name": "Mega Audino",
+      "form": "Mega Audino",
+      "MegaStore": "AUDINITE",
+      "types": [
+        "NORMAL",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 103,
+        "attack": 60,
+        "defense": 126,
+        "specialAttack": 80,
+        "specialDefense": 126,
+        "speed": 50
+      },
+      "abilities": [
+        "HEALER"
+      ],
+      "physicalData": {
+        "height": 1.5,
+        "weight": 32
+      },
+      "pokedex": "Su sentido del oído es infalible: capta cualquier ruido de su alrededor y hace las veces de radar."
+    },
+    {
+      "id": "DIANCIE1",
+      "image": "/images/pokemonFront/DIANCIE_1.png",
+      "location": "/images/location/DIANCIE_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "DIANCIE",
+      "name": "Mega Diancie",
+      "form": "Mega Diancie",
+      "MegaStore": "DIANCITE",
+      "types": [
+        "ROCK",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 160,
+        "defense": 110,
+        "specialAttack": 160,
+        "specialDefense": 110,
+        "speed": 110
+      },
+      "abilities": [
+        "MAGICBOUNCE"
+      ],
+      "physicalData": {
+        "height": 1.1,
+        "weight": 27.8
+      },
+      "pokedex": "Puede crear una gran cantidad de diamantes en un instante comprimiendo con las manos el carbono que flota en el aire."
+    },
+    {
+      "id": "DRAGONITE1",
+      "image": "/images/pokemonFront/DRAGONITE_1.png",
+      "location": "/images/location/DRAGONITE_1.jpg",
+      "route": "Cabo Azabache",
+      "baseId": "DRAGONITE",
+      "name": "Mega Dragonite",
+      "form": "Mega Dragonite",
+      "MegaStore": "DRAGONITITE",
+      "types": [
+        "DRAGON",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 91,
+        "attack": 124,
+        "defense": 115,
+        "specialAttack": 145,
+        "specialDefense": 105,
+        "speed": 100
+      },
+      "abilities": [
+        "MULTISCALE"
+      ],
+      "physicalData": {
+        "height": 2.2,
+        "weight": 290
+      },
+      "pokedex": "Es capaz de dar la vuelta al mundo en sólo 16 horas. Tiene buen corazón: guía a tierra firme a los barcos que se han perdido en plena tormenta."
+    },
+    {
+      "id": "KINGLER1",
+      "image": "/images/pokemonFront/KINGLER_1.png",
+      "location": "/images/location/KINGLER_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "KINGLER",
+      "name": "Mega Kingler",
+      "form": "Mega Kingler",
+      "MegaStore": "KINGLERITE",
+      "types": [
+        "WATER"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 170,
+        "defense": 135,
+        "specialAttack": 70,
+        "specialDefense": 75,
+        "speed": 75
+      },
+      "abilities": [
+        "TOUGHCLAWS"
+      ],
+      "physicalData": {
+        "height": 2,
+        "weight": 150
+      },
+      "pokedex": "Tiene una pinza enorme y descomunal que agita en el aire para comunicarse con los demás. Lo malo es que pesa tanto que se cansa enseguida."
+    },
+    {
+      "id": "LAPRAS1",
+      "image": "/images/pokemonFront/LAPRAS_1.png",
+      "location": "/images/location/LAPRAS_1.jpg",
+      "route": "Islas Espuma",
+      "baseId": "LAPRAS",
+      "name": "Mega Lapras",
+      "form": "Mega Lapras",
+      "MegaStore": "LAPRASITE",
+      "types": [
+        "WATER",
+        "ICE"
+      ],
+      "baseStats": {
+        "hp": 130,
+        "attack": 95,
+        "defense": 100,
+        "specialAttack": 125,
+        "specialDefense": 105,
+        "speed": 80
+      },
+      "abilities": [
+        "REFRIGERATE"
+      ],
+      "physicalData": {
+        "height": 2.5,
+        "weight": 220
+      },
+      "pokedex": "Está en peligro de extinción. Dicen que, al anochecer, se pone a cantar quejicoso mientras busca a los miembros de su especie que puedan quedar."
+    },
+    {
+      "id": "GARBODOR1",
+      "image": "/images/pokemonFront/GARBODOR_1.png",
+      "location": "/images/location/GARBODOR_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "GARBODOR",
+      "name": "Mega Garbodor",
+      "form": "Mega Garbodor",
+      "MegaStore": "GARBODORITE",
+      "types": [
+        "POISON",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 125,
+        "defense": 112,
+        "specialAttack": 95,
+        "specialDefense": 112,
+        "speed": 55
+      },
+      "abilities": [
+        "MAGNETPULL"
+      ],
+      "physicalData": {
+        "height": 1.9,
+        "weight": 107.3
+      },
+      "pokedex": "Traga basura y la integra en su cuerpo. Despide veneno líquido por la punta de los dedos de su mano derecha."
+    },
+    {
+      "id": "CORVIKNIGHT1",
+      "image": "/images/pokemonFront/CORVIKNIGHT_1.png",
+      "location": "/images/location/CORVIKNIGHT_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "CORVIKNIGHT",
+      "name": "Mega Corviknight",
+      "form": "Mega Corviknight",
+      "MegaStore": "CORVIKNIGHTITE",
+      "types": [
+        "FLYING",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 98,
+        "attack": 117,
+        "defense": 125,
+        "specialAttack": 73,
+        "specialDefense": 95,
+        "speed": 87
+      },
+      "abilities": [
+        "RECKLESS"
+      ],
+      "physicalData": {
+        "height": 2.2,
+        "weight": 120
+      },
+      "pokedex": "No tiene rival en los cielos. El acero negro y lustroso de su cuerpo intimida a cualquier adversario. Ejerce de taxi volador en Galar."
+    },
+    {
+      "id": "ORBEETLE1",
+      "image": "/images/pokemonFront/ORBEETLE_1.png",
+      "location": "/images/location/ORBEETLE_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "ORBEETLE",
+      "name": "Mega Orbeetle",
+      "form": "Mega Orbeetle",
+      "MegaStore": "ORBEETLEITE",
+      "types": [
+        "BUG",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 65,
+        "defense": 130,
+        "specialAttack": 110,
+        "specialDefense": 140,
+        "speed": 100
+      },
+      "abilities": [
+        "NEUROFORCE"
+      ],
+      "physicalData": {
+        "height": 0.4,
+        "weight": 40.8
+      },
+      "pokedex": "Se sirve de sus poderes psíquicos, con los que es capaz de percibir lo que ocurre en un radio de 10 km, para examinar sus alrededores."
+    },
+    {
+      "id": "BUTTERFREE1",
+      "image": "/images/pokemonFront/BUTTERFREE_1.png",
+      "location": "/images/location/BUTTERFREE_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "BUTTERFREE",
+      "name": "Mega Butterfree",
+      "form": "Mega Butterfree",
+      "MegaStore": "BUTTERFREEITE",
+      "types": [
+        "BUG",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 55,
+        "defense": 70,
+        "specialAttack": 120,
+        "specialDefense": 130,
+        "speed": 110
+      },
+      "abilities": [
+        "COMPOUNDEYES"
+      ],
+      "physicalData": {
+        "height": 1.1,
+        "weight": 32
+      },
+      "pokedex": "Butterfree tiene una habilidad especial para encontrar rico néctar en las flores. Localiza, extrae y transporta polen de flores que están a 10 km de distancia."
+    },
+    {
+      "id": "DREDNAW1",
+      "image": "/images/pokemonFront/DREDNAW_1.png",
+      "location": "/images/location/DREDNAW_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "DREDNAW",
+      "name": "Mega Drednaw",
+      "form": "Mega Drednaw",
+      "MegaStore": "DREDNAWITE",
+      "types": [
+        "WATER",
+        "ROCK"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 145,
+        "defense": 130,
+        "specialAttack": 58,
+        "specialDefense": 88,
+        "speed": 74
+      },
+      "abilities": [
+        "SOLIDROCK"
+      ],
+      "physicalData": {
+        "height": 1,
+        "weight": 115.5
+      },
+      "pokedex": "Su cuello extensible le permite alcanzar a los rivales a distancia. Hundiendo sus afilados dientes, les da el golpe de gracia."
+    },
+    {
+      "id": "COALOSSAL1",
+      "image": "/images/pokemonFront/COALOSSAL_1.png",
+      "location": "/images/location/COALOSSAL_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "COALOSSAL",
+      "name": "Mega Coalossal",
+      "form": "Mega Coalossal",
+      "MegaStore": "COALOSSALITE",
+      "types": [
+        "ROCK",
+        "FIRE"
+      ],
+      "baseStats": {
+        "hp": 110,
+        "attack": 110,
+        "defense": 140,
+        "specialAttack": 110,
+        "specialDefense": 110,
+        "speed": 30
+      },
+      "abilities": [
+        "FLAMEBODY"
+      ],
+      "physicalData": {
+        "height": 2.8,
+        "weight": 310.5
+      },
+      "pokedex": "Aunque es de carácter sereno, monta en cólera si ve a seres humanos dañando una mina y reduce todo a cenizas con sus llamas a 1500 °C."
+    },
+    {
+      "id": "FLAPPLE1",
+      "image": "/images/pokemonFront/FLAPPLE_1.png",
+      "location": "/images/location/FLAPPLE_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "FLAPPLE",
+      "name": "Mega Flapple",
+      "form": "Mega Flapple",
+      "MegaStore": "FLAPPLETUNITE",
+      "types": [
+        "GRASS",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 110,
+        "attack": 125,
+        "defense": 100,
+        "specialAttack": 100,
+        "specialDefense": 100,
+        "speed": 50
+      },
+      "abilities": [
+        "HUSTLE"
+      ],
+      "physicalData": {
+        "height": 0.3,
+        "weight": 1
+      },
+      "pokedex": "Ha evolucionado tras ingerir una manzana ácida. Las bolsas de las mejillas albergan un fluido cuya extrema acidez llega a provocar quemaduras."
+    },
+    {
+      "id": "APPLETUN1",
+      "image": "/images/pokemonFront/APPLETUN_1.png",
+      "location": "/images/location/APPLETUN_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "APPLETUN",
+      "name": "Mega Appletun",
+      "form": "Mega Appletun",
+      "MegaStore": "FLAPPLETUNITE",
+      "types": [
+        "GRASS",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 110,
+        "attack": 105,
+        "defense": 100,
+        "specialAttack": 120,
+        "specialDefense": 100,
+        "speed": 50
+      },
+      "abilities": [
+        "THICKFAT"
+      ],
+      "physicalData": {
+        "height": 0.4,
+        "weight": 13
+      },
+      "pokedex": "Su cuerpo está recubierto de néctar. La piel de la espalda es tan dulce que los niños de antaño solían tomarla como merienda."
+    },
+    {
+      "id": "SANDACONDA1",
+      "image": "/images/pokemonFront/SANDACONDA_1.png",
+      "location": "/images/location/SANDACONDA_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "SANDACONDA",
+      "name": "Mega Sandaconda",
+      "form": "Mega Sandaconda",
+      "MegaStore": "SANDACONDITE",
+      "types": [
+        "GROUND"
+      ],
+      "baseStats": {
+        "hp": 72,
+        "attack": 137,
+        "defense": 125,
+        "specialAttack": 75,
+        "specialDefense": 80,
+        "speed": 131
+      },
+      "abilities": [
+        "SANDSTREAM"
+      ],
+      "physicalData": {
+        "height": 3.8,
+        "weight": 65.5
+      },
+      "pokedex": "Se retuerce para expulsar por los orificios nasales hasta 100 kg de arena. La ausencia de esta mina su ánimo."
+    },
+    {
+      "id": "CENTISKORCH1",
+      "image": "/images/pokemonFront/CENTISKORCH_1.png",
+      "location": "/images/location/CENTISKORCH_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "CENTISKORCH",
+      "name": "Mega Centiskorch",
+      "form": "Mega Centiskorch",
+      "MegaStore": "CENTISKORCHITE",
+      "types": [
+        "FIRE",
+        "BUG"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 145,
+        "defense": 95,
+        "specialAttack": 100,
+        "specialDefense": 90,
+        "speed": 95
+      },
+      "abilities": [
+        "BLAZE"
+      ],
+      "physicalData": {
+        "height": 3,
+        "weight": 120
+      },
+      "pokedex": "Cuando genera calor, su temperatura corporal alcanza aproximadamente los 800 °C. Usa el cuerpo a modo de látigo para lanzarse al ataque."
+    },
+    {
+      "id": "HATTERENE1",
+      "image": "/images/pokemonFront/HATTERENE_1.png",
+      "location": "/images/location/HATTERENE_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "HATTERENE",
+      "name": "Mega Hatterene",
+      "form": "Mega Hatterene",
+      "MegaStore": "HATTERENITE",
+      "types": [
+        "PSYCHIC",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 57,
+        "attack": 110,
+        "defense": 115,
+        "specialAttack": 156,
+        "specialDefense": 123,
+        "speed": 49
+      },
+      "abilities": [
+        "MAGICBOUNCE"
+      ],
+      "physicalData": {
+        "height": 2.1,
+        "weight": 120
+      },
+      "pokedex": "Para mantener alejados a los demás seres vivos, emana a su alrededor ondas psíquicas cuya potencia es capaz de provocar jaquecas."
+    },
+    {
+      "id": "GRIMMSNARL1",
+      "image": "/images/pokemonFront/GRIMMSNARL_1.png",
+      "location": "/images/location/GRIMMSNARL_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "GRIMMSNARL",
+      "name": "Mega Grimmsnarl",
+      "form": "Mega Grimmsnarl",
+      "MegaStore": "GRIMMSNARLITE",
+      "types": [
+        "DARK",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 150,
+        "defense": 85,
+        "specialAttack": 115,
+        "specialDefense": 75,
+        "speed": 90
+      },
+      "abilities": [
+        "SHEERFORCE"
+      ],
+      "physicalData": {
+        "height": 1.5,
+        "weight": 120
+      },
+      "pokedex": "Su cabello desempeña una función similar a la de fibras musculares. Al soltárselo, su movimiento tentacular le permite reducir a su objetivo."
+    },
+    {
+      "id": "ALCREMIE63",
+      "image": "/images/pokemonFront/ALCREMIE_63.png",
+      "location": "/images/location/ALCREMIE_63.jpg",
+      "route": "Ruta 14",
+      "baseId": "ALCREMIE",
+      "name": "Mega Alcremie",
+      "form": "Mega Alcremie",
+      "MegaStore": "ALCREMITE",
+      "types": [
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 80,
+        "defense": 105,
+        "specialAttack": 130,
+        "specialDefense": 151,
+        "speed": 64
+      },
+      "abilities": [
+        "REGENERATOR"
+      ],
+      "physicalData": {
+        "height": 0.3,
+        "weight": 5
+      },
+      "pokedex": "Obsequia bayas decoradas con nata a aquellos Entrenadores en los que confía."
+    },
+    {
+      "id": "COPPERAJAH1",
+      "image": "/images/pokemonFront/COPPERAJAH_1.png",
+      "location": "/images/location/COPPERAJAH_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "COPPERAJAH",
+      "name": "Mega Copperajah",
+      "form": "Mega Copperajah",
+      "MegaStore": "COPPERAJITE",
+      "types": [
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 122,
+        "attack": 150,
+        "defense": 99,
+        "specialAttack": 80,
+        "specialDefense": 69,
+        "speed": 80
+      },
+      "abilities": [
+        "SHEERFORCE"
+      ],
+      "physicalData": {
+        "height": 3,
+        "weight": 650
+      },
+      "pokedex": "Su piel verdosa es resistente al agua. Proviene de tierras lejanas y presta ayuda a las personas en la realización de ciertos trabajos."
+    },
+    {
+      "id": "DURALUDON1",
+      "image": "/images/pokemonFront/DURALUDON_1.png",
+      "location": "/images/location/DURALUDON_1.jpg",
+      "baseId": "---",
+      "name": "Mega Duraludon",
+      "form": "Mega Duraludon",
+      "MegaStore": "DURALUDONITE",
+      "types": [
+        "STEEL",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 115,
+        "defense": 135,
+        "specialAttack": 140,
+        "specialDefense": 70,
+        "speed": 105
+      },
+      "abilities": [
+        "CLEARBODY"
+      ],
+      "physicalData": {
+        "height": "???",
+        "weight": 600
+      }
+    },
+    {
+      "id": "HAWLUCHA1",
+      "image": "/images/pokemonFront/HAWLUCHA_1.png",
+      "location": "/images/location/HAWLUCHA_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "HAWLUCHA",
+      "name": "Mega Hawlucha",
+      "form": "Mega Hawlucha",
+      "MegaStore": "HAWLUCHITE",
+      "types": [
+        "FIGHTING",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 78,
+        "attack": 137,
+        "defense": 100,
+        "specialAttack": 74,
+        "specialDefense": 93,
+        "speed": 118
+      },
+      "abilities": [
+        "MOLDBREAKER"
+      ],
+      "physicalData": {
+        "height": 1,
+        "weight": 25
+      },
+      "pokedex": "A pesar de ser un Pokémon de pequeña estatura, su pericia en el combate le permite plantar cara a Pokémon como Machamp o Hariyama."
+    },
+    {
+      "id": "EEVEE1",
+      "image": "/images/pokemonFront/EEVEE.png",
+      "location": "/images/location/EEVEE_1.jpg",
+      "baseId": "EEVEE",
+      "name": "Eevee Lets Go",
+      "form": "Eevee Lets Go",
+      "MegaStore": "EEVEEITE",
+      "types": [
+        "NORMAL"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 75,
+        "defense": 70,
+        "specialAttack": 65,
+        "specialDefense": 85,
+        "speed": 75
+      },
+      "abilities": [
+        "RUNAWAY",
+        "ADAPTABILITY"
+      ],
+      "hiddenAbilities": [
+        "ANTICIPATION"
+      ],
+      "physicalData": {
+        "height": 0.3,
+        "weight": 6.5
+      },
+      "evolutionChain": [
+        {
+          "species": "EEVEE",
+          "evolvesTo": {
+            "species": "EEVEE_2",
+            "method": "Objeto",
+            "requirement": "EEVEEITE"
+          }
+        },
+        {
+          "species": "EEVEE_2",
+          "evolvesTo": null
+        }
+      ],
+      "pokedex": "Su configuración genética le permite mutar y adaptarse enseguida a cualquier medio."
+    },
+    {
+      "id": "EEVEE2",
+      "image": "/images/pokemonFront/EEVEE_2.png",
+      "location": "/images/location/EEVEE_2.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "EEVEE",
+      "name": "Mega Eevee",
+      "form": "Mega Eevee",
+      "MegaStore": "EEVEEITE",
+      "types": [
+        "NORMAL"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 90,
+        "defense": 110,
+        "specialAttack": 80,
+        "specialDefense": 115,
+        "speed": 75
+      },
+      "abilities": [
+        "ADAPTABILITY"
+      ],
+      "physicalData": {
+        "height": 0.3,
+        "weight": 6.5
+      },
+      "evolutionChain": [
+        {
+          "species": "EEVEE",
+          "evolvesTo": {
+            "species": "EEVEE_2",
+            "method": "Objeto",
+            "requirement": "EEVEEITE"
+          }
+        },
+        {
+          "species": "EEVEE_2",
+          "evolvesTo": null
+        }
+      ],
+      "pokedex": "Su configuración genética le permite mutar y adaptarse enseguida a cualquier medio."
+    },
+    {
+      "id": "MALAMAR1",
+      "image": "/images/pokemonFront/MALAMAR_1.png",
+      "location": "/images/location/MALAMAR_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "MALAMAR",
+      "name": "Mega Malamar",
+      "form": "Mega Malamar",
+      "MegaStore": "MALAMARITE",
+      "types": [
+        "DARK",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 86,
+        "attack": 102,
+        "defense": 88,
+        "specialAttack": 98,
+        "specialDefense": 120,
+        "speed": 88
+      },
+      "abilities": [
+        "NEUROFORCE"
+      ],
+      "physicalData": {
+        "height": 2.9,
+        "weight": 69.8
+      },
+      "pokedex": "Tiene a su disposición los poderes hipnóticos más poderosos de entre todos los Pokémon. Controla al enemigo a su voluntad."
+    },
+    {
+      "id": "JUMPLUFF1",
+      "image": "/images/pokemonFront/JUMPLUFF_1.png",
+      "location": "/images/location/JUMPLUFF_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "JUMPLUFF",
+      "name": "Mega Jumpluff",
+      "form": "Mega Jumpluff",
+      "MegaStore": "JUMPLUFITE",
+      "types": [
+        "GRASS",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 100,
+        "defense": 100,
+        "specialAttack": 55,
+        "specialDefense": 125,
+        "speed": 130
+      },
+      "abilities": [
+        "WINDRIDER"
+      ],
+      "physicalData": {
+        "height": 1.8,
+        "weight": 20
+      },
+      "pokedex": "Jumpluff se vale de los cálidos vientos del sur para volar a tierras lejanas. Si llega a zonas de aire frío en pleno vuelo, descenderá y tomará tierra."
+    },
+    {
+      "id": "RILLABOOM1",
+      "image": "/images/pokemonFront/RILLABOOM_1.png",
+      "location": "/images/location/RILLABOOM_1.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "RILLABOOM",
+      "name": "Mega Rillaboom",
+      "form": "Mega Rillaboom",
+      "MegaStore": "RILLABOOMITE",
+      "types": [
+        "GRASS"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 155,
+        "defense": 120,
+        "specialAttack": 100,
+        "specialDefense": 90,
+        "speed": 66
+      },
+      "abilities": [
+        "PUNKROCK"
+      ],
+      "physicalData": {
+        "height": 2.1,
+        "weight": 90
+      },
+      "pokedex": "El percusionista con la técnica más depurada se convierte en líder. Son de carácter tranquilo y dan mucha importancia a la armonía del grupo."
+    },
+    {
+      "id": "CINDERACE1",
+      "image": "/images/pokemonFront/CINDERACE_1.png",
+      "location": "/images/location/CINDERACE_1.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "CINDERACE",
+      "name": "Mega Cinderace",
+      "form": "Mega Cinderace",
+      "MegaStore": "CINDERECITE",
+      "types": [
+        "FIRE"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 146,
+        "defense": 85,
+        "specialAttack": 95,
+        "specialDefense": 85,
+        "speed": 139
+      },
+      "abilities": [
+        "LIBERO"
+      ],
+      "physicalData": {
+        "height": 1.4,
+        "weight": 33
+      },
+      "pokedex": "Destaca tanto en ataque como en defensa. Se crece cuando recibe una ovación, pero a veces se luce tanto que termina viéndose en apuros."
+    },
+    {
+      "id": "INTELEON1",
+      "image": "/images/pokemonFront/INTELEON_1.png",
+      "location": "/images/location/INTELEON_1.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "INTELEON",
+      "name": "Mega Inteleon",
+      "form": "Mega Inteleon",
+      "MegaStore": "INTELEONITE",
+      "types": [
+        "WATER",
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 95,
+        "defense": 75,
+        "specialAttack": 175,
+        "specialDefense": 75,
+        "speed": 140
+      },
+      "abilities": [
+        "SNIPER"
+      ],
+      "physicalData": {
+        "height": 1.9,
+        "weight": 45.2
+      },
+      "pokedex": "Dispara chorros de agua por la punta de los dedos a 3 mach de velocidad. Con su membrana nictitante puede ver los puntos débiles del rival."
+    },
+    {
+      "id": "SNORLAX1",
+      "image": "/images/pokemonFront/SNORLAX_1.png",
+      "location": "/images/location/SNORLAX_1.jpg",
+      "route": "Bosque Arcoiris",
+      "baseId": "SNORLAX",
+      "name": "Mega Snorlax",
+      "form": "Mega Snorlax",
+      "MegaStore": "SNORLAXITE",
+      "types": [
+        "NORMAL"
+      ],
+      "baseStats": {
+        "hp": 160,
+        "attack": 130,
+        "defense": 85,
+        "specialAttack": 95,
+        "specialDefense": 140,
+        "speed": 30
+      },
+      "abilities": [
+        "THICKFAT"
+      ],
+      "physicalData": {
+        "height": 3.4,
+        "weight": 730
+      },
+      "pokedex": "Se dedica a comer y dormir. Es tan dócil que es fácil ver a niños usando la gran panza que tiene como lugar de juegos."
+    },
+    {
+      "id": "CHESNAUGHT1",
+      "image": "/images/pokemonFront/CHESNAUGHT_1.png",
+      "location": "/images/location/CHESNAUGHT_1.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "CHESNAUGHT",
+      "name": "Mega Chesnaught",
+      "form": "Mega Chesnaught",
+      "MegaStore": "CHESNAUGHTITE",
+      "types": [
+        "GRASS",
+        "FIGHTING"
+      ],
+      "baseStats": {
+        "hp": 88,
+        "attack": 137,
+        "defense": 172,
+        "specialAttack": 74,
+        "specialDefense": 115,
+        "speed": 44
+      },
+      "abilities": [
+        "BULLETPROOF"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 90
+      },
+      "pokedex": "Su fuerza es tal que, de un empellón, puede hacer volcar un tanque de 50 toneladas. Protege a sus aliados cuando hace de escudo."
+    },
+    {
+      "id": "DELPHOX1",
+      "image": "/images/pokemonFront/DELPHOX_1.png",
+      "location": "/images/location/DELPHOX_1.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "DELPHOX",
+      "name": "Mega Delphox",
+      "form": "Mega Delphox",
+      "MegaStore": "DELPHOXITE",
+      "types": [
+        "FIRE",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 69,
+        "defense": 72,
+        "specialAttack": 159,
+        "specialDefense": 125,
+        "speed": 134
+      },
+      "abilities": [
+        "MAGICGUARD"
+      ],
+      "physicalData": {
+        "height": 1.5,
+        "weight": 39
+      },
+      "pokedex": "Fija la mirada en la llama que arde en la punta de su bastón para concentrarse y prever sucesos que tienen lugar en el futuro."
+    },
+    {
+      "id": "GRENINJA3",
+      "image": "/images/pokemonFront/GRENINJA_3.png",
+      "location": "/images/location/GRENINJA_3.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "GRENINJA",
+      "name": "Mega Greninja",
+      "form": "Mega Greninja",
+      "MegaStore": "GRENINJITE",
+      "types": [
+        "WATER",
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 72,
+        "attack": 125,
+        "defense": 77,
+        "specialAttack": 133,
+        "specialDefense": 81,
+        "speed": 142
+      },
+      "abilities": [
+        "SKILLLINK"
+      ],
+      "physicalData": {
+        "height": 1.5,
+        "weight": 40
+      },
+      "pokedex": "Comprime agua y crea estrellas ninja con las que ataca al enemigo. Cuando las hace girar a gran velocidad cortan en dos hasta el metal."
+    },
+    {
+      "id": "MRMIME1",
+      "image": "/images/pokemonFront/MRMIME_1.png",
+      "location": "/images/location/MRMIME_1.jpg",
+      "route": "Ciudad Añil",
+      "baseId": "MRMIME",
+      "name": "Mr. Mime",
+      "form": "Forma Galar",
+      "pokedex": "El claqué es su especialidad. Genera una capa de hielo bajo sus pies, sobre la que taconea para crear barreras con las que protegerse.",
+      "types": [
+        "ICE",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defense": 65,
+        "specialAttack": 90,
+        "specialDefense": 90,
+        "speed": 100
+      },
+      "abilities": [
+        "VITALSPIRIT",
+        "SCREENCLEANER"
+      ],
+      "hiddenAbilities": [
+        "ICEBODY"
+      ],
+      "physicalData": {
+        "height": 1.4,
+        "weight": 56.8
+      },
+      "evolutionChain": [
+        {
+          "species": "MRMIME_1",
+          "evolvesTo": {
+            "species": "MRRIME",
+            "method": "Nivel",
+            "requirement": 42
+          }
+        },
+        {
+          "species": "MRRIME",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "ARTICUNO1",
+      "image": "/images/pokemonFront/ARTICUNO_1.png",
+      "location": "/images/location/ARTICUNO_1.jpg",
+      "route": "Cueva Glaciada",
+      "baseId": "ARTICUNO",
+      "name": "Articuno",
+      "form": "Forma Galar",
+      "pokedex": "A pesar de su personalidad tosca y fría, se mueve con gracia. Se mantiene en el aire usando sus poderes psíquicos y casi nunca bate sus alas.",
+      "types": [
+        "PSYCHIC",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 85,
+        "defense": 85,
+        "specialAttack": 125,
+        "specialDefense": 95,
+        "speed": 95
+      },
+      "abilities": [
+        "COMPETITIVE"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 50.9
+      }
+    },
+    {
+      "id": "MOLTRES1",
+      "image": "/images/pokemonFront/MOLTRES_1.png",
+      "location": "/images/location/MOLTRES_1.jpg",
+      "route": "Islote Recuerdo",
+      "baseId": "MOLTRES",
+      "name": "Moltres",
+      "form": "Forma Galar",
+      "pokedex": "La energía que recorre su cuerpo rebosa como un aura en forma de columna de fuego, lo que impide que se le acerquen los Pokémon normales.",
+      "types": [
+        "DARK",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 85,
+        "defense": 90,
+        "specialAttack": 100,
+        "specialDefense": 125,
+        "speed": 90
+      },
+      "abilities": [
+        "BERSERK"
+      ],
+      "physicalData": {
+        "height": 2,
+        "weight": 66
+      }
+    },
+    {
+      "id": "ZAPDOS1",
+      "image": "/images/pokemonFront/ZAPDOS_1.png",
+      "location": "/images/location/ZAPDOS_1.jpg",
+      "route": "Cabo Azabache",
+      "baseId": "ZAPDOS",
+      "name": "Zapdos",
+      "form": "Forma Galar",
+      "pokedex": "En los combates, intenta abrumar a sus oponentes con movimientos muy rápidos y con las patadas que asesta con sus fuertes patas.",
+      "types": [
+        "FIGHTING",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 125,
+        "defense": 90,
+        "specialAttack": 85,
+        "specialDefense": 90,
+        "speed": 100
+      },
+      "abilities": [
+        "DEFIANT"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 58.2
+      }
+    },
+    {
+      "id": "SLOWKING1",
+      "image": "/images/pokemonFront/SLOWKING_1.png",
+      "location": "/images/location/SLOWKING_1.jpg",
+      "route": "Islote Recuerdo",
+      "baseId": "SLOWKING",
+      "name": "Slowking",
+      "form": "Forma Galar",
+      "pokedex": "Debido al impacto de la evolución y las toxinas, el intelecto del Shellder ha aumentado hasta el punto de controlar totalmente al Slowking.",
+      "types": [
+        "POISON",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 65,
+        "defense": 80,
+        "specialAttack": 110,
+        "specialDefense": 110,
+        "speed": 30
+      },
+      "abilities": [
+        "ESPANTO",
+        "CURIOUSMEDICINE"
+      ],
+      "hiddenAbilities": [
+        "REGENERATOR"
+      ],
+      "physicalData": {
+        "height": 1.8,
+        "weight": 79.5
+      },
+      "evolutionChain": [
+        {
+          "species": "SLOWPOKE_1",
+          "evolvesTo": [
+            {
+              "species": "SLOWBRO_1",
+              "method": "Objeto",
+              "requirement": "GALARICACUFF"
+            },
+            {
+              "species": "SLOWKING_1",
+              "method": "Objeto",
+              "requirement": "GALARICAWREATH"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CORSOLA1",
+      "image": "/images/pokemonFront/CORSOLA_1.png",
+      "location": "/images/location/CORSOLA_1.jpg",
+      "route": "Ruta 13",
+      "baseId": "CORSOLA",
+      "name": "Corsola",
+      "form": "Forma Galar",
+      "pokedex": "Es habitual hallarlos en lo que antaño fueron lechos oceánicos. Maldice a aquellos que le dan un puntapié confundiéndolo con un pedrusco.",
+      "types": [
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 55,
+        "defense": 100,
+        "specialAttack": 65,
+        "specialDefense": 100,
+        "speed": 30
+      },
+      "abilities": [
+        "WEAKARMOR"
+      ],
+      "hiddenAbilities": [
+        "CURSEDBODY"
+      ],
+      "physicalData": {
+        "height": 0.6,
+        "weight": 5
+      },
+      "evolutionChain": [
+        {
+          "species": "CORSOLA_1",
+          "evolvesTo": {
+            "species": "CURSOLA",
+            "method": "Nivel",
+            "requirement": 38
+          }
+        },
+        {
+          "species": "CURSOLA",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "ZIGZAGOON1",
+      "image": "/images/pokemonFront/ZIGZAGOON_1.png",
+      "location": "/images/location/ZIGZAGOON_1.jpg",
+      "baseId": "ZIGZAGOON",
+      "name": "Zigzagoon",
+      "form": "Forma galar",
+      "pokedex": "Parece ser que esta es la forma primitiva de Zigzagoon. Arma un alboroto tremendo a su alrededor cuando se mueve en zigzag.",
+      "types": [
+        "DARK",
+        "NORMAL"
+      ],
+      "baseStats": {
+        "hp": 38,
+        "attack": 30,
+        "defense": 41,
+        "specialAttack": 30,
+        "specialDefense": 41,
+        "speed": 60
+      },
+      "abilities": [
+        "PICKPOCKET",
+        "GUTS"
+      ],
+      "hiddenAbilities": [
+        "QUICKFEET"
+      ],
+      "physicalData": {
+        "height": 0.4,
+        "weight": 17.5
+      },
+      "evolutionChain": [
+        {
+          "species": "ZIGZAGOON_1",
+          "evolvesTo": {
+            "species": "LINOONE_1",
+            "method": "Nivel",
+            "requirement": 20
+          }
+        },
+        {
+          "species": "LINOONE_1",
+          "evolvesTo": {
+            "species": "OBSTAGOON",
+            "method": "Nivel 35",
+            "requirement": "De Noche"
+          }
+        },
+        {
+          "species": "OBSTAGOON",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "LINOONE1",
+      "image": "/images/pokemonFront/LINOONE_1.png",
+      "location": "/images/location/LINOONE_1.jpg",
+      "baseId": "LINOONE",
+      "name": "Linoone",
+      "form": "Forma galar",
+      "pokedex": "Posee un carácter beligerante y temerario. Hace frente impávidamente a oponentes mucho más fuertes que él.",
+      "types": [
+        "DARK",
+        "NORMAL"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 70,
+        "defense": 61,
+        "specialAttack": 50,
+        "specialDefense": 61,
+        "speed": 100
+      },
+      "abilities": [
+        "PICKPOCKET",
+        "GUTS"
+      ],
+      "hiddenAbilities": [
+        "QUICKFEET"
+      ],
+      "physicalData": {
+        "height": 0.5,
+        "weight": 32.5
+      },
+      "evolutionChain": [
+        {
+          "species": "ZIGZAGOON_1",
+          "evolvesTo": {
+            "species": "LINOONE_1",
+            "method": "Nivel",
+            "requirement": 20
+          }
+        },
+        {
+          "species": "LINOONE_1",
+          "evolvesTo": {
+            "species": "OBSTAGOON",
+            "method": "Nivel 35",
+            "requirement": "De Noche"
+          }
+        },
+        {
+          "species": "OBSTAGOON",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "CASTFORM_1",
+      "image": "/images/pokemonFront/CASTFORM_1.png",
+      "location": "/images/location/CASTFORM_1.jpg",
+      "baseId": "CASTFORM",
+      "name": "Castform",
+      "form": "Forma Sol",
+      "pokedex": "Castform adopta esta forma cuando el sol brilla con fuerza. Conviene tener cuidado al tocarlo, ya que su piel alcanza altas temperaturas.",
+      "types": [
+        "FIRE"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 70,
+        "defense": 90,
+        "specialAttack": 130,
+        "specialDefense": 90,
+        "speed": 100
+      },
+      "abilities": [
+        "FORECAST"
+      ],
+      "physicalData": {
+        "height": 0.3,
+        "weight": 0.8
+      }
+    },
+    {
+      "id": "CASTFORM_2",
+      "image": "/images/pokemonFront/CASTFORM_2.png",
+      "location": "/images/location/CASTFORM_2.jpg",
+      "baseId": "CASTFORM",
+      "name": "Castform",
+      "form": "Forma Lluvia",
+      "pokedex": "Castform adopta esta forma cuando llueve. Su cuerpo es como una esponja y suelta agua con solo presionarlo ligeramente.",
+      "types": [
+        "WATER"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 70,
+        "defense": 90,
+        "specialAttack": 130,
+        "specialDefense": 90,
+        "speed": 100
+      },
+      "abilities": [
+        "FORECAST"
+      ],
+      "physicalData": {
+        "height": 0.3,
+        "weight": 0.8
+      }
+    },
+    {
+      "id": "CASTFORM_3",
+      "image": "/images/pokemonFront/CASTFORM_3.png",
+      "location": "/images/location/CASTFORM_3.jpg",
+      "baseId": "CASTFORM",
+      "name": "Castform",
+      "form": "Forma Nieve",
+      "pokedex": "Castform adopta esta forma cuando graniza. Su cuerpo se enfría y su piel se congela parcialmente.",
+      "types": [
+        "ICE"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 70,
+        "defense": 90,
+        "specialAttack": 130,
+        "specialDefense": 90,
+        "speed": 100
+      },
+      "abilities": [
+        "FORECAST"
+      ],
+      "physicalData": {
+        "height": 0.3,
+        "weight": 0.8
+      }
+    },
+    {
+      "id": "ROTOM1",
+      "image": "/images/pokemonFront/ROTOM_1.png",
+      "location": "/images/location/ROTOM_1.jpg",
+      "route": "Ciudad Azulona",
+      "baseId": "ROTOM",
+      "name": "Rotom",
+      "form": "Forma Calor",
+      "pokedex": "Ha tomado posesión de un horno eléctrico que funciona con un motor especial. Controla el fuego con maña.",
+      "types": [
+        "ELECTRIC",
+        "FIRE"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defense": 107,
+        "specialAttack": 105,
+        "specialDefense": 107,
+        "speed": 86
+      },
+      "abilities": [
+        "LEVITATE"
+      ],
+      "physicalData": {
+        "height": 0.3,
+        "weight": 0.3
+      }
+    },
+    {
+      "id": "ROTOM2",
+      "image": "/images/pokemonFront/ROTOM_2.png",
+      "location": "/images/location/ROTOM_2.jpg",
+      "route": "Ciudad Azulona",
+      "baseId": "ROTOM",
+      "name": "Rotom",
+      "form": "Forma Lavado",
+      "pokedex": "Asume esta forma cuando quiere utilizar el agua para hacer fechorías tales como inundar habitaciones.",
+      "types": [
+        "ELECTRIC",
+        "WATER"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defense": 107,
+        "specialAttack": 105,
+        "specialDefense": 107,
+        "speed": 86
+      },
+      "abilities": [
+        "LEVITATE"
+      ],
+      "physicalData": {
+        "height": 0.3,
+        "weight": 0.3
+      }
+    },
+    {
+      "id": "ROTOM3",
+      "image": "/images/pokemonFront/ROTOM_3.png",
+      "location": "/images/location/ROTOM_3.jpg",
+      "route": "Ciudad Azulona",
+      "baseId": "ROTOM",
+      "name": "Rotom",
+      "form": "Forma Frío",
+      "pokedex": "Ha tomado posesión de un frigorífico que funciona con un motor especial. Se vale de su aire gélido para combatir.",
+      "types": [
+        "ELECTRIC",
+        "ICE"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defense": 107,
+        "specialAttack": 105,
+        "specialDefense": 107,
+        "speed": 86
+      },
+      "abilities": [
+        "LEVITATE"
+      ],
+      "physicalData": {
+        "height": 0.3,
+        "weight": 0.3
+      }
+    },
+    {
+      "id": "ROTOM4",
+      "image": "/images/pokemonFront/ROTOM_4.png",
+      "location": "/images/location/ROTOM_4.jpg",
+      "route": "Ciudad Azulona",
+      "baseId": "ROTOM",
+      "name": "Rotom",
+      "form": "Forma Ventilador",
+      "pokedex": "Asume esta forma cuando quiere usar el viento para hacer fechorías tales como esparcir por doquier montañas de documentos importantes.",
+      "types": [
+        "ELECTRIC",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defense": 107,
+        "specialAttack": 105,
+        "specialDefense": 107,
+        "speed": 86
+      },
+      "abilities": [
+        "LEVITATE"
+      ],
+      "physicalData": {
+        "height": 0.3,
+        "weight": 0.3
+      }
+    },
+    {
+      "id": "ROTOM5",
+      "image": "/images/pokemonFront/ROTOM_5.png",
+      "location": "/images/location/ROTOM_5.jpg",
+      "route": "Ciudad Azulona",
+      "baseId": "ROTOM",
+      "name": "Rotom",
+      "form": "Forma Corte",
+      "pokedex": "Ha tomado posesión de un cortacésped que funciona con un motor especial. Esparce por todos lados la hierba que ha cortado.",
+      "types": [
+        "ELECTRIC",
+        "GRASS"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 65,
+        "defense": 107,
+        "specialAttack": 105,
+        "specialDefense": 107,
+        "speed": 86
+      },
+      "abilities": [
+        "LEVITATE"
+      ],
+      "physicalData": {
+        "height": 0.3,
+        "weight": 0.3
+      }
+    },
+    {
+      "id": "SHAYMIN1",
+      "image": "/images/pokemonFront/SHAYMIN_1.png",
+      "location": "/images/location/SHAYMIN_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "SHAYMIN",
+      "name": "Shaymin",
+      "form": "Forma Cielo",
+      "types": [
+        "GRASS",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 103,
+        "defense": 75,
+        "specialAttack": 120,
+        "specialDefense": 75,
+        "speed": 127
+      },
+      "abilities": [
+        "SERENEGRACE"
+      ],
+      "physicalData": {
+        "height": 0.4,
+        "weight": 5.2
+      }
+    },
+    {
+      "id": "DARUMAKA2",
+      "image": "/images/pokemonFront/DARUMAKA_2.png",
+      "location": "/images/location/DARUMAKA_2.jpg",
+      "baseId": "DARUMAKA",
+      "name": "Darumaka",
+      "form": "Forma galar",
+      "pokedex": "La adaptación a entornos nevados ha atrofiado y congelado su saca de fuego, pero ha propiciado el desarrollo de un órgano generador de frío.",
+      "types": [
+        "ICE"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 90,
+        "defense": 45,
+        "specialAttack": 15,
+        "specialDefense": 45,
+        "speed": 50
+      },
+      "abilities": [
+        "HUSTLE"
+      ],
+      "hiddenAbilities": [
+        "INNERFOCUS"
+      ],
+      "physicalData": {
+        "height": 0.7,
+        "weight": 40
+      },
+      "evolutionChain": [
+        {
+          "species": "DARUMAKA_2",
+          "evolvesTo": {
+            "species": "DARMANITAN_2",
+            "method": "Objeto",
+            "requirement": "ICESTONE"
+          }
+        },
+        {
+          "species": "DARMANITAN_2",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "DARMANITAN1",
+      "image": "/images/pokemonFront/DARMANITAN_2.png",
+      "location": "/images/location/DARMANITAN_2.jpg",
+      "route": "Ruta 25 Norte",
+      "baseId": "DARMANITAN",
+      "name": "Darmanitan",
+      "form": "Forma galar",
+      "pokedex": "Posee un carácter tranquilo, pero también mucha fuerza. Puede congelar al instante la bola de nieve que tiene en la cabeza y liarse a cabezazos.",
+      "types": [
+        "ICE"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "attack": 140,
+        "defense": 55,
+        "specialAttack": 30,
+        "specialDefense": 55,
+        "speed": 95
+      },
+      "abilities": [
+        "GORILLATACTICS"
+      ],
+      "hiddenAbilities": [
+        "ZENMODE"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 120
+      },
+      "evolutionChain": [
+        {
+          "species": "DARUMAKA_2",
+          "evolvesTo": {
+            "species": "DARMANITAN_2",
+            "method": "Objeto",
+            "requirement": "ICESTONE"
+          }
+        },
+        {
+          "species": "DARMANITAN_2",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "YAMASK1",
+      "image": "/images/pokemonFront/YAMASK_1.png",
+      "location": "/images/location/YAMASK_1.jpg",
+      "route": "Monte Moon (exterior)",
+      "baseId": "YAMASK",
+      "name": "Yamask",
+      "form": "Forma galar",
+      "pokedex": "Yamask ha sido poseído por una tabla de arcilla sobre la que pesa una maldición. Se dice que absorbe y se nutre de rencor e inquina.",
+      "types": [
+        "GROUND",
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 38,
+        "attack": 55,
+        "defense": 85,
+        "specialAttack": 30,
+        "specialDefense": 65,
+        "speed": 30
+      },
+      "abilities": [
+        "WANDERINGSPIRIT"
+      ],
+      "physicalData": {
+        "height": 0.5,
+        "weight": 1.5
+      },
+      "evolutionChain": [
+        {
+          "species": "YAMASK_1",
+          "evolvesTo": {
+            "species": "RUNERIGUS",
+            "method": "Objeto",
+            "requirement": "DUSKSTONE"
+          }
+        },
+        {
+          "species": "RUNERIGUS",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "STUNFISK",
+      "image": "/images/pokemonFront/STUNFISK_1.png",
+      "location": "/images/location/STUNFISK_1.jpg",
+      "route": "Almacén Secreto",
+      "baseId": "STUNFISK",
+      "name": "Stunfisk",
+      "form": "Forma galar",
+      "pokedex": "Atrae a su presa con los labios, que destacan al ocultar su cuerpo en el lodo, y la aferra con sus aletas serradas y duras como el acero.",
+      "types": [
+        "GROUND",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 109,
+        "attack": 81,
+        "defense": 99,
+        "specialAttack": 66,
+        "specialDefense": 84,
+        "speed": 32
+      },
+      "abilities": [
+        "MIMICRY"
+      ],
+      "physicalData": {
+        "height": 0.7,
+        "weight": 20.5
+      }
+    },
+    {
+      "id": "AEGISLASH1",
+      "image": "/images/pokemonFront/AEGISLASH_1.png",
+      "location": "/images/location/AEGISLASH_1.jpg",
+      "route": "Cueva Celeste",
+      "baseId": "AEGISLASH",
+      "name": "Aegislash",
+      "form": "Forma Filo",
+      "pokedex": "Al adoptar esta forma, centra su estrategia en la ofensiva, aprovechando todo el peso y la fuerza del acero para atacar al rival.",
+      "types": [
+        "STEEL",
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 150,
+        "defense": 50,
+        "specialAttack": 150,
+        "specialDefense": 50,
+        "speed": 60
+      },
+      "abilities": [
+        "STANCECHANGE"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 53
+      },
+      "evolutionChain": [
+        {
+          "species": "HONEDGE",
+          "evolvesTo": {
+            "species": "DOUBLADE",
+            "method": "Nivel",
+            "requirement": 35
+          }
+        },
+        {
+          "species": "DOUBLADE",
+          "evolvesTo": {
+            "species": "AEGISLASH_1",
+            "method": "Objeto",
+            "requirement": "DUSKSTONE"
+          }
+        },
+        {
+          "species": "AEGISLASH_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "LYCANROC1",
+      "image": "/images/pokemonFront/LYCANROC_1.png",
+      "location": "/images/location/LYCANROC_1.jpg",
+      "route": "Ruta 23 - Noche",
+      "baseId": "LYCANROC",
+      "name": "Lycanroc",
+      "form": "Forma Noctruna",
+      "pokedex": "Provoca al enemigo antes de atacarlo. Desgarra carne y rompe huesos golpeándolo con su melena de piedra.",
+      "types": [
+        "ROCK"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 115,
+        "defense": 75,
+        "specialAttack": 55,
+        "specialDefense": 75,
+        "speed": 82
+      },
+      "abilities": [
+        "KEENEYE",
+        "VITALSPIRIT"
+      ],
+      "hiddenAbilities": [
+        "NOGUARD"
+      ],
+      "physicalData": {
+        "height": 1.1,
+        "weight": 25
+      },
+      "evolutionChain": [
+        {
+          "species": "ROCKRUFF",
+          "evolvesTo": [
+            {
+              "species": "LYCANROC",
+              "method": "Nivel 25",
+              "requirement": "De Día"
+            },
+            {
+              "species": "LYCANROC_1",
+              "method": "Nivel 25",
+              "requirement": "De Noche"
+            },
+            {
+              "species": "LYCANROC_2",
+              "method": null,
+              "requirement": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LYCANROC2",
+      "image": "/images/pokemonFront/LYCANROC_2.png",
+      "location": "/images/location/LYCANROC_2.jpg",
+      "route": "Ruta 23 - Tarde",
+      "baseId": "LYCANROC",
+      "name": "Lycanroc",
+      "form": "Forma Crepuscular",
+      "pokedex": "Lycanroc evoluciona a esta forma especial cuando se expone al sol del atardecer. Parece pacífico, pero posee un gran espíritu combativo.",
+      "types": [
+        "ROCK"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 117,
+        "defense": 65,
+        "specialAttack": 55,
+        "specialDefense": 65,
+        "speed": 110
+      },
+      "abilities": [
+        "TOUGHCLAWS"
+      ],
+      "physicalData": {
+        "height": 0.8,
+        "weight": 25
+      },
+      "evolutionChain": [
+        {
+          "species": "ROCKRUFF",
+          "evolvesTo": [
+            {
+              "species": "LYCANROC",
+              "method": "Nivel 25",
+              "requirement": "De Día"
+            },
+            {
+              "species": "LYCANROC_1",
+              "method": "Nivel 25",
+              "requirement": "De Noche"
+            },
+            {
+              "species": "LYCANROC_2",
+              "method": null,
+              "requirement": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "TOXTRICITY1",
+      "image": "/images/pokemonFront/TOXTRICITY_1.png",
+      "location": "/images/location/TOXTRICITY_1.jpg",
+      "route": "Ciudad Fucsia",
+      "baseId": "TOXTRICITY",
+      "name": "Toxtricity",
+      "form": "Forma Grave",
+      "pokedex": "Puede liberar descargas eléctricas de hasta 15.000 V. Se enfrenta a cualquier rival con la misma actitud chulesca.",
+      "types": [
+        "ELECTRIC",
+        "POISON"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 98,
+        "defense": 70,
+        "specialAttack": 114,
+        "specialDefense": 70,
+        "speed": 75
+      },
+      "abilities": [
+        "PUNKROCK",
+        "MINUS"
+      ],
+      "hiddenAbilities": [
+        "TECHNICIAN"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 40
+      },
+      "evolutionChain": [
+        {
+          "species": "TOXEL",
+          "evolvesTo": {
+            "species": "TOXTRICITY_1",
+            "method": "Nivel",
+            "requirement": 30
+          }
+        },
+        {
+          "species": "TOXTRICITY_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "TOXTRICITY2",
+      "image": "/images/pokemonFront/TOXTRICITY_2.png",
+      "location": "/images/location/TOXTRICITY_2.jpg",
+      "route": "Ruta 14",
+      "baseId": "TOXTRICITY",
+      "name": "Mega Toxtricity",
+      "form": "Mega Toxtricity",
+      "pokedex": "Cuando rasga las protuberancias del pecho para generar energía eléctrica, emite un sonido similar al de una guitarra, que reverbera en el entorno.",
+      "MegaStore": "TOXTRICITITE",
+      "types": [
+        "ELECTRIC",
+        "POISON"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 118,
+        "defense": 90,
+        "specialAttack": 144,
+        "specialDefense": 80,
+        "speed": 95
+      },
+      "abilities": [
+        "DOWNLOAD"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 40
+      }
+    },
+    {
+      "id": "GROWLITHE1",
+      "image": "/images/pokemonFront/GROWLITHE_1.png",
+      "location": "/images/location/GROWLITHE_1.jpg",
+      "baseId": "GROWLITHE",
+      "name": "Growlithe",
+      "form": "Forma Hisui",
+      "pokedex": "Patrullan su territorio en pareja. Las rocas ígneas que salpican su pelaje quizá sean el resultado de la actividad volcánica del lugar.",
+      "types": [
+        "FIRE",
+        "ROCK"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 75,
+        "defense": 45,
+        "specialAttack": 65,
+        "specialDefense": 50,
+        "speed": 55
+      },
+      "abilities": [
+        "INTIMIDATE",
+        "FLASHFIRE"
+      ],
+      "hiddenAbilities": [
+        "ROCKHEAD"
+      ],
+      "physicalData": {
+        "height": 0.8,
+        "weight": 22.7
+      },
+      "evolutionChain": [
+        {
+          "species": "GROWLITHE_1",
+          "evolvesTo": {
+            "species": "ARCANINE_1",
+            "method": "Objeto",
+            "requirement": "FIRESTONE"
+          }
+        },
+        {
+          "species": "ARCANINE_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "ARCANINE1",
+      "image": "/images/pokemonFront/ARCANINE_1.png",
+      "location": "/images/location/ARCANINE_1.jpg",
+      "route": "Ruta 27",
+      "baseId": "ARCANINE",
+      "name": "Arcanine",
+      "form": "Forma Hisui",
+      "pokedex": "Lanza dentelladas con colmillos envueltos en un intenso fuego. A pesar de su gran tamaño, es un maestro de las fintas y juguetea alrededor de sus oponentes.",
+      "types": [
+        "FIRE",
+        "ROCK"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 115,
+        "defense": 80,
+        "specialAttack": 95,
+        "specialDefense": 80,
+        "speed": 90
+      },
+      "abilities": [
+        "INTIMIDATE",
+        "FLASHFIRE"
+      ],
+      "hiddenAbilities": [
+        "ROCKHEAD"
+      ],
+      "physicalData": {
+        "height": 2,
+        "weight": 168
+      },
+      "evolutionChain": [
+        {
+          "species": "GROWLITHE_1",
+          "evolvesTo": {
+            "species": "ARCANINE_1",
+            "method": "Objeto",
+            "requirement": "FIRESTONE"
+          }
+        },
+        {
+          "species": "ARCANINE_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "TAUROS1",
+      "image": "/images/pokemonFront/TAUROS_1.png",
+      "location": "/images/location/TAUROS_1.jpg",
+      "baseId": "TAUROS",
+      "name": "Tauros",
+      "form": "Forma Paldea (combatiente)",
+      "pokedex": "La Variedad Combatiente se distingue por su fornida y poderosa musculatura y por su temperamento especialmente agresivo.",
+      "types": [
+        "FIGHTING"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 110,
+        "defense": 105,
+        "specialAttack": 30,
+        "specialDefense": 70,
+        "speed": 100
+      },
+      "abilities": [
+        "INTIMIDATE",
+        "ACOMETIDA"
+      ],
+      "hiddenAbilities": [
+        "CUDCHEW"
+      ],
+      "physicalData": {
+        "height": 1.4,
+        "weight": 115
+      }
+    },
+    {
+      "id": "LILLIGANT1",
+      "image": "/images/pokemonFront/LILLIGANT_1.png",
+      "location": "/images/location/LILLIGANT_1.jpg",
+      "route": "Ruta 29",
+      "baseId": "LILLIGANT",
+      "name": "Lilligant",
+      "form": "Forma Hisui",
+      "pokedex": "Habitar en montañas cubiertas de nieves le ha permitido desarrollar unas piernas robustas. Expulsa un aroma por su flor que infunde ánimo a quien esté cerca.",
+      "types": [
+        "GRASS",
+        "FIGHTING"
+      ],
+      "hiddenAbilities": [
+        "LEAFGUARD"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 105,
+        "defense": 75,
+        "specialAttack": 50,
+        "specialDefense": 75,
+        "speed": 105
+      },
+      "abilities": [
+        "CHLOROPHYLL",
+        "HUSTLE"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 19.2
+      }
+    },
+    {
+      "id": "SNEASEL1",
+      "image": "/images/pokemonFront/SNEASEL_1.png",
+      "location": "/images/location/SNEASEL_1.jpg",
+      "route": "Ciudad Carmín",
+      "baseId": "SNEASEL",
+      "name": "Sneasel",
+      "form": "Forma Hisui",
+      "pokedex": "Sus robustas garras son ideales para moverse por los riscos más escarpados. De sus puntas rezuma un veneno que daña los nervios de las presas que captura.",
+      "types": [
+        "FIGHTING",
+        "POISON"
+      ],
+      "baseStats": {
+        "hp": 55,
+        "attack": 95,
+        "defense": 55,
+        "specialAttack": 35,
+        "specialDefense": 75,
+        "speed": 115
+      },
+      "abilities": [
+        "INNERFOCUS",
+        "KEENEYE"
+      ],
+      "hiddenAbilities": [
+        "PICKPOCKET"
+      ],
+      "physicalData": {
+        "height": 0.9,
+        "weight": 27
+      },
+      "evolutionChain": [
+        {
+          "species": "SNEASEL_1",
+          "evolvesTo": {
+            "species": "SNEASLER",
+            "method": "Nivel",
+            "requirement": 38
+          }
+        },
+        {
+          "species": "SNEASLER",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "AVALUGG1",
+      "image": "/images/pokemonFront/AVALUGG_1.png",
+      "location": "/images/location/AVALUGG_1.jpg",
+      "route": "Ruta 25 Sur",
+      "baseId": "AVALUGG",
+      "name": "Avalugg",
+      "form": "Forma Hisui",
+      "pokedex": "La coraza de hielo que cubre su mandíbula es más dura que el acero y le permite triturar rocas con facilidad. Avanza veloz por escarpados senderos montañosos.",
+      "types": [
+        "ICE",
+        "ROCK"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 127,
+        "defense": 184,
+        "specialAttack": 34,
+        "specialDefense": 36,
+        "speed": 38
+      },
+      "abilities": [
+        "STRONGJAW",
+        "ICEBODY"
+      ],
+      "hiddenAbilities": [
+        "STURDY"
+      ],
+      "physicalData": {
+        "height": 1.4,
+        "weight": 262.4
+      }
+    },
+    {
+      "id": "DECIDUEYE1",
+      "image": "/images/pokemonFront/DECIDUEYE_1.png",
+      "location": "/images/location/DECIDUEYE_1.jpg",
+      "baseId": "DECIDUEYE",
+      "name": "Decidueye",
+      "form": "Forma Hisui",
+      "pokedex": "Almacena aire en el raquis de las plumas, lo que le permite aguantar las gélidas temperaturas de Hisui. Un claro ejemplo de cómo el entorno influye en los Pokémon.",
+      "types": [
+        "GRASS",
+        "FIGHTING"
+      ],
+      "baseStats": {
+        "hp": 88,
+        "attack": 112,
+        "defense": 90,
+        "specialAttack": 85,
+        "specialDefense": 95,
+        "speed": 60
+      },
+      "abilities": [
+        "OVERGROW",
+        "LONGREACH"
+      ],
+      "hiddenAbilities": [
+        "SCRAPPY"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 7.0
+      }
+    },
+    {
+      "id": "WOOPER1",
+      "image": "/images/pokemonFront/WOOPER_1.png",
+      "location": "/images/location/WOOPER_1.jpg",
+      "route": "Ruta 21",
+      "baseId": "WOOPER",
+      "name": "Wooper",
+      "form": "Forma Paldea",
+      "pokedex": "Ante el riesgo que le supone desplazarse solo, forma filas de tres o cuatro individuos que cuidan unos de otros mientras recorren los pantanos.",
+      "types": [
+        "POISON",
+        "GROUND"
+      ],
+      "hiddenAbilities": [
+        "UNAWARE"
+      ],
+      "baseStats": {
+        "hp": 55,
+        "attack": 55,
+        "defense": 45,
+        "specialAttack": 35,
+        "specialDefense": 35,
+        "speed": 15
+      },
+      "abilities": [
+        "POISONPOINT",
+        "WATERABSORB"
+      ],
+      "physicalData": {
+        "height": 0.4,
+        "weight": 11.0
+      },
+      "evolutionChain": [
+        {
+          "species": "WOOPER_1",
+          "evolvesTo": {
+            "species": "CLODSIRE",
+            "method": "Nivel",
+            "requirement": 20
+          }
+        },
+        {
+          "species": "CLODSIRE",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "QWILFISH1",
+      "image": "/images/pokemonFront/QWILFISH_1.png",
+      "location": "/images/location/QWILFISH_1.jpg",
+      "baseId": "QWILFISH",
+      "name": "Qwilfish",
+      "form": "Forma Hisui",
+      "pokedex": "Segrega veneno a través de las agujas, razón por la que los pescadores lo odian. Los ejemplares de otras regiones presentan una forma diferente.",
+      "types": [
+        "DARK",
+        "POISON"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 95,
+        "defense": 85,
+        "specialAttack": 55,
+        "specialDefense": 55,
+        "speed": 85
+      },
+      "abilities": [
+        "POISONPOINT",
+        "TOXICDEBRIS"
+      ],
+      "hiddenAbilities": [
+        "INTIMIDATE"
+      ],
+      "physicalData": {
+        "height": 0.5,
+        "weight": 3.9
+      },
+      "evolutionChain": [
+        {
+          "species": "QWILFISH_1",
+          "evolvesTo": {
+            "species": "SNEASLER",
+            "method": "Subir de nivel sabiendo",
+            "requirement": "Mil puas tóxicas"
+          }
+        },
+        {
+          "species": "OVERQWIL",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "GIMMIGHOUL1",
+      "image": "/images/pokemonFront/GIMMIGHOUL_1.png",
+      "location": "/images/location/GIMMIGHOUL_1.jpg",
+      "baseId": "GIMMIGHOUL",
+      "name": "Gimmighoul",
+      "form": "Forma Andante",
+      "pokedex": "Vaga con una moneda cargada a la espalda. Para sobrevivir, absorbe la fuerza vital de aquellos que se agachan a recogerla.",
+      "types": [
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 45,
+        "attack": 30,
+        "defense": 70,
+        "specialAttack": 75,
+        "specialDefense": 70,
+        "speed": 10
+      },
+      "abilities": [
+        "RUNAWAY"
+      ],
+      "physicalData": {
+        "height": 0.1,
+        "weight": 0.1
+      },
+      "evolutionChain": [
+        {
+          "species": "GIMMIGHOUL_1",
+          "evolvesTo": {
+            "species": "GHOLDENGO",
+            "method": "Nivel",
+            "requirement": 50
+          }
+        },
+        {
+          "species": "GHOLDENGO",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "PALAFIN1",
+      "image": "/images/pokemonFront/PALAFIN_1.png",
+      "location": "/images/location/PALAFIN_1.jpg",
+      "baseId": "PALAFIN",
+      "name": "Palafin",
+      "form": "Forma Heroica",
+      "pokedex": "Cambia de forma en cuanto recibe una señal de socorro de sus compañeros. Nunca se transforma delante de nadie.",
+      "types": [
+        "WATER"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 160,
+        "defense": 97,
+        "specialAttack": 106,
+        "specialDefense": 87,
+        "speed": 100
+      },
+      "abilities": [
+        "ZEROTOHERO"
+      ],
+      "physicalData": {
+        "height": 1.8,
+        "weight": 97.4
+      }
+    },
+    {
+      "id": "URSALUNA1",
+      "image": "/images/pokemonFront/URSALUNA_1.png",
+      "location": "/images/location/URSALUNA_1.jpg",
+      "baseId": "URSALUNA",
+      "name": "Ursaluna",
+      "form": "Forma Luna Carmesí",
+      "pokedex": "Se tiene la teoría de que el terreno pantanoso de Hisui favoreció el desarrollo de su constitución robusta, así como su capacidad de manipular la turba.",
+      "types": [
+        "NORMAL",
+        "GROUND"
+      ],
+      "baseStats": {
+        "hp": 113,
+        "attack": 70,
+        "defense": 120,
+        "specialAttack": 135,
+        "specialDefense": 65,
+        "speed": 52
+      },
+      "abilities": [
+        "MINDSEYE"
+      ],
+      "hiddenAbilities": [
+        "UNNERVE"
+      ],
+      "physicalData": {
+        "height": 2.7,
+        "weight": 333.0
+      }
+    },
+    {
+      "id": "SLIGGOO1",
+      "image": "/images/pokemonFront/SLIGGOO_1.png",
+      "location": "/images/location/SLIGGOO_1.jpg",
+      "route": "Cabo Magenta",
+      "baseId": "SLIGGOO",
+      "name": "Sliggoo",
+      "form": "Forma Hisui",
+      "pokedex": "Adolece de una personalidad lúgubre. Su concha metálica se formó mediante una reacción entre su mucosidad y el contenido férreo del agua de Hisui.",
+      "types": [
+        "STEEL",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 58,
+        "attack": 75,
+        "defense": 83,
+        "specialAttack": 83,
+        "specialDefense": 113,
+        "speed": 40
+      },
+      "abilities": [
+        "SAPSIPPER",
+        "SHELLARMOR"
+      ],
+      "hiddenAbilities": [
+        "GOOEY"
+      ],
+      "physicalData": {
+        "height": 0.7,
+        "weight": 68.5
+      },
+      "evolutionChain": [
+        {
+          "species": "SLIGGOO_1",
+          "evolvesTo": {
+            "species": "GOODRA_1",
+            "method": "Nivel",
+            "requirement": 50
+          }
+        },
+        {
+          "species": "GOODRA_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "GOODRA1",
+      "image": "/images/pokemonFront/GOODRA_1.png",
+      "location": "/images/location/GOODRA_1.jpg",
+      "route": "Cabo Magenta",
+      "baseId": "GOODRA",
+      "name": "Goodra",
+      "form": "Forma Hisui",
+      "pokedex": "Puede alterar la dureza de su caparazón metálico a voluntad. De carácter dependiente, detesta la soledad y monta en cólera si lo abandonan.",
+      "types": [
+        "STEEL",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 100,
+        "defense": 100,
+        "specialAttack": 110,
+        "specialDefense": 150,
+        "speed": 60
+      },
+      "abilities": [
+        "SAPSIPPER",
+        "SHELLARMOR"
+      ],
+      "hiddenAbilities": [
+        "GOOEY"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 334.1
+      },
+      "evolutionChain": [
+        {
+          "species": "SLIGGOO_1",
+          "evolvesTo": {
+            "species": "GOODRA_1",
+            "method": "Nivel",
+            "requirement": 50
+          }
+        },
+        {
+          "species": "GOODRA_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "BRAVIARY1",
+      "image": "/images/pokemonFront/BRAVIARY_1.png",
+      "location": "/images/location/BRAVIARY_1.jpg",
+      "route": "Ruta 28",
+      "baseId": "BRAVIARY",
+      "name": "Braviary",
+      "form": "Forma Hisui",
+      "pokedex": "Esta enorme ave emite un espeluznante graznido de guerra cuando sale de caza. Lanza ondas contra los lagos y atrapa a las presas que afloran a la superficie.",
+      "types": [
+        "PSYCHIC",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 110,
+        "attack": 83,
+        "defense": 70,
+        "specialAttack": 112,
+        "specialDefense": 70,
+        "speed": 65
+      },
+      "abilities": [
+        "KEENEYE",
+        "SHEERFORCE"
+      ],
+      "hiddenAbilities": [
+        "TINTEDLENS"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 43.4
+      }
+    },
+    {
+      "id": "ZORUA1",
+      "image": "/images/pokemonFront/ZORUA_1.png",
+      "location": "/images/location/ZORUA_1.jpg",
+      "baseId": "ZORUA",
+      "name": "Zorua",
+      "form": "Forma Hisui",
+      "pokedex": "Es un alma difunta resucitada en Hisui que transforma su rencor en energía. Esta surge de su cabeza y adopta la forma de su oponente, disipando así su inquina.",
+      "types": [
+        "NORMAL",
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 35,
+        "attack": 60,
+        "defense": 40,
+        "specialAttack": 85,
+        "specialDefense": 40,
+        "speed": 70
+      },
+      "abilities": [
+        "ILLUSION"
+      ],
+      "physicalData": {
+        "height": 0.7,
+        "weight": 12.5
+      },
+      "evolutionChain": [
+        {
+          "species": "ZORUA_1",
+          "evolvesTo": {
+            "species": "ZOROARK_1",
+            "method": "Nivel",
+            "requirement": 30
+          }
+        },
+        {
+          "species": "ZOROARK_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "ZOROARK1",
+      "image": "/images/pokemonFront/ZOROARK_1.png",
+      "location": "/images/location/ZOROARK_1.jpg",
+      "route": "Bosque Arcoiris",
+      "baseId": "ZOROARK",
+      "name": "Zoroark",
+      "form": "Forma Hisui",
+      "pokedex": "La revuelta melena blanca le hace parecer la personificación de la muerte. Abate a sus rivales sin consideración por su vida valiéndose de un profundo rencor.",
+      "types": [
+        "NORMAL",
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 55,
+        "attack": 100,
+        "defense": 60,
+        "specialAttack": 125,
+        "specialDefense": 60,
+        "speed": 110
+      },
+      "abilities": [
+        "ILLUSION"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 73.0
+      },
+      "evolutionChain": [
+        {
+          "species": "ZORUA_1",
+          "evolvesTo": {
+            "species": "ZOROARK_1",
+            "method": "Nivel",
+            "requirement": 30
+          }
+        },
+        {
+          "species": "ZOROARK_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "SAMUROTT1",
+      "image": "/images/pokemonFront/SAMUROTT_1.png",
+      "location": "/images/location/SAMUROTT_1.jpg",
+      "baseId": "SAMUROTT",
+      "name": "Samurott",
+      "form": "Forma Hisui",
+      "pokedex": "De actitud indiferente y muy hábil con la espada, propina incesantes y violentos ataques cual maremoto. Se trata de una forma poco común que solo se da en Hisui.",
+      "types": [
+        "WATER",
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 118,
+        "defense": 80,
+        "specialAttack": 90,
+        "specialDefense": 65,
+        "speed": 85
+      },
+      "abilities": [
+        "TORRENT"
+      ],
+      "hiddenAbilities": [
+        "SHARPNESS"
+      ],
+      "physicalData": {
+        "height": 1.5,
+        "weight": 58.2
+      }
+    },
+    {
+      "id": "TYPHLOSION1",
+      "image": "/images/pokemonFront/TYPHLOSION_1.png",
+      "location": "/images/location/TYPHLOSION_1.jpg",
+      "baseId": "TYPHLOSION",
+      "name": "Typhlosion",
+      "form": "Forma Hisui",
+      "pokedex": "Se cree que el Monte Corona influyó en su apariencia. Se dice que purifica con sus llamas a las almas errantes y las conduce al otro mundo.",
+      "types": [
+        "FIRE",
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 78,
+        "attack": 84,
+        "defense": 78,
+        "specialAttack": 109,
+        "specialDefense": 85,
+        "speed": 100
+      },
+      "abilities": [
+        "BERSERK"
+      ],
+      "hiddenAbilities": [
+        "FRISK"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 69.7
+      }
+    },
+    {
+      "id": "TAUROS2",
+      "image": "/images/pokemonFront/TAUROS_2.png",
+      "location": "/images/location/TAUROS_2.jpg",
+      "baseId": "TAUROS",
+      "name": "Tauros",
+      "form": "Forma Paldea (Ardiente)",
+      "pokedex": "La Variedad Ardiente debe su nombre a la capacidad de exhalar aire a altas temperaturas por el hocico. Lleva las tres colas trenzadas.",
+      "types": [
+        "FIGHTING",
+        "FIRE"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 110,
+        "defense": 105,
+        "specialAttack": 30,
+        "specialDefense": 70,
+        "speed": 100
+      },
+      "abilities": [
+        "INTIMIDATE",
+        "ACOMETIDA"
+      ],
+      "hiddenAbilities": [
+        "CUDCHEW"
+      ],
+      "physicalData": {
+        "height": 1.4,
+        "weight": 85.0
+      }
+    },
+    {
+      "id": "TAUROS3",
+      "image": "/images/pokemonFront/TAUROS_3.png",
+      "location": "/images/location/TAUROS_3.jpg",
+      "baseId": "TAUROS",
+      "name": "Tauros",
+      "form": "Forma Paldea (Acuática)",
+      "pokedex": "Su elevado nivel de grasa corporal permite a la Variedad Acuática flotar en el agua. Se propulsa expulsando agua por los cuernos.",
+      "types": [
+        "FIGHTING",
+        "WATER"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 110,
+        "defense": 105,
+        "specialAttack": 30,
+        "specialDefense": 70,
+        "speed": 100
+      },
+      "abilities": [
+        "INTIMIDATE",
+        "ACOMETIDA"
+      ],
+      "hiddenAbilities": [
+        "CUDCHEW"
+      ],
+      "physicalData": {
+        "height": 1.4,
+        "weight": 110.0
+      }
+    },
+    {
+      "id": "WISHIWASHI1",
+      "image": "/images/pokemonFront/WISHIWASHI_1.png",
+      "location": "/images/location/WISHIWASHI_1.jpg",
+      "baseId": "WISHIWASHI",
+      "name": "Wishiwashi",
+      "form": "Forma Banco",
+      "pokedex": "Es conocido como la Bestia del Mar. Si el número de Wishiwashi heridos durante el combate sube mucho, el banco vuelve a ser inofensivo.",
+      "types": [
+        "WATER"
+      ],
+      "baseStats": {
+        "hp": 45,
+        "attack": 140,
+        "defense": 130,
+        "specialAttack": 140,
+        "specialDefense": 135,
+        "speed": 30
+      },
+      "abilities": [
+        "SCHOOLING"
+      ],
+      "physicalData": {
+        "height": 8.2,
+        "weight": 78.6
+      }
+    },
+    {
+      "id": "FURFROU7",
+      "image": "/images/pokemonFront/FURFROU_7.png",
+      "location": "/images/location/FURFROU_1.jpg",
+      "baseId": "FURFROU",
+      "name": "Furfrou",
+      "form": "Forma Corte Aristocrático",
+      "pokedex": "Cuando le esquilan su mullido pelaje, no solo mejora su apariencia, sino que aumenta su agilidad.",
+      "types": [
+        "NORMAL",
+        "ICE"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 60,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 102
+      },
+      "abilities": [
+        "FURCOAT"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 28
+      }
+    },
+    {
+      "id": "FURFROU1",
+      "image": "/images/pokemonFront/FURFROU_1.png",
+      "location": "/images/location/FURFROU_1.jpg",
+      "baseId": "FURFROU",
+      "name": "Furfrou",
+      "form": "Forma Corte Corazón",
+      "pokedex": "Cuando le esquilan su mullido pelaje, no solo mejora su apariencia, sino que aumenta su agilidad.",
+      "types": [
+        "NORMAL",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 60,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 102
+      },
+      "abilities": [
+        "FURCOAT"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 28
+      }
+    },
+    {
+      "id": "FURFROU2",
+      "image": "/images/pokemonFront/FURFROU_2.png",
+      "location": "/images/location/FURFROU_1.jpg",
+      "baseId": "FURFROU",
+      "name": "Furfrou",
+      "form": "Forma Corte Estrella",
+      "pokedex": "Cuando le esquilan su mullido pelaje, no solo mejora su apariencia, sino que aumenta su agilidad.",
+      "types": [
+        "NORMAL",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 60,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 102
+      },
+      "abilities": [
+        "FURCOAT"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 28
+      }
+    },
+    {
+      "id": "FURFROU3",
+      "image": "/images/pokemonFront/FURFROU_3.png",
+      "location": "/images/location/FURFROU_1.jpg",
+      "baseId": "FURFROU",
+      "name": "Furfrou",
+      "form": "Forma Corte Rombo",
+      "pokedex": "Cuando le esquilan su mullido pelaje, no solo mejora su apariencia, sino que aumenta su agilidad.",
+      "types": [
+        "NORMAL",
+        "ROCK"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 60,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 102
+      },
+      "abilities": [
+        "FURCOAT"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 28
+      }
+    },
+    {
+      "id": "FURFROU4",
+      "image": "/images/pokemonFront/FURFROU_4.png",
+      "location": "/images/location/FURFROU_1.jpg",
+      "baseId": "FURFROU",
+      "name": "Furfrou",
+      "form": "Forma Corte Señorita",
+      "pokedex": "Cuando le esquilan su mullido pelaje, no solo mejora su apariencia, sino que aumenta su agilidad.",
+      "types": [
+        "NORMAL",
+        "ELECTRIC"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 60,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 102
+      },
+      "abilities": [
+        "FURCOAT"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 28
+      }
+    },
+    {
+      "id": "FURFROU9",
+      "image": "/images/pokemonFront/FURFROU_9.png",
+      "location": "/images/location/FURFROU_1.jpg",
+      "baseId": "FURFROU",
+      "name": "Furfrou",
+      "form": "Forma Corte Faraónico",
+      "pokedex": "Cuando le esquilan su mullido pelaje, no solo mejora su apariencia, sino que aumenta su agilidad.",
+      "types": [
+        "NORMAL",
+        "WATER"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 60,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 102
+      },
+      "abilities": [
+        "FURCOAT"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 28
+      }
+    },
+    {
+      "id": "FURFROU5",
+      "image": "/images/pokemonFront/FURFROU_5.png",
+      "location": "/images/location/FURFROU_1.jpg",
+      "baseId": "FURFROU",
+      "name": "Furfrou",
+      "form": "Forma Corte Dama",
+      "pokedex": "Cuando le esquilan su mullido pelaje, no solo mejora su apariencia, sino que aumenta su agilidad.",
+      "types": [
+        "NORMAL",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 60,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 102
+      },
+      "abilities": [
+        "FURCOAT"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 28
+      }
+    },
+    {
+      "id": "FURFROU8",
+      "image": "/images/pokemonFront/FURFROU_8.png",
+      "location": "/images/location/FURFROU_1.jpg",
+      "baseId": "FURFROU",
+      "name": "Furfrou",
+      "form": "Forma Corte Kabuki",
+      "pokedex": "Cuando le esquilan su mullido pelaje, no solo mejora su apariencia, sino que aumenta su agilidad.",
+      "types": [
+        "NORMAL",
+        "FIRE"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 60,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 102
+      },
+      "abilities": [
+        "FURCOAT"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 28
+      }
+    },
+    {
+      "id": "FURFROU6",
+      "image": "/images/pokemonFront/FURFROU_6.png",
+      "location": "/images/location/FURFROU_1.jpg",
+      "baseId": "FURFROU",
+      "name": "Furfrou",
+      "form": "Forma Corte Caballero",
+      "pokedex": "Cuando le esquilan su mullido pelaje, no solo mejora su apariencia, sino que aumenta su agilidad.",
+      "types": [
+        "NORMAL",
+        "GRASS"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 60,
+        "specialAttack": 65,
+        "specialDefense": 90,
+        "speed": 102
+      },
+      "abilities": [
+        "FURCOAT"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 28
+      }
+    },
+    {
+      "id": "MEOWSTIC1",
+      "image": "/images/pokemonFront/MEOWSTIC_1.png",
+      "location": "/images/location/MEOWSTIC_1.jpg",
+      "route": "Ciudad Azafrán",
+      "baseId": "MEOWSTIC",
+      "name": "Meowstic",
+      "form": "Hembra",
+      "pokedex": "Son ligeramente más agresivas y egoístas que los machos. Castigan sin piedad con sus poderes psíquicos a quienes las enojen.",
+      "types": [
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 74,
+        "attack": 48,
+        "defense": 76,
+        "specialAttack": 83,
+        "specialDefense": 81,
+        "speed": 104
+      },
+      "abilities": [
+        "PRANKSTER",
+        "NEUROFORCE"
+      ],
+      "hiddenAbilities": [
+        "COMPETITIVE"
+      ],
+      "physicalData": {
+        "height": 0.6,
+        "weight": 8.5
+      },
+      "evolutionChain": [
+        {
+          "species": "ESPURR",
+          "evolvesTo": {
+            "species": "MEOWSTIC_1",
+            "method": "Nivel",
+            "requirement": 25
+          }
+        },
+        {
+          "species": "MEOWSTIC_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "DEOXYS1",
+      "image": "/images/pokemonFront/DEOXYS_1.png",
+      "location": "/images/location/DEOXYS_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "DEOXYS",
+      "name": "Deoxys",
+      "form": "Forma Ataque",
+      "pokedex": "Es el resultado de la mutación que sufrió un virus espacial expuesto a un rayo láser. Tiene una velocidad y agilidad superiores a las del resto.",
+      "types": [
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 180,
+        "defense": 20,
+        "specialAttack": 180,
+        "specialDefense": 20,
+        "speed": 150
+      },
+      "abilities": [
+        "PRESSURE"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 60.8
+      }
+    },
+    {
+      "id": "DEOXYS2",
+      "image": "/images/pokemonFront/DEOXYS_2.png",
+      "location": "/images/location/DEOXYS_2.jpg",
+      "route": "Torre Batalla",
+      "baseId": "DEOXYS",
+      "name": "Deoxys",
+      "form": "Forma Defensa",
+      "pokedex": "Es el resultado de la mutación que sufrió un virus espacial expuesto a un rayo láser. Tiene una velocidad y agilidad superiores a las del resto.",
+      "types": [
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 70,
+        "defense": 160,
+        "specialAttack": 70,
+        "specialDefense": 160,
+        "speed": 90
+      },
+      "abilities": [
+        "PRESSURE"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 60.8
+      }
+    },
+    {
+      "id": "DEOXYS3",
+      "image": "/images/pokemonFront/DEOXYS_3.png",
+      "location": "/images/location/DEOXYS_3.jpg",
+      "route": "Torre Batalla",
+      "baseId": "DEOXYS",
+      "name": "Deoxys",
+      "form": "Forma Velocidad",
+      "pokedex": "Es el resultado de la mutación que sufrió un virus espacial expuesto a un rayo láser. Tiene una velocidad y agilidad superiores a las del resto.",
+      "types": [
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 50,
+        "attack": 95,
+        "defense": 90,
+        "specialAttack": 95,
+        "specialDefense": 90,
+        "speed": 180
+      },
+      "abilities": [
+        "PRESSURE"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 60.8
+      }
+    },
+    {
+      "id": "GROUDON1",
+      "image": "/images/pokemonFront/GROUDON_1.png",
+      "location": "/images/location/GROUDON_1.jpg",
+      "baseId": "GROUDON",
+      "name": "Groudon",
+      "form": "Forma Primigenia",
+      "pokedex": "En la mitología se considera a Groudon el creador de la tierra. Duerme enterrado en magma y dicen que, al despertar, hace que los volcanes entren en erupción.",
+      "types": [
+        "GROUND",
+        "FIRE"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 180,
+        "defense": 160,
+        "specialAttack": 150,
+        "specialDefense": 90,
+        "speed": 90
+      },
+      "abilities": [
+        "DESOLATELAND"
+      ],
+      "physicalData": {
+        "height": 5.0,
+        "weight": 999.7
+      }
+    },
+    {
+      "id": "KYOGRE1",
+      "image": "/images/pokemonFront/KYOGRE_1.png",
+      "location": "/images/location/KYOGRE_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "KYOGRE",
+      "name": "Kyogre",
+      "form": "Forma Primigenia",
+      "pokedex": "En la mitología se considera a Kyogre como el creador del mar. Tras largos años de enfrentamiento con Groudon, se echó a dormir en el fondo del mar.",
+      "types": [
+        "WATER"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 150,
+        "defense": 90,
+        "specialAttack": 180,
+        "specialDefense": 160,
+        "speed": 90
+      },
+      "abilities": [
+        "PRIMORDIALSEA"
+      ],
+      "physicalData": {
+        "height": 9.8,
+        "weight": 430.0
+      }
+    },
+    {
+      "id": "THUNDURUS1",
+      "image": "/images/pokemonFront/THUNDURUS_1.png",
+      "location": "/images/location/THUNDURUS_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "THUNDURUS",
+      "name": "Thundurus",
+      "form": "Forma Tótem",
+      "pokedex": "Lanza descargas eléctricas por las púas de su cola. Sobrevuela Teselia dejando caer rayos.",
+      "types": [
+        "ELECTRIC",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 79,
+        "attack": 105,
+        "defense": 70,
+        "specialAttack": 145,
+        "specialDefense": 80,
+        "speed": 101
+      },
+      "abilities": [
+        "VOLTABSORB"
+      ],
+      "physicalData": {
+        "height": 3,
+        "weight": 61
+      }
+    },
+    {
+      "id": "LANDORUS1",
+      "image": "/images/pokemonFront/LANDORUS_1.png",
+      "location": "/images/location/LANDORUS_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "LANDORUS",
+      "name": "Landorus",
+      "form": "Forma Tótem",
+      "pokedex": "La energía que desprende de su cola enriquece de nutrientes la tierra, y la calidad de las cosechas mejora.",
+      "types": [
+        "GROUND",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 89,
+        "attack": 145,
+        "defense": 90,
+        "specialAttack": 105,
+        "specialDefense": 80,
+        "speed": 91
+      },
+      "abilities": [
+        "INTIMIDATE"
+      ],
+      "physicalData": {
+        "height": 1.3,
+        "weight": 68
+      }
+    },
+    {
+      "id": "TORNADUS1",
+      "image": "/images/pokemonFront/TORNADUS_1.png",
+      "location": "/images/location/TORNADUS_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "TORNADUS",
+      "name": "Tornadus",
+      "form": "Forma Tótem",
+      "pokedex": "La energía que desprende de su cola genera violentas tempestades capaces de echar abajo casas.",
+      "types": [
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 79,
+        "attack": 100,
+        "defense": 80,
+        "specialAttack": 110,
+        "specialDefense": 90,
+        "speed": 121
+      },
+      "abilities": [
+        "REGENERATOR"
+      ],
+      "physicalData": {
+        "height": 1.4,
+        "weight": 63
+      }
+    },
+    {
+      "id": "ENAMORUS1",
+      "image": "/images/pokemonFront/ENAMORUS_1.png",
+      "location": "/images/location/ENAMORUS_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "ENAMORUS",
+      "name": "Enamorus",
+      "form": "Forma Tótem",
+      "pokedex": "Tras perder su apariencia femenina, surge de entre las nubes y, sin piedad alguna, desata toda su furia para castigar a quien menosprecie el don de la vida.",
+      "types": [
+        "FAIRY",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 74,
+        "attack": 115,
+        "defense": 110,
+        "specialAttack": 135,
+        "specialDefense": 100,
+        "speed": 46
+      },
+      "abilities": [
+        "OVERCOAT"
+      ],
+      "hiddenAbilities": [
+        "CONTRARY"
+      ],
+      "physicalData": {
+        "height": 1.8,
+        "weight": 48
+      }
+    },
+    {
+      "id": "HOOPA1",
+      "image": "/images/pokemonFront/HOOPA_1.png",
+      "location": "/images/location/HOOPA_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "HOOPA",
+      "name": "Hoopa",
+      "form": "Forma Desatada",
+      "pokedex": "Acumula cosas que le gustan y las hace pasar por su bucle para teletransportarlas a un lugar secreto.",
+      "types": [
+        "PSYCHIC",
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 160,
+        "defense": 60,
+        "specialAttack": 170,
+        "specialDefense": 130,
+        "speed": 80
+      },
+      "abilities": [
+        "MAGICIAN"
+      ],
+      "physicalData": {
+        "height": 6.5,
+        "weight": 490.0
+      }
+    },
+    {
+      "id": "CALYREX1",
+      "image": "/images/pokemonFront/CALYREX_1.png",
+      "location": "/images/location/CALYREX_1.jpg",
+      "baseId": "CALYREX",
+      "name": "Calyrex",
+      "form": "Forma Jinete Glacial",
+      "pokedex": "No tenía piedad con quienes se interponían en su camino, pero se sabe también que curaba a sus rivales tras enfrentarse a ellos en combate.",
+      "types": [
+        "PSYCHIC",
+        "ICE"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 165,
+        "defense": 150,
+        "specialAttack": 85,
+        "specialDefense": 130,
+        "speed": 50
+      },
+      "abilities": [
+        "ASONECHILLINGNEIGH"
+      ],
+      "physicalData": {
+        "height": 2.4,
+        "weight": 809.1
+      }
+    },
+    {
+      "id": "CALYREX2",
+      "image": "/images/pokemonFront/CALYREX_2.png",
+      "location": "/images/location/CALYREX_2.jpg",
+      "baseId": "CALYREX",
+      "name": "Calyrex",
+      "form": "Forma Jinete Espectral",
+      "pokedex": "Cuentan que salvó a las criaturas del bosque del impacto de un meteorito gracias a su capacidad para ver todo acontecimiento pasado y futuro.",
+      "types": [
+        "PSYCHIC",
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 85,
+        "defense": 80,
+        "specialAttack": 165,
+        "specialDefense": 100,
+        "speed": 150
+      },
+      "abilities": [
+        "ASONEGRIMNEIGH"
+      ],
+      "physicalData": {
+        "height": 2.4,
+        "weight": 53.6
+      }
+    },
+    {
+      "id": "GIRATINA1",
+      "image": "/images/pokemonFront/GIRATINA_1.png",
+      "location": "/images/location/GIRATINA_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "GIRATINA",
+      "name": "Giratina",
+      "form": "Forma Origen",
+      "pokedex": "Fue desterrado por su violencia. Vive en el Mundo Distorsión, un mundo opuesto al nuestro y cuyas leyes desafían el sentido común. Desde ahí observa nuestro mundo.",
+      "types": [
+        "GHOST",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 150,
+        "attack": 120,
+        "defense": 100,
+        "specialAttack": 120,
+        "specialDefense": 100,
+        "speed": 90
+      },
+      "abilities": [
+        "LEVITATE"
+      ],
+      "physicalData": {
+        "height": 6.9,
+        "weight": 650.0
+      }
+    },
+    {
+      "id": "DIALGA1",
+      "image": "/images/pokemonFront/DIALGA_1.png",
+      "location": "/images/location/DIALGA_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "DIALGA",
+      "name": "Dialga",
+      "form": "Forma Origen",
+      "pokedex": "Aparece en los mitos de Sinnoh como una vieja deidad. Tiene el poder de controlar el tiempo y viajar así libremente al pasado y al futuro.",
+      "types": [
+        "STEEL",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 100,
+        "defense": 120,
+        "specialAttack": 150,
+        "specialDefense": 120,
+        "speed": 90
+      },
+      "abilities": [
+        "PRESSURE"
+      ],
+      "hiddenAbilities": [
+        "TELEPATHY"
+      ],
+      "physicalData": {
+        "height": 7.0,
+        "weight": 848.7
+      }
+    },
+    {
+      "id": "PALKIA1",
+      "image": "/images/pokemonFront/PALKIA_1.png",
+      "location": "/images/location/PALKIA_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "PALKIA",
+      "name": "Palkia",
+      "form": "Forma Origen",
+      "pokedex": "Aparece en la mitología de Sinnoh. Controla las conexiones del espacio y puede viajar a su antojo a otras dimensiones y a lugares lejanos.",
+      "types": [
+        "WATER",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 100,
+        "defense": 100,
+        "specialAttack": 150,
+        "specialDefense": 120,
+        "speed": 120
+      },
+      "abilities": [
+        "PRESSURE"
+      ],
+      "hiddenAbilities": [
+        "TELEPATHY"
+      ],
+      "physicalData": {
+        "height": 6.3,
+        "weight": 659.0
+      }
+    },
+    {
+      "id": "OGERPON1",
+      "image": "/images/pokemonFront/OGERPON_1.png",
+      "location": "/images/location/OGERPON_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "OGERPON",
+      "name": "Ogerpon",
+      "form": "Máscara Fuente",
+      "pokedex": "Esta forma destaca en la ofensiva y la defensiva. Arremete con movimientos incesantes que se asemejan a un potente chorro de agua.",
+      "types": [
+        "GRASS",
+        "WATER"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 84,
+        "specialAttack": 60,
+        "specialDefense": 96,
+        "speed": 110
+      },
+      "abilities": [
+        "WATERABSORB"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 39.8
+      }
+    },
+    {
+      "id": "OGERPON2",
+      "image": "/images/pokemonFront/OGERPON_2.png",
+      "location": "/images/location/OGERPON_2.jpg",
+      "route": "Torre Batalla",
+      "baseId": "OGERPON",
+      "name": "Ogerpon",
+      "form": "Máscara Horno",
+      "pokedex": "Esta forma se especializa en la ofensiva. Agrede a sus enemigos con la violencia de las llamas que arden con fuerza en un horno.",
+      "types": [
+        "GRASS",
+        "FIRE"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 84,
+        "specialAttack": 60,
+        "specialDefense": 96,
+        "speed": 110
+      },
+      "abilities": [
+        "MOLDBREAKER"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 39.8
+      }
+    },
+    {
+      "id": "OGERPON3",
+      "image": "/images/pokemonFront/OGERPON_3.png",
+      "location": "/images/location/OGERPON_3.jpg",
+      "route": "Torre Batalla",
+      "baseId": "OGERPON",
+      "name": "Ogerpon",
+      "form": "Máscara Cimiento",
+      "pokedex": "Esta forma se especializa en la defensiva. Resiste los impactos con la robustez de los cimientos de una casa.",
+      "types": [
+        "GRASS",
+        "ROCK"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 120,
+        "defense": 84,
+        "specialAttack": 60,
+        "specialDefense": 96,
+        "speed": 110
+      },
+      "abilities": [
+        "STURDY"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 39.8
+      }
+    },
+    {
+      "id": "ZAMAZENTA1",
+      "image": "/images/pokemonFront/ZAMAZENTA_1.png",
+      "location": "/images/location/ZAMAZENTA_1.jpg",
+      "baseId": "ZAMAZENTA",
+      "name": "Zamazenta",
+      "form": "Forma Escudo Supremo",
+      "pokedex": "Esta forma, temida y venerada por igual, le ha valido el nombre de Regio Escudo Guerrero por su capacidad de repeler cualquier ataque.",
+      "types": [
+        "FIGHTING",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 92,
+        "attack": 120,
+        "defense": 140,
+        "specialAttack": 80,
+        "specialDefense": 140,
+        "speed": 128
+      },
+      "abilities": [
+        "DAUNTLESSSHIELD"
+      ],
+      "physicalData": {
+        "height": 2.9,
+        "weight": 785.0
+      }
+    },
+    {
+      "id": "ZACIAN1",
+      "image": "/images/pokemonFront/ZACIAN_1.png",
+      "location": "/images/location/ZACIAN_1.jpg",
+      "baseId": "ZACIAN",
+      "name": "Zacian",
+      "form": "Forma Espada Suprema",
+      "pokedex": "En esta forma, capaz de cortar cualquier cosa, es temido y respetado y se lo conoce como la Regia Espada Silvana.",
+      "types": [
+        "FAIRY",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 92,
+        "attack": 150,
+        "defense": 115,
+        "specialAttack": 80,
+        "specialDefense": 115,
+        "speed": 148
+      },
+      "abilities": [
+        "INTREPIDSWORD"
+      ],
+      "physicalData": {
+        "height": 2.8,
+        "weight": 355.0
+      }
+    },
+    {
+      "id": "MINIOR7",
+      "image": "/images/pokemonFront/MINIOR_7.png",
+      "location": "/images/location/MINIOR_7.jpg",
+      "route": "Túnel Roca",
+      "baseId": "MINIOR",
+      "name": "Minior",
+      "form": "Forma Núcleo",
+      "pokedex": "Se alimenta de las partículas que flotan la atmósfera. El color de su núcleo depende de la composición de estas.",
+      "types": [
+        "ROCK",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 100,
+        "defense": 60,
+        "specialAttack": 100,
+        "specialDefense": 60,
+        "speed": 120
+      },
+      "abilities": [
+        "SHIELDSDOWN"
+      ],
+      "physicalData": {
+        "height": 0.3,
+        "weight": 40
+      }
+    },
+    {
+      "id": "EISCUE1",
+      "image": "/images/pokemonFront/EISCUE_1.png",
+      "location": "/images/location/EISCUE_1.jpg",
+      "route": "Islas Espuma",
+      "baseId": "EISCUE",
+      "name": "Eiscue",
+      "form": "Forma Cara Deshielo",
+      "pokedex": "El hielo de la cabeza se ha deshecho y ha revelado un rostro apenado que cautiva a numerosas personas.",
+      "types": [
+        "ICE"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 80,
+        "defense": 70,
+        "specialAttack": 65,
+        "specialDefense": 50,
+        "speed": 130
+      },
+      "abilities": [
+        "ICEFACE"
+      ],
+      "physicalData": {
+        "height": 1.4,
+        "weight": 89
+      }
+    },
+    {
+      "id": "INDEEDEE1",
+      "image": "/images/pokemonFront/INDEEDEE_1.png",
+      "location": "/images/location/INDEEDEE_1.jpg",
+      "route": "Ciudad Azafrán",
+      "baseId": "INDEEDEE",
+      "name": "Indeedee",
+      "form": "Hembra",
+      "pokedex": "Ayuda a humanos y Pokémon para que le estén agradecidos. A las hembras se les da especialmente bien cuidar de niños pequeños.",
+      "types": [
+        "PSYCHIC",
+        "NORMAL"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 55,
+        "defense": 65,
+        "specialAttack": 95,
+        "specialDefense": 105,
+        "speed": 85
+      },
+      "abilities": [
+        "OWNTEMPO",
+        "SYNCHRONIZE"
+      ],
+      "physicalData": {
+        "height": 0.9,
+        "weight": 28
+      }
+    },
+    {
+      "id": "OINKOLOGNE1",
+      "image": "/images/pokemonFront/OINKOLOGNE_1.png",
+      "location": "/images/location/OINKOLOGNE_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "OINKOLOGNE",
+      "name": "Oinkologne",
+      "form": "Hembra",
+      "pokedex": "Desprende una fragancia floral. Puede saltar más de 5m fácilmente gracias a los músculos tan desarrollados de sus patas.",
+      "types": [
+        "NORMAL"
+      ],
+      "baseStats": {
+        "hp": 115,
+        "attack": 90,
+        "defense": 70,
+        "specialAttack": 59,
+        "specialDefense": 90,
+        "speed": 65
+      },
+      "abilities": [
+        "AROMAVEIL",
+        "GLUTTONY"
+      ],
+      "hiddenAbilities": [
+        "THICKFAT"
+      ],
+      "physicalData": {
+        "height": 1.0,
+        "weight": 120.0
+      },
+      "evolutionChain": [
+        {
+          "species": "LECHONK",
+          "evolvesTo": {
+            "species": "OINKOLOGNE_1",
+            "method": "Nivel",
+            "requirement": 18
+          }
+        },
+        {
+          "species": "OINKOLOGNE_1",
+          "evolvesTo": null
+        }
+      ]
+    },
+    {
+      "id": "KYUREM2",
+      "image": "/images/pokemonFront/KYUREM_2.png",
+      "location": "/images/location/KYUREM_2.jpg",
+      "route": "Torre Batalla",
+      "baseId": "KYUREM",
+      "name": "Kyurem",
+      "form": "Forma Negra",
+      "pokedex": "Se dice que lucha con el objetivo de defender el mundo ideal para humanos y Pokémon que se hará realidad en el futuro.",
+      "types": [
+        "DRAGON",
+        "ICE"
+      ],
+      "baseStats": {
+        "hp": 125,
+        "attack": 170,
+        "defense": 100,
+        "specialAttack": 120,
+        "specialDefense": 90,
+        "speed": 95
+      },
+      "abilities": [
+        "TERAVOLT"
+      ],
+      "physicalData": {
+        "height": 3.3,
+        "weight": 325
+      }
+    },
+    {
+      "id": "ZYGARDE1",
+      "image": "/images/pokemonFront/ZYGARDE_1.png",
+      "location": "/images/location/ZYGARDE_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "ZYGARDE",
+      "name": "Zygarde",
+      "form": "Forma 10%",
+      "pokedex": "Zygarde adopta esta forma al reunir el 10% de sus células. Destaca en el combate a corta distancia.",
+      "types": [
+        "DRAGON",
+        "GROUND"
+      ],
+      "baseStats": {
+        "hp": 54,
+        "attack": 100,
+        "defense": 71,
+        "specialAttack": 61,
+        "specialDefense": 85,
+        "speed": 115
+      },
+      "abilities": [
+        "POWERCONSTRUCT"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 33.5
+      }
+    },
+    {
+      "id": "ZYGARDE2",
+      "image": "/images/pokemonFront/ZYGARDE_2.png",
+      "location": "/images/location/ZYGARDE_2.jpg",
+      "route": "Torre Batalla",
+      "baseId": "ZYGARDE",
+      "name": "Zygarde",
+      "form": "Forma Completa",
+      "pokedex": "Esta es la forma definitiva de Zygarde. Por la boca de su pecho emite una potente energía que arrasa con todo.",
+      "types": [
+        "DRAGON",
+        "GROUND"
+      ],
+      "baseStats": {
+        "hp": 216,
+        "attack": 100,
+        "defense": 121,
+        "specialAttack": 91,
+        "specialDefense": 95,
+        "speed": 85
+      },
+      "abilities": [
+        "POWERCONSTRUCT"
+      ],
+      "physicalData": {
+        "height": 4.5,
+        "weight": 610.0
+      }
+    },
+    {
+      "id": "NECROZMA1",
+      "image": "/images/pokemonFront/NECROZMA_1.png",
+      "location": "/images/location/NECROZMA_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "NECROZMA",
+      "name": "Necrozma",
+      "form": "Forma Melena Crepuscular",
+      "pokedex": "Forma que adapta tras alimentarse de la luz de Solgaleo. Se lanza sobre su oponente y lo desgarra sin piedad.",
+      "types": [
+        "PSYCHIC",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 97,
+        "attack": 157,
+        "defense": 127,
+        "specialAttack": 113,
+        "specialDefense": 109,
+        "speed": 77
+      },
+      "abilities": [
+        "PRISMARMOR"
+      ],
+      "physicalData": {
+        "height": 3.8,
+        "weight": 460.0
+      }
+    },
+    {
+      "id": "NECROZMA2",
+      "image": "/images/pokemonFront/NECROZMA_2.png",
+      "location": "/images/location/NECROZMA_2.jpg",
+      "route": "Torre Batalla",
+      "baseId": "NECROZMA",
+      "name": "Necrozma",
+      "form": "Forma Alas del Alba",
+      "pokedex": "En esta forma, Lunala no goza de voluntad propia. Necrozma tiene control absoluto y absorbe su energía poco a poco.",
+      "types": [
+        "PSYCHIC",
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 97,
+        "attack": 113,
+        "defense": 109,
+        "specialAttack": 157,
+        "specialDefense": 127,
+        "speed": 77
+      },
+      "abilities": [
+        "PRISMARMOR"
+      ],
+      "physicalData": {
+        "height": 4.2,
+        "weight": 350.0
+      }
+    },
+    {
+      "id": "URSHIFU1",
+      "image": "/images/pokemonFront/URSHIFU_1.png",
+      "location": "/images/location/URSHIFU_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "URSHIFU",
+      "name": "Urshifu",
+      "form": "Forma Alas del Alba",
+      "pokedex": "Su estilo de combate se inspira en el flujo del agua y consiste en castigar al oponente de forma constante e ininterrumpida.",
+      "types": [
+        "FIGHTING",
+        "WATER"
+      ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 130,
+        "defense": 100,
+        "specialAttack": 63,
+        "specialDefense": 60,
+        "speed": 97
+      },
+      "abilities": [
+        "UNSEENFIST"
+      ],
+      "physicalData": {
+        "height": 1.9,
+        "weight": 105
+      },
+      "evolutionChain": [
+        {
+          "species": "KUBFU",
+          "evolvesTo": [
+            {
+              "species": "URSHIFU",
+              "method": "Objeto",
+              "requirement": "SCROLLOFDARKNESS"
+            },
+            {
+              "species": "URSHIFU_1",
+              "method": "Objeto",
+              "requirement": "SCROLLOFWATERS"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
