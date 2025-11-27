@@ -5965,6 +5965,7 @@
       "id": "STARMIE",
       "image": "/images/pokemonFront/STARMIE.png",
       "location": "/images/location/STARMIE.jpg",
+      "form": "Normal",
       "route": "Ruta 26",
       "name": "Starmie",
       "types": [

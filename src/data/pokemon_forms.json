@@ -6915,6 +6915,35 @@
         "weight": 42.3
       },
       "pokedex": "Se desplaza flotando gracias al poder de la luz lunar, que le permite controlar la gravedad en un radio de 10m."
+    },
+    {
+      "id": "STARMIE1",
+      "image": "/images/pokemonFront/STARMIE_1.png",
+      "location": "/images/location/STARMIE_1.jpg",
+      "baseId": "STARMIE",
+      "name": "Mega Starmie",
+      "form": "Mega Starmie",
+      "MegaStore": "STARMINITE",
+      "types": [
+        "WATER",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 100,
+        "defense": 105,
+        "specialAttack": 130,
+        "specialDefense": 105,
+        "speed": 120
+      },
+      "abilities": [
+        "HUGEPOWER"
+      ],
+      "physicalData": {
+        "height": 2.3,
+        "weight": 80.0
+      },
+      "pokedex": "Sus movimientos se volvieron más humanos. Se desconoce si es para comunicarse con las personas o si busca reemplazar a la humanidad."
     }
   ]
 }
