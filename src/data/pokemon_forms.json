@@ -3838,13 +3838,13 @@
         "speed": 134
       },
       "abilities": [
-        "MAGICGUARD"
+        "LEVITATE"
       ],
       "physicalData": {
         "height": 1.5,
         "weight": 39
       },
-      "pokedex": "Fija la mirada en la llama que arde en la punta de su bastón para concentrarse y prever sucesos que tienen lugar en el futuro."
+      "pokedex": "Hechiza a su oponente controlando unas ramas llameantes y lo calcina con una bola de fuego descomunal."
     },
     {
       "id": "GRENINJA3",
