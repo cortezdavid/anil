@@ -5461,6 +5461,10 @@
         {
           "level": 50,
           "move": "METEORBEAM"
+        },
+        {
+          "level": 52,
+          "move": "AIRSLASH"
         }
       ],
       "tutorMoves": [
@@ -20234,6 +20238,14 @@
           "move": "CONFUSERAY"
         },
         {
+          "level": 12,
+          "move": "AQUAJET"
+        },
+        {
+          "level": 35,
+          "move": "LIQUIDATION"
+        },
+        {
           "level": 40,
           "move": "PSYSHOCK"
         },
@@ -20295,6 +20307,7 @@
         "ROUND",
         "SCALD",
         "SECRETPOWER",
+        "SELFDESTRUCT",
         "SIGNALBEAM",
         "SKILLSWAP",
         "SLEEPTALK",
@@ -20315,7 +20328,8 @@
         "WATERPULSE",
         "WHIRLPOOL",
         "WONDERROOM",
-        "WORKUP"
+        "WORKUP",
+        "ZENHEADBUTT"
       ]
     }
   },
@@ -116048,6 +116062,10 @@
         {
           "level": 44,
           "move": "FLYINGPRESS"
+        },
+         {
+          "level": 46,
+          "move": "BRAVEBIRD"
         },
         {
           "level": 48,

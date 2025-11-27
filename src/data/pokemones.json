@@ -33095,8 +33095,7 @@
         "speed": 41
       },
       "abilities": [
-        "PICKUP",
-        "FRISK"
+        "FLASHFIRE"
       ],
       "physicalData": {
         "height": 0.3,
@@ -40396,8 +40395,8 @@
         "hp": 72,
         "attack": 80,
         "defense": 49,
-        "specialAttack": 49,
-        "specialDefense": 40,
+        "specialAttack": 40,
+        "specialDefense": 49,
         "speed": 40
       },
       "abilities": [
