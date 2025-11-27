@@ -36105,6 +36105,7 @@
       "id": "DRAMPA",
       "image": "/images/pokemonFront/DRAMPA.png",
       "location": "/images/location/DRAMPA.jpg",
+      "form": "Normal",
       "route": "Ruta 29",
       "name": "Drampa",
       "types": [

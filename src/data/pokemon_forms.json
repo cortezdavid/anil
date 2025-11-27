@@ -7320,6 +7320,35 @@
         "weight": 100.3
       },
       "pokedex": "La sustancia que escupe trastorna el poder regenerativo de las células, y es altamente tóxica para todos menos para él mismo."
+    },
+    {
+      "id": "DRAMPA1",
+      "image": "/images/pokemonFront/DRAMPA_1.png",
+      "location": "/images/location/DRAMPA_1.jpg",
+      "baseId": "DRAMPA",
+      "name": "Mega Drampa",
+      "form": "Mega Drampa",
+      "MegaStore": "DRAMPANITE",
+      "types": [
+        "NORMAL",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 78,
+        "attack": 85,
+        "defense": 110,
+        "specialAttack": 160,
+        "specialDefense": 116,
+        "speed": 36
+      },
+      "abilities": [
+        "BERSERK"
+      ],
+      "physicalData": {
+        "height": 3,
+        "weight": 204.5
+      },
+      "pokedex": "Las células de su cuerpo se regeneraron, por lo que recuperó la juventud. Es capaz de manipular la atmósfera para invocar tormentas."
     }
   ]
 }
