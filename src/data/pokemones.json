@@ -23445,6 +23445,7 @@
       "image": "/images/pokemonFront/EMBOAR.png",
       "location": "/images/location/EMBOAR.jpg",
       "name": "Emboar",
+      "form": "Normal",
       "types": [
         "FIRE",
         "DARK"
