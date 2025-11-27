@@ -5111,11 +5111,11 @@
       ],
       "baseStats": {
         "hp": 88,
-        "attack": 112,
-        "defense": 90,
-        "specialAttack": 85,
-        "specialDefense": 95,
-        "speed": 60
+        "attack": 117,
+        "defense": 75,
+        "specialAttack": 80,
+        "specialDefense": 75,
+        "speed": 95
       },
       "abilities": [
         "OVERGROW",
