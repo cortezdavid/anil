@@ -25617,6 +25617,7 @@
       "image": "/images/pokemonFront/SCOLIPEDE.png",
       "location": "/images/location/SCOLIPEDE.jpg",
       "name": "Scolipede",
+      "form": "Normal",
       "types": [
         "BUG",
         "POISON"

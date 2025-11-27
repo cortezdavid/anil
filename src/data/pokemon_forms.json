@@ -7118,6 +7118,35 @@
         "weight": 230.3
       },
       "pokedex": "Al juntar las garras y la cabeza, adopta una forma aerodinámica que le permite girar a gran velocidad y destruirlo todo a su paso."
+    },
+    {
+      "id": "SCOLIPEDE1",
+      "image": "/images/pokemonFront/SCOLIPEDE_1.png",
+      "location": "/images/location/SCOLIPEDE_1.jpg",
+      "baseId": "SCOLIPEDE",
+      "name": "Mega Scolipede",
+      "form": "Mega Scolipede",
+      "MegaStore": "SCOLIPITE",
+      "types": [
+        "BUG",
+        "POISON"
+      ],
+      "baseStats": {
+        "hp": 69,
+        "attack": 140,
+        "defense": 149,
+        "specialAttack": 75,
+        "specialDefense": 99,
+        "speed": 62
+      },
+      "abilities": [
+        "BATTLEARMOR"
+      ],
+      "physicalData": {
+        "height": 3.2,
+        "weight": 230.5
+      },
+      "pokedex": "Su potente veneno, que desprende una luz tenue, le ha afectado a la mente y ha acrecentado aún más su agresividad."
     }
   ]
 }
