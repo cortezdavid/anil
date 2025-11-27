@@ -31268,6 +31268,7 @@
       "id": "FLOETTE",
       "image": "/images/pokemonFront/FLOETTE.png",
       "location": "/images/location/FLOETTE.jpg",
+      "form": "Normal",
       "route": "Ruta 5",
       "name": "Floette",
       "types": [
