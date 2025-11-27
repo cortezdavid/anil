@@ -7204,6 +7204,35 @@
         "weight": 180.0
       },
       "pokedex": "Genera diez veces más electricidad que antes de megaevolucionar. Libera descargas a través de los Eelektrik falsos que crea con su secreción."
+    },
+    {
+      "id": "CHANDELURE1",
+      "image": "/images/pokemonFront/CHANDELURE_1.png",
+      "location": "/images/location/CHANDELURE_1.jpg",
+      "baseId": "CHANDELURE",
+      "name": "Mega Chandelure",
+      "form": "Mega Chandelure",
+      "MegaStore": "CHANDELURITE",
+      "types": [
+        "GHOST",
+        "FIRE"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 75,
+        "defense": 110,
+        "specialAttack": 175,
+        "specialDefense": 110,
+        "speed": 90
+      },
+      "abilities": [
+        "ILLUMINATE"
+      ],
+      "physicalData": {
+        "height": 2.5,
+        "weight": 69.6
+      },
+      "pokedex": "Uno de sus ojos sirve como ventana al más allá. Atrae hacia sí mismo los sentimientos de rencor de otros seres y los transforma en poder."
     }
   ]
 }

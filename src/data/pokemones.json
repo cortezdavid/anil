@@ -28605,6 +28605,7 @@
       "id": "CHANDELURE",
       "image": "/images/pokemonFront/CHANDELURE.png",
       "location": "/images/location/CHANDELURE.jpg",
+      "form": "Normal",
       "name": "Chandelure",
       "types": [
         "GHOST",
