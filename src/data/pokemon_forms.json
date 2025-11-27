@@ -3512,13 +3512,13 @@
         "speed": 118
       },
       "abilities": [
-        "MOLDBREAKER"
+        "RECKLESS"
       ],
       "physicalData": {
         "height": 1,
         "weight": 25
       },
-      "pokedex": "A pesar de ser un Pokémon de pequeña estatura, su pericia en el combate le permite plantar cara a Pokémon como Machamp o Hariyama."
+      "pokedex": "Presume su fuerza al exhibir todos los músculos de su cuerpo, los cuales se ultradesarrollaron por la megaevolución."
     },
     {
       "id": "EEVEE1",
