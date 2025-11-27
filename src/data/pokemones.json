@@ -31170,6 +31170,7 @@
       "id": "PYROAR",
       "image": "/images/pokemonFront/PYROAR.png",
       "location": "/images/location/PYROAR.jpg",
+      "form": "Normal",
       "route": "Zona Safari",
       "name": "Pyroar",
       "types": [

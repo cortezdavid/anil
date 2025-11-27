@@ -7233,6 +7233,35 @@
         "weight": 69.6
       },
       "pokedex": "Uno de sus ojos sirve como ventana al más allá. Atrae hacia sí mismo los sentimientos de rencor de otros seres y los transforma en poder."
+    },
+    {
+      "id": "PYROAR1",
+      "image": "/images/pokemonFront/PYROAR_1.png",
+      "location": "/images/location/PYROAR_1.jpg",
+      "baseId": "PYROAR",
+      "name": "Mega Pyroar",
+      "form": "Mega Pyroar",
+      "MegaStore": "PYROARITE",
+      "types": [
+        "FIRE",
+        "NORMAL"
+      ],
+      "baseStats": {
+        "hp": 86,
+        "attack": 88,
+        "defense": 92,
+        "specialAttack": 129,
+        "specialDefense": 86,
+        "speed": 126
+      },
+      "abilities": [
+        "ADAPTABILITY"
+      ],
+      "physicalData": {
+        "height": 1.5,
+        "weight": 93.3
+      },
+      "pokedex": "Las llamas que escupe superan los 10,000ºC. Protege a la manada agitando su abrasadora melena de fuego."
     }
   ]
 }
