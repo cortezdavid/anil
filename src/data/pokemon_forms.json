@@ -6944,6 +6944,35 @@
         "weight": 80.0
       },
       "pokedex": "Sus movimientos se volvieron más humanos. Se desconoce si es para comunicarse con las personas o si busca reemplazar a la humanidad."
+    },
+    {
+      "id": "MEGANIUM1",
+      "image": "/images/pokemonFront/MEGANIUM_1.png",
+      "location": "/images/location/MEGANIUM_1.jpg",
+      "baseId": "MEGANIUM",
+      "name": "Mega Meganium",
+      "form": "Mega Meganium",
+      "MegaStore": "MEGANIUMITE",
+      "types": [
+        "GRASS",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 92,
+        "defense": 115,
+        "specialAttack": 143,
+        "specialDefense": 115,
+        "speed": 80
+      },
+      "abilities": [
+        "FILTER"
+      ],
+      "physicalData": {
+        "height": 2.4,
+        "weight": 201.0
+      },
+      "pokedex": "El poder del Rayo Solar que proyecta por sus cuatro flores es descomunal, por lo que también recibe el nombre de Megacañón Solar."
     }
   ]
 }

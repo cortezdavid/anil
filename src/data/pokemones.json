@@ -7558,6 +7558,7 @@
       "image": "/images/pokemonFront/MEGANIUM.png",
       "location": "/images/location/MEGANIUM.jpg",
       "name": "Meganium",
+      "form": "Normal",
       "types": [
         "GRASS",
         "FAIRY"
