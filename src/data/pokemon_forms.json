@@ -653,11 +653,11 @@
       ],
       "baseStats": {
         "hp": 73,
-        "attack": 76,
+        "attack": 67,
         "defense": 75,
         "specialAttack": 100,
         "specialDefense": 100,
-        "speed": 100
+        "speed": 109
       },
       "abilities": [
         "SNOWCLOAK"

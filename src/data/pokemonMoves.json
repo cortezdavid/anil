@@ -116063,7 +116063,7 @@
           "level": 44,
           "move": "FLYINGPRESS"
         },
-         {
+        {
           "level": 46,
           "move": "BRAVEBIRD"
         },
@@ -163838,32 +163838,72 @@
     "moves": {
       "levelUpMoves": [
         {
+          "level": -1,
+          "move": "NASTYPLOT"
+        },
+        {
+          "level": -1,
+          "move": "SPITE"
+        },
+        {
+          "level": -1,
+          "move": "CONFUSERAY"
+        },
+        {
+          "level": -1,
+          "move": "AURORABEAM"
+        },
+        {
+          "level": -1,
+          "move": "EXTRASENSORY"
+        },
+        {
+          "level": -1,
+          "move": "ICEBEAM"
+        },
+        {
+          "level": -1,
+          "move": "MIST"
+        },
+        {
+          "level": -1,
+          "move": "AURORAVEIL"
+        },
+        {
+          "level": -1,
+          "move": "POWDERSNOW"
+        },
+        {
+          "level": -1,
+          "move": "DISABLE"
+        },
+        {
+          "level": -1,
+          "move": "ICESHARD"
+        },
+        {
+          "level": -1,
+          "move": "FREEZEDRY"
+        },
+        {
           "level": 0,
           "move": "DAZZLINGGLEAM"
         },
         {
           "level": 1,
+          "move": "BLIZZARD"
+        },
+        {
+          "level": 1,
+          "move": "ICYWIND"
+        },
+        {
+          "level": 1,
+          "move": "TAILWHIP"
+        },
+        {
+          "level": 1,
           "move": "IMPRISON"
-        },
-        {
-          "level": 1,
-          "move": "NASTYPLOT"
-        },
-        {
-          "level": 1,
-          "move": "ICEBEAM"
-        },
-        {
-          "level": 1,
-          "move": "ICESHARD"
-        },
-        {
-          "level": 1,
-          "move": "CONFUSERAY"
-        },
-        {
-          "level": 1,
-          "move": "SAFEGUARD"
         }
       ],
       "tutorMoves": [
