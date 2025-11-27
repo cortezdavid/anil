@@ -40129,6 +40129,7 @@
       "id": "FALINKS",
       "image": "/images/pokemonFront/FALINKS.png",
       "location": "/images/location/FALINKS.jpg",
+      "form": "Normal",
       "route": "Camino de Bicis",
       "name": "Falinks",
       "types": [

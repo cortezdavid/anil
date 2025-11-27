@@ -7349,6 +7349,35 @@
         "weight": 204.5
       },
       "pokedex": "Las células de su cuerpo se regeneraron, por lo que recuperó la juventud. Es capaz de manipular la atmósfera para invocar tormentas."
+    },
+    {
+      "id": "FALINKS1",
+      "image": "/images/pokemonFront/FALINKS_1.png",
+      "location": "/images/location/FALINKS_1.jpg",
+      "baseId": "FALINKS",
+      "name": "Mega Falinks",
+      "form": "Mega Falinks",
+      "MegaStore": "FALINKSITE",
+      "types": [
+        "FIGHTING",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 135,
+        "defense": 135,
+        "specialAttack": 70,
+        "specialDefense": 65,
+        "speed": 100
+      },
+      "abilities": [
+        "ADAPTABILITY"
+      ],
+      "physicalData": {
+        "height": 1.6,
+        "weight": 99
+      },
+      "pokedex": "Tan solo una unidad con un vínculo muy fuerte es capaz de ejecutar esta formación suprema."
     }
   ]
 }
