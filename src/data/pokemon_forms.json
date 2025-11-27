@@ -7262,6 +7262,35 @@
         "weight": 93.3
       },
       "pokedex": "Las llamas que escupe superan los 10,000ºC. Protege a la manada agitando su abrasadora melena de fuego."
+    },
+    {
+      "id": "BARBARACLE1",
+      "image": "/images/pokemonFront/BARBARACLE_1.png",
+      "location": "/images/location/BARBARACLE_1.jpg",
+      "baseId": "BARBARACLE",
+      "name": "Mega Barbaracle",
+      "form": "Mega Barbaracle",
+      "MegaStore": "BARBARACITE",
+      "types": [
+        "ROCK",
+        "FIGHTING"
+      ],
+      "baseStats": {
+        "hp": 72,
+        "attack": 140,
+        "defense": 130,
+        "specialAttack": 64,
+        "specialDefense": 106,
+        "speed": 88
+      },
+      "abilities": [
+        "TOUGHCLAWS"
+      ],
+      "physicalData": {
+        "height": 2.2,
+        "weight": 100
+      },
+      "pokedex": "Puede distraer a sus adversarios con sus numerosos brazos, pero es una ardua tarea para el Barbaracle de la cabeza."
     }
   ]
 }

@@ -32137,6 +32137,7 @@
       "id": "BARBARACLE",
       "image": "/images/pokemonFront/BARBARACLE.png",
       "location": "/images/location/BARBARACLE.jpg",
+      "form": "Normal",
       "name": "Barbaracle",
       "types": [
         "ROCK",
