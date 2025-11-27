@@ -7176,6 +7176,34 @@
         "weight": 31
       },
       "pokedex": "La megaevolución le dio a su piel un aspecto blancuzco y un tacto duro y elástico. Además, tiene el mismo espíritu de lucha de siempre."
+    },
+    {
+      "id": "EELEKTROSS1",
+      "image": "/images/pokemonFront/EELEKTROSS_1.png",
+      "location": "/images/location/EELEKTROSS_1.jpg",
+      "baseId": "EELEKTROSS",
+      "name": "Mega Eelektross",
+      "form": "Mega Eelektross",
+      "MegaStore": "EELEKTROSSITE",
+      "types": [
+        "ELECTRIC"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 145,
+        "defense": 80,
+        "specialAttack": 135,
+        "specialDefense": 90,
+        "speed": 80
+      },
+      "abilities": [
+        "SPEEDBOOST"
+      ],
+      "physicalData": {
+        "height": 3,
+        "weight": 180.0
+      },
+      "pokedex": "Genera diez veces más electricidad que antes de megaevolucionar. Libera descargas a través de los Eelektrik falsos que crea con su secreción."
     }
   ]
 }

@@ -28360,6 +28360,7 @@
       "id": "EELEKTROSS",
       "image": "/images/pokemonFront/EELEKTROSS.png",
       "location": "/images/location/EELEKTROSS.jpg",
+      "form": "Normal",
       "route": "Central Energía",
       "name": "Eelektross",
       "types": [
