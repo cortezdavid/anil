@@ -26328,6 +26328,7 @@
       "image": "/images/pokemonFront/SCRAFTY.png",
       "location": "/images/location/SCRAFTY.jpg",
       "name": "Scrafty",
+      "form": "Normal",
       "types": [
         "DARK",
         "FIGHTING"

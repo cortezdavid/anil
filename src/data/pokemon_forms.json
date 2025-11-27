@@ -7147,6 +7147,35 @@
         "weight": 230.5
       },
       "pokedex": "Su potente veneno, que desprende una luz tenue, le ha afectado a la mente y ha acrecentado aún más su agresividad."
+    },
+    {
+      "id": "SCRAFTY1",
+      "image": "/images/pokemonFront/SCRAFTY_1.png",
+      "location": "/images/location/SCRAFTY_1.jpg",
+      "baseId": "SCRAFTY",
+      "name": "Mega Scrafty",
+      "form": "Mega Scrafty",
+      "MegaStore": "SCRAFTINITE",
+      "types": [
+        "DARK",
+        "FIGHTING"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 130,
+        "defense": 135,
+        "specialAttack": 55,
+        "specialDefense": 135,
+        "speed": 68
+      },
+      "abilities": [
+        "MOXIE"
+      ],
+      "physicalData": {
+        "height": 1.1,
+        "weight": 31
+      },
+      "pokedex": "La megaevolución le dio a su piel un aspecto blancuzco y un tacto duro y elástico. Además, tiene el mismo espíritu de lucha de siempre."
     }
   ]
 }
