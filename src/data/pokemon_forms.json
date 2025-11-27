@@ -6886,6 +6886,35 @@
           ]
         }
       ]
+    },
+    {
+      "id": "CLEFABLE1",
+      "image": "/images/pokemonFront/CLEFABLE_1.png",
+      "location": "/images/location/CLEFABLE_1.jpg",
+      "baseId": "CLEFABLE",
+      "name": "Mega Clefable",
+      "form": "Mega Clefable",
+      "MegaStore": "CLEFABLITE",
+      "types": [
+        "FAIRY",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 80,
+        "defense": 93,
+        "specialAttack": 135,
+        "specialDefense": 110,
+        "speed": 70
+      },
+      "abilities": [
+        "AERILATE"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 42.3
+      },
+      "pokedex": "Se desplaza flotando gracias al poder de la luz lunar, que le permite controlar la gravedad en un radio de 10m."
     }
   ]
 }

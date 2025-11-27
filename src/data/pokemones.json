@@ -1784,6 +1784,7 @@
       "image": "/images/pokemonFront/CLEFABLE.png",
       "location": "/images/location/CLEFABLE.jpg",
       "name": "Clefable",
+      "form": "Normal",
       "types": [
         "FAIRY"
       ],
