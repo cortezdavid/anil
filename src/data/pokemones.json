@@ -22681,6 +22681,7 @@
       "image": "/images/pokemonFront/FROSLASS.png",
       "location": "/images/location/FROSLASS.jpg",
       "route": "Cueva Glaciada",
+      "form": "Normal",
       "name": "Froslass",
       "types": [
         "ICE",

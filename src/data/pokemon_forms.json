@@ -7031,6 +7031,35 @@
         "weight": 40.4
       },
       "pokedex": "Vuela a velocidad supersónica. Las ondas de choque que provoca alzan en volandas al rival, al que remata con las garras."
+    },
+    {
+      "id": "FROSLASS1",
+      "image": "/images/pokemonFront/FROSLASS_1.png",
+      "location": "/images/location/FROSLASS_1.jpg",
+      "baseId": "FROSLASS",
+      "name": "Mega Froslass",
+      "form": "Mega Froslass",
+      "MegaStore": "FROSLASSITE",
+      "types": [
+        "ICE",
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 80,
+        "defense": 70,
+        "specialAttack": 140,
+        "specialDefense": 100,
+        "speed": 120
+      },
+      "abilities": [
+        "SNOWWARNING"
+      ],
+      "physicalData": {
+        "height": 2.6,
+        "weight": 29.6
+      },
+      "pokedex": "Con su extraño aliento gélido, imbuido de energía fantasmal, puede congelar incluso elementos inmateriales como las llamas o el viento."
     }
   ]
 }
