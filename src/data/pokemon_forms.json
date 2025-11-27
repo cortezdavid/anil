@@ -7291,6 +7291,35 @@
         "weight": 100
       },
       "pokedex": "Puede distraer a sus adversarios con sus numerosos brazos, pero es una ardua tarea para el Barbaracle de la cabeza."
+    },
+    {
+      "id": "DRAGALGE1",
+      "image": "/images/pokemonFront/DRAGALGE_1.png",
+      "location": "/images/location/DRAGALGE_1.jpg",
+      "baseId": "DRAGALGE",
+      "name": "Mega Dragalge",
+      "form": "Mega Dragalge",
+      "MegaStore": "DRAGALGITE",
+      "types": [
+        "POISON",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 85,
+        "defense": 105,
+        "specialAttack": 132,
+        "specialDefense": 163,
+        "speed": 44
+      },
+      "abilities": [
+        "ADAPTABILITY"
+      ],
+      "physicalData": {
+        "height": 2.1,
+        "weight": 100.3
+      },
+      "pokedex": "La sustancia que escupe trastorna el poder regenerativo de las células, y es altamente tóxica para todos menos para él mismo."
     }
   ]
 }

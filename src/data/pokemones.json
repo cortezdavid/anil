@@ -32229,6 +32229,7 @@
       "id": "DRAGALGE",
       "image": "/images/pokemonFront/DRAGALGE.png",
       "location": "/images/location/DRAGALGE.jpg",
+      "form": "Normal",
       "name": "Dragalge",
       "types": [
         "POISON",
