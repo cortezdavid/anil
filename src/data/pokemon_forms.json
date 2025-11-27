@@ -5577,12 +5577,12 @@
         "GHOST"
       ],
       "baseStats": {
-        "hp": 78,
-        "attack": 84,
+        "hp": 73,
+        "attack": 74,
         "defense": 78,
-        "specialAttack": 109,
+        "specialAttack": 119,
         "specialDefense": 85,
-        "speed": 100
+        "speed": 105
       },
       "abilities": [
         "BERSERK"
