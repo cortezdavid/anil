@@ -7872,6 +7872,7 @@
       "image": "/images/pokemonFront/FERALIGATR.png",
       "location": "/images/location/FERALIGATR.jpg",
       "name": "Feraligatr",
+      "form": "Normal",
       "types": [
         "WATER",
         "DRAGON"

@@ -6973,6 +6973,35 @@
         "weight": 201.0
       },
       "pokedex": "El poder del Rayo Solar que proyecta por sus cuatro flores es descomunal, por lo que también recibe el nombre de Megacañón Solar."
+    },
+    {
+      "id": "FERALIGATR1",
+      "image": "/images/pokemonFront/FERALIGATR_1.png",
+      "location": "/images/location/FERALIGATR_1.jpg",
+      "baseId": "FERALIGATR",
+      "name": "Mega Feraligatr",
+      "form": "Mega Feraligatr",
+      "MegaStore": "FERALIGITE",
+      "types": [
+        "WATER",
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 160,
+        "defense": 125,
+        "specialAttack": 89,
+        "specialDefense": 93,
+        "speed": 78
+      },
+      "abilities": [
+        "SHEERFORCE"
+      ],
+      "physicalData": {
+        "height": 2.3,
+        "weight": 108.8
+      },
+      "pokedex": "Al unir ambos brazos y la aleta que le cuelga al lomo cual capucha, crea una colosal mandíbula que multiplica por diez su potencia de mordida."
     }
   ]
 }
