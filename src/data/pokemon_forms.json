@@ -7002,6 +7002,35 @@
         "weight": 108.8
       },
       "pokedex": "Al unir ambos brazos y la aleta que le cuelga al lomo cual capucha, crea una colosal mandíbula que multiplica por diez su potencia de mordida."
+    },
+    {
+      "id": "SKARMORY1",
+      "image": "/images/pokemonFront/SKARMORY_1.png",
+      "location": "/images/location/SKARMORY_1.jpg",
+      "baseId": "SKARMORY",
+      "name": "Mega Skarmory",
+      "form": "Mega Skarmory",
+      "MegaStore": "SKARMORITE",
+      "types": [
+        "STEEL",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 140,
+        "defense": 110,
+        "specialAttack": 40,
+        "specialDefense": 100,
+        "speed": 110
+      },
+      "abilities": [
+        "TOUGHCLAWS"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 40.4
+      },
+      "pokedex": "Vuela a velocidad supersónica. Las ondas de choque que provoca alzan en volandas al rival, al que remata con las garras."
     }
   ]
 }

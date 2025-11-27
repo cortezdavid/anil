@@ -11088,6 +11088,7 @@
       "image": "/images/pokemonFront/SKARMORY.png",
       "location": "/images/location/SKARMORY.jpg",
       "route": "Zona Safari",
+      "form": "Normal",
       "name": "Skarmory",
       "types": [
         "STEEL",
