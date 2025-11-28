@@ -17122,6 +17122,7 @@
       "id": "CHIMECHO",
       "image": "/images/pokemonFront/CHIMECHO.png",
       "location": "/images/location/CHIMECHO.jpg",
+      "form": "Normal",
       "route": "Ruta 14",
       "name": "Chimecho",
       "types": [
@@ -45485,6 +45486,7 @@
       "id": "BAXCALIBUR",
       "image": "/images/pokemonFront/BAXCALIBUR.png",
       "location": "/images/location/BAXCALIBUR.jpg",
+      "form": "Normal",
       "route": "Cueva Glaciada",
       "name": "Baxcalibur",
       "types": [

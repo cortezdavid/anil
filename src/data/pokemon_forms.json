@@ -7406,6 +7406,64 @@
         "weight": 100.8
       },
       "pokedex": "Su Flor Eterna ha absorbido toda la energía de la megaevolución y ahora es capaz de atacar a los enemigos por sí sola."
+    },
+    {
+      "id": "CHIMECHO1",
+      "image": "/images/pokemonFront/CHIMECHO_1.png",
+      "location": "/images/location/CHIMECHO_1.jpg",
+      "baseId": "CHIMECHO",
+      "name": "Mega Chimecho",
+      "form": "Mega Chimecho",
+      "MegaStore": "CHIMECHITE",
+      "types": [
+        "PSYCHIC",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 50,
+        "defense": 100,
+        "specialAttack": 135,
+        "specialDefense": 120,
+        "speed": 75
+      },
+      "abilities": [
+        "TINTINEO"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 8
+      },
+      "pokedex": "Se ponen a volar sin parar cuando llega la estación cálida. Se comunica con otros a través de siete tipos de grito distintos muy característicos."
+    },
+    {
+      "id": "BAXCALIBUR1",
+      "image": "/images/pokemonFront/BAXCALIBUR_1.png",
+      "location": "/images/location/BAXCALIBUR_1.jpg",
+      "baseId": "BAXCALIBUR",
+      "name": "Mega Baxcalibur",
+      "form": "Mega Baxcalibur",
+      "MegaStore": "BAXCALIBRITE",
+      "types": [
+        "DRAGON",
+        "ICE"
+      ],
+      "baseStats": {
+        "hp": 115,
+        "attack": 175,
+        "defense": 112,
+        "specialAttack": 105,
+        "specialDefense": 106,
+        "speed": 87
+      },
+      "abilities": [
+        "THERMALEXCHANGE"
+      ],
+      "physicalData": {
+        "height": 2.1,
+        "weight": 315
+      },
+      "pokedex": "Exhala un aliento extremadamente frío por la boca que es capaz de congelar al instante incluso magma al rojo vivo."
     }
   ]
 }
