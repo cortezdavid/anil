@@ -14,8 +14,17 @@ import { useAnonymousAuth } from '../../hooks/useAnonymousAuth';
 import LoginForm from './LoginForm';
 import CommentItem from './CommentItem';
 import toast, { Toaster } from 'react-hot-toast';
+import { useSEO } from '../../hooks/useSEO';
+
 
 const Chat = () => {
+
+  useSEO({
+    title: 'Chat - Pokémon Añil',
+    description: 'Únete a la comunidad de Pokémon Añil. Comparte dudas, reporta errores, sugiere mejoras y busca jugadores para intercambiar Pokémon. Espacio de ayuda y discusión para entrenadores.',
+    keywords: 'pokémon añil comunidad, chat pokémon añil, foro pokémon añil, ayuda pokémon añil, intercambio pokémon añil, dudas pokémon añil, comunidad entrenadores, pokémon añil jugadores'
+  });
+
   const { user, username, loading: authLoading, loginAnonymously, isAuthenticated } = useAnonymousAuth();
   const [comments, setComments] = useState([]);
   const [newComment, setNewComment] = useState('');
@@ -181,7 +190,7 @@ const Chat = () => {
           </div>
         )}
 
-        <div className="mb-6">
+        {/* <div className="mb-6">
           <div className="relative">
             <input
               type="search"
@@ -206,7 +215,7 @@ const Chat = () => {
               {filteredComments.length} resultado{filteredComments.length !== 1 ? 's' : ''} encontrado{filteredComments.length !== 1 ? 's' : ''}
             </p>
           )}
-        </div>
+        </div> */}
 
         {loadingComments ? (
           <div className="text-center py-12 bg-slate-800 rounded-xl shadow-lg border border-slate-700">
