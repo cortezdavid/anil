@@ -23,7 +23,7 @@ const PokemonRoute = ({ pokemon }) => {
                 </svg>
               </div>
               <div>
-                <p className="text-xs font-semibold text-blue-400 uppercase tracking-wider">Localización</p>
+                <p className="text-xs font-semibold text-blue-400 uppercase tracking-wider">Ubicación</p>
                 <p className="text-base font-bold text-slate-100">
                   {pokemon.route || "Desconocida"}
                 </p>
