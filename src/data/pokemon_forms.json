@@ -7380,6 +7380,36 @@
       "pokedex": "Tan solo una unidad con un vínculo muy fuerte es capaz de ejecutar esta formación suprema."
     },
     {
+      "id": "FLOETTE5",
+      "image": "/images/pokemonFront/FLOETTE_5.png",
+      "location": "/images/location/FLOETTE_5.jpg",
+      "baseId": "FLOETTE",
+      "name": "Flor Eterna",
+      "form": "Forma Flor Eterna",
+      "types": [
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 74,
+        "attack": 65,
+        "defense": 67,
+        "specialAttack": 125,
+        "specialDefense": 128,
+        "speed": 92
+      },
+      "abilities": [
+        "FLORACION"
+      ],
+      "hiddenAbilities": [
+        "GRASSYSURGE"
+      ],
+      "physicalData": {
+        "height": 0.2,
+        "weight": 0.9
+      },
+      "pokedex": "Hoy en día, la flor que lleva ya no se ve en la naturaleza. Se cree que alberga un temible poder."
+    },
+    {
       "id": "FLOETTE6",
       "image": "/images/pokemonFront/FLOETTE_6.png",
       "location": "/images/location/FLOETTE_6.jpg",
