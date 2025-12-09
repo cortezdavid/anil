@@ -9,6 +9,7 @@ import PhotoP from './components/photoP/PhotoP'
 import Items from './components/items/Items'
 import BattleTower from './components/battleTower/BattleTower'
 import Chat from './components/chat/Chat'
+import Collection from './components/collection/Collection'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
           <Route path='/fotos' element={<PhotoP />} />
           <Route path='/torrebatalla' element={<BattleTower />} />
           <Route path='/chat' element={<Chat />} />
+          <Route path='/coleccion' element={<Collection />} />
         </Routes>
       </BrowserRouter>
     </>

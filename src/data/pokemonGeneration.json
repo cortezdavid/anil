@@ -1,0 +1,6166 @@
+{
+  "pokemones": [
+    {
+      "id": "BULBASAUR",
+      "name": "Bulbasaur",
+      "image": "/images/pokemonFrontShiny/BULBASAUR.png",
+      "generation": 1
+    },
+    {
+      "id": "IVYSAUR",
+      "name": "Ivysaur",
+      "image": "/images/pokemonFrontShiny/IVYSAUR.png",
+      "generation": 1
+    },
+    {
+      "id": "VENUSAUR",
+      "name": "Venusaur",
+      "image": "/images/pokemonFrontShiny/VENUSAUR.png",
+      "generation": 1
+    },
+    {
+      "id": "CHARMANDER",
+      "name": "Charmander",
+      "image": "/images/pokemonFrontShiny/CHARMANDER.png",
+      "generation": 1
+    },
+    {
+      "id": "CHARMELEON",
+      "name": "Charmeleon",
+      "image": "/images/pokemonFrontShiny/CHARMELEON.png",
+      "generation": 1
+    },
+    {
+      "id": "CHARIZARD",
+      "name": "Charizard",
+      "image": "/images/pokemonFrontShiny/CHARIZARD.png",
+      "generation": 1
+    },
+    {
+      "id": "SQUIRTLE",
+      "name": "Squirtle",
+      "image": "/images/pokemonFrontShiny/SQUIRTLE.png",
+      "generation": 1
+    },
+    {
+      "id": "WARTORTLE",
+      "name": "Wartortle",
+      "image": "/images/pokemonFrontShiny/WARTORTLE.png",
+      "generation": 1
+    },
+    {
+      "id": "BLASTOISE",
+      "name": "Blastoise",
+      "image": "/images/pokemonFrontShiny/BLASTOISE.png",
+      "generation": 1
+    },
+    {
+      "id": "CATERPIE",
+      "name": "Caterpie",
+      "image": "/images/pokemonFrontShiny/CATERPIE.png",
+      "generation": 1
+    },
+    {
+      "id": "METAPOD",
+      "name": "Metapod",
+      "image": "/images/pokemonFrontShiny/METAPOD.png",
+      "generation": 1
+    },
+    {
+      "id": "BUTTERFREE",
+      "name": "Butterfree",
+      "image": "/images/pokemonFrontShiny/BUTTERFREE.png",
+      "generation": 1
+    },
+    {
+      "id": "WEEDLE",
+      "name": "Weedle",
+      "image": "/images/pokemonFrontShiny/WEEDLE.png",
+      "generation": 1
+    },
+    {
+      "id": "KAKUNA",
+      "name": "Kakuna",
+      "image": "/images/pokemonFrontShiny/KAKUNA.png",
+      "generation": 1
+    },
+    {
+      "id": "BEEDRILL",
+      "name": "Beedrill",
+      "image": "/images/pokemonFrontShiny/BEEDRILL.png",
+      "generation": 1
+    },
+    {
+      "id": "PIDGEY",
+      "name": "Pidgey",
+      "image": "/images/pokemonFrontShiny/PIDGEY.png",
+      "generation": 1
+    },
+    {
+      "id": "PIDGEOTTO",
+      "name": "Pidgeotto",
+      "image": "/images/pokemonFrontShiny/PIDGEOTTO.png",
+      "generation": 1
+    },
+    {
+      "id": "PIDGEOT",
+      "name": "Pidgeot",
+      "image": "/images/pokemonFrontShiny/PIDGEOT.png",
+      "generation": 1
+    },
+    {
+      "id": "RATTATA",
+      "name": "Rattata",
+      "image": "/images/pokemonFrontShiny/RATTATA.png",
+      "generation": 1
+    },
+    {
+      "id": "RATICATE",
+      "name": "Raticate",
+      "image": "/images/pokemonFrontShiny/RATICATE.png",
+      "generation": 1
+    },
+    {
+      "id": "SPEAROW",
+      "name": "Spearow",
+      "image": "/images/pokemonFrontShiny/SPEAROW.png",
+      "generation": 1
+    },
+    {
+      "id": "FEAROW",
+      "name": "Fearow",
+      "image": "/images/pokemonFrontShiny/FEAROW.png",
+      "generation": 1
+    },
+    {
+      "id": "EKANS",
+      "name": "Ekans",
+      "image": "/images/pokemonFrontShiny/EKANS.png",
+      "generation": 1
+    },
+    {
+      "id": "ARBOK",
+      "name": "Arbok",
+      "image": "/images/pokemonFrontShiny/ARBOK.png",
+      "generation": 1
+    },
+    {
+      "id": "PIKACHU",
+      "name": "Pikachu",
+      "image": "/images/pokemonFrontShiny/PIKACHU.png",
+      "generation": 1
+    },
+    {
+      "id": "RAICHU",
+      "name": "Raichu",
+      "image": "/images/pokemonFrontShiny/RAICHU.png",
+      "generation": 1
+    },
+    {
+      "id": "SANDSHREW",
+      "name": "Sandshrew",
+      "image": "/images/pokemonFrontShiny/SANDSHREW.png",
+      "generation": 1
+    },
+    {
+      "id": "SANDSLASH",
+      "name": "Sandslash",
+      "image": "/images/pokemonFrontShiny/SANDSLASH.png",
+      "generation": 1
+    },
+    {
+      "id": "NIDORANfE",
+      "name": "Nidoran♀",
+      "image": "/images/pokemonFrontShiny/NIDORANFE.png",
+      "generation": 1
+    },
+    {
+      "id": "NIDORINA",
+      "name": "Nidorina",
+      "image": "/images/pokemonFrontShiny/NIDORINA.png",
+      "generation": 1
+    },
+    {
+      "id": "NIDOQUEEN",
+      "name": "Nidoqueen",
+      "image": "/images/pokemonFrontShiny/NIDOQUEEN.png",
+      "generation": 1
+    },
+    {
+      "id": "NIDORANmA",
+      "name": "Nidoran♂",
+      "image": "/images/pokemonFrontShiny/NIDORANMA.png",
+      "generation": 1
+    },
+    {
+      "id": "NIDORINO",
+      "name": "Nidorino",
+      "image": "/images/pokemonFrontShiny/NIDORINO.png",
+      "generation": 1
+    },
+    {
+      "id": "NIDOKING",
+      "name": "Nidoking",
+      "image": "/images/pokemonFrontShiny/NIDOKING.png",
+      "generation": 1
+    },
+    {
+      "id": "CLEFAIRY",
+      "name": "Clefairy",
+      "image": "/images/pokemonFrontShiny/CLEFAIRY.png",
+      "generation": 1
+    },
+    {
+      "id": "CLEFABLE",
+      "name": "Clefable",
+      "image": "/images/pokemonFrontShiny/CLEFABLE.png",
+      "generation": 1
+    },
+    {
+      "id": "VULPIX",
+      "name": "Vulpix",
+      "image": "/images/pokemonFrontShiny/VULPIX.png",
+      "generation": 1
+    },
+    {
+      "id": "NINETALES",
+      "name": "Ninetales",
+      "image": "/images/pokemonFrontShiny/NINETALES.png",
+      "generation": 1
+    },
+    {
+      "id": "JIGGLYPUFF",
+      "name": "Jigglypuff",
+      "image": "/images/pokemonFrontShiny/JIGGLYPUFF.png",
+      "generation": 1
+    },
+    {
+      "id": "WIGGLYTUFF",
+      "name": "Wigglytuff",
+      "image": "/images/pokemonFrontShiny/WIGGLYTUFF.png",
+      "generation": 1
+    },
+    {
+      "id": "ZUBAT",
+      "name": "Zubat",
+      "image": "/images/pokemonFrontShiny/ZUBAT.png",
+      "generation": 1
+    },
+    {
+      "id": "GOLBAT",
+      "name": "Golbat",
+      "image": "/images/pokemonFrontShiny/GOLBAT.png",
+      "generation": 1
+    },
+    {
+      "id": "ODDISH",
+      "name": "Oddish",
+      "image": "/images/pokemonFrontShiny/ODDISH.png",
+      "generation": 1
+    },
+    {
+      "id": "GLOOM",
+      "name": "Gloom",
+      "image": "/images/pokemonFrontShiny/GLOOM.png",
+      "generation": 1
+    },
+    {
+      "id": "VILEPLUME",
+      "name": "Vileplume",
+      "image": "/images/pokemonFrontShiny/VILEPLUME.png",
+      "generation": 1
+    },
+    {
+      "id": "PARAS",
+      "name": "Paras",
+      "image": "/images/pokemonFrontShiny/PARAS.png",
+      "generation": 1
+    },
+    {
+      "id": "PARASECT",
+      "name": "Parasect",
+      "image": "/images/pokemonFrontShiny/PARASECT.png",
+      "generation": 1
+    },
+    {
+      "id": "VENONAT",
+      "name": "Venonat",
+      "image": "/images/pokemonFrontShiny/VENONAT.png",
+      "generation": 1
+    },
+    {
+      "id": "VENOMOTH",
+      "name": "Venomoth",
+      "image": "/images/pokemonFrontShiny/VENOMOTH.png",
+      "generation": 1
+    },
+    {
+      "id": "DIGLETT",
+      "name": "Diglett",
+      "image": "/images/pokemonFrontShiny/DIGLETT.png",
+      "generation": 1
+    },
+    {
+      "id": "DUGTRIO",
+      "name": "Dugtrio",
+      "image": "/images/pokemonFrontShiny/DUGTRIO.png",
+      "generation": 1
+    },
+    {
+      "id": "MEOWTH",
+      "name": "Meowth",
+      "image": "/images/pokemonFrontShiny/MEOWTH.png",
+      "generation": 1
+    },
+    {
+      "id": "PERSIAN",
+      "name": "Persian",
+      "image": "/images/pokemonFrontShiny/PERSIAN.png",
+      "generation": 1
+    },
+    {
+      "id": "PSYDUCK",
+      "name": "Psyduck",
+      "image": "/images/pokemonFrontShiny/PSYDUCK.png",
+      "generation": 1
+    },
+    {
+      "id": "GOLDUCK",
+      "name": "Golduck",
+      "image": "/images/pokemonFrontShiny/GOLDUCK.png",
+      "generation": 1
+    },
+    {
+      "id": "MANKEY",
+      "name": "Mankey",
+      "image": "/images/pokemonFrontShiny/MANKEY.png",
+      "generation": 1
+    },
+    {
+      "id": "PRIMEAPE",
+      "name": "Primeape",
+      "image": "/images/pokemonFrontShiny/PRIMEAPE.png",
+      "generation": 1
+    },
+    {
+      "id": "GROWLITHE",
+      "name": "Growlithe",
+      "image": "/images/pokemonFrontShiny/GROWLITHE.png",
+      "generation": 1
+    },
+    {
+      "id": "ARCANINE",
+      "name": "Arcanine",
+      "image": "/images/pokemonFrontShiny/ARCANINE.png",
+      "generation": 1
+    },
+    {
+      "id": "POLIWAG",
+      "name": "Poliwag",
+      "image": "/images/pokemonFrontShiny/POLIWAG.png",
+      "generation": 1
+    },
+    {
+      "id": "POLIWHIRL",
+      "name": "Poliwhirl",
+      "image": "/images/pokemonFrontShiny/POLIWHIRL.png",
+      "generation": 1
+    },
+    {
+      "id": "POLIWRATH",
+      "name": "Poliwrath",
+      "image": "/images/pokemonFrontShiny/POLIWRATH.png",
+      "generation": 1
+    },
+    {
+      "id": "ABRA",
+      "name": "Abra",
+      "image": "/images/pokemonFrontShiny/ABRA.png",
+      "generation": 1
+    },
+    {
+      "id": "KADABRA",
+      "name": "Kadabra",
+      "image": "/images/pokemonFrontShiny/KADABRA.png",
+      "generation": 1
+    },
+    {
+      "id": "ALAKAZAM",
+      "name": "Alakazam",
+      "image": "/images/pokemonFrontShiny/ALAKAZAM.png",
+      "generation": 1
+    },
+    {
+      "id": "MACHOP",
+      "name": "Machop",
+      "image": "/images/pokemonFrontShiny/MACHOP.png",
+      "generation": 1
+    },
+    {
+      "id": "MACHOKE",
+      "name": "Machoke",
+      "image": "/images/pokemonFrontShiny/MACHOKE.png",
+      "generation": 1
+    },
+    {
+      "id": "MACHAMP",
+      "name": "Machamp",
+      "image": "/images/pokemonFrontShiny/MACHAMP.png",
+      "generation": 1
+    },
+    {
+      "id": "BELLSPROUT",
+      "name": "Bellsprout",
+      "image": "/images/pokemonFrontShiny/BELLSPROUT.png",
+      "generation": 1
+    },
+    {
+      "id": "WEEPINBELL",
+      "name": "Weepinbell",
+      "image": "/images/pokemonFrontShiny/WEEPINBELL.png",
+      "generation": 1
+    },
+    {
+      "id": "VICTREEBEL",
+      "name": "Victreebel",
+      "image": "/images/pokemonFrontShiny/VICTREEBEL.png",
+      "generation": 1
+    },
+    {
+      "id": "TENTACOOL",
+      "name": "Tentacool",
+      "image": "/images/pokemonFrontShiny/TENTACOOL.png",
+      "generation": 1
+    },
+    {
+      "id": "TENTACRUEL",
+      "name": "Tentacruel",
+      "image": "/images/pokemonFrontShiny/TENTACRUEL.png",
+      "generation": 1
+    },
+    {
+      "id": "GEODUDE",
+      "name": "Geodude",
+      "image": "/images/pokemonFrontShiny/GEODUDE.png",
+      "generation": 1
+    },
+    {
+      "id": "GRAVELER",
+      "name": "Graveler",
+      "image": "/images/pokemonFrontShiny/GRAVELER.png",
+      "generation": 1
+    },
+    {
+      "id": "GOLEM",
+      "name": "Golem",
+      "image": "/images/pokemonFrontShiny/GOLEM.png",
+      "generation": 1
+    },
+    {
+      "id": "PONYTA",
+      "name": "Ponyta",
+      "image": "/images/pokemonFrontShiny/PONYTA.png",
+      "generation": 1
+    },
+    {
+      "id": "RAPIDASH",
+      "name": "Rapidash",
+      "image": "/images/pokemonFrontShiny/RAPIDASH.png",
+      "generation": 1
+    },
+    {
+      "id": "SLOWPOKE",
+      "name": "Slowpoke",
+      "image": "/images/pokemonFrontShiny/SLOWPOKE.png",
+      "generation": 1
+    },
+    {
+      "id": "SLOWBRO",
+      "name": "Slowbro",
+      "image": "/images/pokemonFrontShiny/SLOWBRO.png",
+      "generation": 1
+    },
+    {
+      "id": "MAGNEMITE",
+      "name": "Magnemite",
+      "image": "/images/pokemonFrontShiny/MAGNEMITE.png",
+      "generation": 1
+    },
+    {
+      "id": "MAGNETON",
+      "name": "Magneton",
+      "image": "/images/pokemonFrontShiny/MAGNETON.png",
+      "generation": 1
+    },
+    {
+      "id": "FARFETCHD",
+      "name": "Farfetch'd",
+      "image": "/images/pokemonFrontShiny/FARFETCHD.png",
+      "generation": 1
+    },
+    {
+      "id": "DODUO",
+      "name": "Doduo",
+      "image": "/images/pokemonFrontShiny/DODUO.png",
+      "generation": 1
+    },
+    {
+      "id": "DODRIO",
+      "name": "Dodrio",
+      "image": "/images/pokemonFrontShiny/DODRIO.png",
+      "generation": 1
+    },
+    {
+      "id": "SEEL",
+      "name": "Seel",
+      "image": "/images/pokemonFrontShiny/SEEL.png",
+      "generation": 1
+    },
+    {
+      "id": "DEWGONG",
+      "name": "Dewgong",
+      "image": "/images/pokemonFrontShiny/DEWGONG.png",
+      "generation": 1
+    },
+    {
+      "id": "GRIMER",
+      "name": "Grimer",
+      "image": "/images/pokemonFrontShiny/GRIMER.png",
+      "generation": 1
+    },
+    {
+      "id": "MUK",
+      "name": "Muk",
+      "image": "/images/pokemonFrontShiny/MUK.png",
+      "generation": 1
+    },
+    {
+      "id": "SHELLDER",
+      "name": "Shellder",
+      "image": "/images/pokemonFrontShiny/SHELLDER.png",
+      "generation": 1
+    },
+    {
+      "id": "CLOYSTER",
+      "name": "Cloyster",
+      "image": "/images/pokemonFrontShiny/CLOYSTER.png",
+      "generation": 1
+    },
+    {
+      "id": "GASTLY",
+      "name": "Gastly",
+      "image": "/images/pokemonFrontShiny/GASTLY.png",
+      "generation": 1
+    },
+    {
+      "id": "HAUNTER",
+      "name": "Haunter",
+      "image": "/images/pokemonFrontShiny/HAUNTER.png",
+      "generation": 1
+    },
+    {
+      "id": "GENGAR",
+      "name": "Gengar",
+      "image": "/images/pokemonFrontShiny/GENGAR.png",
+      "generation": 1
+    },
+    {
+      "id": "ONIX",
+      "name": "Onix",
+      "image": "/images/pokemonFrontShiny/ONIX.png",
+      "generation": 1
+    },
+    {
+      "id": "DROWZEE",
+      "name": "Drowzee",
+      "image": "/images/pokemonFrontShiny/DROWZEE.png",
+      "generation": 1
+    },
+    {
+      "id": "HYPNO",
+      "name": "Hypno",
+      "image": "/images/pokemonFrontShiny/HYPNO.png",
+      "generation": 1
+    },
+    {
+      "id": "KRABBY",
+      "name": "Krabby",
+      "image": "/images/pokemonFrontShiny/KRABBY.png",
+      "generation": 1
+    },
+    {
+      "id": "KINGLER",
+      "name": "Kingler",
+      "image": "/images/pokemonFrontShiny/KINGLER.png",
+      "generation": 1
+    },
+    {
+      "id": "VOLTORB",
+      "name": "Voltorb",
+      "image": "/images/pokemonFrontShiny/VOLTORB.png",
+      "generation": 1
+    },
+    {
+      "id": "ELECTRODE",
+      "name": "Electrode",
+      "image": "/images/pokemonFrontShiny/ELECTRODE.png",
+      "generation": 1
+    },
+    {
+      "id": "EXEGGCUTE",
+      "name": "Exeggcute",
+      "image": "/images/pokemonFrontShiny/EXEGGCUTE.png",
+      "generation": 1
+    },
+    {
+      "id": "EXEGGUTOR",
+      "name": "Exeggutor",
+      "image": "/images/pokemonFrontShiny/EXEGGUTOR.png",
+      "generation": 1
+    },
+    {
+      "id": "CUBONE",
+      "name": "Cubone",
+      "image": "/images/pokemonFrontShiny/CUBONE.png",
+      "generation": 1
+    },
+    {
+      "id": "MAROWAK",
+      "name": "Marowak",
+      "image": "/images/pokemonFrontShiny/MAROWAK.png",
+      "generation": 1
+    },
+    {
+      "id": "HITMONLEE",
+      "name": "Hitmonlee",
+      "image": "/images/pokemonFrontShiny/HITMONLEE.png",
+      "generation": 1
+    },
+    {
+      "id": "HITMONCHAN",
+      "name": "Hitmonchan",
+      "image": "/images/pokemonFrontShiny/HITMONCHAN.png",
+      "generation": 1
+    },
+    {
+      "id": "LICKITUNG",
+      "name": "Lickitung",
+      "image": "/images/pokemonFrontShiny/LICKITUNG.png",
+      "generation": 1
+    },
+    {
+      "id": "KOFFING",
+      "name": "Koffing",
+      "image": "/images/pokemonFrontShiny/KOFFING.png",
+      "generation": 1
+    },
+    {
+      "id": "WEEZING",
+      "name": "Weezing",
+      "image": "/images/pokemonFrontShiny/WEEZING.png",
+      "generation": 1
+    },
+    {
+      "id": "RHYHORN",
+      "name": "Rhyhorn",
+      "image": "/images/pokemonFrontShiny/RHYHORN.png",
+      "generation": 1
+    },
+    {
+      "id": "RHYDON",
+      "name": "Rhydon",
+      "image": "/images/pokemonFrontShiny/RHYDON.png",
+      "generation": 1
+    },
+    {
+      "id": "CHANSEY",
+      "name": "Chansey",
+      "image": "/images/pokemonFrontShiny/CHANSEY.png",
+      "generation": 1
+    },
+    {
+      "id": "TANGELA",
+      "name": "Tangela",
+      "image": "/images/pokemonFrontShiny/TANGELA.png",
+      "generation": 1
+    },
+    {
+      "id": "KANGASKHAN",
+      "name": "Kangaskhan",
+      "image": "/images/pokemonFrontShiny/KANGASKHAN.png",
+      "generation": 1
+    },
+    {
+      "id": "HORSEA",
+      "name": "Horsea",
+      "image": "/images/pokemonFrontShiny/HORSEA.png",
+      "generation": 1
+    },
+    {
+      "id": "SEADRA",
+      "name": "Seadra",
+      "image": "/images/pokemonFrontShiny/SEADRA.png",
+      "generation": 1
+    },
+    {
+      "id": "GOLDEEN",
+      "name": "Goldeen",
+      "image": "/images/pokemonFrontShiny/GOLDEEN.png",
+      "generation": 1
+    },
+    {
+      "id": "SEAKING",
+      "name": "Seaking",
+      "image": "/images/pokemonFrontShiny/SEAKING.png",
+      "generation": 1
+    },
+    {
+      "id": "STARYU",
+      "name": "Staryu",
+      "image": "/images/pokemonFrontShiny/STARYU.png",
+      "generation": 1
+    },
+    {
+      "id": "STARMIE",
+      "name": "Starmie",
+      "image": "/images/pokemonFrontShiny/STARMIE.png",
+      "generation": 1
+    },
+    {
+      "id": "MRMIME",
+      "name": "Mr. Mime",
+      "image": "/images/pokemonFrontShiny/MRMIME.png",
+      "generation": 1
+    },
+    {
+      "id": "SCYTHER",
+      "name": "Scyther",
+      "image": "/images/pokemonFrontShiny/SCYTHER.png",
+      "generation": 1
+    },
+    {
+      "id": "JYNX",
+      "name": "Jynx",
+      "image": "/images/pokemonFrontShiny/JYNX.png",
+      "generation": 1
+    },
+    {
+      "id": "ELECTABUZZ",
+      "name": "Electabuzz",
+      "image": "/images/pokemonFrontShiny/ELECTABUZZ.png",
+      "generation": 1
+    },
+    {
+      "id": "MAGMAR",
+      "name": "Magmar",
+      "image": "/images/pokemonFrontShiny/MAGMAR.png",
+      "generation": 1
+    },
+    {
+      "id": "PINSIR",
+      "name": "Pinsir",
+      "image": "/images/pokemonFrontShiny/PINSIR.png",
+      "generation": 1
+    },
+    {
+      "id": "TAUROS",
+      "name": "Tauros",
+      "image": "/images/pokemonFrontShiny/TAUROS.png",
+      "generation": 1
+    },
+    {
+      "id": "MAGIKARP",
+      "name": "Magikarp",
+      "image": "/images/pokemonFrontShiny/MAGIKARP.png",
+      "generation": 1
+    },
+    {
+      "id": "GYARADOS",
+      "name": "Gyarados",
+      "image": "/images/pokemonFrontShiny/GYARADOS.png",
+      "generation": 1
+    },
+    {
+      "id": "LAPRAS",
+      "name": "Lapras",
+      "image": "/images/pokemonFrontShiny/LAPRAS.png",
+      "generation": 1
+    },
+    {
+      "id": "DITTO",
+      "name": "Ditto",
+      "image": "/images/pokemonFrontShiny/DITTO.png",
+      "generation": 1
+    },
+    {
+      "id": "EEVEE",
+      "name": "Eevee",
+      "image": "/images/pokemonFrontShiny/EEVEE.png",
+      "generation": 1
+    },
+    {
+      "id": "VAPOREON",
+      "name": "Vaporeon",
+      "image": "/images/pokemonFrontShiny/VAPOREON.png",
+      "generation": 1
+    },
+    {
+      "id": "JOLTEON",
+      "name": "Jolteon",
+      "image": "/images/pokemonFrontShiny/JOLTEON.png",
+      "generation": 1
+    },
+    {
+      "id": "FLAREON",
+      "name": "Flareon",
+      "image": "/images/pokemonFrontShiny/FLAREON.png",
+      "generation": 1
+    },
+    {
+      "id": "PORYGON",
+      "name": "Porygon",
+      "image": "/images/pokemonFrontShiny/PORYGON.png",
+      "generation": 1
+    },
+    {
+      "id": "OMANYTE",
+      "name": "Omanyte",
+      "image": "/images/pokemonFrontShiny/OMANYTE.png",
+      "generation": 1
+    },
+    {
+      "id": "OMASTAR",
+      "name": "Omastar",
+      "image": "/images/pokemonFrontShiny/OMASTAR.png",
+      "generation": 1
+    },
+    {
+      "id": "KABUTO",
+      "name": "Kabuto",
+      "image": "/images/pokemonFrontShiny/KABUTO.png",
+      "generation": 1
+    },
+    {
+      "id": "KABUTOPS",
+      "name": "Kabutops",
+      "image": "/images/pokemonFrontShiny/KABUTOPS.png",
+      "generation": 1
+    },
+    {
+      "id": "AERODACTYL",
+      "name": "Aerodactyl",
+      "image": "/images/pokemonFrontShiny/AERODACTYL.png",
+      "generation": 1
+    },
+    {
+      "id": "SNORLAX",
+      "name": "Snorlax",
+      "image": "/images/pokemonFrontShiny/SNORLAX.png",
+      "generation": 1
+    },
+    {
+      "id": "ARTICUNO",
+      "name": "Articuno",
+      "image": "/images/pokemonFrontShiny/ARTICUNO.png",
+      "generation": 1
+    },
+    {
+      "id": "ZAPDOS",
+      "name": "Zapdos",
+      "image": "/images/pokemonFrontShiny/ZAPDOS.png",
+      "generation": 1
+    },
+    {
+      "id": "MOLTRES",
+      "name": "Moltres",
+      "image": "/images/pokemonFrontShiny/MOLTRES.png",
+      "generation": 1
+    },
+    {
+      "id": "DRATINI",
+      "name": "Dratini",
+      "image": "/images/pokemonFrontShiny/DRATINI.png",
+      "generation": 1
+    },
+    {
+      "id": "DRAGONAIR",
+      "name": "Dragonair",
+      "image": "/images/pokemonFrontShiny/DRAGONAIR.png",
+      "generation": 1
+    },
+    {
+      "id": "DRAGONITE",
+      "name": "Dragonite",
+      "image": "/images/pokemonFrontShiny/DRAGONITE.png",
+      "generation": 1
+    },
+    {
+      "id": "MEWTWO",
+      "name": "Mewtwo",
+      "image": "/images/pokemonFrontShiny/MEWTWO.png",
+      "generation": 1
+    },
+    {
+      "id": "MEW",
+      "name": "Mew",
+      "image": "/images/pokemonFrontShiny/MEW.png",
+      "generation": 1
+    },
+    {
+      "id": "CHIKORITA",
+      "name": "Chikorita",
+      "image": "/images/pokemonFrontShiny/CHIKORITA.png",
+      "generation": 2
+    },
+    {
+      "id": "BAYLEEF",
+      "name": "Bayleef",
+      "image": "/images/pokemonFrontShiny/BAYLEEF.png",
+      "generation": 2
+    },
+    {
+      "id": "MEGANIUM",
+      "name": "Meganium",
+      "image": "/images/pokemonFrontShiny/MEGANIUM.png",
+      "generation": 2
+    },
+    {
+      "id": "CYNDAQUIL",
+      "name": "Cyndaquil",
+      "image": "/images/pokemonFrontShiny/CYNDAQUIL.png",
+      "generation": 2
+    },
+    {
+      "id": "QUILAVA",
+      "name": "Quilava",
+      "image": "/images/pokemonFrontShiny/QUILAVA.png",
+      "generation": 2
+    },
+    {
+      "id": "TYPHLOSION",
+      "name": "Typhlosion",
+      "image": "/images/pokemonFrontShiny/TYPHLOSION.png",
+      "generation": 2
+    },
+    {
+      "id": "TOTODILE",
+      "name": "Totodile",
+      "image": "/images/pokemonFrontShiny/TOTODILE.png",
+      "generation": 2
+    },
+    {
+      "id": "CROCONAW",
+      "name": "Croconaw",
+      "image": "/images/pokemonFrontShiny/CROCONAW.png",
+      "generation": 2
+    },
+    {
+      "id": "FERALIGATR",
+      "name": "Feraligatr",
+      "image": "/images/pokemonFrontShiny/FERALIGATR.png",
+      "generation": 2
+    },
+    {
+      "id": "SENTRET",
+      "name": "Sentret",
+      "image": "/images/pokemonFrontShiny/SENTRET.png",
+      "generation": 2
+    },
+    {
+      "id": "FURRET",
+      "name": "Furret",
+      "image": "/images/pokemonFrontShiny/FURRET.png",
+      "generation": 2
+    },
+    {
+      "id": "HOOTHOOT",
+      "name": "Hoothoot",
+      "image": "/images/pokemonFrontShiny/HOOTHOOT.png",
+      "generation": 2
+    },
+    {
+      "id": "NOCTOWL",
+      "name": "Noctowl",
+      "image": "/images/pokemonFrontShiny/NOCTOWL.png",
+      "generation": 2
+    },
+    {
+      "id": "LEDYBA",
+      "name": "Ledyba",
+      "image": "/images/pokemonFrontShiny/LEDYBA.png",
+      "generation": 2
+    },
+    {
+      "id": "LEDIAN",
+      "name": "Ledian",
+      "image": "/images/pokemonFrontShiny/LEDIAN.png",
+      "generation": 2
+    },
+    {
+      "id": "SPINARAK",
+      "name": "Spinarak",
+      "image": "/images/pokemonFrontShiny/SPINARAK.png",
+      "generation": 2
+    },
+    {
+      "id": "ARIADOS",
+      "name": "Ariados",
+      "image": "/images/pokemonFrontShiny/ARIADOS.png",
+      "generation": 2
+    },
+    {
+      "id": "CROBAT",
+      "name": "Crobat",
+      "image": "/images/pokemonFrontShiny/CROBAT.png",
+      "generation": 2
+    },
+    {
+      "id": "CHINCHOU",
+      "name": "Chinchou",
+      "image": "/images/pokemonFrontShiny/CHINCHOU.png",
+      "generation": 2
+    },
+    {
+      "id": "LANTURN",
+      "name": "Lanturn",
+      "image": "/images/pokemonFrontShiny/LANTURN.png",
+      "generation": 2
+    },
+    {
+      "id": "PICHU",
+      "name": "Pichu",
+      "image": "/images/pokemonFrontShiny/PICHU.png",
+      "generation": 2
+    },
+    {
+      "id": "CLEFFA",
+      "name": "Cleffa",
+      "image": "/images/pokemonFrontShiny/CLEFFA.png",
+      "generation": 2
+    },
+    {
+      "id": "IGGLYBUFF",
+      "name": "Igglybuff",
+      "image": "/images/pokemonFrontShiny/IGGLYBUFF.png",
+      "generation": 2
+    },
+    {
+      "id": "TOGEPI",
+      "name": "Togepi",
+      "image": "/images/pokemonFrontShiny/TOGEPI.png",
+      "generation": 2
+    },
+    {
+      "id": "TOGETIC",
+      "name": "Togetic",
+      "image": "/images/pokemonFrontShiny/TOGETIC.png",
+      "generation": 2
+    },
+    {
+      "id": "NATU",
+      "name": "Natu",
+      "image": "/images/pokemonFrontShiny/NATU.png",
+      "generation": 2
+    },
+    {
+      "id": "XATU",
+      "name": "Xatu",
+      "image": "/images/pokemonFrontShiny/XATU.png",
+      "generation": 2
+    },
+    {
+      "id": "MAREEP",
+      "name": "Mareep",
+      "image": "/images/pokemonFrontShiny/MAREEP.png",
+      "generation": 2
+    },
+    {
+      "id": "FLAAFFY",
+      "name": "Flaaffy",
+      "image": "/images/pokemonFrontShiny/FLAAFFY.png",
+      "generation": 2
+    },
+    {
+      "id": "AMPHAROS",
+      "name": "Ampharos",
+      "image": "/images/pokemonFrontShiny/AMPHAROS.png",
+      "generation": 2
+    },
+    {
+      "id": "BELLOSSOM",
+      "name": "Bellossom",
+      "image": "/images/pokemonFrontShiny/BELLOSSOM.png",
+      "generation": 2
+    },
+    {
+      "id": "MARILL",
+      "name": "Marill",
+      "image": "/images/pokemonFrontShiny/MARILL.png",
+      "generation": 2
+    },
+    {
+      "id": "AZUMARILL",
+      "name": "Azumarill",
+      "image": "/images/pokemonFrontShiny/AZUMARILL.png",
+      "generation": 2
+    },
+    {
+      "id": "SUDOWOODO",
+      "name": "Sudowoodo",
+      "image": "/images/pokemonFrontShiny/SUDOWOODO.png",
+      "generation": 2
+    },
+    {
+      "id": "POLITOED",
+      "name": "Politoed",
+      "image": "/images/pokemonFrontShiny/POLITOED.png",
+      "generation": 2
+    },
+    {
+      "id": "HOPPIP",
+      "name": "Hoppip",
+      "image": "/images/pokemonFrontShiny/HOPPIP.png",
+      "generation": 2
+    },
+    {
+      "id": "SKIPLOOM",
+      "name": "Skiploom",
+      "image": "/images/pokemonFrontShiny/SKIPLOOM.png",
+      "generation": 2
+    },
+    {
+      "id": "JUMPLUFF",
+      "name": "Jumpluff",
+      "image": "/images/pokemonFrontShiny/JUMPLUFF.png",
+      "generation": 2
+    },
+    {
+      "id": "AIPOM",
+      "name": "Aipom",
+      "image": "/images/pokemonFrontShiny/AIPOM.png",
+      "generation": 2
+    },
+    {
+      "id": "SUNKERN",
+      "name": "Sunkern",
+      "image": "/images/pokemonFrontShiny/SUNKERN.png",
+      "generation": 2
+    },
+    {
+      "id": "SUNFLORA",
+      "name": "Sunflora",
+      "image": "/images/pokemonFrontShiny/SUNFLORA.png",
+      "generation": 2
+    },
+    {
+      "id": "YANMA",
+      "name": "Yanma",
+      "image": "/images/pokemonFrontShiny/YANMA.png",
+      "generation": 2
+    },
+    {
+      "id": "WOOPER",
+      "name": "Wooper",
+      "image": "/images/pokemonFrontShiny/WOOPER.png",
+      "generation": 2
+    },
+    {
+      "id": "QUAGSIRE",
+      "name": "Quagsire",
+      "image": "/images/pokemonFrontShiny/QUAGSIRE.png",
+      "generation": 2
+    },
+    {
+      "id": "ESPEON",
+      "name": "Espeon",
+      "image": "/images/pokemonFrontShiny/ESPEON.png",
+      "generation": 2
+    },
+    {
+      "id": "UMBREON",
+      "name": "Umbreon",
+      "image": "/images/pokemonFrontShiny/UMBREON.png",
+      "generation": 2
+    },
+    {
+      "id": "MURKROW",
+      "name": "Murkrow",
+      "image": "/images/pokemonFrontShiny/MURKROW.png",
+      "generation": 2
+    },
+    {
+      "id": "SLOWKING",
+      "name": "Slowking",
+      "image": "/images/pokemonFrontShiny/SLOWKING.png",
+      "generation": 2
+    },
+    {
+      "id": "MISDREAVUS",
+      "name": "Misdreavus",
+      "image": "/images/pokemonFrontShiny/MISDREAVUS.png",
+      "generation": 2
+    },
+    {
+      "id": "UNOWN",
+      "name": "Unown",
+      "image": "/images/pokemonFrontShiny/UNOWN.png",
+      "generation": 2
+    },
+    {
+      "id": "WOBBUFFET",
+      "name": "Wobbuffet",
+      "image": "/images/pokemonFrontShiny/WOBBUFFET.png",
+      "generation": 2
+    },
+    {
+      "id": "GIRAFARIG",
+      "name": "Girafarig",
+      "image": "/images/pokemonFrontShiny/GIRAFARIG.png",
+      "generation": 2
+    },
+    {
+      "id": "PINECO",
+      "name": "Pineco",
+      "image": "/images/pokemonFrontShiny/PINECO.png",
+      "generation": 2
+    },
+    {
+      "id": "FORRETRESS",
+      "name": "Forretress",
+      "image": "/images/pokemonFrontShiny/FORRETRESS.png",
+      "generation": 2
+    },
+    {
+      "id": "DUNSPARCE",
+      "name": "Dunsparce",
+      "image": "/images/pokemonFrontShiny/DUNSPARCE.png",
+      "generation": 2
+    },
+    {
+      "id": "GLIGAR",
+      "name": "Gligar",
+      "image": "/images/pokemonFrontShiny/GLIGAR.png",
+      "generation": 2
+    },
+    {
+      "id": "STEELIX",
+      "name": "Steelix",
+      "image": "/images/pokemonFrontShiny/STEELIX.png",
+      "generation": 2
+    },
+    {
+      "id": "SNUBBULL",
+      "name": "Snubbull",
+      "image": "/images/pokemonFrontShiny/SNUBBULL.png",
+      "generation": 2
+    },
+    {
+      "id": "GRANBULL",
+      "name": "Granbull",
+      "image": "/images/pokemonFrontShiny/GRANBULL.png",
+      "generation": 2
+    },
+    {
+      "id": "QWILFISH",
+      "name": "Qwilfish",
+      "image": "/images/pokemonFrontShiny/QWILFISH.png",
+      "generation": 2
+    },
+    {
+      "id": "SCIZOR",
+      "name": "Scizor",
+      "image": "/images/pokemonFrontShiny/SCIZOR.png",
+      "generation": 2
+    },
+    {
+      "id": "SHUCKLE",
+      "name": "Shuckle",
+      "image": "/images/pokemonFrontShiny/SHUCKLE.png",
+      "generation": 2
+    },
+    {
+      "id": "HERACROSS",
+      "name": "Heracross",
+      "image": "/images/pokemonFrontShiny/HERACROSS.png",
+      "generation": 2
+    },
+    {
+      "id": "SNEASEL",
+      "name": "Sneasel",
+      "image": "/images/pokemonFrontShiny/SNEASEL.png",
+      "generation": 2
+    },
+    {
+      "id": "TEDDIURSA",
+      "name": "Teddiursa",
+      "image": "/images/pokemonFrontShiny/TEDDIURSA.png",
+      "generation": 2
+    },
+    {
+      "id": "URSARING",
+      "name": "Ursaring",
+      "image": "/images/pokemonFrontShiny/URSARING.png",
+      "generation": 2
+    },
+    {
+      "id": "SLUGMA",
+      "name": "Slugma",
+      "image": "/images/pokemonFrontShiny/SLUGMA.png",
+      "generation": 2
+    },
+    {
+      "id": "MAGCARGO",
+      "name": "Magcargo",
+      "image": "/images/pokemonFrontShiny/MAGCARGO.png",
+      "generation": 2
+    },
+    {
+      "id": "SWINUB",
+      "name": "Swinub",
+      "image": "/images/pokemonFrontShiny/SWINUB.png",
+      "generation": 2
+    },
+    {
+      "id": "PILOSWINE",
+      "name": "Piloswine",
+      "image": "/images/pokemonFrontShiny/PILOSWINE.png",
+      "generation": 2
+    },
+    {
+      "id": "CORSOLA",
+      "name": "Corsola",
+      "image": "/images/pokemonFrontShiny/CORSOLA.png",
+      "generation": 2
+    },
+    {
+      "id": "REMORAID",
+      "name": "Remoraid",
+      "image": "/images/pokemonFrontShiny/REMORAID.png",
+      "generation": 2
+    },
+    {
+      "id": "OCTILLERY",
+      "name": "Octillery",
+      "image": "/images/pokemonFrontShiny/OCTILLERY.png",
+      "generation": 2
+    },
+    {
+      "id": "DELIBIRD",
+      "name": "Delibird",
+      "image": "/images/pokemonFrontShiny/DELIBIRD.png",
+      "generation": 2
+    },
+    {
+      "id": "MANTINE",
+      "name": "Mantine",
+      "image": "/images/pokemonFrontShiny/MANTINE.png",
+      "generation": 2
+    },
+    {
+      "id": "SKARMORY",
+      "name": "Skarmory",
+      "image": "/images/pokemonFrontShiny/SKARMORY.png",
+      "generation": 2
+    },
+    {
+      "id": "HOUNDOUR",
+      "name": "Houndour",
+      "image": "/images/pokemonFrontShiny/HOUNDOUR.png",
+      "generation": 2
+    },
+    {
+      "id": "HOUNDOOM",
+      "name": "Houndoom",
+      "image": "/images/pokemonFrontShiny/HOUNDOOM.png",
+      "generation": 2
+    },
+    {
+      "id": "KINGDRA",
+      "name": "Kingdra",
+      "image": "/images/pokemonFrontShiny/KINGDRA.png",
+      "generation": 2
+    },
+    {
+      "id": "PHANPY",
+      "name": "Phanpy",
+      "image": "/images/pokemonFrontShiny/PHANPY.png",
+      "generation": 2
+    },
+    {
+      "id": "DONPHAN",
+      "name": "Donphan",
+      "image": "/images/pokemonFrontShiny/DONPHAN.png",
+      "generation": 2
+    },
+    {
+      "id": "PORYGON2",
+      "name": "Porygon2",
+      "image": "/images/pokemonFrontShiny/PORYGON2.png",
+      "generation": 2
+    },
+    {
+      "id": "STANTLER",
+      "name": "Stantler",
+      "image": "/images/pokemonFrontShiny/STANTLER.png",
+      "generation": 2
+    },
+    {
+      "id": "SMEARGLE",
+      "name": "Smeargle",
+      "image": "/images/pokemonFrontShiny/SMEARGLE.png",
+      "generation": 2
+    },
+    {
+      "id": "TYROGUE",
+      "name": "Tyrogue",
+      "image": "/images/pokemonFrontShiny/TYROGUE.png",
+      "generation": 2
+    },
+    {
+      "id": "HITMONTOP",
+      "name": "Hitmontop",
+      "image": "/images/pokemonFrontShiny/HITMONTOP.png",
+      "generation": 2
+    },
+    {
+      "id": "SMOOCHUM",
+      "name": "Smoochum",
+      "image": "/images/pokemonFrontShiny/SMOOCHUM.png",
+      "generation": 2
+    },
+    {
+      "id": "ELEKID",
+      "name": "Elekid",
+      "image": "/images/pokemonFrontShiny/ELEKID.png",
+      "generation": 2
+    },
+    {
+      "id": "MAGBY",
+      "name": "Magby",
+      "image": "/images/pokemonFrontShiny/MAGBY.png",
+      "generation": 2
+    },
+    {
+      "id": "MILTANK",
+      "name": "Miltank",
+      "image": "/images/pokemonFrontShiny/MILTANK.png",
+      "generation": 2
+    },
+    {
+      "id": "BLISSEY",
+      "name": "Blissey",
+      "image": "/images/pokemonFrontShiny/BLISSEY.png",
+      "generation": 2
+    },
+    {
+      "id": "RAIKOU",
+      "name": "Raikou",
+      "image": "/images/pokemonFrontShiny/RAIKOU.png",
+      "generation": 2
+    },
+    {
+      "id": "ENTEI",
+      "name": "Entei",
+      "image": "/images/pokemonFrontShiny/ENTEI.png",
+      "generation": 2
+    },
+    {
+      "id": "SUICUNE",
+      "name": "Suicune",
+      "image": "/images/pokemonFrontShiny/SUICUNE.png",
+      "generation": 2
+    },
+    {
+      "id": "LARVITAR",
+      "name": "Larvitar",
+      "image": "/images/pokemonFrontShiny/LARVITAR.png",
+      "generation": 2
+    },
+    {
+      "id": "PUPITAR",
+      "name": "Pupitar",
+      "image": "/images/pokemonFrontShiny/PUPITAR.png",
+      "generation": 2
+    },
+    {
+      "id": "TYRANITAR",
+      "name": "Tyranitar",
+      "image": "/images/pokemonFrontShiny/TYRANITAR.png",
+      "generation": 2
+    },
+    {
+      "id": "LUGIA",
+      "name": "Lugia",
+      "image": "/images/pokemonFrontShiny/LUGIA.png",
+      "generation": 2
+    },
+    {
+      "id": "HOOH",
+      "name": "Ho-Oh",
+      "image": "/images/pokemonFrontShiny/HOOH.png",
+      "generation": 2
+    },
+    {
+      "id": "CELEBI",
+      "name": "Celebi",
+      "image": "/images/pokemonFrontShiny/CELEBI.png",
+      "generation": 2
+    },
+    {
+      "id": "TREECKO",
+      "name": "Treecko",
+      "image": "/images/pokemonFrontShiny/TREECKO.png",
+      "generation": 3
+    },
+    {
+      "id": "GROVYLE",
+      "name": "Grovyle",
+      "image": "/images/pokemonFrontShiny/GROVYLE.png",
+      "generation": 3
+    },
+    {
+      "id": "SCEPTILE",
+      "name": "Sceptile",
+      "image": "/images/pokemonFrontShiny/SCEPTILE.png",
+      "generation": 3
+    },
+    {
+      "id": "TORCHIC",
+      "name": "Torchic",
+      "image": "/images/pokemonFrontShiny/TORCHIC.png",
+      "generation": 3
+    },
+    {
+      "id": "COMBUSKEN",
+      "name": "Combusken",
+      "image": "/images/pokemonFrontShiny/COMBUSKEN.png",
+      "generation": 3
+    },
+    {
+      "id": "BLAZIKEN",
+      "name": "Blaziken",
+      "image": "/images/pokemonFrontShiny/BLAZIKEN.png",
+      "generation": 3
+    },
+    {
+      "id": "MUDKIP",
+      "name": "Mudkip",
+      "image": "/images/pokemonFrontShiny/MUDKIP.png",
+      "generation": 3
+    },
+    {
+      "id": "MARSHTOMP",
+      "name": "Marshtomp",
+      "image": "/images/pokemonFrontShiny/MARSHTOMP.png",
+      "generation": 3
+    },
+    {
+      "id": "SWAMPERT",
+      "name": "Swampert",
+      "image": "/images/pokemonFrontShiny/SWAMPERT.png",
+      "generation": 3
+    },
+    {
+      "id": "POOCHYENA",
+      "name": "Poochyena",
+      "image": "/images/pokemonFrontShiny/POOCHYENA.png",
+      "generation": 3
+    },
+    {
+      "id": "MIGHTYENA",
+      "name": "Mightyena",
+      "image": "/images/pokemonFrontShiny/MIGHTYENA.png",
+      "generation": 3
+    },
+    {
+      "id": "ZIGZAGOON",
+      "name": "Zigzagoon",
+      "image": "/images/pokemonFrontShiny/ZIGZAGOON.png",
+      "generation": 3
+    },
+    {
+      "id": "LINOONE",
+      "name": "Linoone",
+      "image": "/images/pokemonFrontShiny/LINOONE.png",
+      "generation": 3
+    },
+    {
+      "id": "WURMPLE",
+      "name": "Wurmple",
+      "image": "/images/pokemonFrontShiny/WURMPLE.png",
+      "generation": 3
+    },
+    {
+      "id": "SILCOON",
+      "name": "Silcoon",
+      "image": "/images/pokemonFrontShiny/SILCOON.png",
+      "generation": 3
+    },
+    {
+      "id": "BEAUTIFLY",
+      "name": "Beautifly",
+      "image": "/images/pokemonFrontShiny/BEAUTIFLY.png",
+      "generation": 3
+    },
+    {
+      "id": "CASCOON",
+      "name": "Cascoon",
+      "image": "/images/pokemonFrontShiny/CASCOON.png",
+      "generation": 3
+    },
+    {
+      "id": "DUSTOX",
+      "name": "Dustox",
+      "image": "/images/pokemonFrontShiny/DUSTOX.png",
+      "generation": 3
+    },
+    {
+      "id": "LOTAD",
+      "name": "Lotad",
+      "image": "/images/pokemonFrontShiny/LOTAD.png",
+      "generation": 3
+    },
+    {
+      "id": "LOMBRE",
+      "name": "Lombre",
+      "image": "/images/pokemonFrontShiny/LOMBRE.png",
+      "generation": 3
+    },
+    {
+      "id": "LUDICOLO",
+      "name": "Ludicolo",
+      "image": "/images/pokemonFrontShiny/LUDICOLO.png",
+      "generation": 3
+    },
+    {
+      "id": "SEEDOT",
+      "name": "Seedot",
+      "image": "/images/pokemonFrontShiny/SEEDOT.png",
+      "generation": 3
+    },
+    {
+      "id": "NUZLEAF",
+      "name": "Nuzleaf",
+      "image": "/images/pokemonFrontShiny/NUZLEAF.png",
+      "generation": 3
+    },
+    {
+      "id": "SHIFTRY",
+      "name": "Shiftry",
+      "image": "/images/pokemonFrontShiny/SHIFTRY.png",
+      "generation": 3
+    },
+    {
+      "id": "TAILLOW",
+      "name": "Taillow",
+      "image": "/images/pokemonFrontShiny/TAILLOW.png",
+      "generation": 3
+    },
+    {
+      "id": "SWELLOW",
+      "name": "Swellow",
+      "image": "/images/pokemonFrontShiny/SWELLOW.png",
+      "generation": 3
+    },
+    {
+      "id": "WINGULL",
+      "name": "Wingull",
+      "image": "/images/pokemonFrontShiny/WINGULL.png",
+      "generation": 3
+    },
+    {
+      "id": "PELIPPER",
+      "name": "Pelipper",
+      "image": "/images/pokemonFrontShiny/PELIPPER.png",
+      "generation": 3
+    },
+    {
+      "id": "RALTS",
+      "name": "Ralts",
+      "image": "/images/pokemonFrontShiny/RALTS.png",
+      "generation": 3
+    },
+    {
+      "id": "KIRLIA",
+      "name": "Kirlia",
+      "image": "/images/pokemonFrontShiny/KIRLIA.png",
+      "generation": 3
+    },
+    {
+      "id": "GARDEVOIR",
+      "name": "Gardevoir",
+      "image": "/images/pokemonFrontShiny/GARDEVOIR.png",
+      "generation": 3
+    },
+    {
+      "id": "SURSKIT",
+      "name": "Surskit",
+      "image": "/images/pokemonFrontShiny/SURSKIT.png",
+      "generation": 3
+    },
+    {
+      "id": "MASQUERAIN",
+      "name": "Masquerain",
+      "image": "/images/pokemonFrontShiny/MASQUERAIN.png",
+      "generation": 3
+    },
+    {
+      "id": "SHROOMISH",
+      "name": "Shroomish",
+      "image": "/images/pokemonFrontShiny/SHROOMISH.png",
+      "generation": 3
+    },
+    {
+      "id": "BRELOOM",
+      "name": "Breloom",
+      "image": "/images/pokemonFrontShiny/BRELOOM.png",
+      "generation": 3
+    },
+    {
+      "id": "SLAKOTH",
+      "name": "Slakoth",
+      "image": "/images/pokemonFrontShiny/SLAKOTH.png",
+      "generation": 3
+    },
+    {
+      "id": "VIGOROTH",
+      "name": "Vigoroth",
+      "image": "/images/pokemonFrontShiny/VIGOROTH.png",
+      "generation": 3
+    },
+    {
+      "id": "SLAKING",
+      "name": "Slaking",
+      "image": "/images/pokemonFrontShiny/SLAKING.png",
+      "generation": 3
+    },
+    {
+      "id": "NINCADA",
+      "name": "Nincada",
+      "image": "/images/pokemonFrontShiny/NINCADA.png",
+      "generation": 3
+    },
+    {
+      "id": "NINJASK",
+      "name": "Ninjask",
+      "image": "/images/pokemonFrontShiny/NINJASK.png",
+      "generation": 3
+    },
+    {
+      "id": "SHEDINJA",
+      "name": "Shedinja",
+      "image": "/images/pokemonFrontShiny/SHEDINJA.png",
+      "generation": 3
+    },
+    {
+      "id": "WHISMUR",
+      "name": "Whismur",
+      "image": "/images/pokemonFrontShiny/WHISMUR.png",
+      "generation": 3
+    },
+    {
+      "id": "LOUDRED",
+      "name": "Loudred",
+      "image": "/images/pokemonFrontShiny/LOUDRED.png",
+      "generation": 3
+    },
+    {
+      "id": "EXPLOUD",
+      "name": "Exploud",
+      "image": "/images/pokemonFrontShiny/EXPLOUD.png",
+      "generation": 3
+    },
+    {
+      "id": "MAKUHITA",
+      "name": "Makuhita",
+      "image": "/images/pokemonFrontShiny/MAKUHITA.png",
+      "generation": 3
+    },
+    {
+      "id": "HARIYAMA",
+      "name": "Hariyama",
+      "image": "/images/pokemonFrontShiny/HARIYAMA.png",
+      "generation": 3
+    },
+    {
+      "id": "AZURILL",
+      "name": "Azurill",
+      "image": "/images/pokemonFrontShiny/AZURILL.png",
+      "generation": 3
+    },
+    {
+      "id": "NOSEPASS",
+      "name": "Nosepass",
+      "image": "/images/pokemonFrontShiny/NOSEPASS.png",
+      "generation": 3
+    },
+    {
+      "id": "SKITTY",
+      "name": "Skitty",
+      "image": "/images/pokemonFrontShiny/SKITTY.png",
+      "generation": 3
+    },
+    {
+      "id": "DELCATTY",
+      "name": "Delcatty",
+      "image": "/images/pokemonFrontShiny/DELCATTY.png",
+      "generation": 3
+    },
+    {
+      "id": "SABLEYE",
+      "name": "Sableye",
+      "image": "/images/pokemonFrontShiny/SABLEYE.png",
+      "generation": 3
+    },
+    {
+      "id": "MAWILE",
+      "name": "Mawile",
+      "image": "/images/pokemonFrontShiny/MAWILE.png",
+      "generation": 3
+    },
+    {
+      "id": "ARON",
+      "name": "Aron",
+      "image": "/images/pokemonFrontShiny/ARON.png",
+      "generation": 3
+    },
+    {
+      "id": "LAIRON",
+      "name": "Lairon",
+      "image": "/images/pokemonFrontShiny/LAIRON.png",
+      "generation": 3
+    },
+    {
+      "id": "AGGRON",
+      "name": "Aggron",
+      "image": "/images/pokemonFrontShiny/AGGRON.png",
+      "generation": 3
+    },
+    {
+      "id": "MEDITITE",
+      "name": "Meditite",
+      "image": "/images/pokemonFrontShiny/MEDITITE.png",
+      "generation": 3
+    },
+    {
+      "id": "MEDICHAM",
+      "name": "Medicham",
+      "image": "/images/pokemonFrontShiny/MEDICHAM.png",
+      "generation": 3
+    },
+    {
+      "id": "ELECTRIKE",
+      "name": "Electrike",
+      "image": "/images/pokemonFrontShiny/ELECTRIKE.png",
+      "generation": 3
+    },
+    {
+      "id": "MANECTRIC",
+      "name": "Manectric",
+      "image": "/images/pokemonFrontShiny/MANECTRIC.png",
+      "generation": 3
+    },
+    {
+      "id": "PLUSLE",
+      "name": "Plusle",
+      "image": "/images/pokemonFrontShiny/PLUSLE.png",
+      "generation": 3
+    },
+    {
+      "id": "MINUN",
+      "name": "Minun",
+      "image": "/images/pokemonFrontShiny/MINUN.png",
+      "generation": 3
+    },
+    {
+      "id": "VOLBEAT",
+      "name": "Volbeat",
+      "image": "/images/pokemonFrontShiny/VOLBEAT.png",
+      "generation": 3
+    },
+    {
+      "id": "ILLUMISE",
+      "name": "Illumise",
+      "image": "/images/pokemonFrontShiny/ILLUMISE.png",
+      "generation": 3
+    },
+    {
+      "id": "ROSELIA",
+      "name": "Roselia",
+      "image": "/images/pokemonFrontShiny/ROSELIA.png",
+      "generation": 3
+    },
+    {
+      "id": "GULPIN",
+      "name": "Gulpin",
+      "image": "/images/pokemonFrontShiny/GULPIN.png",
+      "generation": 3
+    },
+    {
+      "id": "SWALOT",
+      "name": "Swalot",
+      "image": "/images/pokemonFrontShiny/SWALOT.png",
+      "generation": 3
+    },
+    {
+      "id": "CARVANHA",
+      "name": "Carvanha",
+      "image": "/images/pokemonFrontShiny/CARVANHA.png",
+      "generation": 3
+    },
+    {
+      "id": "SHARPEDO",
+      "name": "Sharpedo",
+      "image": "/images/pokemonFrontShiny/SHARPEDO.png",
+      "generation": 3
+    },
+    {
+      "id": "WAILMER",
+      "name": "Wailmer",
+      "image": "/images/pokemonFrontShiny/WAILMER.png",
+      "generation": 3
+    },
+    {
+      "id": "WAILORD",
+      "name": "Wailord",
+      "image": "/images/pokemonFrontShiny/WAILORD.png",
+      "generation": 3
+    },
+    {
+      "id": "NUMEL",
+      "name": "Numel",
+      "image": "/images/pokemonFrontShiny/NUMEL.png",
+      "generation": 3
+    },
+    {
+      "id": "CAMERUPT",
+      "name": "Camerupt",
+      "image": "/images/pokemonFrontShiny/CAMERUPT.png",
+      "generation": 3
+    },
+    {
+      "id": "TORKOAL",
+      "name": "Torkoal",
+      "image": "/images/pokemonFrontShiny/TORKOAL.png",
+      "generation": 3
+    },
+    {
+      "id": "SPOINK",
+      "name": "Spoink",
+      "image": "/images/pokemonFrontShiny/SPOINK.png",
+      "generation": 3
+    },
+    {
+      "id": "GRUMPIG",
+      "name": "Grumpig",
+      "image": "/images/pokemonFrontShiny/GRUMPIG.png",
+      "generation": 3
+    },
+    {
+      "id": "SPINDA",
+      "name": "Spinda",
+      "image": "/images/pokemonFrontShiny/SPINDA.png",
+      "generation": 3
+    },
+    {
+      "id": "TRAPINCH",
+      "name": "Trapinch",
+      "image": "/images/pokemonFrontShiny/TRAPINCH.png",
+      "generation": 3
+    },
+    {
+      "id": "VIBRAVA",
+      "name": "Vibrava",
+      "image": "/images/pokemonFrontShiny/VIBRAVA.png",
+      "generation": 3
+    },
+    {
+      "id": "FLYGON",
+      "name": "Flygon",
+      "image": "/images/pokemonFrontShiny/FLYGON.png",
+      "generation": 3
+    },
+    {
+      "id": "CACNEA",
+      "name": "Cacnea",
+      "image": "/images/pokemonFrontShiny/CACNEA.png",
+      "generation": 3
+    },
+    {
+      "id": "CACTURNE",
+      "name": "Cacturne",
+      "image": "/images/pokemonFrontShiny/CACTURNE.png",
+      "generation": 3
+    },
+    {
+      "id": "SWABLU",
+      "name": "Swablu",
+      "image": "/images/pokemonFrontShiny/SWABLU.png",
+      "generation": 3
+    },
+    {
+      "id": "ALTARIA",
+      "name": "Altaria",
+      "image": "/images/pokemonFrontShiny/ALTARIA.png",
+      "generation": 3
+    },
+    {
+      "id": "ZANGOOSE",
+      "name": "Zangoose",
+      "image": "/images/pokemonFrontShiny/ZANGOOSE.png",
+      "generation": 3
+    },
+    {
+      "id": "SEVIPER",
+      "name": "Seviper",
+      "image": "/images/pokemonFrontShiny/SEVIPER.png",
+      "generation": 3
+    },
+    {
+      "id": "LUNATONE",
+      "name": "Lunatone",
+      "image": "/images/pokemonFrontShiny/LUNATONE.png",
+      "generation": 3
+    },
+    {
+      "id": "SOLROCK",
+      "name": "Solrock",
+      "image": "/images/pokemonFrontShiny/SOLROCK.png",
+      "generation": 3
+    },
+    {
+      "id": "BARBOACH",
+      "name": "Barboach",
+      "image": "/images/pokemonFrontShiny/BARBOACH.png",
+      "generation": 3
+    },
+    {
+      "id": "WHISCASH",
+      "name": "Whiscash",
+      "image": "/images/pokemonFrontShiny/WHISCASH.png",
+      "generation": 3
+    },
+    {
+      "id": "CORPHISH",
+      "name": "Corphish",
+      "image": "/images/pokemonFrontShiny/CORPHISH.png",
+      "generation": 3
+    },
+    {
+      "id": "CRAWDAUNT",
+      "name": "Crawdaunt",
+      "image": "/images/pokemonFrontShiny/CRAWDAUNT.png",
+      "generation": 3
+    },
+    {
+      "id": "BALTOY",
+      "name": "Baltoy",
+      "image": "/images/pokemonFrontShiny/BALTOY.png",
+      "generation": 3
+    },
+    {
+      "id": "CLAYDOL",
+      "name": "Claydol",
+      "image": "/images/pokemonFrontShiny/CLAYDOL.png",
+      "generation": 3
+    },
+    {
+      "id": "LILEEP",
+      "name": "Lileep",
+      "image": "/images/pokemonFrontShiny/LILEEP.png",
+      "generation": 3
+    },
+    {
+      "id": "CRADILY",
+      "name": "Cradily",
+      "image": "/images/pokemonFrontShiny/CRADILY.png",
+      "generation": 3
+    },
+    {
+      "id": "ANORITH",
+      "name": "Anorith",
+      "image": "/images/pokemonFrontShiny/ANORITH.png",
+      "generation": 3
+    },
+    {
+      "id": "ARMALDO",
+      "name": "Armaldo",
+      "image": "/images/pokemonFrontShiny/ARMALDO.png",
+      "generation": 3
+    },
+    {
+      "id": "FEEBAS",
+      "name": "Feebas",
+      "image": "/images/pokemonFrontShiny/FEEBAS.png",
+      "generation": 3
+    },
+    {
+      "id": "MILOTIC",
+      "name": "Milotic",
+      "image": "/images/pokemonFrontShiny/MILOTIC.png",
+      "generation": 3
+    },
+    {
+      "id": "CASTFORM",
+      "name": "Castform",
+      "image": "/images/pokemonFrontShiny/CASTFORM.png",
+      "generation": 3
+    },
+    {
+      "id": "KECLEON",
+      "name": "Kecleon",
+      "image": "/images/pokemonFrontShiny/KECLEON.png",
+      "generation": 3
+    },
+    {
+      "id": "SHUPPET",
+      "name": "Shuppet",
+      "image": "/images/pokemonFrontShiny/SHUPPET.png",
+      "generation": 3
+    },
+    {
+      "id": "BANETTE",
+      "name": "Banette",
+      "image": "/images/pokemonFrontShiny/BANETTE.png",
+      "generation": 3
+    },
+    {
+      "id": "DUSKULL",
+      "name": "Duskull",
+      "image": "/images/pokemonFrontShiny/DUSKULL.png",
+      "generation": 3
+    },
+    {
+      "id": "DUSCLOPS",
+      "name": "Dusclops",
+      "image": "/images/pokemonFrontShiny/DUSCLOPS.png",
+      "generation": 3
+    },
+    {
+      "id": "TROPIUS",
+      "name": "Tropius",
+      "image": "/images/pokemonFrontShiny/TROPIUS.png",
+      "generation": 3
+    },
+    {
+      "id": "CHIMECHO",
+      "name": "Chimecho",
+      "image": "/images/pokemonFrontShiny/CHIMECHO.png",
+      "generation": 3
+    },
+    {
+      "id": "ABSOL",
+      "name": "Absol",
+      "image": "/images/pokemonFrontShiny/ABSOL.png",
+      "generation": 3
+    },
+    {
+      "id": "WYNAUT",
+      "name": "Wynaut",
+      "image": "/images/pokemonFrontShiny/WYNAUT.png",
+      "generation": 3
+    },
+    {
+      "id": "SNORUNT",
+      "name": "Snorunt",
+      "image": "/images/pokemonFrontShiny/SNORUNT.png",
+      "generation": 3
+    },
+    {
+      "id": "GLALIE",
+      "name": "Glalie",
+      "image": "/images/pokemonFrontShiny/GLALIE.png",
+      "generation": 3
+    },
+    {
+      "id": "SPHEAL",
+      "name": "Spheal",
+      "image": "/images/pokemonFrontShiny/SPHEAL.png",
+      "generation": 3
+    },
+    {
+      "id": "SEALEO",
+      "name": "Sealeo",
+      "image": "/images/pokemonFrontShiny/SEALEO.png",
+      "generation": 3
+    },
+    {
+      "id": "WALREIN",
+      "name": "Walrein",
+      "image": "/images/pokemonFrontShiny/WALREIN.png",
+      "generation": 3
+    },
+    {
+      "id": "CLAMPERL",
+      "name": "Clamperl",
+      "image": "/images/pokemonFrontShiny/CLAMPERL.png",
+      "generation": 3
+    },
+    {
+      "id": "HUNTAIL",
+      "name": "Huntail",
+      "image": "/images/pokemonFrontShiny/HUNTAIL.png",
+      "generation": 3
+    },
+    {
+      "id": "GOREBYSS",
+      "name": "Gorebyss",
+      "image": "/images/pokemonFrontShiny/GOREBYSS.png",
+      "generation": 3
+    },
+    {
+      "id": "RELICANTH",
+      "name": "Relicanth",
+      "image": "/images/pokemonFrontShiny/RELICANTH.png",
+      "generation": 3
+    },
+    {
+      "id": "LUVDISC",
+      "name": "Luvdisc",
+      "image": "/images/pokemonFrontShiny/LUVDISC.png",
+      "generation": 3
+    },
+    {
+      "id": "BAGON",
+      "name": "Bagon",
+      "image": "/images/pokemonFrontShiny/BAGON.png",
+      "generation": 3
+    },
+    {
+      "id": "SHELGON",
+      "name": "Shelgon",
+      "image": "/images/pokemonFrontShiny/SHELGON.png",
+      "generation": 3
+    },
+    {
+      "id": "SALAMENCE",
+      "name": "Salamence",
+      "image": "/images/pokemonFrontShiny/SALAMENCE.png",
+      "generation": 3
+    },
+    {
+      "id": "BELDUM",
+      "name": "Beldum",
+      "image": "/images/pokemonFrontShiny/BELDUM.png",
+      "generation": 3
+    },
+    {
+      "id": "METANG",
+      "name": "Metang",
+      "image": "/images/pokemonFrontShiny/METANG.png",
+      "generation": 3
+    },
+    {
+      "id": "METAGROSS",
+      "name": "Metagross",
+      "image": "/images/pokemonFrontShiny/METAGROSS.png",
+      "generation": 3
+    },
+    {
+      "id": "REGIROCK",
+      "name": "Regirock",
+      "image": "/images/pokemonFrontShiny/REGIROCK.png",
+      "generation": 3
+    },
+    {
+      "id": "REGICE",
+      "name": "Regice",
+      "image": "/images/pokemonFrontShiny/REGICE.png",
+      "generation": 3
+    },
+    {
+      "id": "REGISTEEL",
+      "name": "Registeel",
+      "image": "/images/pokemonFrontShiny/REGISTEEL.png",
+      "generation": 3
+    },
+    {
+      "id": "LATIAS",
+      "name": "Latias",
+      "image": "/images/pokemonFrontShiny/LATIAS.png",
+      "generation": 3
+    },
+    {
+      "id": "LATIOS",
+      "name": "Latios",
+      "image": "/images/pokemonFrontShiny/LATIOS.png",
+      "generation": 3
+    },
+    {
+      "id": "KYOGRE",
+      "name": "Kyogre",
+      "image": "/images/pokemonFrontShiny/KYOGRE.png",
+      "generation": 3
+    },
+    {
+      "id": "GROUDON",
+      "name": "Groudon",
+      "image": "/images/pokemonFrontShiny/GROUDON.png",
+      "generation": 3
+    },
+    {
+      "id": "RAYQUAZA",
+      "name": "Rayquaza",
+      "image": "/images/pokemonFrontShiny/RAYQUAZA.png",
+      "generation": 3
+    },
+    {
+      "id": "JIRACHI",
+      "name": "Jirachi",
+      "image": "/images/pokemonFrontShiny/JIRACHI.png",
+      "generation": 3
+    },
+    {
+      "id": "DEOXYS",
+      "name": "Deoxys",
+      "image": "/images/pokemonFrontShiny/DEOXYS.png",
+      "generation": 3
+    },
+    {
+      "id": "TURTWIG",
+      "name": "Turtwig",
+      "image": "/images/pokemonFrontShiny/TURTWIG.png",
+      "generation": 4
+    },
+    {
+      "id": "GROTLE",
+      "name": "Grotle",
+      "image": "/images/pokemonFrontShiny/GROTLE.png",
+      "generation": 4
+    },
+    {
+      "id": "TORTERRA",
+      "name": "Torterra",
+      "image": "/images/pokemonFrontShiny/TORTERRA.png",
+      "generation": 4
+    },
+    {
+      "id": "CHIMCHAR",
+      "name": "Chimchar",
+      "image": "/images/pokemonFrontShiny/CHIMCHAR.png",
+      "generation": 4
+    },
+    {
+      "id": "MONFERNO",
+      "name": "Monferno",
+      "image": "/images/pokemonFrontShiny/MONFERNO.png",
+      "generation": 4
+    },
+    {
+      "id": "INFERNAPE",
+      "name": "Infernape",
+      "image": "/images/pokemonFrontShiny/INFERNAPE.png",
+      "generation": 4
+    },
+    {
+      "id": "PIPLUP",
+      "name": "Piplup",
+      "image": "/images/pokemonFrontShiny/PIPLUP.png",
+      "generation": 4
+    },
+    {
+      "id": "PRINPLUP",
+      "name": "Prinplup",
+      "image": "/images/pokemonFrontShiny/PRINPLUP.png",
+      "generation": 4
+    },
+    {
+      "id": "EMPOLEON",
+      "name": "Empoleon",
+      "image": "/images/pokemonFrontShiny/EMPOLEON.png",
+      "generation": 4
+    },
+    {
+      "id": "STARLY",
+      "name": "Starly",
+      "image": "/images/pokemonFrontShiny/STARLY.png",
+      "generation": 4
+    },
+    {
+      "id": "STARAVIA",
+      "name": "Staravia",
+      "image": "/images/pokemonFrontShiny/STARAVIA.png",
+      "generation": 4
+    },
+    {
+      "id": "STARAPTOR",
+      "name": "Staraptor",
+      "image": "/images/pokemonFrontShiny/STARAPTOR.png",
+      "generation": 4
+    },
+    {
+      "id": "BIDOOF",
+      "name": "Bidoof",
+      "image": "/images/pokemonFrontShiny/BIDOOF.png",
+      "generation": 4
+    },
+    {
+      "id": "BIBAREL",
+      "name": "Bibarel",
+      "image": "/images/pokemonFrontShiny/BIBAREL.png",
+      "generation": 4
+    },
+    {
+      "id": "KRICKETOT",
+      "name": "Kricketot",
+      "image": "/images/pokemonFrontShiny/KRICKETOT.png",
+      "generation": 4
+    },
+    {
+      "id": "KRICKETUNE",
+      "name": "Kricketune",
+      "image": "/images/pokemonFrontShiny/KRICKETUNE.png",
+      "generation": 4
+    },
+    {
+      "id": "SHINX",
+      "name": "Shinx",
+      "image": "/images/pokemonFrontShiny/SHINX.png",
+      "generation": 4
+    },
+    {
+      "id": "LUXIO",
+      "name": "Luxio",
+      "image": "/images/pokemonFrontShiny/LUXIO.png",
+      "generation": 4
+    },
+    {
+      "id": "LUXRAY",
+      "name": "Luxray",
+      "image": "/images/pokemonFrontShiny/LUXRAY.png",
+      "generation": 4
+    },
+    {
+      "id": "BUDEW",
+      "name": "Budew",
+      "image": "/images/pokemonFrontShiny/BUDEW.png",
+      "generation": 4
+    },
+    {
+      "id": "ROSERADE",
+      "name": "Roserade",
+      "image": "/images/pokemonFrontShiny/ROSERADE.png",
+      "generation": 4
+    },
+    {
+      "id": "CRANIDOS",
+      "name": "Cranidos",
+      "image": "/images/pokemonFrontShiny/CRANIDOS.png",
+      "generation": 4
+    },
+    {
+      "id": "RAMPARDOS",
+      "name": "Rampardos",
+      "image": "/images/pokemonFrontShiny/RAMPARDOS.png",
+      "generation": 4
+    },
+    {
+      "id": "SHIELDON",
+      "name": "Shieldon",
+      "image": "/images/pokemonFrontShiny/SHIELDON.png",
+      "generation": 4
+    },
+    {
+      "id": "BASTIODON",
+      "name": "Bastiodon",
+      "image": "/images/pokemonFrontShiny/BASTIODON.png",
+      "generation": 4
+    },
+    {
+      "id": "BURMY",
+      "name": "Burmy",
+      "image": "/images/pokemonFrontShiny/BURMY.png",
+      "generation": 4
+    },
+    {
+      "id": "WORMADAM",
+      "name": "Wormadam",
+      "image": "/images/pokemonFrontShiny/WORMADAM.png",
+      "generation": 4
+    },
+    {
+      "id": "MOTHIM",
+      "name": "Mothim",
+      "image": "/images/pokemonFrontShiny/MOTHIM.png",
+      "generation": 4
+    },
+    {
+      "id": "COMBEE",
+      "name": "Combee",
+      "image": "/images/pokemonFrontShiny/COMBEE.png",
+      "generation": 4
+    },
+    {
+      "id": "VESPIQUEN",
+      "name": "Vespiquen",
+      "image": "/images/pokemonFrontShiny/VESPIQUEN.png",
+      "generation": 4
+    },
+    {
+      "id": "PACHIRISU",
+      "name": "Pachirisu",
+      "image": "/images/pokemonFrontShiny/PACHIRISU.png",
+      "generation": 4
+    },
+    {
+      "id": "BUIZEL",
+      "name": "Buizel",
+      "image": "/images/pokemonFrontShiny/BUIZEL.png",
+      "generation": 4
+    },
+    {
+      "id": "FLOATZEL",
+      "name": "Floatzel",
+      "image": "/images/pokemonFrontShiny/FLOATZEL.png",
+      "generation": 4
+    },
+    {
+      "id": "CHERUBI",
+      "name": "Cherubi",
+      "image": "/images/pokemonFrontShiny/CHERUBI.png",
+      "generation": 4
+    },
+    {
+      "id": "CHERRIM",
+      "name": "Cherrim",
+      "image": "/images/pokemonFrontShiny/CHERRIM.png",
+      "generation": 4
+    },
+    {
+      "id": "SHELLOS",
+      "name": "Shellos",
+      "image": "/images/pokemonFrontShiny/SHELLOS.png",
+      "generation": 4
+    },
+    {
+      "id": "GASTRODON",
+      "name": "Gastrodon",
+      "image": "/images/pokemonFrontShiny/GASTRODON.png",
+      "generation": 4
+    },
+    {
+      "id": "AMBIPOM",
+      "name": "Ambipom",
+      "image": "/images/pokemonFrontShiny/AMBIPOM.png",
+      "generation": 4
+    },
+    {
+      "id": "DRIFLOON",
+      "name": "Drifloon",
+      "image": "/images/pokemonFrontShiny/DRIFLOON.png",
+      "generation": 4
+    },
+    {
+      "id": "DRIFBLIM",
+      "name": "Drifblim",
+      "image": "/images/pokemonFrontShiny/DRIFBLIM.png",
+      "generation": 4
+    },
+    {
+      "id": "BUNEARY",
+      "name": "Buneary",
+      "image": "/images/pokemonFrontShiny/BUNEARY.png",
+      "generation": 4
+    },
+    {
+      "id": "LOPUNNY",
+      "name": "Lopunny",
+      "image": "/images/pokemonFrontShiny/LOPUNNY.png",
+      "generation": 4
+    },
+    {
+      "id": "MISMAGIUS",
+      "name": "Mismagius",
+      "image": "/images/pokemonFrontShiny/MISMAGIUS.png",
+      "generation": 4
+    },
+    {
+      "id": "HONCHKROW",
+      "name": "Honchkrow",
+      "image": "/images/pokemonFrontShiny/HONCHKROW.png",
+      "generation": 4
+    },
+    {
+      "id": "GLAMEOW",
+      "name": "Glameow",
+      "image": "/images/pokemonFrontShiny/GLAMEOW.png",
+      "generation": 4
+    },
+    {
+      "id": "PURUGLY",
+      "name": "Purugly",
+      "image": "/images/pokemonFrontShiny/PURUGLY.png",
+      "generation": 4
+    },
+    {
+      "id": "CHINGLING",
+      "name": "Chingling",
+      "image": "/images/pokemonFrontShiny/CHINGLING.png",
+      "generation": 4
+    },
+    {
+      "id": "STUNKY",
+      "name": "Stunky",
+      "image": "/images/pokemonFrontShiny/STUNKY.png",
+      "generation": 4
+    },
+    {
+      "id": "SKUNTANK",
+      "name": "Skuntank",
+      "image": "/images/pokemonFrontShiny/SKUNTANK.png",
+      "generation": 4
+    },
+    {
+      "id": "BRONZOR",
+      "name": "Bronzor",
+      "image": "/images/pokemonFrontShiny/BRONZOR.png",
+      "generation": 4
+    },
+    {
+      "id": "BRONZONG",
+      "name": "Bronzong",
+      "image": "/images/pokemonFrontShiny/BRONZONG.png",
+      "generation": 4
+    },
+    {
+      "id": "BONSLY",
+      "name": "Bonsly",
+      "image": "/images/pokemonFrontShiny/BONSLY.png",
+      "generation": 4
+    },
+    {
+      "id": "MIMEJR",
+      "name": "Mime Jr.",
+      "image": "/images/pokemonFrontShiny/MIMEJR.png",
+      "generation": 4
+    },
+    {
+      "id": "HAPPINY",
+      "name": "Happiny",
+      "image": "/images/pokemonFrontShiny/HAPPINY.png",
+      "generation": 4
+    },
+    {
+      "id": "CHATOT",
+      "name": "Chatot",
+      "image": "/images/pokemonFrontShiny/CHATOT.png",
+      "generation": 4
+    },
+    {
+      "id": "SPIRITOMB",
+      "name": "Spiritomb",
+      "image": "/images/pokemonFrontShiny/SPIRITOMB.png",
+      "generation": 4
+    },
+    {
+      "id": "GIBLE",
+      "name": "Gible",
+      "image": "/images/pokemonFrontShiny/GIBLE.png",
+      "generation": 4
+    },
+    {
+      "id": "GABITE",
+      "name": "Gabite",
+      "image": "/images/pokemonFrontShiny/GABITE.png",
+      "generation": 4
+    },
+    {
+      "id": "GARCHOMP",
+      "name": "Garchomp",
+      "image": "/images/pokemonFrontShiny/GARCHOMP.png",
+      "generation": 4
+    },
+    {
+      "id": "MUNCHLAX",
+      "name": "Munchlax",
+      "image": "/images/pokemonFrontShiny/MUNCHLAX.png",
+      "generation": 4
+    },
+    {
+      "id": "RIOLU",
+      "name": "Riolu",
+      "image": "/images/pokemonFrontShiny/RIOLU.png",
+      "generation": 4
+    },
+    {
+      "id": "LUCARIO",
+      "name": "Lucario",
+      "image": "/images/pokemonFrontShiny/LUCARIO.png",
+      "generation": 4
+    },
+    {
+      "id": "HIPPOPOTAS",
+      "name": "Hippopotas",
+      "image": "/images/pokemonFrontShiny/HIPPOPOTAS.png",
+      "generation": 4
+    },
+    {
+      "id": "HIPPOWDON",
+      "name": "Hippowdon",
+      "image": "/images/pokemonFrontShiny/HIPPOWDON.png",
+      "generation": 4
+    },
+    {
+      "id": "SKORUPI",
+      "name": "Skorupi",
+      "image": "/images/pokemonFrontShiny/SKORUPI.png",
+      "generation": 4
+    },
+    {
+      "id": "DRAPION",
+      "name": "Drapion",
+      "image": "/images/pokemonFrontShiny/DRAPION.png",
+      "generation": 4
+    },
+    {
+      "id": "CROAGUNK",
+      "name": "Croagunk",
+      "image": "/images/pokemonFrontShiny/CROAGUNK.png",
+      "generation": 4
+    },
+    {
+      "id": "TOXICROAK",
+      "name": "Toxicroak",
+      "image": "/images/pokemonFrontShiny/TOXICROAK.png",
+      "generation": 4
+    },
+    {
+      "id": "CARNIVINE",
+      "name": "Carnivine",
+      "image": "/images/pokemonFrontShiny/CARNIVINE.png",
+      "generation": 4
+    },
+    {
+      "id": "FINNEON",
+      "name": "Finneon",
+      "image": "/images/pokemonFrontShiny/FINNEON.png",
+      "generation": 4
+    },
+    {
+      "id": "LUMINEON",
+      "name": "Lumineon",
+      "image": "/images/pokemonFrontShiny/LUMINEON.png",
+      "generation": 4
+    },
+    {
+      "id": "MANTYKE",
+      "name": "Mantyke",
+      "image": "/images/pokemonFrontShiny/MANTYKE.png",
+      "generation": 4
+    },
+    {
+      "id": "SNOVER",
+      "name": "Snover",
+      "image": "/images/pokemonFrontShiny/SNOVER.png",
+      "generation": 4
+    },
+    {
+      "id": "ABOMASNOW",
+      "name": "Abomasnow",
+      "image": "/images/pokemonFrontShiny/ABOMASNOW.png",
+      "generation": 4
+    },
+    {
+      "id": "WEAVILE",
+      "name": "Weavile",
+      "image": "/images/pokemonFrontShiny/WEAVILE.png",
+      "generation": 4
+    },
+    {
+      "id": "MAGNEZONE",
+      "name": "Magnezone",
+      "image": "/images/pokemonFrontShiny/MAGNEZONE.png",
+      "generation": 4
+    },
+    {
+      "id": "LICKILICKY",
+      "name": "Lickilicky",
+      "image": "/images/pokemonFrontShiny/LICKILICKY.png",
+      "generation": 4
+    },
+    {
+      "id": "RHYPERIOR",
+      "name": "Rhyperior",
+      "image": "/images/pokemonFrontShiny/RHYPERIOR.png",
+      "generation": 4
+    },
+    {
+      "id": "TANGROWTH",
+      "name": "Tangrowth",
+      "image": "/images/pokemonFrontShiny/TANGROWTH.png",
+      "generation": 4
+    },
+    {
+      "id": "ELECTIVIRE",
+      "name": "Electivire",
+      "image": "/images/pokemonFrontShiny/ELECTIVIRE.png",
+      "generation": 4
+    },
+    {
+      "id": "MAGMORTAR",
+      "name": "Magmortar",
+      "image": "/images/pokemonFrontShiny/MAGMORTAR.png",
+      "generation": 4
+    },
+    {
+      "id": "TOGEKISS",
+      "name": "Togekiss",
+      "image": "/images/pokemonFrontShiny/TOGEKISS.png",
+      "generation": 4
+    },
+    {
+      "id": "YANMEGA",
+      "name": "Yanmega",
+      "image": "/images/pokemonFrontShiny/YANMEGA.png",
+      "generation": 4
+    },
+    {
+      "id": "LEAFEON",
+      "name": "Leafeon",
+      "image": "/images/pokemonFrontShiny/LEAFEON.png",
+      "generation": 4
+    },
+    {
+      "id": "GLACEON",
+      "name": "Glaceon",
+      "image": "/images/pokemonFrontShiny/GLACEON.png",
+      "generation": 4
+    },
+    {
+      "id": "GLISCOR",
+      "name": "Gliscor",
+      "image": "/images/pokemonFrontShiny/GLISCOR.png",
+      "generation": 4
+    },
+    {
+      "id": "MAMOSWINE",
+      "name": "Mamoswine",
+      "image": "/images/pokemonFrontShiny/MAMOSWINE.png",
+      "generation": 4
+    },
+    {
+      "id": "PORYGONZ",
+      "name": "Porygon-Z",
+      "image": "/images/pokemonFrontShiny/PORYGONZ.png",
+      "generation": 4
+    },
+    {
+      "id": "GALLADE",
+      "name": "Gallade",
+      "image": "/images/pokemonFrontShiny/GALLADE.png",
+      "generation": 4
+    },
+    {
+      "id": "PROBOPASS",
+      "name": "Probopass",
+      "image": "/images/pokemonFrontShiny/PROBOPASS.png",
+      "generation": 4
+    },
+    {
+      "id": "DUSKNOIR",
+      "name": "Dusknoir",
+      "image": "/images/pokemonFrontShiny/DUSKNOIR.png",
+      "generation": 4
+    },
+    {
+      "id": "FROSLASS",
+      "name": "Froslass",
+      "image": "/images/pokemonFrontShiny/FROSLASS.png",
+      "generation": 4
+    },
+    {
+      "id": "ROTOM",
+      "name": "Rotom",
+      "image": "/images/pokemonFrontShiny/ROTOM.png",
+      "generation": 4
+    },
+    {
+      "id": "UXIE",
+      "name": "Uxie",
+      "image": "/images/pokemonFrontShiny/UXIE.png",
+      "generation": 4
+    },
+    {
+      "id": "MESPRIT",
+      "name": "Mesprit",
+      "image": "/images/pokemonFrontShiny/MESPRIT.png",
+      "generation": 4
+    },
+    {
+      "id": "AZELF",
+      "name": "Azelf",
+      "image": "/images/pokemonFrontShiny/AZELF.png",
+      "generation": 4
+    },
+    {
+      "id": "DIALGA",
+      "name": "Dialga",
+      "image": "/images/pokemonFrontShiny/DIALGA.png",
+      "generation": 4
+    },
+    {
+      "id": "PALKIA",
+      "name": "Palkia",
+      "image": "/images/pokemonFrontShiny/PALKIA.png",
+      "generation": 4
+    },
+    {
+      "id": "HEATRAN",
+      "name": "Heatran",
+      "image": "/images/pokemonFrontShiny/HEATRAN.png",
+      "generation": 4
+    },
+    {
+      "id": "REGIGIGAS",
+      "name": "Regigigas",
+      "image": "/images/pokemonFrontShiny/REGIGIGAS.png",
+      "generation": 4
+    },
+    {
+      "id": "GIRATINA",
+      "name": "Giratina",
+      "image": "/images/pokemonFrontShiny/GIRATINA.png",
+      "generation": 4
+    },
+    {
+      "id": "CRESSELIA",
+      "name": "Cresselia",
+      "image": "/images/pokemonFrontShiny/CRESSELIA.png",
+      "generation": 4
+    },
+    {
+      "id": "PHIONE",
+      "name": "Phione",
+      "image": "/images/pokemonFrontShiny/PHIONE.png",
+      "generation": 4
+    },
+    {
+      "id": "MANAPHY",
+      "name": "Manaphy",
+      "image": "/images/pokemonFrontShiny/MANAPHY.png",
+      "generation": 4
+    },
+    {
+      "id": "DARKRAI",
+      "name": "Darkrai",
+      "image": "/images/pokemonFrontShiny/DARKRAI.png",
+      "generation": 4
+    },
+    {
+      "id": "SHAYMIN",
+      "name": "Shaymin",
+      "image": "/images/pokemonFrontShiny/SHAYMIN.png",
+      "generation": 4
+    },
+    {
+      "id": "ARCEUS",
+      "name": "Arceus",
+      "image": "/images/pokemonFrontShiny/ARCEUS.png",
+      "generation": 4
+    },
+    {
+      "id": "VICTINI",
+      "name": "Victini",
+      "image": "/images/pokemonFrontShiny/VICTINI.png",
+      "generation": 5
+    },
+    {
+      "id": "SNIVY",
+      "name": "Snivy",
+      "image": "/images/pokemonFrontShiny/SNIVY.png",
+      "generation": 5
+    },
+    {
+      "id": "SERVINE",
+      "name": "Servine",
+      "image": "/images/pokemonFrontShiny/SERVINE.png",
+      "generation": 5
+    },
+    {
+      "id": "SERPERIOR",
+      "name": "Serperior",
+      "image": "/images/pokemonFrontShiny/SERPERIOR.png",
+      "generation": 5
+    },
+    {
+      "id": "TEPIG",
+      "name": "Tepig",
+      "image": "/images/pokemonFrontShiny/TEPIG.png",
+      "generation": 5
+    },
+    {
+      "id": "PIGNITE",
+      "name": "Pignite",
+      "image": "/images/pokemonFrontShiny/PIGNITE.png",
+      "generation": 5
+    },
+    {
+      "id": "EMBOAR",
+      "name": "Emboar",
+      "image": "/images/pokemonFrontShiny/EMBOAR.png",
+      "generation": 5
+    },
+    {
+      "id": "OSHAWOTT",
+      "name": "Oshawott",
+      "image": "/images/pokemonFrontShiny/OSHAWOTT.png",
+      "generation": 5
+    },
+    {
+      "id": "DEWOTT",
+      "name": "Dewott",
+      "image": "/images/pokemonFrontShiny/DEWOTT.png",
+      "generation": 5
+    },
+    {
+      "id": "SAMUROTT",
+      "name": "Samurott",
+      "image": "/images/pokemonFrontShiny/SAMUROTT.png",
+      "generation": 5
+    },
+    {
+      "id": "PATRAT",
+      "name": "Patrat",
+      "image": "/images/pokemonFrontShiny/PATRAT.png",
+      "generation": 5
+    },
+    {
+      "id": "WATCHOG",
+      "name": "Watchog",
+      "image": "/images/pokemonFrontShiny/WATCHOG.png",
+      "generation": 5
+    },
+    {
+      "id": "LILLIPUP",
+      "name": "Lillipup",
+      "image": "/images/pokemonFrontShiny/LILLIPUP.png",
+      "generation": 5
+    },
+    {
+      "id": "HERDIER",
+      "name": "Herdier",
+      "image": "/images/pokemonFrontShiny/HERDIER.png",
+      "generation": 5
+    },
+    {
+      "id": "STOUTLAND",
+      "name": "Stoutland",
+      "image": "/images/pokemonFrontShiny/STOUTLAND.png",
+      "generation": 5
+    },
+    {
+      "id": "PURRLOIN",
+      "name": "Purrloin",
+      "image": "/images/pokemonFrontShiny/PURRLOIN.png",
+      "generation": 5
+    },
+    {
+      "id": "LIEPARD",
+      "name": "Liepard",
+      "image": "/images/pokemonFrontShiny/LIEPARD.png",
+      "generation": 5
+    },
+    {
+      "id": "PANSAGE",
+      "name": "Pansage",
+      "image": "/images/pokemonFrontShiny/PANSAGE.png",
+      "generation": 5
+    },
+    {
+      "id": "SIMISAGE",
+      "name": "Simisage",
+      "image": "/images/pokemonFrontShiny/SIMISAGE.png",
+      "generation": 5
+    },
+    {
+      "id": "PANSEAR",
+      "name": "Pansear",
+      "image": "/images/pokemonFrontShiny/PANSEAR.png",
+      "generation": 5
+    },
+    {
+      "id": "SIMISEAR",
+      "name": "Simisear",
+      "image": "/images/pokemonFrontShiny/SIMISEAR.png",
+      "generation": 5
+    },
+    {
+      "id": "PANPOUR",
+      "name": "Panpour",
+      "image": "/images/pokemonFrontShiny/PANPOUR.png",
+      "generation": 5
+    },
+    {
+      "id": "SIMIPOUR",
+      "name": "Simipour",
+      "image": "/images/pokemonFrontShiny/SIMIPOUR.png",
+      "generation": 5
+    },
+    {
+      "id": "MUNNA",
+      "name": "Munna",
+      "image": "/images/pokemonFrontShiny/MUNNA.png",
+      "generation": 5
+    },
+    {
+      "id": "MUSHARNA",
+      "name": "Musharna",
+      "image": "/images/pokemonFrontShiny/MUSHARNA.png",
+      "generation": 5
+    },
+    {
+      "id": "PIDOVE",
+      "name": "Pidove",
+      "image": "/images/pokemonFrontShiny/PIDOVE.png",
+      "generation": 5
+    },
+    {
+      "id": "TRANQUILL",
+      "name": "Tranquill",
+      "image": "/images/pokemonFrontShiny/TRANQUILL.png",
+      "generation": 5
+    },
+    {
+      "id": "UNFEZANT",
+      "name": "Unfezant",
+      "image": "/images/pokemonFrontShiny/UNFEZANT.png",
+      "generation": 5
+    },
+    {
+      "id": "BLITZLE",
+      "name": "Blitzle",
+      "image": "/images/pokemonFrontShiny/BLITZLE.png",
+      "generation": 5
+    },
+    {
+      "id": "ZEBSTRIKA",
+      "name": "Zebstrika",
+      "image": "/images/pokemonFrontShiny/ZEBSTRIKA.png",
+      "generation": 5
+    },
+    {
+      "id": "ROGGENROLA",
+      "name": "Roggenrola",
+      "image": "/images/pokemonFrontShiny/ROGGENROLA.png",
+      "generation": 5
+    },
+    {
+      "id": "BOLDORE",
+      "name": "Boldore",
+      "image": "/images/pokemonFrontShiny/BOLDORE.png",
+      "generation": 5
+    },
+    {
+      "id": "GIGALITH",
+      "name": "Gigalith",
+      "image": "/images/pokemonFrontShiny/GIGALITH.png",
+      "generation": 5
+    },
+    {
+      "id": "WOOBAT",
+      "name": "Woobat",
+      "image": "/images/pokemonFrontShiny/WOOBAT.png",
+      "generation": 5
+    },
+    {
+      "id": "SWOOBAT",
+      "name": "Swoobat",
+      "image": "/images/pokemonFrontShiny/SWOOBAT.png",
+      "generation": 5
+    },
+    {
+      "id": "DRILBUR",
+      "name": "Drilbur",
+      "image": "/images/pokemonFrontShiny/DRILBUR.png",
+      "generation": 5
+    },
+    {
+      "id": "EXCADRILL",
+      "name": "Excadrill",
+      "image": "/images/pokemonFrontShiny/EXCADRILL.png",
+      "generation": 5
+    },
+    {
+      "id": "AUDINO",
+      "name": "Audino",
+      "image": "/images/pokemonFrontShiny/AUDINO.png",
+      "generation": 5
+    },
+    {
+      "id": "TIMBURR",
+      "name": "Timburr",
+      "image": "/images/pokemonFrontShiny/TIMBURR.png",
+      "generation": 5
+    },
+    {
+      "id": "GURDURR",
+      "name": "Gurdurr",
+      "image": "/images/pokemonFrontShiny/GURDURR.png",
+      "generation": 5
+    },
+    {
+      "id": "CONKELDURR",
+      "name": "Conkeldurr",
+      "image": "/images/pokemonFrontShiny/CONKELDURR.png",
+      "generation": 5
+    },
+    {
+      "id": "TYMPOLE",
+      "name": "Tympole",
+      "image": "/images/pokemonFrontShiny/TYMPOLE.png",
+      "generation": 5
+    },
+    {
+      "id": "PALPITOAD",
+      "name": "Palpitoad",
+      "image": "/images/pokemonFrontShiny/PALPITOAD.png",
+      "generation": 5
+    },
+    {
+      "id": "SEISMITOAD",
+      "name": "Seismitoad",
+      "image": "/images/pokemonFrontShiny/SEISMITOAD.png",
+      "generation": 5
+    },
+    {
+      "id": "THROH",
+      "name": "Throh",
+      "image": "/images/pokemonFrontShiny/THROH.png",
+      "generation": 5
+    },
+    {
+      "id": "SAWK",
+      "name": "Sawk",
+      "image": "/images/pokemonFrontShiny/SAWK.png",
+      "generation": 5
+    },
+    {
+      "id": "SEWADDLE",
+      "name": "Sewaddle",
+      "image": "/images/pokemonFrontShiny/SEWADDLE.png",
+      "generation": 5
+    },
+    {
+      "id": "SWADLOON",
+      "name": "Swadloon",
+      "image": "/images/pokemonFrontShiny/SWADLOON.png",
+      "generation": 5
+    },
+    {
+      "id": "LEAVANNY",
+      "name": "Leavanny",
+      "image": "/images/pokemonFrontShiny/LEAVANNY.png",
+      "generation": 5
+    },
+    {
+      "id": "VENIPEDE",
+      "name": "Venipede",
+      "image": "/images/pokemonFrontShiny/VENIPEDE.png",
+      "generation": 5
+    },
+    {
+      "id": "WHIRLIPEDE",
+      "name": "Whirlipede",
+      "image": "/images/pokemonFrontShiny/WHIRLIPEDE.png",
+      "generation": 5
+    },
+    {
+      "id": "SCOLIPEDE",
+      "name": "Scolipede",
+      "image": "/images/pokemonFrontShiny/SCOLIPEDE.png",
+      "generation": 5
+    },
+    {
+      "id": "COTTONEE",
+      "name": "Cottonee",
+      "image": "/images/pokemonFrontShiny/COTTONEE.png",
+      "generation": 5
+    },
+    {
+      "id": "WHIMSICOTT",
+      "name": "Whimsicott",
+      "image": "/images/pokemonFrontShiny/WHIMSICOTT.png",
+      "generation": 5
+    },
+    {
+      "id": "PETILIL",
+      "name": "Petilil",
+      "image": "/images/pokemonFrontShiny/PETILIL.png",
+      "generation": 5
+    },
+    {
+      "id": "LILLIGANT",
+      "name": "Lilligant",
+      "image": "/images/pokemonFrontShiny/LILLIGANT.png",
+      "generation": 5
+    },
+    {
+      "id": "BASCULIN",
+      "name": "Basculin",
+      "image": "/images/pokemonFrontShiny/BASCULIN.png",
+      "generation": 8
+    },
+    {
+      "id": "SANDILE",
+      "name": "Sandile",
+      "image": "/images/pokemonFrontShiny/SANDILE.png",
+      "generation": 5
+    },
+    {
+      "id": "KROKOROK",
+      "name": "Krokorok",
+      "image": "/images/pokemonFrontShiny/KROKOROK.png",
+      "generation": 5
+    },
+    {
+      "id": "KROOKODILE",
+      "name": "Krookodile",
+      "image": "/images/pokemonFrontShiny/KROOKODILE.png",
+      "generation": 5
+    },
+    {
+      "id": "DARUMAKA",
+      "name": "Darumaka",
+      "image": "/images/pokemonFrontShiny/DARUMAKA.png",
+      "generation": 5
+    },
+    {
+      "id": "DARMANITAN",
+      "name": "Darmanitan",
+      "image": "/images/pokemonFrontShiny/DARMANITAN.png",
+      "generation": 5
+    },
+    {
+      "id": "MARACTUS",
+      "name": "Maractus",
+      "image": "/images/pokemonFrontShiny/MARACTUS.png",
+      "generation": 5
+    },
+    {
+      "id": "DWEBBLE",
+      "name": "Dwebble",
+      "image": "/images/pokemonFrontShiny/DWEBBLE.png",
+      "generation": 5
+    },
+    {
+      "id": "CRUSTLE",
+      "name": "Crustle",
+      "image": "/images/pokemonFrontShiny/CRUSTLE.png",
+      "generation": 5
+    },
+    {
+      "id": "SCRAGGY",
+      "name": "Scraggy",
+      "image": "/images/pokemonFrontShiny/SCRAGGY.png",
+      "generation": 5
+    },
+    {
+      "id": "SCRAFTY",
+      "name": "Scrafty",
+      "image": "/images/pokemonFrontShiny/SCRAFTY.png",
+      "generation": 5
+    },
+    {
+      "id": "SIGILYPH",
+      "name": "Sigilyph",
+      "image": "/images/pokemonFrontShiny/SIGILYPH.png",
+      "generation": 5
+    },
+    {
+      "id": "YAMASK",
+      "name": "Yamask",
+      "image": "/images/pokemonFrontShiny/YAMASK.png",
+      "generation": 5
+    },
+    {
+      "id": "COFAGRIGUS",
+      "name": "Cofagrigus",
+      "image": "/images/pokemonFrontShiny/COFAGRIGUS.png",
+      "generation": 5
+    },
+    {
+      "id": "TIRTOUGA",
+      "name": "Tirtouga",
+      "image": "/images/pokemonFrontShiny/TIRTOUGA.png",
+      "generation": 5
+    },
+    {
+      "id": "CARRACOSTA",
+      "name": "Carracosta",
+      "image": "/images/pokemonFrontShiny/CARRACOSTA.png",
+      "generation": 5
+    },
+    {
+      "id": "ARCHEN",
+      "name": "Archen",
+      "image": "/images/pokemonFrontShiny/ARCHEN.png",
+      "generation": 5
+    },
+    {
+      "id": "ARCHEOPS",
+      "name": "Archeops",
+      "image": "/images/pokemonFrontShiny/ARCHEOPS.png",
+      "generation": 5
+    },
+    {
+      "id": "TRUBBISH",
+      "name": "Trubbish",
+      "image": "/images/pokemonFrontShiny/TRUBBISH.png",
+      "generation": 5
+    },
+    {
+      "id": "GARBODOR",
+      "name": "Garbodor",
+      "image": "/images/pokemonFrontShiny/GARBODOR.png",
+      "generation": 5
+    },
+    {
+      "id": "ZORUA",
+      "name": "Zorua",
+      "image": "/images/pokemonFrontShiny/ZORUA.png",
+      "generation": 5
+    },
+    {
+      "id": "ZOROARK",
+      "name": "Zoroark",
+      "image": "/images/pokemonFrontShiny/ZOROARK.png",
+      "generation": 5
+    },
+    {
+      "id": "MINCCINO",
+      "name": "Minccino",
+      "image": "/images/pokemonFrontShiny/MINCCINO.png",
+      "generation": 5
+    },
+    {
+      "id": "CINCCINO",
+      "name": "Cinccino",
+      "image": "/images/pokemonFrontShiny/CINCCINO.png",
+      "generation": 5
+    },
+    {
+      "id": "GOTHITA",
+      "name": "Gothita",
+      "image": "/images/pokemonFrontShiny/GOTHITA.png",
+      "generation": 5
+    },
+    {
+      "id": "GOTHORITA",
+      "name": "Gothorita",
+      "image": "/images/pokemonFrontShiny/GOTHORITA.png",
+      "generation": 5
+    },
+    {
+      "id": "GOTHITELLE",
+      "name": "Gothitelle",
+      "image": "/images/pokemonFrontShiny/GOTHITELLE.png",
+      "generation": 5
+    },
+    {
+      "id": "SOLOSIS",
+      "name": "Solosis",
+      "image": "/images/pokemonFrontShiny/SOLOSIS.png",
+      "generation": 5
+    },
+    {
+      "id": "DUOSION",
+      "name": "Duosion",
+      "image": "/images/pokemonFrontShiny/DUOSION.png",
+      "generation": 5
+    },
+    {
+      "id": "REUNICLUS",
+      "name": "Reuniclus",
+      "image": "/images/pokemonFrontShiny/REUNICLUS.png",
+      "generation": 5
+    },
+    {
+      "id": "DUCKLETT",
+      "name": "Ducklett",
+      "image": "/images/pokemonFrontShiny/DUCKLETT.png",
+      "generation": 5
+    },
+    {
+      "id": "SWANNA",
+      "name": "Swanna",
+      "image": "/images/pokemonFrontShiny/SWANNA.png",
+      "generation": 5
+    },
+    {
+      "id": "VANILLITE",
+      "name": "Vanillite",
+      "image": "/images/pokemonFrontShiny/VANILLITE.png",
+      "generation": 5
+    },
+    {
+      "id": "VANILLISH",
+      "name": "Vanillish",
+      "image": "/images/pokemonFrontShiny/VANILLISH.png",
+      "generation": 5
+    },
+    {
+      "id": "VANILLUXE",
+      "name": "Vanilluxe",
+      "image": "/images/pokemonFrontShiny/VANILLUXE.png",
+      "generation": 5
+    },
+    {
+      "id": "DEERLING",
+      "name": "Deerling",
+      "image": "/images/pokemonFrontShiny/DEERLING.png",
+      "generation": 5
+    },
+    {
+      "id": "SAWSBUCK",
+      "name": "Sawsbuck",
+      "image": "/images/pokemonFrontShiny/SAWSBUCK.png",
+      "generation": 5
+    },
+    {
+      "id": "EMOLGA",
+      "name": "Emolga",
+      "image": "/images/pokemonFrontShiny/EMOLGA.png",
+      "generation": 5
+    },
+    {
+      "id": "KARRABLAST",
+      "name": "Karrablast",
+      "image": "/images/pokemonFrontShiny/KARRABLAST.png",
+      "generation": 5
+    },
+    {
+      "id": "ESCAVALIER",
+      "name": "Escavalier",
+      "image": "/images/pokemonFrontShiny/ESCAVALIER.png",
+      "generation": 5
+    },
+    {
+      "id": "FOONGUS",
+      "name": "Foongus",
+      "image": "/images/pokemonFrontShiny/FOONGUS.png",
+      "generation": 5
+    },
+    {
+      "id": "AMOONGUSS",
+      "name": "Amoonguss",
+      "image": "/images/pokemonFrontShiny/AMOONGUSS.png",
+      "generation": 5
+    },
+    {
+      "id": "FRILLISH",
+      "name": "Frillish",
+      "image": "/images/pokemonFrontShiny/FRILLISH.png",
+      "generation": 5
+    },
+    {
+      "id": "JELLICENT",
+      "name": "Jellicent",
+      "image": "/images/pokemonFrontShiny/JELLICENT.png",
+      "generation": 5
+    },
+    {
+      "id": "ALOMOMOLA",
+      "name": "Alomomola",
+      "image": "/images/pokemonFrontShiny/ALOMOMOLA.png",
+      "generation": 5
+    },
+    {
+      "id": "JOLTIK",
+      "name": "Joltik",
+      "image": "/images/pokemonFrontShiny/JOLTIK.png",
+      "generation": 5
+    },
+    {
+      "id": "GALVANTULA",
+      "name": "Galvantula",
+      "image": "/images/pokemonFrontShiny/GALVANTULA.png",
+      "generation": 5
+    },
+    {
+      "id": "FERROSEED",
+      "name": "Ferroseed",
+      "image": "/images/pokemonFrontShiny/FERROSEED.png",
+      "generation": 5
+    },
+    {
+      "id": "FERROTHORN",
+      "name": "Ferrothorn",
+      "image": "/images/pokemonFrontShiny/FERROTHORN.png",
+      "generation": 5
+    },
+    {
+      "id": "KLINK",
+      "name": "Klink",
+      "image": "/images/pokemonFrontShiny/KLINK.png",
+      "generation": 5
+    },
+    {
+      "id": "KLANG",
+      "name": "Klang",
+      "image": "/images/pokemonFrontShiny/KLANG.png",
+      "generation": 5
+    },
+    {
+      "id": "KLINKLANG",
+      "name": "Klinklang",
+      "image": "/images/pokemonFrontShiny/KLINKLANG.png",
+      "generation": 5
+    },
+    {
+      "id": "TYNAMO",
+      "name": "Tynamo",
+      "image": "/images/pokemonFrontShiny/TYNAMO.png",
+      "generation": 5
+    },
+    {
+      "id": "EELEKTRIK",
+      "name": "Eelektrik",
+      "image": "/images/pokemonFrontShiny/EELEKTRIK.png",
+      "generation": 5
+    },
+    {
+      "id": "EELEKTROSS",
+      "name": "Eelektross",
+      "image": "/images/pokemonFrontShiny/EELEKTROSS.png",
+      "generation": 5
+    },
+    {
+      "id": "ELGYEM",
+      "name": "Elgyem",
+      "image": "/images/pokemonFrontShiny/ELGYEM.png",
+      "generation": 5
+    },
+    {
+      "id": "BEHEEYEM",
+      "name": "Beheeyem",
+      "image": "/images/pokemonFrontShiny/BEHEEYEM.png",
+      "generation": 5
+    },
+    {
+      "id": "LITWICK",
+      "name": "Litwick",
+      "image": "/images/pokemonFrontShiny/LITWICK.png",
+      "generation": 5
+    },
+    {
+      "id": "LAMPENT",
+      "name": "Lampent",
+      "image": "/images/pokemonFrontShiny/LAMPENT.png",
+      "generation": 5
+    },
+    {
+      "id": "CHANDELURE",
+      "name": "Chandelure",
+      "image": "/images/pokemonFrontShiny/CHANDELURE.png",
+      "generation": 5
+    },
+    {
+      "id": "AXEW",
+      "name": "Axew",
+      "image": "/images/pokemonFrontShiny/AXEW.png",
+      "generation": 5
+    },
+    {
+      "id": "FRAXURE",
+      "name": "Fraxure",
+      "image": "/images/pokemonFrontShiny/FRAXURE.png",
+      "generation": 5
+    },
+    {
+      "id": "HAXORUS",
+      "name": "Haxorus",
+      "image": "/images/pokemonFrontShiny/HAXORUS.png",
+      "generation": 5
+    },
+    {
+      "id": "CUBCHOO",
+      "name": "Cubchoo",
+      "image": "/images/pokemonFrontShiny/CUBCHOO.png",
+      "generation": 5
+    },
+    {
+      "id": "BEARTIC",
+      "name": "Beartic",
+      "image": "/images/pokemonFrontShiny/BEARTIC.png",
+      "generation": 5
+    },
+    {
+      "id": "CRYOGONAL",
+      "name": "Cryogonal",
+      "image": "/images/pokemonFrontShiny/CRYOGONAL.png",
+      "generation": 5
+    },
+    {
+      "id": "SHELMET",
+      "name": "Shelmet",
+      "image": "/images/pokemonFrontShiny/SHELMET.png",
+      "generation": 5
+    },
+    {
+      "id": "ACCELGOR",
+      "name": "Accelgor",
+      "image": "/images/pokemonFrontShiny/ACCELGOR.png",
+      "generation": 5
+    },
+    {
+      "id": "STUNFISK",
+      "name": "Stunfisk",
+      "image": "/images/pokemonFrontShiny/STUNFISK.png",
+      "generation": 5
+    },
+    {
+      "id": "MIENFOO",
+      "name": "Mienfoo",
+      "image": "/images/pokemonFrontShiny/MIENFOO.png",
+      "generation": 5
+    },
+    {
+      "id": "MIENSHAO",
+      "name": "Mienshao",
+      "image": "/images/pokemonFrontShiny/MIENSHAO.png",
+      "generation": 5
+    },
+    {
+      "id": "DRUDDIGON",
+      "name": "Druddigon",
+      "image": "/images/pokemonFrontShiny/DRUDDIGON.png",
+      "generation": 5
+    },
+    {
+      "id": "GOLETT",
+      "name": "Golett",
+      "image": "/images/pokemonFrontShiny/GOLETT.png",
+      "generation": 5
+    },
+    {
+      "id": "GOLURK",
+      "name": "Golurk",
+      "image": "/images/pokemonFrontShiny/GOLURK.png",
+      "generation": 5
+    },
+    {
+      "id": "PAWNIARD",
+      "name": "Pawniard",
+      "image": "/images/pokemonFrontShiny/PAWNIARD.png",
+      "generation": 5
+    },
+    {
+      "id": "BISHARP",
+      "name": "Bisharp",
+      "image": "/images/pokemonFrontShiny/BISHARP.png",
+      "generation": 5
+    },
+    {
+      "id": "BOUFFALANT",
+      "name": "Bouffalant",
+      "image": "/images/pokemonFrontShiny/BOUFFALANT.png",
+      "generation": 5
+    },
+    {
+      "id": "RUFFLET",
+      "name": "Rufflet",
+      "image": "/images/pokemonFrontShiny/RUFFLET.png",
+      "generation": 5
+    },
+    {
+      "id": "BRAVIARY",
+      "name": "Braviary",
+      "image": "/images/pokemonFrontShiny/BRAVIARY.png",
+      "generation": 5
+    },
+    {
+      "id": "VULLABY",
+      "name": "Vullaby",
+      "image": "/images/pokemonFrontShiny/VULLABY.png",
+      "generation": 5
+    },
+    {
+      "id": "MANDIBUZZ",
+      "name": "Mandibuzz",
+      "image": "/images/pokemonFrontShiny/MANDIBUZZ.png",
+      "generation": 5
+    },
+    {
+      "id": "HEATMOR",
+      "name": "Heatmor",
+      "image": "/images/pokemonFrontShiny/HEATMOR.png",
+      "generation": 5
+    },
+    {
+      "id": "DURANT",
+      "name": "Durant",
+      "image": "/images/pokemonFrontShiny/DURANT.png",
+      "generation": 5
+    },
+    {
+      "id": "DEINO",
+      "name": "Deino",
+      "image": "/images/pokemonFrontShiny/DEINO.png",
+      "generation": 5
+    },
+    {
+      "id": "ZWEILOUS",
+      "name": "Zweilous",
+      "image": "/images/pokemonFrontShiny/ZWEILOUS.png",
+      "generation": 5
+    },
+    {
+      "id": "HYDREIGON",
+      "name": "Hydreigon",
+      "image": "/images/pokemonFrontShiny/HYDREIGON.png",
+      "generation": 5
+    },
+    {
+      "id": "LARVESTA",
+      "name": "Larvesta",
+      "image": "/images/pokemonFrontShiny/LARVESTA.png",
+      "generation": 5
+    },
+    {
+      "id": "VOLCARONA",
+      "name": "Volcarona",
+      "image": "/images/pokemonFrontShiny/VOLCARONA.png",
+      "generation": 5
+    },
+    {
+      "id": "COBALION",
+      "name": "Cobalion",
+      "image": "/images/pokemonFrontShiny/COBALION.png",
+      "generation": 5
+    },
+    {
+      "id": "TERRAKION",
+      "name": "Terrakion",
+      "image": "/images/pokemonFrontShiny/TERRAKION.png",
+      "generation": 5
+    },
+    {
+      "id": "VIRIZION",
+      "name": "Virizion",
+      "image": "/images/pokemonFrontShiny/VIRIZION.png",
+      "generation": 5
+    },
+    {
+      "id": "TORNADUS",
+      "name": "Tornadus",
+      "image": "/images/pokemonFrontShiny/TORNADUS.png",
+      "generation": 5
+    },
+    {
+      "id": "THUNDURUS",
+      "name": "Thundurus",
+      "image": "/images/pokemonFrontShiny/THUNDURUS.png",
+      "generation": 5
+    },
+    {
+      "id": "RESHIRAM",
+      "name": "Reshiram",
+      "image": "/images/pokemonFrontShiny/RESHIRAM.png",
+      "generation": 5
+    },
+    {
+      "id": "ZEKROM",
+      "name": "Zekrom",
+      "image": "/images/pokemonFrontShiny/ZEKROM.png",
+      "generation": 5
+    },
+    {
+      "id": "LANDORUS",
+      "name": "Landorus",
+      "image": "/images/pokemonFrontShiny/LANDORUS.png",
+      "generation": 5
+    },
+    {
+      "id": "KYUREM",
+      "name": "Kyurem",
+      "image": "/images/pokemonFrontShiny/KYUREM.png",
+      "generation": 5
+    },
+    {
+      "id": "KELDEO",
+      "name": "Keldeo",
+      "image": "/images/pokemonFrontShiny/KELDEO.png",
+      "generation": 5
+    },
+    {
+      "id": "MELOETTA",
+      "name": "Meloetta",
+      "image": "/images/pokemonFrontShiny/MELOETTA.png",
+      "generation": 5
+    },
+    {
+      "id": "GENESECT",
+      "name": "Genesect",
+      "image": "/images/pokemonFrontShiny/GENESECT.png",
+      "generation": 5
+    },
+    {
+      "id": "CHESPIN",
+      "name": "Chespin",
+      "image": "/images/pokemonFrontShiny/CHESPIN.png",
+      "generation": 6
+    },
+    {
+      "id": "QUILLADIN",
+      "name": "Quilladin",
+      "image": "/images/pokemonFrontShiny/QUILLADIN.png",
+      "generation": 6
+    },
+    {
+      "id": "CHESNAUGHT",
+      "name": "Chesnaught",
+      "image": "/images/pokemonFrontShiny/CHESNAUGHT.png",
+      "generation": 6
+    },
+    {
+      "id": "FENNEKIN",
+      "name": "Fennekin",
+      "image": "/images/pokemonFrontShiny/FENNEKIN.png",
+      "generation": 6
+    },
+    {
+      "id": "BRAIXEN",
+      "name": "Braixen",
+      "image": "/images/pokemonFrontShiny/BRAIXEN.png",
+      "generation": 6
+    },
+    {
+      "id": "DELPHOX",
+      "name": "Delphox",
+      "image": "/images/pokemonFrontShiny/DELPHOX.png",
+      "generation": 6
+    },
+    {
+      "id": "FROAKIE",
+      "name": "Froakie",
+      "image": "/images/pokemonFrontShiny/FROAKIE.png",
+      "generation": 6
+    },
+    {
+      "id": "FROGADIER",
+      "name": "Frogadier",
+      "image": "/images/pokemonFrontShiny/FROGADIER.png",
+      "generation": 6
+    },
+    {
+      "id": "GRENINJA",
+      "name": "Greninja",
+      "image": "/images/pokemonFrontShiny/GRENINJA.png",
+      "generation": 6
+    },
+    {
+      "id": "BUNNELBY",
+      "name": "Bunnelby",
+      "image": "/images/pokemonFrontShiny/BUNNELBY.png",
+      "generation": 6
+    },
+    {
+      "id": "DIGGERSBY",
+      "name": "Diggersby",
+      "image": "/images/pokemonFrontShiny/DIGGERSBY.png",
+      "generation": 6
+    },
+    {
+      "id": "FLETCHLING",
+      "name": "Fletchling",
+      "image": "/images/pokemonFrontShiny/FLETCHLING.png",
+      "generation": 6
+    },
+    {
+      "id": "FLETCHINDER",
+      "name": "Fletchinder",
+      "image": "/images/pokemonFrontShiny/FLETCHINDER.png",
+      "generation": 6
+    },
+    {
+      "id": "TALONFLAME",
+      "name": "Talonflame",
+      "image": "/images/pokemonFrontShiny/TALONFLAME.png",
+      "generation": 6
+    },
+    {
+      "id": "SCATTERBUG",
+      "name": "Scatterbug",
+      "image": "/images/pokemonFrontShiny/SCATTERBUG.png",
+      "generation": 6
+    },
+    {
+      "id": "SPEWPA",
+      "name": "Spewpa",
+      "image": "/images/pokemonFrontShiny/SPEWPA.png",
+      "generation": 6
+    },
+    {
+      "id": "VIVILLON",
+      "name": "Vivillon",
+      "image": "/images/pokemonFrontShiny/VIVILLON.png",
+      "generation": 6
+    },
+    {
+      "id": "LITLEO",
+      "name": "Litleo",
+      "image": "/images/pokemonFrontShiny/LITLEO.png",
+      "generation": 6
+    },
+    {
+      "id": "PYROAR",
+      "name": "Pyroar",
+      "image": "/images/pokemonFrontShiny/PYROAR.png",
+      "generation": 6
+    },
+    {
+      "id": "FLABEBE",
+      "name": "Flabébé",
+      "image": "/images/pokemonFrontShiny/FLABEBE.png",
+      "generation": 6
+    },
+    {
+      "id": "FLOETTE",
+      "name": "Floette",
+      "image": "/images/pokemonFrontShiny/FLOETTE.png",
+      "generation": 6
+    },
+    {
+      "id": "FLORGES",
+      "name": "Florges",
+      "image": "/images/pokemonFrontShiny/FLORGES.png",
+      "generation": 6
+    },
+    {
+      "id": "SKIDDO",
+      "name": "Skiddo",
+      "image": "/images/pokemonFrontShiny/SKIDDO.png",
+      "generation": 6
+    },
+    {
+      "id": "GOGOAT",
+      "name": "Gogoat",
+      "image": "/images/pokemonFrontShiny/GOGOAT.png",
+      "generation": 6
+    },
+    {
+      "id": "PANCHAM",
+      "name": "Pancham",
+      "image": "/images/pokemonFrontShiny/PANCHAM.png",
+      "generation": 6
+    },
+    {
+      "id": "PANGORO",
+      "name": "Pangoro",
+      "image": "/images/pokemonFrontShiny/PANGORO.png",
+      "generation": 6
+    },
+    {
+      "id": "FURFROU",
+      "name": "Furfrou",
+      "image": "/images/pokemonFrontShiny/FURFROU.png",
+      "generation": 6
+    },
+    {
+      "id": "ESPURR",
+      "name": "Espurr",
+      "image": "/images/pokemonFrontShiny/ESPURR.png",
+      "generation": 6
+    },
+    {
+      "id": "MEOWSTIC",
+      "name": "Meowstic",
+      "image": "/images/pokemonFrontShiny/MEOWSTIC.png",
+      "generation": 6
+    },
+    {
+      "id": "HONEDGE",
+      "name": "Honedge",
+      "image": "/images/pokemonFrontShiny/HONEDGE.png",
+      "generation": 6
+    },
+    {
+      "id": "DOUBLADE",
+      "name": "Doublade",
+      "image": "/images/pokemonFrontShiny/DOUBLADE.png",
+      "generation": 6
+    },
+    {
+      "id": "AEGISLASH",
+      "name": "Aegislash",
+      "image": "/images/pokemonFrontShiny/AEGISLASH.png",
+      "generation": 6
+    },
+    {
+      "id": "SPRITZEE",
+      "name": "Spritzee",
+      "image": "/images/pokemonFrontShiny/SPRITZEE.png",
+      "generation": 6
+    },
+    {
+      "id": "AROMATISSE",
+      "name": "Aromatisse",
+      "image": "/images/pokemonFrontShiny/AROMATISSE.png",
+      "generation": 6
+    },
+    {
+      "id": "SWIRLIX",
+      "name": "Swirlix",
+      "image": "/images/pokemonFrontShiny/SWIRLIX.png",
+      "generation": 6
+    },
+    {
+      "id": "SLURPUFF",
+      "name": "Slurpuff",
+      "image": "/images/pokemonFrontShiny/SLURPUFF.png",
+      "generation": 6
+    },
+    {
+      "id": "INKAY",
+      "name": "Inkay",
+      "image": "/images/pokemonFrontShiny/INKAY.png",
+      "generation": 6
+    },
+    {
+      "id": "MALAMAR",
+      "name": "Malamar",
+      "image": "/images/pokemonFrontShiny/MALAMAR.png",
+      "generation": 6
+    },
+    {
+      "id": "BINACLE",
+      "name": "Binacle",
+      "image": "/images/pokemonFrontShiny/BINACLE.png",
+      "generation": 6
+    },
+    {
+      "id": "BARBARACLE",
+      "name": "Barbaracle",
+      "image": "/images/pokemonFrontShiny/BARBARACLE.png",
+      "generation": 6
+    },
+    {
+      "id": "SKRELP",
+      "name": "Skrelp",
+      "image": "/images/pokemonFrontShiny/SKRELP.png",
+      "generation": 6
+    },
+    {
+      "id": "DRAGALGE",
+      "name": "Dragalge",
+      "image": "/images/pokemonFrontShiny/DRAGALGE.png",
+      "generation": 6
+    },
+    {
+      "id": "CLAUNCHER",
+      "name": "Clauncher",
+      "image": "/images/pokemonFrontShiny/CLAUNCHER.png",
+      "generation": 6
+    },
+    {
+      "id": "CLAWITZER",
+      "name": "Clawitzer",
+      "image": "/images/pokemonFrontShiny/CLAWITZER.png",
+      "generation": 6
+    },
+    {
+      "id": "HELIOPTILE",
+      "name": "Helioptile",
+      "image": "/images/pokemonFrontShiny/HELIOPTILE.png",
+      "generation": 6
+    },
+    {
+      "id": "HELIOLISK",
+      "name": "Heliolisk",
+      "image": "/images/pokemonFrontShiny/HELIOLISK.png",
+      "generation": 6
+    },
+    {
+      "id": "TYRUNT",
+      "name": "Tyrunt",
+      "image": "/images/pokemonFrontShiny/TYRUNT.png",
+      "generation": 6
+    },
+    {
+      "id": "TYRANTRUM",
+      "name": "Tyrantrum",
+      "image": "/images/pokemonFrontShiny/TYRANTRUM.png",
+      "generation": 6
+    },
+    {
+      "id": "AMAURA",
+      "name": "Amaura",
+      "image": "/images/pokemonFrontShiny/AMAURA.png",
+      "generation": 6
+    },
+    {
+      "id": "AURORUS",
+      "name": "Aurorus",
+      "image": "/images/pokemonFrontShiny/AURORUS.png",
+      "generation": 6
+    },
+    {
+      "id": "SYLVEON",
+      "name": "Sylveon",
+      "image": "/images/pokemonFrontShiny/SYLVEON.png",
+      "generation": 6
+    },
+    {
+      "id": "HAWLUCHA",
+      "name": "Hawlucha",
+      "image": "/images/pokemonFrontShiny/HAWLUCHA.png",
+      "generation": 6
+    },
+    {
+      "id": "DEDENNE",
+      "name": "Dedenne",
+      "image": "/images/pokemonFrontShiny/DEDENNE.png",
+      "generation": 6
+    },
+    {
+      "id": "CARBINK",
+      "name": "Carbink",
+      "image": "/images/pokemonFrontShiny/CARBINK.png",
+      "generation": 6
+    },
+    {
+      "id": "GOOMY",
+      "name": "Goomy",
+      "image": "/images/pokemonFrontShiny/GOOMY.png",
+      "generation": 6
+    },
+    {
+      "id": "SLIGGOO",
+      "name": "Sliggoo",
+      "image": "/images/pokemonFrontShiny/SLIGGOO.png",
+      "generation": 6
+    },
+    {
+      "id": "GOODRA",
+      "name": "Goodra",
+      "image": "/images/pokemonFrontShiny/GOODRA.png",
+      "generation": 6
+    },
+    {
+      "id": "KLEFKI",
+      "name": "Klefki",
+      "image": "/images/pokemonFrontShiny/KLEFKI.png",
+      "generation": 6
+    },
+    {
+      "id": "PHANTUMP",
+      "name": "Phantump",
+      "image": "/images/pokemonFrontShiny/PHANTUMP.png",
+      "generation": 6
+    },
+    {
+      "id": "TREVENANT",
+      "name": "Trevenant",
+      "image": "/images/pokemonFrontShiny/TREVENANT.png",
+      "generation": 6
+    },
+    {
+      "id": "PUMPKABOO",
+      "name": "Pumpkaboo",
+      "image": "/images/pokemonFrontShiny/PUMPKABOO.png",
+      "generation": 6
+    },
+    {
+      "id": "GOURGEIST",
+      "name": "Gourgeist",
+      "image": "/images/pokemonFrontShiny/GOURGEIST.png",
+      "generation": 6
+    },
+    {
+      "id": "BERGMITE",
+      "name": "Bergmite",
+      "image": "/images/pokemonFrontShiny/BERGMITE.png",
+      "generation": 6
+    },
+    {
+      "id": "AVALUGG",
+      "name": "Avalugg",
+      "image": "/images/pokemonFrontShiny/AVALUGG.png",
+      "generation": 6
+    },
+    {
+      "id": "NOIBAT",
+      "name": "Noibat",
+      "image": "/images/pokemonFrontShiny/NOIBAT.png",
+      "generation": 6
+    },
+    {
+      "id": "NOIVERN",
+      "name": "Noivern",
+      "image": "/images/pokemonFrontShiny/NOIVERN.png",
+      "generation": 6
+    },
+    {
+      "id": "XERNEAS",
+      "name": "Xerneas",
+      "image": "/images/pokemonFrontShiny/XERNEAS.png",
+      "generation": 6
+    },
+    {
+      "id": "YVELTAL",
+      "name": "Yveltal",
+      "image": "/images/pokemonFrontShiny/YVELTAL.png",
+      "generation": 6
+    },
+    {
+      "id": "ZYGARDE",
+      "name": "Zygarde",
+      "image": "/images/pokemonFrontShiny/ZYGARDE.png",
+      "generation": 6
+    },
+    {
+      "id": "DIANCIE",
+      "name": "Diancie",
+      "image": "/images/pokemonFrontShiny/DIANCIE.png",
+      "generation": 6
+    },
+    {
+      "id": "HOOPA",
+      "name": "Hoopa",
+      "image": "/images/pokemonFrontShiny/HOOPA.png",
+      "generation": 6
+    },
+    {
+      "id": "VOLCANION",
+      "name": "Volcanion",
+      "image": "/images/pokemonFrontShiny/VOLCANION.png",
+      "generation": 6
+    },
+    {
+      "id": "ROWLET",
+      "name": "Rowlet",
+      "image": "/images/pokemonFrontShiny/ROWLET.png",
+      "generation": 7
+    },
+    {
+      "id": "DARTRIX",
+      "name": "Dartrix",
+      "image": "/images/pokemonFrontShiny/DARTRIX.png",
+      "generation": 7
+    },
+    {
+      "id": "DECIDUEYE",
+      "name": "Decidueye",
+      "image": "/images/pokemonFrontShiny/DECIDUEYE.png",
+      "generation": 7
+    },
+    {
+      "id": "LITTEN",
+      "name": "Litten",
+      "image": "/images/pokemonFrontShiny/LITTEN.png",
+      "generation": 7
+    },
+    {
+      "id": "TORRACAT",
+      "name": "Torracat",
+      "image": "/images/pokemonFrontShiny/TORRACAT.png",
+      "generation": 7
+    },
+    {
+      "id": "INCINEROAR",
+      "name": "Incineroar",
+      "image": "/images/pokemonFrontShiny/INCINEROAR.png",
+      "generation": 7
+    },
+    {
+      "id": "POPPLIO",
+      "name": "Popplio",
+      "image": "/images/pokemonFrontShiny/POPPLIO.png",
+      "generation": 7
+    },
+    {
+      "id": "BRIONNE",
+      "name": "Brionne",
+      "image": "/images/pokemonFrontShiny/BRIONNE.png",
+      "generation": 7
+    },
+    {
+      "id": "PRIMARINA",
+      "name": "Primarina",
+      "image": "/images/pokemonFrontShiny/PRIMARINA.png",
+      "generation": 7
+    },
+    {
+      "id": "PIKIPEK",
+      "name": "Pikipek",
+      "image": "/images/pokemonFrontShiny/PIKIPEK.png",
+      "generation": 7
+    },
+    {
+      "id": "TRUMBEAK",
+      "name": "Trumbeak",
+      "image": "/images/pokemonFrontShiny/TRUMBEAK.png",
+      "generation": 7
+    },
+    {
+      "id": "TOUCANNON",
+      "name": "Toucannon",
+      "image": "/images/pokemonFrontShiny/TOUCANNON.png",
+      "generation": 7
+    },
+    {
+      "id": "YUNGOOS",
+      "name": "Yungoos",
+      "image": "/images/pokemonFrontShiny/YUNGOOS.png",
+      "generation": 7
+    },
+    {
+      "id": "GUMSHOOS",
+      "name": "Gumshoos",
+      "image": "/images/pokemonFrontShiny/GUMSHOOS.png",
+      "generation": 7
+    },
+    {
+      "id": "GRUBBIN",
+      "name": "Grubbin",
+      "image": "/images/pokemonFrontShiny/GRUBBIN.png",
+      "generation": 7
+    },
+    {
+      "id": "CHARJABUG",
+      "name": "Charjabug",
+      "image": "/images/pokemonFrontShiny/CHARJABUG.png",
+      "generation": 7
+    },
+    {
+      "id": "VIKAVOLT",
+      "name": "Vikavolt",
+      "image": "/images/pokemonFrontShiny/VIKAVOLT.png",
+      "generation": 7
+    },
+    {
+      "id": "CRABRAWLER",
+      "name": "Crabrawler",
+      "image": "/images/pokemonFrontShiny/CRABRAWLER.png",
+      "generation": 7
+    },
+    {
+      "id": "CRABOMINABLE",
+      "name": "Crabominable",
+      "image": "/images/pokemonFrontShiny/CRABOMINABLE.png",
+      "generation": 7
+    },
+    {
+      "id": "ORICORIO",
+      "name": "Oricorio",
+      "image": "/images/pokemonFrontShiny/ORICORIO.png",
+      "generation": 7
+    },
+    {
+      "id": "CUTIEFLY",
+      "name": "Cutiefly",
+      "image": "/images/pokemonFrontShiny/CUTIEFLY.png",
+      "generation": 7
+    },
+    {
+      "id": "RIBOMBEE",
+      "name": "Ribombee",
+      "image": "/images/pokemonFrontShiny/RIBOMBEE.png",
+      "generation": 7
+    },
+    {
+      "id": "ROCKRUFF",
+      "name": "Rockruff",
+      "image": "/images/pokemonFrontShiny/ROCKRUFF.png",
+      "generation": 7
+    },
+    {
+      "id": "LYCANROC",
+      "name": "Lycanroc",
+      "image": "/images/pokemonFrontShiny/LYCANROC.png",
+      "generation": 7
+    },
+    {
+      "id": "WISHIWASHI",
+      "name": "Wishiwashi",
+      "image": "/images/pokemonFrontShiny/WISHIWASHI.png",
+      "generation": 7
+    },
+    {
+      "id": "MAREANIE",
+      "name": "Mareanie",
+      "image": "/images/pokemonFrontShiny/MAREANIE.png",
+      "generation": 7
+    },
+    {
+      "id": "TOXAPEX",
+      "name": "Toxapex",
+      "image": "/images/pokemonFrontShiny/TOXAPEX.png",
+      "generation": 7
+    },
+    {
+      "id": "MUDBRAY",
+      "name": "Mudbray",
+      "image": "/images/pokemonFrontShiny/MUDBRAY.png",
+      "generation": 7
+    },
+    {
+      "id": "MUDSDALE",
+      "name": "Mudsdale",
+      "image": "/images/pokemonFrontShiny/MUDSDALE.png",
+      "generation": 7
+    },
+    {
+      "id": "DEWPIDER",
+      "name": "Dewpider",
+      "image": "/images/pokemonFrontShiny/DEWPIDER.png",
+      "generation": 7
+    },
+    {
+      "id": "ARAQUANID",
+      "name": "Araquanid",
+      "image": "/images/pokemonFrontShiny/ARAQUANID.png",
+      "generation": 7
+    },
+    {
+      "id": "FOMANTIS",
+      "name": "Fomantis",
+      "image": "/images/pokemonFrontShiny/FOMANTIS.png",
+      "generation": 7
+    },
+    {
+      "id": "LURANTIS",
+      "name": "Lurantis",
+      "image": "/images/pokemonFrontShiny/LURANTIS.png",
+      "generation": 7
+    },
+    {
+      "id": "MORELULL",
+      "name": "Morelull",
+      "image": "/images/pokemonFrontShiny/MORELULL.png",
+      "generation": 7
+    },
+    {
+      "id": "SHIINOTIC",
+      "name": "Shiinotic",
+      "image": "/images/pokemonFrontShiny/SHIINOTIC.png",
+      "generation": 7
+    },
+    {
+      "id": "SALANDIT",
+      "name": "Salandit",
+      "image": "/images/pokemonFrontShiny/SALANDIT.png",
+      "generation": 7
+    },
+    {
+      "id": "SALAZZLE",
+      "name": "Salazzle",
+      "image": "/images/pokemonFrontShiny/SALAZZLE.png",
+      "generation": 7
+    },
+    {
+      "id": "STUFFUL",
+      "name": "Stufful",
+      "image": "/images/pokemonFrontShiny/STUFFUL.png",
+      "generation": 7
+    },
+    {
+      "id": "BEWEAR",
+      "name": "Bewear",
+      "image": "/images/pokemonFrontShiny/BEWEAR.png",
+      "generation": 7
+    },
+    {
+      "id": "BOUNSWEET",
+      "name": "Bounsweet",
+      "image": "/images/pokemonFrontShiny/BOUNSWEET.png",
+      "generation": 7
+    },
+    {
+      "id": "STEENEE",
+      "name": "Steenee",
+      "image": "/images/pokemonFrontShiny/STEENEE.png",
+      "generation": 7
+    },
+    {
+      "id": "TSAREENA",
+      "name": "Tsareena",
+      "image": "/images/pokemonFrontShiny/TSAREENA.png",
+      "generation": 7
+    },
+    {
+      "id": "COMFEY",
+      "name": "Comfey",
+      "image": "/images/pokemonFrontShiny/COMFEY.png",
+      "generation": 7
+    },
+    {
+      "id": "ORANGURU",
+      "name": "Oranguru",
+      "image": "/images/pokemonFrontShiny/ORANGURU.png",
+      "generation": 7
+    },
+    {
+      "id": "PASSIMIAN",
+      "name": "Passimian",
+      "image": "/images/pokemonFrontShiny/PASSIMIAN.png",
+      "generation": 7
+    },
+    {
+      "id": "WIMPOD",
+      "name": "Wimpod",
+      "image": "/images/pokemonFrontShiny/WIMPOD.png",
+      "generation": 7
+    },
+    {
+      "id": "GOLISOPOD",
+      "name": "Golisopod",
+      "image": "/images/pokemonFrontShiny/GOLISOPOD.png",
+      "generation": 7
+    },
+    {
+      "id": "SANDYGAST",
+      "name": "Sandygast",
+      "image": "/images/pokemonFrontShiny/SANDYGAST.png",
+      "generation": 7
+    },
+    {
+      "id": "PALOSSAND",
+      "name": "Palossand",
+      "image": "/images/pokemonFrontShiny/PALOSSAND.png",
+      "generation": 7
+    },
+    {
+      "id": "PYUKUMUKU",
+      "name": "Pyukumuku",
+      "image": "/images/pokemonFrontShiny/PYUKUMUKU.png",
+      "generation": 7
+    },
+    {
+      "id": "TYPENULL",
+      "name": "Código Cero",
+      "image": "/images/pokemonFrontShiny/TYPENULL.png",
+      "generation": 7
+    },
+    {
+      "id": "SILVALLY",
+      "name": "Silvally",
+      "image": "/images/pokemonFrontShiny/SILVALLY.png",
+      "generation": 7
+    },
+    {
+      "id": "MINIOR",
+      "name": "Minior",
+      "image": "/images/pokemonFrontShiny/MINIOR.png",
+      "generation": 7
+    },
+    {
+      "id": "KOMALA",
+      "name": "Komala",
+      "image": "/images/pokemonFrontShiny/KOMALA.png",
+      "generation": 7
+    },
+    {
+      "id": "TURTONATOR",
+      "name": "Turtonator",
+      "image": "/images/pokemonFrontShiny/TURTONATOR.png",
+      "generation": 7
+    },
+    {
+      "id": "TOGEDEMARU",
+      "name": "Togedemaru",
+      "image": "/images/pokemonFrontShiny/TOGEDEMARU.png",
+      "generation": 7
+    },
+    {
+      "id": "MIMIKYU",
+      "name": "Mimikyu",
+      "image": "/images/pokemonFrontShiny/MIMIKYU.png",
+      "generation": 7
+    },
+    {
+      "id": "BRUXISH",
+      "name": "Bruxish",
+      "image": "/images/pokemonFrontShiny/BRUXISH.png",
+      "generation": 7
+    },
+    {
+      "id": "DRAMPA",
+      "name": "Drampa",
+      "image": "/images/pokemonFrontShiny/DRAMPA.png",
+      "generation": 7
+    },
+    {
+      "id": "DHELMISE",
+      "name": "Dhelmise",
+      "image": "/images/pokemonFrontShiny/DHELMISE.png",
+      "generation": 7
+    },
+    {
+      "id": "JANGMOO",
+      "name": "Jangmo-o",
+      "image": "/images/pokemonFrontShiny/JANGMOO.png",
+      "generation": 7
+    },
+    {
+      "id": "HAKAMOO",
+      "name": "Hakamo-o",
+      "image": "/images/pokemonFrontShiny/HAKAMOO.png",
+      "generation": 7
+    },
+    {
+      "id": "KOMMOO",
+      "name": "Kommo-o",
+      "image": "/images/pokemonFrontShiny/KOMMOO.png",
+      "generation": 7
+    },
+    {
+      "id": "TAPUKOKO",
+      "name": "Tapu Koko",
+      "image": "/images/pokemonFrontShiny/TAPUKOKO.png",
+      "generation": 7
+    },
+    {
+      "id": "TAPULELE",
+      "name": "Tapu Lele",
+      "image": "/images/pokemonFrontShiny/TAPULELE.png",
+      "generation": 7
+    },
+    {
+      "id": "TAPUBULU",
+      "name": "Tapu Bulu",
+      "image": "/images/pokemonFrontShiny/TAPUBULU.png",
+      "generation": 7
+    },
+    {
+      "id": "TAPUFINI",
+      "name": "Tapu Fini",
+      "image": "/images/pokemonFrontShiny/TAPUFINI.png",
+      "generation": 7
+    },
+    {
+      "id": "COSMOG",
+      "name": "Cosmog",
+      "image": "/images/pokemonFrontShiny/COSMOG.png",
+      "generation": 7
+    },
+    {
+      "id": "COSMOEM",
+      "name": "Cosmoem",
+      "image": "/images/pokemonFrontShiny/COSMOEM.png",
+      "generation": 7
+    },
+    {
+      "id": "SOLGALEO",
+      "name": "Solgaleo",
+      "image": "/images/pokemonFrontShiny/SOLGALEO.png",
+      "generation": 7
+    },
+    {
+      "id": "LUNALA",
+      "name": "Lunala",
+      "image": "/images/pokemonFrontShiny/LUNALA.png",
+      "generation": 7
+    },
+    {
+      "id": "NIHILEGO",
+      "name": "Nihilego",
+      "image": "/images/pokemonFrontShiny/NIHILEGO.png",
+      "generation": 7
+    },
+    {
+      "id": "BUZZWOLE",
+      "name": "Buzzwole",
+      "image": "/images/pokemonFrontShiny/BUZZWOLE.png",
+      "generation": 7
+    },
+    {
+      "id": "PHEROMOSA",
+      "name": "Pheromosa",
+      "image": "/images/pokemonFrontShiny/PHEROMOSA.png",
+      "generation": 7
+    },
+    {
+      "id": "XURKITREE",
+      "name": "Xurkitree",
+      "image": "/images/pokemonFrontShiny/XURKITREE.png",
+      "generation": 7
+    },
+    {
+      "id": "CELESTEELA",
+      "name": "Celesteela",
+      "image": "/images/pokemonFrontShiny/CELESTEELA.png",
+      "generation": 7
+    },
+    {
+      "id": "KARTANA",
+      "name": "Kartana",
+      "image": "/images/pokemonFrontShiny/KARTANA.png",
+      "generation": 7
+    },
+    {
+      "id": "GUZZLORD",
+      "name": "Guzzlord",
+      "image": "/images/pokemonFrontShiny/GUZZLORD.png",
+      "generation": 7
+    },
+    {
+      "id": "NECROZMA",
+      "name": "Necrozma",
+      "image": "/images/pokemonFrontShiny/NECROZMA.png",
+      "generation": 7
+    },
+    {
+      "id": "MAGEARNA",
+      "name": "Magearna",
+      "image": "/images/pokemonFrontShiny/MAGEARNA.png",
+      "generation": 7
+    },
+    {
+      "id": "MARSHADOW",
+      "name": "Marshadow",
+      "image": "/images/pokemonFrontShiny/MARSHADOW.png",
+      "generation": 7
+    },
+    {
+      "id": "POIPOLE",
+      "name": "Poipole",
+      "image": "/images/pokemonFrontShiny/POIPOLE.png",
+      "generation": 7
+    },
+    {
+      "id": "NAGANADEL",
+      "name": "Naganadel",
+      "image": "/images/pokemonFrontShiny/NAGANADEL.png",
+      "generation": 7
+    },
+    {
+      "id": "STAKATAKA",
+      "name": "Stakataka",
+      "image": "/images/pokemonFrontShiny/STAKATAKA.png",
+      "generation": 7
+    },
+    {
+      "id": "BLACEPHALON",
+      "name": "Blacephalon",
+      "image": "/images/pokemonFrontShiny/BLACEPHALON.png",
+      "generation": 7
+    },
+    {
+      "id": "ZERAORA",
+      "name": "Zeraora",
+      "image": "/images/pokemonFrontShiny/ZERAORA.png",
+      "generation": 7
+    },
+    {
+      "id": "MELTAN",
+      "name": "Meltan",
+      "image": "/images/pokemonFrontShiny/MELTAN.png",
+      "generation": 7
+    },
+    {
+      "id": "MELMETAL",
+      "name": "Melmetal",
+      "image": "/images/pokemonFrontShiny/MELMETAL.png",
+      "generation": 7
+    },
+    {
+      "id": "GROOKEY",
+      "name": "Grookey",
+      "image": "/images/pokemonFrontShiny/GROOKEY.png",
+      "generation": 8
+    },
+    {
+      "id": "THWACKEY",
+      "name": "Thwackey",
+      "image": "/images/pokemonFrontShiny/THWACKEY.png",
+      "generation": 8
+    },
+    {
+      "id": "RILLABOOM",
+      "name": "Rillaboom",
+      "image": "/images/pokemonFrontShiny/RILLABOOM.png",
+      "generation": 8
+    },
+    {
+      "id": "SCORBUNNY",
+      "name": "Scorbunny",
+      "image": "/images/pokemonFrontShiny/SCORBUNNY.png",
+      "generation": 8
+    },
+    {
+      "id": "RABOOT",
+      "name": "Raboot",
+      "image": "/images/pokemonFrontShiny/RABOOT.png",
+      "generation": 8
+    },
+    {
+      "id": "CINDERACE",
+      "name": "Cinderace",
+      "image": "/images/pokemonFrontShiny/CINDERACE.png",
+      "generation": 8
+    },
+    {
+      "id": "SOBBLE",
+      "name": "Sobble",
+      "image": "/images/pokemonFrontShiny/SOBBLE.png",
+      "generation": 8
+    },
+    {
+      "id": "DRIZZILE",
+      "name": "Drizzile",
+      "image": "/images/pokemonFrontShiny/DRIZZILE.png",
+      "generation": 8
+    },
+    {
+      "id": "INTELEON",
+      "name": "Inteleon",
+      "image": "/images/pokemonFrontShiny/INTELEON.png",
+      "generation": 8
+    },
+    {
+      "id": "SKWOVET",
+      "name": "Skwovet",
+      "image": "/images/pokemonFrontShiny/SKWOVET.png",
+      "generation": 8
+    },
+    {
+      "id": "GREEDENT",
+      "name": "Greedent",
+      "image": "/images/pokemonFrontShiny/GREEDENT.png",
+      "generation": 8
+    },
+    {
+      "id": "ROOKIDEE",
+      "name": "Rookidee",
+      "image": "/images/pokemonFrontShiny/ROOKIDEE.png",
+      "generation": 8
+    },
+    {
+      "id": "CORVISQUIRE",
+      "name": "Corvisquire",
+      "image": "/images/pokemonFrontShiny/CORVISQUIRE.png",
+      "generation": 8
+    },
+    {
+      "id": "CORVIKNIGHT",
+      "name": "Corviknight",
+      "image": "/images/pokemonFrontShiny/CORVIKNIGHT.png",
+      "generation": 8
+    },
+    {
+      "id": "BLIPBUG",
+      "name": "Blipbug",
+      "image": "/images/pokemonFrontShiny/BLIPBUG.png",
+      "generation": 8
+    },
+    {
+      "id": "DOTTLER",
+      "name": "Dottler",
+      "image": "/images/pokemonFrontShiny/DOTTLER.png",
+      "generation": 8
+    },
+    {
+      "id": "ORBEETLE",
+      "name": "Orbeetle",
+      "image": "/images/pokemonFrontShiny/ORBEETLE.png",
+      "generation": 8
+    },
+    {
+      "id": "NICKIT",
+      "name": "Nickit",
+      "image": "/images/pokemonFrontShiny/NICKIT.png",
+      "generation": 8
+    },
+    {
+      "id": "THIEVUL",
+      "name": "Thievul",
+      "image": "/images/pokemonFrontShiny/THIEVUL.png",
+      "generation": 8
+    },
+    {
+      "id": "GOSSIFLEUR",
+      "name": "Gossifleur",
+      "image": "/images/pokemonFrontShiny/GOSSIFLEUR.png",
+      "generation": 8
+    },
+    {
+      "id": "ELDEGOSS",
+      "name": "Eldegoss",
+      "image": "/images/pokemonFrontShiny/ELDEGOSS.png",
+      "generation": 8
+    },
+    {
+      "id": "WOOLOO",
+      "name": "Wooloo",
+      "image": "/images/pokemonFrontShiny/WOOLOO.png",
+      "generation": 8
+    },
+    {
+      "id": "DUBWOOL",
+      "name": "Dubwool",
+      "image": "/images/pokemonFrontShiny/DUBWOOL.png",
+      "generation": 8
+    },
+    {
+      "id": "CHEWTLE",
+      "name": "Chewtle",
+      "image": "/images/pokemonFrontShiny/CHEWTLE.png",
+      "generation": 8
+    },
+    {
+      "id": "DREDNAW",
+      "name": "Drednaw",
+      "image": "/images/pokemonFrontShiny/DREDNAW.png",
+      "generation": 8
+    },
+    {
+      "id": "YAMPER",
+      "name": "Yamper",
+      "image": "/images/pokemonFrontShiny/YAMPER.png",
+      "generation": 8
+    },
+    {
+      "id": "BOLTUND",
+      "name": "Boltund",
+      "image": "/images/pokemonFrontShiny/BOLTUND.png",
+      "generation": 8
+    },
+    {
+      "id": "ROLYCOLY",
+      "name": "Rolycoly",
+      "image": "/images/pokemonFrontShiny/ROLYCOLY.png",
+      "generation": 8
+    },
+    {
+      "id": "CARKOL",
+      "name": "Carkol",
+      "image": "/images/pokemonFrontShiny/CARKOL.png",
+      "generation": 8
+    },
+    {
+      "id": "COALOSSAL",
+      "name": "Coalossal",
+      "image": "/images/pokemonFrontShiny/COALOSSAL.png",
+      "generation": 8
+    },
+    {
+      "id": "APPLIN",
+      "name": "Applin",
+      "image": "/images/pokemonFrontShiny/APPLIN.png",
+      "generation": 8
+    },
+    {
+      "id": "FLAPPLE",
+      "name": "Flapple",
+      "image": "/images/pokemonFrontShiny/FLAPPLE.png",
+      "generation": 8
+    },
+    {
+      "id": "APPLETUN",
+      "name": "Appletun",
+      "image": "/images/pokemonFrontShiny/APPLETUN.png",
+      "generation": 8
+    },
+    {
+      "id": "SILICOBRA",
+      "name": "Silicobra",
+      "image": "/images/pokemonFrontShiny/SILICOBRA.png",
+      "generation": 8
+    },
+    {
+      "id": "SANDACONDA",
+      "name": "Sandaconda",
+      "image": "/images/pokemonFrontShiny/SANDACONDA.png",
+      "generation": 8
+    },
+    {
+      "id": "CRAMORANT",
+      "name": "Cramorant",
+      "image": "/images/pokemonFrontShiny/CRAMORANT.png",
+      "generation": 8
+    },
+    {
+      "id": "ARROKUDA",
+      "name": "Arrokuda",
+      "image": "/images/pokemonFrontShiny/ARROKUDA.png",
+      "generation": 8
+    },
+    {
+      "id": "BARRASKEWDA",
+      "name": "Barraskewda",
+      "image": "/images/pokemonFrontShiny/BARRASKEWDA.png",
+      "generation": 8
+    },
+    {
+      "id": "TOXEL",
+      "name": "Toxel",
+      "image": "/images/pokemonFrontShiny/TOXEL.png",
+      "generation": 8
+    },
+    {
+      "id": "TOXTRICITY",
+      "name": "Toxtricity",
+      "image": "/images/pokemonFrontShiny/TOXTRICITY.png",
+      "generation": 8
+    },
+    {
+      "id": "SIZZLIPEDE",
+      "name": "Sizzlipede",
+      "image": "/images/pokemonFrontShiny/SIZZLIPEDE.png",
+      "generation": 8
+    },
+    {
+      "id": "CENTISKORCH",
+      "name": "Centiskorch",
+      "image": "/images/pokemonFrontShiny/CENTISKORCH.png",
+      "generation": 8
+    },
+    {
+      "id": "CLOBBOPUS",
+      "name": "Clobbopus",
+      "image": "/images/pokemonFrontShiny/CLOBBOPUS.png",
+      "generation": 8
+    },
+    {
+      "id": "GRAPPLOCT",
+      "name": "Grapploct",
+      "image": "/images/pokemonFrontShiny/GRAPPLOCT.png",
+      "generation": 8
+    },
+    {
+      "id": "SINISTEA",
+      "name": "Sinistea",
+      "image": "/images/pokemonFrontShiny/SINISTEA.png",
+      "generation": 8
+    },
+    {
+      "id": "POLTEAGEIST",
+      "name": "Polteageist",
+      "image": "/images/pokemonFrontShiny/POLTEAGEIST.png",
+      "generation": 8
+    },
+    {
+      "id": "HATENNA",
+      "name": "Hatenna",
+      "image": "/images/pokemonFrontShiny/HATENNA.png",
+      "generation": 8
+    },
+    {
+      "id": "HATTREM",
+      "name": "Hattrem",
+      "image": "/images/pokemonFrontShiny/HATTREM.png",
+      "generation": 8
+    },
+    {
+      "id": "HATTERENE",
+      "name": "Hatterene",
+      "image": "/images/pokemonFrontShiny/HATTERENE.png",
+      "generation": 8
+    },
+    {
+      "id": "IMPIDIMP",
+      "name": "Impidimp",
+      "image": "/images/pokemonFrontShiny/IMPIDIMP.png",
+      "generation": 8
+    },
+    {
+      "id": "MORGREM",
+      "name": "Morgrem",
+      "image": "/images/pokemonFrontShiny/MORGREM.png",
+      "generation": 8
+    },
+    {
+      "id": "GRIMMSNARL",
+      "name": "Grimmsnarl",
+      "image": "/images/pokemonFrontShiny/GRIMMSNARL.png",
+      "generation": 8
+    },
+    {
+      "id": "OBSTAGOON",
+      "name": "Obstagoon",
+      "image": "/images/pokemonFrontShiny/OBSTAGOON.png",
+      "generation": 8
+    },
+    {
+      "id": "PERRSERKER",
+      "name": "Perrserker",
+      "image": "/images/pokemonFrontShiny/PERRSERKER.png",
+      "generation": 8
+    },
+    {
+      "id": "CURSOLA",
+      "name": "Cursola",
+      "image": "/images/pokemonFrontShiny/CURSOLA.png",
+      "generation": 8
+    },
+    {
+      "id": "SIRFETCHD",
+      "name": "Sirfetch'd",
+      "image": "/images/pokemonFrontShiny/SIRFETCHD.png",
+      "generation": 8
+    },
+    {
+      "id": "MRRIME",
+      "name": "Mr. Rime",
+      "image": "/images/pokemonFrontShiny/MRRIME.png",
+      "generation": 8
+    },
+    {
+      "id": "RUNERIGUS",
+      "name": "Runerigus",
+      "image": "/images/pokemonFrontShiny/RUNERIGUS.png",
+      "generation": 8
+    },
+    {
+      "id": "MILCERY",
+      "name": "Milcery",
+      "image": "/images/pokemonFrontShiny/MILCERY.png",
+      "generation": 8
+    },
+    {
+      "id": "ALCREMIE",
+      "name": "Alcremie",
+      "image": "/images/pokemonFrontShiny/ALCREMIE.png",
+      "generation": 8
+    },
+    {
+      "id": "FALINKS",
+      "name": "Falinks",
+      "image": "/images/pokemonFrontShiny/FALINKS.png",
+      "generation": 8
+    },
+    {
+      "id": "PINCURCHIN",
+      "name": "Pincurchin",
+      "image": "/images/pokemonFrontShiny/PINCURCHIN.png",
+      "generation": 8
+    },
+    {
+      "id": "SNOM",
+      "name": "Snom",
+      "image": "/images/pokemonFrontShiny/SNOM.png",
+      "generation": 8
+    },
+    {
+      "id": "FROSMOTH",
+      "name": "Frosmoth",
+      "image": "/images/pokemonFrontShiny/FROSMOTH.png",
+      "generation": 8
+    },
+    {
+      "id": "STONJOURNER",
+      "name": "Stonjourner",
+      "image": "/images/pokemonFrontShiny/STONJOURNER.png",
+      "generation": 8
+    },
+    {
+      "id": "EISCUE",
+      "name": "Eiscue",
+      "image": "/images/pokemonFrontShiny/EISCUE.png",
+      "generation": 8
+    },
+    {
+      "id": "INDEEDEE",
+      "name": "Indeedee",
+      "image": "/images/pokemonFrontShiny/INDEEDEE.png",
+      "generation": 8
+    },
+    {
+      "id": "MORPEKO",
+      "name": "Morpeko",
+      "image": "/images/pokemonFrontShiny/MORPEKO.png",
+      "generation": 8
+    },
+    {
+      "id": "CUFANT",
+      "name": "Cufant",
+      "image": "/images/pokemonFrontShiny/CUFANT.png",
+      "generation": 8
+    },
+    {
+      "id": "COPPERAJAH",
+      "name": "Copperajah",
+      "image": "/images/pokemonFrontShiny/COPPERAJAH.png",
+      "generation": 8
+    },
+    {
+      "id": "DRACOZOLT",
+      "name": "Dracozolt",
+      "image": "/images/pokemonFrontShiny/DRACOZOLT.png",
+      "generation": 8
+    },
+    {
+      "id": "ARCTOZOLT",
+      "name": "Arctozolt",
+      "image": "/images/pokemonFrontShiny/ARCTOZOLT.png",
+      "generation": 8
+    },
+    {
+      "id": "DRACOVISH",
+      "name": "Dracovish",
+      "image": "/images/pokemonFrontShiny/DRACOVISH.png",
+      "generation": 8
+    },
+    {
+      "id": "ARCTOVISH",
+      "name": "Arctovish",
+      "image": "/images/pokemonFrontShiny/ARCTOVISH.png",
+      "generation": 8
+    },
+    {
+      "id": "DURALUDON",
+      "name": "Duraludon",
+      "image": "/images/pokemonFrontShiny/DURALUDON.png",
+      "generation": 8
+    },
+    {
+      "id": "DREEPY",
+      "name": "Dreepy",
+      "image": "/images/pokemonFrontShiny/DREEPY.png",
+      "generation": 8
+    },
+    {
+      "id": "DRAKLOAK",
+      "name": "Drakloak",
+      "image": "/images/pokemonFrontShiny/DRAKLOAK.png",
+      "generation": 8
+    },
+    {
+      "id": "DRAGAPULT",
+      "name": "Dragapult",
+      "image": "/images/pokemonFrontShiny/DRAGAPULT.png",
+      "generation": 8
+    },
+    {
+      "id": "ZACIAN",
+      "name": "Zacian",
+      "image": "/images/pokemonFrontShiny/ZACIAN.png",
+      "generation": 8
+    },
+    {
+      "id": "ZAMAZENTA",
+      "name": "Zamazenta",
+      "image": "/images/pokemonFrontShiny/ZAMAZENTA.png",
+      "generation": 8
+    },
+    {
+      "id": "ETERNATUS",
+      "name": "Eternatus",
+      "image": "/images/pokemonFrontShiny/ETERNATUS.png",
+      "generation": 8
+    },
+    {
+      "id": "KUBFU",
+      "name": "Kubfu",
+      "image": "/images/pokemonFrontShiny/KUBFU.png",
+      "generation": 8
+    },
+    {
+      "id": "URSHIFU",
+      "name": "Urshifu",
+      "image": "/images/pokemonFrontShiny/URSHIFU.png",
+      "generation": 8
+    },
+    {
+      "id": "ZARUDE",
+      "name": "Zarude",
+      "image": "/images/pokemonFrontShiny/ZARUDE.png",
+      "generation": 8
+    },
+    {
+      "id": "REGIELEKI",
+      "name": "Regieleki",
+      "image": "/images/pokemonFrontShiny/REGIELEKI.png",
+      "generation": 8
+    },
+    {
+      "id": "REGIDRAGO",
+      "name": "Regidrago",
+      "image": "/images/pokemonFrontShiny/REGIDRAGO.png",
+      "generation": 8
+    },
+    {
+      "id": "GLASTRIER",
+      "name": "Glastrier",
+      "image": "/images/pokemonFrontShiny/GLASTRIER.png",
+      "generation": 8
+    },
+    {
+      "id": "SPECTRIER",
+      "name": "Spectrier",
+      "image": "/images/pokemonFrontShiny/SPECTRIER.png",
+      "generation": 8
+    },
+    {
+      "id": "CALYREX",
+      "name": "Calyrex",
+      "image": "/images/pokemonFrontShiny/CALYREX.png",
+      "generation": 8
+    },
+    {
+      "id": "WYRDEER",
+      "name": "Wyrdeer",
+      "image": "/images/pokemonFrontShiny/WYRDEER.png",
+      "generation": 8
+    },
+    {
+      "id": "KLEAVOR",
+      "name": "Kleavor",
+      "image": "/images/pokemonFrontShiny/KLEAVOR.png",
+      "generation": 8
+    },
+    {
+      "id": "URSALUNA",
+      "name": "Ursaluna",
+      "image": "/images/pokemonFrontShiny/URSALUNA.png",
+      "generation": 8
+    },
+    {
+      "id": "BASCULEGION",
+      "name": "Basculegion",
+      "image": "/images/pokemonFrontShiny/BASCULEGION.png",
+      "generation": 8
+    },
+    {
+      "id": "SNEASLER",
+      "name": "Sneasler",
+      "image": "/images/pokemonFrontShiny/SNEASLER.png",
+      "generation": 8
+    },
+    {
+      "id": "OVERQWIL",
+      "name": "Overqwil",
+      "image": "/images/pokemonFrontShiny/OVERQWIL.png",
+      "generation": 8
+    },
+    {
+      "id": "ENAMORUS",
+      "name": "Enamorus",
+      "image": "/images/pokemonFrontShiny/ENAMORUS.png",
+      "generation": 8
+    },
+    {
+      "id": "SPRIGATITO",
+      "name": "Sprigatito",
+      "image": "/images/pokemonFrontShiny/SPRIGATITO.png",
+      "generation": 9
+    },
+    {
+      "id": "FLORAGATO",
+      "name": "Floragato",
+      "image": "/images/pokemonFrontShiny/FLORAGATO.png",
+      "generation": 9
+    },
+    {
+      "id": "MEOWSCARADA",
+      "name": "Meowscarada",
+      "image": "/images/pokemonFrontShiny/MEOWSCARADA.png",
+      "generation": 9
+    },
+    {
+      "id": "FUECOCO",
+      "name": "Fuecoco",
+      "image": "/images/pokemonFrontShiny/FUECOCO.png",
+      "generation": 9
+    },
+    {
+      "id": "CROCALOR",
+      "name": "Crocalor",
+      "image": "/images/pokemonFrontShiny/CROCALOR.png",
+      "generation": 9
+    },
+    {
+      "id": "SKELEDIRGE",
+      "name": "Skeledirge",
+      "image": "/images/pokemonFrontShiny/SKELEDIRGE.png",
+      "generation": 9
+    },
+    {
+      "id": "QUAXLY",
+      "name": "Quaxly",
+      "image": "/images/pokemonFrontShiny/QUAXLY.png",
+      "generation": 9
+    },
+    {
+      "id": "QUAXWELL",
+      "name": "Quaxwell",
+      "image": "/images/pokemonFrontShiny/QUAXWELL.png",
+      "generation": 9
+    },
+    {
+      "id": "QUAQUAVAL",
+      "name": "Quaquaval",
+      "image": "/images/pokemonFrontShiny/QUAQUAVAL.png",
+      "generation": 9
+    },
+    {
+      "id": "LECHONK",
+      "name": "Lechonk",
+      "image": "/images/pokemonFrontShiny/LECHONK.png",
+      "generation": 9
+    },
+    {
+      "id": "OINKOLOGNE",
+      "name": "Oinkologne",
+      "image": "/images/pokemonFrontShiny/OINKOLOGNE.png",
+      "generation": 9
+    },
+    {
+      "id": "TAROUNTULA",
+      "name": "Tarountula",
+      "image": "/images/pokemonFrontShiny/TAROUNTULA.png",
+      "generation": 9
+    },
+    {
+      "id": "SPIDOPS",
+      "name": "Spidops",
+      "image": "/images/pokemonFrontShiny/SPIDOPS.png",
+      "generation": 9
+    },
+    {
+      "id": "NYMBLE",
+      "name": "Nymble",
+      "image": "/images/pokemonFrontShiny/NYMBLE.png",
+      "generation": 9
+    },
+    {
+      "id": "LOKIX",
+      "name": "Lokix",
+      "image": "/images/pokemonFrontShiny/LOKIX.png",
+      "generation": 9
+    },
+    {
+      "id": "PAWMI",
+      "name": "Pawmi",
+      "image": "/images/pokemonFrontShiny/PAWMI.png",
+      "generation": 9
+    },
+    {
+      "id": "PAWMO",
+      "name": "Pawmo",
+      "image": "/images/pokemonFrontShiny/PAWMO.png",
+      "generation": 9
+    },
+    {
+      "id": "PAWMOT",
+      "name": "Pawmot",
+      "image": "/images/pokemonFrontShiny/PAWMOT.png",
+      "generation": 9
+    },
+    {
+      "id": "TANDEMAUS",
+      "name": "Tandemaus",
+      "image": "/images/pokemonFrontShiny/TANDEMAUS.png",
+      "generation": 9
+    },
+    {
+      "id": "MAUSHOLD",
+      "name": "Maushold",
+      "image": "/images/pokemonFrontShiny/MAUSHOLD.png",
+      "generation": 9
+    },
+    {
+      "id": "FIDOUGH",
+      "name": "Fidough",
+      "image": "/images/pokemonFrontShiny/FIDOUGH.png",
+      "generation": 9
+    },
+    {
+      "id": "DACHSBUN",
+      "name": "Dachsbun",
+      "image": "/images/pokemonFrontShiny/DACHSBUN.png",
+      "generation": 9
+    },
+    {
+      "id": "SMOLIV",
+      "name": "Smoliv",
+      "image": "/images/pokemonFrontShiny/SMOLIV.png",
+      "generation": 9
+    },
+    {
+      "id": "DOLLIV",
+      "name": "Dolliv",
+      "image": "/images/pokemonFrontShiny/DOLLIV.png",
+      "generation": 9
+    },
+    {
+      "id": "ARBOLIVA",
+      "name": "Arboliva",
+      "image": "/images/pokemonFrontShiny/ARBOLIVA.png",
+      "generation": 9
+    },
+    {
+      "id": "SQUAWKABILLY",
+      "name": "Squawkabilly",
+      "image": "/images/pokemonFrontShiny/SQUAWKABILLY.png",
+      "generation": 9
+    },
+    {
+      "id": "NACLI",
+      "name": "Nacli",
+      "image": "/images/pokemonFrontShiny/NACLI.png",
+      "generation": 9
+    },
+    {
+      "id": "NACLSTACK",
+      "name": "Naclstack",
+      "image": "/images/pokemonFrontShiny/NACLSTACK.png",
+      "generation": 9
+    },
+    {
+      "id": "GARGANACL",
+      "name": "Garganacl",
+      "image": "/images/pokemonFrontShiny/GARGANACL.png",
+      "generation": 9
+    },
+    {
+      "id": "CHARCADET",
+      "name": "Charcadet",
+      "image": "/images/pokemonFrontShiny/CHARCADET.png",
+      "generation": 9
+    },
+    {
+      "id": "ARMAROUGE",
+      "name": "Armarouge",
+      "image": "/images/pokemonFrontShiny/ARMAROUGE.png",
+      "generation": 9
+    },
+    {
+      "id": "CERULEDGE",
+      "name": "Ceruledge",
+      "image": "/images/pokemonFrontShiny/CERULEDGE.png",
+      "generation": 9
+    },
+    {
+      "id": "TADBULB",
+      "name": "Tadbulb",
+      "image": "/images/pokemonFrontShiny/TADBULB.png",
+      "generation": 9
+    },
+    {
+      "id": "BELLIBOLT",
+      "name": "Bellibolt",
+      "image": "/images/pokemonFrontShiny/BELLIBOLT.png",
+      "generation": 9
+    },
+    {
+      "id": "WATTREL",
+      "name": "Wattrel",
+      "image": "/images/pokemonFrontShiny/WATTREL.png",
+      "generation": 9
+    },
+    {
+      "id": "KILOWATTREL",
+      "name": "Kilowattrel",
+      "image": "/images/pokemonFrontShiny/KILOWATTREL.png",
+      "generation": 9
+    },
+    {
+      "id": "MASCHIFF",
+      "name": "Maschiff",
+      "image": "/images/pokemonFrontShiny/MASCHIFF.png",
+      "generation": 9
+    },
+    {
+      "id": "MABOSSTIFF",
+      "name": "Mabosstiff",
+      "image": "/images/pokemonFrontShiny/MABOSSTIFF.png",
+      "generation": 9
+    },
+    {
+      "id": "SHROODLE",
+      "name": "Shroodle",
+      "image": "/images/pokemonFrontShiny/SHROODLE.png",
+      "generation": 9
+    },
+    {
+      "id": "GRAFAIAI",
+      "name": "Grafaiai",
+      "image": "/images/pokemonFrontShiny/GRAFAIAI.png",
+      "generation": 9
+    },
+    {
+      "id": "BRAMBLIN",
+      "name": "Bramblin",
+      "image": "/images/pokemonFrontShiny/BRAMBLIN.png",
+      "generation": 9
+    },
+    {
+      "id": "BRAMBLEGHAST",
+      "name": "Brambleghast",
+      "image": "/images/pokemonFrontShiny/BRAMBLEGHAST.png",
+      "generation": 9
+    },
+    {
+      "id": "TOEDSCOOL",
+      "name": "Toedscool",
+      "image": "/images/pokemonFrontShiny/TOEDSCOOL.png",
+      "generation": 9
+    },
+    {
+      "id": "TOEDSCRUEL",
+      "name": "Toedscruel",
+      "image": "/images/pokemonFrontShiny/TOEDSCRUEL.png",
+      "generation": 9
+    },
+    {
+      "id": "KLAWF",
+      "name": "Klawf",
+      "image": "/images/pokemonFrontShiny/KLAWF.png",
+      "generation": 9
+    },
+    {
+      "id": "CAPSAKID",
+      "name": "Capsakid",
+      "image": "/images/pokemonFrontShiny/CAPSAKID.png",
+      "generation": 9
+    },
+    {
+      "id": "SCOVILLAIN",
+      "name": "Scovillain",
+      "image": "/images/pokemonFrontShiny/SCOVILLAIN.png",
+      "generation": 9
+    },
+    {
+      "id": "RELLOR",
+      "name": "Rellor",
+      "image": "/images/pokemonFrontShiny/RELLOR.png",
+      "generation": 9
+    },
+    {
+      "id": "RABSCA",
+      "name": "Rabsca",
+      "image": "/images/pokemonFrontShiny/RABSCA.png",
+      "generation": 9
+    },
+    {
+      "id": "FLITTLE",
+      "name": "Flittle",
+      "image": "/images/pokemonFrontShiny/FLITTLE.png",
+      "generation": 9
+    },
+    {
+      "id": "ESPATHRA",
+      "name": "Espathra",
+      "image": "/images/pokemonFrontShiny/ESPATHRA.png",
+      "generation": 9
+    },
+    {
+      "id": "TINKATINK",
+      "name": "Tinkatink",
+      "image": "/images/pokemonFrontShiny/TINKATINK.png",
+      "generation": 9
+    },
+    {
+      "id": "TINKATUFF",
+      "name": "Tinkatuff",
+      "image": "/images/pokemonFrontShiny/TINKATUFF.png",
+      "generation": 9
+    },
+    {
+      "id": "TINKATON",
+      "name": "Tinkaton",
+      "image": "/images/pokemonFrontShiny/TINKATON.png",
+      "generation": 9
+    },
+    {
+      "id": "WIGLETT",
+      "name": "Wiglett",
+      "image": "/images/pokemonFrontShiny/WIGLETT.png",
+      "generation": 9
+    },
+    {
+      "id": "WUGTRIO",
+      "name": "Wugtrio",
+      "image": "/images/pokemonFrontShiny/WUGTRIO.png",
+      "generation": 9
+    },
+    {
+      "id": "BOMBIRDIER",
+      "name": "Bombirdier",
+      "image": "/images/pokemonFrontShiny/BOMBIRDIER.png",
+      "generation": 9
+    },
+    {
+      "id": "FINIZEN",
+      "name": "Finizen",
+      "image": "/images/pokemonFrontShiny/FINIZEN.png",
+      "generation": 9
+    },
+    {
+      "id": "PALAFIN",
+      "name": "Palafin",
+      "image": "/images/pokemonFrontShiny/PALAFIN.png",
+      "generation": 9
+    },
+    {
+      "id": "VAROOM",
+      "name": "Varoom",
+      "image": "/images/pokemonFrontShiny/VAROOM.png",
+      "generation": 9
+    },
+    {
+      "id": "REVAVROOM",
+      "name": "Revavroom",
+      "image": "/images/pokemonFrontShiny/REVAVROOM.png",
+      "generation": 9
+    },
+    {
+      "id": "CYCLIZAR",
+      "name": "Cyclizar",
+      "image": "/images/pokemonFrontShiny/CYCLIZAR.png",
+      "generation": 9
+    },
+    {
+      "id": "ORTHWORM",
+      "name": "Orthworm",
+      "image": "/images/pokemonFrontShiny/ORTHWORM.png",
+      "generation": 9
+    },
+    {
+      "id": "GLIMMET",
+      "name": "Glimmet",
+      "image": "/images/pokemonFrontShiny/GLIMMET.png",
+      "generation": 9
+    },
+    {
+      "id": "GLIMMORA",
+      "name": "Glimmora",
+      "image": "/images/pokemonFrontShiny/GLIMMORA.png",
+      "generation": 9
+    },
+    {
+      "id": "GREAVARD",
+      "name": "Greavard",
+      "image": "/images/pokemonFrontShiny/GREAVARD.png",
+      "generation": 9
+    },
+    {
+      "id": "HOUNDSTONE",
+      "name": "Houndstone",
+      "image": "/images/pokemonFrontShiny/HOUNDSTONE.png",
+      "generation": 9
+    },
+    {
+      "id": "FLAMIGO",
+      "name": "Flamigo",
+      "image": "/images/pokemonFrontShiny/FLAMIGO.png",
+      "generation": 9
+    },
+    {
+      "id": "CETODDLE",
+      "name": "Cetoddle",
+      "image": "/images/pokemonFrontShiny/CETODDLE.png",
+      "generation": 9
+    },
+    {
+      "id": "CETITAN",
+      "name": "Cetitan",
+      "image": "/images/pokemonFrontShiny/CETITAN.png",
+      "generation": 9
+    },
+    {
+      "id": "VELUZA",
+      "name": "Veluza",
+      "image": "/images/pokemonFrontShiny/VELUZA.png",
+      "generation": 9
+    },
+    {
+      "id": "DONDOZO",
+      "name": "Dondozo",
+      "image": "/images/pokemonFrontShiny/DONDOZO.png",
+      "generation": 9
+    },
+    {
+      "id": "TATSUGIRI",
+      "name": "Tatsugiri",
+      "image": "/images/pokemonFrontShiny/TATSUGIRI.png",
+      "generation": 9
+    },
+    {
+      "id": "ANNIHILAPE",
+      "name": "Annihilape",
+      "image": "/images/pokemonFrontShiny/ANNIHILAPE.png",
+      "generation": 9
+    },
+    {
+      "id": "CLODSIRE",
+      "name": "Clodsire",
+      "image": "/images/pokemonFrontShiny/CLODSIRE.png",
+      "generation": 9
+    },
+    {
+      "id": "FARIGIRAF",
+      "name": "Farigiraf",
+      "image": "/images/pokemonFrontShiny/FARIGIRAF.png",
+      "generation": 9
+    },
+    {
+      "id": "DUDUNSPARCE",
+      "name": "Dudunsparce",
+      "image": "/images/pokemonFrontShiny/DUDUNSPARCE.png",
+      "generation": 9
+    },
+    {
+      "id": "KINGAMBIT",
+      "name": "Kingambit",
+      "image": "/images/pokemonFrontShiny/KINGAMBIT.png",
+      "generation": 9
+    },
+    {
+      "id": "GREATTUSK",
+      "name": "Colmilargo",
+      "image": "/images/pokemonFrontShiny/GREATTUSK.png",
+      "generation": 9
+    },
+    {
+      "id": "SCREAMTAIL",
+      "name": "Colagrito",
+      "image": "/images/pokemonFrontShiny/SCREAMTAIL.png",
+      "generation": 9
+    },
+    {
+      "id": "BRUTEBONNET",
+      "name": "Furioseta",
+      "image": "/images/pokemonFrontShiny/BRUTEBONNET.png",
+      "generation": 9
+    },
+    {
+      "id": "FLUTTERMANE",
+      "name": "Melenaleteo",
+      "image": "/images/pokemonFrontShiny/FLUTTERMANE.png",
+      "generation": 9
+    },
+    {
+      "id": "SLITHERWING",
+      "name": "Reptalada",
+      "image": "/images/pokemonFrontShiny/SLITHERWING.png",
+      "generation": 9
+    },
+    {
+      "id": "SANDYSHOCKS",
+      "name": "Pelarena",
+      "image": "/images/pokemonFrontShiny/SANDYSHOCKS.png",
+      "generation": 9
+    },
+    {
+      "id": "IRONTREADS",
+      "name": "Ferrodada",
+      "image": "/images/pokemonFrontShiny/IRONTREADS.png",
+      "generation": 9
+    },
+    {
+      "id": "IRONBUNDLE",
+      "name": "Ferrosaco",
+      "image": "/images/pokemonFrontShiny/IRONBUNDLE.png",
+      "generation": 9
+    },
+    {
+      "id": "IRONHANDS",
+      "name": "Ferropalmas",
+      "image": "/images/pokemonFrontShiny/IRONHANDS.png",
+      "generation": 9
+    },
+    {
+      "id": "IRONJUGULIS",
+      "name": "Ferrocuello",
+      "image": "/images/pokemonFrontShiny/IRONJUGULIS.png",
+      "generation": 9
+    },
+    {
+      "id": "IRONMOTH",
+      "name": "Ferropolilla",
+      "image": "/images/pokemonFrontShiny/IRONMOTH.png",
+      "generation": 9
+    },
+    {
+      "id": "IRONTHORNS",
+      "name": "Ferropúas",
+      "image": "/images/pokemonFrontShiny/IRONTHORNS.png",
+      "generation": 9
+    },
+    {
+      "id": "FRIGIBAX",
+      "name": "Frigibax",
+      "image": "/images/pokemonFrontShiny/FRIGIBAX.png",
+      "generation": 9
+    },
+    {
+      "id": "ARCTIBAX",
+      "name": "Arctibax",
+      "image": "/images/pokemonFrontShiny/ARCTIBAX.png",
+      "generation": 9
+    },
+    {
+      "id": "BAXCALIBUR",
+      "name": "Baxcalibur",
+      "image": "/images/pokemonFrontShiny/BAXCALIBUR.png",
+      "generation": 9
+    },
+    {
+      "id": "GIMMIGHOUL",
+      "name": "Gimmighoul",
+      "image": "/images/pokemonFrontShiny/GIMMIGHOUL.png",
+      "generation": 9
+    },
+    {
+      "id": "GHOLDENGO",
+      "name": "Gholdengo",
+      "image": "/images/pokemonFrontShiny/GHOLDENGO.png",
+      "generation": 9
+    },
+    {
+      "id": "WOCHIEN",
+      "name": "Wo-Chien",
+      "image": "/images/pokemonFrontShiny/WOCHIEN.png",
+      "generation": 9
+    },
+    {
+      "id": "CHIENPAO",
+      "name": "Chien-Pao",
+      "image": "/images/pokemonFrontShiny/CHIENPAO.png",
+      "generation": 9
+    },
+    {
+      "id": "TINGLU",
+      "name": "Ting-Lu",
+      "image": "/images/pokemonFrontShiny/TINGLU.png",
+      "generation": 9
+    },
+    {
+      "id": "CHIYU",
+      "name": "Chi-Yu",
+      "image": "/images/pokemonFrontShiny/CHIYU.png",
+      "generation": 9
+    },
+    {
+      "id": "ROARINGMOON",
+      "name": "Bramaluna",
+      "image": "/images/pokemonFrontShiny/ROARINGMOON.png",
+      "generation": 9
+    },
+    {
+      "id": "IRONVALIANT",
+      "name": "Ferropaladín",
+      "image": "/images/pokemonFrontShiny/IRONVALIANT.png",
+      "generation": 9
+    },
+    {
+      "id": "KORAIDON",
+      "name": "Koraidon",
+      "image": "/images/pokemonFrontShiny/KORAIDON.png",
+      "generation": 9
+    },
+    {
+      "id": "MIRAIDON",
+      "name": "Miraidon",
+      "image": "/images/pokemonFrontShiny/MIRAIDON.png",
+      "generation": 9
+    },
+    {
+      "id": "WALKINGWAKE",
+      "name": "Ondulagua",
+      "image": "/images/pokemonFrontShiny/WALKINGWAKE.png",
+      "generation": 9
+    },
+    {
+      "id": "IRONLEAVES",
+      "name": "Ferroverdor",
+      "image": "/images/pokemonFrontShiny/IRONLEAVES.png",
+      "generation": 9
+    },
+    {
+      "id": "DIPPLIN",
+      "name": "Dipplin",
+      "image": "/images/pokemonFrontShiny/DIPPLIN.png",
+      "generation": 9
+    },
+    {
+      "id": "POLTCHAGEIST",
+      "name": "Poltchageist",
+      "image": "/images/pokemonFrontShiny/POLTCHAGEIST.png",
+      "generation": 9
+    },
+    {
+      "id": "SINISTCHA",
+      "name": "Sinistcha",
+      "image": "/images/pokemonFrontShiny/SINISTCHA.png",
+      "generation": 9
+    },
+    {
+      "id": "OKIDOGI",
+      "name": "Okidogi",
+      "image": "/images/pokemonFrontShiny/OKIDOGI.png",
+      "generation": 9
+    },
+    {
+      "id": "MUNKIDORI",
+      "name": "Munkidori",
+      "image": "/images/pokemonFrontShiny/MUNKIDORI.png",
+      "generation": 9
+    },
+    {
+      "id": "FEZANDIPITI",
+      "name": "Fezandipiti",
+      "image": "/images/pokemonFrontShiny/FEZANDIPITI.png",
+      "generation": 9
+    },
+    {
+      "id": "OGERPON",
+      "name": "Ogerpon",
+      "image": "/images/pokemonFrontShiny/OGERPON.png",
+      "generation": 9
+    },
+    {
+      "id": "ARCHALUDON",
+      "name": "Archaludon",
+      "image": "/images/pokemonFrontShiny/ARCHALUDON.png",
+      "generation": 9
+    },
+    {
+      "id": "HYDRAPPLE",
+      "name": "Hydrapple",
+      "image": "/images/pokemonFrontShiny/HYDRAPPLE.png",
+      "generation": 9
+    },
+    {
+      "id": "GOUGINGFIRE",
+      "name": "Flamariete",
+      "image": "/images/pokemonFrontShiny/GOUGINGFIRE.png",
+      "generation": 9
+    },
+    {
+      "id": "RAGINGBOLT",
+      "name": "Electrofuria",
+      "image": "/images/pokemonFrontShiny/RAGINGBOLT.png",
+      "generation": 9
+    },
+    {
+      "id": "IRONBOULDER",
+      "name": "Ferromole",
+      "image": "/images/pokemonFrontShiny/IRONBOULDER.png",
+      "generation": 9
+    },
+    {
+      "id": "IRONCROWN",
+      "name": "Ferrotesta",
+      "image": "/images/pokemonFrontShiny/IRONCROWN.png",
+      "generation": 9
+    },
+    {
+      "id": "TERAPAGOS",
+      "name": "Terapagos",
+      "image": "/images/pokemonFrontShiny/TERAPAGOS.png",
+      "generation": 9
+    },
+    {
+      "id": "PECHARUNT",
+      "name": "Pecharunt",
+      "image": "/images/pokemonFrontShiny/PECHARUNT.png",
+      "generation": 9
+    },
+    {
+      "id": "ROYALEON",
+      "name": "Royaleon",
+      "image": "/images/pokemonFrontShiny/ROYALEON.png",
+      "generation": 9
+    },
+    {
+      "id": "CEFIREON",
+      "name": "Cefireon",
+      "image": "/images/pokemonFrontShiny/CEFIREON.png",
+      "generation": 9
+    }
+  ]
+}
