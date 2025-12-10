@@ -9,7 +9,7 @@ import {
   DragOverlay
 } from '@dnd-kit/core';
 import { SortableContext, arrayMove, rectSortingStrategy } from '@dnd-kit/sortable';
-import pokemonData from '../../data/pokemonGeneration.json';
+import pokemonData from '../../data/pokemonCollection.json';
 import ShinyPokemonCard from './ShinyPokemonCard';
 import ColorModal from './ColorModal';
 import { useSEO } from '../../hooks/useSEO';
