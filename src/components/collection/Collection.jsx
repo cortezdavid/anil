@@ -10,6 +10,7 @@ const Collection = () => {
   const [suggestions, setSuggestions] = useState([]);
   const [draggedIndex, setDraggedIndex] = useState(null);
   const [modalPokemon, setModalPokemon] = useState(null);
+  const [touchStart, setTouchStart] = useState(null);
 
   useSEO({
     title: 'Colección Shiny - Pokémon Añil',
@@ -99,6 +100,37 @@ const Collection = () => {
     setDraggedIndex(null);
   };
 
+  // Touch events para móvil
+  const handleTouchStart = (index) => {
+    setTouchStart(index);
+    setDraggedIndex(index);
+  };
+
+  const handleTouchMove = (e) => {
+    if (touchStart === null) return;
+    
+    // Prevenir scroll mientras se arrastra
+    e.preventDefault();
+  };
+
+  const handleTouchEnd = (index) => {
+    if (touchStart === null || touchStart === index) {
+      setTouchStart(null);
+      setDraggedIndex(null);
+      return;
+    }
+
+    // Reordenar elementos
+    const newPokemon = [...selectedPokemon];
+    const draggedItem = newPokemon[touchStart];
+    newPokemon.splice(touchStart, 1);
+    newPokemon.splice(index, 0, draggedItem);
+    
+    setSelectedPokemon(newPokemon);
+    setTouchStart(null);
+    setDraggedIndex(null);
+  };
+
   const handleKeyDown = (e) => {
     if (e.key === 'Enter' && suggestions.length > 0) {
       handleAddPokemon(suggestions[0]);
@@ -138,7 +170,7 @@ const Collection = () => {
         </div>
 
         {/* Buscador */}
-        <div className="mb-6">
+        <div className="bg-slate-800 rounded-xl shadow-lg shadow-gray-900/30 p-6 border border-slate-700 mb-6">
           <div className="relative">
             <input
               type="text"
@@ -206,6 +238,9 @@ const Collection = () => {
                 onDragStart={handleDragStart}
                 onDragOver={handleDragOver}
                 onDragEnd={handleDragEnd}
+                onTouchStart={handleTouchStart}
+                onTouchMove={handleTouchMove}
+                onTouchEnd={handleTouchEnd}
                 onOpenModal={handleOpenModal}
                 isDragging={draggedIndex === index}
               />
