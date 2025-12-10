@@ -3,7 +3,10 @@ import { COLOR_PALETTES } from './colorPalettes';
 
 const ColorModal = ({ pokemon, onClose, onConfirm }) => {
   const canvasRef = useRef(null);
+  const previewContainerRef = useRef(null);
   const [colorShift, setColorShift] = useState(pokemon.colorShift || 0);
+  const [isZooming, setIsZooming] = useState(false);
+  const [zoomPosition, setZoomPosition] = useState({ x: 0, y: 0 });
 
   // Renderizar el canvas con el color seleccionado
   useEffect(() => {
@@ -21,27 +24,23 @@ const ColorModal = ({ pokemon, onClose, onConfirm }) => {
       ctx.imageSmoothingEnabled = true;
       ctx.imageSmoothingQuality = 'high';
 
-      // Dibujar solo el primer cuadro
       ctx.drawImage(
         img,
         0, 0, size, size,
         0, 0, size, size
       );
 
-      // Aplicar cambio de color si está activado
       if (colorShift > 0) {
         const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
         const data = imageData.data;
         const palette = COLOR_PALETTES[colorShift - 1];
 
         for (let i = 0; i < data.length; i += 4) {
-          // Solo modificar píxeles no transparentes
           if (data[i + 3] > 0) {
             const r = data[i];
             const g = data[i + 1];
             const b = data[i + 2];
 
-            // Convertir RGB a HSL
             const max = Math.max(r, g, b) / 255;
             const min = Math.min(r, g, b) / 255;
             const l = (max + min) / 2;
@@ -62,12 +61,10 @@ const ColorModal = ({ pokemon, onClose, onConfirm }) => {
               }
             }
 
-            // Aplicar el cambio de tono
             h = (h + palette.hueShift / 360) % 1;
             s = Math.min(1, s * palette.saturation);
             const newL = Math.min(1, l * palette.brightness);
 
-            // Convertir HSL de vuelta a RGB
             const hue2rgb = (p, q, t) => {
               if (t < 0) t += 1;
               if (t > 1) t -= 1;
@@ -101,6 +98,16 @@ const ColorModal = ({ pokemon, onClose, onConfirm }) => {
     img.src = pokemon.image;
   }, [pokemon.image, colorShift]);
 
+  const handleMouseMove = (e) => {
+    if (!previewContainerRef.current) return;
+    
+    const rect = previewContainerRef.current.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    
+    setZoomPosition({ x, y });
+  };
+
   const handleConfirm = () => {
     onConfirm(pokemon.uniqueId, colorShift);
     onClose();
@@ -118,17 +125,52 @@ const ColorModal = ({ pokemon, onClose, onConfirm }) => {
 
         {/* Body */}
         <div className="p-8 space-y-6">
-          {/* Canvas Preview - MÁS GRANDE */}
-          <div className="flex justify-center bg-slate-900/50 rounded-xl p-8">
+          {/* Canvas Preview con Zoom */}
+          <div 
+            ref={previewContainerRef}
+            className="relative flex justify-center bg-slate-900/50 rounded-xl p-8 overflow-hidden"
+            style={{ cursor: isZooming ? 'zoom-in' : 'default' }}
+            onMouseEnter={() => setIsZooming(true)}
+            onMouseLeave={() => setIsZooming(false)}
+            onMouseMove={handleMouseMove}
+          >
+            {/* Canvas normal */}
             <canvas
               ref={canvasRef}
-              className="object-contain"
+              className="object-contain transition-opacity duration-200"
               style={{
                 imageRendering: 'pixelated',
                 width: '100px',
-                height: '100px'
+                height: '100px',
+                opacity: isZooming ? 0 : 1
               }}
             />
+
+            {/* Canvas con zoom que sigue al mouse */}
+            {isZooming && (
+              <canvas
+                ref={(zoomCanvas) => {
+                  if (zoomCanvas && canvasRef.current) {
+                    const ctx = zoomCanvas.getContext('2d');
+                    const sourceCanvas = canvasRef.current;
+                    zoomCanvas.width = sourceCanvas.width;
+                    zoomCanvas.height = sourceCanvas.height;
+                    ctx.drawImage(sourceCanvas, 0, 0);
+                  }
+                }}
+                className="absolute pointer-events-none"
+                style={{
+                  imageRendering: 'pixelated',
+                  width: '200px',
+                  height: '200px',
+                  left: `${zoomPosition.x}px`,
+                  top: `${zoomPosition.y}px`,
+                  transform: 'translate(-50%, -50%)',
+                  filter: 'drop-shadow(0 0 20px rgba(59, 130, 246, 0.5))',
+                  zIndex: 10
+                }}
+              />
+            )}
           </div>
 
           {/* Color Slider */}
