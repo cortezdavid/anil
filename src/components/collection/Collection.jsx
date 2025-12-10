@@ -1,4 +1,14 @@
 import { useState, useEffect } from 'react';
+import { 
+  DndContext, 
+  closestCenter, 
+  PointerSensor, 
+  TouchSensor, 
+  useSensor, 
+  useSensors,
+  DragOverlay
+} from '@dnd-kit/core';
+import { SortableContext, arrayMove, rectSortingStrategy } from '@dnd-kit/sortable';
 import pokemonData from '../../data/pokemonGeneration.json';
 import ShinyPokemonCard from './ShinyPokemonCard';
 import ColorModal from './ColorModal';
@@ -8,9 +18,22 @@ const Collection = () => {
   const [selectedPokemon, setSelectedPokemon] = useState([]);
   const [search, setSearch] = useState("");
   const [suggestions, setSuggestions] = useState([]);
-  const [draggedIndex, setDraggedIndex] = useState(null);
   const [modalPokemon, setModalPokemon] = useState(null);
-  const [touchStart, setTouchStart] = useState(null);
+
+  // Configurar sensores con activación más rápida
+  const sensors = useSensors(
+    useSensor(PointerSensor, {
+      activationConstraint: {
+        distance: 5, // Menos distancia = más responsivo
+      },
+    }),
+    useSensor(TouchSensor, {
+      activationConstraint: {
+        delay: 100, // Menos delay en móvil
+        tolerance: 5,
+      },
+    })
+  );
 
   useSEO({
     title: 'Colección Shiny - Pokémon Añil',
@@ -36,7 +59,6 @@ const Collection = () => {
     if (selectedPokemon.length > 0) {
       localStorage.setItem('pokemon_anil_collection_v2', JSON.stringify(selectedPokemon));
     } else {
-      // Si no hay Pokémon, eliminar del localStorage
       localStorage.removeItem('pokemon_anil_collection_v2');
     }
   }, [selectedPokemon]);
@@ -58,11 +80,10 @@ const Collection = () => {
 
   // Agregar Pokémon a la colección (permite duplicados)
   const handleAddPokemon = (pokemon) => {
-    // Agregar un ID único para permitir duplicados
     const pokemonWithUniqueId = {
       ...pokemon,
       uniqueId: `${pokemon.id}-${Date.now()}-${Math.random()}`,
-      colorShift: 0 // Color original por defecto
+      colorShift: 0
     };
     setSelectedPokemon(prev => [...prev, pokemonWithUniqueId]);
     setSearch("");
@@ -74,61 +95,17 @@ const Collection = () => {
     setSelectedPokemon(prev => prev.filter(p => p.uniqueId !== uniqueId));
   };
 
-  // Drag & Drop handlers
-  const handleDragStart = (index) => {
-    setDraggedIndex(index);
-  };
+  // Manejar drag end con dnd-kit
+  const handleDragEnd = (event) => {
+    const { active, over } = event;
 
-  const handleDragOver = (e, index) => {
-    e.preventDefault();
-    
-    if (draggedIndex === null || draggedIndex === index) return;
-
-    const newPokemon = [...selectedPokemon];
-    const draggedItem = newPokemon[draggedIndex];
-    
-    // Remover el elemento de su posición original
-    newPokemon.splice(draggedIndex, 1);
-    // Insertarlo en la nueva posición
-    newPokemon.splice(index, 0, draggedItem);
-    
-    setSelectedPokemon(newPokemon);
-    setDraggedIndex(index);
-  };
-
-  const handleDragEnd = () => {
-    setDraggedIndex(null);
-  };
-
-  // Touch events para móvil
-  const handleTouchStart = (index) => {
-    setTouchStart(index);
-    setDraggedIndex(index);
-  };
-
-  const handleTouchMove = (e) => {
-    if (touchStart === null) return;
-    
-    // Prevenir scroll mientras se arrastra
-    e.preventDefault();
-  };
-
-  const handleTouchEnd = (index) => {
-    if (touchStart === null || touchStart === index) {
-      setTouchStart(null);
-      setDraggedIndex(null);
-      return;
+    if (over && active.id !== over.id) {
+      setSelectedPokemon((items) => {
+        const oldIndex = items.findIndex((item) => item.uniqueId === active.id);
+        const newIndex = items.findIndex((item) => item.uniqueId === over.id);
+        return arrayMove(items, oldIndex, newIndex);
+      });
     }
-
-    // Reordenar elementos
-    const newPokemon = [...selectedPokemon];
-    const draggedItem = newPokemon[touchStart];
-    newPokemon.splice(touchStart, 1);
-    newPokemon.splice(index, 0, draggedItem);
-    
-    setSelectedPokemon(newPokemon);
-    setTouchStart(null);
-    setDraggedIndex(null);
   };
 
   const handleKeyDown = (e) => {
@@ -164,7 +141,7 @@ const Collection = () => {
         <div className="bg-blue-900/20 border border-blue-600/30 rounded-xl p-4 mb-6">
           <p className="text-slate-300 leading-relaxed">
             Busca y agrega los Pokémon Shiny que has capturado. 
-            Arrastra y suelta para reorganizar tu colección. 
+            Arrastra las tarjetas para reorganizar tu colección. 
             Tu colección se guarda automáticamente.
           </p>
         </div>
@@ -226,26 +203,29 @@ const Collection = () => {
           </div>
         )}
 
-        {/* Grid de Pokémon seleccionados - 8 columnas */}
+        {/* Grid de Pokémon con dnd-kit */}
         {selectedPokemon.length > 0 ? (
-          <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-4">
-            {selectedPokemon.map((pokemon, index) => (
-              <ShinyPokemonCard
-                key={pokemon.uniqueId}
-                pokemon={pokemon}
-                index={index}
-                onRemove={handleRemovePokemon}
-                onDragStart={handleDragStart}
-                onDragOver={handleDragOver}
-                onDragEnd={handleDragEnd}
-                onTouchStart={handleTouchStart}
-                onTouchMove={handleTouchMove}
-                onTouchEnd={handleTouchEnd}
-                onOpenModal={handleOpenModal}
-                isDragging={draggedIndex === index}
-              />
-            ))}
-          </div>
+          <DndContext
+            sensors={sensors}
+            collisionDetection={closestCenter}
+            onDragEnd={handleDragEnd}
+          >
+            <SortableContext
+              items={selectedPokemon.map(p => p.uniqueId)}
+              strategy={rectSortingStrategy}
+            >
+              <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-4">
+                {selectedPokemon.map((pokemon) => (
+                  <ShinyPokemonCard
+                    key={pokemon.uniqueId}
+                    pokemon={pokemon}
+                    onRemove={handleRemovePokemon}
+                    onOpenModal={handleOpenModal}
+                  />
+                ))}
+              </div>
+            </SortableContext>
+          </DndContext>
         ) : (
           <div className="text-center py-16 bg-slate-800 rounded-xl shadow-lg border border-slate-700">
             <div className="text-6xl mb-4">✨</div>
