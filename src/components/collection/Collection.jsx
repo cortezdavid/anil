@@ -1,24 +1,29 @@
 import { useState, useEffect } from 'react';
 import pokemonData from '../../data/pokemonGeneration.json';
-import PokemonCard from './PokemonCard';
+import ShinyPokemonCard from './ShinyPokemonCard';
+import ColorModal from './ColorModal';
 import { useSEO } from '../../hooks/useSEO';
 
 const Collection = () => {
-  const [selectedGeneration, setSelectedGeneration] = useState(1);
-  const [collectedPokemon, setCollectedPokemon] = useState({});
+  const [selectedPokemon, setSelectedPokemon] = useState([]);
+  const [search, setSearch] = useState("");
+  const [suggestions, setSuggestions] = useState([]);
+  const [draggedIndex, setDraggedIndex] = useState(null);
+  const [modalPokemon, setModalPokemon] = useState(null);
 
   useSEO({
     title: 'Colección Shiny - Pokémon Añil',
-    description: 'Lleva el registro de tu colección de Pokémon Shiny en Pokémon Añil. Marca los shinies que has capturado y comparte tu progreso.',
+    description: 'Lleva el registro de tu colección de Pokémon Shiny en Pokémon Añil. Busca, selecciona y organiza los shinies que has capturado.',
     keywords: 'pokémon añil colección, shinies pokémon añil, colección shiny, registro pokémon, shinies capturados'
   });
 
-  // Cargar colección desde localStorage al montar
+  // Cargar colección desde localStorage
   useEffect(() => {
-    const saved = localStorage.getItem('pokemon_anil_collection');
+    const saved = localStorage.getItem('pokemon_anil_collection_v2');
     if (saved) {
       try {
-        setCollectedPokemon(JSON.parse(saved));
+        const parsed = JSON.parse(saved);
+        setSelectedPokemon(parsed);
       } catch (error) {
         console.error('Error al cargar colección:', error);
       }
@@ -27,20 +32,92 @@ const Collection = () => {
 
   // Guardar colección en localStorage cuando cambia
   useEffect(() => {
-    localStorage.setItem('pokemon_anil_collection', JSON.stringify(collectedPokemon));
-  }, [collectedPokemon]);
+    if (selectedPokemon.length > 0) {
+      localStorage.setItem('pokemon_anil_collection_v2', JSON.stringify(selectedPokemon));
+    } else {
+      // Si no hay Pokémon, eliminar del localStorage
+      localStorage.removeItem('pokemon_anil_collection_v2');
+    }
+  }, [selectedPokemon]);
 
-  const togglePokemon = (pokemonId) => {
-    setCollectedPokemon(prev => ({
-      ...prev,
-      [pokemonId]: !prev[pokemonId]
-    }));
+  // Manejar búsqueda
+  const handleSearch = (e) => {
+    const value = e.target.value;
+    setSearch(value);
+
+    if (value.length > 0) {
+      const filtered = pokemonData.pokemones
+        .filter(p => p.name.toLowerCase().includes(value.toLowerCase()))
+        .slice(0, 10);
+      setSuggestions(filtered);
+    } else {
+      setSuggestions([]);
+    }
   };
 
-  // Filtrar Pokémon por generación
-  const filteredPokemon = pokemonData.pokemones.filter(
-    p => p.generation === selectedGeneration
-  );
+  // Agregar Pokémon a la colección (permite duplicados)
+  const handleAddPokemon = (pokemon) => {
+    // Agregar un ID único para permitir duplicados
+    const pokemonWithUniqueId = {
+      ...pokemon,
+      uniqueId: `${pokemon.id}-${Date.now()}-${Math.random()}`,
+      colorShift: 0 // Color original por defecto
+    };
+    setSelectedPokemon(prev => [...prev, pokemonWithUniqueId]);
+    setSearch("");
+    setSuggestions([]);
+  };
+
+  // Eliminar Pokémon de la colección
+  const handleRemovePokemon = (uniqueId) => {
+    setSelectedPokemon(prev => prev.filter(p => p.uniqueId !== uniqueId));
+  };
+
+  // Drag & Drop handlers
+  const handleDragStart = (index) => {
+    setDraggedIndex(index);
+  };
+
+  const handleDragOver = (e, index) => {
+    e.preventDefault();
+    
+    if (draggedIndex === null || draggedIndex === index) return;
+
+    const newPokemon = [...selectedPokemon];
+    const draggedItem = newPokemon[draggedIndex];
+    
+    // Remover el elemento de su posición original
+    newPokemon.splice(draggedIndex, 1);
+    // Insertarlo en la nueva posición
+    newPokemon.splice(index, 0, draggedItem);
+    
+    setSelectedPokemon(newPokemon);
+    setDraggedIndex(index);
+  };
+
+  const handleDragEnd = () => {
+    setDraggedIndex(null);
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === 'Enter' && suggestions.length > 0) {
+      handleAddPokemon(suggestions[0]);
+    }
+  };
+
+  // Abrir modal
+  const handleOpenModal = (pokemon) => {
+    setModalPokemon(pokemon);
+  };
+
+  // Confirmar cambio de color
+  const handleConfirmColor = (uniqueId, colorShift) => {
+    setSelectedPokemon(prev =>
+      prev.map(p =>
+        p.uniqueId === uniqueId ? { ...p, colorShift } : p
+      )
+    );
+  };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-gray-900">
@@ -52,59 +129,109 @@ const Collection = () => {
         </h1>
 
         {/* Descripción */}
-        {/* <div className="bg-blue-900/20 border border-blue-600/30 rounded-xl p-4 mb-6">
+        <div className="bg-blue-900/20 border border-blue-600/30 rounded-xl p-4 mb-6">
           <p className="text-slate-300 leading-relaxed">
-            Lleva el registro de todos los Pokémon Shiny que has capturado. 
-            Haz clic en cada Pokémon para marcarlo como capturado. 
-            Tu colección se guarda automáticamente en tu navegador.
+            Busca y agrega los Pokémon Shiny que has capturado. 
+            Arrastra y suelta para reorganizar tu colección. 
+            Tu colección se guarda automáticamente.
           </p>
-        </div> */}
+        </div>
 
-        {/* Selector de Generaciones */}
-        <div className="bg-slate-800 rounded-xl shadow-lg shadow-gray-900/30 p-6 border border-slate-700 mb-6">
-          <div className="flex items-center justify-between mb-4">
-            <h2 className="text-lg font-bold text-slate-100">Seleccionar Generación</h2>
+        {/* Buscador */}
+        <div className="mb-6">
+          <div className="relative">
+            <input
+              type="text"
+              placeholder="Buscar Pokémon para agregar..."
+              value={search}
+              onChange={handleSearch}
+              onKeyDown={handleKeyDown}
+              className="w-full px-4 py-3 pr-12 text-slate-100 bg-slate-900 rounded-lg shadow-lg font-medium 
+                         border-2 border-slate-700 focus:border-blue-500 outline-none transition-colors
+                         placeholder:text-slate-500"
+            />
+            <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
+              <svg className="h-5 w-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+            </div>
+
+            {/* Sugerencias */}
+            {suggestions.length > 0 && (
+              <div className="absolute z-50 w-full mt-2 bg-slate-800 rounded-lg shadow-2xl max-h-80 overflow-y-auto border border-slate-700">
+                <ul className="py-2">
+                  {suggestions.map(pokemon => (
+                    <li
+                      key={`${pokemon.id}-${Math.random()}`}
+                      onClick={() => handleAddPokemon(pokemon)}
+                      className="px-4 py-2 hover:bg-slate-700 cursor-pointer transition-colors duration-150 flex items-center justify-between"
+                    >
+                      <span className="text-slate-200 font-semibold">
+                        {pokemon.name}
+                      </span>
+                      <div className="w-16 h-16 overflow-hidden flex-shrink-0">
+                        <img
+                          src={`/images/icons/${pokemon.id}.png`}
+                          alt={pokemon.name}
+                          loading="lazy"
+                          className="w-32 h-16 object-cover object-left"
+                        />
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
-          
-          <div className="flex flex-wrap gap-3">
-            {[1, 2, 3, 4, 5, 6, 7, 8, 9].map(gen => (
-              <button
-                key={gen}
-                onClick={() => setSelectedGeneration(gen)}
-                className={`px-6 py-3 rounded-lg font-bold transition-all duration-200 ${
-                  selectedGeneration === gen
-                    ? 'bg-blue-600 text-white shadow-lg scale-105'
-                    : 'bg-slate-700 text-slate-300 hover:bg-slate-600'
-                }`}
-              >
-                Gen {gen}
-              </button>
+        </div>
+
+        {/* Contador */}
+        {selectedPokemon.length > 0 && (
+          <div className="mb-4 text-center">
+            <span className="text-blue-400 font-bold text-lg">
+              {selectedPokemon.length} Pokémon en tu colección
+            </span>
+          </div>
+        )}
+
+        {/* Grid de Pokémon seleccionados - 8 columnas */}
+        {selectedPokemon.length > 0 ? (
+          <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-4">
+            {selectedPokemon.map((pokemon, index) => (
+              <ShinyPokemonCard
+                key={pokemon.uniqueId}
+                pokemon={pokemon}
+                index={index}
+                onRemove={handleRemovePokemon}
+                onDragStart={handleDragStart}
+                onDragOver={handleDragOver}
+                onDragEnd={handleDragEnd}
+                onOpenModal={handleOpenModal}
+                isDragging={draggedIndex === index}
+              />
             ))}
           </div>
-        </div>
-
-        {/* Grid de Pokémon - 8 columnas */}
-        <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-6 lg:grid-cols-7 xl:grid-cols-8 gap-4">
-          {filteredPokemon.map(pokemon => (
-            <PokemonCard
-              key={pokemon.id}
-              pokemon={pokemon}
-              isCollected={collectedPokemon[pokemon.id] || false}
-              onToggle={() => togglePokemon(pokemon.id)}
-            />
-          ))}
-        </div>
-
-        {/* Mensaje si no hay Pokémon */}
-        {filteredPokemon.length === 0 && (
-          <div className="text-center py-12 bg-slate-800 rounded-xl shadow-lg border border-slate-700">
-            <div className="text-4xl mb-3">🔍</div>
-            <p className="text-slate-400 font-semibold">
-              No hay Pokémon de la Generación {selectedGeneration}
+        ) : (
+          <div className="text-center py-16 bg-slate-800 rounded-xl shadow-lg border border-slate-700">
+            <div className="text-6xl mb-4">✨</div>
+            <p className="text-slate-400 font-semibold text-lg mb-2">
+              Tu colección está vacía
+            </p>
+            <p className="text-slate-500">
+              Usa el buscador para agregar Pokémon Shiny
             </p>
           </div>
         )}
       </div>
+
+      {/* Modal de cambio de color */}
+      {modalPokemon && (
+        <ColorModal
+          pokemon={modalPokemon}
+          onClose={() => setModalPokemon(null)}
+          onConfirm={handleConfirmColor}
+        />
+      )}
     </div>
   );
 };
