@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
-import { 
-  DndContext, 
-  closestCenter, 
-  PointerSensor, 
-  TouchSensor, 
-  useSensor, 
+import {
+  DndContext,
+  closestCenter,
+  PointerSensor,
+  TouchSensor,
+  useSensor,
   useSensors,
   DragOverlay
 } from '@dnd-kit/core';
@@ -131,7 +131,7 @@ const Collection = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-gray-900">
       <div className="max-w-7xl mx-auto px-4 py-8">
-        
+
         {/* Título */}
         <h1 className="text-4xl font-black text-slate-100 mb-4 uppercase tracking-wider drop-shadow-sm">
           Colección Shiny
@@ -140,14 +140,14 @@ const Collection = () => {
         {/* Descripción */}
         <div className="bg-blue-900/20 border border-blue-600/30 rounded-xl p-4 mb-6">
           <p className="text-slate-300 leading-relaxed">
-            Busca y agrega los Pokémon Shiny que has capturado. 
-            Arrastra las tarjetas para reorganizar tu colección. 
+            Busca y agrega los Pokémon Shiny que has capturado.
+            Arrastra las tarjetas para reorganizar tu colección.
             Tu colección se guarda automáticamente.
           </p>
         </div>
 
         {/* Buscador */}
-        <div className="bg-slate-800 rounded-xl shadow-lg shadow-gray-900/30 p-6 border border-slate-700 mb-6">
+        <div className=" mb-6">
           <div className="relative">
             <input
               type="text"
@@ -168,12 +168,12 @@ const Collection = () => {
             {/* Sugerencias */}
             {suggestions.length > 0 && (
               <div className="absolute z-50 w-full mt-2 bg-slate-800 rounded-lg shadow-2xl max-h-80 overflow-y-auto border border-slate-700">
-                <ul className="py-2">
+                <ul>
                   {suggestions.map(pokemon => (
                     <li
                       key={`${pokemon.id}-${Math.random()}`}
                       onClick={() => handleAddPokemon(pokemon)}
-                      className="px-4 py-2 hover:bg-slate-700 cursor-pointer transition-colors duration-150 flex items-center justify-between"
+                      className="px-4 hover:bg-slate-700 cursor-pointer transition-colors duration-150 flex items-center justify-between"
                     >
                       <span className="text-slate-200 font-semibold">
                         {pokemon.name}

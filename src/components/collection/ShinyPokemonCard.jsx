@@ -177,7 +177,7 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
       {/* Indicador de color aplicado */}
       {pokemon.colorShift > 0 && (
         <div className="absolute bottom-2 left-2 z-10 bg-purple-600 text-white rounded-full px-2 py-0.5 text-xs font-bold shadow-lg pointer-events-none">
-          #{pokemon.colorShift}
+          SS
         </div>
       )}
 
