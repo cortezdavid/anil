@@ -20,17 +20,17 @@ const Collection = () => {
   const [suggestions, setSuggestions] = useState([]);
   const [modalPokemon, setModalPokemon] = useState(null);
 
-  // Configurar sensores con activación más rápida
+  // Configurar sensores optimizados para móvil
   const sensors = useSensors(
     useSensor(PointerSensor, {
       activationConstraint: {
-        distance: 5, // Menos distancia = más responsivo
+        distance: 8,
       },
     }),
     useSensor(TouchSensor, {
       activationConstraint: {
-        delay: 100, // Menos delay en móvil
-        tolerance: 5,
+        delay: 250,
+        tolerance: 8,
       },
     })
   );

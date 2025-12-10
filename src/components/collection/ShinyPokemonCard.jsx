@@ -128,7 +128,8 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
       {...attributes}
       {...listeners}
       className={`relative bg-slate-800 rounded-xl shadow-lg overflow-hidden border-2 border-blue-500 
-                 shadow-blue-500/30 ${isDragging ? 'cursor-grabbing' : 'cursor-grab'}
+                 shadow-blue-500/30 select-none touch-none
+                 ${isDragging ? 'cursor-grabbing scale-105' : 'cursor-grab'}
                  transition-shadow duration-200 hover:shadow-xl`}
     >
       {/* Botón eliminar (X) */}
@@ -138,10 +139,13 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
           onRemove(pokemon.uniqueId);
         }}
         onPointerDown={(e) => e.stopPropagation()}
-        onTouchStart={(e) => e.stopPropagation()}
-        className="absolute top-2 right-2 z-20 bg-red-600 hover:bg-red-700 text-white 
-                   rounded-full w-6 h-6 flex items-center justify-center shadow-lg 
-                   transition-colors duration-200 cursor-pointer"
+        onTouchStart={(e) => {
+          e.stopPropagation();
+          e.preventDefault();
+        }}
+        className="absolute top-2 right-2 z-20 bg-red-600 hover:bg-red-700 active:bg-red-800 text-white 
+                   rounded-full w-7 h-7 flex items-center justify-center shadow-lg 
+                   transition-colors duration-200 cursor-pointer touch-manipulation"
         title="Eliminar"
       >
         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -156,10 +160,13 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
           onOpenModal(pokemon);
         }}
         onPointerDown={(e) => e.stopPropagation()}
-        onTouchStart={(e) => e.stopPropagation()}
-        className="absolute top-2 left-2 z-20 bg-blue-600 hover:bg-blue-700 text-white 
-                   rounded-full w-6 h-6 flex items-center justify-center shadow-lg 
-                   transition-colors duration-200 cursor-pointer"
+        onTouchStart={(e) => {
+          e.stopPropagation();
+          e.preventDefault();
+        }}
+        className="absolute top-2 left-2 z-20 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white 
+                   rounded-full w-7 h-7 flex items-center justify-center shadow-lg 
+                   transition-colors duration-200 cursor-pointer touch-manipulation"
         title="Cambiar color"
       >
         <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
