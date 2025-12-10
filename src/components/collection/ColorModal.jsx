@@ -108,6 +108,20 @@ const ColorModal = ({ pokemon, onClose, onConfirm }) => {
     setZoomPosition({ x, y });
   };
 
+  const handleTouchMove = (e) => {
+    if (!previewContainerRef.current) return;
+    
+    // Prevenir scroll mientras se hace zoom
+    e.preventDefault();
+    
+    const touch = e.touches[0];
+    const rect = previewContainerRef.current.getBoundingClientRect();
+    const x = touch.clientX - rect.left;
+    const y = touch.clientY - rect.top;
+    
+    setZoomPosition({ x, y });
+  };
+
   const handleConfirm = () => {
     onConfirm(pokemon.uniqueId, colorShift);
     onClose();
@@ -129,10 +143,16 @@ const ColorModal = ({ pokemon, onClose, onConfirm }) => {
           <div 
             ref={previewContainerRef}
             className="relative flex justify-center bg-slate-900/50 rounded-xl p-8 overflow-hidden"
-            style={{ cursor: isZooming ? 'zoom-in' : 'default' }}
+            style={{ cursor: isZooming ? 'zoom-in' : 'default', touchAction: 'none' }}
             onMouseEnter={() => setIsZooming(true)}
             onMouseLeave={() => setIsZooming(false)}
             onMouseMove={handleMouseMove}
+            onTouchStart={(e) => {
+              setIsZooming(true);
+              handleTouchMove(e);
+            }}
+            onTouchMove={handleTouchMove}
+            onTouchEnd={() => setIsZooming(false)}
           >
             {/* Canvas normal */}
             <canvas
