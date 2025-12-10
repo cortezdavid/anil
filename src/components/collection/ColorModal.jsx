@@ -108,7 +108,7 @@ const ColorModal = ({ pokemon, onClose, onConfirm }) => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm p-4">
-      <div className="bg-slate-800 rounded-2xl shadow-2xl max-w-2xl w-full border-2 border-slate-700">
+      <div className="bg-slate-800 rounded-2xl shadow-2xl max-w-md w-full border-2 border-slate-700">
         {/* Header */}
         <div className="p-6 border-b border-slate-700">
           <h2 className="text-2xl font-bold text-slate-100">
