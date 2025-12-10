@@ -8,6 +8,9 @@ const ShinyPokemonCard = ({
   onDragStart, 
   onDragOver, 
   onDragEnd,
+  onTouchStart,
+  onTouchMove,
+  onTouchEnd,
   onOpenModal,
   isDragging 
 }) => {
@@ -120,6 +123,9 @@ const ShinyPokemonCard = ({
       onDragStart={() => onDragStart(index)}
       onDragOver={(e) => onDragOver(e, index)}
       onDragEnd={onDragEnd}
+      onTouchStart={() => onTouchStart(index)}
+      onTouchMove={onTouchMove}
+      onTouchEnd={() => onTouchEnd(index)}
       className={`relative bg-slate-800 rounded-xl shadow-lg overflow-hidden cursor-move
                   transition-all duration-200 hover:scale-105 hover:shadow-xl border-2 border-blue-500 
                   shadow-blue-500/30 ${isDragging ? 'opacity-50 scale-95' : ''}`}
