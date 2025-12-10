@@ -3,10 +3,7 @@ import { COLOR_PALETTES } from './colorPalettes';
 
 const ColorModal = ({ pokemon, onClose, onConfirm }) => {
   const canvasRef = useRef(null);
-  const previewContainerRef = useRef(null);
   const [colorShift, setColorShift] = useState(pokemon.colorShift || 0);
-  const [isZooming, setIsZooming] = useState(false);
-  const [zoomPosition, setZoomPosition] = useState({ x: 0, y: 0 });
 
   // Renderizar el canvas con el color seleccionado
   useEffect(() => {
@@ -98,30 +95,6 @@ const ColorModal = ({ pokemon, onClose, onConfirm }) => {
     img.src = pokemon.image;
   }, [pokemon.image, colorShift]);
 
-  const handleMouseMove = (e) => {
-    if (!previewContainerRef.current) return;
-    
-    const rect = previewContainerRef.current.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-    
-    setZoomPosition({ x, y });
-  };
-
-  const handleTouchMove = (e) => {
-    if (!previewContainerRef.current) return;
-    
-    // Prevenir scroll mientras se hace zoom
-    e.preventDefault();
-    
-    const touch = e.touches[0];
-    const rect = previewContainerRef.current.getBoundingClientRect();
-    const x = touch.clientX - rect.left;
-    const y = touch.clientY - rect.top;
-    
-    setZoomPosition({ x, y });
-  };
-
   const handleConfirm = () => {
     onConfirm(pokemon.uniqueId, colorShift);
     onClose();
@@ -139,58 +112,17 @@ const ColorModal = ({ pokemon, onClose, onConfirm }) => {
 
         {/* Body */}
         <div className="p-8 space-y-6">
-          {/* Canvas Preview con Zoom */}
-          <div 
-            ref={previewContainerRef}
-            className="relative flex justify-center bg-slate-900/50 rounded-xl p-8 overflow-hidden"
-            style={{ cursor: isZooming ? 'zoom-in' : 'default', touchAction: 'none' }}
-            onMouseEnter={() => setIsZooming(true)}
-            onMouseLeave={() => setIsZooming(false)}
-            onMouseMove={handleMouseMove}
-            onTouchStart={(e) => {
-              setIsZooming(true);
-              handleTouchMove(e);
-            }}
-            onTouchMove={handleTouchMove}
-            onTouchEnd={() => setIsZooming(false)}
-          >
-            {/* Canvas normal */}
+          {/* Canvas Preview - GRANDE Y FIJO */}
+          <div className="flex justify-center bg-slate-900/50 rounded-xl p-8">
             <canvas
               ref={canvasRef}
-              className="object-contain transition-opacity duration-200"
+              className="object-contain"
               style={{
                 imageRendering: 'pixelated',
-                width: '100px',
-                height: '100px',
-                opacity: isZooming ? 0 : 1
+                width: '130px',
+                height: '130px'
               }}
             />
-
-            {/* Canvas con zoom que sigue al mouse */}
-            {isZooming && (
-              <canvas
-                ref={(zoomCanvas) => {
-                  if (zoomCanvas && canvasRef.current) {
-                    const ctx = zoomCanvas.getContext('2d');
-                    const sourceCanvas = canvasRef.current;
-                    zoomCanvas.width = sourceCanvas.width;
-                    zoomCanvas.height = sourceCanvas.height;
-                    ctx.drawImage(sourceCanvas, 0, 0);
-                  }
-                }}
-                className="absolute pointer-events-none"
-                style={{
-                  imageRendering: 'pixelated',
-                  width: '200px',
-                  height: '200px',
-                  left: `${zoomPosition.x}px`,
-                  top: `${zoomPosition.y}px`,
-                  transform: 'translate(-50%, -50%)',
-                  filter: 'drop-shadow(0 0 20px rgba(59, 130, 246, 0.5))',
-                  zIndex: 10
-                }}
-              />
-            )}
           </div>
 
           {/* Color Slider */}
