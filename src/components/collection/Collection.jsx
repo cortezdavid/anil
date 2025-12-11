@@ -134,13 +134,13 @@ const Collection = () => {
 
         {/* Título */}
         <h1 className="text-4xl font-black text-slate-100 mb-4 uppercase tracking-wider drop-shadow-sm">
-          Colección Shiny
+          Colección
         </h1>
 
         {/* Descripción */}
         <div className="bg-blue-900/20 border border-blue-600/30 rounded-xl p-4 mb-6">
           <p className="text-slate-300 leading-relaxed">
-            Busca y agrega los Pokémon Shiny que has capturado.
+            Busca y agrega los Pokémon que has capturado.
             Arrastra las tarjetas para reorganizar tu colección.
             Tu colección se guarda automáticamente.
           </p>

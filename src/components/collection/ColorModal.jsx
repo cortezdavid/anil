@@ -27,10 +27,11 @@ const ColorModal = ({ pokemon, onClose, onConfirm }) => {
         0, 0, size, size
       );
 
-      if (colorShift > 0) {
+      // Aplicar paleta solo si colorShift >= 2
+      if (colorShift >= 2) {
         const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
         const data = imageData.data;
-        const palette = COLOR_PALETTES[colorShift - 1];
+        const palette = COLOR_PALETTES[colorShift - 2];
 
         for (let i = 0; i < data.length; i += 4) {
           if (data[i + 3] > 0) {
@@ -92,8 +93,13 @@ const ColorModal = ({ pokemon, onClose, onConfirm }) => {
       }
     };
 
-    img.src = pokemon.image;
-  }, [pokemon.image, colorShift]);
+    // Determinar imagen según colorShift
+    if (colorShift === 0) {
+      img.src = `/images/pokemonFront/${pokemon.id}.png`;
+    } else {
+      img.src = `/images/pokemonFrontShiny/${pokemon.id}.png`;
+    }
+  }, [pokemon.id, colorShift]);
 
   const handleConfirm = () => {
     onConfirm(pokemon.uniqueId, colorShift);
@@ -112,7 +118,7 @@ const ColorModal = ({ pokemon, onClose, onConfirm }) => {
 
         {/* Body */}
         <div className="p-8 space-y-6">
-          {/* Canvas Preview - GRANDE Y FIJO */}
+          {/* Canvas Preview */}
           <div className="flex justify-center bg-slate-900/50 rounded-xl p-8">
             <canvas
               ref={canvasRef}
@@ -128,20 +134,20 @@ const ColorModal = ({ pokemon, onClose, onConfirm }) => {
           {/* Color Slider */}
           <div className="space-y-3">
             <label className="text-slate-200 font-semibold text-sm block">
-              {colorShift === 0 ? 'Shiny' : `Super Shiny #${colorShift}`}
+              {colorShift === 0 ? 'Normal' : colorShift === 1 ? 'Shiny' : `Super Shiny #${colorShift - 1}`}
             </label>
             <div className="flex items-center gap-4">
-              <span className="text-slate-400 text-sm whitespace-nowrap">Original</span>
+              <span className="text-slate-400 text-sm whitespace-nowrap">Normal</span>
               <input
                 type="range"
                 min="0"
-                max="10"
+                max="11"
                 value={colorShift}
                 onChange={(e) => setColorShift(Number(e.target.value))}
                 className="flex-1 h-2 bg-blue-900 rounded-lg appearance-none cursor-pointer"
               />
               <span className="text-blue-400 text-sm font-medium whitespace-nowrap">
-                {colorShift === 0 ? 'Original' : `#${colorShift}`}
+                {colorShift === 0 ? 'Normal' : colorShift === 1 ? 'Shiny' : `#${colorShift - 1}`}
               </span>
             </div>
           </div>

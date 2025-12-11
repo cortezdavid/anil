@@ -45,11 +45,12 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
         0, 0, size, size
       );
 
+      // Aplicar paleta solo si colorShift >= 2
       const colorShift = pokemon.colorShift || 0;
-      if (colorShift > 0) {
+      if (colorShift >= 2) {
         const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
         const data = imageData.data;
-        const palette = COLOR_PALETTES[colorShift - 1];
+        const palette = COLOR_PALETTES[colorShift - 2];
 
         for (let i = 0; i < data.length; i += 4) {
           if (data[i + 3] > 0) {
@@ -118,8 +119,14 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
       setImageLoaded(true);
     };
 
-    img.src = pokemon.image;
-  }, [pokemon.image, pokemon.colorShift]);
+    // Determinar imagen según colorShift
+    const colorShift = pokemon.colorShift || 0;
+    if (colorShift === 0) {
+      img.src = `/images/pokemonFront/${pokemon.id}.png`;
+    } else {
+      img.src = `/images/pokemonFrontShiny/${pokemon.id}.png`;
+    }
+  }, [pokemon.id, pokemon.colorShift]);
 
   return (
     <div
@@ -145,7 +152,6 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
         className="absolute top-2 right-2 z-20 bg-red-600 hover:bg-red-700 active:bg-red-800 text-white 
                    rounded-full w-7 h-7 flex items-center justify-center shadow-lg 
                    transition-colors duration-200 cursor-pointer touch-manipulation"
-        title="Eliminar"
       >
         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -166,21 +172,25 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
         className="absolute top-2 left-2 z-20 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white 
                    rounded-full w-7 h-7 flex items-center justify-center shadow-lg 
                    transition-colors duration-200 cursor-pointer touch-manipulation"
-        title="Cambiar color"
       >
         <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
           <path d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z" />
         </svg>
       </button>
 
-      {/* Indicador de color aplicado */}
-      {pokemon.colorShift > 0 && (
+      {/* Indicador de variante */}
+      {pokemon.colorShift === 1 && (
+        <div className="absolute bottom-2 left-2 z-10 bg-purple-600 text-white rounded-full px-2 py-0.5 text-xs font-bold shadow-lg pointer-events-none">
+          S
+        </div>
+      )}
+      {pokemon.colorShift >= 2 && (
         <div className="absolute bottom-2 left-2 z-10 bg-purple-600 text-white rounded-full px-2 py-0.5 text-xs font-bold shadow-lg pointer-events-none">
           SS
         </div>
       )}
 
-      {/* Canvas con la imagen shiny */}
+      {/* Canvas con la imagen */}
       <div className="aspect-square bg-slate-900/50 flex items-center justify-center p-2">
         {!imageLoaded && !imageError && (
           <div className="text-slate-500 text-xs pointer-events-none">Cargando...</div>
