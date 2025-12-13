@@ -50,7 +50,7 @@ const Items = () => {
           Objetos
         </h1>
 
-        {/* <div className="max-w-7xl mx-auto px-4 mb-6">
+        <div className="max-w-7xl mx-auto px-4 mb-6">
           <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg shadow-sm">
             <div className="flex items-start">
               <div className="ml-3">
@@ -58,12 +58,12 @@ const Items = () => {
                   ⚠️ Guía en construcción
                 </p>
                 <p className="text-sm text-yellow-700 mt-1">
-                  Esta sección está incompleta. Pueden faltar objetos.
+                  Esta sección está incompleta. Pueden faltar imágen de la ubicación.
                 </p>
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
         {/* Buscador */}
         <div className="mb-6">
@@ -107,31 +107,52 @@ const Items = () => {
             {filteredItems.map((item) => (
               <div
                 key={item.id}
-                className="bg-slate-800 rounded-lg shadow-lg shadow-gray-900/30 p-4 hover:shadow-blue-900/20 transition-all duration-200"
+                className="bg-slate-800 rounded-lg shadow-lg shadow-gray-900/30 border border-slate-700 overflow-hidden hover:shadow-blue-900/20 transition-all duration-200"
               >
-                {/* Header con imagen y nombre */}
-                <div className="flex items-start gap-3 mb-3">
-                  <img
-                    src={item.img}
-                    alt={item.nameES}
-                    className="w-12 h-12 object-contain flex-shrink-0"
-                  />
+                {/* Layout horizontal: Imagen ubicación + Info */}
+                <div className="flex items-start gap-4 p-4 pb-3">
+
+                  {/* Imagen de ubicación */}
+                  <div className="flex-shrink-0 w-[100px] h-[100px] bg-slate-900 rounded-lg overflow-hidden flex items-center justify-center">
+                    <img
+                      src={`/images/items/ubicacion/${item.name}.jpg`}
+                      alt={`Ubicación ${item.nameES}`}
+                      className="w-[100px] h-[100px] object-contain"
+                      onError={(e) => {
+                        e.target.style.display = 'none';
+                        e.target.parentElement.innerHTML = '<div class="text-slate-600 text-xs">Sin imagen</div>';
+                      }
+                    }
+                    />
+                  </div>
+
+                  {/* Info del item */}
                   <div className="flex-1 min-w-0">
-                    <h3 className="font-black text-slate-100 text-base leading-tight">
-                      {item.nameES}
-                    </h3>
+                    {/* Nombre e ícono */}
+                    <div className="flex items-start gap-2 mb-2">
+                      <img
+                        src={item.img}
+                        alt={item.nameES}
+                        className="w-10 h-10 object-contain flex-shrink-0"
+                      />
+                      <h3 className="font-black text-slate-100 text-sm leading-tight">
+                        {item.nameES}
+                      </h3>
+                    </div>
+
+                    {/* Descripción */}
+                    <p className="text-xs text-slate-300 leading-relaxed mb-2 line-clamp-3">
+                      {item.description}
+                    </p>
                   </div>
                 </div>
 
-                {/* Descripción */}
-                <p className="text-xs text-slate-300 leading-relaxed mb-3 line-clamp-2">
-                  {item.description}
-                </p>
-
-                {/* Ubicación */}
-                <div className="flex items-center gap-1 text-xs font-semibold text-blue-300 bg-blue-900/30 px-2 py-1.5 rounded border border-blue-700/50">
-                  <span>🗺️</span>
-                  <span className="truncate">{item.location}</span>
+                {/* Ubicación - Ancho completo */}
+                <div className="px-4 pb-4">
+                  <div className="flex items-center gap-1 text-xs font-semibold text-blue-300 bg-blue-900/30 px-2 py-1.5 rounded border border-blue-700/50">
+                    <span>🗺️</span>
+                    <span className="truncate">{item.location}</span>
+                  </div>
                 </div>
               </div>
             ))}

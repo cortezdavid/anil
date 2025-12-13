@@ -45,7 +45,7 @@
     {
       "id": 8,
       "name": "FLASHITEM",
-      "location": "Ruta 2",
+      "location": "Entre Ruta 2 Sur y Ruta 2 Norte",
       "img": "/images/items/FLASHITEM.png"
     },
     {
@@ -803,6 +803,24 @@
       "name": "BINDINGBAND",
       "location": "Ciudad Fucsia",
       "img": "/images/items/BINDINGBAND.png"
+    },
+    {
+      "id": 135,
+      "name": "SURFITEM",
+      "location": "Ciudad Azafrán",
+      "img": "/images/items/SURFITEM.png"
+    },
+    {
+      "id": 136,
+      "name": "ALBUMFOTOS",
+      "location": "Ciudad Plateada",
+      "img": "/images/items/ALBUMFOTOS.png"
+    },
+    {
+      "id": 137,
+      "name": "CUTITEM",
+      "location": "Ciudad Carmín - S.S Anne",
+      "img": "/images/items/CUTITEM.png"
     }
   ]
 }

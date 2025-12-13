@@ -4227,7 +4227,7 @@
       "img": "/images/trainers/GIOVANNI.png",
       "difficulties": {
         "easy": {
-          "items": "2 Hiperpoción",
+          "items": "2 Restaura Todo",
           "pokemon": [
             {
               "name": "PERSIAN",
@@ -4292,7 +4292,7 @@
           ]
         },
         "normal": {
-          "items": "2 Hiperpoción",
+          "items": "2 Restaura Todo",
           "pokemon": [
             {
               "name": "PERSIAN",
