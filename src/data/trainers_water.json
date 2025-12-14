@@ -6174,14 +6174,14 @@
               ]
             },
             {
-              "name": "JOLTEON",
+              "name": "VAPOREON",
               "level": "69",
-              "item": "MAGNET",
-              "ability": "VOLTABSORB",
+              "item": "MYSTICWATER",
+              "ability": "WATERABSORB",
               "moves": [
-                "THUNDER",
-                "SIGNALBEAM",
-                "VOLTSWITCH",
+                "MUDDYWATER",
+                "ICEBEAM",
+                "ACIDARMOR",
                 "SHADOWBALL"
               ]
             },
@@ -6198,15 +6198,15 @@
               ]
             },
             {
-              "name": "BLASTOISE1",
+              "name": "CHARIZARD2",
               "level": "70",
-              "item": "BLASTOISINITEX",
-              "ability": "MEGALAUNCHER",
+              "item": "CHARIZARDITEY",
+              "ability": "DROUGHT",
               "moves": [
-                "SNIPESHOT",
-                "DARKPULSE",
-                "AURASPHERE",
-                "ICEBEAM"
+                "FLAMETHROWER",
+                "AIRSLASH",
+                "SCORCHINGSANDS",
+                "DRAGONPULSE"
               ]
             }
           ]
@@ -6251,14 +6251,14 @@
               ]
             },
             {
-              "name": "JOLTEON",
+              "name": "VAPOREON",
               "level": "69",
-              "item": "MAGNET",
-              "ability": "VOLTABSORB",
+              "item": "MYSTICWATER",
+              "ability": "WATERABSORB",
               "moves": [
-                "THUNDER",
-                "SIGNALBEAM",
-                "VOLTSWITCH",
+                "MUDDYWATER",
+                "ICEBEAM",
+                "ACIDARMOR",
                 "SHADOWBALL"
               ]
             },
@@ -6275,15 +6275,15 @@
               ]
             },
             {
-              "name": "BLASTOISE1",
+              "name": "CHARIZARD2",
               "level": "70",
-              "item": "BLASTOISINITEX",
-              "ability": "MEGALAUNCHER",
+              "item": "CHARIZARDITEY",
+              "ability": "DROUGHT",
               "moves": [
-                "SNIPESHOT",
-                "DARKPULSE",
-                "AURASPHERE",
-                "ICEBEAM"
+                "FLAMETHROWER",
+                "AIRSLASH",
+                "SCORCHINGSANDS",
+                "DRAGONPULSE"
               ]
             }
           ]
@@ -6328,14 +6328,14 @@
               ]
             },
             {
-              "name": "JOLTEON",
+              "name": "VAPOREON",
               "level": "69",
-              "item": "MAGNET",
-              "ability": "VOLTABSORB",
+              "item": "MYSTICWATER",
+              "ability": "WATERABSORB",
               "moves": [
-                "THUNDER",
-                "SIGNALBEAM",
-                "VOLTSWITCH",
+                "MUDDYWATER",
+                "ICEBEAM",
+                "ACIDARMOR",
                 "SHADOWBALL"
               ]
             },
@@ -6352,15 +6352,15 @@
               ]
             },
             {
-              "name": "BLASTOISE1",
+              "name": "CHARIZARD2",
               "level": "70",
-              "item": "BLASTOISINITEX",
-              "ability": "MEGALAUNCHER",
+              "item": "CHARIZARDITEY",
+              "ability": "DROUGHT",
               "moves": [
-                "SNIPESHOT",
-                "DARKPULSE",
-                "AURASPHERE",
-                "ICEBEAM"
+                "FLAMETHROWER",
+                "AIRSLASH",
+                "SCORCHINGSANDS",
+                "DRAGONPULSE"
               ]
             }
           ]
