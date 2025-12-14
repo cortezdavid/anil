@@ -821,6 +821,12 @@
       "name": "CUTITEM",
       "location": "Ciudad Carmín - S.S Anne",
       "img": "/images/items/CUTITEM.png"
+    },
+    {
+      "id": 138,
+      "name": "ROCKCLIMBITEM",
+      "location": "Tras el evento de la 7.ª medalla",
+      "img": "/images/items/ROCKCLIMBITEM.png"
     }
   ]
 }
