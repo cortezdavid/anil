@@ -4,8 +4,13 @@ import { COLOR_PALETTES } from './colorPalettes';
 const ColorModal = ({ pokemon, onClose, onConfirm }) => {
   const canvasRef = useRef(null);
   const [colorShift, setColorShift] = useState(pokemon.colorShift || 0);
+  const [formIndex, setFormIndex] = useState(pokemon.formIndex || 0);
 
-  // Renderizar el canvas con el color seleccionado
+  const hasForms = pokemon.forms && pokemon.forms.length > 1;
+  const currentForm = hasForms ? pokemon.forms[formIndex] : null;
+  const currentPokemonId = currentForm ? currentForm.id : pokemon.id;
+
+  // Renderizar el canvas con el color y forma seleccionados
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
@@ -93,16 +98,16 @@ const ColorModal = ({ pokemon, onClose, onConfirm }) => {
       }
     };
 
-    // Determinar imagen según colorShift
+    // Determinar imagen según colorShift y forma
     if (colorShift === 0) {
-      img.src = `/images/pokemonFront/${pokemon.id}.png`;
+      img.src = `/images/pokemonFront/${currentPokemonId}.png`;
     } else {
-      img.src = `/images/pokemonFrontShiny/${pokemon.id}.png`;
+      img.src = `/images/pokemonFrontShiny/${currentPokemonId}.png`;
     }
-  }, [pokemon.id, colorShift]);
+  }, [currentPokemonId, colorShift]);
 
   const handleConfirm = () => {
-    onConfirm(pokemon.uniqueId, colorShift);
+    onConfirm(pokemon.uniqueId, colorShift, formIndex);
     onClose();
   };
 
@@ -131,13 +136,46 @@ const ColorModal = ({ pokemon, onClose, onConfirm }) => {
             />
           </div>
 
+          {/* Form Slider - Solo si hay formas alternativas */}
+          {hasForms && (
+            <div className="flex items-center justify-center gap-4">
+              <button
+                onClick={() => setFormIndex(Math.max(0, formIndex - 1))}
+                disabled={formIndex === 0}
+                className={`p-2 rounded-lg ${formIndex === 0
+                  ? 'bg-slate-700 text-slate-500'
+                  : 'bg-blue-600 hover:bg-blue-700 text-white shadow-lg hover:shadow-xl'
+                  }`}
+              >
+                <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                </svg>
+              </button>
+              <span className="text-slate-100 font-bold min-w-[120px] text-center">
+                {currentForm?.name || 'Normal'}
+              </span>
+              <button
+                onClick={() => setFormIndex(Math.min(pokemon.forms.length - 1, formIndex + 1))}
+                disabled={formIndex === pokemon.forms.length - 1}
+                className={`p-2 rounded-lg ${formIndex === pokemon.forms.length - 1
+                  ? 'bg-slate-700 text-slate-500'
+                  : 'bg-blue-600 hover:bg-blue-700 text-white shadow-lg hover:shadow-xl'
+                  }`}
+              >
+                <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
+          )}
+
           {/* Color Slider */}
           <div className="space-y-3">
             <label className="text-slate-200 font-semibold text-sm block">
               {colorShift === 0 ? 'Normal' : colorShift === 1 ? 'Shiny' : `Super Shiny #${colorShift - 1}`}
             </label>
             <div className="flex items-center gap-4">
-              <span className="text-slate-400 text-sm whitespace-nowrap">Normal</span>
+              <span className="text-slate-400 text-xs whitespace-nowrap">Normal</span>
               <input
                 type="range"
                 min="0"
@@ -146,7 +184,7 @@ const ColorModal = ({ pokemon, onClose, onConfirm }) => {
                 onChange={(e) => setColorShift(Number(e.target.value))}
                 className="flex-1 h-2 bg-blue-900 rounded-lg appearance-none cursor-pointer"
               />
-              <span className="text-blue-400 text-sm font-medium whitespace-nowrap">
+              <span className="text-blue-400 text-xs font-medium whitespace-nowrap">
                 {colorShift === 0 ? 'Normal' : colorShift === 1 ? 'Shiny' : `#${colorShift - 1}`}
               </span>
             </div>

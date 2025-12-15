@@ -119,14 +119,22 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
       setImageLoaded(true);
     };
 
-    // Determinar imagen según colorShift
+    // Al final del useEffect, reemplaza:
+    // Determinar imagen según colorShift y forma
     const colorShift = pokemon.colorShift || 0;
-    if (colorShift === 0) {
-      img.src = `/images/pokemonFront/${pokemon.id}.png`;
-    } else {
-      img.src = `/images/pokemonFrontShiny/${pokemon.id}.png`;
+    const formIndex = pokemon.formIndex || 0;
+
+    let pokemonId = pokemon.id;
+    if (pokemon.forms && pokemon.forms[formIndex]) {
+      pokemonId = pokemon.forms[formIndex].id;
     }
-  }, [pokemon.id, pokemon.colorShift]);
+
+    if (colorShift === 0) {
+      img.src = `/images/pokemonFront/${pokemonId}.png`;
+    } else {
+      img.src = `/images/pokemonFrontShiny/${pokemonId}.png`;
+    }
+  }, [pokemon.id, pokemon.colorShift, pokemon.formIndex]);
 
   return (
     <div

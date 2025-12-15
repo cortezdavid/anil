@@ -36,9 +36,9 @@ const Collection = () => {
   );
 
   useSEO({
-    title: 'Colección Shiny - Pokémon Añil',
-    description: 'Lleva el registro de tu colección de Pokémon Shiny en Pokémon Añil. Busca, selecciona y organiza los shinies que has capturado.',
-    keywords: 'pokémon añil colección, shinies pokémon añil, colección shiny, registro pokémon, shinies capturados'
+    title: 'Colección - Pokémon Añil',
+    description: 'Lleva el registro de tu colección de Pokémon en Pokémon Añil. Busca, selecciona y organiza los que has capturado.',
+    keywords: 'pokémon añil colección, pokémon añil, colección, registro pokémon, pokemon capturados'
   });
 
   // Cargar colección desde localStorage
@@ -119,11 +119,11 @@ const Collection = () => {
     setModalPokemon(pokemon);
   };
 
-  // Confirmar cambio de color
-  const handleConfirmColor = (uniqueId, colorShift) => {
+  // Confirmar cambio de color y forma
+  const handleConfirmColor = (uniqueId, colorShift, formIndex) => {
     setSelectedPokemon(prev =>
       prev.map(p =>
-        p.uniqueId === uniqueId ? { ...p, colorShift } : p
+        p.uniqueId === uniqueId ? { ...p, colorShift, formIndex: formIndex || 0 } : p
       )
     );
   };
