@@ -13,9 +13,13 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <Link
               to="/"
-              className="text-2xl font-black text-white hover:text-blue-100 transition-colors duration-200 drop-shadow-md"
+              className="block hover:opacity-90 transition-opacity duration-200"
             >
-              PokeAñil
+              <img 
+                src="/images/logo.png" 
+                alt="PokeAñil" 
+                className="h-12 w-auto"
+              />
             </Link>
           </div>
 
