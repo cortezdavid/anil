@@ -699,7 +699,7 @@
     {
       "id": 117,
       "name": "PLUMAMOLTRES",
-      "location": "Islote Recuerdo",
+      "location": "",
       "img": "/images/items/PLUMAMOLTRES.png"
     },
     {
@@ -741,13 +741,13 @@
     {
       "id": 124,
       "name": "PLUMAARTICUNO",
-      "location": "Cueva Glaciada",
+      "location": "",
       "img": "/images/items/PLUMAARTICUNO.png"
     },
     {
       "id": 125,
       "name": "PLUMAZAPDOS",
-      "location": "Cabo Azabache",
+      "location": "",
       "img": "/images/items/PLUMAZAPDOS.png"
     },
     {
