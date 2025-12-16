@@ -108,7 +108,17 @@
     {
       "id": "RATICATE",
       "name": "Raticate",
-      "image": "/images/pokemonFrontShiny/RATICATE.png"
+      "image": "/images/pokemonFrontShiny/RATICATE.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "RATICATE"
+        },
+        {
+          "name": "Alola",
+          "id": "RATICATE_1"
+        }
+      ]
     },
     {
       "id": "SPEAROW",
@@ -133,22 +143,62 @@
     {
       "id": "PIKACHU",
       "name": "Pikachu",
-      "image": "/images/pokemonFrontShiny/PIKACHU.png"
+      "image": "/images/pokemonFrontShiny/PIKACHU.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "PIKACHU"
+        },
+        {
+          "name": "Amarillo",
+          "id": "PIKACHU_16"
+        }
+      ]
     },
     {
       "id": "RAICHU",
       "name": "Raichu",
-      "image": "/images/pokemonFrontShiny/RAICHU.png"
+      "image": "/images/pokemonFrontShiny/RAICHU.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "RAICHU"
+        },
+        {
+          "name": "Alola",
+          "id": "RAICHU_1"
+        }
+      ]
     },
     {
       "id": "SANDSHREW",
       "name": "Sandshrew",
-      "image": "/images/pokemonFrontShiny/SANDSHREW.png"
+      "image": "/images/pokemonFrontShiny/SANDSHREW.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "SANDSHREW"
+        },
+        {
+          "name": "Alola",
+          "id": "SANDSHREW_1"
+        }
+      ]
     },
     {
       "id": "SANDSLASH",
       "name": "Sandslash",
-      "image": "/images/pokemonFrontShiny/SANDSLASH.png"
+      "image": "/images/pokemonFrontShiny/SANDSLASH.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "SANDSLASH"
+        },
+        {
+          "name": "Alola",
+          "id": "SANDSLASH_1"
+        }
+      ]
     },
     {
       "id": "NIDORANFE",
@@ -193,12 +243,32 @@
     {
       "id": "VULPIX",
       "name": "Vulpix",
-      "image": "/images/pokemonFrontShiny/VULPIX.png"
+      "image": "/images/pokemonFrontShiny/VULPIX.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "VULPIX"
+        },
+        {
+          "name": "Alola",
+          "id": "VULPIX_1"
+        }
+      ]
     },
     {
       "id": "NINETALES",
       "name": "Ninetales",
-      "image": "/images/pokemonFrontShiny/NINETALES.png"
+      "image": "/images/pokemonFrontShiny/NINETALES.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "NINETALES"
+        },
+        {
+          "name": "Alola",
+          "id": "NINETALES_1"
+        }
+      ]
     },
     {
       "id": "JIGGLYPUFF",
@@ -258,22 +328,66 @@
     {
       "id": "DIGLETT",
       "name": "Diglett",
-      "image": "/images/pokemonFrontShiny/DIGLETT.png"
+      "image": "/images/pokemonFrontShiny/DIGLETT.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "DIGLETT"
+        },
+        {
+          "name": "Alola",
+          "id": "DIGLETT_1"
+        }
+      ]
     },
     {
       "id": "DUGTRIO",
       "name": "Dugtrio",
-      "image": "/images/pokemonFrontShiny/DUGTRIO.png"
+      "image": "/images/pokemonFrontShiny/DUGTRIO.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "DUGTRIO"
+        },
+        {
+          "name": "Alola",
+          "id": "DUGTRIO_1"
+        }
+      ]
     },
     {
       "id": "MEOWTH",
       "name": "Meowth",
-      "image": "/images/pokemonFrontShiny/MEOWTH.png"
+      "image": "/images/pokemonFrontShiny/MEOWTH.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "MEOWTH"
+        },
+        {
+          "name": "Alola",
+          "id": "MEOWTH_1"
+        },
+        {
+          "name": "Galar",
+          "id": "MEOWTH_2"
+        }
+      ]
     },
     {
       "id": "PERSIAN",
       "name": "Persian",
-      "image": "/images/pokemonFrontShiny/PERSIAN.png"
+      "image": "/images/pokemonFrontShiny/PERSIAN.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "PERSIAN"
+        },
+        {
+          "name": "Alola",
+          "id": "PERSIAN_1"
+        }
+      ]
     },
     {
       "id": "PSYDUCK",
@@ -298,12 +412,32 @@
     {
       "id": "GROWLITHE",
       "name": "Growlithe",
-      "image": "/images/pokemonFrontShiny/GROWLITHE.png"
+      "image": "/images/pokemonFrontShiny/GROWLITHE.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "GROWLITHE"
+        },
+        {
+          "name": "Hisui",
+          "id": "GROWLITHE_1"
+        }
+      ]
     },
     {
       "id": "ARCANINE",
       "name": "Arcanine",
-      "image": "/images/pokemonFrontShiny/ARCANINE.png"
+      "image": "/images/pokemonFrontShiny/ARCANINE.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "ARCANINE"
+        },
+        {
+          "name": "Hisui",
+          "id": "ARCANINE_1"
+        }
+      ]
     },
     {
       "id": "POLIWAG",
@@ -378,37 +512,107 @@
     {
       "id": "GEODUDE",
       "name": "Geodude",
-      "image": "/images/pokemonFrontShiny/GEODUDE.png"
+      "image": "/images/pokemonFrontShiny/GEODUDE.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "GEODUDE"
+        },
+        {
+          "name": "Alola",
+          "id": "GEODUDE_1"
+        }
+      ]
     },
     {
       "id": "GRAVELER",
       "name": "Graveler",
-      "image": "/images/pokemonFrontShiny/GRAVELER.png"
+      "image": "/images/pokemonFrontShiny/GRAVELER.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "GRAVELER"
+        },
+        {
+          "name": "Alola",
+          "id": "GRAVELER_1"
+        }
+      ]
     },
     {
       "id": "GOLEM",
       "name": "Golem",
-      "image": "/images/pokemonFrontShiny/GOLEM.png"
+      "image": "/images/pokemonFrontShiny/GOLEM.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "GOLEM"
+        },
+        {
+          "name": "Alola",
+          "id": "GOLEM_1"
+        }
+      ]
     },
     {
       "id": "PONYTA",
       "name": "Ponyta",
-      "image": "/images/pokemonFrontShiny/PONYTA.png"
+      "image": "/images/pokemonFrontShiny/PONYTA.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "PONYTA"
+        },
+        {
+          "name": "Galar",
+          "id": "PONYTA_1"
+        }
+      ]
     },
     {
       "id": "RAPIDASH",
       "name": "Rapidash",
-      "image": "/images/pokemonFrontShiny/RAPIDASH.png"
+      "image": "/images/pokemonFrontShiny/RAPIDASH.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "RAPIDASH"
+        },
+        {
+          "name": "Galar",
+          "id": "RAPIDASH_1"
+        }
+      ]
     },
     {
       "id": "SLOWPOKE",
       "name": "Slowpoke",
-      "image": "/images/pokemonFrontShiny/SLOWPOKE.png"
+      "image": "/images/pokemonFrontShiny/SLOWPOKE.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "SLOWPOKE"
+        },
+        {
+          "name": "Galar",
+          "id": "SLOWPOKE_1"
+        }
+      ]
     },
     {
       "id": "SLOWBRO",
       "name": "Slowbro",
-      "image": "/images/pokemonFrontShiny/SLOWBRO.png"
+      "image": "/images/pokemonFrontShiny/SLOWBRO.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "SLOWBRO"
+        },
+        {
+          "name": "Galar",
+          "id": "SLOWBRO_1"
+        }
+      ]
     },
     {
       "id": "MAGNEMITE",
@@ -423,7 +627,17 @@
     {
       "id": "FARFETCHD",
       "name": "Farfetch'd",
-      "image": "/images/pokemonFrontShiny/FARFETCHD.png"
+      "image": "/images/pokemonFrontShiny/FARFETCHD.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "FARFETCHD"
+        },
+        {
+          "name": "Galar",
+          "id": "FARFETCHD_1"
+        }
+      ]
     },
     {
       "id": "DODUO",
@@ -448,12 +662,32 @@
     {
       "id": "GRIMER",
       "name": "Grimer",
-      "image": "/images/pokemonFrontShiny/GRIMER.png"
+      "image": "/images/pokemonFrontShiny/GRIMER.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "GRIMER"
+        },
+        {
+          "name": "Alola",
+          "id": "GRIMER_1"
+        }
+      ]
     },
     {
       "id": "MUK",
       "name": "Muk",
-      "image": "/images/pokemonFrontShiny/MUK.png"
+      "image": "/images/pokemonFrontShiny/MUK.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "MUK"
+        },
+        {
+          "name": "Alola",
+          "id": "MUK_1"
+        }
+      ]
     },
     {
       "id": "SHELLDER",
@@ -508,12 +742,32 @@
     {
       "id": "VOLTORB",
       "name": "Voltorb",
-      "image": "/images/pokemonFrontShiny/VOLTORB.png"
+      "image": "/images/pokemonFrontShiny/VOLTORB.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "VOLTORB"
+        },
+        {
+          "name": "Hisui",
+          "id": "VOLTORB_1"
+        }
+      ]
     },
     {
       "id": "ELECTRODE",
       "name": "Electrode",
-      "image": "/images/pokemonFrontShiny/ELECTRODE.png"
+      "image": "/images/pokemonFrontShiny/ELECTRODE.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "ELECTRODE"
+        },
+        {
+          "name": "Hisui",
+          "id": "ELECTRODE_1"
+        }
+      ]
     },
     {
       "id": "EXEGGCUTE",
@@ -523,7 +777,17 @@
     {
       "id": "EXEGGUTOR",
       "name": "Exeggutor",
-      "image": "/images/pokemonFrontShiny/EXEGGUTOR.png"
+      "image": "/images/pokemonFrontShiny/EXEGGUTOR.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "EXEGGUTOR"
+        },
+        {
+          "name": "Alola",
+          "id": "EXEGGUTOR_1"
+        }
+      ]
     },
     {
       "id": "CUBONE",
@@ -533,7 +797,17 @@
     {
       "id": "MAROWAK",
       "name": "Marowak",
-      "image": "/images/pokemonFrontShiny/MAROWAK.png"
+      "image": "/images/pokemonFrontShiny/MAROWAK.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "MAROWAK"
+        },
+        {
+          "name": "Alola",
+          "id": "MAROWAK_1"
+        }
+      ]
     },
     {
       "id": "HITMONLEE",
@@ -558,7 +832,17 @@
     {
       "id": "WEEZING",
       "name": "Weezing",
-      "image": "/images/pokemonFrontShiny/WEEZING.png"
+      "image": "/images/pokemonFrontShiny/WEEZING.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "WEEZING"
+        },
+        {
+          "name": "Galar",
+          "id": "WEEZING_1"
+        }
+      ]
     },
     {
       "id": "RHYHORN",
@@ -618,7 +902,17 @@
     {
       "id": "MRMIME",
       "name": "Mr. Mime",
-      "image": "/images/pokemonFrontShiny/MRMIME.png"
+      "image": "/images/pokemonFrontShiny/MRMIME.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "MRMIME"
+        },
+        {
+          "name": "Galar",
+          "id": "MRMIME_1"
+        }
+      ]
     },
     {
       "id": "SCYTHER",
@@ -648,7 +942,25 @@
     {
       "id": "TAUROS",
       "name": "Tauros",
-      "image": "/images/pokemonFrontShiny/TAUROS.png"
+      "image": "/images/pokemonFrontShiny/TAUROS.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "TAUROS"
+        },
+        {
+          "name": "Paldea",
+          "id": "TAUROS_1"
+        },
+        {
+          "name": "Paldea",
+          "id": "TAUROS_2"
+        },
+        {
+          "name": "Paldea",
+          "id": "TAUROS_3"
+        }
+      ]
     },
     {
       "id": "MAGIKARP",
@@ -673,7 +985,17 @@
     {
       "id": "EEVEE",
       "name": "Eevee",
-      "image": "/images/pokemonFrontShiny/EEVEE.png"
+      "image": "/images/pokemonFrontShiny/EEVEE.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "EEVEE"
+        },
+        {
+          "name": "Lets Go",
+          "id": "EEVEE"
+        }
+      ]
     },
     {
       "id": "VAPOREON",
@@ -728,17 +1050,47 @@
     {
       "id": "ARTICUNO",
       "name": "Articuno",
-      "image": "/images/pokemonFrontShiny/ARTICUNO.png"
+      "image": "/images/pokemonFrontShiny/ARTICUNO.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "ARTICUNO"
+        },
+        {
+          "name": "Galar",
+          "id": "ARTICUNO_1"
+        }
+      ]
     },
     {
       "id": "ZAPDOS",
       "name": "Zapdos",
-      "image": "/images/pokemonFrontShiny/ZAPDOS.png"
+      "image": "/images/pokemonFrontShiny/ZAPDOS.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "ZAPDOS"
+        },
+        {
+          "name": "Galar",
+          "id": "ZAPDOS_1"
+        }
+      ]
     },
     {
       "id": "MOLTRES",
       "name": "Moltres",
-      "image": "/images/pokemonFrontShiny/MOLTRES.png"
+      "image": "/images/pokemonFrontShiny/MOLTRES.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "MOLTRES"
+        },
+        {
+          "name": "Galar",
+          "id": "MOLTRES_1"
+        }
+      ]
     },
     {
       "id": "DRATINI",
@@ -793,7 +1145,17 @@
     {
       "id": "TYPHLOSION",
       "name": "Typhlosion",
-      "image": "/images/pokemonFrontShiny/TYPHLOSION.png"
+      "image": "/images/pokemonFrontShiny/TYPHLOSION.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "TYPHLOSION"
+        },
+        {
+          "name": "Hisui",
+          "id": "TYPHLOSION_1"
+        }
+      ]
     },
     {
       "id": "TOTODILE",
@@ -978,7 +1340,17 @@
     {
       "id": "WOOPER",
       "name": "Wooper",
-      "image": "/images/pokemonFrontShiny/WOOPER.png"
+      "image": "/images/pokemonFrontShiny/WOOPER.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "WOOPER"
+        },
+        {
+          "name": "Paldea",
+          "id": "WOOPER_1"
+        }
+      ]
     },
     {
       "id": "QUAGSIRE",
@@ -1003,7 +1375,17 @@
     {
       "id": "SLOWKING",
       "name": "Slowking",
-      "image": "/images/pokemonFrontShiny/SLOWKING.png"
+      "image": "/images/pokemonFrontShiny/SLOWKING.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "SLOWKING"
+        },
+        {
+          "name": "Galar",
+          "id": "SLOWKING_1"
+        }
+      ]
     },
     {
       "id": "MISDREAVUS",
@@ -1063,7 +1445,17 @@
     {
       "id": "QWILFISH",
       "name": "Qwilfish",
-      "image": "/images/pokemonFrontShiny/QWILFISH.png"
+      "image": "/images/pokemonFrontShiny/QWILFISH.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "QWILFISH"
+        },
+        {
+          "name": "Hisui",
+          "id": "QWILFISH_1"
+        }
+      ]
     },
     {
       "id": "SCIZOR",
@@ -1083,7 +1475,17 @@
     {
       "id": "SNEASEL",
       "name": "Sneasel",
-      "image": "/images/pokemonFrontShiny/SNEASEL.png"
+      "image": "/images/pokemonFrontShiny/SNEASEL.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "SNEASEL"
+        },
+        {
+          "name": "Hisui",
+          "id": "SNEASEL_1"
+        }
+      ]
     },
     {
       "id": "TEDDIURSA",
@@ -1118,7 +1520,17 @@
     {
       "id": "CORSOLA",
       "name": "Corsola",
-      "image": "/images/pokemonFrontShiny/CORSOLA.png"
+      "image": "/images/pokemonFrontShiny/CORSOLA.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "CORSOLA"
+        },
+        {
+          "name": "Galar",
+          "id": "CORSOLA_1"
+        }
+      ]
     },
     {
       "id": "REMORAID",
@@ -1323,12 +1735,32 @@
     {
       "id": "ZIGZAGOON",
       "name": "Zigzagoon",
-      "image": "/images/pokemonFrontShiny/ZIGZAGOON.png"
+      "image": "/images/pokemonFrontShiny/ZIGZAGOON.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "ZIGZAGOON"
+        },
+        {
+          "name": "Galar",
+          "id": "ZIGZAGOON_1"
+        }
+      ]
     },
     {
       "id": "LINOONE",
       "name": "Linoone",
-      "image": "/images/pokemonFrontShiny/LINOONE.png"
+      "image": "/images/pokemonFrontShiny/LINOONE.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "LINOONE"
+        },
+        {
+          "name": "Galar",
+          "id": "LINOONE_1"
+        }
+      ]
     },
     {
       "id": "WURMPLE",
@@ -1938,7 +2370,25 @@
     {
       "id": "DEOXYS",
       "name": "Deoxys",
-      "image": "/images/pokemonFrontShiny/DEOXYS.png"
+      "image": "/images/pokemonFrontShiny/DEOXYS.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "DEOXYS"
+        },
+        {
+          "name": "Ataque",
+          "id": "DEOXYS_1"
+        },
+        {
+          "name": "Defensa",
+          "id": "DEOXYS_2"
+        },
+        {
+          "name": "Velocidad",
+          "id": "DEOXYS_3"
+        }
+      ]
     },
     {
       "id": "TURTWIG",
@@ -2403,7 +2853,33 @@
     {
       "id": "ROTOM",
       "name": "Rotom",
-      "image": "/images/pokemonFrontShiny/ROTOM.png"
+      "image": "/images/pokemonFrontShiny/ROTOM.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "ROTOM"
+        },
+        {
+          "name": "Calor",
+          "id": "ROTOM_1"
+        },
+        {
+          "name": "Lavado",
+          "id": "ROTOM_2"
+        },
+        {
+          "name": "Frío",
+          "id": "ROTOM_3"
+        },
+        {
+          "name": "Ventilador",
+          "id": "ROTOM_4"
+        },
+        {
+          "name": "Corte",
+          "id": "ROTOM_5"
+        }
+      ]
     },
     {
       "id": "UXIE",
@@ -2423,12 +2899,32 @@
     {
       "id": "DIALGA",
       "name": "Dialga",
-      "image": "/images/pokemonFrontShiny/DIALGA.png"
+      "image": "/images/pokemonFrontShiny/DIALGA.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "DIALGA"
+        },
+        {
+          "name": "Origen",
+          "id": "DIALGA_1"
+        }
+      ]
     },
     {
       "id": "PALKIA",
       "name": "Palkia",
-      "image": "/images/pokemonFrontShiny/PALKIA.png"
+      "image": "/images/pokemonFrontShiny/PALKIA.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "PALKIA"
+        },
+        {
+          "name": "Origen",
+          "id": "PALKIA_1"
+        }
+      ]
     },
     {
       "id": "HEATRAN",
@@ -2443,7 +2939,17 @@
     {
       "id": "GIRATINA",
       "name": "Giratina",
-      "image": "/images/pokemonFrontShiny/GIRATINA.png"
+      "image": "/images/pokemonFrontShiny/GIRATINA.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "GIRATINA"
+        },
+        {
+          "name": "Origen",
+          "id": "GIRATINA_1"
+        }
+      ]
     },
     {
       "id": "CRESSELIA",
@@ -2468,7 +2974,17 @@
     {
       "id": "SHAYMIN",
       "name": "Shaymin",
-      "image": "/images/pokemonFrontShiny/SHAYMIN.png"
+      "image": "/images/pokemonFrontShiny/SHAYMIN.png",
+      "forms": [
+        {
+          "name": "Tierra",
+          "id": "SHAYMIN"
+        },
+        {
+          "name": "Cielo",
+          "id": "SHAYMIN_1"
+        }
+      ]
     },
     {
       "id": "ARCEUS",
@@ -2523,7 +3039,17 @@
     {
       "id": "SAMUROTT",
       "name": "Samurott",
-      "image": "/images/pokemonFrontShiny/SAMUROTT.png"
+      "image": "/images/pokemonFrontShiny/SAMUROTT.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "SAMUROTT"
+        },
+        {
+          "name": "Hisui",
+          "id": "SAMUROTT_1"
+        }
+      ]
     },
     {
       "id": "PATRAT",
@@ -2753,7 +3279,17 @@
     {
       "id": "LILLIGANT",
       "name": "Lilligant",
-      "image": "/images/pokemonFrontShiny/LILLIGANT.png"
+      "image": "/images/pokemonFrontShiny/LILLIGANT.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "LILLIGANT"
+        },
+        {
+          "name": "Hisui",
+          "id": "LILLIGANT_1"
+        }
+      ]
     },
     {
       "id": "BASCULIN",
@@ -2778,12 +3314,32 @@
     {
       "id": "DARUMAKA",
       "name": "Darumaka",
-      "image": "/images/pokemonFrontShiny/DARUMAKA.png"
+      "image": "/images/pokemonFrontShiny/DARUMAKA.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "DARUMAKA"
+        },
+        {
+          "name": "Galar",
+          "id": "DARUMAKA_2"
+        }
+      ]
     },
     {
       "id": "DARMANITAN",
       "name": "Darmanitan",
-      "image": "/images/pokemonFrontShiny/DARMANITAN.png"
+      "image": "/images/pokemonFrontShiny/DARMANITAN.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "DARMANITAN"
+        },
+        {
+          "name": "Galar",
+          "id": "DARMANITAN_2"
+        }
+      ]
     },
     {
       "id": "MARACTUS",
@@ -2818,7 +3374,17 @@
     {
       "id": "YAMASK",
       "name": "Yamask",
-      "image": "/images/pokemonFrontShiny/YAMASK.png"
+      "image": "/images/pokemonFrontShiny/YAMASK.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "YAMASK"
+        },
+        {
+          "name": "Galar",
+          "id": "YAMASK_1"
+        }
+      ]
     },
     {
       "id": "COFAGRIGUS",
@@ -2858,12 +3424,32 @@
     {
       "id": "ZORUA",
       "name": "Zorua",
-      "image": "/images/pokemonFrontShiny/ZORUA.png"
+      "image": "/images/pokemonFrontShiny/ZORUA.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "ZORUA"
+        },
+        {
+          "name": "Hisui",
+          "id": "ZORUA_1"
+        }
+      ]
     },
     {
       "id": "ZOROARK",
       "name": "Zoroark",
-      "image": "/images/pokemonFrontShiny/ZOROARK.png"
+      "image": "/images/pokemonFrontShiny/ZOROARK.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "ZOROARK"
+        },
+        {
+          "name": "Hisui",
+          "id": "ZOROARK_1"
+        }
+      ]
     },
     {
       "id": "MINCCINO",
@@ -3098,7 +3684,17 @@
     {
       "id": "STUNFISK",
       "name": "Stunfisk",
-      "image": "/images/pokemonFrontShiny/STUNFISK.png"
+      "image": "/images/pokemonFrontShiny/STUNFISK.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "STUNFISK"
+        },
+        {
+          "name": "Galar",
+          "id": "STUNFISK_1"
+        }
+      ]
     },
     {
       "id": "MIENFOO",
@@ -3148,7 +3744,17 @@
     {
       "id": "BRAVIARY",
       "name": "Braviary",
-      "image": "/images/pokemonFrontShiny/BRAVIARY.png"
+      "image": "/images/pokemonFrontShiny/BRAVIARY.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "BRAVIARY"
+        },
+        {
+          "name": "Hisui",
+          "id": "BRAVIARY_1"
+        }
+      ]
     },
     {
       "id": "VULLABY",
@@ -3213,12 +3819,32 @@
     {
       "id": "TORNADUS",
       "name": "Tornadus",
-      "image": "/images/pokemonFrontShiny/TORNADUS.png"
+      "image": "/images/pokemonFrontShiny/TORNADUS.png",
+      "forms": [
+        {
+          "name": "Avatar",
+          "id": "TORNADUS"
+        },
+        {
+          "name": "Tótem",
+          "id": "TORNADUS_1"
+        }
+      ]
     },
     {
       "id": "THUNDURUS",
       "name": "Thundurus",
-      "image": "/images/pokemonFrontShiny/THUNDURUS.png"
+      "image": "/images/pokemonFrontShiny/THUNDURUS.png",
+      "forms": [
+        {
+          "name": "Avatar",
+          "id": "THUNDURUS"
+        },
+        {
+          "name": "Tótem",
+          "id": "THUNDURUS_1"
+        }
+      ]
     },
     {
       "id": "RESHIRAM",
@@ -3233,12 +3859,32 @@
     {
       "id": "LANDORUS",
       "name": "Landorus",
-      "image": "/images/pokemonFrontShiny/LANDORUS.png"
+      "image": "/images/pokemonFrontShiny/LANDORUS.png",
+      "forms": [
+        {
+          "name": "Avatar",
+          "id": "LANDORUS"
+        },
+        {
+          "name": "Tótem",
+          "id": "LANDORUS_1"
+        }
+      ]
     },
     {
       "id": "KYUREM",
       "name": "Kyurem",
-      "image": "/images/pokemonFrontShiny/KYUREM.png"
+      "image": "/images/pokemonFrontShiny/KYUREM.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "KYUREM"
+        },
+        {
+          "name": "Negra",
+          "id": "KYUREM_2"
+        }
+      ]
     },
     {
       "id": "KELDEO",
@@ -3348,7 +3994,17 @@
     {
       "id": "PYROAR",
       "name": "Pyroar",
-      "image": "/images/pokemonFrontShiny/PYROAR.png"
+      "image": "/images/pokemonFrontShiny/PYROAR.png",
+      "forms": [
+        {
+          "name": "Macho",
+          "id": "PYROAR"
+        },
+        {
+          "name": "Hembra",
+          "id": "PYROAR_female"
+        }
+      ]
     },
     {
       "id": "FLABEBE",
@@ -3388,7 +4044,49 @@
     {
       "id": "FURFROU",
       "name": "Furfrou",
-      "image": "/images/pokemonFrontShiny/FURFROU.png"
+      "image": "/images/pokemonFrontShiny/FURFROU.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "FURFROU"
+        },
+        {
+          "name": "Corazón",
+          "id": "FURFROU_1"
+        },
+        {
+          "name": "Estrella",
+          "id": "FURFROU_2"
+        },
+        {
+          "name": "Rombo",
+          "id": "FURFROU_3"
+        },
+        {
+          "name": "Señorita",
+          "id": "FURFROU_4"
+        },
+        {
+          "name": "Dama",
+          "id": "FURFROU_5"
+        },
+        {
+          "name": "Caballero",
+          "id": "FURFROU_6"
+        },
+        {
+          "name": "Aristocrático",
+          "id": "FURFROU_7"
+        },
+        {
+          "name": "Kabuki",
+          "id": "FURFROU_8"
+        },
+        {
+          "name": "Faraónico",
+          "id": "FURFROU_9"
+        }
+      ]
     },
     {
       "id": "ESPURR",
@@ -3398,7 +4096,17 @@
     {
       "id": "MEOWSTIC",
       "name": "Meowstic",
-      "image": "/images/pokemonFrontShiny/MEOWSTIC.png"
+      "image": "/images/pokemonFrontShiny/MEOWSTIC.png",
+      "forms": [
+        {
+          "name": "Macho",
+          "id": "MEOWSTIC"
+        },
+        {
+          "name": "Hembra",
+          "id": "MEOWSTIC_1"
+        }
+      ]
     },
     {
       "id": "HONEDGE",
@@ -3533,12 +4241,32 @@
     {
       "id": "SLIGGOO",
       "name": "Sliggoo",
-      "image": "/images/pokemonFrontShiny/SLIGGOO.png"
+      "image": "/images/pokemonFrontShiny/SLIGGOO.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "SLIGGOO"
+        },
+        {
+          "name": "Hisui",
+          "id": "SLIGGOO_1"
+        }
+      ]
     },
     {
       "id": "GOODRA",
       "name": "Goodra",
-      "image": "/images/pokemonFrontShiny/GOODRA.png"
+      "image": "/images/pokemonFrontShiny/GOODRA.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "GOODRA"
+        },
+        {
+          "name": "Hisui",
+          "id": "GOODRA_1"
+        }
+      ]
     },
     {
       "id": "KLEFKI",
@@ -3573,7 +4301,17 @@
     {
       "id": "AVALUGG",
       "name": "Avalugg",
-      "image": "/images/pokemonFrontShiny/AVALUGG.png"
+      "image": "/images/pokemonFrontShiny/AVALUGG.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "AVALUGG"
+        },
+        {
+          "name": "Hisui",
+          "id": "AVALUGG_1"
+        }
+      ]
     },
     {
       "id": "NOIBAT",
@@ -3598,7 +4336,21 @@
     {
       "id": "ZYGARDE",
       "name": "Zygarde",
-      "image": "/images/pokemonFrontShiny/ZYGARDE.png"
+      "image": "/images/pokemonFrontShiny/ZYGARDE.png",
+      "forms": [
+        {
+          "name": "10%",
+          "id": "ZYGARDE_1"
+        },
+        {
+          "name": "50%",
+          "id": "ZYGARDE"
+        },
+        {
+          "name": "Completa",
+          "id": "ZYGARDE_2"
+        }
+      ]
     },
     {
       "id": "DIANCIE",
@@ -3608,7 +4360,17 @@
     {
       "id": "HOOPA",
       "name": "Hoopa",
-      "image": "/images/pokemonFrontShiny/HOOPA.png"
+      "image": "/images/pokemonFrontShiny/HOOPA.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "HOOPA"
+        },
+        {
+          "name": "Desatada",
+          "id": "HOOPA_1"
+        }
+      ]
     },
     {
       "id": "VOLCANION",
@@ -3628,7 +4390,17 @@
     {
       "id": "DECIDUEYE",
       "name": "Decidueye",
-      "image": "/images/pokemonFrontShiny/DECIDUEYE.png"
+      "image": "/images/pokemonFrontShiny/DECIDUEYE.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "DECIDUEYE"
+        },
+        {
+          "name": "Hisui",
+          "id": "DECIDUEYE_1"
+        }
+      ]
     },
     {
       "id": "LITTEN",
@@ -3733,12 +4505,36 @@
     {
       "id": "LYCANROC",
       "name": "Lycanroc",
-      "image": "/images/pokemonFrontShiny/LYCANROC.png"
+      "image": "/images/pokemonFrontShiny/LYCANROC.png",
+      "forms": [
+        {
+          "name": "Diurna",
+          "id": "LYCANROC"
+        },
+        {
+          "name": "Nocturna",
+          "id": "LYCANROC_1"
+        },
+        {
+          "name": "Crespuscular",
+          "id": "LYCANROC_2"
+        }
+      ]
     },
     {
       "id": "WISHIWASHI",
       "name": "Wishiwashi",
-      "image": "/images/pokemonFrontShiny/WISHIWASHI.png"
+      "image": "/images/pokemonFrontShiny/WISHIWASHI.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "WISHIWASHI"
+        },
+        {
+          "name": "Blanco",
+          "id": "WISHIWASHI_1"
+        }
+      ]
     },
     {
       "id": "MAREANIE",
@@ -4008,7 +4804,21 @@
     {
       "id": "NECROZMA",
       "name": "Necrozma",
-      "image": "/images/pokemonFrontShiny/NECROZMA.png"
+      "image": "/images/pokemonFrontShiny/NECROZMA.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "NECROZMA"
+        },
+        {
+          "name": "Melena Crepuscular",
+          "id": "NECROZMA_1"
+        },
+        {
+          "name": "Alas del Alba",
+          "id": "NECROZMA_2"
+        }
+      ]
     },
     {
       "id": "MAGEARNA",
@@ -4253,7 +5063,17 @@
     {
       "id": "TOXTRICITY",
       "name": "Toxtricity",
-      "image": "/images/pokemonFrontShiny/TOXTRICITY.png"
+      "image": "/images/pokemonFrontShiny/TOXTRICITY.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "TOXTRICITY"
+        },
+        {
+          "name": "Grave",
+          "id": "TOXTRICITY_1"
+        }
+      ]
     },
     {
       "id": "SIZZLIPEDE",
@@ -4388,7 +5208,17 @@
     {
       "id": "INDEEDEE",
       "name": "Indeedee",
-      "image": "/images/pokemonFrontShiny/INDEEDEE.png"
+      "image": "/images/pokemonFrontShiny/INDEEDEE.png",
+      "forms": [
+        {
+          "name": "Macho",
+          "id": "INDEEDEE"
+        },
+        {
+          "name": "Hembra",
+          "id": "INDEEDEE_1"
+        }
+      ]
     },
     {
       "id": "MORPEKO",
@@ -4448,12 +5278,32 @@
     {
       "id": "ZACIAN",
       "name": "Zacian",
-      "image": "/images/pokemonFrontShiny/ZACIAN.png"
+      "image": "/images/pokemonFrontShiny/ZACIAN.png",
+      "forms": [
+        {
+          "name": "Guerrero Avezado",
+          "id": "ZACIAN"
+        },
+        {
+          "name": "Espada Suprema",
+          "id": "ZACIAN_1"
+        }
+      ]
     },
     {
       "id": "ZAMAZENTA",
       "name": "Zamazenta",
-      "image": "/images/pokemonFrontShiny/ZAMAZENTA.png"
+      "image": "/images/pokemonFrontShiny/ZAMAZENTA.png",
+      "forms": [
+        {
+          "name": "Guerrero Avezado",
+          "id": "ZAMAZENTA"
+        },
+        {
+          "name": "Escudo Supremo",
+          "id": "ZAMAZENTA_1"
+        }
+      ]
     },
     {
       "id": "ETERNATUS",
@@ -4468,7 +5318,17 @@
     {
       "id": "URSHIFU",
       "name": "Urshifu",
-      "image": "/images/pokemonFrontShiny/URSHIFU.png"
+      "image": "/images/pokemonFrontShiny/URSHIFU.png",
+      "forms": [
+        {
+          "name": "Brusco",
+          "id": "URSHIFU"
+        },
+        {
+          "name": "Alas del Alba",
+          "id": "URSHIFU_1"
+        }
+      ]
     },
     {
       "id": "ZARUDE",
@@ -4498,7 +5358,21 @@
     {
       "id": "CALYREX",
       "name": "Calyrex",
-      "image": "/images/pokemonFrontShiny/CALYREX.png"
+      "image": "/images/pokemonFrontShiny/CALYREX.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "CALYREX"
+        },
+        {
+          "name": "Jinete Glacial",
+          "id": "CALYREX_1"
+        },
+        {
+          "name": "Jinete Espectral",
+          "id": "CALYREX_2"
+        }
+      ]
     },
     {
       "id": "WYRDEER",
@@ -4513,12 +5387,32 @@
     {
       "id": "URSALUNA",
       "name": "Ursaluna",
-      "image": "/images/pokemonFrontShiny/URSALUNA.png"
+      "image": "/images/pokemonFrontShiny/URSALUNA.png",
+      "forms": [
+        {
+          "name": "Normal",
+          "id": "URSALUNA"
+        },
+        {
+          "name": "Luna Carmesí",
+          "id": "URSALUNA_1"
+        }
+      ]
     },
     {
       "id": "BASCULEGION",
       "name": "Basculegion",
-      "image": "/images/pokemonFrontShiny/BASCULEGION.png"
+      "image": "/images/pokemonFrontShiny/BASCULEGION.png",
+      "forms": [
+        {
+          "name": "Macho",
+          "id": "BASCULEGION"
+        },
+        {
+          "name": "Hembra",
+          "id": "BASCULEGION_1"
+        }
+      ]
     },
     {
       "id": "SNEASLER",
@@ -4533,7 +5427,17 @@
     {
       "id": "ENAMORUS",
       "name": "Enamorus",
-      "image": "/images/pokemonFrontShiny/ENAMORUS.png"
+      "image": "/images/pokemonFrontShiny/ENAMORUS.png",
+      "forms": [
+        {
+          "name": "Avatar",
+          "id": "ENAMORUS"
+        },
+        {
+          "name": "Tótem",
+          "id": "ENAMORUS_1"
+        }
+      ]
     },
     {
       "id": "SPRIGATITO",
@@ -4588,7 +5492,17 @@
     {
       "id": "OINKOLOGNE",
       "name": "Oinkologne",
-      "image": "/images/pokemonFrontShiny/OINKOLOGNE.png"
+      "image": "/images/pokemonFrontShiny/OINKOLOGNE.png",
+      "forms": [
+        {
+          "name": "Macho",
+          "id": "OINKOLOGNE"
+        },
+        {
+          "name": "Hembra",
+          "id": "OINKOLOGNE_1"
+        }
+      ]
     },
     {
       "id": "TAROUNTULA",
@@ -4828,7 +5742,17 @@
     {
       "id": "PALAFIN",
       "name": "Palafin",
-      "image": "/images/pokemonFrontShiny/PALAFIN.png"
+      "image": "/images/pokemonFrontShiny/PALAFIN.png",
+      "forms": [
+        {
+          "name": "Ingenua",
+          "id": "PALAFIN"
+        },
+        {
+          "name": "Heroica",
+          "id": "PALAFIN_1"
+        }
+      ]
     },
     {
       "id": "VAROOM",
@@ -5003,7 +5927,17 @@
     {
       "id": "GIMMIGHOUL",
       "name": "Gimmighoul",
-      "image": "/images/pokemonFrontShiny/GIMMIGHOUL.png"
+      "image": "/images/pokemonFrontShiny/GIMMIGHOUL.png",
+      "forms": [
+        {
+          "name": "Cofre",
+          "id": "GIMMIGHOUL"
+        },
+        {
+          "name": "Andante",
+          "id": "GIMMIGHOUL_1"
+        }
+      ]
     },
     {
       "id": "GHOLDENGO",
@@ -5093,7 +6027,25 @@
     {
       "id": "OGERPON",
       "name": "Ogerpon",
-      "image": "/images/pokemonFrontShiny/OGERPON.png"
+      "image": "/images/pokemonFrontShiny/OGERPON.png",
+      "forms": [
+        {
+          "name": "Máscara Turquesa",
+          "id": "OGERPON"
+        },
+        {
+          "name": "Máscara Fuerte",
+          "id": "OGERPON_1"
+        },
+        {
+          "name": "Máscara Horno",
+          "id": "OGERPON_2"
+        },
+        {
+          "name": "Máscara Cimiento",
+          "id": "OGERPON_3"
+        }
+      ]
     },
     {
       "id": "ARCHALUDON",
