@@ -686,9 +686,9 @@
     },
     {
       "id": 115,
-      "name": "OFRENDAPRISMATICA",
+      "name": "OFRENDAPRISMATICA1",
       "location": "Cueva Perdida",
-      "img": "/images/items/OFRENDAPRISMATICA.png"
+      "img": "/images/items/OFRENDAPRISMATICA1.png"
     },
     {
       "id": 116,
@@ -699,7 +699,7 @@
     {
       "id": 117,
       "name": "PLUMAMOLTRES",
-      "location": "",
+      "location": "Islote Recuerdo",
       "img": "/images/items/PLUMAMOLTRES.png"
     },
     {
@@ -728,26 +728,26 @@
     },
     {
       "id": 122,
-      "name": "OFRENDAPRISMATICA",
+      "name": "OFRENDAPRISMATICA2",
       "location": "Cabo Magenta",
-      "img": "/images/items/OFRENDAPRISMATICA.png"
+      "img": "/images/items/OFRENDAPRISMATICA2.png"
     },
     {
       "id": 123,
-      "name": "OFRENDAPRISMATICA",
+      "name": "OFRENDAPRISMATICA3",
       "location": "Ruta 29",
-      "img": "/images/items/OFRENDAPRISMATICA.png"
+      "img": "/images/items/OFRENDAPRISMATICA3.png"
     },
     {
       "id": 124,
       "name": "PLUMAARTICUNO",
-      "location": "",
+      "location": "Cueva Glaciada",
       "img": "/images/items/PLUMAARTICUNO.png"
     },
     {
       "id": 125,
       "name": "PLUMAZAPDOS",
-      "location": "",
+      "location": "Cabo Azabache",
       "img": "/images/items/PLUMAZAPDOS.png"
     },
     {

@@ -9765,7 +9765,29 @@
       "description": "Abre la parte trasera de un camión."
     },
     {
-      "id": "OFRENDAPRISMATICA",
+      "id": "OFRENDAPRISMATICA1",
+      "name": "Ofrenda Prismática",
+      "namePlural": "Ofrenda Prismática",
+      "pocket": 8,
+      "price": 0,
+      "flags": [
+        "KeyItem"
+      ],
+      "description": "Entrégalas en los Altares de las Aves Guardianas."
+    },
+    {
+      "id": "OFRENDAPRISMATICA2",
+      "name": "Ofrenda Prismática",
+      "namePlural": "Ofrenda Prismática",
+      "pocket": 8,
+      "price": 0,
+      "flags": [
+        "KeyItem"
+      ],
+      "description": "Entrégalas en los Altares de las Aves Guardianas."
+    },
+    {
+      "id": "OFRENDAPRISMATICA3",
       "name": "Ofrenda Prismática",
       "namePlural": "Ofrenda Prismática",
       "pocket": 8,
