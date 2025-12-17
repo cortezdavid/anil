@@ -150,24 +150,47 @@ const Collection = () => {
     }
 
     setSaving(true);
-    const loadingToast = toast.loading('Iniciando guardado...');
+    const loadingToast = toast.loading('Verificando Firebase...');
 
     try {
-      // Test 1: Verificar que collectionsDb existe
-      if (!collectionsDb) {
-        throw new Error('Firebase no inicializado');
-      }
-      toast.success('✓ Firebase inicializado', { duration: 2000 });
+      // DIAGNÓSTICO COMPLETO
+      toast.loading('🔍 Verificando configuración...', { id: loadingToast });
 
-      // Test 2: Preparar datos
+      // Test 1: ¿collectionsDb existe?
+      if (!collectionsDb) {
+        throw new Error('❌ collectionsDb no inicializado');
+      }
+      toast.success('✓ collectionsDb existe', { duration: 2000 });
+
+      // Test 2: Verificar que _firestore existe
+      if (!collectionsDb._firestore) {
+        throw new Error('❌ Firestore interno no encontrado');
+      }
+      toast.success('✓ Firestore interno OK', { duration: 2000 });
+
+      // Test 3: Mostrar Project ID
+      const projectId = collectionsDb._firestore.app.options.projectId;
+      if (!projectId) {
+        throw new Error('❌ Project ID no configurado');
+      }
+      toast.success(`✓ Project: ${projectId}`, { duration: 3000 });
+
+      // Test 4: Verificar apiKey
+      const apiKey = collectionsDb._firestore.app.options.apiKey;
+      if (!apiKey) {
+        throw new Error('❌ API Key no configurada');
+      }
+      toast.success(`✓ API Key: ${apiKey.substring(0, 10)}...`, { duration: 3000 });
+
+      // Test 5: Preparar datos
       const cleanedPokemon = selectedPokemon.map(({ uniqueId, ...rest }) => rest);
-      toast.success(`✓ ${cleanedPokemon.length} Pokémon preparados`, { duration: 2000 });
+      toast.success(`✓ ${cleanedPokemon.length} Pokémon listos`, { duration: 2000 });
 
       let docId = collectionId;
 
       if (collectionId) {
         // ACTUALIZAR
-        toast.loading('Actualizando documento...', { id: loadingToast });
+        toast.loading('⏳ Actualizando documento...', { id: loadingToast });
         
         const docRef = doc(collectionsDb, 'pokemon_collections', collectionId);
         
@@ -178,15 +201,15 @@ const Collection = () => {
         }, { merge: true });
 
         const timeoutPromise = new Promise((_, reject) => 
-          setTimeout(() => reject(new Error('TIMEOUT: Firebase tardó más de 15 segundos')), 15000)
+          setTimeout(() => reject(new Error('⏱️ TIMEOUT después de 20 segundos')), 20000)
         );
 
         await Promise.race([updatePromise, timeoutPromise]);
-        toast.success('¡Colección actualizada!', { id: loadingToast });
+        toast.success('✅ ¡Colección actualizada!', { id: loadingToast, duration: 4000 });
 
       } else {
         // CREAR NUEVO
-        toast.loading('Creando documento...', { id: loadingToast });
+        toast.loading('⏳ Creando documento en Firebase...', { id: loadingToast });
         
         const dataToSave = {
           pokemon: cleanedPokemon,
@@ -194,66 +217,71 @@ const Collection = () => {
           count: cleanedPokemon.length
         };
 
-        toast.success('✓ Datos listos para enviar', { duration: 2000 });
+        const collectionRef = collection(collectionsDb, 'pokemon_collections');
+        
+        // Verificar que la referencia se creó
+        if (!collectionRef) {
+          throw new Error('❌ No se pudo crear referencia a la colección');
+        }
+        toast.success('✓ Referencia creada', { duration: 2000 });
 
-        const createPromise = addDoc(collection(collectionsDb, 'pokemon_collections'), dataToSave);
+        const createPromise = addDoc(collectionRef, dataToSave);
 
         const timeoutPromise = new Promise((_, reject) => 
-          setTimeout(() => reject(new Error('TIMEOUT: Firebase tardó más de 15 segundos')), 15000)
+          setTimeout(() => reject(new Error('⏱️ TIMEOUT después de 20 segundos. Firebase no responde.')), 20000)
         );
 
-        toast.loading('Enviando a Firebase...', { id: loadingToast });
         const docRef = await Promise.race([createPromise, timeoutPromise]);
 
         if (!docRef || !docRef.id) {
-          throw new Error('Firebase no devolvió un ID válido');
+          throw new Error('❌ Firebase no devolvió ID');
         }
 
         docId = docRef.id;
-        toast.success(`✓ ID creado: ${docId.substring(0, 10)}`, { duration: 2000 });
+        toast.success(`✅ ID: ${docId.substring(0, 12)}...`, { duration: 3000 });
         
-        // Guardar en localStorage
-        try {
-          setCollectionId(docId);
-          localStorage.setItem('pokemon_anil_collection_id', docId);
-          toast.success('✓ ID guardado localmente', { duration: 2000 });
-        } catch (storageError) {
-          toast.error('⚠️ No se pudo guardar en localStorage', { duration: 3000 });
-        }
+        setCollectionId(docId);
+        localStorage.setItem('pokemon_anil_collection_id', docId);
 
-        toast.success('¡Colección guardada!', { id: loadingToast });
+        toast.success('✅ ¡Colección guardada!', { id: loadingToast, duration: 4000 });
       }
 
       // Generar URL
       const url = `${window.location.origin}/coleccion/${docId}`;
       setShareUrl(url);
-      toast.success('✓ URL generada', { duration: 2000 });
 
       // Copiar al portapapeles
       if (navigator.clipboard && window.isSecureContext) {
         try {
           await navigator.clipboard.writeText(url);
-          toast.success('✓ URL copiada');
+          toast.success('📋 URL copiada');
         } catch (e) {
-          // Ignorar si falla
+          // Ignorar
         }
       }
 
     } catch (error) {
       const errorMsg = error.message || 'Error desconocido';
+      const errorCode = error.code || '';
       
-      toast.error(`❌ ${errorMsg}`, { id: loadingToast, duration: 8000 });
+      toast.error(errorMsg, { id: loadingToast, duration: 10000 });
       
-      if (errorMsg.includes('TIMEOUT')) {
-        toast.error('Firebase no responde. Posibles causas:', { duration: 8000 });
-        toast.error('1. Mala conexión a internet', { duration: 8000 });
-        toast.error('2. Reglas de Firebase bloqueando', { duration: 8000 });
-        toast.error('3. Proyecto Firebase mal configurado', { duration: 8000 });
+      if (errorCode) {
+        toast.error(`Código: ${errorCode}`, { duration: 8000 });
       }
 
-      if (error.code === 'permission-denied') {
-        toast.error('⚠️ Firebase rechazó la operación', { duration: 8000 });
-        toast.error('Revisa las reglas en Firebase Console', { duration: 8000 });
+      if (errorMsg.includes('TIMEOUT')) {
+        toast.error('🌐 Verifica tu conexión a internet', { duration: 8000 });
+        toast.error('🔧 ¿Firebase habilitado en el proyecto?', { duration: 8000 });
+      }
+
+      if (errorCode === 'permission-denied') {
+        toast.error('🚫 Permisos denegados por Firebase', { duration: 8000 });
+      }
+
+      if (errorMsg.includes('not initialized') || errorMsg.includes('not found')) {
+        toast.error('⚙️ Revisa configCollections.js', { duration: 8000 });
+        toast.error('📝 Verifica las variables .env', { duration: 8000 });
       }
 
     } finally {
@@ -292,7 +320,7 @@ const Collection = () => {
 
         {/* Título */}
         <h1 className="text-4xl font-black text-slate-100 mb-4 uppercase tracking-wider drop-shadow-sm">
-          Colecciónaa
+          Colecciónasdasd
         </h1>
 
         {/* Descripción */}
