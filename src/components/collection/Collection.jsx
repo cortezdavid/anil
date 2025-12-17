@@ -292,7 +292,7 @@ const Collection = () => {
 
         {/* Título */}
         <h1 className="text-4xl font-black text-slate-100 mb-4 uppercase tracking-wider drop-shadow-sm">
-          Colección
+          Colecciónaa
         </h1>
 
         {/* Descripción */}
