@@ -150,140 +150,56 @@ const Collection = () => {
     }
 
     setSaving(true);
-    const loadingToast = toast.loading('Verificando Firebase...');
+    const loadingToast = toast.loading(collectionId ? 'Actualizando colección...' : 'Guardando colección...');
 
     try {
-      // DIAGNÓSTICO COMPLETO
-      toast.loading('🔍 Verificando configuración...', { id: loadingToast });
-
-      // Test 1: ¿collectionsDb existe?
-      if (!collectionsDb) {
-        throw new Error('❌ collectionsDb no inicializado');
-      }
-      toast.success('✓ collectionsDb existe', { duration: 2000 });
-
-      // Test 2: Verificar que _firestore existe
-      if (!collectionsDb._firestore) {
-        throw new Error('❌ Firestore interno no encontrado');
-      }
-      toast.success('✓ Firestore interno OK', { duration: 2000 });
-
-      // Test 3: Mostrar Project ID
-      const projectId = collectionsDb._firestore.app.options.projectId;
-      if (!projectId) {
-        throw new Error('❌ Project ID no configurado');
-      }
-      toast.success(`✓ Project: ${projectId}`, { duration: 3000 });
-
-      // Test 4: Verificar apiKey
-      const apiKey = collectionsDb._firestore.app.options.apiKey;
-      if (!apiKey) {
-        throw new Error('❌ API Key no configurada');
-      }
-      toast.success(`✓ API Key: ${apiKey.substring(0, 10)}...`, { duration: 3000 });
-
-      // Test 5: Preparar datos
+      // Limpiar datos antes de guardar (eliminar uniqueId temporal)
       const cleanedPokemon = selectedPokemon.map(({ uniqueId, ...rest }) => rest);
-      toast.success(`✓ ${cleanedPokemon.length} Pokémon listos`, { duration: 2000 });
 
       let docId = collectionId;
 
       if (collectionId) {
-        // ACTUALIZAR
-        toast.loading('⏳ Actualizando documento...', { id: loadingToast });
-        
+        // Actualizar documento existente
         const docRef = doc(collectionsDb, 'pokemon_collections', collectionId);
-        
-        const updatePromise = setDoc(docRef, {
+        await setDoc(docRef, {
           pokemon: cleanedPokemon,
           updatedAt: serverTimestamp(),
-          count: cleanedPokemon.length
+          count: selectedPokemon.length
         }, { merge: true });
 
-        const timeoutPromise = new Promise((_, reject) => 
-          setTimeout(() => reject(new Error('⏱️ TIMEOUT después de 20 segundos')), 20000)
-        );
-
-        await Promise.race([updatePromise, timeoutPromise]);
-        toast.success('✅ ¡Colección actualizada!', { id: loadingToast, duration: 4000 });
-
+        toast.success('¡Colección actualizada correctamente!', { id: loadingToast });
       } else {
-        // CREAR NUEVO
-        toast.loading('⏳ Creando documento en Firebase...', { id: loadingToast });
-        
-        const dataToSave = {
+        // Crear nuevo documento
+        const docRef = await addDoc(collection(collectionsDb, 'pokemon_collections'), {
           pokemon: cleanedPokemon,
           createdAt: serverTimestamp(),
-          count: cleanedPokemon.length
-        };
-
-        const collectionRef = collection(collectionsDb, 'pokemon_collections');
-        
-        // Verificar que la referencia se creó
-        if (!collectionRef) {
-          throw new Error('❌ No se pudo crear referencia a la colección');
-        }
-        toast.success('✓ Referencia creada', { duration: 2000 });
-
-        const createPromise = addDoc(collectionRef, dataToSave);
-
-        const timeoutPromise = new Promise((_, reject) => 
-          setTimeout(() => reject(new Error('⏱️ TIMEOUT después de 20 segundos. Firebase no responde.')), 20000)
-        );
-
-        const docRef = await Promise.race([createPromise, timeoutPromise]);
-
-        if (!docRef || !docRef.id) {
-          throw new Error('❌ Firebase no devolvió ID');
-        }
+          count: selectedPokemon.length
+        });
 
         docId = docRef.id;
-        toast.success(`✅ ID: ${docId.substring(0, 12)}...`, { duration: 3000 });
-        
         setCollectionId(docId);
         localStorage.setItem('pokemon_anil_collection_id', docId);
 
-        toast.success('✅ ¡Colección guardada!', { id: loadingToast, duration: 4000 });
+        toast.success('¡Colección guardada correctamente!', { id: loadingToast });
       }
 
-      // Generar URL
+      // Generar URL para compartir
       const url = `${window.location.origin}/coleccion/${docId}`;
       setShareUrl(url);
 
-      // Copiar al portapapeles
+      // Copiar al portapapeles automáticamente (con fallback para móvil)
       if (navigator.clipboard && window.isSecureContext) {
         try {
           await navigator.clipboard.writeText(url);
-          toast.success('📋 URL copiada');
-        } catch (e) {
-          // Ignorar
+          toast.success('URL copiada al portapapeles');
+        } catch (clipboardError) {
+          console.log('No se pudo copiar automáticamente:', clipboardError);
         }
       }
 
     } catch (error) {
-      const errorMsg = error.message || 'Error desconocido';
-      const errorCode = error.code || '';
-      
-      toast.error(errorMsg, { id: loadingToast, duration: 10000 });
-      
-      if (errorCode) {
-        toast.error(`Código: ${errorCode}`, { duration: 8000 });
-      }
-
-      if (errorMsg.includes('TIMEOUT')) {
-        toast.error('🌐 Verifica tu conexión a internet', { duration: 8000 });
-        toast.error('🔧 ¿Firebase habilitado en el proyecto?', { duration: 8000 });
-      }
-
-      if (errorCode === 'permission-denied') {
-        toast.error('🚫 Permisos denegados por Firebase', { duration: 8000 });
-      }
-
-      if (errorMsg.includes('not initialized') || errorMsg.includes('not found')) {
-        toast.error('⚙️ Revisa configCollections.js', { duration: 8000 });
-        toast.error('📝 Verifica las variables .env', { duration: 8000 });
-      }
-
+      console.error('Error al guardar colección:', error);
+      toast.error('Error al guardar la colección. Verifica tu conexión.', { id: loadingToast });
     } finally {
       setSaving(false);
     }
@@ -320,7 +236,7 @@ const Collection = () => {
 
         {/* Título */}
         <h1 className="text-4xl font-black text-slate-100 mb-4 uppercase tracking-wider drop-shadow-sm">
-          Colecciónasdasd
+          Colección
         </h1>
 
         {/* Descripción */}
