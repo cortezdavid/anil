@@ -1,4 +1,4 @@
-import { initializeApp } from "firebase/app";
+import { initializeApp, getApps } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
@@ -10,8 +10,15 @@ const firebaseConfig = {
   appId: import.meta.env.VITE_COLLECTIONS_APP_ID
 };
 
-// Initialize Firebase (segunda instancia)
-const collectionsApp = initializeApp(firebaseConfig, "collections");
+// Evitar inicializar múltiples veces
+let collectionsApp;
+const existingApp = getApps().find(app => app.name === 'collections');
 
-// Initialize Firestore para colecciones
+if (existingApp) {
+  collectionsApp = existingApp;
+} else {
+  collectionsApp = initializeApp(firebaseConfig, "collections");
+}
+
+// Initialize Firestore
 export const collectionsDb = getFirestore(collectionsApp);
