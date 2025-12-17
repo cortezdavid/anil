@@ -5,20 +5,25 @@ import {
   PointerSensor,
   TouchSensor,
   useSensor,
-  useSensors,
-  DragOverlay
+  useSensors
 } from '@dnd-kit/core';
 import { SortableContext, arrayMove, rectSortingStrategy } from '@dnd-kit/sortable';
+import { collection, addDoc, doc, setDoc, getDoc, serverTimestamp } from 'firebase/firestore';
+import { collectionsDb } from '../../firebase/configCollections';
 import pokemonData from '../../data/pokemonCollection.json';
 import ShinyPokemonCard from './ShinyPokemonCard';
 import ColorModal from './ColorModal';
 import { useSEO } from '../../hooks/useSEO';
+import toast, { Toaster } from 'react-hot-toast';
 
 const Collection = () => {
   const [selectedPokemon, setSelectedPokemon] = useState([]);
   const [search, setSearch] = useState("");
   const [suggestions, setSuggestions] = useState([]);
   const [modalPokemon, setModalPokemon] = useState(null);
+  const [shareUrl, setShareUrl] = useState('');
+  const [saving, setSaving] = useState(false);
+  const [collectionId, setCollectionId] = useState(null);
 
   // Configurar sensores optimizados para móvil
   const sensors = useSensors(
@@ -44,6 +49,8 @@ const Collection = () => {
   // Cargar colección desde localStorage
   useEffect(() => {
     const saved = localStorage.getItem('pokemon_anil_collection_v2');
+    const savedId = localStorage.getItem('pokemon_anil_collection_id');
+
     if (saved) {
       try {
         const parsed = JSON.parse(saved);
@@ -51,6 +58,12 @@ const Collection = () => {
       } catch (error) {
         console.error('Error al cargar colección:', error);
       }
+    }
+
+    if (savedId) {
+      setCollectionId(savedId);
+      const url = `${window.location.origin}/coleccion/${savedId}`;
+      setShareUrl(url);
     }
   }, []);
 
@@ -83,7 +96,8 @@ const Collection = () => {
     const pokemonWithUniqueId = {
       ...pokemon,
       uniqueId: `${pokemon.id}-${Date.now()}-${Math.random()}`,
-      colorShift: 0
+      colorShift: 0,
+      formIndex: 0
     };
     setSelectedPokemon(prev => [...prev, pokemonWithUniqueId]);
     setSearch("");
@@ -119,6 +133,37 @@ const Collection = () => {
     setModalPokemon(pokemon);
   };
 
+  // Recargar última versión guardada desde Firebase
+  const handleReloadFromFirebase = async () => {
+    if (!collectionId) {
+      toast.error('No hay una colección guardada para recargar');
+      return;
+    }
+
+    const loadingToast = toast.loading('Recargando última versión...');
+
+    try {
+      const docRef = doc(collectionsDb, 'pokemon_collections', collectionId);
+      const docSnap = await getDoc(docRef);
+
+      if (docSnap.exists()) {
+        const data = docSnap.data();
+        // Agregar uniqueId a cada Pokémon al recargar
+        const pokemonWithIds = data.pokemon.map((p, index) => ({
+          ...p,
+          uniqueId: `${p.id}-${Date.now()}-${index}`
+        }));
+        setSelectedPokemon(pokemonWithIds);
+        toast.success('Colección recargada', { id: loadingToast });
+      } else {
+        toast.error('No se encontró la colección', { id: loadingToast });
+      }
+    } catch (error) {
+      console.error('Error al recargar:', error);
+      toast.error('Error al recargar la colección', { id: loadingToast });
+    }
+  };
+
   // Confirmar cambio de color y forma
   const handleConfirmColor = (uniqueId, colorShift, formIndex) => {
     setSelectedPokemon(prev =>
@@ -128,8 +173,94 @@ const Collection = () => {
     );
   };
 
+  // Guardar y compartir colección
+  const handleSaveAndShare = async () => {
+    if (selectedPokemon.length === 0) {
+      toast.error('No hay Pokémon en tu colección para compartir');
+      return;
+    }
+
+    setSaving(true);
+    const loadingToast = toast.loading(collectionId ? 'Actualizando colección...' : 'Guardando colección...');
+
+    try {
+      // Limpiar datos antes de guardar (eliminar uniqueId temporal)
+      const cleanedPokemon = selectedPokemon.map(({ uniqueId, ...rest }) => rest);
+
+      let docId = collectionId;
+
+      if (collectionId) {
+        // Actualizar documento existente
+        const docRef = doc(collectionsDb, 'pokemon_collections', collectionId);
+        await setDoc(docRef, {
+          pokemon: cleanedPokemon,
+          updatedAt: serverTimestamp(),
+          count: selectedPokemon.length
+        }, { merge: true });
+
+        toast.success('¡Colección actualizada correctamente!', { id: loadingToast });
+      } else {
+        // Crear nuevo documento
+        const docRef = await addDoc(collection(collectionsDb, 'pokemon_collections'), {
+          pokemon: cleanedPokemon,
+          createdAt: serverTimestamp(),
+          count: selectedPokemon.length
+        });
+
+        docId = docRef.id;
+        setCollectionId(docId);
+        localStorage.setItem('pokemon_anil_collection_id', docId);
+
+        toast.success('¡Colección guardada correctamente!', { id: loadingToast });
+      }
+
+      // Generar URL para compartir
+      const url = `${window.location.origin}/coleccion/${docId}`;
+      setShareUrl(url);
+
+      // Copiar al portapapeles automáticamente
+      try {
+        await navigator.clipboard.writeText(url);
+        toast.success('URL copiada al portapapeles');
+      } catch (clipboardError) {
+        console.log('No se pudo copiar automáticamente');
+      }
+
+    } catch (error) {
+      console.error('Error al guardar colección:', error);
+      toast.error('Error al guardar la colección', { id: loadingToast });
+    } finally {
+      setSaving(false);
+    }
+  };
+
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-gray-900">
+      <Toaster
+        position="top-center"
+        toastOptions={{
+          duration: 3000,
+          style: {
+            background: '#1e293b',
+            color: '#f1f5f9',
+            border: '1px solid #334155',
+          },
+          success: {
+            iconTheme: {
+              primary: '#3b82f6',
+              secondary: '#f1f5f9',
+            },
+          },
+          error: {
+            iconTheme: {
+              primary: '#ef4444',
+              secondary: '#f1f5f9',
+            },
+          },
+        }}
+      />
+
       <div className="max-w-7xl mx-auto px-4 py-8">
 
         {/* Título */}
@@ -138,16 +269,15 @@ const Collection = () => {
         </h1>
 
         {/* Descripción */}
-        <div className="bg-blue-900/20 border border-blue-600/30 rounded-xl p-4 mb-6">
-          <p className="text-slate-300 leading-relaxed">
-            Busca y agrega los Pokémon que has capturado.
-            Arrastra las tarjetas para reorganizar tu colección.
-            Tu colección se guarda automáticamente.
+        <div className="bg-slate-800/50 border border-slate-700 rounded-xl p-4 mb-6">
+          <p className="text-slate-400 leading-relaxed text-sm">
+            Busca y agrega los Pokémon que has capturado. Arrastra las tarjetas para reorganizar.
+            Tu colección se guarda automáticamente en el navegador.
           </p>
         </div>
 
         {/* Buscador */}
-        <div className=" mb-6">
+        <div className="mb-6">
           <div className="relative">
             <input
               type="text"
@@ -194,12 +324,60 @@ const Collection = () => {
           </div>
         </div>
 
-        {/* Contador */}
+        {/* Contador y Botones */}
         {selectedPokemon.length > 0 && (
-          <div className="mb-4 text-center">
-            <span className="text-blue-400 font-bold text-lg">
-              {selectedPokemon.length} Pokémon en tu colección
-            </span>
+          <div className="mb-6">
+            {/* Botones y enlace en una línea */}
+            <div className="flex flex-wrap items-center justify-center gap-3">
+              {/* Botón principal: Guardar/Actualizar */}
+              <button
+                onClick={handleSaveAndShare}
+                disabled={saving}
+                className="px-6 py-3 bg-blue-600 hover:bg-blue-700 disabled:bg-slate-600 
+                           text-white font-semibold rounded-lg shadow-lg transition-colors 
+                           disabled:cursor-not-allowed"
+              >
+                {saving ? (collectionId ? 'Actualizando...' : 'Guardando...') : (collectionId ? 'Actualizar' : 'Guardar y Compartir')}
+              </button>
+
+              {/* Botón recargar (solo si hay collectionId) */}
+              {collectionId && (
+                <button
+                  onClick={handleReloadFromFirebase}
+                  className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white 
+                             font-semibold rounded-lg shadow-lg transition-colors"
+                  title="Recargar última versión guardada"
+                >
+                  Recargar
+                </button>
+              )}
+
+              {/* Botón copiar (solo si hay shareUrl) */}
+              {shareUrl && (
+                <button
+                  onClick={() => {
+                    navigator.clipboard.writeText(shareUrl);
+                    toast.success('URL copiada');
+                  }}
+                  className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white 
+                             font-semibold rounded-lg shadow-lg transition-colors"
+                >
+                  Copiar enlace
+                </button>
+              )}
+
+              {/* URL (solo si existe) */}
+              {shareUrl && (
+                <input
+                  type="text"
+                  value={shareUrl}
+                  readOnly
+                  className="flex-1 min-w-0 max-w-md px-3 py-3 bg-slate-800 text-slate-400 rounded-lg 
+                             text-sm font-mono border border-slate-700"
+                  onClick={(e) => e.target.select()}
+                />
+              )}
+            </div>
           </div>
         )}
 
@@ -233,7 +411,7 @@ const Collection = () => {
               Tu colección está vacía
             </p>
             <p className="text-slate-500">
-              Usa el buscador para agregar Pokémon Shiny
+              Usa el buscador para agregar Pokémon
             </p>
           </div>
         )}

@@ -10,6 +10,7 @@ import Items from './components/items/Items'
 import BattleTower from './components/battleTower/BattleTower'
 import Chat from './components/chat/Chat'
 import Collection from './components/collection/Collection'
+import ShareCollection from './components/collection/ShareCollection'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
           <Route path='/torrebatalla' element={<BattleTower />} />
           <Route path='/chat' element={<Chat />} />
           <Route path='/coleccion' element={<Collection />} />
+          <Route path='/coleccion/:id' element={<ShareCollection/>}  />
         </Routes>
       </BrowserRouter>
     </>
