@@ -150,79 +150,110 @@ const Collection = () => {
     }
 
     setSaving(true);
-    const loadingToast = toast.loading(collectionId ? 'Actualizando colección...' : 'Guardando colección...');
+    const loadingToast = toast.loading('Iniciando guardado...');
 
     try {
-      // DEBUG: Mostrar info en pantalla
-      toast.loading(`Preparando ${selectedPokemon.length} Pokémon...`, { id: 'debug-1', duration: 2000 });
+      // Test 1: Verificar que collectionsDb existe
+      if (!collectionsDb) {
+        throw new Error('Firebase no inicializado');
+      }
+      toast.success('✓ Firebase inicializado', { duration: 2000 });
 
-      // Limpiar datos antes de guardar (eliminar uniqueId temporal)
+      // Test 2: Preparar datos
       const cleanedPokemon = selectedPokemon.map(({ uniqueId, ...rest }) => rest);
+      toast.success(`✓ ${cleanedPokemon.length} Pokémon preparados`, { duration: 2000 });
 
       let docId = collectionId;
 
       if (collectionId) {
-        // Actualizar documento existente
-        toast.loading('Actualizando en Firebase...', { id: 'debug-2', duration: 2000 });
+        // ACTUALIZAR
+        toast.loading('Actualizando documento...', { id: loadingToast });
         
         const docRef = doc(collectionsDb, 'pokemon_collections', collectionId);
-        await setDoc(docRef, {
+        
+        const updatePromise = setDoc(docRef, {
           pokemon: cleanedPokemon,
           updatedAt: serverTimestamp(),
-          count: selectedPokemon.length
+          count: cleanedPokemon.length
         }, { merge: true });
 
-        toast.success('¡Colección actualizada correctamente!', { id: loadingToast });
+        const timeoutPromise = new Promise((_, reject) => 
+          setTimeout(() => reject(new Error('TIMEOUT: Firebase tardó más de 15 segundos')), 15000)
+        );
+
+        await Promise.race([updatePromise, timeoutPromise]);
+        toast.success('¡Colección actualizada!', { id: loadingToast });
+
       } else {
-        // Crear nuevo documento
-        toast.loading('Creando colección en Firebase...', { id: 'debug-2', duration: 2000 });
+        // CREAR NUEVO
+        toast.loading('Creando documento...', { id: loadingToast });
         
-        const docRef = await addDoc(collection(collectionsDb, 'pokemon_collections'), {
+        const dataToSave = {
           pokemon: cleanedPokemon,
           createdAt: serverTimestamp(),
-          count: selectedPokemon.length
-        });
+          count: cleanedPokemon.length
+        };
+
+        toast.success('✓ Datos listos para enviar', { duration: 2000 });
+
+        const createPromise = addDoc(collection(collectionsDb, 'pokemon_collections'), dataToSave);
+
+        const timeoutPromise = new Promise((_, reject) => 
+          setTimeout(() => reject(new Error('TIMEOUT: Firebase tardó más de 15 segundos')), 15000)
+        );
+
+        toast.loading('Enviando a Firebase...', { id: loadingToast });
+        const docRef = await Promise.race([createPromise, timeoutPromise]);
+
+        if (!docRef || !docRef.id) {
+          throw new Error('Firebase no devolvió un ID válido');
+        }
 
         docId = docRef.id;
+        toast.success(`✓ ID creado: ${docId.substring(0, 10)}`, { duration: 2000 });
         
-        toast.loading(`ID creado: ${docId.substring(0, 8)}...`, { id: 'debug-3', duration: 2000 });
-        
-        setCollectionId(docId);
-        localStorage.setItem('pokemon_anil_collection_id', docId);
+        // Guardar en localStorage
+        try {
+          setCollectionId(docId);
+          localStorage.setItem('pokemon_anil_collection_id', docId);
+          toast.success('✓ ID guardado localmente', { duration: 2000 });
+        } catch (storageError) {
+          toast.error('⚠️ No se pudo guardar en localStorage', { duration: 3000 });
+        }
 
-        toast.success('¡Colección guardada correctamente!', { id: loadingToast });
+        toast.success('¡Colección guardada!', { id: loadingToast });
       }
 
-      // Generar URL para compartir
+      // Generar URL
       const url = `${window.location.origin}/coleccion/${docId}`;
       setShareUrl(url);
+      toast.success('✓ URL generada', { duration: 2000 });
 
-      // Copiar al portapapeles automáticamente (con fallback para móvil)
+      // Copiar al portapapeles
       if (navigator.clipboard && window.isSecureContext) {
         try {
           await navigator.clipboard.writeText(url);
-          toast.success('URL copiada al portapapeles');
-        } catch (clipboardError) {
-          // Silenciar error de clipboard en móvil
+          toast.success('✓ URL copiada');
+        } catch (e) {
+          // Ignorar si falla
         }
       }
 
     } catch (error) {
-      // Mostrar error detallado en pantalla
       const errorMsg = error.message || 'Error desconocido';
-      const errorCode = error.code || 'sin código';
       
-      toast.error(`ERROR: ${errorMsg}`, { id: loadingToast, duration: 5000 });
-      toast.error(`Código: ${errorCode}`, { duration: 5000 });
+      toast.error(`❌ ${errorMsg}`, { id: loadingToast, duration: 8000 });
       
-      // Si es error de permisos de Firebase
-      if (errorCode.includes('permission-denied')) {
-        toast.error('Problema: Permisos de Firebase bloqueados', { duration: 7000 });
+      if (errorMsg.includes('TIMEOUT')) {
+        toast.error('Firebase no responde. Posibles causas:', { duration: 8000 });
+        toast.error('1. Mala conexión a internet', { duration: 8000 });
+        toast.error('2. Reglas de Firebase bloqueando', { duration: 8000 });
+        toast.error('3. Proyecto Firebase mal configurado', { duration: 8000 });
       }
-      
-      // Si es error de red
-      if (errorCode.includes('unavailable') || errorMsg.includes('network')) {
-        toast.error('Problema: Sin conexión a Firebase', { duration: 7000 });
+
+      if (error.code === 'permission-denied') {
+        toast.error('⚠️ Firebase rechazó la operación', { duration: 8000 });
+        toast.error('Revisa las reglas en Firebase Console', { duration: 8000 });
       }
 
     } finally {
