@@ -133,37 +133,6 @@ const Collection = () => {
     setModalPokemon(pokemon);
   };
 
-  // Recargar última versión guardada desde Firebase
-  const handleReloadFromFirebase = async () => {
-    if (!collectionId) {
-      toast.error('No hay una colección guardada para recargar');
-      return;
-    }
-
-    const loadingToast = toast.loading('Recargando última versión...');
-
-    try {
-      const docRef = doc(collectionsDb, 'pokemon_collections', collectionId);
-      const docSnap = await getDoc(docRef);
-
-      if (docSnap.exists()) {
-        const data = docSnap.data();
-        // Agregar uniqueId a cada Pokémon al recargar
-        const pokemonWithIds = data.pokemon.map((p, index) => ({
-          ...p,
-          uniqueId: `${p.id}-${Date.now()}-${index}`
-        }));
-        setSelectedPokemon(pokemonWithIds);
-        toast.success('Colección recargada', { id: loadingToast });
-      } else {
-        toast.error('No se encontró la colección', { id: loadingToast });
-      }
-    } catch (error) {
-      console.error('Error al recargar:', error);
-      toast.error('Error al recargar la colección', { id: loadingToast });
-    }
-  };
-
   // Confirmar cambio de color y forma
   const handleConfirmColor = (uniqueId, colorShift, formIndex) => {
     setSelectedPokemon(prev =>
@@ -339,18 +308,6 @@ const Collection = () => {
               >
                 {saving ? (collectionId ? 'Actualizando...' : 'Guardando...') : (collectionId ? 'Actualizar' : 'Guardar y Compartir')}
               </button>
-
-              {/* Botón recargar (solo si hay collectionId) */}
-              {collectionId && (
-                <button
-                  onClick={handleReloadFromFirebase}
-                  className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white 
-                             font-semibold rounded-lg shadow-lg transition-colors"
-                  title="Recargar última versión guardada"
-                >
-                  Recargar
-                </button>
-              )}
 
               {/* Botón copiar (solo si hay shareUrl) */}
               {shareUrl && (

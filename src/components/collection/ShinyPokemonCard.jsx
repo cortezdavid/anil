@@ -136,7 +136,7 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
       {...listeners}
       className={`relative bg-slate-800/50 rounded-lg overflow-hidden border 
            ${isDragging ? 'border-blue-500 cursor-grabbing scale-105' : 'border-slate-700/50 cursor-grab'}
-           select-none touch-none transition-all duration-200 hover:border-blue-500`}
+           select-none touch-none transition-[border-color] duration-200 hover:border-blue-500`}
     >
       {/* Botón eliminar (X) */}
       <button
@@ -182,13 +182,13 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
 
       {/* Indicador de variante */}
       {pokemon.colorShift === 1 && (
-        <div className="absolute bottom-2 left-2 z-10 bg-yellow-500 text-white rounded-full w-6 h-6 flex items-center justify-center shadow-lg pointer-events-none">
-          ⭐
+        <div className="absolute bottom-2 left-2 z-10 bg-purple-600 text-white rounded-full px-2 py-0.5 text-xs font-bold shadow-lg pointer-events-none">
+          S
         </div>
       )}
       {pokemon.colorShift >= 2 && (
-        <div className="absolute bottom-2 left-2 z-10 bg-purple-600 text-white rounded-full w-6 h-6 flex items-center justify-center shadow-lg pointer-events-none">
-          ⭐
+        <div className="absolute bottom-2 left-2 z-10 bg-purple-600 text-white rounded-full px-2 py-0.5 text-xs font-bold shadow-lg pointer-events-none">
+          SS
         </div>
       )}
 
