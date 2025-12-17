@@ -153,6 +153,9 @@ const Collection = () => {
     const loadingToast = toast.loading(collectionId ? 'Actualizando colección...' : 'Guardando colección...');
 
     try {
+      // DEBUG: Mostrar info en pantalla
+      toast.loading(`Preparando ${selectedPokemon.length} Pokémon...`, { id: 'debug-1', duration: 2000 });
+
       // Limpiar datos antes de guardar (eliminar uniqueId temporal)
       const cleanedPokemon = selectedPokemon.map(({ uniqueId, ...rest }) => rest);
 
@@ -160,6 +163,8 @@ const Collection = () => {
 
       if (collectionId) {
         // Actualizar documento existente
+        toast.loading('Actualizando en Firebase...', { id: 'debug-2', duration: 2000 });
+        
         const docRef = doc(collectionsDb, 'pokemon_collections', collectionId);
         await setDoc(docRef, {
           pokemon: cleanedPokemon,
@@ -170,6 +175,8 @@ const Collection = () => {
         toast.success('¡Colección actualizada correctamente!', { id: loadingToast });
       } else {
         // Crear nuevo documento
+        toast.loading('Creando colección en Firebase...', { id: 'debug-2', duration: 2000 });
+        
         const docRef = await addDoc(collection(collectionsDb, 'pokemon_collections'), {
           pokemon: cleanedPokemon,
           createdAt: serverTimestamp(),
@@ -177,6 +184,9 @@ const Collection = () => {
         });
 
         docId = docRef.id;
+        
+        toast.loading(`ID creado: ${docId.substring(0, 8)}...`, { id: 'debug-3', duration: 2000 });
+        
         setCollectionId(docId);
         localStorage.setItem('pokemon_anil_collection_id', docId);
 
@@ -193,13 +203,28 @@ const Collection = () => {
           await navigator.clipboard.writeText(url);
           toast.success('URL copiada al portapapeles');
         } catch (clipboardError) {
-          console.log('No se pudo copiar automáticamente:', clipboardError);
+          // Silenciar error de clipboard en móvil
         }
       }
 
     } catch (error) {
-      console.error('Error al guardar colección:', error);
-      toast.error('Error al guardar la colección. Verifica tu conexión.', { id: loadingToast });
+      // Mostrar error detallado en pantalla
+      const errorMsg = error.message || 'Error desconocido';
+      const errorCode = error.code || 'sin código';
+      
+      toast.error(`ERROR: ${errorMsg}`, { id: loadingToast, duration: 5000 });
+      toast.error(`Código: ${errorCode}`, { duration: 5000 });
+      
+      // Si es error de permisos de Firebase
+      if (errorCode.includes('permission-denied')) {
+        toast.error('Problema: Permisos de Firebase bloqueados', { duration: 7000 });
+      }
+      
+      // Si es error de red
+      if (errorCode.includes('unavailable') || errorMsg.includes('network')) {
+        toast.error('Problema: Sin conexión a Firebase', { duration: 7000 });
+      }
+
     } finally {
       setSaving(false);
     }
