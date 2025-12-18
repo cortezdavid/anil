@@ -242,7 +242,7 @@ const Collection = () => {
         {/* Descripción */}
         <div className="bg-slate-800/50 border border-slate-700 rounded-xl p-4 mb-6">
           <p className="text-slate-400 leading-relaxed text-sm">
-            Busca y agrega los Pokémon que has capturado. Arrastra las tarjetas para reorganizar.
+            Busca y agrega los Pokémon que has capturado. Arrastra las tarjetas para reorganizar. Comparte con tus amigos.
             Nota: algunas formas se agregarán pronto
           </p>
         </div>
