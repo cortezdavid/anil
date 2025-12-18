@@ -243,7 +243,7 @@ const Collection = () => {
         <div className="bg-slate-800/50 border border-slate-700 rounded-xl p-4 mb-6">
           <p className="text-slate-400 leading-relaxed text-sm">
             Busca y agrega los Pokémon que has capturado. Arrastra las tarjetas para reorganizar.
-            Tu colección se guarda automáticamente en el navegador.
+            Nota: algunas formas se agregarán pronto
           </p>
         </div>
 
@@ -364,7 +364,7 @@ const Collection = () => {
             </SortableContext>
           </DndContext>
         ) : (
-          <div className="text-center py-16 bg-slate-800 rounded-xl shadow-lg border border-slate-700">
+          <div className="text-center py-16 rounded-xl">
             <div className="text-6xl mb-4">✨</div>
             <p className="text-slate-400 font-semibold text-lg mb-2">
               Tu colección está vacía

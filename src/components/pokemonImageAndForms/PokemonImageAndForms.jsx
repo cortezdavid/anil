@@ -3,7 +3,7 @@ import PokemonFront from "../pokemonFront/PokemonFront";
 
 const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange, handleBaseForm, selectedForm }) => {
   const isShiny = useMemo(() => {
-    const randomNum = Math.floor(Math.random() * 100) + 1;
+    const randomNum = Math.floor(Math.random() * 200) + 1;
     return randomNum === 1;
   }, [pokemon.id]);
 
