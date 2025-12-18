@@ -188,13 +188,13 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
 
       {/* Indicador de variante */}
       {pokemon.colorShift === 1 && (
-        <div className="absolute bottom-2 left-2 z-10 bg-yellow-500 text-white rounded-full w-6 h-6 flex items-center justify-center shadow-lg pointer-events-none">
-          ⭐
+        <div className="absolute bottom-2 left-2 z-10 bg-purple-600 text-white rounded-full px-2 py-0.5 text-xs font-bold shadow-lg pointer-events-none">
+          S
         </div>
       )}
       {pokemon.colorShift >= 2 && (
-        <div className="absolute bottom-2 left-2 z-10 bg-purple-600 text-white rounded-full w-6 h-6 flex items-center justify-center shadow-lg pointer-events-none">
-          ⭐
+        <div className="absolute bottom-2 left-2 z-10 bg-purple-600 text-white rounded-full px-2 py-0.5 text-xs font-bold shadow-lg pointer-events-none">
+          SS
         </div>
       )}
 
