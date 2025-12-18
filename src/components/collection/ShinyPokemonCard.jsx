@@ -119,14 +119,22 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
       setImageLoaded(true);
     };
 
-    // Determinar imagen según colorShift
+    // Al final del useEffect, reemplaza:
+    // Determinar imagen según colorShift y forma
     const colorShift = pokemon.colorShift || 0;
-    if (colorShift === 0) {
-      img.src = `/images/pokemonFront/${pokemon.id}.png`;
-    } else {
-      img.src = `/images/pokemonFrontShiny/${pokemon.id}.png`;
+    const formIndex = pokemon.formIndex || 0;
+
+    let pokemonId = pokemon.id;
+    if (pokemon.forms && pokemon.forms[formIndex]) {
+      pokemonId = pokemon.forms[formIndex].id;
     }
-  }, [pokemon.id, pokemon.colorShift]);
+
+    if (colorShift === 0) {
+      img.src = `/images/pokemonFront/${pokemonId}.png`;
+    } else {
+      img.src = `/images/pokemonFrontShiny/${pokemonId}.png`;
+    }
+  }, [pokemon.id, pokemon.colorShift, pokemon.formIndex]);
 
   return (
     <div
@@ -134,9 +142,9 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
       style={style}
       {...attributes}
       {...listeners}
-      className={`relative bg-slate-800/50 rounded-lg overflow-hidden border 
-           ${isDragging ? 'border-blue-500 cursor-grabbing scale-105' : 'border-slate-700/50 cursor-grab'}
-           select-none touch-none transition-[border-color] duration-200 hover:border-blue-500`}
+      className={`relative bg-slate-800 rounded-xl shadow-lg shadow-gray-900/30 overflow-hidden border-2 
+           ${isDragging ? 'border-blue-500 cursor-grabbing scale-105' : 'border-slate-700 cursor-grab'}
+           select-none touch-none transition-[border-color,box-shadow] duration-200 hover:shadow-blue-900/20`}
     >
       {/* Botón eliminar (X) */}
       <button
@@ -152,7 +160,6 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
         className="absolute top-2 right-2 z-20 bg-red-600 hover:bg-red-700 active:bg-red-800 text-white 
                    rounded-full w-7 h-7 flex items-center justify-center shadow-lg 
                    transition-colors duration-200 cursor-pointer touch-manipulation"
-        title="Eliminar"
       >
         <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -173,7 +180,6 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
         className="absolute top-2 left-2 z-20 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white 
                    rounded-full w-7 h-7 flex items-center justify-center shadow-lg 
                    transition-colors duration-200 cursor-pointer touch-manipulation"
-        title="Cambiar color"
       >
         <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
           <path d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z" />
@@ -193,7 +199,7 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
       )}
 
       {/* Canvas con la imagen */}
-      <div className="aspect-square bg-slate-900/30 flex items-center justify-center p-4">
+      <div className="aspect-square bg-slate-900/50 flex items-center justify-center p-4">
         {!imageLoaded && !imageError && (
           <div className="text-slate-500 text-xs pointer-events-none">Cargando...</div>
         )}
@@ -212,8 +218,8 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
       </div>
 
       {/* Nombre del Pokémon */}
-      <div className="p-2 bg-slate-900/30">
-        <p className="text-center text-sm font-bold truncate text-blue-400 pointer-events-none">
+      <div className="p-2 bg-slate-900/50">
+        <p className="text-center text-sm font-bold truncate text-blue-300 pointer-events-none">
           {pokemon.name}
         </p>
       </div>
