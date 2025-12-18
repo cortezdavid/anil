@@ -136,7 +136,7 @@ const ShinyPokemonCard = ({ pokemon, onRemove, onOpenModal }) => {
       {...listeners}
       className={`relative bg-slate-800/50 rounded-lg overflow-hidden border 
            ${isDragging ? 'border-blue-500 cursor-grabbing scale-105' : 'border-slate-700/50 cursor-grab'}
-           select-none touch-none transition-all duration-200 hover:border-blue-500`}
+           select-none touch-none transition-[border-color] duration-200 hover:border-blue-500`}
     >
       {/* Botón eliminar (X) */}
       <button
