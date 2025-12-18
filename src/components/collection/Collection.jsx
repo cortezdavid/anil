@@ -8,7 +8,7 @@ import {
   useSensors
 } from '@dnd-kit/core';
 import { SortableContext, arrayMove, rectSortingStrategy } from '@dnd-kit/sortable';
-import { collection, addDoc, doc, setDoc, getDoc, serverTimestamp } from 'firebase/firestore';
+import { collection, addDoc, doc, setDoc, serverTimestamp } from 'firebase/firestore';
 import { collectionsDb } from '../../firebase/configCollections';
 import pokemonData from '../../data/pokemonCollection.json';
 import ShinyPokemonCard from './ShinyPokemonCard';
@@ -187,17 +187,19 @@ const Collection = () => {
       const url = `${window.location.origin}/coleccion/${docId}`;
       setShareUrl(url);
 
-      // Copiar al portapapeles automáticamente
-      try {
-        await navigator.clipboard.writeText(url);
-        toast.success('URL copiada al portapapeles');
-      } catch (clipboardError) {
-        console.log('No se pudo copiar automáticamente');
+      // Copiar al portapapeles automáticamente (con fallback para móvil)
+      if (navigator.clipboard && window.isSecureContext) {
+        try {
+          await navigator.clipboard.writeText(url);
+          toast.success('URL copiada al portapapeles');
+        } catch (clipboardError) {
+          console.log('No se pudo copiar automáticamente:', clipboardError);
+        }
       }
 
     } catch (error) {
       console.error('Error al guardar colección:', error);
-      toast.error('Error al guardar la colección', { id: loadingToast });
+      toast.error('Error al guardar la colección. Verifica tu conexión.', { id: loadingToast });
     } finally {
       setSaving(false);
     }
@@ -296,15 +298,15 @@ const Collection = () => {
         {/* Contador y Botones */}
         {selectedPokemon.length > 0 && (
           <div className="mb-6">
-            {/* Botones y enlace en una línea */}
-            <div className="flex flex-wrap items-center justify-center gap-3">
+            {/* Botones y enlace */}
+            <div className="flex flex-col sm:flex-row flex-wrap items-stretch sm:items-center justify-center gap-3">
               {/* Botón principal: Guardar/Actualizar */}
               <button
                 onClick={handleSaveAndShare}
                 disabled={saving}
-                className="px-6 py-3 bg-blue-600 hover:bg-blue-700 disabled:bg-slate-600 
+                className="px-6 py-3 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 disabled:bg-slate-600 
                            text-white font-semibold rounded-lg shadow-lg transition-colors 
-                           disabled:cursor-not-allowed"
+                           disabled:cursor-not-allowed touch-manipulation"
               >
                 {saving ? (collectionId ? 'Actualizando...' : 'Guardando...') : (collectionId ? 'Actualizar' : 'Guardar y Compartir')}
               </button>
@@ -316,8 +318,8 @@ const Collection = () => {
                     navigator.clipboard.writeText(shareUrl);
                     toast.success('URL copiada');
                   }}
-                  className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white 
-                             font-semibold rounded-lg shadow-lg transition-colors"
+                  className="px-6 py-3 bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white 
+                             font-semibold rounded-lg shadow-lg transition-colors touch-manipulation"
                 >
                   Copiar enlace
                 </button>
@@ -329,7 +331,7 @@ const Collection = () => {
                   type="text"
                   value={shareUrl}
                   readOnly
-                  className="flex-1 min-w-0 max-w-md px-3 py-3 bg-slate-800 text-slate-400 rounded-lg 
+                  className="flex-1 min-w-0 sm:max-w-md px-3 py-3 bg-slate-800 text-slate-400 rounded-lg 
                              text-sm font-mono border border-slate-700"
                   onClick={(e) => e.target.select()}
                 />
