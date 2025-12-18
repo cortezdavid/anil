@@ -308,7 +308,7 @@ const Collection = () => {
                            text-white font-semibold rounded-lg shadow-lg transition-colors 
                            disabled:cursor-not-allowed touch-manipulation"
               >
-                {saving ? (collectionId ? 'Actualizando...' : 'Guardando...') : (collectionId ? 'Actualizar' : 'Guardar y Compartir')}
+                {saving ? (collectionId ? 'Actualizando...' : 'Guardando...') : (collectionId ? 'Guardar' : 'Guardar y Compartir')}
               </button>
 
               {/* Botón copiar (solo si hay shareUrl) */}
