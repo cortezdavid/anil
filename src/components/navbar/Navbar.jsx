@@ -15,9 +15,9 @@ const Navbar = () => {
               to="/"
               className="block hover:opacity-90 transition-opacity duration-200"
             >
-              <img 
-                src="/images/logo.png" 
-                alt="PokeAñil" 
+              <img
+                src="/images/logo.png"
+                alt="PokeAñil"
                 className="h-12 w-auto"
               />
             </Link>
@@ -63,10 +63,16 @@ const Navbar = () => {
                 Torre Batalla
               </Link>
               <Link
+                to="/coleccion"
+                className="text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200"
+              >
+                Colección
+              </Link>
+              <Link
                 to="/chat"
                 className="text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200"
               >
-                Chat
+                Foro
               </Link>
             </div>
           </div>
@@ -137,11 +143,18 @@ const Navbar = () => {
               Torre Batalla
             </Link>
             <Link
+              to="/coleccion"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-3 rounded-lg text-sm font-bold transition-all duration-200"
+            >
+              colección
+            </Link>
+            <Link
               to="/chat"
               onClick={() => setMobileMenuOpen(false)}
               className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-3 rounded-lg text-sm font-bold transition-all duration-200"
             >
-              Chat
+              Foro
             </Link>
           </div>
         )}
