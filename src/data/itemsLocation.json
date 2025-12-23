@@ -827,6 +827,12 @@
       "name": "ROCKCLIMBITEM",
       "location": "Tras el evento de la 7.ª medalla",
       "img": "/images/items/ROCKCLIMBITEM.png"
+    },
+    {
+      "id": 139,
+      "name": "TICKETBARCO",
+      "location": "Ruta 21",
+      "img": "/images/items/TICKETBARCO.png"
     }
   ]
 }
