@@ -1,0 +1,198 @@
+{
+  "raids": [
+    {
+      "id": 1,
+      "type": "BUG",
+      "nivel": 10,
+      "location": "Bosque Verde",
+      "information": {
+        "ataque": 1,
+        "defensa": 1,
+        "atEspecial": 1,
+        "deEspecial": 1,
+        "velocidad": 1
+      },
+      "objetos": [
+        "INSECTPLATE",
+        "SERIOUSMINT",
+        "BRIGHTPOWDER",
+        "BIGMUSHROOM",
+        "ELIXIR",
+        "PPUP",
+        "QUICKBALL"
+      ],
+      "pokemon": [
+        "ARIADOS",
+        "BEEDRILL",
+        "BUTTERFREE",
+        "LEDIAN",
+        "YANMA"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "FAIRY",
+      "nivel": 14,
+      "location": "Monte Moon (interior)",
+      "information": {
+        "ataque": 1,
+        "defensa": 1,
+        "atEspecial": 1,
+        "deEspecial": 1,
+        "velocidad": 1
+      },
+      "objetos": [
+        "PIXIEPLATE",
+        "DECapsula",
+        "AECapsula",
+        "CAREFULMINT",
+        "CALMMINT",
+        "SERIOUSMINT",
+        "STARPIECE",
+        "ELIXIR",
+        "PPUP",
+        "QUICKBALL"
+      ],
+      "pokemon": [
+        "TOGETIC",
+        "GRANBULL",
+        "CLEFABLE",
+        "MRMIME",
+        "WIGGLYTUFF"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "PSYCHIC",
+      "nivel": 22,
+      "location": "Ruta 20",
+      "information": {
+        "ataque": 1,
+        "defensa": 1,
+        "atEspecial": 1,
+        "deEspecial": 1,
+        "velocidad": 1
+      },
+      "objetos": [
+        "MINDPLATE",
+        "AECapsula",
+        "DECapsula",
+        "SERIOUSMINT",
+        "MODESTMINT",
+        "QUIETMINT",
+        "STARPIECE",
+        "ELIXIR",
+        "PPUP",
+        "QUICKBALL"
+      ],
+      "pokemon": [
+        "XATU",
+        "HYPNO",
+        "EXEGGUTOR",
+        "GIRAFARIG",
+        "SLOWBRO"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "GROUND",
+      "nivel": 28,
+      "location": "Ruta 20",
+      "information": {
+        "ataque": 2,
+        "defensa": 2,
+        "atEspecial": 2,
+        "deEspecial": 2,
+        "velocidad": 2
+      },
+      "objetos": [
+        "EARTHPLATE",
+        "DCapsula",
+        "ACapsula",
+        "RELAXEDMINT",
+        "BOLDMINT",
+        "IMPISHMINT",
+        "LONELYMINT",
+        "STARPIECE",
+        "ELIXIR",
+        "QUICKBALL"
+      ],
+      "pokemon": [
+        "NIDOQUEEN",
+        "NIDOKING",
+        "QUAGSIRE",
+        "SANDSLASH",
+        "DONPHAN"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "ROCK",
+      "nivel": 33,
+      "location": "Ruta 10 Norte",
+      "information": {
+        "ataque": 2,
+        "defensa": 2,
+        "atEspecial": 2,
+        "deEspecial": 2,
+        "velocidad": 2
+      },
+      "objetos": [
+        "EARTHPLATE"
+      ],
+      "pokemon": [
+        "KLEAVOR",
+        "GOLEM",
+        "CORSOLA",
+        "SUDOWOODO",
+        "MAGCARGO"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "GHOST",
+      "nivel": 37,
+      "location": "Ruta 8",
+      "information": {
+        "ataque": 2,
+        "defensa": 2,
+        "atEspecial": 2,
+        "deEspecial": 2,
+        "velocidad": 2
+      },
+      "objetos": [
+        "EARTHPLATE"
+      ],
+      "pokemon": [
+        "DUSKNOIR",
+        "MISMAGIUS",
+        "GENGAR",
+        "ANNIHILAPE",
+        "CURSOLA"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "POISON",
+      "nivel": 40,
+      "location": "Ruta 11",
+      "information": {
+        "ataque": 2,
+        "defensa": 3,
+        "atEspecial": 2,
+        "deEspecial": 3,
+        "velocidad": 2
+      },
+      "objetos": [
+        "EARTHPLATE"
+      ],
+      "pokemon": [
+        "WEEZING",
+        "OVERQWIL",
+        "MUK",
+        "VICTREEBEL",
+        "SNEASLER"
+      ]
+    }
+  ]
+}
