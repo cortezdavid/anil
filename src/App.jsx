@@ -29,8 +29,8 @@ function App() {
           <Route path='/fotos' element={<PhotoP />} />
           <Route path='/torrebatalla' element={<BattleTower />} />
           <Route path='/chat' element={<Chat />} />
-          <Route path='/coleccion' element={<Collection />} />
-          <Route path='/coleccion/:id' element={<ShareCollection />} />
+          {/* <Route path='/coleccion' element={<Collection />} /> */}
+          {/* <Route path='/coleccion/:id' element={<ShareCollection />} /> */}
           <Route path='/raids' element={<Raids />} />
         </Routes>
       </BrowserRouter>

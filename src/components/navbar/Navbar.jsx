@@ -63,12 +63,6 @@ const Navbar = () => {
                 Torre Batalla
               </Link>
               <Link
-                to="/coleccion"
-                className="text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200"
-              >
-                Colección
-              </Link>
-              <Link
                 to="/chat"
                 className="text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200"
               >
@@ -141,13 +135,6 @@ const Navbar = () => {
               className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-3 rounded-lg text-sm font-bold transition-all duration-200"
             >
               Torre Batalla
-            </Link>
-            <Link
-              to="/coleccion"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-3 rounded-lg text-sm font-bold transition-all duration-200"
-            >
-              colección
             </Link>
             <Link
               to="/chat"
