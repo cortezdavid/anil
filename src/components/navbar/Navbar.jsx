@@ -45,6 +45,12 @@ const Navbar = () => {
                 Objetos
               </Link>
               <Link
+                to="/movshabs"
+                className="text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200"
+              >
+                Movs/Habs
+              </Link>
+              <Link
                 to="/combates"
                 className="text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200"
               >
@@ -114,6 +120,13 @@ const Navbar = () => {
               className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-3 rounded-lg text-sm font-bold transition-all duration-200"
             >
               Objetos
+            </Link>
+            <Link
+              to="/movshabs"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-3 rounded-lg text-sm font-bold transition-all duration-200"
+            >
+              Movs/Habs
             </Link>
             <Link
               to="/combates"
