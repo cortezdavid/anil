@@ -79,7 +79,7 @@ const MT = () => {
 
         {/* Buscador */}
         <div className="mb-6">
-          <div className="relative max-w-2xl mx-auto">
+          <div className="relative mx-auto">
             <input
               id="mt-search"
               name="mt-search"

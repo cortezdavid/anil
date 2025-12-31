@@ -67,7 +67,7 @@ const Items = () => {
 
         {/* Buscador */}
         <div className="mb-6">
-          <div className="relative max-w-2xl mx-auto">
+          <div className="relative mx-auto">
             <input
               id="item-search"
               name="item-search"
