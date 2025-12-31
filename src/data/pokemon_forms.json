@@ -1741,25 +1741,7 @@
       "physicalData": {
         "height": 1,
         "weight": 34
-      },
-      "evolutionChain": [
-        {
-          "species": "CUBONE",
-          "stage": 1,
-          "evolvesTo": [
-            {
-              "species": "MAROWAK",
-              "method": "Nivel de Día",
-              "requirement": 28
-            },
-            {
-              "species": "MAROWAK_1",
-              "method": "Nivel de Noche",
-              "requirement": 28
-            }
-          ]
-        }
-      ]
+      }
     },
     {
       "id": "WEEZING1",

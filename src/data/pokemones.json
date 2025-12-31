@@ -5172,18 +5172,15 @@
       "evolutionChain": [
         {
           "species": "CUBONE",
-          "evolvesTo": [
-            {
-              "species": "MAROWAK",
-              "method": "Nivel de Día",
-              "requirement": 28
-            },
-            {
-              "species": "MAROWAK_1",
-              "method": "Nivel de Noche",
-              "requirement": 28
-            }
-          ]
+          "evolvesTo": {
+            "species": "CUBONE",
+            "method": "Nivel",
+            "requirement": 28
+          }
+        },
+        {
+          "species": "MAROWAK",
+          "evolvesTo": null
         }
       ]
     },
@@ -5221,18 +5218,15 @@
       "evolutionChain": [
         {
           "species": "CUBONE",
-          "evolvesTo": [
-            {
-              "species": "MAROWAK",
-              "method": "Nivel de Día",
-              "requirement": 28
-            },
-            {
-              "species": "MAROWAK_1",
-              "method": "Nivel de Noche",
-              "requirement": 28
-            }
-          ]
+          "evolvesTo": {
+            "species": "CUBONE",
+            "method": "Nivel",
+            "requirement": 28
+          }
+        },
+        {
+          "species": "MAROWAK",
+          "evolvesTo": null
         }
       ]
     },
