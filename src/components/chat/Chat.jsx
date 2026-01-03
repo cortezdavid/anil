@@ -15,6 +15,7 @@ import LoginForm from './LoginForm';
 import CommentItem from './CommentItem';
 import toast, { Toaster } from 'react-hot-toast';
 import { useSEO } from '../../hooks/useSEO';
+import AutoScrollTop from '../autoScrollTop/AutoScrollTop';
 
 
 const Chat = () => {
@@ -241,6 +242,7 @@ const Chat = () => {
           </div>
         )}
       </div>
+      <AutoScrollTop />
     </div>
   );
 };
