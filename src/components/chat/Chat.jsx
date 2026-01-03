@@ -190,7 +190,7 @@ const Chat = () => {
           </div>
         )}
 
-        {/* <div className="mb-6">
+        <div className="mb-6">
           <div className="relative">
             <input
               type="search"
@@ -215,7 +215,7 @@ const Chat = () => {
               {filteredComments.length} resultado{filteredComments.length !== 1 ? 's' : ''} encontrado{filteredComments.length !== 1 ? 's' : ''}
             </p>
           )}
-        </div> */}
+        </div>
 
         {loadingComments ? (
           <div className="text-center py-12 bg-slate-800 rounded-xl shadow-lg border border-slate-700">
