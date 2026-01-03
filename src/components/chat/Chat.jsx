@@ -196,7 +196,7 @@ const Chat = () => {
               type="search"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              placeholder="Buscar comentarios por texto..."
+              placeholder="Buscar comentarios"
               className="w-full px-4 py-3 pr-12 text-slate-100 bg-slate-800 rounded-lg shadow-lg font-medium 
                        border-none outline-none focus:outline-none focus:border-none focus:ring-0 placeholder:text-slate-500"
               autoComplete="off"
