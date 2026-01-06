@@ -37075,6 +37075,7 @@
       "id": "ZERAORA",
       "image": "/images/pokemonFront/ZERAORA.png",
       "location": "/images/location/ZERAORA.jpg",
+      "form": "Normal",
       "route": "Ruta 25 Sur - Evento",
       "name": "Zeraora",
       "types": [

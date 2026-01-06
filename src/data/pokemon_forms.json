@@ -7835,6 +7835,35 @@
         "weight": 148
       },
       "pokedex": "Utiliza cuatro de sus brazos para atacar ferozmente a sus enemigos. Una vez que están al borde de la derrota, los remata con los brazos que mantenía ocultos."
+    },
+    {
+      "id": "ZERAORA1",
+      "image": "/images/pokemonFront/ZERAORA_1.png",
+      "location": "/images/location/ZERAORA_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "ZERAORA",
+      "name": "Mega Zeraora",
+      "form": "Mega Zeraora",
+      "MegaStore": "ZERAORITE",
+      "types": [
+        "ELECTRIC"
+      ],
+      "baseStats": {
+        "hp": 88,
+        "attack": 157,
+        "defense": 75,
+        "specialAttack": 147,
+        "specialDefense": 80,
+        "speed": 153
+      },
+      "abilities": [
+        "VOLTABSORB"
+      ],
+      "physicalData": {
+        "height": 1.5,
+        "weight": 44.5
+      },
+      "pokedex": "Almacena en su cuerpo la energía eléctrica proveniente de los rayos más potentes. Al descargar dicha electricidad, lo convierte en uno de los Pokémon de tipo Eléctrico más fuertes."
     }
   ]
 }
