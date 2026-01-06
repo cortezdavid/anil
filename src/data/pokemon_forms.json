@@ -6056,6 +6056,34 @@
       ]
     },
     {
+      "id": "MEOWSTIC2",
+      "image": "/images/pokemonFront/MEOWSTIC_2.png",
+      "location": "/images/location/MEOWSTIC_2.jpg",
+      "route": "Ruta 14",
+      "baseId": "MEOWSTIC",
+      "name": "Mega Meowstic",
+      "form": "Mega Meowstic",
+      "pokedex": "Mega Meowstic puede usar su poder psíquico para comprimir o expandir cualquier cosa. Abruma a sus enemigos distorsionando el espacio mismo.",
+      "types": [
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 74,
+        "attack": 48,
+        "defense": 76,
+        "specialAttack": 143,
+        "specialDefense": 101,
+        "speed": 124
+      },
+      "abilities": [
+        "PSYCHICSURGE"
+      ],
+      "physicalData": {
+        "height": 0.8,
+        "weight": 10.1
+      }
+    },
+    {
       "id": "DEOXYS1",
       "image": "/images/pokemonFront/DEOXYS_1.png",
       "location": "/images/location/DEOXYS_1.jpg",
