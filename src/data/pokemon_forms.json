@@ -7536,7 +7536,8 @@
         "weight": 50
       },
       "pokedex": "Su habilidad para volar es excepcional, siendo capaz de desplazarse sin el mínimo esfuerzo portando en sus potentes garras un Steelix de casi media tonelada."
-    }, {
+    },
+    {
       "id": "CRABOMINABLE1",
       "image": "/images/pokemonFront/CRABOMINABLE_1.png",
       "location": "/images/location/CRABOMINABLE_1.jpg",
@@ -7565,6 +7566,36 @@
         "weight": 252.8
       },
       "pokedex": "Puede pulverizar el hormigón reforzado con un ligero movimiento de cada uno de sus puños, cubiertos por una gruesa capa de hielo."
+    },
+    {
+      "id": "MAGEARNA2",
+      "image": "/images/pokemonFront/MAGEARNA_2.png",
+      "location": "/images/location/MAGEARNA_2.jpg",
+      "route": "Torre Batalla",
+      "baseId": "MAGEARNA",
+      "name": "Mega Magearna",
+      "form": "Mega Magearna",
+      "MegaStore": "MAGEARNITE",
+      "types": [
+        "STEEL",
+        "FAIRY"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 125,
+        "defense": 115,
+        "specialAttack": 170,
+        "specialDefense": 115,
+        "speed": 95
+      },
+      "abilities": [
+        "SOULHEART"
+      ],
+      "physicalData": {
+        "height": 1.3,
+        "weight": 248.1
+      },
+      "pokedex": "La megaevolución ha permitido activar un modo supresor que elimina sus sentimientos. Derrota a sus enemigos sin perdón alguno."
     }
   ]
 }

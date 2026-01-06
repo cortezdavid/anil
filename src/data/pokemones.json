@@ -34447,7 +34447,7 @@
       "location": "/images/location/CRABOMINABLE.jpg",
       "route": "Islas Espuma",
       "name": "Crabominable",
-      "form":"Normal",
+      "form": "Normal",
       "types": [
         "FIGHTING",
         "ICE"
@@ -36880,6 +36880,7 @@
       "location": "/images/location/MAGEARNA.jpg",
       "route": "Central Energía - Evento",
       "name": "Magearna",
+      "form": "Normal",
       "types": [
         "STEEL",
         "FAIRY"
