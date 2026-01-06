@@ -7476,6 +7476,36 @@
         "weight": 315
       },
       "pokedex": "Exhala un aliento extremadamente frío por la boca que es capaz de congelar al instante incluso magma al rojo vivo."
+    },
+    {
+      "id": "STARAPTOR1",
+      "image": "/images/pokemonFront/STARAPTOR_1.png",
+      "location": "/images/location/STARAPTOR_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "STARAPTOR",
+      "name": "Mega Staraptor",
+      "form": "Mega Staraptor",
+      "MegaStore": "STARAPTITE",
+      "types": [
+        "FIGHTING",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 85,
+        "attack": 140,
+        "defense": 100,
+        "specialAttack": 60,
+        "specialDefense": 90,
+        "speed": 110
+      },
+      "abilities": [
+        "RECKLESS"
+      ],
+      "physicalData": {
+        "height": 1.9,
+        "weight": 50
+      },
+      "pokedex": "Su habilidad para volar es excepcional, siendo capaz de desplazarse sin el mínimo esfuerzo portando en sus potentes garras un Steelix de casi media tonelada."
     }
   ]
 }

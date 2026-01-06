@@ -18888,6 +18888,7 @@
       "location": "/images/location/STARAPTOR.jpg",
       "route": "Villa Azabache",
       "name": "Staraptor",
+      "form": "Normal",
       "types": [
         "NORMAL",
         "FLYING"
