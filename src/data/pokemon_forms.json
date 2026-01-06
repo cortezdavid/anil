@@ -1297,13 +1297,13 @@
           "evolvesTo": [
             {
               "species": "SLOWBRO_1",
-              "method": "Objeto",
-              "requirement": "GALARICACUFF"
+              "method": "Nivel",
+              "requirement": 37
             },
             {
               "species": "SLOWKING_1",
               "method": "Objeto",
-              "requirement": "GALARICAWREATH"
+              "requirement": "DAWNSTONE"
             }
           ]
         }
@@ -1347,13 +1347,13 @@
           "evolvesTo": [
             {
               "species": "SLOWBRO_1",
-              "method": "Objeto",
-              "requirement": "GALARICACUFF"
+              "method": "Nivel",
+              "requirement": 37
             },
             {
               "species": "SLOWKING_1",
               "method": "Objeto",
-              "requirement": "GALARICAWREATH"
+              "requirement": "DAWNSTONE"
             }
           ]
         }
@@ -4030,13 +4030,13 @@
           "evolvesTo": [
             {
               "species": "SLOWBRO_1",
-              "method": "Objeto",
-              "requirement": "GALARICACUFF"
+              "method": "Nivel",
+              "requirement": 37
             },
             {
               "species": "SLOWKING_1",
               "method": "Objeto",
-              "requirement": "GALARICAWREATH"
+              "requirement": "DAWNSTONE"
             }
           ]
         }
