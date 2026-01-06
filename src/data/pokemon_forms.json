@@ -3782,7 +3782,7 @@
         "FIGHTING"
       ],
       "baseStats": {
-        "hp": 88,
+        "hp": 100,
         "attack": 137,
         "defense": 172,
         "specialAttack": 74,
