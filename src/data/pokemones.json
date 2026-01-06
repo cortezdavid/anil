@@ -44899,11 +44899,11 @@
         "speed": 60
       },
       "abilities": [
-        "CUDCHEW",
+        "PSYCHICSURGE",
         "ARMORTAIL"
       ],
       "hiddenAbilities": [
-        "SAPSIPPER"
+        "CUDCHEW"
       ],
       "physicalData": {
         "height": 3.2,
