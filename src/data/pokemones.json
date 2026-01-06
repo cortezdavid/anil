@@ -22900,6 +22900,7 @@
       "id": "HEATRAN",
       "image": "/images/pokemonFront/HEATRAN.png",
       "location": "/images/location/HEATRAN.jpg",
+      "form": "Normal",
       "route": "Volcán Canela - Evento",
       "name": "Heatran",
       "types": [

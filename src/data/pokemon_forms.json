@@ -7864,6 +7864,36 @@
         "weight": 44.5
       },
       "pokedex": "Almacena en su cuerpo la energía eléctrica proveniente de los rayos más potentes. Al descargar dicha electricidad, lo convierte en uno de los Pokémon de tipo Eléctrico más fuertes."
+    },
+    {
+      "id": "HEATRAN1",
+      "image": "/images/pokemonFront/HEATRAN_1.png",
+      "location": "/images/location/HEATRAN_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "HEATRAN",
+      "name": "Mega Heatran",
+      "form": "Mega Heatran",
+      "MegaStore": "HEATRANITE",
+      "types": [
+        "FIRE",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 91,
+        "attack": 120,
+        "defense": 106,
+        "specialAttack": 175,
+        "specialDefense": 141,
+        "speed": 67
+      },
+      "abilities": [
+        "DROUGHT"
+      ],
+      "physicalData": {
+        "height": 2.8,
+        "weight": 570.0
+      },
+      "pokedex": "Se dice que, si se desata por completo, puede calentar su cuerpo a temperaturas superiores a 1.8 millones de grados Fahrenheit. Este calor mantiene alejados a los enemigos."
     }
   ]
 }
