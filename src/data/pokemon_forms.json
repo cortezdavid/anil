@@ -7894,6 +7894,35 @@
         "weight": 570.0
       },
       "pokedex": "Se dice que, si se desata por completo, puede calentar su cuerpo a temperaturas superiores a 1.8 millones de grados Fahrenheit. Este calor mantiene alejados a los enemigos."
+    },
+    {
+      "id": "DARKRAI1",
+      "image": "/images/pokemonFront/DARKRAI_1.png",
+      "location": "/images/location/DARKRAI_1.jpg",
+      "route": "Torre Batalla",
+      "baseId": "DARKRAI",
+      "name": "Mega Darkrai",
+      "form": "Mega Darkrai",
+      "MegaStore": "DARKRANITE",
+      "types": [
+        "DARK"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 120,
+        "defense": 130,
+        "specialAttack": 165,
+        "specialDefense": 130,
+        "speed": 85
+      },
+      "abilities": [
+        "BADDREAMS"
+      ],
+      "physicalData": {
+        "height": 3,
+        "weight": 240.0
+      },
+      "pokedex": "Su poder oscuro bloquea el sol, sumiendo el área circundante en la oscuridad. No hay escapatoria de su ojo maligno."
     }
   ]
 }

@@ -23071,6 +23071,7 @@
       "image": "/images/pokemonFront/DARKRAI.png",
       "location": "/images/location/DARKRAI.jpg",
       "route": "Túnel Roca - Evento",
+      "form": "Normal",
       "name": "Darkrai",
       "types": [
         "DARK"
