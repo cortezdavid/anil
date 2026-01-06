@@ -35690,6 +35690,7 @@
       "id": "GOLISOPOD",
       "image": "/images/pokemonFront/GOLISOPOD.png",
       "location": "/images/location/GOLISOPOD.jpg",
+      "form": "Normal",
       "route": "Ruta 16",
       "name": "Golisopod",
       "types": [

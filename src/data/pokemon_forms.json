@@ -7805,6 +7805,36 @@
         "weight": 77
       },
       "pokedex": "Los pétalos de Glimmora ahora son más grandes y están separados de su cuerpo principal. Asimismo, giran a su alrededor para protegerlo mientras dispersan fragmentos venenosos."
+    },
+    {
+      "id": "GOLISOPOD1",
+      "image": "/images/pokemonFront/GOLISOPOD_1.png",
+      "location": "/images/location/GOLISOPOD_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "GOLISOPOD",
+      "name": "Mega Golisopod",
+      "form": "Mega Golisopod",
+      "MegaStore": "GOLISOPITE",
+      "types": [
+        "BUG",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 150,
+        "defense": 175,
+        "specialAttack": 70,
+        "specialDefense": 120,
+        "speed": 40
+      },
+      "abilities": [
+        "SHELLARMOR"
+      ],
+      "physicalData": {
+        "height": 2.3,
+        "weight": 148
+      },
+      "pokedex": "Utiliza cuatro de sus brazos para atacar ferozmente a sus enemigos. Una vez que están al borde de la derrota, los remata con los brazos que mantenía ocultos."
     }
   ]
 }
