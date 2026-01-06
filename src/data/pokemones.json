@@ -29225,6 +29225,7 @@
       "location": "/images/location/GOLURK.jpg",
       "route": "Mansión Quemada",
       "name": "Golurk",
+      "form":"Normal",
       "types": [
         "GROUND",
         "GHOST"

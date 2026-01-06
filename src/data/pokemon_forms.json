@@ -7655,6 +7655,36 @@
         "weight": 248.1
       },
       "pokedex": "La megaevolución ha permitido activar un modo supresor que elimina sus sentimientos. Derrota a sus enemigos sin perdón alguno."
+    },
+    {
+      "id": "GOLURK1",
+      "image": "/images/pokemonFront/GOLURK_1.png",
+      "location": "/images/location/GOLURK_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "GOLURK",
+      "name": "Mega Golurk",
+      "form": "Mega Golurk",
+      "MegaStore": "GOLURKITE",
+      "types": [
+        "GROUND",
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 89,
+        "attack": 159,
+        "defense": 105,
+        "specialAttack": 70,
+        "specialDefense": 105,
+        "speed": 55
+      },
+      "abilities": [
+        "IRONFIST"
+      ],
+      "physicalData": {
+        "height": 4,
+        "weight": 330
+      },
+      "pokedex": "La energía dentro de Golurk ha sido estimulada por la megaevolución. Este Pokémon podría explotar en cualquier momento."
     }
   ]
 }
