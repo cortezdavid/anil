@@ -55,7 +55,7 @@ const Home = () => {
               rel="noopener noreferrer"
               className="bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-black py-4 px-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-200 text-center text-lg"
             >
-              ⬇️ Descargar el Juego V.3 (6 de Enero la V.4)
+              ⬇️ Descargar Juego
             </a>
           </div>
         </div>
@@ -100,7 +100,7 @@ const Home = () => {
               >
                 Eric Lostie
               </a>
-              <span className="font-black text-slate-100">, </span>{' '}
+              <span className="font-black text-slate-100"> en colaboración con </span>{' '}
               <a
                 href="https://x.com/Skyflyer_R"
                 target="_blank"
