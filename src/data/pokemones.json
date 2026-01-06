@@ -11067,8 +11067,8 @@
           "species": "MANTYKE",
           "evolvesTo": {
             "species": "MANTINE",
-            "method": "Con Remoraid",
-            "requirement": "en el equipo"
+            "method": "Nivel",
+            "requirement": 24
           }
         },
         {
@@ -21641,8 +21641,8 @@
           "species": "MANTYKE",
           "evolvesTo": {
             "species": "MANTINE",
-            "method": "Con Remoraid",
-            "requirement": "en el equipo"
+            "method": "Nivel",
+            "requirement": 24
           }
         },
         {
