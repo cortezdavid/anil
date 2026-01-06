@@ -20254,6 +20254,10 @@
           "move": "PSYSHOCK"
         },
         {
+          "level": 45,
+          "move": "ZENHEADBUTT"
+        },
+        {
           "level": 50,
           "move": "METEORBEAM"
         }
