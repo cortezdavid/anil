@@ -7166,6 +7166,7 @@
       "id": "EMBOAR1",
       "image": "/images/pokemonFront/EMBOAR_1.png",
       "location": "/images/location/EMBOAR_1.jpg",
+      "route": "Ciudad Añil",
       "baseId": "EMBOAR",
       "name": "Mega Emboar",
       "form": "Mega Emboar",
