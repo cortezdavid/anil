@@ -7078,6 +7078,7 @@
       "id": "FERALIGATR1",
       "image": "/images/pokemonFront/FERALIGATR_1.png",
       "location": "/images/location/FERALIGATR_1.jpg",
+      "route": "Ciudad Añil",
       "baseId": "FERALIGATR",
       "name": "Mega Feraligatr",
       "form": "Mega Feraligatr",
