@@ -2549,6 +2549,36 @@
       "pokedex": "Detecta con precisión cualquier cambio producido en la atmósfera o la tierra y predice catástrofes naturales. Es un Pokémon longevo que vive 100 años."
     },
     {
+      "id": "ABSOL2",
+      "image": "/images/pokemonFront/ABSOL_2.png",
+      "location": "/images/location/ABSOL_2.jpg",
+      "route": "Ruta 14",
+      "baseId": "ABSOL",
+      "name": "Mega Absol Z",
+      "form": "Mega Absol Z",
+      "MegaStore": "ABSOLITEZ",
+      "types": [
+        "DARK",
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 154,
+        "defense": 60,
+        "specialAttack": 75,
+        "specialDefense": 60,
+        "speed": 151
+      },
+      "abilities": [
+        "SHARPNESS"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 49
+      },
+      "pokedex": "Utilizando su pelaje, que ha moldeado en formas afiladas como garras, elimina a sus enemigos de un solo golpe. Lo hace como acto de compasión para evitarles el sufrimiento."
+    },
+    {
       "id": "GLALIE1",
       "image": "/images/pokemonFront/GLALIE_1.png",
       "location": "/images/location/GLALIE_1.jpg",
