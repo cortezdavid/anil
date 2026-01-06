@@ -1634,6 +1634,11 @@
       "id": "STURDYROOT",
       "name": "Raíz robusta",
       "description": "Los ataques que drenan PS recuperan más PS."
+    },
+    {
+      "id": "BURNTOUCH",
+      "name": "Toque Ardiente",
+      "description": "Puede quemar al objetivo con solo tocarlo un 30% de las veces."
     }
   ]
 }

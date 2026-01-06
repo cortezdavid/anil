@@ -43655,6 +43655,7 @@
       "id": "SCOVILLAIN",
       "image": "/images/pokemonFront/SCOVILLAIN.png",
       "location": "/images/location/SCOVILLAIN.jpg",
+      "form": "Normal",
       "route": "Cabo Azabache",
       "name": "Scovillain",
       "types": [

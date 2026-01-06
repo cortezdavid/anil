@@ -7745,6 +7745,36 @@
         "weight": 24
       },
       "pokedex": "La megaevolución ha estimulado su cerebro y lo ha vuelto aún más astuto. En combate, crea y controla réplicas de sí mismo."
+    },
+    {
+      "id": "SCOVILLAIN1",
+      "image": "/images/pokemonFront/SCOVILLAIN_1.png",
+      "location": "/images/location/SCOVILLAIN_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "SCOVILLAIN",
+      "name": "Mega Scovillain",
+      "form": "Mega Scovillain",
+      "MegaStore": "SCOVILLAINITE",
+      "types": [
+        "GRASS",
+        "FIRE"
+      ],
+      "baseStats": {
+        "hp": 65,
+        "attack": 138,
+        "defense": 85,
+        "specialAttack": 138,
+        "specialDefense": 85,
+        "speed": 75
+      },
+      "abilities": [
+        "BURNTOUCH"
+      ],
+      "physicalData": {
+        "height": 1.2,
+        "weight": 22
+      },
+      "pokedex": "La megaevolución ha intensificado el picante de este Pokémon. Agita su 'corbata' para golpear a sus enemigos."
     }
   ]
 }
