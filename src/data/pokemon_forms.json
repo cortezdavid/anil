@@ -7540,6 +7540,7 @@
       "id": "CHIMECHO1",
       "image": "/images/pokemonFront/CHIMECHO_1.png",
       "location": "/images/location/CHIMECHO_1.jpg",
+      "route": "Ruta 14",
       "baseId": "CHIMECHO",
       "name": "Mega Chimecho",
       "form": "Mega Chimecho",
@@ -7569,6 +7570,7 @@
       "id": "BAXCALIBUR1",
       "image": "/images/pokemonFront/BAXCALIBUR_1.png",
       "location": "/images/location/BAXCALIBUR_1.jpg",
+      "route": "Ruta 14",
       "baseId": "BAXCALIBUR",
       "name": "Mega Baxcalibur",
       "form": "Mega Baxcalibur",
@@ -7580,9 +7582,9 @@
       "baseStats": {
         "hp": 115,
         "attack": 175,
-        "defense": 112,
+        "defense": 117,
         "specialAttack": 105,
-        "specialDefense": 106,
+        "specialDefense": 101,
         "speed": 87
       },
       "abilities": [
@@ -7592,7 +7594,7 @@
         "height": 2.1,
         "weight": 315
       },
-      "pokedex": "Exhala un aliento extremadamente frío por la boca que es capaz de congelar al instante incluso magma al rojo vivo."
+      "pokedex": "La megaevolución ha impulsado el tamaño de la hoja que se encuentra en su placa dorsal. Su empuñadura es tan potente que puede disparar rayos de alta intensidad."
     },
     {
       "id": "STARAPTOR1",
