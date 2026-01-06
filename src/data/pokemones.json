@@ -34447,6 +34447,7 @@
       "location": "/images/location/CRABOMINABLE.jpg",
       "route": "Islas Espuma",
       "name": "Crabominable",
+      "form":"Normal",
       "types": [
         "FIGHTING",
         "ICE"
