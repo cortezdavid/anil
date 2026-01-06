@@ -7775,6 +7775,36 @@
         "weight": 22
       },
       "pokedex": "La megaevolución ha intensificado el picante de este Pokémon. Agita su 'corbata' para golpear a sus enemigos."
+    },
+    {
+      "id": "GLIMMORA1",
+      "image": "/images/pokemonFront/GLIMMORA_1.png",
+      "location": "/images/location/GLIMMORA_1.jpg",
+      "route": "Ruta 14",
+      "baseId": "GLIMMORA",
+      "name": "Mega Glimmora",
+      "form": "Mega Glimmora",
+      "MegaStore": "GLIMMORANITE",
+      "types": [
+        "ROCK",
+        "POISON"
+      ],
+      "baseStats": {
+        "hp": 83,
+        "attack": 90,
+        "defense": 105,
+        "specialAttack": 150,
+        "specialDefense": 96,
+        "speed": 101
+      },
+      "abilities": [
+        "LEVITATE"
+      ],
+      "physicalData": {
+        "height": 2.8,
+        "weight": 77
+      },
+      "pokedex": "Los pétalos de Glimmora ahora son más grandes y están separados de su cuerpo principal. Asimismo, giran a su alrededor para protegerlo mientras dispersan fragmentos venenosos."
     }
   ]
 }

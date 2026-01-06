@@ -44441,6 +44441,7 @@
       "id": "GLIMMORA",
       "image": "/images/pokemonFront/GLIMMORA.png",
       "location": "/images/location/GLIMMORA.jpg",
+      "form": "Normal",
       "route": "Mansión Quemada",
       "name": "Glimmora",
       "types": [
