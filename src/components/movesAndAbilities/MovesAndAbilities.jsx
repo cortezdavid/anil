@@ -76,6 +76,22 @@ const MovesAndAbilities = () => {
           Movimientos y Habilidades
         </h1>
 
+        {/* alert */}
+        <div className="max-w-7xl mx-auto px-4 mb-6">
+          <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg shadow-sm">
+            <div className="flex items-start">
+              <div className="ml-3">
+                <p className="text-sm font-medium text-yellow-800">
+                  ⚠️ Guía en construcción
+                </p>
+                <p className="text-sm text-yellow-700 mt-1">
+                  Esta sección está siendo actualizada a la última versión del juego. La información puede estar sujeta a cambios.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Pestañas */}
         <div className="flex gap-4 mb-6">
           <button
