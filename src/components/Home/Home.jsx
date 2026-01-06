@@ -91,7 +91,7 @@ const Home = () => {
         <div className="bg-gradient-to-br from-slate-800 to-slate-700 rounded-xl shadow-lg shadow-gray-900/30 border border-slate-700 p-8">
           <div className="text-center space-y-3">
             <p className="text-slate-300 font-medium">
-              <span className="font-black text-slate-100">Juego creado por:</span>{' '}
+              <span className="font-black text-slate-100">Juego creado por</span>{' '}
               <a
                 href="https://x.com/Eric_Lostie"
                 target="_blank"
