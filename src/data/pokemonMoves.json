@@ -5459,12 +5459,16 @@
           "move": "MISTYEXPLOSION"
         },
         {
-          "level": 50,
-          "move": "METEORBEAM"
+          "level": 40,
+          "move": "AIRSLASH"
         },
         {
-          "level": 52,
-          "move": "AIRSLASH"
+          "level": 45,
+          "move": "MYSTICALFIRE"
+        },
+        {
+          "level": 50,
+          "move": "METEORBEAM"
         }
       ],
       "tutorMoves": [
