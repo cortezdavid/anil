@@ -29225,7 +29225,7 @@
       "location": "/images/location/GOLURK.jpg",
       "route": "Mansión Quemada",
       "name": "Golurk",
-      "form":"Normal",
+      "form": "Normal",
       "types": [
         "GROUND",
         "GHOST"
@@ -44761,6 +44761,7 @@
       "location": "/images/location/TATSUGIRI.jpg",
       "route": "Villa Ambar (surfeando/pescando)",
       "name": "Tatsugiri",
+      "form": "Curvada",
       "types": [
         "DRAGON",
         "WATER"

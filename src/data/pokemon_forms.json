@@ -7685,6 +7685,36 @@
         "weight": 330
       },
       "pokedex": "La energía dentro de Golurk ha sido estimulada por la megaevolución. Este Pokémon podría explotar en cualquier momento."
+    },
+    {
+      "id": "TATSUGIRI3",
+      "image": "/images/pokemonFront/TATSUGIRI_3.png",
+      "location": "/images/location/TATSUGIRI_3.jpg",
+      "route": "Ruta 14",
+      "baseId": "TATSUGIRI",
+      "name": "Mega Tatsugiri Forma Curvada",
+      "form": "Mega Tatsugiri Forma Curvada",
+      "MegaStore": "TATSUGIRINITE",
+      "types": [
+        "DRAGON",
+        "WATER"
+      ],
+      "baseStats": {
+        "hp": 68,
+        "attack": 65,
+        "defense": 90,
+        "specialAttack": 135,
+        "specialDefense": 125,
+        "speed": 92
+      },
+      "abilities": [
+        "COMMANDER"
+      ],
+      "physicalData": {
+        "height": 0.6,
+        "weight": 24
+      },
+      "pokedex": "La megaevolución ha estimulado su cerebro y lo ha vuelto aún más astuto. En combate, crea y controla réplicas de sí mismo."
     }
   ]
 }
