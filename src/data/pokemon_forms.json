@@ -7048,6 +7048,7 @@
       "id": "MEGANIUM1",
       "image": "/images/pokemonFront/MEGANIUM_1.png",
       "location": "/images/location/MEGANIUM_1.jpg",
+      "route": "Ciudad Añil",
       "baseId": "MEGANIUM",
       "name": "Mega Meganium",
       "form": "Mega Meganium",
