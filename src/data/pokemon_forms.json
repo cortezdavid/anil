@@ -7494,10 +7494,10 @@
       "baseStats": {
         "hp": 75,
         "attack": 50,
-        "defense": 100,
+        "defense": 110,
         "specialAttack": 135,
         "specialDefense": 120,
-        "speed": 75
+        "speed": 65
       },
       "abilities": [
         "TINTINEO"
@@ -7506,7 +7506,7 @@
         "height": 1.2,
         "weight": 8
       },
-      "pokedex": "Se ponen a volar sin parar cuando llega la estación cálida. Se comunica con otros a través de siete tipos de grito distintos muy característicos."
+      "pokedex": "Hace vibrar todo su cuerpo para atacar en todas direcciones con ondas sonoras. Quienes escuchan las vibraciones quedan tan confundidos que olvidan quienes son."
     },
     {
       "id": "BAXCALIBUR1",
