@@ -2813,10 +2813,39 @@
         "SANDFORCE"
       ],
       "physicalData": {
-        "height": null,
-        "weight": null
+        "height": 1.9,
+        "weight": 95
       },
       "pokedex": "Cuando despliega su cuerpo y sus alas, parece un avión a reacción. Vuela a velocidad sónica. Sus alas crean cuchillas de viento que talan cualquier árbol."
+    },
+    {
+      "id": "GARCHOMP2",
+      "image": "/images/pokemonFront/GARCHOMP_2.png",
+      "location": "/images/location/GARCHOMP_2.jpg",
+      "route": "Ruta 29",
+      "baseId": "GARCHOMP",
+      "name": "Mega Garchomp Z",
+      "form": "Mega Garchomp Z",
+      "MegaStore": "GARCHOMPITEZ",
+      "types": [
+        "DRAGON"
+      ],
+      "baseStats": {
+        "hp": 108,
+        "attack": 130,
+        "defense": 85,
+        "specialAttack": 141,
+        "specialDefense": 85,
+        "speed": 151
+      },
+      "abilities": [
+        "LEVITATE"
+      ],
+      "physicalData": {
+        "height": 1.9,
+        "weight": 99.0
+      },
+      "pokedex": "Garchomp ha adquirido una nueva forma megaevolucionada. Vuela alrededor de sus enemigos a velocidad supersónica y los despedaza con sus siniestras garras aladas."
     },
     {
       "id": "LUCARIO1",
