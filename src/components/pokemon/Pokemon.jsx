@@ -47,7 +47,7 @@ const Pokemon = () => {
       <div className="max-w-7xl mx-auto px-4 py-8">
 
         {/* alert */}
-        <div className="max-w-7xl mx-auto px-4 mb-6">
+        {/* <div className="max-w-7xl mx-auto px-4 mb-6">
           <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg shadow-sm">
             <div className="flex items-start">
               <div className="ml-3">
@@ -60,7 +60,7 @@ const Pokemon = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <Navegation pokemones={pokemones} />
         <div className="grid grid-cols-1 lg:grid-cols-[380px_1fr] gap-6 mt-8">
