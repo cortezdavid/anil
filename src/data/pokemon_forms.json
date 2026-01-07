@@ -453,8 +453,9 @@
       "location": "/images/location/RAICHU_2.jpg",
       "route": "Ruta 14",
       "baseId": "RAICHU",
-      "name": "Mega Raichu",
+      "name": "Mega Raichu X",
       "form": "Mega Raichu X",
+      "pokedex": "Vuela manteniendo una pose en forma de X y suelta descargas eléctricas de 50 millones de voltios tanto por las orejas como por las dos colas.",
       "types": [
         "ELECTRIC"
       ],
@@ -481,8 +482,9 @@
       "location": "/images/location/RAICHU_3.jpg",
       "route": "Ruta 14",
       "baseId": "RAICHU",
-      "name": "Mega Raichu",
+      "name": "Mega Raichu Y",
       "form": "Mega Raichu Y",
+      "pokedex": "Emite descargas eléctricas por los pelos de su cabeza dispuestos en zigzag tras haber confeccionado un circuito en forma de Y desde la punta de su cola.",
       "types": [
         "ELECTRIC"
       ],
