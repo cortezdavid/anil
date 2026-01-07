@@ -3625,7 +3625,7 @@
       },
       "evolutionChain": [
         {
-          "species": "EEVEE",
+          "species": "EEVEE_1",
           "evolvesTo": {
             "species": "EEVEE_2",
             "method": "Objeto",
@@ -3668,7 +3668,7 @@
       },
       "evolutionChain": [
         {
-          "species": "EEVEE",
+          "species": "EEVEE_1",
           "evolvesTo": {
             "species": "EEVEE_2",
             "method": "Objeto",
