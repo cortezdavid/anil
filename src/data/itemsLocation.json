@@ -183,7 +183,7 @@
     {
       "id": 31,
       "name": "DAWNSTONE",
-      "location": "Ruta 6",
+      "location": "Ciudad Azulona - Edificio Azulona",
       "img": "/images/items/DAWNSTONE.png"
     },
     {
@@ -833,6 +833,12 @@
       "name": "TICKETBARCO",
       "location": "Ruta 21",
       "img": "/images/items/TICKETBARCO.png"
+    },
+    {
+      "id": 140,
+      "name": "DAMPROCK",
+      "location": "Ruta 19",
+      "img": "/images/items/DAMPROCK.png"
     }
   ]
 }
