@@ -13,6 +13,18 @@ const MovimientosSection = ({ pokemon }) => {
     setOpenSection(prev => prev === section ? null : section);
   };
 
+  // Obtener datos del movimiento
+  const getMoveData = (moveId) => {
+    const moveData = movesData.moves.find(m => m.id === moveId);
+    return moveData;
+  };
+
+  // Obtener nombre del movimiento
+  const getMoveName = (moveId) => {
+    const moveData = getMoveData(moveId);
+    return moveData?.name || moveId;
+  };
+
   // Obtener movimientos del Pokémon desde pokemonMoves.json
   const pokemonMoves = useMemo(() => {
     const data = pokemonMovesData[pokemon.id];
@@ -31,8 +43,21 @@ const MovimientosSection = ({ pokemon }) => {
       .map(move => ({
         move,
         mtNumber: mtMovesMap.get(move).replace('MT', '')
-      }));
+      }))
+      .sort((a, b) => {
+        const nameA = getMoveName(a.move).toLowerCase();
+        const nameB = getMoveName(b.move).toLowerCase();
+        return nameA.localeCompare(nameB);
+      });
   }, [pokemonMoves.tutorMoves]);
+
+  const sortedEggMoves = useMemo(() => {
+    return [...(pokemonMoves.eggMoves || [])].sort((a, b) => {
+      const nameA = getMoveName(a).toLowerCase();
+      const nameB = getMoveName(b).toLowerCase();
+      return nameA.localeCompare(nameB);
+    });
+  }, [pokemonMoves.eggMoves]);
 
   // Obtener color del tipo
   const getTypeColor = (type) => {
@@ -63,18 +88,6 @@ const MovimientosSection = ({ pokemon }) => {
   const getTypeName = (typeId) => {
     const type = types.types.find(t => t.id === typeId);
     return type?.name || typeId;
-  };
-
-  // Obtener datos del movimiento
-  const getMoveData = (moveId) => {
-    const moveData = movesData.moves.find(m => m.id === moveId);
-    return moveData;
-  };
-
-  // Obtener nombre del movimiento
-  const getMoveName = (moveId) => {
-    const moveData = getMoveData(moveId);
-    return moveData?.name || moveId;
   };
 
   return (
@@ -186,13 +199,13 @@ const MovimientosSection = ({ pokemon }) => {
             <h3 className="text-white font-bold text-sm flex items-center justify-between">
               <span>Movimientos Huevo</span>
               <span className="bg-white/20 px-2 py-1 rounded-full text-xs">
-                {pokemonMoves.eggMoves?.length || 0}
+                {sortedEggMoves.length}
               </span>
             </h3>
           </div>
           <div className="py-2 space-y-1">
-            {pokemonMoves.eggMoves && pokemonMoves.eggMoves.length > 0 ? (
-              pokemonMoves.eggMoves.map((move, index) => {
+            {sortedEggMoves && sortedEggMoves.length > 0 ? (
+              sortedEggMoves.map((move, index) => {
                 const moveData = getMoveData(move);
                 return (
                   <div
@@ -317,13 +330,13 @@ const MovimientosSection = ({ pokemon }) => {
         </div>
 
         {/* Movimientos Huevo */}
-        {pokemonMoves.eggMoves && pokemonMoves.eggMoves.length > 0 && (
+        {sortedEggMoves && sortedEggMoves.length > 0 && (
           <div className="rounded-xl overflow-hidden bg-slate-800">
             <button
               onClick={() => toggleSection('egg')}
               className="w-full px-4 py-3 bg-gradient-to-r from-blue-600 to-blue-700 flex justify-between items-center text-white"
             >
-              <span className="font-bold text-sm">Movimientos Huevo ({pokemonMoves.eggMoves.length})</span>
+              <span className="font-bold text-sm">Movimientos Huevo ({sortedEggMoves.length})</span>
               <svg
                 className={`w-5 h-5 transform transition-transform duration-200 ${openSection === 'egg' ? 'rotate-180' : ''}`}
                 fill="none"
@@ -335,7 +348,7 @@ const MovimientosSection = ({ pokemon }) => {
             </button>
             {openSection === 'egg' && (
               <div className="py-2 space-y-1">
-                {pokemonMoves.eggMoves.map((move, index) => {
+                {sortedEggMoves.map((move, index) => {
                   const moveData = getMoveData(move);
                   return (
                     <div key={index} className="px-3 py-2 rounded-lg bg-slate-700">
