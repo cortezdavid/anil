@@ -140,7 +140,7 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
     });
   };
 
-  const repliesCount = replies.length;
+  // const repliesCount = replies.length;
   const isOwner = currentUser && comment.userId === currentUser.uid;
 
   if (deleting) {
@@ -184,7 +184,7 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
               </button>
             )}
 
-            {repliesCount > 0 && (
+            {/* {repliesCount > 0 && (
               <button
                 onClick={() => setShowReplies(!showReplies)}
                 className="text-slate-400 hover:text-slate-300 text-xs font-semibold transition-colors flex items-center gap-1"
@@ -199,7 +199,7 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
                 </svg>
                 {showReplies ? 'Ocultar' : 'Ver'} {repliesCount} {repliesCount === 1 ? 'respuesta' : 'respuestas'}
               </button>
-            )}
+            )} */}
 
             {isOwner && (
               <button
