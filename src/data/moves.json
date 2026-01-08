@@ -5335,7 +5335,7 @@
     },
     {
       "id": "SYNTHESIS",
-      "name": "Síntesis",
+      "name": "Fotosíntesis",
       "type": "GRASS",
       "category": "Estado",
       "accuracy": "-",
@@ -6136,7 +6136,7 @@
       "pp": 10,
       "target": "BothSides",
       "functionCode": "StartHailWeather",
-      "description": "Tormenta de granizo que dura cinco turnos. Hiere a s, excepto a los de tipo Hielo."
+      "description": "Tormenta de nieve que dura cinco turnos. Aumenta la defensa de los Pokémon tipo Hielo en un 50%."
     },
     {
       "id": "HAZE",
@@ -6709,7 +6709,7 @@
     },
     {
       "id": "FACADE",
-      "name": "Imagen",
+      "name": "Fachada",
       "type": "NORMAL",
       "category": "Físico",
       "power": 70,
@@ -8642,7 +8642,7 @@
     },
     {
       "id": "SWAGGER",
-      "name": "Contoneo",
+      "name": "Fanfarronear",
       "type": "NORMAL",
       "category": "Estado",
       "accuracy": 90,
@@ -8697,7 +8697,7 @@
     },
     {
       "id": "TAILWHIP",
-      "name": "Látigo",
+      "name": "Agitacola",
       "type": "NORMAL",
       "category": "Estado",
       "accuracy": 100,
@@ -9480,7 +9480,7 @@
         "CanMirrorMove",
         "CannotMetronome"
       ],
-      "description": "Una ráfaga de golpes que ignoran movimientos como protección. Baja la Defensa del usuario."
+      "description": "Golpea aunque el rival use Protección, Detección, Vastaguardia o Anticipo ese turno."
     },
     {
       "id": "PSYSHOCK",
@@ -10550,7 +10550,7 @@
       "name": "Cola Férrea",
       "type": "STEEL",
       "category": "Físico",
-      "power": 100,
+      "power": 110,
       "accuracy": 85,
       "pp": 15,
       "target": "NearOther",
@@ -10617,7 +10617,7 @@
     },
     {
       "id": "FLASHCANNON",
-      "name": "Foco Resplandor",
+      "name": "Cañón Resplandor",
       "type": "STEEL",
       "category": "Especial",
       "power": 80,
@@ -10879,7 +10879,7 @@
       "pp": 10,
       "target": "User",
       "functionCode": "ProtectUserFromDamagingMovesKingsShield",
-      "description": "Protege al usuario de cualquier daño y baja mucho el Ataque del rival si lo toca."
+      "description": "Protege al usuario de cualquier daño y baja el Ataque del rival si lo toca."
     },
     {
       "id": "METALSOUND",
@@ -11668,7 +11668,7 @@
         "CanMirrorMove",
         "HighCriticalHitRate"
       ],
-      "description": "Asesta un talonazo y lanza tres flechas. Puede amedrentar o bajar la Defensa del objetivo."
+      "description": "Asesta un talonazo y lanza tres flechas. Puede amedrentar o bajar la Defensa del objetivo. Alto índice de crítico."
     },
     {
       "id": "BLEAKWINDSTORM",
@@ -12862,7 +12862,7 @@
     },
     {
       "id": "HARDPRESS",
-      "name": "Prensa Metalica",
+      "name": "Prensa Metálica",
       "type": "STEEL",
       "category": "Físico",
       "power": "???",
