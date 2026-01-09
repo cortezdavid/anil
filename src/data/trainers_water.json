@@ -661,7 +661,7 @@
               "name": "KOFFING",
               "level": "18",
               "item": "",
-              "ability": "LEVITATE",
+              "ability": "Desconocido",
               "moves": [
                 "SMOKESCREEN",
                 "CLEARSMOG",
@@ -754,7 +754,7 @@
             {
               "name": "HOUNDOUR",
               "level": "18",
-              "item": "BLACKGLASSES",
+              "item": "EVIOLITE",
               "ability": "Desconocido",
               "moves": [
                 "INCINERATE",
@@ -766,7 +766,7 @@
             {
               "name": "GOLBAT",
               "level": "19",
-              "item": "ORANBERRY",
+              "item": "SCOPELENS",
               "ability": "INNERFOCUS",
               "moves": [
                 "AIRCUTTER",
