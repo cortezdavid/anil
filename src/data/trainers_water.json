@@ -529,7 +529,7 @@
               "name": "MANKEY",
               "level": "16",
               "item": "",
-              "ability": "ANGERPOINT",
+              "ability": "Desconocido",
               "moves": [
                 "KARATECHOP",
                 "FOCUSENERGY",
@@ -570,7 +570,7 @@
               "name": "MANKEY",
               "level": "16",
               "item": "",
-              "ability": "ANGERPOINT",
+              "ability": "Desconocido",
               "moves": [
                 "KARATECHOP",
                 "FOCUSENERGY",
@@ -611,7 +611,7 @@
               "name": "MANKEY",
               "level": "16",
               "item": "BLACKBELT",
-              "ability": "ANGERPOINT",
+              "ability": "Desconocido",
               "moves": [
                 "KARATECHOP",
                 "FOCUSENERGY",
@@ -628,7 +628,7 @@
                 "AIRCUTTER",
                 "CONFUSION",
                 "HYPNOSIS",
-                "WORKUP"
+                "ECHOEDVOICE"
               ]
             },
             {
