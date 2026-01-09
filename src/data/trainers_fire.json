@@ -1089,7 +1089,7 @@
       "img": "/images/trainers/MISTY.png",
       "difficulties": {
         "easy": {
-          "items": "2 Superpoción",
+          "items": "SUPERPOTION",
           "pokemon": [
             {
               "name": "GOLDEEN",
@@ -1107,7 +1107,7 @@
               "name": "GOLDUCK",
               "level": "22",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "BERSERK",
               "moves": [
                 "CONFUSION",
                 "WATERPULSE",
@@ -1130,7 +1130,7 @@
           ]
         },
         "normal": {
-          "items": "2 Superpoción",
+          "items": "SUPERPOTION",
           "pokemon": [
             {
               "name": "GOLDEEN",
@@ -1177,7 +1177,7 @@
               "name": "GOLDUCK",
               "level": "22",
               "item": "",
-              "ability": "LIGHTNINGROD",
+              "ability": "SWIFTSWIM",
               "moves": [
                 "WATERPULSE",
                 "FLIPTURN",
