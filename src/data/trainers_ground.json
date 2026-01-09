@@ -1249,7 +1249,7 @@
               "name": "GLOOM",
               "level": "26",
               "item": "BLACKSLUDGE",
-              "ability": "CHLOROPHYLL",
+              "ability": "STENCH",
               "moves": [
                 "MEGADRAIN",
                 "POISONJAB",

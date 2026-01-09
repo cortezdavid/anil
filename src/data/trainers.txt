@@ -332,76 +332,7 @@ LoseText = ¡No puedes evitar la llegada del Nuevo Orden Mundial!
 Pokemon = EKANS,23
 Pokemon = THIEVUL,22
 #-------------------------------
-[ATENEA1,Atenea]
-LoseText = ¡Me gustan los que son como tú!
-Items = SUPERPOTION
-Pokemon = MURKROW,25
-	Moves = AERIALACE,NIGHTSLASH,TAUNT,UTURN
-	AbilityIndex = 1
-	Item = SCOPELENS
-	Nature = QUIRKY
-	IV = 12,12,12,12,12,12
-Pokemon = GLOOM,26
-	Moves = MEGADRAIN,POISONJAB,TOXIC,LEECHSEED
-	AbilityIndex = 1
-	Item = BLACKSLUDGE
-	Nature = QUIRKY
-	IV = 12,12,12,12,12,12
-Pokemon = ARBOK,27
-	Moves = POISONFANG,CRUNCH,FIREFANG,COIL
-	AbilityIndex = 0
-	Item = POISONBARB
-	Nature = QUIRKY
-	IV = 12,12,12,12,12,12
-#-------------------------------
-[ATENEA1,Atenea,1]
-LoseText = ¡Me gustan los que son como tú!
-Items = SUPERPOTION
-Pokemon = MURKROW,25
-	Moves = AERIALACE,NIGHTSLASH,TAUNT,UTURN
-	AbilityIndex = 1
-	Item = SCOPELENS
-	Nature = QUIRKY
-	IV = 12,12,12,12,12,12
-Pokemon = WHIRLIPEDE,26
-	Moves = BUGBITE,POISONJAB,TOXIC,IRONDEFENSE
-	AbilityIndex = 0
-	Item = BLACKSLUDGE
-	Nature = QUIRKY
-	IV = 12,12,12,12,12,12
-Pokemon = ARBOK,27
-	Moves = POISONFANG,CRUNCH,FIREFANG,COIL
-	AbilityIndex = 0
-	Item = POISONBARB
-	Nature = QUIRKY
-	IV = 12,12,12,12,12,12
-#-------------------------------
-[ATENEA1,Atenea,2]
-LoseText = ¡Me gustan los que son como tú!
-Pokemon = MURKROW,25
-	Moves = AERIALACE,NIGHTSLASH,TAUNT,UTURN
-	AbilityIndex = 1
-	Item = SCOPELENS
-	Nature = ADAMANT
-	IV = 14,14,14,14,14,14
-Pokemon = WHIRLIPEDE,26
-	Moves = BUGBITE,POISONJAB,TOXIC,IRONDEFENSE
-	AbilityIndex = 0
-	Item = EVIOLITE
-	Nature = QUIRKY
-	IV = 14,14,14,14,14,14
-Pokemon = ABSOL,26
-	Moves = WORKUP,THIEF,XSCISSOR,AERIALACE
-	AbilityIndex = 1
-	Item = FOCUSSASH
-	Nature = QUIRKY
-	IV = 14,14,14,14,14,14
-Pokemon = ARBOK,27
-	Moves = POISONFANG,CRUNCH,FIREFANG,COIL
-	AbilityIndex = 0
-	Item = POISONBARB
-	Nature = ADAMANT
-	IV = 14,14,14,14,14,14
+
 #-------------------------------
 [POKEMANIACO,Basilio]
 LoseText = Me he venido muy arriba, ¿no?
