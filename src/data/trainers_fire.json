@@ -807,7 +807,7 @@
               "name": "RATICATE",
               "level": "17",
               "item": "",
-              "ability": "GUTS",
+              "ability": "Desconocido",
               "moves": [
                 "HYPERFANG",
                 "BITE",
@@ -819,7 +819,7 @@
               "name": "KADABRA",
               "level": "18",
               "item": "",
-              "ability": "SYNCHRONIZE",
+              "ability": "Desconocido",
               "moves": [
                 "CONFUSION",
                 "DISABLE",
@@ -860,7 +860,7 @@
               "name": "RATICATE",
               "level": "17",
               "item": "",
-              "ability": "GUTS",
+              "ability": "Desconocido",
               "moves": [
                 "HYPERFANG",
                 "BITE",
@@ -872,7 +872,7 @@
               "name": "KADABRA",
               "level": "18",
               "item": "",
-              "ability": "SYNCHRONIZE",
+              "ability": "Desconocido",
               "moves": [
                 "CONFUSION",
                 "DISABLE",
@@ -925,7 +925,7 @@
               "name": "KADABRA",
               "level": "18",
               "item": "",
-              "ability": "SYNCHRONIZE",
+              "ability": "Desconocido",
               "moves": [
                 "PSYBEAM",
                 "DISABLE",
