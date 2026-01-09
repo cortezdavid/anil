@@ -795,6 +795,10 @@
         "specialDefense": 35,
         "speed": 56
       },
+      "abilities": [
+        "KEENEYE",
+        "TANGLEDFEET"
+      ],
       "hiddenAbilities": [
         "BIGPECKS"
       ],
