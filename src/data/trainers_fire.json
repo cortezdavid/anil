@@ -1395,7 +1395,7 @@
               "name": "PELIPPER",
               "level": "26",
               "item": "MYSTICWATER",
-              "ability": "Desconocido",
+              "ability": "DRIZZLE",
               "moves": [
                 "BRINE",
                 "AIRCUTTER",
@@ -1407,7 +1407,7 @@
               "name": "SKARMORY",
               "level": "26",
               "item": "ROCKYHELMET",
-              "ability": "Desconocido",
+              "ability": "STURDY",
               "moves": [
                 "AERIALACE",
                 "STEELWING",
@@ -1448,7 +1448,7 @@
               "name": "PELIPPER",
               "level": "26",
               "item": "MYSTICWATER",
-              "ability": "Desconocido",
+              "ability": "DRIZZLE",
               "moves": [
                 "BRINE",
                 "AIRCUTTER",
@@ -1460,7 +1460,7 @@
               "name": "SKARMORY",
               "level": "26",
               "item": "ROCKYHELMET",
-              "ability": "Desconocido",
+              "ability": "STURDY",
               "moves": [
                 "AERIALACE",
                 "STEELWING",
@@ -1501,7 +1501,7 @@
               "name": "PELIPPER",
               "level": "26",
               "item": "MYSTICWATER",
-              "ability": "Desconocido",
+              "ability": "DRIZZLE",
               "moves": [
                 "BRINE",
                 "AIRCUTTER",
@@ -1513,7 +1513,7 @@
               "name": "SKARMORY",
               "level": "26",
               "item": "ROCKYHELMET",
-              "ability": "Desconocido",
+              "ability": "STURDY",
               "moves": [
                 "AERIALACE",
                 "STEELWING",
