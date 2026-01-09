@@ -1539,7 +1539,7 @@
     },
     {
       "id": 13,
-      "trainer": "Lt. Surge",
+      "trainer": "Teniente Surge",
       "category": "route",
       "location": "Ciudad Carmín",
       "img": "/images/trainers/SURGE.png",
@@ -1627,7 +1627,7 @@
             {
               "name": "GALVANTULA",
               "level": "29",
-              "item": "WISEGLASSES",
+              "item": "",
               "ability": "SWARM",
               "moves": [
                 "ELECTROBALL",
@@ -1693,7 +1693,7 @@
               "name": "KILOWATTREL",
               "level": "29",
               "item": "MAGNET",
-              "ability": "VOLTABSORB",
+              "ability": "WINDPOWER",
               "moves": [
                 "VOLTSWITCH",
                 "AIRCUTTER",
