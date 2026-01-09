@@ -1,0 +1,404 @@
+{
+  "itemsPokemon": [
+    {
+      "id": 1,
+      "pokemon": "RATTATA",
+      "items": [
+        {
+          "item": "CHILANBERRY",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pokemon": "SPEAROW",
+      "items": [
+        {
+          "item": "SHARPBEAK",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pokemon": "PIKACHU",
+      "items": [
+        {
+          "item": "LIGHTBALL",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "pokemon": "SANDSHREW",
+      "items": [
+        {
+          "item": "GRIPCLAW",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "pokemon": "CLEFAIRY",
+      "items": [
+        {
+          "item": "MOONSTONE",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "pokemon": "VULPIX",
+      "items": [
+        {
+          "item": "RAWSTBERRY",
+          "rarity": "Común"
+        },
+        {
+          "item": "CHARCOAL",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "pokemon": "JIGGLYPUFF",
+      "items": [
+        {
+          "item": "MOONSTONE",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "pokemon": "ODDISH",
+      "items": [
+        {
+          "item": "ABSORBBULB",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "pokemon": "PARAS",
+      "items": [
+        {
+          "item": "TINYMUSHROOM",
+          "rarity": "Común"
+        },
+        {
+          "item": "BIGMUSHROOM",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "pokemon": "PARASECT",
+      "items": [
+        {
+          "item": "TINYMUSHROOM",
+          "rarity": "Común"
+        },
+        {
+          "item": "BIGMUSHROOM",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "pokemon": "PARASECT",
+      "items": [
+        {
+          "item": "SHEDSHELL",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "pokemon": "DIGLETT",
+      "items": [
+        {
+          "item": "SOFTSAND",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "pokemon": "DUGTRIO",
+      "items": [
+        {
+          "item": "SOFTSAND",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "pokemon": "MEOWTH",
+      "items": [
+        {
+          "item": "QUICKCLAW",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "pokemon": "GROWLITHE",
+      "items": [
+        {
+          "item": "RAWSTBERRY",
+          "rarity": "Común"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "pokemon": "ABRA",
+      "items": [
+        {
+          "item": "TWISTEDSPOON",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "pokemon": "KADABRA",
+      "items": [
+        {
+          "item": "TWISTEDSPOON",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "pokemon": "ALAKAZAM",
+      "items": [
+        {
+          "item": "TWISTEDSPOON",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "pokemon": "MACHOP",
+      "items": [
+        {
+          "item": "FOCUSBAND",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "pokemon": "MACHOKE",
+      "items": [
+        {
+          "item": "FOCUSBAND",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "pokemon": "TENTACOOL",
+      "items": [
+        {
+          "item": "POISONBARB",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "pokemon": "TENTACRUEL",
+      "items": [
+        {
+          "item": "POISONBARB",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "pokemon": "GEODUDE",
+      "items": [
+        {
+          "item": "EVERSTONE",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "pokemon": "GOLEM",
+      "items": [
+        {
+          "item": "EVERSTONE",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "pokemon": "SLOWPOKE",
+      "items": [
+        {
+          "item": "LAGGINGTAIL",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "pokemon": "MAGNEMITE",
+      "items": [
+        {
+          "item": "METALCOAT",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "pokemon": "FARFETCHD",
+      "items": [
+        {
+          "item": "LEEK",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "pokemon": "DODUO",
+      "items": [
+        {
+          "item": "SHARPBEAK",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "pokemon": "DODRIO",
+      "items": [
+        {
+          "item": "SHARPBEAK",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "pokemon": "GRIMER",
+      "items": [
+        {
+          "item": "BLACKSLUDGE",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "pokemon": "MUK",
+      "items": [
+        {
+          "item": "BLACKSLUDGE",
+          "rarity": "Común"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "pokemon": "SHELLDER",
+      "items": [
+        {
+          "item": "PEARL",
+          "rarity": "Común"
+        },
+        {
+          "item": "BIGPEARL",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "pokemon": "SHELLDER",
+      "items": [
+        {
+          "item": "PEARL",
+          "rarity": "Común"
+        },
+        {
+          "item": "BIGPEARL",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "pokemon": "EXEGGCUTE",
+      "items": [
+        {
+          "item": "PSYCHICSEED",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "pokemon": "CUBONE",
+      "items": [
+        {
+          "item": "THICKCLUB",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "pokemon": "LICKITUNG",
+      "items": [
+        {
+          "item": "LAGGINGTAIL",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "pokemon": "WEEZING",
+      "items": [
+        {
+          "item": "SMOKEBALL",
+          "rarity": "Poco común"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "pokemon": "CHANSEY",
+      "items": [
+        {
+          "item": "LUCKYPUNCH",
+          "rarity": "Común"
+        }
+      ]
+    }
+  ]
+}

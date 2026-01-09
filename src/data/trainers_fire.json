@@ -8,7 +8,7 @@
       "img": "/images/trainers/AZUL.png",
       "difficulties": {
         "easy": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "SQUIRTLE",
@@ -23,7 +23,7 @@
           ]
         },
         "normal": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "SQUIRTLE",
@@ -38,7 +38,7 @@
           ]
         },
         "hard": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "SQUIRTLE",
@@ -68,7 +68,7 @@
               "name": "PIDGEY",
               "level": "7",
               "item": "",
-              "ability": "---",
+              "ability": "Desconocido",
               "moves": [
                 "TACKLE",
                 "SANDATTACK"
@@ -82,7 +82,8 @@
               "moves": [
                 "TACKLE",
                 "TAILWHIP",
-                "BUBBLE"
+                "WATERGUN",
+                "WITHDRAW"
               ]
             }
           ]
@@ -108,7 +109,8 @@
               "moves": [
                 "TACKLE",
                 "TAILWHIP",
-                "BUBBLE"
+                "WATERGUN",
+                "WITHDRAW"
               ]
             }
           ]
@@ -118,7 +120,7 @@
           "pokemon": [
             {
               "name": "PIDGEY",
-              "level": "7",
+              "level": "8",
               "item": "",
               "ability": "Desconocido",
               "moves": [
@@ -135,7 +137,8 @@
               "moves": [
                 "TACKLE",
                 "TAILWHIP",
-                "BUBBLE"
+                "WATERGUN",
+                "WITHDRAW"
               ]
             }
           ]

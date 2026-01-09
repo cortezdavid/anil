@@ -8,7 +8,7 @@
       "img": "/images/trainers/AZUL.png",
       "difficulties": {
         "easy": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "CHARMANDER",
@@ -23,7 +23,7 @@
           ]
         },
         "normal": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "CHARMANDER",
@@ -38,7 +38,7 @@
           ]
         },
         "hard": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "CHARMANDER",
@@ -82,7 +82,8 @@
               "moves": [
                 "SCRATCH",
                 "GROWL",
-                "EMBER"
+                "EMBER",
+                "SMOKESCREEN"
               ]
             }
           ]
@@ -108,7 +109,8 @@
               "moves": [
                 "SCRATCH",
                 "GROWL",
-                "EMBER"
+                "EMBER",
+                "SMOKESCREEN"
               ]
             }
           ]
@@ -118,7 +120,7 @@
           "pokemon": [
             {
               "name": "PIDGEY",
-              "level": "7",
+              "level": "8",
               "item": "",
               "ability": "Desconocido",
               "moves": [
@@ -135,7 +137,8 @@
               "moves": [
                 "SCRATCH",
                 "GROWL",
-                "EMBER"
+                "EMBER",
+                "SMOKESCREEN"
               ]
             }
           ]
