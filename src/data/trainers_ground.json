@@ -159,12 +159,12 @@
               "name": "MANKEY",
               "level": "6",
               "item": "",
-              "ability": "ANGERPOINT",
+              "ability": "Desconocido",
               "moves": [
                 "SCRATCH",
                 "LEER",
                 "FOCUSENERGY",
-                "LOWKICK"
+                "FURYSWIPES"
               ]
             },
             {
@@ -175,7 +175,7 @@
               "moves": [
                 "TACKLE",
                 "TAILWHIP",
-                "BUBBLE"
+                "WATERGUN"
               ]
             }
           ]
@@ -187,12 +187,12 @@
               "name": "MANKEY",
               "level": "6",
               "item": "",
-              "ability": "ANGERPOINT",
+              "ability": "Desconocido",
               "moves": [
                 "SCRATCH",
                 "LEER",
                 "FOCUSENERGY",
-                "LOWKICK"
+                "FURYSWIPES"
               ]
             },
             {
@@ -203,7 +203,7 @@
               "moves": [
                 "TACKLE",
                 "TAILWHIP",
-                "BUBBLE"
+                "WATERGUN"
               ]
             }
           ]
@@ -213,24 +213,25 @@
           "pokemon": [
             {
               "name": "MANKEY",
-              "level": "6",
+              "level": "7",
               "item": "",
-              "ability": "ANGERPOINT",
+              "ability": "Desconocido",
               "moves": [
                 "SCRATCH",
                 "LEER",
                 "FOCUSENERGY",
-                "LOWKICK"
+                "FURYSWIPES"
               ]
             },
             {
               "name": "SQUIRTLE",
-              "level": "7",
+              "level": "8",
               "item": "",
               "ability": "TORRENT",
               "moves": [
-                "TACKLE",
                 "TAILWHIP",
+                "WATERGUN",
+                "WITHDRAW",
                 "BUBBLE"
               ]
             }

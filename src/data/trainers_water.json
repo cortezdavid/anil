@@ -159,12 +159,12 @@
               "name": "MANKEY",
               "level": "6",
               "item": "",
-              "ability": "ANGERPOINT",
+              "ability": "Desconocido",
               "moves": [
                 "SCRATCH",
                 "LEER",
                 "FOCUSENERGY",
-                "LOWKICK"
+                "FURYSWIPES"
               ]
             },
             {
@@ -187,12 +187,12 @@
               "name": "MANKEY",
               "level": "6",
               "item": "",
-              "ability": "ANGERPOINT",
+              "ability": "Desconocido",
               "moves": [
                 "SCRATCH",
                 "LEER",
                 "FOCUSENERGY",
-                "LOWKICK"
+                "FURYSWIPES"
               ]
             },
             {
@@ -213,25 +213,26 @@
           "pokemon": [
             {
               "name": "MANKEY",
-              "level": "6",
+              "level": "7",
               "item": "",
-              "ability": "ANGERPOINT",
+              "ability": "Desconocido",
               "moves": [
                 "SCRATCH",
                 "LEER",
                 "FOCUSENERGY",
-                "LOWKICK"
+                "FURYSWIPES"
               ]
             },
             {
               "name": "CHARMANDER",
-              "level": "7",
+              "level": "8",
               "item": "",
               "ability": "BLAZE",
               "moves": [
                 "SCRATCH",
                 "GROWL",
-                "EMBER"
+                "EMBER",
+                "SMOKESCREEN"
               ]
             }
           ]

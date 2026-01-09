@@ -159,12 +159,12 @@
               "name": "MANKEY",
               "level": "6",
               "item": "",
-              "ability": "ANGERPOINT",
+              "ability": "Desconocido",
               "moves": [
                 "SCRATCH",
                 "LEER",
                 "FOCUSENERGY",
-                "LOWKICK"
+                "FURYSWIPES"
               ]
             },
             {
@@ -175,7 +175,8 @@
               "moves": [
                 "TACKLE",
                 "GROWL",
-                "LEECHSEED"
+                "VINEWHIP",
+                "GROWTH"
               ]
             }
           ]
@@ -187,12 +188,12 @@
               "name": "MANKEY",
               "level": "6",
               "item": "",
-              "ability": "ANGERPOINT",
+              "ability": "Desconocido",
               "moves": [
                 "SCRATCH",
                 "LEER",
                 "FOCUSENERGY",
-                "LOWKICK"
+                "FURYSWIPES"
               ]
             },
             {
@@ -203,7 +204,8 @@
               "moves": [
                 "TACKLE",
                 "GROWL",
-                "LEECHSEED"
+                "VINEWHIP",
+                "GROWTH"
               ]
             }
           ]
@@ -213,25 +215,26 @@
           "pokemon": [
             {
               "name": "MANKEY",
-              "level": "6",
+              "level": "7",
               "item": "",
-              "ability": "ANGERPOINT",
+              "ability": "Desconocido",
               "moves": [
                 "SCRATCH",
                 "LEER",
                 "FOCUSENERGY",
-                "LOWKICK"
+                "FURYSWIPES"
               ]
             },
             {
               "name": "BULBASAUR",
-              "level": "7",
+              "level": "8",
               "item": "",
               "ability": "OVERGROW",
               "moves": [
                 "TACKLE",
                 "GROWL",
-                "LEECHSEED"
+                "VINEWHIP",
+                "GROWTH"
               ]
             }
           ]
