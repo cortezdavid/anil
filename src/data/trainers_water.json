@@ -277,7 +277,7 @@
               "name": "LOUDRED",
               "level": "12",
               "item": "SITRUSBERRY",
-              "ability": "SOUNDPROOF",
+              "ability": "Desconocido",
               "moves": [
                 "ECHOEDVOICE",
                 "WORKUP",
@@ -318,7 +318,7 @@
               "name": "LOUDRED",
               "level": "12",
               "item": "SITRUSBERRY",
-              "ability": "SOUNDPROOF",
+              "ability": "Desconocido",
               "moves": [
                 "ECHOEDVOICE",
                 "WORKUP",
@@ -359,7 +359,7 @@
               "name": "LOUDRED",
               "level": "12",
               "item": "SITRUSBERRY",
-              "ability": "SOUNDPROOF",
+              "ability": "Desconocido",
               "moves": [
                 "ECHOEDVOICE",
                 "WORKUP",
@@ -385,7 +385,7 @@
               "name": "OMANYTE",
               "level": "12",
               "item": "RINDOBERRY",
-              "ability": "SWIFTSWIM",
+              "ability": "WEAKARMOR",
               "moves": [
                 "BIND",
                 "WATERGUN",
@@ -426,7 +426,7 @@
               "name": "DWEBBLE",
               "level": "12",
               "item": "",
-              "ability": "WEAKARMOR",
+              "ability": "SHELLARMOR",
               "moves": [
                 "BUGBITE",
                 "ROCKTOMB",
@@ -467,7 +467,7 @@
               "name": "DWEBBLE",
               "level": "12",
               "item": "ORANBERRY",
-              "ability": "WEAKARMOR",
+              "ability": "SHELLARMOR",
               "moves": [
                 "BUGBITE",
                 "ROCKTOMB",
@@ -479,7 +479,7 @@
               "name": "TYRUNT",
               "level": "12",
               "item": "DRAGONFANG",
-              "ability": "---",
+              "ability": "STRONGJAW",
               "moves": [
                 "ROCKTOMB",
                 "DRAGONBREATH",
@@ -495,7 +495,7 @@
               "moves": [
                 "ROCKTOMB",
                 "TRAILBLAZE",
-                "ROCKSMASH",
+                "FLAIL",
                 "BULLDOZE"
               ]
             },
