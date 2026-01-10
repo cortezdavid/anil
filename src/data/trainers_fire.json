@@ -1911,7 +1911,7 @@
               "name": "KADABRA",
               "level": "34",
               "item": "FOCUSSASH",
-              "ability": "SYNCHRONIZE",
+              "ability": "Desconocido",
               "moves": [
                 "PSYBEAM",
                 "SHADOWBALL",
@@ -1923,7 +1923,7 @@
               "name": "EXEGGCUTE",
               "level": "34",
               "item": "LIGHTCLAY",
-              "ability": "CHLOROPHYLL",
+              "ability": "Desconocido",
               "moves": [
                 "GIGADRAIN",
                 "PSYBEAM",
@@ -1964,7 +1964,7 @@
               "name": "KADABRA",
               "level": "34",
               "item": "FOCUSSASH",
-              "ability": "SYNCHRONIZE",
+              "ability": "Desconocido",
               "moves": [
                 "PSYBEAM",
                 "SHADOWBALL",
@@ -1976,7 +1976,7 @@
               "name": "EXEGGCUTE",
               "level": "34",
               "item": "LIGHTCLAY",
-              "ability": "CHLOROPHYLL",
+              "ability": "Desconocido",
               "moves": [
                 "GIGADRAIN",
                 "PSYBEAM",
@@ -2017,7 +2017,7 @@
               "name": "KADABRA",
               "level": "34",
               "item": "FOCUSSASH",
-              "ability": "SYNCHRONIZE",
+              "ability": "Desconocido",
               "moves": [
                 "PSYSHOCK",
                 "SHADOWBALL",
@@ -2029,7 +2029,7 @@
               "name": "SCOVILLAIN",
               "level": "34",
               "item": "ASSAULTVEST",
-              "ability": "MOODY",
+              "ability": "Desconocido",
               "moves": [
                 "GIGADRAIN",
                 "FLAMEBURST",
