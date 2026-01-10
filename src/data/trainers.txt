@@ -1,28 +1,4 @@
-﻿
-[AZUL5,Azul,6]
-LoseText = Te lo has tomado en serio, ¿eh?
-Pokemon = PIDGEOTTO,33
-	Moves = AIRSLASH,FEATHERDANCE,HYPERVOICE,UTURN
-	Item = SHARPBEAK
-	Nature = MODEST
-	IV = 16,16,16,16,16,16
-Pokemon = CENTISKORCH,34
-	Moves = LEECHLIFE,FIRELASH,CRUNCH,COIL
-	Item = CHARCOAL
-	Nature = QUIRKY
-	IV = 16,16,16,16,16,16
-Pokemon = KADABRA,34
-	Moves = PSYSHOCK,SHADOWBALL,HYPNOSIS,ENERGYBALL
-	Item = FOCUSSASH
-	Nature = MODEST
-	IV = 16,16,16,16,16,16
-Pokemon = IVYSAUR,35
-	Moves = GIGADRAIN,POISONPOWDER,LEECHSEED,SLUDGEBOMB
-	Item = SITRUSBERRY
-	Nature = MODEST
-	IV = 16,16,16,16,16,16
-#-------------------------------
-[EXORCISTA,Espe]
+﻿[EXORCISTA,Espe]
 LoseText = ¡Perdona! ¡Estaba poseída!
 Pokemon = GASTLY,32
 	IV = 11,11,11,11,11,11
@@ -5039,31 +5015,6 @@ Pokemon = PIKACHU,78
 	Item = PIKACHUITE
 	Nature = ADAMANT
 	IV = 31,31,31,31,31,31
-#-------------------------------
-[LIDER4HOENN,Erico]
-LoseText = ¡Esto sí que es todo un giro de los acontecimientos! ¡Ja, ja, ja!
-Pokemon = EMOLGA,36
-	Moves = VOLTSWITCH,AIRSLASH,LIGHTSCREEN,ELECTRICTERRAIN
-	AbilityIndex = 1
-	Item = ELECTRICGEM
-	Nature = MODEST
-	IV = 17,17,17,17,17,17
-Pokemon = ELECTABUZZ,36
-	Moves = WILDCHARGE,ICEPUNCH,BRICKBREAK,VOLTSWITCH
-	Item = EVIOLITE
-	Nature = QUIRKY
-	IV = 17,17,17,17,17,17
-Pokemon = EELEKTROSS,36
-	Moves = DRAINPUNCH,FIREPUNCH,WILDCHARGE,AQUATAIL
-	Item = ASSAULTVEST
-	Nature = QUIRKY
-	IV = 17,17,17,17,17,17
-Pokemon = MANECTRIC,37
-	Moves = DISCHARGE,FLAMEBURST,SNARL,CHARGEBEAM
-	AbilityIndex = 0
-	Item = LIFEORB
-	Nature = MODEST
-	IV = 17,17,17,17,17,17
 #-------------------------------
 [LIDER5HOENN,Petra]
 LoseText = ¡Ostras! ¡Ya veo que llevas bastante ventaja en esto! ¿Dónde has aprendido tan bien?

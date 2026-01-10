@@ -2103,7 +2103,7 @@
               "name": "MANECTRIC",
               "level": "37",
               "item": "LIFEORB",
-              "ability": "Desconocido",
+              "ability": "STATIC",
               "moves": [
                 "DISCHARGE",
                 "FLAMEBURST",
@@ -2156,7 +2156,7 @@
               "name": "MANECTRIC",
               "level": "37",
               "item": "LIFEORB",
-              "ability": "Desconocido",
+              "ability": "STATIC",
               "moves": [
                 "DISCHARGE",
                 "FLAMEBURST",
@@ -2209,7 +2209,7 @@
               "name": "MANECTRIC",
               "level": "37",
               "item": "LIFEORB",
-              "ability": "Desconocido",
+              "ability": "STATIC",
               "moves": [
                 "DISCHARGE",
                 "FLAMEBURST",
