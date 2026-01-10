@@ -1731,7 +1731,7 @@
               "name": "PRIMEAPE",
               "level": "30",
               "item": "MUSCLEBAND",
-              "ability": "ANGERPOINT",
+              "ability": "Desconocido",
               "moves": [
                 "BRICKBREAK",
                 "FOCUSENERGY",
@@ -1755,7 +1755,7 @@
               "name": "EEVEE",
               "level": "30",
               "item": "SILKSCARF",
-              "ability": "ADAPTABILITY",
+              "ability": "Desconocido",
               "moves": [
                 "TAKEDOWN",
                 "CHARM",
@@ -1784,7 +1784,7 @@
               "name": "PRIMEAPE",
               "level": "30",
               "item": "MUSCLEBAND",
-              "ability": "ANGERPOINT",
+              "ability": "Desconocido",
               "moves": [
                 "BRICKBREAK",
                 "FOCUSENERGY",
@@ -1808,7 +1808,7 @@
               "name": "EEVEE",
               "level": "30",
               "item": "SILKSCARF",
-              "ability": "ADAPTABILITY",
+              "ability": "Desconocido",
               "moves": [
                 "TAKEDOWN",
                 "CHARM",
@@ -1837,7 +1837,7 @@
               "name": "PRIMEAPE",
               "level": "30",
               "item": "LIFEORB",
-              "ability": "ANGERPOINT",
+              "ability": "Desconocido",
               "moves": [
                 "BRICKBREAK",
                 "THUNDERPUNCH",
@@ -1851,8 +1851,8 @@
               "item": "WISEGLASSES",
               "ability": "Desconocido",
               "moves": [
-                "AIRCUTTER",
-                "PSYBEAM",
+                "AIRSLASH",
+                "PSYSHOCK",
                 "HYPNOSIS",
                 "CALMMIND"
               ]
@@ -1861,7 +1861,7 @@
               "name": "EEVEE",
               "level": "30",
               "item": "EVIOLITE",
-              "ability": "ADAPTABILITY",
+              "ability": "Desconocido",
               "moves": [
                 "RETURN",
                 "CHARM",
