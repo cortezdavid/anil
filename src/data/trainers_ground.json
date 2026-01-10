@@ -2413,7 +2413,7 @@
               "name": "PERSIAN",
               "level": "39",
               "item": "KINGSROCK",
-              "ability": "TECHNICIAN",
+              "ability": "TOUGHCLAWS",
               "moves": [
                 "FAKEOUT",
                 "TAILSLAP",
@@ -2425,125 +2425,7 @@
               "name": "NIDOKING",
               "level": "39",
               "item": "",
-              "ability": "SHEERFORCE",
-              "moves": [
-                "POISONJAB",
-                "BULLDOZE",
-                "THUNDERBOLT",
-                "ICEBEAM"
-              ]
-            },
-            {
-              "name": "KANGASKHAN",
-              "level": "39",
-              "item": "FOCUSSASH",
-              "ability": "SCRAPPY",
-              "moves": [
-                "BODYSLAM",
-                "BULLDOZE",
-                "FAKEOUT",
-                "CRUNCH"
-              ]
-            },
-            {
-              "name": "RHYDON",
-              "level": "40",
-              "item": "FOCUSSASH",
-              "ability": "LIGHTNINGROD",
-              "moves": [
-                "DRILLRUN",
-                "ROCKSLIDE",
-                "BRICKBREAK",
-                "FIREPUNCH"
-              ]
-            }
-          ]
-        },
-        "normal": {
-          "items": "2 Hiperpoción",
-          "pokemon": [
-            {
-              "name": "PERSIAN",
-              "level": "39",
-              "item": "KINGSROCK",
-              "ability": "TECHNICIAN",
-              "moves": [
-                "FAKEOUT",
-                "TAILSLAP",
-                "BITE",
-                "UTURN"
-              ]
-            },
-            {
-              "name": "NIDOKING",
-              "level": "39",
-              "item": "",
-              "ability": "SHEERFORCE",
-              "moves": [
-                "POISONJAB",
-                "BULLDOZE",
-                "THUNDERBOLT",
-                "ICEBEAM"
-              ]
-            },
-            {
-              "name": "KANGASKHAN",
-              "level": "39",
-              "item": "FOCUSSASH",
-              "ability": "SCRAPPY",
-              "moves": [
-                "BODYSLAM",
-                "BULLDOZE",
-                "FAKEOUT",
-                "CRUNCH"
-              ]
-            },
-            {
-              "name": "RHYDON",
-              "level": "40",
-              "item": "FOCUSSASH",
-              "ability": "LIGHTNINGROD",
-              "moves": [
-                "DRILLRUN",
-                "ROCKSLIDE",
-                "BRICKBREAK",
-                "FIREPUNCH"
-              ]
-            }
-          ]
-        },
-        "hard": {
-          "items": "Ninguno",
-          "pokemon": [
-            {
-              "name": "PERSIAN",
-              "level": "39",
-              "item": "KINGSROCK",
-              "ability": "TECHNICIAN",
-              "moves": [
-                "FAKEOUT",
-                "TAILSLAP",
-                "BITE",
-                "UTURN"
-              ]
-            },
-            {
-              "name": "HONCHKROW",
-              "level": "39",
-              "item": "ASSAULTVEST",
-              "ability": "SUPERLUCK",
-              "moves": [
-                "DRILLPECK",
-                "SUCKERPUNCH",
-                "HEATWAVE",
-                "UTURN"
-              ]
-            },
-            {
-              "name": "NIDOKING",
-              "level": "39",
-              "item": "LIFEORB",
-              "ability": "SHEERFORCE",
+              "ability": "RIVALRY",
               "moves": [
                 "POISONJAB",
                 "BULLDOZE",
@@ -2567,7 +2449,125 @@
               "name": "RHYDON",
               "level": "40",
               "item": "FOCUSSASH",
-              "ability": "LIGHTNINGROD",
+              "ability": "Desconocido",
+              "moves": [
+                "DRILLRUN",
+                "ROCKSLIDE",
+                "BRICKBREAK",
+                "FIREPUNCH"
+              ]
+            }
+          ]
+        },
+        "normal": {
+          "items": "2 Hiperpoción",
+          "pokemon": [
+            {
+              "name": "PERSIAN",
+              "level": "39",
+              "item": "KINGSROCK",
+              "ability": "TOUGHCLAWS",
+              "moves": [
+                "FAKEOUT",
+                "TAILSLAP",
+                "BITE",
+                "UTURN"
+              ]
+            },
+            {
+              "name": "NIDOKING",
+              "level": "39",
+              "item": "",
+              "ability": "RIVALRY",
+              "moves": [
+                "POISONJAB",
+                "BULLDOZE",
+                "THUNDERBOLT",
+                "ICEBEAM"
+              ]
+            },
+            {
+              "name": "KANGASKHAN",
+              "level": "39",
+              "item": "SILKSCARF",
+              "ability": "SCRAPPY",
+              "moves": [
+                "BODYSLAM",
+                "BULLDOZE",
+                "FAKEOUT",
+                "CRUNCH"
+              ]
+            },
+            {
+              "name": "RHYDON",
+              "level": "40",
+              "item": "FOCUSSASH",
+              "ability": "Desconocido",
+              "moves": [
+                "DRILLRUN",
+                "ROCKSLIDE",
+                "BRICKBREAK",
+                "FIREPUNCH"
+              ]
+            }
+          ]
+        },
+        "hard": {
+          "items": "Ninguno",
+          "pokemon": [
+            {
+              "name": "PERSIAN",
+              "level": "39",
+              "item": "KINGSROCK",
+              "ability": "TOUGHCLAWS",
+              "moves": [
+                "FAKEOUT",
+                "TAILSLAP",
+                "BITE",
+                "UTURN"
+              ]
+            },
+            {
+              "name": "HONCHKROW",
+              "level": "39",
+              "item": "ASSAULTVEST",
+              "ability": "Desconocido",
+              "moves": [
+                "DRILLPECK",
+                "SUCKERPUNCH",
+                "HEATWAVE",
+                "UTURN"
+              ]
+            },
+            {
+              "name": "NIDOKING",
+              "level": "39",
+              "item": "LIFEORB",
+              "ability": "RIVALRY",
+              "moves": [
+                "POISONJAB",
+                "BULLDOZE",
+                "THUNDERBOLT",
+                "ICEBEAM"
+              ]
+            },
+            {
+              "name": "KANGASKHAN",
+              "level": "39",
+              "item": "SILKSCARF",
+              "ability": "SCRAPPY",
+              "moves": [
+                "BODYSLAM",
+                "BULLDOZE",
+                "FAKEOUT",
+                "CRUNCH"
+              ]
+            },
+            {
+              "name": "RHYDON",
+              "level": "40",
+              "item": "FOCUSSASH",
+              "ability": "Desconocido",
               "moves": [
                 "DRILLRUN",
                 "ROCKSLIDE",
