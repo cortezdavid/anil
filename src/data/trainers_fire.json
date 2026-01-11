@@ -2757,7 +2757,7 @@
       "img": "/images/trainers/AGATHA.png",
       "difficulties": {
         "easy": {
-          "items": "Hiperpoción (creo)",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "HAUNTER",
@@ -2798,7 +2798,7 @@
           ]
         },
         "normal": {
-          "items": "Hiperpoción (creo)",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "BANETTE",

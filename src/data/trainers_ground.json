@@ -2755,12 +2755,12 @@
       "img": "/images/trainers/AGATHA.png",
       "difficulties": {
         "easy": {
-          "items": "Hiperpoción (creo)",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "HAUNTER",
               "level": "40",
-              "item": "EVIOLITE",
+              "item": "WIDELENS",
               "ability": "LEVITATE",
               "moves": [
                 "WILLOWISP",
@@ -2796,7 +2796,7 @@
           ]
         },
         "normal": {
-          "items": "Hiperpoción (creo)",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "BANETTE",
