@@ -57,6 +57,12 @@ const Navbar = () => {
                 Combates
               </Link>
               <Link
+                to="/donprodigio"
+                className="text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200"
+              >
+                Don Prodigio
+              </Link>
+              <Link
                 to="/fotos"
                 className="text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200"
               >
@@ -134,6 +140,13 @@ const Navbar = () => {
               className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-3 rounded-lg text-sm font-bold transition-all duration-200"
             >
               Combates
+            </Link>
+            <Link
+              to="/donprodigio"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-3 rounded-lg text-sm font-bold transition-all duration-200"
+            >
+              Don Prodigio
             </Link>
             <Link
               to="/fotos"

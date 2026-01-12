@@ -13,6 +13,7 @@ import Collection from './components/collection/Collection'
 import ShareCollection from './components/collection/ShareCollection'
 import Raids from './components/raids/Raids'
 import MovesAndAbilities from './components/movesAndAbilities/MovesAndAbilities'
+import DonProdigio from './components/donprodigio/DonProdigio'
 
 function App() {
 
@@ -34,6 +35,7 @@ function App() {
           {/* <Route path='/coleccion/:id' element={<ShareCollection />} /> */}
           <Route path='/raids' element={<Raids />} />
           <Route path='/movshabs' element={<MovesAndAbilities />} />
+          <Route path='/donprodigio' element={<DonProdigio />} />
         </Routes>
       </BrowserRouter>
     </>
