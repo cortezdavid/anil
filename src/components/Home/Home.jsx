@@ -27,7 +27,7 @@ const Home = () => {
         {/* Header con logo */}
         <div className="text-center mb-12">
           <img
-            src="/pokemon-logo-black-transparent.png"
+            src="/logop.png"
             alt="Pokémon Añil Logo"
             className="mx-auto max-w-2xl w-full h-auto drop-shadow-2xl"
           />
