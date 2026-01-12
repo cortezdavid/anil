@@ -1201,7 +1201,7 @@
       "flags": [
         "Fling_10"
       ],
-      "description": "Aumenta el Ataque pero solo permite usar un tipo de movimiento. Debe llevarla un Pokémon."
+      "description": "Aumenta el Ataque un 50% pero solo permite usar un tipo de movimiento un 50%. Debe llevarla un Pokémon."
     },
     {
       "id": "CHOICESPECS",
@@ -1212,7 +1212,7 @@
       "flags": [
         "Fling_10"
       ],
-      "description": "Potencian el At. Esp. pero solo permiten usar un tipo de movimiento. Debe llevarlas un Pokémon."
+      "description": "Potencian el At. Esp. un 50% pero solo permiten usar un tipo de movimiento. Debe llevarlas un Pokémon."
     },
     {
       "id": "CHOICESCARF",
@@ -1223,7 +1223,7 @@
       "flags": [
         "Fling_10"
       ],
-      "description": "Debe llevarlo un Pokémon. Potencia la Velocidad, pero solo permite usar un tipo de movimiento."
+      "description": "Debe llevarlo un Pokémon. Potencia la Velocidad un 50%, pero solo permite usar un tipo de movimiento."
     },
     {
       "id": "HEATROCK",
@@ -1542,7 +1542,7 @@
       "flags": [
         "Fling_30"
       ],
-      "description": "Potencia los movimientos, pero consume PS con cada ataque. Debe llevarla un Pokémon."
+      "description": "Potencia los movimientos, pero consume PS con cada ataque un 30%. Debe llevarla un Pokémon."
     },
     {
       "id": "EXPERTBELT",
@@ -1553,7 +1553,7 @@
       "flags": [
         "Fling_10"
       ],
-      "description": "Potencia ligeramente los movimientos supereficaces. Debe llevarla un Pokémon."
+      "description": "Potencia ligeramente los movimientos supereficaces un 20%. Debe llevarla un Pokémon."
     },
     {
       "id": "METRONOME",
@@ -1949,7 +1949,7 @@
       "flags": [
         "Fling_30"
       ],
-      "description": "Gema con forma de lágrima que fortalece los ataques de tipo Agua. Debe llevarla un Pokémon."
+      "description": "Gema con forma de lágrima que fortalece los ataques de tipo Agua un 20%. Debe llevarla un Pokémon."
     },
     {
       "id": "MAGNET",
@@ -2004,7 +2004,7 @@
       "flags": [
         "Fling_70"
       ],
-      "description": "Flecha venenosa que refuerza los movimientos de tipo Veneno. Debe llevarla un Pokémon."
+      "description": "Flecha venenosa que refuerza los movimientos de tipo Veneno un 20%. Debe llevarla un Pokémon."
     },
     {
       "id": "SOFTSAND",
@@ -2125,7 +2125,7 @@
       "flags": [
         "Fling_90"
       ],
-      "description": "Tabla de piedra que potencia los movimientos de tipo Fuego. Debe llevarla un Pokémon."
+      "description": "Tabla de piedra que potencia los movimientos de tipo Fuego un 25%. Debe llevarla un Pokémon."
     },
     {
       "id": "SPLASHPLATE",
@@ -5308,7 +5308,7 @@
       "flags": [
         "Fling_10"
       ],
-      "description": "Tormenta de granizo que dura cinco turnos. Hiere a s, excepto a los de tipo Hielo."
+      "description": "Tormenta de nieve que dura cinco turnos. Aumenta la defensa de los Pokémon tipo Hielo en un 50%."
     },
     {
       "id": "TM08",
@@ -8809,7 +8809,7 @@
         "Fling_90",
         "Plate"
       ],
-      "description": "Tabla de piedra que potencia los movimientos de tipo Normal. Debe llevarla un Pokémon."
+      "description": "Tabla de piedra que potencia los movimientos de tipo Normal un 25%. Debe llevarla un Pokémon."
     },
     {
       "id": "GRISEOUSCORE",
