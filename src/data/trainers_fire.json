@@ -3252,10 +3252,10 @@
               ]
             },
             {
-              "name": "MUK1",
+              "name": "MUK",
               "level": "48",
               "item": "ASSAULTVEST",
-              "ability": "GLUTTONY",
+              "ability": "STICKYHOLD",
               "moves": [
                 "POISONJAB",
                 "KNOCKOFF",
@@ -3385,7 +3385,7 @@
               "name": "GRENINJA",
               "level": "48",
               "item": "CHOICESPECS",
-              "ability": "Desconocido",
+              "ability": "PROTEAN",
               "moves": [
                 "HYDROPUMP",
                 "DARKPULSE",
