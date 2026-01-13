@@ -1,51 +1,5 @@
-﻿[ROJO4,Rojo,1]
-LoseText = ¿Ya tienes a todos esos Pokémon evolucionados? ¡Impresionante!
-Items = HYPERPOTION,HYPERPOTION
-Pokemon = PRIMEAPE,43
-	Moves = CLOSECOMBAT,FOCUSENERGY,UTURN,ROCKSLIDE
-	Item = LIFEORB
-	Nature = QUIRKY
-	IV = 17,17,17,17,17,17
-Pokemon = NOCTOWL,44
-	Moves = AIRSLASH,PSYSHOCK,HYPNOSIS,CALMMIND
-	Item = WISEGLASSES
-	Nature = QUIRKY
-	IV = 17,17,17,17,17,17
-Pokemon = VAPOREON,44
-	Moves = MUDDYWATER,AURORABEAM,ACIDARMOR,SHADOWBALL
-	Item = MYSTICWATER
-	Nature = QUIRKY
-	IV = 17,17,17,17,17,17
-Pokemon = CHARIZARD,45
-	Moves = FLAMETHROWER,AIRSLASH,SMOKESCREEN,DRAGONRAGE
-	Item = SITRUSBERRY
-	Nature = QUIRKY
-	IV = 17,17,17,17,17,17
-#-------------------------------
-[ROJO4,Rojo,2]
-LoseText = ¿Ya tienes a todos esos Pokémon evolucionados? ¡Impresionante!
-Items = HYPERPOTION,HYPERPOTION
-Pokemon = PRIMEAPE,43
-	Moves = CLOSECOMBAT,FOCUSENERGY,UTURN,ROCKSLIDE
-	Item = LIFEORB
-	Nature = QUIRKY
-	IV = 17,17,17,17,17,17
-Pokemon = NOCTOWL,44
-	Moves = AIRSLASH,PSYSHOCK,HYPNOSIS,CALMMIND
-	Item = WISEGLASSES
-	Nature = QUIRKY
-	IV = 17,17,17,17,17,17
-Pokemon = JOLTEON,44
-	Moves = DISCHARGE,SIGNALBEAM,VOLTSWITCH,SHADOWBALL
-	Item = MAGNET
-	Nature = QUIRKY
-	IV = 17,17,17,17,17,17
-Pokemon = BLASTOISE,45
-	Moves = SNIPESHOT,DARKPULSE,AURASPHERE,IRONDEFENSE
-	Item = SITRUSBERRY
-	Nature = QUIRKY
-	IV = 17,17,17,17,17,17
-#-------------------------------
+﻿
+
 [ROJO4,Rojo,3]
 LoseText = ¿Ya tienes a todos esos Pokémon evolucionados? ¡Impresionante!
 Items = HYPERPOTION,HYPERPOTION
@@ -70,62 +24,7 @@ Pokemon = VENUSAUR,45
 	Nature = QUIRKY
 	IV = 17,17,17,17,17,17
 #-------------------------------
-[ROJO4,Rojo,4]
-LoseText = ¿Ya tienes a todos esos Pokémon evolucionados? ¡Impresionante!
-Pokemon = PRIMEAPE,43
-	Moves = CLOSECOMBAT,FOCUSENERGY,UTURN,ROCKSLIDE
-	Item = LIFEORB
-	Nature = ADAMANT
-	IV = 20,20,20,20,20,20
-Pokemon = NOCTOWL,44
-	Moves = AIRSLASH,PSYCHIC,HYPNOSIS,CALMMIND
-	Item = WISEGLASSES
-	Nature = MODEST
-	IV = 20,20,20,20,20,20
-Pokemon = VAPOREON,44
-	Moves = MUDDYWATER,ICEBEAM,ACIDARMOR,SHADOWBALL
-	Item = MYSTICWATER
-	Nature = QUIRKY
-	IV = 20,20,20,20,20,20
-Pokemon = BISHARP,44
-	Moves = IRONHEAD,SUCKERPUNCH,SWORDSDANCE,KNOCKOFF
-	Item = EVIOLITE
-	Nature = QUIRKY
-	IV = 20,20,20,20,20,20
-Pokemon = CHARIZARD,45
-	Moves = FLAMETHROWER,AIRSLASH,SCORCHINGSANDS,DRAGONPULSE
-	Item = SITRUSBERRY
-	Nature = MODEST
-	IV = 20,20,20,20,20,20
-#-------------------------------
-[ROJO4,Rojo,5]
-LoseText = ¿Ya tienes a todos esos Pokémon evolucionados? ¡Impresionante!
-Pokemon = PRIMEAPE,43
-	Moves = CLOSECOMBAT,FOCUSENERGY,UTURN,ROCKSLIDE
-	Item = LIFEORB
-	Nature = ADAMANT
-	IV = 20,20,20,20,20,20
-Pokemon = NOCTOWL,44
-	Moves = AIRSLASH,PSYCHIC,HYPNOSIS,CALMMIND
-	Item = WISEGLASSES
-	Nature = MODEST
-	IV = 20,20,20,20,20,20
-Pokemon = JOLTEON,44
-	Moves = DISCHARGE,SIGNALBEAM,VOLTSWITCH,SHADOWBALL
-	Item = MAGNET
-	Nature = QUIRKY
-	IV = 20,20,20,20,20,20
-Pokemon = BISHARP,44
-	Moves = IRONHEAD,SUCKERPUNCH,SWORDSDANCE,KNOCKOFF
-	Item = EVIOLITE
-	Nature = QUIRKY
-	IV = 20,20,20,20,20,20
-Pokemon = BLASTOISE,45
-	Moves = SNIPESHOT,DARKPULSE,AURASPHERE,ICEBEAM
-	Item = SITRUSBERRY
-	Nature = MODEST
-	IV = 20,20,20,20,20,20
-#-------------------------------
+
 [ROJO4,Rojo,6]
 LoseText = ¿Ya tienes a todos esos Pokémon evolucionados? ¡Impresionante!
 Pokemon = PRIMEAPE,43
