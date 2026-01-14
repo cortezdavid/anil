@@ -35,7 +35,7 @@ function App() {
           {/* <Route path='/coleccion/:id' element={<ShareCollection />} /> */}
           <Route path='/raids' element={<Raids />} />
           <Route path='/movshabs' element={<MovesAndAbilities />} />
-          <Route path='/donprodigio' element={<DonProdigio />} />
+          {/* <Route path='/donprodigio' element={<DonProdigio />} /> */}
         </Routes>
       </BrowserRouter>
     </>

@@ -3,7 +3,7 @@
     {
       "id": "VENUSAUR1",
       "image": "/images/pokemonFront/VENUSAUR_1.png",
-      "location": "/images/location/VENUSAUR_1.jpg",
+      "location": "/images/location/VENUSAUR_1.webp",
       "route": "Ciudad Añil",
       "baseId": "VENUSAUR",
       "name": "Venusaur X",
@@ -33,7 +33,7 @@
     {
       "id": "VENUSAUR2",
       "image": "/images/pokemonFront/VENUSAUR_2.png",
-      "location": "/images/location/VENUSAUR_2.jpg",
+      "location": "/images/location/VENUSAUR_2.webp",
       "route": "Ciudad Añil",
       "baseId": "VENUSAUR",
       "name": "Venusaur Y",
@@ -63,7 +63,7 @@
     {
       "id": "CHARIZARD1",
       "image": "/images/pokemonFront/CHARIZARD_1.png",
-      "location": "/images/location/CHARIZARD_1.jpg",
+      "location": "/images/location/CHARIZARD_1.webp",
       "route": "Ciudad Añil",
       "baseId": "CHARIZARD",
       "name": "Charizard X",
@@ -93,7 +93,7 @@
     {
       "id": "CHARIZARD2",
       "image": "/images/pokemonFront/CHARIZARD_2.png",
-      "location": "/images/location/CHARIZARD_2.jpg",
+      "location": "/images/location/CHARIZARD_2.webp",
       "route": "Ciudad Añil",
       "baseId": "CHARIZARD",
       "name": "Charizard Y",
@@ -123,7 +123,7 @@
     {
       "id": "RATTATA1",
       "image": "/images/pokemonFront/RATTATA_1.png",
-      "location": "/images/location/RATTATA_1.jpg",
+      "location": "/images/location/RATTATA_1.webp",
       "baseId": "RATTATA",
       "name": "Rattata",
       "form": "Forma Alola",
@@ -169,7 +169,7 @@
     {
       "id": "RATICATE1",
       "image": "/images/pokemonFront/RATICATE_1.png",
-      "location": "/images/location/RATICATE_1.jpg",
+      "location": "/images/location/RATICATE_1.webp",
       "route": "Villa Azabache",
       "baseId": "RATICATE",
       "name": "Raticate",
@@ -216,7 +216,7 @@
     {
       "id": "BLASTOISE1",
       "image": "/images/pokemonFront/BLASTOISE_1.png",
-      "location": "/images/location/BLASTOISE_1.jpg",
+      "location": "/images/location/BLASTOISE_1.webp",
       "route": "Ciudad Añil",
       "baseId": "BLASTOISE",
       "name": "Blastoise X",
@@ -245,7 +245,7 @@
     {
       "id": "BLASTOISE2",
       "image": "/images/pokemonFront/BLASTOISE_2.png",
-      "location": "/images/location/BLASTOISE_2.jpg",
+      "location": "/images/location/BLASTOISE_2.webp",
       "route": "Ciudad Añil",
       "baseId": "BLASTOISE",
       "name": "Blastoise y",
@@ -275,7 +275,7 @@
     {
       "id": "BEEDRILL1",
       "image": "/images/pokemonFront/BEEDRILL_1.png",
-      "location": "/images/location/BEEDRILL_1.jpg",
+      "location": "/images/location/BEEDRILL_1.webp",
       "route": "Ruta 14",
       "baseId": "BEEDRILL",
       "name": "Mega Beedrill",
@@ -305,7 +305,7 @@
     {
       "id": "PIDGEOT1",
       "image": "/images/pokemonFront/PIDGEOT_1.png",
-      "location": "/images/location/PIDGEOT_1.jpg",
+      "location": "/images/location/PIDGEOT_1.webp",
       "route": "Ruta 14",
       "baseId": "PIDGEOT",
       "name": "Mega Pidgeot",
@@ -335,7 +335,7 @@
     {
       "id": "PIKACHU16",
       "image": "/images/pokemonFront/PIKACHU_16.png",
-      "location": "/images/location/PIKACHU_16.jpg",
+      "location": "/images/location/PIKACHU_16.webp",
       "baseId": "PIKACHU",
       "name": "Pikachu",
       "form": "Forma Amarillo",
@@ -376,7 +376,7 @@
     {
       "id": "PIKACHU17",
       "image": "/images/pokemonFront/PIKACHU_17.png",
-      "location": "/images/location/PIKACHU_17.jpg",
+      "location": "/images/location/PIKACHU_17.webp",
       "route": "Ciudad Añil",
       "baseId": "PIKACHU",
       "name": "Mega Pikachu",
@@ -419,7 +419,7 @@
     {
       "id": "RAICHU1",
       "image": "/images/pokemonFront/RAICHU_1.png",
-      "location": "/images/location/RAICHU_1.jpg",
+      "location": "/images/location/RAICHU_1.webp",
       "baseId": "RAICHU",
       "name": "Raichu",
       "form": "Forma Alola",
@@ -450,7 +450,7 @@
     {
       "id": "RAICHU2",
       "image": "/images/pokemonFront/RAICHU_2.png",
-      "location": "/images/location/RAICHU_2.jpg",
+      "location": "/images/location/RAICHU_2.webp",
       "route": "Ruta 14",
       "baseId": "RAICHU",
       "name": "Mega Raichu X",
@@ -479,7 +479,7 @@
     {
       "id": "RAICHU3",
       "image": "/images/pokemonFront/RAICHU_3.png",
-      "location": "/images/location/RAICHU_3.jpg",
+      "location": "/images/location/RAICHU_3.webp",
       "route": "Ruta 14",
       "baseId": "RAICHU",
       "name": "Mega Raichu Y",
@@ -508,7 +508,7 @@
     {
       "id": "SANDSHREW1",
       "image": "/images/pokemonFront/SANDSHREW_1.png",
-      "location": "/images/location/SANDSHREW_1.jpg",
+      "location": "/images/location/SANDSHREW_1.webp",
       "route": "Ruta 3",
       "baseId": "SANDSHREW",
       "name": "Sandshrew",
@@ -554,7 +554,7 @@
     {
       "id": "SANDSLASH1",
       "image": "/images/pokemonFront/SANDSLASH_1.png",
-      "location": "/images/location/SANDSLASH_1.jpg",
+      "location": "/images/location/SANDSLASH_1.webp",
       "baseId": "SANDSLASH",
       "name": "Sandslash",
       "form": "Forma Alola",
@@ -599,7 +599,7 @@
     {
       "id": "VULPIX1",
       "image": "/images/pokemonFront/VULPIX_1.png",
-      "location": "/images/location/VULPIX_1.jpg",
+      "location": "/images/location/VULPIX_1.webp",
       "baseId": "VULPIX",
       "name": "Vulpix",
       "form": "Forma Alola",
@@ -643,7 +643,7 @@
     {
       "id": "NINETALES1",
       "image": "/images/pokemonFront/NINETALES_1.png",
-      "location": "/images/location/NINETALES_1.jpg",
+      "location": "/images/location/NINETALES_1.webp",
       "route": "Islas Espuma",
       "baseId": "NINETALES",
       "name": "Ninetales",
@@ -689,7 +689,7 @@
     {
       "id": "DIGLETT1",
       "image": "/images/pokemonFront/DIGLETT_1.png",
-      "location": "/images/location/DIGLETT_1.jpg",
+      "location": "/images/location/DIGLETT_1.webp",
       "route": "Túnel Diglett",
       "baseId": "DIGLETT",
       "name": "Diglett",
@@ -736,7 +736,7 @@
     {
       "id": "DUGTRIO1",
       "image": "/images/pokemonFront/DUGTRIO_1.png",
-      "location": "/images/location/DUGTRIO_1.jpg",
+      "location": "/images/location/DUGTRIO_1.webp",
       "route": "Túnel Diglett",
       "baseId": "DUGTRIO",
       "name": "Dugtrio",
@@ -783,7 +783,7 @@
     {
       "id": "MEOWTH1",
       "image": "/images/pokemonFront/MEOWTH_1.png",
-      "location": "/images/location/MEOWTH_1.jpg",
+      "location": "/images/location/MEOWTH_1.webp",
       "route": "Ruta 3",
       "baseId": "MEOWTH",
       "name": "Meowth",
@@ -829,7 +829,7 @@
     {
       "id": "MEOWTH2",
       "image": "/images/pokemonFront/MEOWTH_2.png",
-      "location": "/images/location/MEOWTH_2.jpg",
+      "location": "/images/location/MEOWTH_2.webp",
       "route": "Ciudad Carmín",
       "baseId": "MEOWTH",
       "name": "Meowth",
@@ -875,7 +875,7 @@
     {
       "id": "PERSIAN1",
       "image": "/images/pokemonFront/PERSIAN_1.png",
-      "location": "/images/location/PERSIAN_1.jpg",
+      "location": "/images/location/PERSIAN_1.webp",
       "route": "Ruta 28",
       "baseId": "PERSIAN",
       "name": "Persian",
@@ -921,7 +921,7 @@
     {
       "id": "ALAKAZAM1",
       "image": "/images/pokemonFront/ALAKAZAM_1.png",
-      "location": "/images/location/ALAKAZAM_1.jpg",
+      "location": "/images/location/ALAKAZAM_1.webp",
       "route": "Ciudad Azafrán",
       "baseId": "ALAKAZAM",
       "name": "Mega Alakazam",
@@ -950,7 +950,7 @@
     {
       "id": "MACHAMP1",
       "image": "/images/pokemonFront/MACHAMP_1.png",
-      "location": "/images/location/MACHAMP_1.jpg",
+      "location": "/images/location/MACHAMP_1.webp",
       "route": "Ciudad Celeste",
       "baseId": "MACHAMP",
       "name": "Mega Machamp",
@@ -980,7 +980,7 @@
     {
       "id": "VICTREEBEL1",
       "image": "/images/pokemonFront/VICTREEBEL_1.png",
-      "location": "/images/location/VICTREEBEL_1.jpg",
+      "location": "/images/location/VICTREEBEL_1.webp",
       "route": "Ruta 14",
       "baseId": "VICTREEBEL",
       "name": "Mega Victreebel",
@@ -1010,7 +1010,7 @@
     {
       "id": "GEODUDE",
       "image": "/images/pokemonFront/GEODUDE_1.png",
-      "location": "/images/location/GEODUDE_1.jpg",
+      "location": "/images/location/GEODUDE_1.webp",
       "route": "Ruta 10 Norte",
       "baseId": "GEODUDE",
       "name": "Geodude",
@@ -1065,7 +1065,7 @@
     {
       "id": "GRAVELER1",
       "image": "/images/pokemonFront/GRAVELER_1.png",
-      "location": "/images/location/GRAVELER_1.jpg",
+      "location": "/images/location/GRAVELER_1.webp",
       "baseId": "GRAVELER",
       "name": "Graveler",
       "form": "Forma Alola",
@@ -1119,7 +1119,7 @@
     {
       "id": "GOLEM1",
       "image": "/images/pokemonFront/GOLEM_1.png",
-      "location": "/images/location/GOLEM_1.jpg",
+      "location": "/images/location/GOLEM_1.webp",
       "route": "Ruta 29",
       "baseId": "GOLEM",
       "name": "Golem",
@@ -1174,7 +1174,7 @@
     {
       "id": "PONYTA1",
       "image": "/images/pokemonFront/PONYTA_1.png",
-      "location": "/images/location/PONYTA_1.jpg",
+      "location": "/images/location/PONYTA_1.webp",
       "baseId": "PONYTA",
       "name": "Ponyta",
       "form": "Forma Galar",
@@ -1219,7 +1219,7 @@
     {
       "id": "RAPIDASH1",
       "image": "/images/pokemonFront/RAPIDASH_1.png",
-      "location": "/images/location/RAPIDASH_1.jpg",
+      "location": "/images/location/RAPIDASH_1.webp",
       "route": "Bosque Arcoiris",
       "baseId": "RAPIDASH",
       "name": "Rapidash",
@@ -1266,7 +1266,7 @@
     {
       "id": "SLOWPOKE1",
       "image": "/images/pokemonFront/SLOWPOKE_1.png",
-      "location": "/images/location/SLOWPOKE_1.jpg",
+      "location": "/images/location/SLOWPOKE_1.webp",
       "baseId": "SLOWPOKE",
       "name": "Slowpoke",
       "form": "Forma Galar",
@@ -1314,7 +1314,7 @@
     {
       "id": "SLOWBRO1",
       "image": "/images/pokemonFront/SLOWBRO_1.png",
-      "location": "/images/location/SLOWBRO_1.jpg",
+      "location": "/images/location/SLOWBRO_1.webp",
       "route": "Islote Recuerdo",
       "baseId": "SLOWBRO",
       "name": "Slowbro",
@@ -1364,7 +1364,7 @@
     {
       "id": "SLOWBRO2",
       "image": "/images/pokemonFront/SLOWBRO_2.png",
-      "location": "/images/location/SLOWBRO_2.jpg",
+      "location": "/images/location/SLOWBRO_2.webp",
       "route": "Ruta 14",
       "baseId": "SLOWBRO",
       "name": "Mega Slowbro",
@@ -1394,7 +1394,7 @@
     {
       "id": "FARFETCHD1",
       "image": "/images/pokemonFront/FARFETCHD_1.png",
-      "location": "/images/location/FARFETCHD_1.jpg",
+      "location": "/images/location/FARFETCHD_1.webp",
       "route": "Ruta 9",
       "baseId": "FARFETCHD",
       "name": "Farfetch'd",
@@ -1439,7 +1439,7 @@
     {
       "id": "GRIMER1",
       "image": "/images/pokemonFront/GRIMER_1.png",
-      "location": "/images/location/GRIMER_1.jpg",
+      "location": "/images/location/GRIMER_1.webp",
       "route": "Ruta 29",
       "baseId": "GRIMER",
       "name": "Grimer",
@@ -1486,7 +1486,7 @@
     {
       "id": "MUK1",
       "image": "/images/pokemonFront/MUK_1.png",
-      "location": "/images/location/MUK_1.jpg",
+      "location": "/images/location/MUK_1.webp",
       "route": "Ruta 29",
       "baseId": "MUK",
       "name": "Muk",
@@ -1533,7 +1533,7 @@
     {
       "id": "GENGAR1",
       "image": "/images/pokemonFront/GENGAR_1.png",
-      "location": "/images/location/GENGAR_1.jpg",
+      "location": "/images/location/GENGAR_1.webp",
       "route": "Ciudad Azafrán",
       "baseId": "GENGAR",
       "name": "Mega Gengar X",
@@ -1563,7 +1563,7 @@
     {
       "id": "GENGAR2",
       "image": "/images/pokemonFront/GENGAR_2.png",
-      "location": "/images/location/GENGAR_2.jpg",
+      "location": "/images/location/GENGAR_2.webp",
       "route": "Ciudad Azafrán",
       "baseId": "GENGAR",
       "name": "Mega Gengar y",
@@ -1593,7 +1593,7 @@
     {
       "id": "VOLTORB1",
       "image": "/images/pokemonFront/VOLTORB_1.png",
-      "location": "/images/location/VOLTORB_1.jpg",
+      "location": "/images/location/VOLTORB_1.webp",
       "route": "Ruta 10 Norte",
       "baseId": "VOLTORB",
       "name": "Voltorb",
@@ -1639,7 +1639,7 @@
     {
       "id": "ELECTRODE1",
       "image": "/images/pokemonFront/ELECTRODE_1.png",
-      "location": "/images/location/ELECTRODE_1.jpg",
+      "location": "/images/location/ELECTRODE_1.webp",
       "route": "Ruta 29",
       "baseId": "ELECTRODE",
       "name": "Electrode",
@@ -1685,7 +1685,7 @@
     {
       "id": "EXEGGUTOR1",
       "image": "/images/pokemonFront/EXEGGUTOR_1.png",
-      "location": "/images/location/EXEGGUTOR_1.jpg",
+      "location": "/images/location/EXEGGUTOR_1.webp",
       "route": "Ruta 17",
       "baseId": "EXEGGUTOR",
       "name": "Exeggutor",
@@ -1717,7 +1717,7 @@
     {
       "id": "MAROWAK1",
       "image": "/images/pokemonFront/MAROWAK_1.png",
-      "location": "/images/location/MAROWAK_1.jpg",
+      "location": "/images/location/MAROWAK_1.webp",
       "route": "Volcán Canela",
       "baseId": "MAROWAK",
       "name": "Marowak",
@@ -1750,7 +1750,7 @@
     {
       "id": "WEEZING1",
       "image": "/images/pokemonFront/WEEZING_1.png",
-      "location": "/images/location/WEEZING_1.jpg",
+      "location": "/images/location/WEEZING_1.webp",
       "route": "Almacén Secreto",
       "baseId": "WEEZING",
       "name": "Weezing",
@@ -1783,7 +1783,7 @@
     {
       "id": "KANGASKHAN1",
       "image": "/images/pokemonFront/KANGASKHAN_1.png",
-      "location": "/images/location/KANGASKHAN_1.jpg",
+      "location": "/images/location/KANGASKHAN_1.webp",
       "route": "Camino de Bicis",
       "baseId": "KANGASKHAN",
       "name": "Mega Kangaskhan",
@@ -1812,7 +1812,7 @@
     {
       "id": "PINSIR1",
       "image": "/images/pokemonFront/PINSIR_1.png",
-      "location": "/images/location/PINSIR_1.jpg",
+      "location": "/images/location/PINSIR_1.webp",
       "route": "Ruta 14",
       "baseId": "PINSIR",
       "name": "Mega Pinsir",
@@ -1842,7 +1842,7 @@
     {
       "id": "GYARADOS1",
       "image": "/images/pokemonFront/GYARADOS_1.png",
-      "location": "/images/location/GYARADOS_1.jpg",
+      "location": "/images/location/GYARADOS_1.webp",
       "route": "Ruta 24",
       "baseId": "GYARADOS",
       "name": "Mega Gyarados",
@@ -1872,7 +1872,7 @@
     {
       "id": "AERODACTYL1",
       "image": "/images/pokemonFront/AERODACTYL_1.png",
-      "location": "/images/location/AERODACTYL_1.jpg",
+      "location": "/images/location/AERODACTYL_1.webp",
       "route": "Cataratas Tohjo",
       "baseId": "AERODACTYL",
       "name": "Mega Aerodactyl",
@@ -1902,7 +1902,7 @@
     {
       "id": "MEWTWO1",
       "image": "/images/pokemonFront/MEWTWO_1.png",
-      "location": "/images/location/MEWTWO_1.jpg",
+      "location": "/images/location/MEWTWO_1.webp",
       "route": "Torre Batalla",
       "baseId": "MEWTWO",
       "name": "Mewtwo X",
@@ -1932,7 +1932,7 @@
     {
       "id": "MEWTWO2",
       "image": "/images/pokemonFront/MEWTWO_2.png",
-      "location": "/images/location/MEWTWO_2.jpg",
+      "location": "/images/location/MEWTWO_2.webp",
       "route": "Torre Batalla",
       "baseId": "MEWTWO",
       "name": "Mewtwo Y",
@@ -1961,7 +1961,7 @@
     {
       "id": "AMPHAROS1",
       "image": "/images/pokemonFront/AMPHAROS_1.png",
-      "location": "/images/location/AMPHAROS_1.jpg",
+      "location": "/images/location/AMPHAROS_1.webp",
       "route": "Ruta 14",
       "baseId": "AMPHAROS",
       "name": "Mega Ampharos",
@@ -1991,7 +1991,7 @@
     {
       "id": "STEELIX1",
       "image": "/images/pokemonFront/STEELIX_1.png",
-      "location": "/images/location/STEELIX_1.jpg",
+      "location": "/images/location/STEELIX_1.webp",
       "route": "Ruta 14",
       "baseId": "STEELIX",
       "name": "Mega Steelix",
@@ -2021,7 +2021,7 @@
     {
       "id": "SCIZOR1",
       "image": "/images/pokemonFront/SCIZOR_1.png",
-      "location": "/images/location/SCIZOR_1.jpg",
+      "location": "/images/location/SCIZOR_1.webp",
       "route": "Zona Safari",
       "baseId": "SCIZOR",
       "name": "Mega Scizor",
@@ -2051,7 +2051,7 @@
     {
       "id": "HERACROSS1",
       "image": "/images/pokemonFront/HERACROSS_1.png",
-      "location": "/images/location/HERACROSS_1.jpg",
+      "location": "/images/location/HERACROSS_1.webp",
       "route": "Zona Safari",
       "baseId": "HERACROSS",
       "name": "Mega Heracross",
@@ -2081,7 +2081,7 @@
     {
       "id": "HOUNDOOM1",
       "image": "/images/pokemonFront/HOUNDOOM_1.png",
-      "location": "/images/location/HOUNDOOM_1.jpg",
+      "location": "/images/location/HOUNDOOM_1.webp",
       "route": "Ruta 14",
       "baseId": "HOUNDOOM",
       "name": "Mega Houndoom",
@@ -2111,7 +2111,7 @@
     {
       "id": "TYRANITAR1",
       "image": "/images/pokemonFront/TYRANITAR_1.png",
-      "location": "/images/location/TYRANITAR_1.jpg",
+      "location": "/images/location/TYRANITAR_1.webp",
       "route": "Monte Plateado",
       "baseId": "TYRANITAR",
       "name": "Mega Tyranitar",
@@ -2141,7 +2141,7 @@
     {
       "id": "SCEPTILE1",
       "image": "/images/pokemonFront/SCEPTILE_1.png",
-      "location": "/images/location/SCEPTILE_1.jpg",
+      "location": "/images/location/SCEPTILE_1.webp",
       "route": "Ciudad Añil",
       "baseId": "SCEPTILE",
       "name": "Mega Sceptile",
@@ -2171,7 +2171,7 @@
     {
       "id": "BLAZIKEN1",
       "image": "/images/pokemonFront/BLAZIKEN_1.png",
-      "location": "/images/location/BLAZIKEN_1.jpg",
+      "location": "/images/location/BLAZIKEN_1.webp",
       "route": "Ciudad Añil",
       "baseId": "BLAZIKEN",
       "name": "Mega Blaziken",
@@ -2201,7 +2201,7 @@
     {
       "id": "SWAMPERT1",
       "image": "/images/pokemonFront/SWAMPERT_1.png",
-      "location": "/images/location/SWAMPERT_1.jpg",
+      "location": "/images/location/SWAMPERT_1.webp",
       "route": "Ciudad Añil",
       "baseId": "SWAMPERT",
       "name": "Mega Swampert",
@@ -2231,7 +2231,7 @@
     {
       "id": "GARDEVOIR1",
       "image": "/images/pokemonFront/GARDEVOIR_1.png",
-      "location": "/images/location/GARDEVOIR_1.jpg",
+      "location": "/images/location/GARDEVOIR_1.webp",
       "route": "Ruta 14",
       "baseId": "GARDEVOIR",
       "name": "Mega Gardevoir",
@@ -2261,7 +2261,7 @@
     {
       "id": "SABLEYE1",
       "image": "/images/pokemonFront/SABLEYE_1.png",
-      "location": "/images/location/SABLEYE_1.jpg",
+      "location": "/images/location/SABLEYE_1.webp",
       "route": "Ruta 14",
       "baseId": "SABLEYE",
       "name": "Mega Sableye",
@@ -2291,7 +2291,7 @@
     {
       "id": "MAWILE1",
       "image": "/images/pokemonFront/MAWILE_1.png",
-      "location": "/images/location/MAWILE_1.jpg",
+      "location": "/images/location/MAWILE_1.webp",
       "baseId": "MAWILE",
       "name": "Mega Mawile",
       "form": "Mega Mawile",
@@ -2320,7 +2320,7 @@
     {
       "id": "AGGRON1",
       "image": "/images/pokemonFront/AGGRON_1.png",
-      "location": "/images/location/AGGRON_1.jpg",
+      "location": "/images/location/AGGRON_1.webp",
       "route": "Ruta 14",
       "baseId": "AGGRON",
       "name": "Mega Aggron",
@@ -2349,7 +2349,7 @@
     {
       "id": "MEDICHAM1",
       "image": "/images/pokemonFront/MEDICHAM_1.png",
-      "location": "/images/location/MEDICHAM_1.jpg",
+      "location": "/images/location/MEDICHAM_1.webp",
       "route": "Ruta 14",
       "baseId": "MEDICHAM",
       "name": "Mega Medicham",
@@ -2379,7 +2379,7 @@
     {
       "id": "MANECTRIC1",
       "image": "/images/pokemonFront/MANECTRIC_1.png",
-      "location": "/images/location/MANECTRIC_1.jpg",
+      "location": "/images/location/MANECTRIC_1.webp",
       "route": "Ruta 14",
       "baseId": "MANECTRIC",
       "name": "Mega Manectric",
@@ -2408,7 +2408,7 @@
     {
       "id": "SHARPEDO1",
       "image": "/images/pokemonFront/SHARPEDO_1.png",
-      "location": "/images/location/SHARPEDO_1.jpg",
+      "location": "/images/location/SHARPEDO_1.webp",
       "route": "Ruta 14",
       "baseId": "SHARPEDO",
       "name": "Mega Sharpedo",
@@ -2438,7 +2438,7 @@
     {
       "id": "CAMERUPT1",
       "image": "/images/pokemonFront/CAMERUPT_1.png",
-      "location": "/images/location/CAMERUPT_1.jpg",
+      "location": "/images/location/CAMERUPT_1.webp",
       "route": "Ruta 14",
       "baseId": "CAMERUPT",
       "name": "Mega Camerupt",
@@ -2468,7 +2468,7 @@
     {
       "id": "ALTARIA1",
       "image": "/images/pokemonFront/ALTARIA_1.png",
-      "location": "/images/location/ALTARIA_1.jpg",
+      "location": "/images/location/ALTARIA_1.webp",
       "route": "Ruta 14",
       "baseId": "ALTARIA",
       "name": "Mega Altaria",
@@ -2498,7 +2498,7 @@
     {
       "id": "BANETTE1",
       "image": "/images/pokemonFront/BANETTE_1.png",
-      "location": "/images/location/BANETTE_1.jpg",
+      "location": "/images/location/BANETTE_1.webp",
       "baseId": "BANETTE",
       "name": "Mega Banette",
       "form": "Mega Banette",
@@ -2526,7 +2526,7 @@
     {
       "id": "ABSOL1",
       "image": "/images/pokemonFront/ABSOL_1.png",
-      "location": "/images/location/ABSOL_1.jpg",
+      "location": "/images/location/ABSOL_1.webp",
       "route": "Ruta 14",
       "baseId": "ABSOL",
       "name": "Mega Absol",
@@ -2555,7 +2555,7 @@
     {
       "id": "ABSOL2",
       "image": "/images/pokemonFront/ABSOL_2.png",
-      "location": "/images/location/ABSOL_2.jpg",
+      "location": "/images/location/ABSOL_2.webp",
       "route": "Ruta 14",
       "baseId": "ABSOL",
       "name": "Mega Absol Z",
@@ -2585,7 +2585,7 @@
     {
       "id": "GLALIE1",
       "image": "/images/pokemonFront/GLALIE_1.png",
-      "location": "/images/location/GLALIE_1.jpg",
+      "location": "/images/location/GLALIE_1.webp",
       "route": "Ruta 14",
       "baseId": "GLALIE",
       "name": "Mega Glalie",
@@ -2615,7 +2615,7 @@
     {
       "id": "SALAMENCE1",
       "image": "/images/pokemonFront/SALAMENCE_1.png",
-      "location": "/images/location/SALAMENCE_1.jpg",
+      "location": "/images/location/SALAMENCE_1.webp",
       "route": "Islote Recuerdo",
       "baseId": "SALAMENCE",
       "name": "Mega Salamence",
@@ -2645,7 +2645,7 @@
     {
       "id": "METAGROSS1",
       "image": "/images/pokemonFront/METAGROSS_1.png",
-      "location": "/images/location/METAGROSS_1.jpg",
+      "location": "/images/location/METAGROSS_1.webp",
       "route": "Cueva Glaciada",
       "baseId": "METAGROSS",
       "name": "Mega Metagross",
@@ -2675,7 +2675,7 @@
     {
       "id": "LATIAS1",
       "image": "/images/pokemonFront/LATIAS_1.png",
-      "location": "/images/location/LATIAS_1.jpg",
+      "location": "/images/location/LATIAS_1.webp",
       "route": "Torre Batalla",
       "baseId": "LATIAS",
       "name": "Mega Latias",
@@ -2705,7 +2705,7 @@
     {
       "id": "LATIOS1",
       "image": "/images/pokemonFront/LATIOS_1.png",
-      "location": "/images/location/LATIOS_1.jpg",
+      "location": "/images/location/LATIOS_1.webp",
       "route": "Torre Batalla",
       "baseId": "LATIOS",
       "name": "Mega Latios",
@@ -2735,7 +2735,7 @@
     {
       "id": "RAYQUAZA1",
       "image": "/images/pokemonFront/RAYQUAZA_1.png",
-      "location": "/images/location/RAYQUAZA_1.jpg",
+      "location": "/images/location/RAYQUAZA_1.webp",
       "route": "Conocer movimiento Ascenso Draco",
       "baseId": "RAYQUAZA",
       "name": "Mega Rayquaza",
@@ -2765,7 +2765,7 @@
     {
       "id": "LOPUNNY1",
       "image": "/images/pokemonFront/LOPUNNY_1.png",
-      "location": "/images/location/LOPUNNY_1.jpg",
+      "location": "/images/location/LOPUNNY_1.webp",
       "route": "Ruta 14",
       "baseId": "LOPUNNY",
       "name": "Mega Lopunny",
@@ -2795,7 +2795,7 @@
     {
       "id": "GARCHOMP1",
       "image": "/images/pokemonFront/GARCHOMP_1.png",
-      "location": "/images/location/GARCHOMP_1.jpg",
+      "location": "/images/location/GARCHOMP_1.webp",
       "route": "Cabo Magenta",
       "baseId": "GARCHOMP",
       "name": "Mega Garchomp",
@@ -2825,7 +2825,7 @@
     {
       "id": "GARCHOMP2",
       "image": "/images/pokemonFront/GARCHOMP_2.png",
-      "location": "/images/location/GARCHOMP_2.jpg",
+      "location": "/images/location/GARCHOMP_2.webp",
       "route": "Ruta 29",
       "baseId": "GARCHOMP",
       "name": "Mega Garchomp Z",
@@ -2854,7 +2854,7 @@
     {
       "id": "LUCARIO1",
       "image": "/images/pokemonFront/LUCARIO_1.png",
-      "location": "/images/location/LUCARIO_1.jpg",
+      "location": "/images/location/LUCARIO_1.webp",
       "route": "Ruta 14",
       "baseId": "LUCARIO",
       "name": "Mega Lucario",
@@ -2884,7 +2884,7 @@
     {
       "id": "LUCARIO2",
       "image": "/images/pokemonFront/LUCARIO_2.png",
-      "location": "/images/location/LUCARIO_2.jpg",
+      "location": "/images/location/LUCARIO_2.webp",
       "route": "Ruta 14",
       "baseId": "LUCARIO",
       "name": "Mega Lucario Z",
@@ -2914,7 +2914,7 @@
     {
       "id": "ABOMASNOW1",
       "image": "/images/pokemonFront/ABOMASNOW_1.png",
-      "location": "/images/location/ABOMASNOW_1.jpg",
+      "location": "/images/location/ABOMASNOW_1.webp",
       "route": "Ruta 14",
       "baseId": "ABOMASNOW",
       "name": "Mega Abomasnow",
@@ -2944,7 +2944,7 @@
     {
       "id": "GALLADE1",
       "image": "/images/pokemonFront/GALLADE_1.png",
-      "location": "/images/location/GALLADE_1.jpg",
+      "location": "/images/location/GALLADE_1.webp",
       "route": "Ruta 14",
       "baseId": "GALLADE",
       "name": "Mega Gallade",
@@ -2974,7 +2974,7 @@
     {
       "id": "AUDINO1",
       "image": "/images/pokemonFront/AUDINO_1.png",
-      "location": "/images/location/AUDINO_1.jpg",
+      "location": "/images/location/AUDINO_1.webp",
       "route": "Ruta 14",
       "baseId": "AUDINO",
       "name": "Mega Audino",
@@ -3004,7 +3004,7 @@
     {
       "id": "DIANCIE1",
       "image": "/images/pokemonFront/DIANCIE_1.png",
-      "location": "/images/location/DIANCIE_1.jpg",
+      "location": "/images/location/DIANCIE_1.webp",
       "route": "Torre Batalla",
       "baseId": "DIANCIE",
       "name": "Mega Diancie",
@@ -3034,7 +3034,7 @@
     {
       "id": "DRAGONITE1",
       "image": "/images/pokemonFront/DRAGONITE_1.png",
-      "location": "/images/location/DRAGONITE_1.jpg",
+      "location": "/images/location/DRAGONITE_1.webp",
       "route": "Cabo Azabache",
       "baseId": "DRAGONITE",
       "name": "Mega Dragonite",
@@ -3064,7 +3064,7 @@
     {
       "id": "KINGLER1",
       "image": "/images/pokemonFront/KINGLER_1.png",
-      "location": "/images/location/KINGLER_1.jpg",
+      "location": "/images/location/KINGLER_1.webp",
       "route": "Ruta 14",
       "baseId": "KINGLER",
       "name": "Mega Kingler",
@@ -3093,7 +3093,7 @@
     {
       "id": "LAPRAS1",
       "image": "/images/pokemonFront/LAPRAS_1.png",
-      "location": "/images/location/LAPRAS_1.jpg",
+      "location": "/images/location/LAPRAS_1.webp",
       "route": "Islas Espuma",
       "baseId": "LAPRAS",
       "name": "Mega Lapras",
@@ -3123,7 +3123,7 @@
     {
       "id": "GARBODOR1",
       "image": "/images/pokemonFront/GARBODOR_1.png",
-      "location": "/images/location/GARBODOR_1.jpg",
+      "location": "/images/location/GARBODOR_1.webp",
       "route": "Ruta 14",
       "baseId": "GARBODOR",
       "name": "Mega Garbodor",
@@ -3153,7 +3153,7 @@
     {
       "id": "CORVIKNIGHT1",
       "image": "/images/pokemonFront/CORVIKNIGHT_1.png",
-      "location": "/images/location/CORVIKNIGHT_1.jpg",
+      "location": "/images/location/CORVIKNIGHT_1.webp",
       "route": "Ruta 14",
       "baseId": "CORVIKNIGHT",
       "name": "Mega Corviknight",
@@ -3183,7 +3183,7 @@
     {
       "id": "ORBEETLE1",
       "image": "/images/pokemonFront/ORBEETLE_1.png",
-      "location": "/images/location/ORBEETLE_1.jpg",
+      "location": "/images/location/ORBEETLE_1.webp",
       "route": "Ruta 14",
       "baseId": "ORBEETLE",
       "name": "Mega Orbeetle",
@@ -3213,7 +3213,7 @@
     {
       "id": "BUTTERFREE1",
       "image": "/images/pokemonFront/BUTTERFREE_1.png",
-      "location": "/images/location/BUTTERFREE_1.jpg",
+      "location": "/images/location/BUTTERFREE_1.webp",
       "route": "Ruta 14",
       "baseId": "BUTTERFREE",
       "name": "Mega Butterfree",
@@ -3243,7 +3243,7 @@
     {
       "id": "DREDNAW1",
       "image": "/images/pokemonFront/DREDNAW_1.png",
-      "location": "/images/location/DREDNAW_1.jpg",
+      "location": "/images/location/DREDNAW_1.webp",
       "route": "Ruta 14",
       "baseId": "DREDNAW",
       "name": "Mega Drednaw",
@@ -3273,7 +3273,7 @@
     {
       "id": "COALOSSAL1",
       "image": "/images/pokemonFront/COALOSSAL_1.png",
-      "location": "/images/location/COALOSSAL_1.jpg",
+      "location": "/images/location/COALOSSAL_1.webp",
       "route": "Ruta 14",
       "baseId": "COALOSSAL",
       "name": "Mega Coalossal",
@@ -3303,7 +3303,7 @@
     {
       "id": "FLAPPLE1",
       "image": "/images/pokemonFront/FLAPPLE_1.png",
-      "location": "/images/location/FLAPPLE_1.jpg",
+      "location": "/images/location/FLAPPLE_1.webp",
       "route": "Ruta 14",
       "baseId": "FLAPPLE",
       "name": "Mega Flapple",
@@ -3333,7 +3333,7 @@
     {
       "id": "APPLETUN1",
       "image": "/images/pokemonFront/APPLETUN_1.png",
-      "location": "/images/location/APPLETUN_1.jpg",
+      "location": "/images/location/APPLETUN_1.webp",
       "route": "Ruta 14",
       "baseId": "APPLETUN",
       "name": "Mega Appletun",
@@ -3363,7 +3363,7 @@
     {
       "id": "SANDACONDA1",
       "image": "/images/pokemonFront/SANDACONDA_1.png",
-      "location": "/images/location/SANDACONDA_1.jpg",
+      "location": "/images/location/SANDACONDA_1.webp",
       "route": "Ruta 14",
       "baseId": "SANDACONDA",
       "name": "Mega Sandaconda",
@@ -3392,7 +3392,7 @@
     {
       "id": "CENTISKORCH1",
       "image": "/images/pokemonFront/CENTISKORCH_1.png",
-      "location": "/images/location/CENTISKORCH_1.jpg",
+      "location": "/images/location/CENTISKORCH_1.webp",
       "route": "Ruta 14",
       "baseId": "CENTISKORCH",
       "name": "Mega Centiskorch",
@@ -3422,7 +3422,7 @@
     {
       "id": "HATTERENE1",
       "image": "/images/pokemonFront/HATTERENE_1.png",
-      "location": "/images/location/HATTERENE_1.jpg",
+      "location": "/images/location/HATTERENE_1.webp",
       "route": "Ruta 14",
       "baseId": "HATTERENE",
       "name": "Mega Hatterene",
@@ -3452,7 +3452,7 @@
     {
       "id": "GRIMMSNARL1",
       "image": "/images/pokemonFront/GRIMMSNARL_1.png",
-      "location": "/images/location/GRIMMSNARL_1.jpg",
+      "location": "/images/location/GRIMMSNARL_1.webp",
       "route": "Ruta 14",
       "baseId": "GRIMMSNARL",
       "name": "Mega Grimmsnarl",
@@ -3482,7 +3482,7 @@
     {
       "id": "ALCREMIE63",
       "image": "/images/pokemonFront/ALCREMIE_63.png",
-      "location": "/images/location/ALCREMIE_63.jpg",
+      "location": "/images/location/ALCREMIE_63.webp",
       "route": "Ruta 14",
       "baseId": "ALCREMIE",
       "name": "Mega Alcremie",
@@ -3511,7 +3511,7 @@
     {
       "id": "COPPERAJAH1",
       "image": "/images/pokemonFront/COPPERAJAH_1.png",
-      "location": "/images/location/COPPERAJAH_1.jpg",
+      "location": "/images/location/COPPERAJAH_1.webp",
       "route": "Ruta 14",
       "baseId": "COPPERAJAH",
       "name": "Mega Copperajah",
@@ -3540,7 +3540,7 @@
     {
       "id": "DURALUDON1",
       "image": "/images/pokemonFront/DURALUDON_1.png",
-      "location": "/images/location/DURALUDON_1.jpg",
+      "location": "/images/location/DURALUDON_1.webp",
       "baseId": "---",
       "name": "Mega Duraludon",
       "form": "Mega Duraludon",
@@ -3568,7 +3568,7 @@
     {
       "id": "HAWLUCHA1",
       "image": "/images/pokemonFront/HAWLUCHA_1.png",
-      "location": "/images/location/HAWLUCHA_1.jpg",
+      "location": "/images/location/HAWLUCHA_1.webp",
       "route": "Ruta 14",
       "baseId": "HAWLUCHA",
       "name": "Mega Hawlucha",
@@ -3598,7 +3598,7 @@
     {
       "id": "EEVEE1",
       "image": "/images/pokemonFront/EEVEE_1.png",
-      "location": "/images/location/EEVEE_1.jpg",
+      "location": "/images/location/EEVEE_1.webp",
       "baseId": "EEVEE",
       "name": "Eevee Lets Go",
       "form": "Eevee Lets Go",
@@ -3644,7 +3644,7 @@
     {
       "id": "EEVEE2",
       "image": "/images/pokemonFront/EEVEE_2.png",
-      "location": "/images/location/EEVEE_2.jpg",
+      "location": "/images/location/EEVEE_2.webp",
       "route": "Ciudad Añil",
       "baseId": "EEVEE",
       "name": "Mega Eevee",
@@ -3687,7 +3687,7 @@
     {
       "id": "MALAMAR1",
       "image": "/images/pokemonFront/MALAMAR_1.png",
-      "location": "/images/location/MALAMAR_1.jpg",
+      "location": "/images/location/MALAMAR_1.webp",
       "route": "Ruta 14",
       "baseId": "MALAMAR",
       "name": "Mega Malamar",
@@ -3717,7 +3717,7 @@
     {
       "id": "JUMPLUFF1",
       "image": "/images/pokemonFront/JUMPLUFF_1.png",
-      "location": "/images/location/JUMPLUFF_1.jpg",
+      "location": "/images/location/JUMPLUFF_1.webp",
       "route": "Ruta 14",
       "baseId": "JUMPLUFF",
       "name": "Mega Jumpluff",
@@ -3747,7 +3747,7 @@
     {
       "id": "RILLABOOM1",
       "image": "/images/pokemonFront/RILLABOOM_1.png",
-      "location": "/images/location/RILLABOOM_1.jpg",
+      "location": "/images/location/RILLABOOM_1.webp",
       "route": "Ciudad Añil",
       "baseId": "RILLABOOM",
       "name": "Mega Rillaboom",
@@ -3776,7 +3776,7 @@
     {
       "id": "CINDERACE1",
       "image": "/images/pokemonFront/CINDERACE_1.png",
-      "location": "/images/location/CINDERACE_1.jpg",
+      "location": "/images/location/CINDERACE_1.webp",
       "route": "Ciudad Añil",
       "baseId": "CINDERACE",
       "name": "Mega Cinderace",
@@ -3805,7 +3805,7 @@
     {
       "id": "INTELEON1",
       "image": "/images/pokemonFront/INTELEON_1.png",
-      "location": "/images/location/INTELEON_1.jpg",
+      "location": "/images/location/INTELEON_1.webp",
       "route": "Ciudad Añil",
       "baseId": "INTELEON",
       "name": "Mega Inteleon",
@@ -3835,7 +3835,7 @@
     {
       "id": "SNORLAX1",
       "image": "/images/pokemonFront/SNORLAX_1.png",
-      "location": "/images/location/SNORLAX_1.jpg",
+      "location": "/images/location/SNORLAX_1.webp",
       "route": "Bosque Arcoiris",
       "baseId": "SNORLAX",
       "name": "Mega Snorlax",
@@ -3864,7 +3864,7 @@
     {
       "id": "CHESNAUGHT1",
       "image": "/images/pokemonFront/CHESNAUGHT_1.png",
-      "location": "/images/location/CHESNAUGHT_1.jpg",
+      "location": "/images/location/CHESNAUGHT_1.webp",
       "route": "Ciudad Añil",
       "baseId": "CHESNAUGHT",
       "name": "Mega Chesnaught",
@@ -3894,7 +3894,7 @@
     {
       "id": "DELPHOX1",
       "image": "/images/pokemonFront/DELPHOX_1.png",
-      "location": "/images/location/DELPHOX_1.jpg",
+      "location": "/images/location/DELPHOX_1.webp",
       "route": "Ciudad Añil",
       "baseId": "DELPHOX",
       "name": "Mega Delphox",
@@ -3924,7 +3924,7 @@
     {
       "id": "GRENINJA3",
       "image": "/images/pokemonFront/GRENINJA_3.png",
-      "location": "/images/location/GRENINJA_3.jpg",
+      "location": "/images/location/GRENINJA_3.webp",
       "route": "Ciudad Añil",
       "baseId": "GRENINJA",
       "name": "Mega Greninja",
@@ -3954,7 +3954,7 @@
     {
       "id": "MRMIME1",
       "image": "/images/pokemonFront/MRMIME_1.png",
-      "location": "/images/location/MRMIME_1.jpg",
+      "location": "/images/location/MRMIME_1.webp",
       "route": "Ciudad Añil",
       "baseId": "MRMIME",
       "name": "Mr. Mime",
@@ -4001,7 +4001,7 @@
     {
       "id": "ARTICUNO1",
       "image": "/images/pokemonFront/ARTICUNO_1.png",
-      "location": "/images/location/ARTICUNO_1.jpg",
+      "location": "/images/location/ARTICUNO_1.webp",
       "route": "Cueva Glaciada",
       "baseId": "ARTICUNO",
       "name": "Articuno",
@@ -4030,7 +4030,7 @@
     {
       "id": "MOLTRES1",
       "image": "/images/pokemonFront/MOLTRES_1.png",
-      "location": "/images/location/MOLTRES_1.jpg",
+      "location": "/images/location/MOLTRES_1.webp",
       "route": "Islote Recuerdo",
       "baseId": "MOLTRES",
       "name": "Moltres",
@@ -4059,7 +4059,7 @@
     {
       "id": "ZAPDOS1",
       "image": "/images/pokemonFront/ZAPDOS_1.png",
-      "location": "/images/location/ZAPDOS_1.jpg",
+      "location": "/images/location/ZAPDOS_1.webp",
       "route": "Cabo Azabache",
       "baseId": "ZAPDOS",
       "name": "Zapdos",
@@ -4088,7 +4088,7 @@
     {
       "id": "SLOWKING1",
       "image": "/images/pokemonFront/SLOWKING_1.png",
-      "location": "/images/location/SLOWKING_1.jpg",
+      "location": "/images/location/SLOWKING_1.webp",
       "route": "Islote Recuerdo",
       "baseId": "SLOWKING",
       "name": "Slowking",
@@ -4138,7 +4138,7 @@
     {
       "id": "CORSOLA1",
       "image": "/images/pokemonFront/CORSOLA_1.png",
-      "location": "/images/location/CORSOLA_1.jpg",
+      "location": "/images/location/CORSOLA_1.webp",
       "route": "Ruta 13",
       "baseId": "CORSOLA",
       "name": "Corsola",
@@ -4183,7 +4183,7 @@
     {
       "id": "ZIGZAGOON1",
       "image": "/images/pokemonFront/ZIGZAGOON_1.png",
-      "location": "/images/location/ZIGZAGOON_1.jpg",
+      "location": "/images/location/ZIGZAGOON_1.webp",
       "baseId": "ZIGZAGOON",
       "name": "Zigzagoon",
       "form": "Forma galar",
@@ -4237,7 +4237,7 @@
     {
       "id": "LINOONE1",
       "image": "/images/pokemonFront/LINOONE_1.png",
-      "location": "/images/location/LINOONE_1.jpg",
+      "location": "/images/location/LINOONE_1.webp",
       "baseId": "LINOONE",
       "name": "Linoone",
       "form": "Forma galar",
@@ -4291,7 +4291,7 @@
     {
       "id": "CASTFORM_1",
       "image": "/images/pokemonFront/CASTFORM_1.png",
-      "location": "/images/location/CASTFORM_1.jpg",
+      "location": "/images/location/CASTFORM_1.webp",
       "baseId": "CASTFORM",
       "name": "Castform",
       "form": "Forma Sol",
@@ -4318,7 +4318,7 @@
     {
       "id": "CASTFORM_2",
       "image": "/images/pokemonFront/CASTFORM_2.png",
-      "location": "/images/location/CASTFORM_2.jpg",
+      "location": "/images/location/CASTFORM_2.webp",
       "baseId": "CASTFORM",
       "name": "Castform",
       "form": "Forma Lluvia",
@@ -4345,7 +4345,7 @@
     {
       "id": "CASTFORM_3",
       "image": "/images/pokemonFront/CASTFORM_3.png",
-      "location": "/images/location/CASTFORM_3.jpg",
+      "location": "/images/location/CASTFORM_3.webp",
       "baseId": "CASTFORM",
       "name": "Castform",
       "form": "Forma Nieve",
@@ -4372,7 +4372,7 @@
     {
       "id": "ROTOM1",
       "image": "/images/pokemonFront/ROTOM_1.png",
-      "location": "/images/location/ROTOM_1.jpg",
+      "location": "/images/location/ROTOM_1.webp",
       "route": "Ciudad Azulona",
       "baseId": "ROTOM",
       "name": "Rotom",
@@ -4401,7 +4401,7 @@
     {
       "id": "ROTOM2",
       "image": "/images/pokemonFront/ROTOM_2.png",
-      "location": "/images/location/ROTOM_2.jpg",
+      "location": "/images/location/ROTOM_2.webp",
       "route": "Ciudad Azulona",
       "baseId": "ROTOM",
       "name": "Rotom",
@@ -4430,7 +4430,7 @@
     {
       "id": "ROTOM3",
       "image": "/images/pokemonFront/ROTOM_3.png",
-      "location": "/images/location/ROTOM_3.jpg",
+      "location": "/images/location/ROTOM_3.webp",
       "route": "Ciudad Azulona",
       "baseId": "ROTOM",
       "name": "Rotom",
@@ -4459,7 +4459,7 @@
     {
       "id": "ROTOM4",
       "image": "/images/pokemonFront/ROTOM_4.png",
-      "location": "/images/location/ROTOM_4.jpg",
+      "location": "/images/location/ROTOM_4.webp",
       "route": "Ciudad Azulona",
       "baseId": "ROTOM",
       "name": "Rotom",
@@ -4488,7 +4488,7 @@
     {
       "id": "ROTOM5",
       "image": "/images/pokemonFront/ROTOM_5.png",
-      "location": "/images/location/ROTOM_5.jpg",
+      "location": "/images/location/ROTOM_5.webp",
       "route": "Ciudad Azulona",
       "baseId": "ROTOM",
       "name": "Rotom",
@@ -4517,7 +4517,7 @@
     {
       "id": "SHAYMIN1",
       "image": "/images/pokemonFront/SHAYMIN_1.png",
-      "location": "/images/location/SHAYMIN_1.jpg",
+      "location": "/images/location/SHAYMIN_1.webp",
       "route": "Torre Batalla",
       "baseId": "SHAYMIN",
       "name": "Shaymin",
@@ -4545,7 +4545,7 @@
     {
       "id": "DARUMAKA2",
       "image": "/images/pokemonFront/DARUMAKA_2.png",
-      "location": "/images/location/DARUMAKA_2.jpg",
+      "location": "/images/location/DARUMAKA_2.webp",
       "baseId": "DARUMAKA",
       "name": "Darumaka",
       "form": "Forma galar",
@@ -4589,7 +4589,7 @@
     {
       "id": "DARMANITAN1",
       "image": "/images/pokemonFront/DARMANITAN_2.png",
-      "location": "/images/location/DARMANITAN_2.jpg",
+      "location": "/images/location/DARMANITAN_2.webp",
       "route": "Ruta 25 Norte",
       "baseId": "DARMANITAN",
       "name": "Darmanitan",
@@ -4634,7 +4634,7 @@
     {
       "id": "YAMASK1",
       "image": "/images/pokemonFront/YAMASK_1.png",
-      "location": "/images/location/YAMASK_1.jpg",
+      "location": "/images/location/YAMASK_1.webp",
       "route": "Monte Moon (exterior)",
       "baseId": "YAMASK",
       "name": "Yamask",
@@ -4677,7 +4677,7 @@
     {
       "id": "STUNFISK",
       "image": "/images/pokemonFront/STUNFISK_1.png",
-      "location": "/images/location/STUNFISK_1.jpg",
+      "location": "/images/location/STUNFISK_1.webp",
       "route": "Almacén Secreto",
       "baseId": "STUNFISK",
       "name": "Stunfisk",
@@ -4706,7 +4706,7 @@
     {
       "id": "AEGISLASH1",
       "image": "/images/pokemonFront/AEGISLASH_1.png",
-      "location": "/images/location/AEGISLASH_1.jpg",
+      "location": "/images/location/AEGISLASH_1.webp",
       "route": "Cueva Celeste",
       "baseId": "AEGISLASH",
       "name": "Aegislash",
@@ -4757,7 +4757,7 @@
     {
       "id": "LYCANROC1",
       "image": "/images/pokemonFront/LYCANROC_1.png",
-      "location": "/images/location/LYCANROC_1.jpg",
+      "location": "/images/location/LYCANROC_1.webp",
       "route": "Ruta 23 - Noche",
       "baseId": "LYCANROC",
       "name": "Lycanroc",
@@ -4811,7 +4811,7 @@
     {
       "id": "LYCANROC2",
       "image": "/images/pokemonFront/LYCANROC_2.png",
-      "location": "/images/location/LYCANROC_2.jpg",
+      "location": "/images/location/LYCANROC_2.webp",
       "route": "Ruta 23 - Tarde",
       "baseId": "LYCANROC",
       "name": "Lycanroc",
@@ -4861,7 +4861,7 @@
     {
       "id": "TOXTRICITY1",
       "image": "/images/pokemonFront/TOXTRICITY_1.png",
-      "location": "/images/location/TOXTRICITY_1.jpg",
+      "location": "/images/location/TOXTRICITY_1.webp",
       "route": "Ciudad Fucsia",
       "baseId": "TOXTRICITY",
       "name": "Toxtricity",
@@ -4908,7 +4908,7 @@
     {
       "id": "TOXTRICITY2",
       "image": "/images/pokemonFront/TOXTRICITY_2.png",
-      "location": "/images/location/TOXTRICITY_2.jpg",
+      "location": "/images/location/TOXTRICITY_2.webp",
       "route": "Ruta 14",
       "baseId": "TOXTRICITY",
       "name": "Mega Toxtricity",
@@ -4938,7 +4938,7 @@
     {
       "id": "GROWLITHE1",
       "image": "/images/pokemonFront/GROWLITHE_1.png",
-      "location": "/images/location/GROWLITHE_1.jpg",
+      "location": "/images/location/GROWLITHE_1.webp",
       "baseId": "GROWLITHE",
       "name": "Growlithe",
       "form": "Forma Hisui",
@@ -4984,7 +4984,7 @@
     {
       "id": "ARCANINE1",
       "image": "/images/pokemonFront/ARCANINE_1.png",
-      "location": "/images/location/ARCANINE_1.jpg",
+      "location": "/images/location/ARCANINE_1.webp",
       "route": "Ruta 27",
       "baseId": "ARCANINE",
       "name": "Arcanine",
@@ -5031,7 +5031,7 @@
     {
       "id": "TAUROS1",
       "image": "/images/pokemonFront/TAUROS_1.png",
-      "location": "/images/location/TAUROS_1.jpg",
+      "location": "/images/location/TAUROS_1.webp",
       "baseId": "TAUROS",
       "name": "Tauros",
       "form": "Forma Paldea (combatiente)",
@@ -5062,7 +5062,7 @@
     {
       "id": "LILLIGANT1",
       "image": "/images/pokemonFront/LILLIGANT_1.png",
-      "location": "/images/location/LILLIGANT_1.jpg",
+      "location": "/images/location/LILLIGANT_1.webp",
       "route": "Ruta 29",
       "baseId": "LILLIGANT",
       "name": "Lilligant",
@@ -5095,7 +5095,7 @@
     {
       "id": "SNEASEL1",
       "image": "/images/pokemonFront/SNEASEL_1.png",
-      "location": "/images/location/SNEASEL_1.jpg",
+      "location": "/images/location/SNEASEL_1.webp",
       "route": "Ciudad Carmín",
       "baseId": "SNEASEL",
       "name": "Sneasel",
@@ -5142,7 +5142,7 @@
     {
       "id": "AVALUGG1",
       "image": "/images/pokemonFront/AVALUGG_1.png",
-      "location": "/images/location/AVALUGG_1.jpg",
+      "location": "/images/location/AVALUGG_1.webp",
       "route": "Ruta 25 Sur",
       "baseId": "AVALUGG",
       "name": "Avalugg",
@@ -5175,7 +5175,7 @@
     {
       "id": "DECIDUEYE1",
       "image": "/images/pokemonFront/DECIDUEYE_1.png",
-      "location": "/images/location/DECIDUEYE_1.jpg",
+      "location": "/images/location/DECIDUEYE_1.webp",
       "baseId": "DECIDUEYE",
       "name": "Decidueye",
       "form": "Forma Hisui",
@@ -5207,7 +5207,7 @@
     {
       "id": "WOOPER1",
       "image": "/images/pokemonFront/WOOPER_1.png",
-      "location": "/images/location/WOOPER_1.jpg",
+      "location": "/images/location/WOOPER_1.webp",
       "route": "Ruta 21",
       "baseId": "WOOPER",
       "name": "Wooper",
@@ -5254,7 +5254,7 @@
     {
       "id": "QWILFISH1",
       "image": "/images/pokemonFront/QWILFISH_1.png",
-      "location": "/images/location/QWILFISH_1.jpg",
+      "location": "/images/location/QWILFISH_1.webp",
       "baseId": "QWILFISH",
       "name": "Qwilfish",
       "form": "Forma Hisui",
@@ -5300,7 +5300,7 @@
     {
       "id": "GIMMIGHOUL1",
       "image": "/images/pokemonFront/GIMMIGHOUL_1.png",
-      "location": "/images/location/GIMMIGHOUL_1.jpg",
+      "location": "/images/location/GIMMIGHOUL_1.webp",
       "baseId": "GIMMIGHOUL",
       "name": "Gimmighoul",
       "form": "Forma Andante",
@@ -5341,7 +5341,7 @@
     {
       "id": "PALAFIN1",
       "image": "/images/pokemonFront/PALAFIN_1.png",
-      "location": "/images/location/PALAFIN_1.jpg",
+      "location": "/images/location/PALAFIN_1.webp",
       "baseId": "PALAFIN",
       "name": "Palafin",
       "form": "Forma Heroica",
@@ -5368,7 +5368,7 @@
     {
       "id": "URSALUNA1",
       "image": "/images/pokemonFront/URSALUNA_1.png",
-      "location": "/images/location/URSALUNA_1.jpg",
+      "location": "/images/location/URSALUNA_1.webp",
       "baseId": "URSALUNA",
       "name": "Ursaluna",
       "form": "Forma Luna Carmesí",
@@ -5399,7 +5399,7 @@
     {
       "id": "SLIGGOO1",
       "image": "/images/pokemonFront/SLIGGOO_1.png",
-      "location": "/images/location/SLIGGOO_1.jpg",
+      "location": "/images/location/SLIGGOO_1.webp",
       "route": "Cabo Magenta",
       "baseId": "SLIGGOO",
       "name": "Sliggoo",
@@ -5446,7 +5446,7 @@
     {
       "id": "GOODRA1",
       "image": "/images/pokemonFront/GOODRA_1.png",
-      "location": "/images/location/GOODRA_1.jpg",
+      "location": "/images/location/GOODRA_1.webp",
       "route": "Cabo Magenta",
       "baseId": "GOODRA",
       "name": "Goodra",
@@ -5493,7 +5493,7 @@
     {
       "id": "BRAVIARY1",
       "image": "/images/pokemonFront/BRAVIARY_1.png",
-      "location": "/images/location/BRAVIARY_1.jpg",
+      "location": "/images/location/BRAVIARY_1.webp",
       "route": "Ruta 28",
       "baseId": "BRAVIARY",
       "name": "Braviary",
@@ -5526,7 +5526,7 @@
     {
       "id": "ZORUA1",
       "image": "/images/pokemonFront/ZORUA_1.png",
-      "location": "/images/location/ZORUA_1.jpg",
+      "location": "/images/location/ZORUA_1.webp",
       "baseId": "ZORUA",
       "name": "Zorua",
       "form": "Forma Hisui",
@@ -5568,7 +5568,7 @@
     {
       "id": "ZOROARK1",
       "image": "/images/pokemonFront/ZOROARK_1.png",
-      "location": "/images/location/ZOROARK_1.jpg",
+      "location": "/images/location/ZOROARK_1.webp",
       "route": "Bosque Arcoiris",
       "baseId": "ZOROARK",
       "name": "Zoroark",
@@ -5611,7 +5611,7 @@
     {
       "id": "SAMUROTT1",
       "image": "/images/pokemonFront/SAMUROTT_1.png",
-      "location": "/images/location/SAMUROTT_1.jpg",
+      "location": "/images/location/SAMUROTT_1.webp",
       "baseId": "SAMUROTT",
       "name": "Samurott",
       "form": "Forma Hisui",
@@ -5642,7 +5642,7 @@
     {
       "id": "TYPHLOSION1",
       "image": "/images/pokemonFront/TYPHLOSION_1.png",
-      "location": "/images/location/TYPHLOSION_1.jpg",
+      "location": "/images/location/TYPHLOSION_1.webp",
       "baseId": "TYPHLOSION",
       "name": "Typhlosion",
       "form": "Forma Hisui",
@@ -5673,7 +5673,7 @@
     {
       "id": "TAUROS2",
       "image": "/images/pokemonFront/TAUROS_2.png",
-      "location": "/images/location/TAUROS_2.jpg",
+      "location": "/images/location/TAUROS_2.webp",
       "baseId": "TAUROS",
       "name": "Tauros",
       "form": "Forma Paldea (Ardiente)",
@@ -5705,7 +5705,7 @@
     {
       "id": "TAUROS3",
       "image": "/images/pokemonFront/TAUROS_3.png",
-      "location": "/images/location/TAUROS_3.jpg",
+      "location": "/images/location/TAUROS_3.webp",
       "baseId": "TAUROS",
       "name": "Tauros",
       "form": "Forma Paldea (Acuática)",
@@ -5737,7 +5737,7 @@
     {
       "id": "WISHIWASHI1",
       "image": "/images/pokemonFront/WISHIWASHI_1.png",
-      "location": "/images/location/WISHIWASHI_1.jpg",
+      "location": "/images/location/WISHIWASHI_1.webp",
       "baseId": "WISHIWASHI",
       "name": "Wishiwashi",
       "form": "Forma Banco",
@@ -5764,7 +5764,7 @@
     {
       "id": "FURFROU7",
       "image": "/images/pokemonFront/FURFROU_7.png",
-      "location": "/images/location/FURFROU_1.jpg",
+      "location": "/images/location/FURFROU_1.webp",
       "baseId": "FURFROU",
       "name": "Furfrou",
       "form": "Forma Corte Aristocrático",
@@ -5792,7 +5792,7 @@
     {
       "id": "FURFROU1",
       "image": "/images/pokemonFront/FURFROU_1.png",
-      "location": "/images/location/FURFROU_1.jpg",
+      "location": "/images/location/FURFROU_1.webp",
       "baseId": "FURFROU",
       "name": "Furfrou",
       "form": "Forma Corte Corazón",
@@ -5820,7 +5820,7 @@
     {
       "id": "FURFROU2",
       "image": "/images/pokemonFront/FURFROU_2.png",
-      "location": "/images/location/FURFROU_1.jpg",
+      "location": "/images/location/FURFROU_1.webp",
       "baseId": "FURFROU",
       "name": "Furfrou",
       "form": "Forma Corte Estrella",
@@ -5848,7 +5848,7 @@
     {
       "id": "FURFROU3",
       "image": "/images/pokemonFront/FURFROU_3.png",
-      "location": "/images/location/FURFROU_1.jpg",
+      "location": "/images/location/FURFROU_1.webp",
       "baseId": "FURFROU",
       "name": "Furfrou",
       "form": "Forma Corte Rombo",
@@ -5876,7 +5876,7 @@
     {
       "id": "FURFROU4",
       "image": "/images/pokemonFront/FURFROU_4.png",
-      "location": "/images/location/FURFROU_1.jpg",
+      "location": "/images/location/FURFROU_1.webp",
       "baseId": "FURFROU",
       "name": "Furfrou",
       "form": "Forma Corte Señorita",
@@ -5904,7 +5904,7 @@
     {
       "id": "FURFROU9",
       "image": "/images/pokemonFront/FURFROU_9.png",
-      "location": "/images/location/FURFROU_1.jpg",
+      "location": "/images/location/FURFROU_1.webp",
       "baseId": "FURFROU",
       "name": "Furfrou",
       "form": "Forma Corte Faraónico",
@@ -5932,7 +5932,7 @@
     {
       "id": "FURFROU5",
       "image": "/images/pokemonFront/FURFROU_5.png",
-      "location": "/images/location/FURFROU_1.jpg",
+      "location": "/images/location/FURFROU_1.webp",
       "baseId": "FURFROU",
       "name": "Furfrou",
       "form": "Forma Corte Dama",
@@ -5960,7 +5960,7 @@
     {
       "id": "FURFROU8",
       "image": "/images/pokemonFront/FURFROU_8.png",
-      "location": "/images/location/FURFROU_1.jpg",
+      "location": "/images/location/FURFROU_1.webp",
       "baseId": "FURFROU",
       "name": "Furfrou",
       "form": "Forma Corte Kabuki",
@@ -5988,7 +5988,7 @@
     {
       "id": "FURFROU6",
       "image": "/images/pokemonFront/FURFROU_6.png",
-      "location": "/images/location/FURFROU_1.jpg",
+      "location": "/images/location/FURFROU_1.webp",
       "baseId": "FURFROU",
       "name": "Furfrou",
       "form": "Forma Corte Caballero",
@@ -6016,7 +6016,7 @@
     {
       "id": "MEOWSTIC1",
       "image": "/images/pokemonFront/MEOWSTIC_1.png",
-      "location": "/images/location/MEOWSTIC_1.jpg",
+      "location": "/images/location/MEOWSTIC_1.webp",
       "route": "Ciudad Azafrán",
       "baseId": "MEOWSTIC",
       "name": "Meowstic",
@@ -6062,7 +6062,7 @@
     {
       "id": "MEOWSTIC2",
       "image": "/images/pokemonFront/MEOWSTIC_2.png",
-      "location": "/images/location/MEOWSTIC_2.jpg",
+      "location": "/images/location/MEOWSTIC_2.webp",
       "route": "Ruta 14",
       "baseId": "MEOWSTIC",
       "name": "Mega Meowstic",
@@ -6090,7 +6090,7 @@
     {
       "id": "DEOXYS1",
       "image": "/images/pokemonFront/DEOXYS_1.png",
-      "location": "/images/location/DEOXYS_1.jpg",
+      "location": "/images/location/DEOXYS_1.webp",
       "route": "Torre Batalla",
       "baseId": "DEOXYS",
       "name": "Deoxys",
@@ -6118,7 +6118,7 @@
     {
       "id": "DEOXYS2",
       "image": "/images/pokemonFront/DEOXYS_2.png",
-      "location": "/images/location/DEOXYS_2.jpg",
+      "location": "/images/location/DEOXYS_2.webp",
       "route": "Torre Batalla",
       "baseId": "DEOXYS",
       "name": "Deoxys",
@@ -6146,7 +6146,7 @@
     {
       "id": "DEOXYS3",
       "image": "/images/pokemonFront/DEOXYS_3.png",
-      "location": "/images/location/DEOXYS_3.jpg",
+      "location": "/images/location/DEOXYS_3.webp",
       "route": "Torre Batalla",
       "baseId": "DEOXYS",
       "name": "Deoxys",
@@ -6174,7 +6174,7 @@
     {
       "id": "GROUDON1",
       "image": "/images/pokemonFront/GROUDON_1.png",
-      "location": "/images/location/GROUDON_1.jpg",
+      "location": "/images/location/GROUDON_1.webp",
       "baseId": "GROUDON",
       "name": "Groudon",
       "form": "Forma Primigenia",
@@ -6202,7 +6202,7 @@
     {
       "id": "KYOGRE1",
       "image": "/images/pokemonFront/KYOGRE_1.png",
-      "location": "/images/location/KYOGRE_1.jpg",
+      "location": "/images/location/KYOGRE_1.webp",
       "route": "Torre Batalla",
       "baseId": "KYOGRE",
       "name": "Kyogre",
@@ -6230,7 +6230,7 @@
     {
       "id": "THUNDURUS1",
       "image": "/images/pokemonFront/THUNDURUS_1.png",
-      "location": "/images/location/THUNDURUS_1.jpg",
+      "location": "/images/location/THUNDURUS_1.webp",
       "route": "Torre Batalla",
       "baseId": "THUNDURUS",
       "name": "Thundurus",
@@ -6259,7 +6259,7 @@
     {
       "id": "LANDORUS1",
       "image": "/images/pokemonFront/LANDORUS_1.png",
-      "location": "/images/location/LANDORUS_1.jpg",
+      "location": "/images/location/LANDORUS_1.webp",
       "route": "Torre Batalla",
       "baseId": "LANDORUS",
       "name": "Landorus",
@@ -6288,7 +6288,7 @@
     {
       "id": "TORNADUS1",
       "image": "/images/pokemonFront/TORNADUS_1.png",
-      "location": "/images/location/TORNADUS_1.jpg",
+      "location": "/images/location/TORNADUS_1.webp",
       "route": "Torre Batalla",
       "baseId": "TORNADUS",
       "name": "Tornadus",
@@ -6316,7 +6316,7 @@
     {
       "id": "ENAMORUS1",
       "image": "/images/pokemonFront/ENAMORUS_1.png",
-      "location": "/images/location/ENAMORUS_1.jpg",
+      "location": "/images/location/ENAMORUS_1.webp",
       "route": "Torre Batalla",
       "baseId": "ENAMORUS",
       "name": "Enamorus",
@@ -6348,7 +6348,7 @@
     {
       "id": "HOOPA1",
       "image": "/images/pokemonFront/HOOPA_1.png",
-      "location": "/images/location/HOOPA_1.jpg",
+      "location": "/images/location/HOOPA_1.webp",
       "route": "Torre Batalla",
       "baseId": "HOOPA",
       "name": "Hoopa",
@@ -6377,7 +6377,7 @@
     {
       "id": "CALYREX1",
       "image": "/images/pokemonFront/CALYREX_1.png",
-      "location": "/images/location/CALYREX_1.jpg",
+      "location": "/images/location/CALYREX_1.webp",
       "baseId": "CALYREX",
       "name": "Calyrex",
       "form": "Forma Jinete Glacial",
@@ -6405,7 +6405,7 @@
     {
       "id": "CALYREX2",
       "image": "/images/pokemonFront/CALYREX_2.png",
-      "location": "/images/location/CALYREX_2.jpg",
+      "location": "/images/location/CALYREX_2.webp",
       "baseId": "CALYREX",
       "name": "Calyrex",
       "form": "Forma Jinete Espectral",
@@ -6433,7 +6433,7 @@
     {
       "id": "GIRATINA1",
       "image": "/images/pokemonFront/GIRATINA_1.png",
-      "location": "/images/location/GIRATINA_1.jpg",
+      "location": "/images/location/GIRATINA_1.webp",
       "route": "Torre Batalla",
       "baseId": "GIRATINA",
       "name": "Giratina",
@@ -6462,7 +6462,7 @@
     {
       "id": "DIALGA1",
       "image": "/images/pokemonFront/DIALGA_1.png",
-      "location": "/images/location/DIALGA_1.jpg",
+      "location": "/images/location/DIALGA_1.webp",
       "route": "Torre Batalla",
       "baseId": "DIALGA",
       "name": "Dialga",
@@ -6494,7 +6494,7 @@
     {
       "id": "PALKIA1",
       "image": "/images/pokemonFront/PALKIA_1.png",
-      "location": "/images/location/PALKIA_1.jpg",
+      "location": "/images/location/PALKIA_1.webp",
       "route": "Torre Batalla",
       "baseId": "PALKIA",
       "name": "Palkia",
@@ -6526,7 +6526,7 @@
     {
       "id": "OGERPON1",
       "image": "/images/pokemonFront/OGERPON_1.png",
-      "location": "/images/location/OGERPON_1.jpg",
+      "location": "/images/location/OGERPON_1.webp",
       "route": "Torre Batalla",
       "baseId": "OGERPON",
       "name": "Ogerpon",
@@ -6555,7 +6555,7 @@
     {
       "id": "OGERPON2",
       "image": "/images/pokemonFront/OGERPON_2.png",
-      "location": "/images/location/OGERPON_2.jpg",
+      "location": "/images/location/OGERPON_2.webp",
       "route": "Torre Batalla",
       "baseId": "OGERPON",
       "name": "Ogerpon",
@@ -6584,7 +6584,7 @@
     {
       "id": "OGERPON3",
       "image": "/images/pokemonFront/OGERPON_3.png",
-      "location": "/images/location/OGERPON_3.jpg",
+      "location": "/images/location/OGERPON_3.webp",
       "route": "Torre Batalla",
       "baseId": "OGERPON",
       "name": "Ogerpon",
@@ -6613,7 +6613,7 @@
     {
       "id": "ZAMAZENTA1",
       "image": "/images/pokemonFront/ZAMAZENTA_1.png",
-      "location": "/images/location/ZAMAZENTA_1.jpg",
+      "location": "/images/location/ZAMAZENTA_1.webp",
       "baseId": "ZAMAZENTA",
       "name": "Zamazenta",
       "form": "Forma Escudo Supremo",
@@ -6641,7 +6641,7 @@
     {
       "id": "ZACIAN1",
       "image": "/images/pokemonFront/ZACIAN_1.png",
-      "location": "/images/location/ZACIAN_1.jpg",
+      "location": "/images/location/ZACIAN_1.webp",
       "baseId": "ZACIAN",
       "name": "Zacian",
       "form": "Forma Espada Suprema",
@@ -6669,7 +6669,7 @@
     {
       "id": "MINIOR7",
       "image": "/images/pokemonFront/MINIOR_7.png",
-      "location": "/images/location/MINIOR_7.jpg",
+      "location": "/images/location/MINIOR_7.webp",
       "route": "Túnel Roca",
       "baseId": "MINIOR",
       "name": "Minior",
@@ -6698,7 +6698,7 @@
     {
       "id": "EISCUE1",
       "image": "/images/pokemonFront/EISCUE_1.png",
-      "location": "/images/location/EISCUE_1.jpg",
+      "location": "/images/location/EISCUE_1.webp",
       "route": "Islas Espuma",
       "baseId": "EISCUE",
       "name": "Eiscue",
@@ -6726,7 +6726,7 @@
     {
       "id": "INDEEDEE1",
       "image": "/images/pokemonFront/INDEEDEE_1.png",
-      "location": "/images/location/INDEEDEE_1.jpg",
+      "location": "/images/location/INDEEDEE_1.webp",
       "route": "Ciudad Azafrán",
       "baseId": "INDEEDEE",
       "name": "Indeedee",
@@ -6756,7 +6756,7 @@
     {
       "id": "OINKOLOGNE1",
       "image": "/images/pokemonFront/OINKOLOGNE_1.png",
-      "location": "/images/location/OINKOLOGNE_1.jpg",
+      "location": "/images/location/OINKOLOGNE_1.webp",
       "route": "Ruta 14",
       "baseId": "OINKOLOGNE",
       "name": "Oinkologne",
@@ -6802,7 +6802,7 @@
     {
       "id": "KYUREM2",
       "image": "/images/pokemonFront/KYUREM_2.png",
-      "location": "/images/location/KYUREM_2.jpg",
+      "location": "/images/location/KYUREM_2.webp",
       "route": "Torre Batalla",
       "baseId": "KYUREM",
       "name": "Kyurem",
@@ -6831,7 +6831,7 @@
     {
       "id": "ZYGARDE1",
       "image": "/images/pokemonFront/ZYGARDE_1.png",
-      "location": "/images/location/ZYGARDE_1.jpg",
+      "location": "/images/location/ZYGARDE_1.webp",
       "route": "Torre Batalla",
       "baseId": "ZYGARDE",
       "name": "Zygarde",
@@ -6860,7 +6860,7 @@
     {
       "id": "ZYGARDE2",
       "image": "/images/pokemonFront/ZYGARDE_2.png",
-      "location": "/images/location/ZYGARDE_2.jpg",
+      "location": "/images/location/ZYGARDE_2.webp",
       "route": "Torre Batalla",
       "baseId": "ZYGARDE",
       "name": "Zygarde",
@@ -6889,7 +6889,7 @@
     {
       "id": "NECROZMA1",
       "image": "/images/pokemonFront/NECROZMA_1.png",
-      "location": "/images/location/NECROZMA_1.jpg",
+      "location": "/images/location/NECROZMA_1.webp",
       "route": "Torre Batalla",
       "baseId": "NECROZMA",
       "name": "Necrozma",
@@ -6918,7 +6918,7 @@
     {
       "id": "NECROZMA2",
       "image": "/images/pokemonFront/NECROZMA_2.png",
-      "location": "/images/location/NECROZMA_2.jpg",
+      "location": "/images/location/NECROZMA_2.webp",
       "route": "Torre Batalla",
       "baseId": "NECROZMA",
       "name": "Necrozma",
@@ -6947,7 +6947,7 @@
     {
       "id": "URSHIFU1",
       "image": "/images/pokemonFront/URSHIFU_1.png",
-      "location": "/images/location/URSHIFU_1.jpg",
+      "location": "/images/location/URSHIFU_1.webp",
       "route": "Torre Batalla",
       "baseId": "URSHIFU",
       "name": "Urshifu",
@@ -6993,7 +6993,7 @@
     {
       "id": "CLEFABLE1",
       "image": "/images/pokemonFront/CLEFABLE_1.png",
-      "location": "/images/location/CLEFABLE_1.jpg",
+      "location": "/images/location/CLEFABLE_1.webp",
       "route": "Ruta 14",
       "baseId": "CLEFABLE",
       "name": "Mega Clefable",
@@ -7023,7 +7023,7 @@
     {
       "id": "STARMIE1",
       "image": "/images/pokemonFront/STARMIE_1.png",
-      "location": "/images/location/STARMIE_1.jpg",
+      "location": "/images/location/STARMIE_1.webp",
       "route": "Ruta 14",
       "baseId": "STARMIE",
       "name": "Mega Starmie",
@@ -7053,7 +7053,7 @@
     {
       "id": "MEGANIUM1",
       "image": "/images/pokemonFront/MEGANIUM_1.png",
-      "location": "/images/location/MEGANIUM_1.jpg",
+      "location": "/images/location/MEGANIUM_1.webp",
       "route": "Ciudad Añil",
       "baseId": "MEGANIUM",
       "name": "Mega Meganium",
@@ -7083,7 +7083,7 @@
     {
       "id": "FERALIGATR1",
       "image": "/images/pokemonFront/FERALIGATR_1.png",
-      "location": "/images/location/FERALIGATR_1.jpg",
+      "location": "/images/location/FERALIGATR_1.webp",
       "route": "Ciudad Añil",
       "baseId": "FERALIGATR",
       "name": "Mega Feraligatr",
@@ -7113,7 +7113,7 @@
     {
       "id": "SKARMORY1",
       "image": "/images/pokemonFront/SKARMORY_1.png",
-      "location": "/images/location/SKARMORY_1.jpg",
+      "location": "/images/location/SKARMORY_1.webp",
       "route": "Ruta 14",
       "baseId": "SKARMORY",
       "name": "Mega Skarmory",
@@ -7143,7 +7143,7 @@
     {
       "id": "FROSLASS1",
       "image": "/images/pokemonFront/FROSLASS_1.png",
-      "location": "/images/location/FROSLASS_1.jpg",
+      "location": "/images/location/FROSLASS_1.webp",
       "route": "Ruta 14",
       "baseId": "FROSLASS",
       "name": "Mega Froslass",
@@ -7173,7 +7173,7 @@
     {
       "id": "EMBOAR1",
       "image": "/images/pokemonFront/EMBOAR_1.png",
-      "location": "/images/location/EMBOAR_1.jpg",
+      "location": "/images/location/EMBOAR_1.webp",
       "route": "Ciudad Añil",
       "baseId": "EMBOAR",
       "name": "Mega Emboar",
@@ -7203,7 +7203,7 @@
     {
       "id": "EXCADRILL1",
       "image": "/images/pokemonFront/EXCADRILL_1.png",
-      "location": "/images/location/EXCADRILL_1.jpg",
+      "location": "/images/location/EXCADRILL_1.webp",
       "route": "Ruta 14",
       "baseId": "EXCADRILL",
       "name": "Mega Excadrill",
@@ -7233,7 +7233,7 @@
     {
       "id": "SCOLIPEDE1",
       "image": "/images/pokemonFront/SCOLIPEDE_1.png",
-      "location": "/images/location/SCOLIPEDE_1.jpg",
+      "location": "/images/location/SCOLIPEDE_1.webp",
       "route": "Ruta 14",
       "baseId": "SCOLIPEDE",
       "name": "Mega Scolipede",
@@ -7263,7 +7263,7 @@
     {
       "id": "SCRAFTY1",
       "image": "/images/pokemonFront/SCRAFTY_1.png",
-      "location": "/images/location/SCRAFTY_1.jpg",
+      "location": "/images/location/SCRAFTY_1.webp",
       "route": "Ruta 14",
       "baseId": "SCRAFTY",
       "name": "Mega Scrafty",
@@ -7293,7 +7293,7 @@
     {
       "id": "EELEKTROSS1",
       "image": "/images/pokemonFront/EELEKTROSS_1.png",
-      "location": "/images/location/EELEKTROSS_1.jpg",
+      "location": "/images/location/EELEKTROSS_1.webp",
       "route": "Ruta 14",
       "baseId": "EELEKTROSS",
       "name": "Mega Eelektross",
@@ -7322,7 +7322,7 @@
     {
       "id": "CHANDELURE1",
       "image": "/images/pokemonFront/CHANDELURE_1.png",
-      "location": "/images/location/CHANDELURE_1.jpg",
+      "location": "/images/location/CHANDELURE_1.webp",
       "route": "Ruta 14",
       "baseId": "CHANDELURE",
       "name": "Mega Chandelure",
@@ -7352,7 +7352,7 @@
     {
       "id": "PYROAR1",
       "image": "/images/pokemonFront/PYROAR_1.png",
-      "location": "/images/location/PYROAR_1.jpg",
+      "location": "/images/location/PYROAR_1.webp",
       "route": "Ruta 14",
       "baseId": "PYROAR",
       "name": "Mega Pyroar",
@@ -7382,7 +7382,7 @@
     {
       "id": "BARBARACLE1",
       "image": "/images/pokemonFront/BARBARACLE_1.png",
-      "location": "/images/location/BARBARACLE_1.jpg",
+      "location": "/images/location/BARBARACLE_1.webp",
       "route": "Ruta 14",
       "baseId": "BARBARACLE",
       "name": "Mega Barbaracle",
@@ -7412,7 +7412,7 @@
     {
       "id": "DRAGALGE1",
       "image": "/images/pokemonFront/DRAGALGE_1.png",
-      "location": "/images/location/DRAGALGE_1.jpg",
+      "location": "/images/location/DRAGALGE_1.webp",
       "route": "Ruta 14",
       "baseId": "DRAGALGE",
       "name": "Mega Dragalge",
@@ -7442,7 +7442,7 @@
     {
       "id": "DRAMPA1",
       "image": "/images/pokemonFront/DRAMPA_1.png",
-      "location": "/images/location/DRAMPA_1.jpg",
+      "location": "/images/location/DRAMPA_1.webp",
       "route": "Ruta 14",
       "baseId": "DRAMPA",
       "name": "Mega Drampa",
@@ -7472,7 +7472,7 @@
     {
       "id": "FALINKS1",
       "image": "/images/pokemonFront/FALINKS_1.png",
-      "location": "/images/location/FALINKS_1.jpg",
+      "location": "/images/location/FALINKS_1.webp",
       "route": "Ruta 14",
       "baseId": "FALINKS",
       "name": "Mega Falinks",
@@ -7502,7 +7502,7 @@
     {
       "id": "FLOETTE5",
       "image": "/images/pokemonFront/FLOETTE_5.png",
-      "location": "/images/location/FLOETTE_5.jpg",
+      "location": "/images/location/FLOETTE_5.webp",
       "baseId": "FLOETTE",
       "name": "Flor Eterna",
       "form": "Forma Flor Eterna",
@@ -7532,7 +7532,7 @@
     {
       "id": "FLOETTE6",
       "image": "/images/pokemonFront/FLOETTE_6.png",
-      "location": "/images/location/FLOETTE_6.jpg",
+      "location": "/images/location/FLOETTE_6.webp",
       "baseId": "FLOETTE",
       "name": "Mega Floette",
       "form": "Mega Floette",
@@ -7560,7 +7560,7 @@
     {
       "id": "CHIMECHO1",
       "image": "/images/pokemonFront/CHIMECHO_1.png",
-      "location": "/images/location/CHIMECHO_1.jpg",
+      "location": "/images/location/CHIMECHO_1.webp",
       "route": "Ruta 14",
       "baseId": "CHIMECHO",
       "name": "Mega Chimecho",
@@ -7590,7 +7590,7 @@
     {
       "id": "BAXCALIBUR1",
       "image": "/images/pokemonFront/BAXCALIBUR_1.png",
-      "location": "/images/location/BAXCALIBUR_1.jpg",
+      "location": "/images/location/BAXCALIBUR_1.webp",
       "route": "Cueva Glaciada",
       "baseId": "BAXCALIBUR",
       "name": "Mega Baxcalibur",
@@ -7620,7 +7620,7 @@
     {
       "id": "STARAPTOR1",
       "image": "/images/pokemonFront/STARAPTOR_1.png",
-      "location": "/images/location/STARAPTOR_1.jpg",
+      "location": "/images/location/STARAPTOR_1.webp",
       "route": "Ruta 14",
       "baseId": "STARAPTOR",
       "name": "Mega Staraptor",
@@ -7650,7 +7650,7 @@
     {
       "id": "CRABOMINABLE1",
       "image": "/images/pokemonFront/CRABOMINABLE_1.png",
-      "location": "/images/location/CRABOMINABLE_1.jpg",
+      "location": "/images/location/CRABOMINABLE_1.webp",
       "route": "Ruta 14",
       "baseId": "CRABOMINABLE",
       "name": "Mega Crabominable",
@@ -7680,7 +7680,7 @@
     {
       "id": "MAGEARNA2",
       "image": "/images/pokemonFront/MAGEARNA_2.png",
-      "location": "/images/location/MAGEARNA_2.jpg",
+      "location": "/images/location/MAGEARNA_2.webp",
       "route": "Torre Batalla",
       "baseId": "MAGEARNA",
       "name": "Mega Magearna",
@@ -7710,7 +7710,7 @@
     {
       "id": "GOLURK1",
       "image": "/images/pokemonFront/GOLURK_1.png",
-      "location": "/images/location/GOLURK_1.jpg",
+      "location": "/images/location/GOLURK_1.webp",
       "route": "Ruta 14",
       "baseId": "GOLURK",
       "name": "Mega Golurk",
@@ -7740,7 +7740,7 @@
     {
       "id": "TATSUGIRI3",
       "image": "/images/pokemonFront/TATSUGIRI_3.png",
-      "location": "/images/location/TATSUGIRI_3.jpg",
+      "location": "/images/location/TATSUGIRI_3.webp",
       "route": "Ruta 14",
       "baseId": "TATSUGIRI",
       "name": "Mega Tatsugiri Forma Curvada",
@@ -7770,7 +7770,7 @@
     {
       "id": "SCOVILLAIN1",
       "image": "/images/pokemonFront/SCOVILLAIN_1.png",
-      "location": "/images/location/SCOVILLAIN_1.jpg",
+      "location": "/images/location/SCOVILLAIN_1.webp",
       "route": "Ruta 14",
       "baseId": "SCOVILLAIN",
       "name": "Mega Scovillain",
@@ -7800,7 +7800,7 @@
     {
       "id": "GLIMMORA1",
       "image": "/images/pokemonFront/GLIMMORA_1.png",
-      "location": "/images/location/GLIMMORA_1.jpg",
+      "location": "/images/location/GLIMMORA_1.webp",
       "route": "Ruta 14",
       "baseId": "GLIMMORA",
       "name": "Mega Glimmora",
@@ -7830,7 +7830,7 @@
     {
       "id": "GOLISOPOD1",
       "image": "/images/pokemonFront/GOLISOPOD_1.png",
-      "location": "/images/location/GOLISOPOD_1.jpg",
+      "location": "/images/location/GOLISOPOD_1.webp",
       "route": "Ruta 14",
       "baseId": "GOLISOPOD",
       "name": "Mega Golisopod",
@@ -7860,7 +7860,7 @@
     {
       "id": "ZERAORA1",
       "image": "/images/pokemonFront/ZERAORA_1.png",
-      "location": "/images/location/ZERAORA_1.jpg",
+      "location": "/images/location/ZERAORA_1.webp",
       "route": "Torre Batalla",
       "baseId": "ZERAORA",
       "name": "Mega Zeraora",
@@ -7889,7 +7889,7 @@
     {
       "id": "HEATRAN1",
       "image": "/images/pokemonFront/HEATRAN_1.png",
-      "location": "/images/location/HEATRAN_1.jpg",
+      "location": "/images/location/HEATRAN_1.webp",
       "route": "Torre Batalla",
       "baseId": "HEATRAN",
       "name": "Mega Heatran",
@@ -7919,7 +7919,7 @@
     {
       "id": "DARKRAI1",
       "image": "/images/pokemonFront/DARKRAI_1.png",
-      "location": "/images/location/DARKRAI_1.jpg",
+      "location": "/images/location/DARKRAI_1.webp",
       "route": "Torre Batalla",
       "baseId": "DARKRAI",
       "name": "Mega Darkrai",
