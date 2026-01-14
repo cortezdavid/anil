@@ -130,13 +130,27 @@ const Chat = () => {
 
         <div className="mb-8">
           <h1 className="text-4xl font-black text-slate-100 mb-4 uppercase tracking-wider drop-shadow-sm">
-            Chat
+            LEER
           </h1>
           <div className="bg-blue-900/20 border border-blue-600/30 rounded-xl p-4">
             <p className="text-slate-300 leading-relaxed">
-              Este es un espacio para hacer preguntas sobre el juego, reportar errores de la página,
-              sugerir mejoras, buscar con quién jugar o intercambiar Pokémon,
-              o simplemente compartir tus experiencias.
+              Este mes debido al gran número de usuarios, hemos alcanzado el límite de transferencia mensual.
+            </p>
+            <p className="text-slate-300 mb-4">
+              Es posible que el sitio deje de funcionar en cualquier momento hasta el <strong className="text-blue-400">1 de febrero</strong>.
+            </p>
+            <p className="text-slate-200 font-semibold mb-2">
+              Mientras tanto, usa nuestra página de respaldo: <a
+                href="https://guianilrespaldo.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400"
+              >
+                https://guianilrespaldo.netlify.app/
+              </a>
+            </p>
+            <p className="text-slate-300 leading-relaxed">
+              La página de respaldo será eliminada el 1 de febrero. 
             </p>
           </div>
         </div>
@@ -191,7 +205,7 @@ const Chat = () => {
           </div>
         )}
 
-        <div className="mb-6">
+        {/* <div className="mb-6">
           <div className="relative">
             <input
               type="search"
@@ -216,7 +230,7 @@ const Chat = () => {
               {filteredComments.length} resultado{filteredComments.length !== 1 ? 's' : ''} encontrado{filteredComments.length !== 1 ? 's' : ''}
             </p>
           )}
-        </div>
+        </div> */}
 
         {loadingComments ? (
           <div className="text-center py-12 bg-slate-800 rounded-xl shadow-lg border border-slate-700">

@@ -14,6 +14,7 @@ import ShareCollection from './components/collection/ShareCollection'
 import Raids from './components/raids/Raids'
 import MovesAndAbilities from './components/movesAndAbilities/MovesAndAbilities'
 import DonProdigio from './components/donprodigio/DonProdigio'
+import NotFound from './components/notFound/NotFound'
 
 function App() {
 
@@ -23,19 +24,20 @@ function App() {
         <ScrollToTop />
         <Navbar />
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/pokemon/:id' element={<Pokemon />} />
-          <Route path='/mt' element={<MT />} />
-          <Route path='/objetos' element={<Items />} />
-          <Route path='combates' element={<Trainers />} />
-          <Route path='/fotos' element={<PhotoP />} />
-          <Route path='/torrebatalla' element={<BattleTower />} />
+          <Route path='/' element={<Chat />} />
+          {/* <Route path='/pokemon/:id' element={<Pokemon />} /> */}
+          {/* <Route path='/mt' element={<MT />} /> */}
+          {/* <Route path='/objetos' element={<Items />} /> */}
+          {/* <Route path='combates' element={<Trainers />} /> */}
+          {/* <Route path='/fotos' element={<PhotoP />} /> */}
+          {/* <Route path='/torrebatalla' element={<BattleTower />} /> */}
           <Route path='/chat' element={<Chat />} />
           {/* <Route path='/coleccion' element={<Collection />} /> */}
           {/* <Route path='/coleccion/:id' element={<ShareCollection />} /> */}
-          <Route path='/raids' element={<Raids />} />
-          <Route path='/movshabs' element={<MovesAndAbilities />} />
+          {/* <Route path='/raids' element={<Raids />} /> */}
+          {/* <Route path='/movshabs' element={<MovesAndAbilities />} /> */}
           {/* <Route path='/donprodigio' element={<DonProdigio />} /> */}
+          <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </>
