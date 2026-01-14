@@ -2,163 +2,163 @@
     "data": [
         {
             "id": 1,
-            "img": "/images/photo/1.jpg",
+            "img": "/images/photo/1.webp",
             "location": "Ciuda Plateada",
             "type": "place"
         },
         {
             "id": 2,
-            "img": "/images/photo/2.jpg",
+            "img": "/images/photo/2.webp",
             "location": "Monte Moon - Exterior",
             "type": "place"
         },
         {
             "id": 3,
-            "img": "/images/photo/3.jpg",
+            "img": "/images/photo/3.webp",
             "location": "Ruta 21",
             "type": "place"
         },
         {
             "id": 4,
-            "img": "/images/photo/4.jpg",
+            "img": "/images/photo/4.webp",
             "location": "S.S Anne",
             "type": "place"
         },
         {
             "id": 5,
-            "img": "/images/photo/5.jpg",
+            "img": "/images/photo/5.webp",
             "location": "Ruta 8",
             "type": "place"
         },
         {
             "id": 6,
-            "img": "/images/photo/6.jpg",
+            "img": "/images/photo/6.webp",
             "location": "Ciudad Azulona",
             "type": "place"
         },
         {
             "id": 7,
-            "img": "/images/photo/7.jpg",
+            "img": "/images/photo/7.webp",
             "location": "Ciudad Fucsia",
             "type": "place"
         },
         {
             "id": 8,
-            "img": "/images/photo/8.jpg",
+            "img": "/images/photo/8.webp",
             "location": "Claro Secreto",
             "type": "place"
         },
         {
             "id": 9,
-            "img": "/images/photo/9.jpg",
+            "img": "/images/photo/9.webp",
             "location": "Ciudad Azafrán",
             "type": "place"
         },
         {
             "id": 10,
-            "img": "/images/photo/10.jpg",
+            "img": "/images/photo/10.webp",
             "location": "Isla Canela",
             "type": "place"
         },
         {
             "id": 11,
-            "img": "/images/photo/11.jpg",
+            "img": "/images/photo/11.webp",
             "location": "Ruta 23",
             "type": "place"
         },
         {
             "id": 12,
-            "img": "/images/photo/12.jpg",
+            "img": "/images/photo/12.webp",
             "location": "Cataratas Tohjo",
             "type": "place"
         },
         {
             "id": 13,
-            "img": "/images/photo/13.jpg",
+            "img": "/images/photo/13.webp",
             "location": "Ciudad Añil",
             "type": "place"
         },
         {
             "id": 14,
-            "img": "/images/photo/14.jpg",
+            "img": "/images/photo/14.webp",
             "location": "Villa Azabache",
             "type": "place"
         },
         {
             "id": 15,
-            "img": "/images/photo/15.jpg",
+            "img": "/images/photo/15.webp",
             "location": "Bosque Arcoiris",
             "type": "place"
         },
         {
             "id": 16,
-            "img": "/images/photo/16.jpg",
+            "img": "/images/photo/16.webp",
             "location": "Túnel Roca",
             "type": "trainer"
         },
         {
             "id": 17,
-            "img": "/images/photo/17.jpg",
+            "img": "/images/photo/17.webp",
             "location": "Ruta 12",
             "type": "trainer"
         },
         {
             "id": 18,
-            "img": "/images/photo/18.jpg",
+            "img": "/images/photo/18.webp",
             "location": "Ruta 10 Norte",
             "type": "trainer"
         },
         {
             "id": 19,
-            "img": "/images/photo/19.jpg",
+            "img": "/images/photo/19.webp",
             "location": "Ruta 11",
             "type": "trainer"
         },
         {
             "id": 20,
-            "img": "/images/photo/20.jpg",
+            "img": "/images/photo/20.webp",
             "location": "Zona Safari",
             "type": "trainer"
         },
         {
             "id": 21,
-            "img": "/images/photo/21.jpg",
+            "img": "/images/photo/21.webp",
             "location": "Ciudad Azulona",
             "type": "trainer"
         },
         {
             "id": 22,
-            "img": "/images/photo/22.jpg",
+            "img": "/images/photo/22.webp",
             "location": "Mansión Quemada",
             "type": "trainer"
         },
         {
             "id": 23,
-            "img": "/images/photo/23.jpg",
+            "img": "/images/photo/23.webp",
             "location": "Torre Pokemon",
             "type": "trainer"
         },
         {
             "id": 24,
-            "img": "/images/photo/24.jpg",
+            "img": "/images/photo/24.webp",
             "location": "Laboratorio",
             "type": "trainer"
         },
         {
             "id": 25,
-            "img": "/images/photo/25.jpg",
+            "img": "/images/photo/25.webp",
             "location": "Pueblo Paleta",
             "type": "trainer"
         },
         {
             "id": 26,
-            "img": "/images/photo/26.jpg",
+            "img": "/images/photo/26.webp",
             "location": "Ciudad Verde",
             "type": "trainer"
         },
         {
             "id": 27,
-            "img": "/images/photo/27.jpg",
+            "img": "/images/photo/27.webp",
             "location": "Monte Plateado",
             "type": "trainer"
         }

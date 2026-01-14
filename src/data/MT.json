@@ -3,751 +3,751 @@
     {
       "id": "MT01",
       "move": "BLIZZARD",
-      "img": "/images/mt/MT01.jpg",
+      "img": "/images/mt/MT01.webp",
       "route": "Monte Plateado"
     },
     {
       "id": "MT02",
       "move": "DRAGONCLAW",
-      "img": "/images/mt/MT02.jpg",
+      "img": "/images/mt/MT02.webp",
       "route": "Ruta 24"
     },
     {
       "id": "MT03",
       "move": "PSYSHOCK",
-      "img": "/images/mt/MT03.jpg",
+      "img": "/images/mt/MT03.webp",
       "route": "Ruta 8 (evento)"
     },
     {
       "id": "MT04",
       "move": "CALMMIND",
-      "img": "/images/mt/MT04.jpg",
+      "img": "/images/mt/MT04.webp",
       "route": "Ciudad Azafrán"
     },
     {
       "id": "MT05",
       "move": "METRONOME",
-      "img": "/images/mt/MT05.jpg",
+      "img": "/images/mt/MT05.webp",
       "route": "Isla Canela"
     },
     {
       "id": "MT06",
       "move": "IRONHEAD",
-      "img": "/images/mt/MT06.jpg",
+      "img": "/images/mt/MT06.webp",
       "route": "Cueva Celeste"
     },
     {
       "id": "MT07",
       "move": "HAIL",
-      "img": "/images/mt/MT07.jpg",
+      "img": "/images/mt/MT07.webp",
       "route": "Ruta 25 Norte"
     },
     {
       "id": "MT08",
       "move": "BULKUP",
-      "img": "/images/mt/MT08.jpg",
+      "img": "/images/mt/MT08.webp",
       "route": "Ciudad Azafrán"
     },
     {
       "id": "MT09",
       "move": "LIQUIDATION",
-      "img": "/images/mt/MT09.jpg",
+      "img": "/images/mt/MT09.webp",
       "route": "Ciudad Añil"
     },
     {
       "id": "MT10",
       "move": "STEALTHROCK",
-      "img": "/images/mt/MT10.jpg",
+      "img": "/images/mt/MT10.webp",
       "route": "Ciudad Fucsia"
     },
     {
       "id": "MT11",
       "move": "SUNNYDAY",
-      "img": "/images/mt/MT11.jpg",
+      "img": "/images/mt/MT11.webp",
       "route": "Isla Canela"
     },
     {
       "id": "MT12",
       "move": "TAUNT",
-      "img": "/images/mt/MT12.jpg",
+      "img": "/images/mt/MT12.webp",
       "route": "Ruta 10 Sur"
     },
     {
       "id": "MT13",
       "move": "ICEBEAM",
-      "img": "/images/mt/MT13.jpg",
+      "img": "/images/mt/MT13.webp",
       "route": "Islas Espuma"
     },
     {
       "id": "MT14",
       "move": "HIDDENPOWER",
-      "img": "/images/mt/MT14.jpg",
+      "img": "/images/mt/MT14.webp",
       "route": "Torre Pokémon"
     },
     {
       "id": "MT15",
       "move": "SURF",
-      "img": "/images/mt/MT15.jpg",
+      "img": "/images/mt/MT15.webp",
       "route": "Zona Safari"
     },
     {
       "id": "MT16",
       "move": "LIGHTSCREEN",
-      "img": "/images/mt/MT16.jpg",
+      "img": "/images/mt/MT16.webp",
       "route": "Ciudad Azulona"
     },
     {
       "id": "MT17",
       "move": "PROTECT",
-      "img": "/images/mt/MT17.jpg",
+      "img": "/images/mt/MT17.webp",
       "route": "Pueblo Marengo"
     },
     {
       "id": "MT18",
       "move": "RAINDANCE",
-      "img": "/images/mt/MT18.jpg",
+      "img": "/images/mt/MT18.webp",
       "route": "Ruta 23"
     },
     {
       "id": "MT19",
       "move": "ESCALOFRIO",
-      "img": "/images/mt/MT19.jpg",
+      "img": "/images/mt/MT19.webp",
       "route": "Ciudad Verde"
     },
     {
       "id": "MT20",
       "move": "BRINE",
-      "img": "/images/mt/MT20.jpg",
+      "img": "/images/mt/MT20.webp",
       "route": "Pueblo Lavanda"
     },
     {
       "id": "MT21",
       "move": "SIGNALBEAM",
-      "img": "/images/mt/MT21.jpg",
+      "img": "/images/mt/MT21.webp",
       "route": "Ciudad Azulona"
     },
     {
       "id": "MT22",
       "move": "SOLARBEAM",
-      "img": "/images/mt/MT22.jpg",
+      "img": "/images/mt/MT22.webp",
       "route": "Mansión Quemada"
     },
     {
       "id": "MT23",
       "move": "AIRCUTTER",
-      "img": "/images/mt/MT23.jpg",
+      "img": "/images/mt/MT23.webp",
       "route": "Ciudad Celeste"
     },
     {
       "id": "MT24",
       "move": "THUNDERBOLT",
-      "img": "/images/mt/MT24.jpg",
+      "img": "/images/mt/MT24.webp",
       "route": "Bosque Celeste"
     },
     {
       "id": "MT25",
       "move": "SEEDBOMB",
-      "img": "/images/mt/MT25.jpg",
+      "img": "/images/mt/MT25.webp",
       "route": "Ruta 11"
     },
     {
       "id": "MT26",
       "move": "EARTHQUAKE",
-      "img": "/images/mt/MT26.jpg",
+      "img": "/images/mt/MT26.webp",
       "route": "Ruta 19"
     },
     {
       "id": "MT27",
       "move": "RETURN",
-      "img": "/images/mt/MT27.jpg",
+      "img": "/images/mt/MT27.webp",
       "route": "Ciudad Plateada"
     },
     {
       "id": "MT28",
       "move": "FLY",
-      "img": "/images/mt/MT28.jpg",
+      "img": "/images/mt/MT28.webp",
       "route": "Ruta 16"
     },
     {
       "id": "MT29",
       "move": "PSYCHIC",
-      "img": "/images/mt/MT29.jpg",
+      "img": "/images/mt/MT29.webp",
       "route": "Ciudad Azafrán"
     },
     {
       "id": "MT30",
       "move": "SHADOWBALL",
-      "img": "/images/mt/MT30.jpg",
+      "img": "/images/mt/MT30.webp",
       "route": "Torre Pokémon"
     },
     {
       "id": "MT31",
       "move": "BRICKBREAK",
-      "img": "/images/mt/MT31.jpg",
+      "img": "/images/mt/MT31.webp",
       "route": "Ruta 15"
     },
     {
       "id": "MT32",
       "move": "AQUATAIL",
-      "img": "/images/mt/MT32.jpg",
+      "img": "/images/mt/MT32.webp",
       "route": "Isla Canela"
     },
     {
       "id": "MT33",
       "move": "REFLECT",
-      "img": "/images/mt/MT33.jpg",
+      "img": "/images/mt/MT33.webp",
       "route": "Ciudad Azulona"
     },
     {
       "id": "MT34",
       "move": "POWERGEM",
-      "img": "/images/mt/MT34.jpg",
+      "img": "/images/mt/MT34.webp",
       "route": "Cataratas Tohjo"
     },
     {
       "id": "MT35",
       "move": "LOWKICK",
-      "img": "/images/mt/MT35.jpg",
+      "img": "/images/mt/MT35.webp",
       "route": "Ciudad Azulona"
     },
     {
       "id": "MT36",
       "move": "SLUDGEBOMB",
-      "img": "/images/mt/MT36.jpg",
+      "img": "/images/mt/MT36.webp",
       "route": "Ciudad Fucsia"
     },
     {
       "id": "MT37",
       "move": "SANDSTORM",
-      "img": "/images/mt/MT37.jpg",
+      "img": "/images/mt/MT37.webp",
       "route": "Ruta 27"
     },
     {
       "id": "MT38",
       "move": "FIREBLAST",
-      "img": "/images/mt/MT38.jpg",
+      "img": "/images/mt/MT38.webp",
       "route": "Isla Canela"
     },
     {
       "id": "MT39",
       "move": "ROCKTOMB",
-      "img": "/images/mt/MT39.jpg",
+      "img": "/images/mt/MT39.webp",
       "route": "Ciudad Plateada"
     },
     {
       "id": "MT40",
       "move": "AERIALACE",
-      "img": "/images/mt/MT40.jpg",
+      "img": "/images/mt/MT40.webp",
       "route": "Ruta 3"
     },
     {
       "id": "MT41",
       "move": "FIREPUNCH",
-      "img": "/images/mt/MT41.jpg",
+      "img": "/images/mt/MT41.webp",
       "route": "Ciudad Azulona"
     },
     {
       "id": "MT42",
       "move": "FACADE",
-      "img": "/images/mt/MT42.jpg",
+      "img": "/images/mt/MT42.webp",
       "route": "Ruta 7"
     },
     {
       "id": "MT43",
       "move": "FLAMECHARGE",
-      "img": "/images/mt/MT43.jpg",
+      "img": "/images/mt/MT43.webp",
       "route": "Monte Moon"
     },
     {
       "id": "MT44",
       "move": "REST",
-      "img": "/images/mt/MT44.jpg",
+      "img": "/images/mt/MT44.webp",
       "route": "Pueblo Marengo"
     },
     {
       "id": "MT45",
       "move": "ATTRACT",
-      "img": "/images/mt/MT45.jpg",
+      "img": "/images/mt/MT45.webp",
       "route": "Ciudad Azulona"
     },
     {
       "id": "MT46",
       "move": "THIEF",
-      "img": "/images/mt/MT46.jpg",
+      "img": "/images/mt/MT46.webp",
       "route": "Ruta 5"
     },
     {
       "id": "MT47",
       "move": "FURYCUTTER",
-      "img": "/images/mt/MT47.jpg",
+      "img": "/images/mt/MT47.webp",
       "route": "Ciudad Celeste"
     },
     {
       "id": "MT48",
       "move": "THUNDERPUNCH",
-      "img": "/images/mt/MT48.jpg",
+      "img": "/images/mt/MT48.webp",
       "route": "Ciudad Azulona"
     },
     {
       "id": "MT49",
       "move": "ICEPUNCH",
-      "img": "/images/mt/MT49.jpg",
+      "img": "/images/mt/MT49.webp",
       "route": "Ciudad Azulona"
     },
     {
       "id": "MT50",
       "move": "ZENHEADBUTT",
-      "img": "/images/mt/MT50.jpg",
+      "img": "/images/mt/MT50.webp",
       "route": "Ciudad Azafrán"
     },
     {
       "id": "MT51",
       "move": "WATERPULSE",
-      "img": "/images/mt/MT51.jpg",
+      "img": "/images/mt/MT51.webp",
       "route": "Ciudad Celeste"
     },
     {
       "id": "MT52",
       "move": "FOCUSBLAST",
-      "img": "/images/mt/MT52.jpg",
+      "img": "/images/mt/MT52.webp",
       "route": "Ciudad Azulona"
     },
     {
       "id": "MT53",
       "move": "ENERGYBALL",
-      "img": "/images/mt/MT53.jpg",
+      "img": "/images/mt/MT53.webp",
       "route": "Ciudad Azulona"
     },
     {
       "id": "MT54",
       "move": "FALSESWIPE",
-      "img": "/images/mt/MT54.jpg",
+      "img": "/images/mt/MT54.webp",
       "route": "Ciudad Carmín"
     },
     {
       "id": "MT55",
       "move": "CHILLINGWATER",
-      "img": "/images/mt/MT55.jpg",
+      "img": "/images/mt/MT55.webp",
       "route": "Ruta 12"
     },
     {
       "id": "MT56",
       "move": "IRONTAIL",
-      "img": "/images/mt/MT56.jpg",
+      "img": "/images/mt/MT56.webp",
       "route": "Ruta 25 Sur"
     },
     {
       "id": "MT57",
       "move": "CHARGEBEAM",
-      "img": "/images/mt/MT57.jpg",
+      "img": "/images/mt/MT57.webp",
       "route": "Ruta 10 Norte"
     },
     {
       "id": "MT58",
       "move": "FLAMETHROWER",
-      "img": "/images/mt/MT58.jpg",
+      "img": "/images/mt/MT58.webp",
       "route": "Ciudad Azafrán"
     },
     {
       "id": "MT59",
       "move": "INCINERATE",
-      "img": "/images/mt/MT59.jpg",
+      "img": "/images/mt/MT59.webp",
       "route": "Ruta 21"
     },
     {
       "id": "MT60",
       "move": "STEELWING",
-      "img": "/images/mt/MT60.jpg",
+      "img": "/images/mt/MT60.webp",
       "route": "Túnel Roca"
     },
     {
       "id": "MT61",
       "move": "WILLOWISP",
-      "img": "/images/mt/MT61.jpg",
+      "img": "/images/mt/MT61.webp",
       "route": "Mansión Quemada"
     },
     {
       "id": "MT62",
       "move": "ACROBATICS",
-      "img": "/images/mt/MT62.jpg",
+      "img": "/images/mt/MT62.webp",
       "route": "Zona Safari"
     },
     {
       "id": "MT63",
       "move": "GIGADRAIN",
-      "img": "/images/mt/MT63.jpg",
+      "img": "/images/mt/MT63.webp",
       "route": "Ciudad Azulona"
     },
     {
       "id": "MT64",
       "move": "DRAGONPULSE",
-      "img": "/images/mt/MT64.jpg",
+      "img": "/images/mt/MT64.webp",
       "route": "Ciudad Azafrán"
     },
     {
       "id": "MT65",
       "move": "SHADOWCLAW",
-      "img": "/images/mt/MT65.jpg",
+      "img": "/images/mt/MT65.webp",
       "route": "Villa Magenta"
     },
     {
       "id": "MT66",
       "move": "PAYBACK",
-      "img": "/images/mt/MT66.jpg",
+      "img": "/images/mt/MT66.webp",
       "route": "Ciudad Azulona"
     },
     {
       "id": "MT67",
       "move": "DUALWINGBEAT",
-      "img": "/images/mt/MT67.jpg",
+      "img": "/images/mt/MT67.webp",
       "route": "Ciudad Añil"
     },
     {
       "id": "MT68",
       "move": "PLAYROUGH",
-      "img": "/images/mt/MT68.jpg",
+      "img": "/images/mt/MT68.webp",
       "route": "Ruta 29"
     },
     {
       "id": "MT69",
       "move": "SHOCKWAVE",
-      "img": "/images/mt/MT69.jpg",
+      "img": "/images/mt/MT69.webp",
       "route": "Ruta 6"
     },
     {
       "id": "MT70",
       "move": "HYPERVOICE",
-      "img": "/images/mt/MT70.jpg",
+      "img": "/images/mt/MT70.webp",
       "route": "Ruta 11"
     },
     {
       "id": "MT71",
       "move": "STONEEDGE",
-      "img": "/images/mt/MT71.jpg",
+      "img": "/images/mt/MT71.webp",
       "route": "Ruta 24"
     },
     {
       "id": "MT72",
       "move": "VOLTSWITCH",
-      "img": "/images/mt/MT72.jpg",
+      "img": "/images/mt/MT72.webp",
       "route": "Ciudad Carmín"
     },
     {
       "id": "MT73",
       "move": "THUNDERWAVE",
-      "img": "/images/mt/MT73.jpg",
+      "img": "/images/mt/MT73.webp",
       "route": "Ciudad Carmín"
     },
     {
       "id": "MT74",
       "move": "GYROBALL",
-      "img": "/images/mt/MT74.jpg",
+      "img": "/images/mt/MT74.webp",
       "route": "Ruta 9"
     },
     {
       "id": "MT75",
       "move": "SWORDSDANCE",
-      "img": "/images/mt/MT75.jpg",
+      "img": "/images/mt/MT75.webp",
       "route": "Ruta 1"
     },
     {
       "id": "MT76",
       "move": "THUNDER",
-      "img": "/images/mt/MT76.jpg",
+      "img": "/images/mt/MT76.webp",
       "route": "Central Energía"
     },
     {
       "id": "MT77",
       "move": "DAZZLINGGLEAM",
-      "img": "/images/mt/MT77.jpg",
+      "img": "/images/mt/MT77.webp",
       "route": "Ciudad Azulona"
     },
     {
       "id": "MT78",
       "move": "BULLDOZE",
-      "img": "/images/mt/MT78.jpg",
+      "img": "/images/mt/MT78.webp",
       "route": "Túnel Diglett"
     },
     {
       "id": "MT79",
       "move": "NASTYPLOT",
-      "img": "/images/mt/MT79.jpg",
+      "img": "/images/mt/MT79.webp",
       "route": "Ruta 25 Sur"
     },
     {
       "id": "MT80",
       "move": "ROCKSLIDE",
-      "img": "/images/mt/MT80.jpg",
+      "img": "/images/mt/MT80.webp",
       "route": "Túnel Roca"
     },
     {
       "id": "MT81",
       "move": "XSCISSOR",
-      "img": "/images/mt/MT81.jpg",
+      "img": "/images/mt/MT81.webp",
       "route": "Ruta 13"
     },
     {
       "id": "MT82",
       "move": "MEGAHORN",
-      "img": "/images/mt/MT82.jpg",
+      "img": "/images/mt/MT82.webp",
       "route": "Ciudad Verde"
     },
     {
       "id": "MT83",
       "move": "WORKUP",
-      "img": "/images/mt/MT83.jpg",
+      "img": "/images/mt/MT83.webp",
       "route": "Ciudad Verde"
     },
     {
       "id": "MT84",
       "move": "POISONJAB",
-      "img": "/images/mt/MT84.jpg",
+      "img": "/images/mt/MT84.webp",
       "route": "Ciudad Azulona"
     },
     {
       "id": "MT85",
       "move": "ICYWIND",
-      "img": "/images/mt/MT85.jpg",
+      "img": "/images/mt/MT85.webp",
       "route": "Ruta 20"
     },
     {
       "id": "MT86",
       "move": "GRASSKNOT",
-      "img": "/images/mt/MT86.jpg",
+      "img": "/images/mt/MT86.webp",
       "route": "Ruta 20"
     },
     {
       "id": "MT87",
       "move": "DARKPULSE",
-      "img": "/images/mt/MT87.jpg",
+      "img": "/images/mt/MT87.webp",
       "route": "Ciudad Azulona"
     },
     {
       "id": "MT88",
       "move": "EARTHPOWER",
-      "img": "/images/mt/MT88.jpg",
+      "img": "/images/mt/MT88.webp",
       "route": "Volcán Canela"
     },
     {
       "id": "MT89",
       "move": "UTURN",
-      "img": "/images/mt/MT89.jpg",
+      "img": "/images/mt/MT89.webp",
       "route": "Bosque Verde"
     },
     {
       "id": "MT90",
       "move": "SUBSTITUTE",
-      "img": "/images/mt/MT90.jpg",
+      "img": "/images/mt/MT90.webp",
       "route": "Ciudad Azulona"
     },
     {
       "id": "MT91",
       "move": "FLASHCANNON",
-      "img": "/images/mt/MT91.jpg",
+      "img": "/images/mt/MT91.webp",
       "route": "Ciudad Azafrán"
     },
     {
       "id": "MT92",
       "move": "HEATWAVE",
-      "img": "/images/mt/MT92.jpg",
+      "img": "/images/mt/MT92.webp",
       "route": "Volcán Canela"
     },
     {
       "id": "MT93",
       "move": "WILDCHARGE",
-      "img": "/images/mt/MT93.jpg",
+      "img": "/images/mt/MT93.webp",
       "route": "Ciudad Azulona"
     },
     {
       "id": "MT94",
       "move": "ROCKSMASH",
-      "img": "/images/mt/MT94.jpg",
+      "img": "/images/mt/MT94.webp",
       "route": "Ciudad Plateada"
     },
     {
       "id": "MT95",
       "move": "FLIPTURN",
-      "img": "/images/mt/MT95.jpg",
+      "img": "/images/mt/MT95.webp",
       "route": "Ruta 17"
     },
     {
       "id": "MT96",
       "move": "DRAINPUNCH",
-      "img": "/images/mt/MT96.jpg",
+      "img": "/images/mt/MT96.webp",
       "route": "Ruta 13"
     },
     {
       "id": "MT97",
       "move": "SCORCHINGSANDS",
-      "img": "/images/mt/MT97.jpg",
+      "img": "/images/mt/MT97.webp",
       "route": "Mansión Quemada"
     },
     {
       "id": "MT98",
       "move": "TOXICSPIKES",
-      "img": "/images/mt/MT98.jpg",
+      "img": "/images/mt/MT98.webp",
       "route": "Ruta 28"
     },
     {
       "id": "MT99",
       "move": "TRIPLEAXEL",
-      "img": "/images/mt/MT99.jpg",
+      "img": "/images/mt/MT99.webp",
       "route": "Ruta 10 Norte"
     },
     {
       "id": "MT100",
       "move": "DRACOMETEOR",
-      "img": "/images/mt/MT100.jpg",
+      "img": "/images/mt/MT100.webp",
       "route": "Monte Plateado"
     },
     {
       "id": "MT101",
       "move": "POUNCE",
-      "img": "/images/mt/MT101.jpg",
+      "img": "/images/mt/MT101.webp",
       "route": "Ruta 5"
     },
     {
       "id": "MT102",
       "move": "TRAILBLAZE",
-      "img": "/images/mt/MT102.jpg",
+      "img": "/images/mt/MT102.webp",
       "route": "Ruta 4"
     },
     {
       "id": "MT103",
       "move": "ICESPINNER",
-      "img": "/images/mt/MT103.jpg",
+      "img": "/images/mt/MT103.webp",
       "route": "Islas Espuma"
     },
     {
       "id": "MT104",
       "move": "ECHOEDVOICE",
-      "img": "/images/mt/MT104.jpg",
+      "img": "/images/mt/MT104.webp",
       "route": "Ciudad Plateada"
     },
     {
       "id": "MT105",
       "move": "ROOST",
-      "img": "/images/mt/MT105.jpg",
+      "img": "/images/mt/MT105.webp",
       "route": "Ruta 15"
     },
     {
       "id": "MT106",
       "move": "SUPERPOWER",
-      "img": "/images/mt/MT106.jpg",
+      "img": "/images/mt/MT106.webp",
       "route": "Ciudad Azafrán"
     },
     {
       "id": "MT107",
       "move": "TRICKROOM",
-      "img": "/images/mt/MT107.jpg",
+      "img": "/images/mt/MT107.webp",
       "route": "Ruta 25 Sur"
     },
     {
       "id": "MT108",
       "move": "STRENGTH",
-      "img": "/images/mt/MT108.jpg",
+      "img": "/images/mt/MT108.webp",
       "route": "Ciudad Fucsia"
     },
     {
       "id": "MT109",
       "move": "BULLETSEED",
-      "img": "/images/mt/MT109.jpg",
+      "img": "/images/mt/MT109.webp",
       "route": "Ruta 14"
     },
     {
       "id": "MT110",
       "move": "HYPERBEAM",
-      "img": "/images/mt/MT110.jpg",
+      "img": "/images/mt/MT110.webp",
       "route": "Ciudad Añil"
     },
     {
       "id": "MT111",
       "move": "SAFEGUARD",
-      "img": "/images/mt/MT111.jpg",
+      "img": "/images/mt/MT111.webp",
       "route": "Ruta 14"
     },
     {
       "id": "MT112",
       "move": "DIG",
-      "img": "/images/mt/MT112.jpg",
+      "img": "/images/mt/MT112.webp",
       "route": "Ruta 14"
     },
     {
       "id": "MT113",
       "move": "DOUBLETEAM",
-      "img": "/images/mt/MT113.jpg",
+      "img": "/images/mt/MT113.webp",
       "route": "Ciudad Añil"
     },
     {
       "id": "MT114",
       "move": "TORMENT",
-      "img": "/images/mt/MT114.jpg",
+      "img": "/images/mt/MT114.webp",
       "route": "Ruta 14"
     },
     {
       "id": "MT115",
       "move": "BUGBUZZ",
-      "img": "/images/mt/MT115.jpg",
+      "img": "/images/mt/MT115.webp",
       "route": "Ruta 14"
     },
     {
       "id": "MT116",
       "move": "SNARL",
-      "img": "/images/mt/MT116.jpg",
+      "img": "/images/mt/MT116.webp",
       "route": "Ruta 14"
     },
     {
       "id": "MT117",
       "move": "PLUCK",
-      "img": "/images/mt/MT117.jpg",
+      "img": "/images/mt/MT117.webp",
       "route": "Ruta 14"
     },
     {
       "id": "MT118",
       "move": "WATERFALL",
-      "img": "/images/mt/MT118.jpg",
+      "img": "/images/mt/MT118.webp",
       "route": "Ruta 14"
     },
     {
       "id": "MT119",
       "move": "ROCKCLIMB",
-      "img": "/images/mt/MT119.jpg",
+      "img": "/images/mt/MT119.webp",
       "route": "Ciudad Añil"
     },
     {
       "id": "MT120",
       "move": "AVALANCHE",
-      "img": "/images/mt/MT120.jpg",
+      "img": "/images/mt/MT120.webp",
       "route": "Ruta 14"
     },
     {
       "id": "MT121",
       "move": "SUCKERPUNCH",
-      "img": "/images/mt/MT121.jpg",
+      "img": "/images/mt/MT121.webp",
       "route": "Ciudad Azulona"
     },
     {
       "id": "MT122",
       "move": "SUPERCELLSLAM",
-      "img": "/images/mt/MT122.jpg",
+      "img": "/images/mt/MT122.webp",
       "route": "Ciudad Añil"
     },
     {
       "id": "MT123",
       "move": "SCALD",
-      "img": "/images/mt/MT123.jpg",
+      "img": "/images/mt/MT123.webp",
       "route": "Ciudad Añil"
     },
     {
       "id": "MT124",
       "move": "DRAGONCHEER",
-      "img": "/images/mt/MT124.jpg",
+      "img": "/images/mt/MT124.webp",
       "route": "Ciudad Añil"
     },
     {
       "id": "MT125",
       "move": "ALLURINGVOICE",
-      "img": "/images/mt/MT125.jpg",
+      "img": "/images/mt/MT125.webp",
       "route": "Ruta 14"
     }
   ]
