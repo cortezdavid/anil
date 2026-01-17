@@ -85,8 +85,8 @@ const MT = () => {
                 <p className="text-sm font-medium text-yellow-800">
                   ⚠️¡Aviso importante!
                 </p>
-                <p className="text-sm text-yellow-700 mt-1">
-                  Ahora estamos en guianil.pages.dev . Posiblemente será la dirección principal y, si esto sucede, la versión anterior (guianil.vercel.app) dejará de estar disponible.
+                <p className="text-sm font-medium text-yellow-700 mt-1">
+                  Ahora estamos en guianil.pages.dev (ya estas no necesitas redireccionar) . Posiblemente será la dirección principal y, si esto sucede, la versión anterior (guianil.vercel.app) dejará de estar disponible.
                 </p>
               </div>
             </div>

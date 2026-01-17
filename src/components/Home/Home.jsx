@@ -23,6 +23,20 @@ const Home = () => {
             </div>
           </div>
         </div> */}
+        <div className="max-w-7xl mx-auto px-4 mb-6">
+          <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg shadow-sm">
+            <div className="flex items-start">
+              <div className="ml-3">
+                <p className="text-sm font-medium text-yellow-800">
+                  ⚠️¡Aviso importante!
+                </p>
+                <p className="text-sm font-medium text-yellow-700 mt-1">
+                  Ahora estamos en guianil.pages.dev (ya estas no necesitas redireccionar) . Posiblemente será la dirección principal y, si esto sucede, la versión anterior (guianil.vercel.app) dejará de estar disponible.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* Header con logo */}
         <div className="text-center mb-12">
