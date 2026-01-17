@@ -24,19 +24,19 @@ function App() {
         <ScrollToTop />
         <Navbar />
         <Routes>
-          <Route path='/' element={<Chat />} />
+          <Route path='/' element={<Home />} />
           <Route path='/pokemon/:id' element={<Pokemon />} />
-          {/* <Route path='/mt' element={<MT />} /> */}
-          {/* <Route path='/objetos' element={<Items />} /> */}
+          <Route path='/mt' element={<MT />} />
+          <Route path='/objetos' element={<Items />} />
           <Route path='combates' element={<Trainers />} />
-          {/* <Route path='/fotos' element={<PhotoP />} /> */}
-          {/* <Route path='/torrebatalla' element={<BattleTower />} /> */}
+          <Route path='/fotos' element={<PhotoP />} />
+          <Route path='/torrebatalla' element={<BattleTower />} />
           <Route path='/chat' element={<Chat />} />
           {/* <Route path='/coleccion' element={<Collection />} /> */}
           {/* <Route path='/coleccion/:id' element={<ShareCollection />} /> */}
           {/* <Route path='/raids' element={<Raids />} /> */}
-          {/* <Route path='/movshabs' element={<MovesAndAbilities />} /> */}
-          {/* <Route path='/donprodigio' element={<DonProdigio />} /> */}
+          <Route path='/movshabs' element={<MovesAndAbilities />} />
+          <Route path='/donprodigio' element={<DonProdigio />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
