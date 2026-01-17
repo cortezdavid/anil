@@ -25,10 +25,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Chat />} />
-          {/* <Route path='/pokemon/:id' element={<Pokemon />} /> */}
+          <Route path='/pokemon/:id' element={<Pokemon />} />
           {/* <Route path='/mt' element={<MT />} /> */}
           {/* <Route path='/objetos' element={<Items />} /> */}
-          {/* <Route path='combates' element={<Trainers />} /> */}
+          <Route path='combates' element={<Trainers />} />
           {/* <Route path='/fotos' element={<PhotoP />} /> */}
           {/* <Route path='/torrebatalla' element={<BattleTower />} /> */}
           <Route path='/chat' element={<Chat />} />

@@ -133,26 +133,25 @@ const Chat = () => {
             LEER
           </h1>
           <div className="bg-blue-900/20 border border-blue-600/30 rounded-xl p-4">
-            {/* <p className="text-slate-300 leading-relaxed">
+            <p className="text-slate-300 leading-relaxed">
               Este mes debido al gran número de usuarios, hemos alcanzado el límite de transferencia mensual.
             </p>
             <p className="text-slate-300 mb-4">
               Es posible que el sitio deje de funcionar en cualquier momento hasta el <strong className="text-blue-400">1 de febrero</strong>.
-            </p> */}
-            <p className="text-slate-200 text-2xl font-semibold">
-              ⚠️ En mantenimiento
-              {/* <a
+            </p>
+            <p className="text-slate-200 font-semibold mb-2">
+              Mientras tanto, usa nuestra página de respaldo: <a
                 href="https://guianilrespaldo.netlify.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-400"
               >
                 https://guianilrespaldo.netlify.app/
-              </a> */}
+              </a>
             </p>
-            {/* <p className="text-slate-300 leading-relaxed">
+            <p className="text-slate-300 leading-relaxed">
               La página de respaldo será eliminada el 1 de febrero. 
-            </p> */}
+            </p>
           </div>
         </div>
 
