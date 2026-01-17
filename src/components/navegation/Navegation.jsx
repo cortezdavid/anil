@@ -158,7 +158,6 @@ const Navegation = ({ pokemones }) => {
                           src={`/images/icons/${pokemon.id}.png`}
                           alt={pokemon.name}
                           loading="lazy"
-                          className="w-32 h-16 object-cover object-left"
                         />
                       </div>
                     </li>
