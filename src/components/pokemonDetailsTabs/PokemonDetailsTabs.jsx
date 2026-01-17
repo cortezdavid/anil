@@ -6,9 +6,13 @@ import PokemonBaseStats from "../pokemonBaseStats/PokemonBaseStats";
 import MovimientosSection from "../movimientosSection/movimientosSection";
 
 const PokemonDetailsTabs = ({ pokemon, activeTab, setActiveTab }) => {
+  const hasMega = Boolean(pokemon?.MegaStore);
   const tabs = [
     { id: "caracteristicas", label: "Características" },
-    { id: "ubicacion", label: "Ubicación" },
+    {
+      id: "ubicacion",
+      label: hasMega ? "Megapiedra" : "Ubicación",
+    },
     { id: "evolucion", label: "Evolución" },
     { id: "estadisticas", label: "Estadísticas" },
     { id: "movimientos", label: "Movimientos" },
@@ -87,7 +91,7 @@ const PokemonDetailsTabs = ({ pokemon, activeTab, setActiveTab }) => {
           // <div className="text-slate-400 text-center py-8">
           //   <div className="text-xl font-semibold mb-2">Próximamente...</div>
           // </div>
-          <MovimientosSection pokemon={pokemon}/>
+          <MovimientosSection pokemon={pokemon} />
         )}
       </div>
     </div>
