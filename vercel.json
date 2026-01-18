@@ -3,7 +3,8 @@
     {
       "source": "/(.*)",
       "destination": "https://guianil.pages.dev/$1",
-      "permanent": true
+      "permanent": true,
+      "statusCode": 301
     }
   ]
 }
