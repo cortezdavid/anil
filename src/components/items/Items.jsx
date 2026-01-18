@@ -51,7 +51,7 @@ const Items = () => {
         </h1>
 
         {/* alert */}
-        <div className="max-w-7xl mx-auto px-4 mb-6">
+        {/* <div className="max-w-7xl mx-auto px-4 mb-6">
           <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg shadow-sm">
             <div className="flex items-start">
               <div className="ml-3">
@@ -64,7 +64,7 @@ const Items = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="bg-blue-900/20 border border-blue-600/30 rounded-xl p-4 mb-8">
           <p className="text-slate-300 leading-relaxed">
