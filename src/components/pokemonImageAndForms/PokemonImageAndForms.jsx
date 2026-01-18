@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
 import PokemonFront from "../pokemonFront/PokemonFront";
+import typesData from "../../data/types.json";
 
 const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange, handleBaseForm, selectedForm }) => {
   const isShiny = useMemo(() => {
@@ -12,6 +13,35 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
       return pokemon.image.replace('/pokemonFront/', '/pokemonFrontShiny/');
     }
     return pokemon.image;
+  };
+
+  const getTypeColor = (type) => {
+    const colors = {
+      'FIRE': 'bg-red-500',
+      'WATER': 'bg-blue-500',
+      'GRASS': 'bg-green-500',
+      'ELECTRIC': 'bg-yellow-500',
+      'PSYCHIC': 'bg-purple-500',
+      'ICE': 'bg-cyan-400',
+      'DRAGON': 'bg-indigo-600',
+      'DARK': 'bg-gray-800',
+      'FAIRY': 'bg-pink-400',
+      'FIGHTING': 'bg-red-700',
+      'POISON': 'bg-purple-600',
+      'GROUND': 'bg-yellow-600',
+      'FLYING': 'bg-indigo-400',
+      'BUG': 'bg-green-600',
+      'ROCK': 'bg-yellow-800',
+      'GHOST': 'bg-purple-800',
+      'STEEL': 'bg-gray-500',
+      'NORMAL': 'bg-gray-400'
+    };
+    return colors[type] || 'bg-gray-500';
+  };
+
+  const getTypeName = (typeId) => {
+    const type = typesData.types.find(t => t.id === typeId);
+    return type?.name || typeId;
   };
 
   return (
@@ -40,6 +70,18 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
               </div>
             </>
           )}
+        </div>
+
+        {/* Tipos - Abajo a la izquierda */}
+        <div className="absolute bottom-3 left-3 flex gap-1 flex-wrap">
+          {pokemon.types.map((type, typeIdx) => (
+            <span
+              key={typeIdx}
+              className={`px-2 py-0.5 rounded text-xs font-bold text-white ${getTypeColor(type)}`}
+            >
+              {getTypeName(type)}
+            </span>
+          ))}
         </div>
       </div>
 
