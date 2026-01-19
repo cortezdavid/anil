@@ -101,7 +101,7 @@ const PokemonEvolution = ({ pokemon }) => {
                             {evo.method}
                           </div>
                           {evo.requirement && (
-                            <div className="text-xs text-slate-400 font-semibold whitespace-nowrap">
+                            <div className="text-xs text-blue-400 font-semibold whitespace-nowrap">
                               {evo.requirement}
                             </div>
                           )}
@@ -176,7 +176,7 @@ const PokemonEvolution = ({ pokemon }) => {
                           {evo.method}
                         </div>
                         {evo.requirement && (
-                          <div className="text-xs text-slate-400 font-semibold whitespace-nowrap">
+                          <div className="text-xs text-blue-400 font-semibold whitespace-nowrap">
                             {evo.requirement}
                           </div>
                         )}
@@ -252,7 +252,7 @@ const PokemonEvolution = ({ pokemon }) => {
                       {stage.evolvesTo.method}
                     </div>
                     {stage.evolvesTo.requirement && (
-                      <div className="text-xs text-slate-400 font-semibold">
+                      <div className="text-xs text-blue-400 font-semibold">
                         {typeof stage.evolvesTo.requirement === 'number'
                           ? `${stage.evolvesTo.requirement}`
                           : getItemName(stage.evolvesTo.requirement)
@@ -300,7 +300,7 @@ const PokemonEvolution = ({ pokemon }) => {
                   <div className="text-xs font-bold text-blue-400 mt-1">
                     {stage.evolvesTo.method}
                     {stage.evolvesTo.requirement && (
-                      <span className="text-slate-400 ml-1">
+                      <span className="text-blue-400 ml-1">
                         {typeof stage.evolvesTo.requirement === 'number'
                           ? `${stage.evolvesTo.requirement}`
                           : getItemName(stage.evolvesTo.requirement)
@@ -365,7 +365,7 @@ const PokemonEvolution = ({ pokemon }) => {
                           {stage.evolvesTo.method}
                         </div>
                         {stage.evolvesTo.requirement && (
-                          <div className="text-xs text-slate-400 font-semibold">
+                          <div className="text-xs text-blue-400 font-semibold">
                             {typeof stage.evolvesTo.requirement === 'number'
                               ? `${stage.evolvesTo.requirement}`
                               : getItemName(stage.evolvesTo.requirement)
@@ -393,7 +393,7 @@ const PokemonEvolution = ({ pokemon }) => {
                         {evo.method}
                       </div>
                       {evo.requirement && (
-                        <div className="text-xs text-slate-400 font-semibold whitespace-nowrap">
+                        <div className="text-xs text-blue-400 font-semibold whitespace-nowrap">
                           {typeof evo.requirement === 'number'
                             ? `${evo.requirement}`
                             : getItemName(evo.requirement)
@@ -455,7 +455,7 @@ const PokemonEvolution = ({ pokemon }) => {
                   <div className="text-xs font-bold text-blue-400 mt-1">
                     {stage.evolvesTo.method}
                     {stage.evolvesTo.requirement && (
-                      <span className="text-slate-400 ml-1">
+                      <span className="text-blue-400 ml-1">
                         {typeof stage.evolvesTo.requirement === 'number'
                           ? `${stage.evolvesTo.requirement}`
                           : getItemName(stage.evolvesTo.requirement)
@@ -488,7 +488,7 @@ const PokemonEvolution = ({ pokemon }) => {
                     {evo.method}
                   </div>
                   {evo.requirement && (
-                    <div className="text-xs text-slate-400 font-semibold whitespace-nowrap">
+                    <div className="text-xs text-blue-400 font-semibold whitespace-nowrap">
                       {typeof evo.requirement === 'number'
                         ? `${evo.requirement}`
                         : getItemName(evo.requirement)
@@ -584,7 +584,7 @@ const PokemonEvolution = ({ pokemon }) => {
                   {evo.method}
                 </div>
                 {evo.requirement && (
-                  <div className="text-xs text-slate-400 font-semibold mt-2">
+                  <div className="text-xs text-blue-400 font-semibold mt-2">
                     {typeof evo.requirement === 'number'
                       ? `Nivel ${evo.requirement}`
                       : getItemName(evo.requirement)
