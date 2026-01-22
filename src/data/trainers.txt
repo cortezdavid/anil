@@ -191,69 +191,6 @@ LoseText = ¿Mi temible Pokémon no ha sido suficiente?
 Pokemon = OCTILLERY,48
 	Moves = BULLETSEED,FIREBLAST,HYDROPUMP,ICEBEAM
 #-------------------------------
-[ATLAS2,Atlas]
-LoseText = ¿Cómo es posible? ¿Derrotado otra vez?
-Items = HYPERPOTION
-Pokemon = WEEZING,48
-	Moves = EXPLOSION,SLUDGEBOMB,TOXICSPIKES,FLAMETHROWER
-	Item = POISONBARB
-	Nature = QUIRKY
-	IV = 15,15,15,15,15,15
-Pokemon = HOUNDOOM,48
-	Moves = FLAMETHROWER,DARKPULSE,NASTYPLOT,WILLOWISP
-	Item = BLACKGLASSES
-	Nature = QUIRKY
-	IV = 15,15,15,15,15,15
-Pokemon = CROBAT,50
-	Moves = AIRSLASH,SLUDGEBOMB,GIGADRAIN,NASTYPLOT
-	Item = WISEGLASSES
-	Nature = MODEST
-	IV = 15,15,15,15,15,15
-#-------------------------------
-[ATLAS2,Atlas,1]
-LoseText = ¿Cómo es posible? ¿Derrotado otra vez?
-Items = HYPERPOTION
-Pokemon = GRIMMSNARL,48
-	Moves = SPIRITBREAK,FALSESURRENDER,REFLECT,LIGHTSCREEN
-	AbilityIndex = 0
-	Item = LIGHTCLAY
-	Nature = QUIRKY
-	IV = 15,15,15,15,15,15
-Pokemon = HOUNDOOM,48
-	Moves = FLAMETHROWER,DARKPULSE,NASTYPLOT,WILLOWISP
-	Item = BLACKGLASSES
-	Nature = QUIRKY
-	IV = 15,15,15,15,15,15
-Pokemon = CROBAT,50
-	Moves = AIRSLASH,SLUDGEBOMB,GIGADRAIN,NASTYPLOT
-	Item = WISEGLASSES
-	Nature = MODEST
-	IV = 15,15,15,15,15,15
-#-------------------------------
-[ATLAS2,Atlas,2]
-LoseText = ¿Cómo es posible? ¿Derrotado otra vez?
-Pokemon = WEEZING,48
-	Moves = SLUDGEBOMB,WILLOWISP,FLAMETHROWER,TOXICSPIKES
-	Item = PAYAPABERRY
-	Nature = CALM
-	IV = 18,18,18,18,18,18
-Pokemon = GRIMMSNARL,48
-	Moves = SPIRITBREAK,FALSESURRENDER,REFLECT,LIGHTSCREEN
-	AbilityIndex = 0
-	Item = LIGHTCLAY
-	Nature = QUIRKY
-	IV = 18,18,18,18,18,18
-Pokemon = HOUNDOOM,48
-	Moves = FLAMETHROWER,DARKPULSE,NASTYPLOT,WILLOWISP
-	Item = LIFEORB
-	Nature = MODEST
-	IV = 18,18,18,18,18,18
-Pokemon = CROBAT,50
-	Moves = AIRSLASH,SLUDGEBOMB,GIGADRAIN,NASTYPLOT
-	Item = WISEGLASSES
-	Nature = MODEST
-	IV = 18,18,18,18,18,18
-#-------------------------------
 [ATENEA2,Atenea]
 LoseText = ¿Por qué defiendes a la compañía multimillonaria?
 Items = HYPERPOTION
