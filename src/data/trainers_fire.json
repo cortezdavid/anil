@@ -3771,7 +3771,7 @@
               "name": "WEEZING",
               "level": "48",
               "item": "POISONBARB",
-              "ability": "LEVITATE",
+              "ability": "Desconocido",
               "moves": [
                 "EXPLOSION",
                 "SLUDGEBOMB",
@@ -3853,7 +3853,7 @@
               "name": "WEEZING",
               "level": "48",
               "item": "PAYAPABERRY",
-              "ability": "LEVITATE",
+              "ability": "Desconocido",
               "moves": [
                 "SLUDGEBOMB",
                 "WILLOWISP",
@@ -3876,7 +3876,7 @@
             {
               "name": "HOUNDOOM",
               "level": "48",
-              "item": "BLACKGLASSES",
+              "item": "LIFEORB",
               "ability": "Desconocido",
               "moves": [
                 "FLAMETHROWER",
