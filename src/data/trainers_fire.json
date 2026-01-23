@@ -4071,7 +4071,7 @@
               "name": "ALAKAZAM",
               "level": "50",
               "item": "",
-              "ability": "SYNCHRONIZE",
+              "ability": "Desconocido",
               "moves": [
                 "PSYCHIC",
                 "SHADOWBALL",
@@ -4083,7 +4083,7 @@
               "name": "EXEGGUTOR",
               "level": "50",
               "item": "GRASSGEM",
-              "ability": "CHLOROPHYLL",
+              "ability": "Desconocido",
               "moves": [
                 "LEAFSTORM",
                 "PSYSHOCK",
@@ -4124,7 +4124,7 @@
               "name": "ALAKAZAM",
               "level": "50",
               "item": "",
-              "ability": "SYNCHRONIZE",
+              "ability": "Desconocido",
               "moves": [
                 "PSYCHIC",
                 "SHADOWBALL",
@@ -4136,7 +4136,7 @@
               "name": "EXEGGUTOR",
               "level": "50",
               "item": "GRASSGEM",
-              "ability": "CHLOROPHYLL",
+              "ability": "Desconocido",
               "moves": [
                 "LEAFSTORM",
                 "PSYSHOCK",
@@ -4189,7 +4189,7 @@
               "name": "ALAKAZAM",
               "level": "50",
               "item": "FOCUSSASH",
-              "ability": "SYNCHRONIZE",
+              "ability": "Desconocido",
               "moves": [
                 "PSYCHIC",
                 "SHADOWBALL",

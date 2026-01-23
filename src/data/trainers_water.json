@@ -4069,7 +4069,7 @@
               "name": "ALAKAZAM",
               "level": "50",
               "item": "",
-              "ability": "SYNCHRONIZE",
+              "ability": "Desconocido",
               "moves": [
                 "PSYCHIC",
                 "SHADOWBALL",
@@ -4081,7 +4081,7 @@
               "name": "ARCANINE",
               "level": "50",
               "item": "CHARCOAL",
-              "ability": "INTIMIDATE",
+              "ability": "Desconocido",
               "moves": [
                 "CRUNCH",
                 "FLAREBLITZ",
@@ -4122,7 +4122,7 @@
               "name": "ALAKAZAM",
               "level": "50",
               "item": "",
-              "ability": "SYNCHRONIZE",
+              "ability": "Desconocido",
               "moves": [
                 "PSYCHIC",
                 "SHADOWBALL",
@@ -4134,7 +4134,7 @@
               "name": "ARCANINE",
               "level": "50",
               "item": "CHARCOAL",
-              "ability": "INTIMIDATE",
+              "ability": "Desconocido",
               "moves": [
                 "CRUNCH",
                 "FLAREBLITZ",
@@ -4175,7 +4175,7 @@
               "name": "ALAKAZAM",
               "level": "50",
               "item": "FOCUSSASH",
-              "ability": "SYNCHRONIZE",
+              "ability": "Desconocido",
               "moves": [
                 "PSYCHIC",
                 "SHADOWBALL",

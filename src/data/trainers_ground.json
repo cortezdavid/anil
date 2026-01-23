@@ -4069,7 +4069,7 @@
               "name": "ALAKAZAM",
               "level": "50",
               "item": "",
-              "ability": "SYNCHRONIZE",
+              "ability": "Desconocido",
               "moves": [
                 "PSYCHIC",
                 "SHADOWBALL",
@@ -4122,7 +4122,7 @@
               "name": "ALAKAZAM",
               "level": "50",
               "item": "",
-              "ability": "SYNCHRONIZE",
+              "ability": "Desconocido",
               "moves": [
                 "PSYCHIC",
                 "SHADOWBALL",
@@ -4187,7 +4187,7 @@
               "name": "ALAKAZAM",
               "level": "50",
               "item": "FOCUSSASH",
-              "ability": "SYNCHRONIZE",
+              "ability": "Desconocido",
               "moves": [
                 "PSYCHIC",
                 "SHADOWBALL",
