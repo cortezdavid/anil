@@ -839,6 +839,36 @@
       "name": "DAMPROCK",
       "location": "Ruta 19",
       "img": "/images/items/DAMPROCK.png"
+    },
+    {
+      "id": 141,
+      "name": "VIAL1",
+      "location": "Ruta 20",
+      "img": "/images/items/VIAL1.png"
+    },
+    {
+      "id": 142,
+      "name": "VIAL2",
+      "location": "Ciudad Azulona",
+      "img": "/images/items/VIAL2.png"
+    },
+    {
+      "id": 143,
+      "name": "VIAL3",
+      "location": "Islas Espuma",
+      "img": "/images/items/VIAL3.png"
+    },
+    {
+      "id": 144,
+      "name": "VIAL4",
+      "location": "Ruta 24",
+      "img": "/images/items/VIAL4.png"
+    },
+    {
+      "id": 145,
+      "name": "POKEFLUTE",
+      "location": "Pueblo Lavanda",
+      "img": "/images/items/POKEFLUTE.png"
     }
   ]
 }

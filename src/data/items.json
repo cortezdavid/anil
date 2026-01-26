@@ -9268,7 +9268,43 @@
       "description": "Dispositivo que ofrece información sobre los Pokémon salvajes del lugar en el que estés."
     },
     {
-      "id": "VIAL",
+      "id": "VIAL1",
+      "name": "Pokévial",
+      "namePlural": "Pokévial",
+      "pocket": 8,
+      "price": 0,
+      "fieldUse": "Direct",
+      "flags": [
+        "KeyItem"
+      ],
+      "description": "Aparato de usos limitados que permite curar a todo tu equipo. Se recarga en Centros Pokémon."
+    },
+    {
+      "id": "VIAL2",
+      "name": "Pokévial",
+      "namePlural": "Pokévial",
+      "pocket": 8,
+      "price": 0,
+      "fieldUse": "Direct",
+      "flags": [
+        "KeyItem"
+      ],
+      "description": "Aparato de usos limitados que permite curar a todo tu equipo. Se recarga en Centros Pokémon."
+    },
+    {
+      "id": "VIAL3",
+      "name": "Pokévial",
+      "namePlural": "Pokévial",
+      "pocket": 8,
+      "price": 0,
+      "fieldUse": "Direct",
+      "flags": [
+        "KeyItem"
+      ],
+      "description": "Aparato de usos limitados que permite curar a todo tu equipo. Se recarga en Centros Pokémon."
+    },
+    {
+      "id": "VIAL4",
       "name": "Pokévial",
       "namePlural": "Pokévial",
       "pocket": 8,
