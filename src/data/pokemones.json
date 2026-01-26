@@ -19615,6 +19615,7 @@
       "image": "/images/pokemonFront/WORMADAM.png",
       "location": "/images/location/WORMADAM.webp",
       "name": "Wormadam",
+      "form":"Troco Planta",
       "types": [
         "BUG",
         "GRASS"

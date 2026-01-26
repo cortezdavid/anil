@@ -7944,6 +7944,104 @@
         "weight": 240.0
       },
       "pokedex": "Su poder oscuro bloquea el sol, sumiendo el área circundante en la oscuridad. No hay escapatoria de su ojo maligno."
+    },
+    {
+      "id": "WORMADAM1",
+      "image": "/images/pokemonFront/WORMADAM_1.png",
+      "location": "/images/location/WORMADAM.webp",
+      "route": "",
+      "baseId": "WORMADAM",
+      "name": "WORMADAM",
+      "form": "Tronco Arena",
+      "types": [
+        "BUG",
+        "GROUND"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 79,
+        "defense": 105,
+        "specialAttack": 59,
+        "specialDefense": 85,
+        "speed": 36
+      },
+      "abilities": [
+        "ANTICIPATION"
+      ],
+      "hiddenAbilities": [
+        "OVERCOAT"
+      ],
+      "physicalData": {
+        "height": 0.5,
+        "weight": 6.5
+      },
+        "evolutionChain": [
+        {
+          "species": "BURMY_1",
+          "evolvesTo": [
+            {
+              "species": "WORMADAM_1",
+              "method": "Siendo hembra",
+              "requirement": "Nivel 20"
+            },
+            {
+              "species": "MOTHIM",
+              "method": "Siendo macho",
+              "requirement": "Nivel 20"
+            }
+          ]
+        }
+      ],
+      "pokedex": "Cuando Burmy evolucionó, su caparazón pasó a formar parte de este Pokémon. Los materiales que encuentra pasan a formar parte de su cuerpo."
+    },
+    {
+      "id": "WORMADAM2",
+      "image": "/images/pokemonFront/WORMADAM_2.png",
+      "location": "/images/location/WORMADAM.webp",
+      "route": "",
+      "baseId": "WORMADAM",
+      "name": "WORMADAM",
+      "form": "Tronco Basura",
+      "types": [
+        "BUG",
+        "STEEL"
+      ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 69,
+        "defense": 95,
+        "specialAttack": 69,
+        "specialDefense": 95,
+        "speed": 36
+      },
+      "abilities": [
+        "ANTICIPATION"
+      ],
+      "hiddenAbilities": [
+        "OVERCOAT"
+      ],
+      "physicalData": {
+        "height": 0.5,
+        "weight": 6.5
+      },
+      "evolutionChain": [
+        {
+          "species": "BURMY_2",
+          "evolvesTo": [
+            {
+              "species": "WORMADAM_2",
+              "method": "Siendo hembra",
+              "requirement": "Nivel 20"
+            },
+            {
+              "species": "MOTHIM",
+              "method": "Siendo macho",
+              "requirement": "Nivel 20"
+            }
+          ]
+        }
+      ],
+      "pokedex": "Cuando Burmy evolucionó, su caparazón pasó a formar parte de este Pokémon. Los materiales que encuentra pasan a formar parte de su cuerpo."
     }
   ]
 }
