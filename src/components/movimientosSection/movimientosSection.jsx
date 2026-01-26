@@ -194,10 +194,17 @@ const MovimientosSection = ({ pokemon }) => {
         </div>
 
         {/* Columna 3: Movimientos Huevo */}
-        <div className="bg-slate-800 rounded-xl overflow-hidden">
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-3">
+        <div className="bg-slate-800 rounded-xl">
+          <div className="bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-3 rounded-t-xl">
             <h3 className="text-white font-bold text-sm flex items-center justify-between">
-              <span>Movimientos Huevo</span>
+              <span className="flex items-center gap-2">
+                Movimientos Huevo
+                <Tooltip text="Movimientos disponibles en el Dojo de Ciudad Azafrán. Requiere una Escama Corazón." position="left">
+                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                  </svg>
+                </Tooltip>
+              </span>
               <span className="bg-white/20 px-2 py-1 rounded-full text-xs">
                 {sortedEggMoves.length}
               </span>

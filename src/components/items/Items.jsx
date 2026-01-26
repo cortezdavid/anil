@@ -106,7 +106,7 @@ const Items = () => {
 
         {/* Grid de items */}
         {filteredItems.length === 0 ? (
-          <div className="text-center py-12 bg-slate-800 rounded-xl shadow-lg border border-slate-700">
+          <div className="text-center py-12">
             <div className="text-4xl mb-3">🔍</div>
             <p className="text-slate-400 font-semibold">No se encontraron resultados para "{search}"</p>
           </div>

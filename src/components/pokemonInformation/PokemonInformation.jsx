@@ -50,7 +50,7 @@ const PokemonInformation = ({ pokemon }) => {
       <div className="space-y-6 lg:col-span-1">
 
         {/* Card de Tipos */}
-        <div className="bg-slate-800 rounded-2xl shadow-lg shadow-gray-900/30 p-6 border border-slate-700">
+        <div className="bg-slate-800 rounded-2xl p-6">
           <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-4">
             Tipo
           </h3>
@@ -58,7 +58,7 @@ const PokemonInformation = ({ pokemon }) => {
             {pokemon.types?.map((type, index) => (
               <span
                 key={index}
-                className={`px-4 py-2 rounded-xl text-sm font-bold text-white ${getTypeColor(type)} shadow-lg`}
+                className={`px-4 py-2 rounded-xl text-sm font-bold text-white ${getTypeColor(type)}`}
               >
                 {getTypeName(type)}
               </span>
@@ -67,7 +67,7 @@ const PokemonInformation = ({ pokemon }) => {
         </div>
 
         {/* Card de Datos Físicos */}
-        <div className="bg-slate-800 rounded-2xl shadow-lg shadow-gray-900/30 p-4 border border-slate-700">
+        <div className="bg-slate-800 rounded-2xl p-4">
           <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-4">
             Datos Físicos
           </h3>
@@ -95,7 +95,7 @@ const PokemonInformation = ({ pokemon }) => {
       {/* COLUMNA 2-3: Habilidades*/}
       <div className="lg:col-span-2">
         {/* Card de Habilidades */}
-        <div className="bg-slate-800 rounded-2xl shadow-lg shadow-gray-900/30 p-6 border border-slate-700 h-full">
+        <div className="bg-slate-800 rounded-2xl p-6 h-full">
           <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-4">
             Habilidades
           </h3>
