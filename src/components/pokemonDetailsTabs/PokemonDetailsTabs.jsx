@@ -4,6 +4,7 @@ import PokemonRoute from "../pokemonRoute/PokemonRoute";
 import PokemonEvolution from "../pokemonEvolution/PokemonEvolution";
 import PokemonBaseStats from "../pokemonBaseStats/PokemonBaseStats";
 import MovimientosSection from "../movimientosSection/movimientosSection";
+import PokemonEffectiveness from "../pokemonEffectiveness/PokemonEffectiveness";
 
 const PokemonDetailsTabs = ({ pokemon, activeTab, setActiveTab }) => {
   const hasMega = Boolean(pokemon?.MegaStore);
@@ -15,6 +16,7 @@ const PokemonDetailsTabs = ({ pokemon, activeTab, setActiveTab }) => {
     },
     { id: "evolucion", label: "Evolución" },
     { id: "estadisticas", label: "Estadísticas" },
+    { id: "efectividad", label: "Efectividad" },
     { id: "movimientos", label: "Movimientos" },
   ];
 
@@ -84,6 +86,11 @@ const PokemonDetailsTabs = ({ pokemon, activeTab, setActiveTab }) => {
         {activeTab === "estadisticas" && (
           <div>
             <PokemonBaseStats pokemon={pokemon} />
+          </div>
+        )}
+        {activeTab === "efectividad" && (
+          <div>
+            <PokemonEffectiveness pokemon={pokemon} />
           </div>
         )}
 
