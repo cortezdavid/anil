@@ -7529,34 +7529,7 @@
       },
       "pokedex": "Hoy en día, la flor que lleva ya no se ve en la naturaleza. Se cree que alberga un temible poder."
     },
-    {
-      "id": "FLOETTE6",
-      "image": "/images/pokemonFront/FLOETTE_6.png",
-      "location": "/images/location/FLOETTE_6.webp",
-      "baseId": "FLOETTE",
-      "name": "Mega Floette",
-      "form": "Mega Floette",
-      "MegaStore": "FLOETTITE",
-      "types": [
-        "FAIRY"
-      ],
-      "baseStats": {
-        "hp": 74,
-        "attack": 65,
-        "defense": 67,
-        "specialAttack": 125,
-        "specialDefense": 128,
-        "speed": 92
-      },
-      "abilities": [
-        "MEGALAUNCHER"
-      ],
-      "physicalData": {
-        "height": 0.2,
-        "weight": 100.8
-      },
-      "pokedex": "Su Flor Eterna ha absorbido toda la energía de la megaevolución y ahora es capaz de atacar a los enemigos por sí sola."
-    },
+  
     {
       "id": "CHIMECHO1",
       "image": "/images/pokemonFront/CHIMECHO_1.png",
