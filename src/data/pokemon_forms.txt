@@ -293,14 +293,6 @@ FormName = Forma CrioROM
 [GENESECT,4]
 FormName = Forma HidroROM
 #-------------------------------
-[GRENINJA,2]
-FormName = Greninja Ash
-BaseStats = 72,145,67,132,153,71
-BaseExp = 320
-Abilities = SKILLLINK
-HiddenAbilities = SKILLLINK
-Generation = 7
-#-------------------------------
 [FLOETTE,5]
 FormName = Forma Flor Eterna
 BaseStats = 74,65,67,92,125,128
@@ -311,69 +303,6 @@ Moves = 1,TACKLE,1,VINEWHIP,1,FAIRYWIND,6,FAIRYWIND,10,LUCKYCHANT,15,RAZORLEAF,2
 EggGroups = Undiscovered
 Pokedex = Hoy en día, la flor que lleva ya no se ve en la naturaleza. Se cree que alberga un temible poder.
 Evolutions = FLORGES,None,
-#-------------------------------
-[GOURGEIST,1]
-FormName = Tamaño Normal
-BaseStats = 65,90,122,84,58,75
-Height = 0.9
-Weight = 12.5
-Pokedex = Se dice que los espeluznantes alaridos que emite bien entrada la noche son los lamentos de almas en pena desde el más allá.
-#-------------------------------
-[GOURGEIST,2]
-FormName = Tamaño Grande
-BaseStats = 75,95,122,69,58,75
-Height = 1.1
-Weight = 14.0
-Pokedex = Los Gourgeist Tamaño Grande se hacen pasar por adultos para tomar a los niños de la mano y llevárselos al otro mundo.
-#-------------------------------
-[GOURGEIST,3]
-FormName = Tamaño Extragrande
-BaseStats = 85,100,122,54,58,75
-Height = 1.7
-Weight = 39.0
-Pokedex = Los Gourgeist tamaño Extragrande se llevan a cualquiera al otro mundo, pues nadie puede resistir su fuerza.
-#-------------------------------
-[XERNEAS,1]
-FormName = Modo Activo
-#-------------------------------
-[ZYGARDE,1]
-FormName = Forma 10%
-BaseStats = 54,100,71,115,61,85
-BaseExp = 243
-Height = 1.2
-Weight = 33.5
-Color = Black
-Shape = Quadruped
-Pokedex = Zygarde adopta esta forma al reunir el 10% de sus células. Destaca en el combate a corta distancia.
-Generation = 7
-#-------------------------------
-[ZYGARDE,2]
-FormName = Forma Completa
-BaseStats = 216,100,121,85,91,95
-BaseExp = 354
-Abilities = POWERCONSTRUCT
-HiddenAbilities = POWERCONSTRUCT
-Height = 4.5
-Weight = 610.0
-Color = Black
-Shape = BipedalTail
-Pokedex = Esta es la forma definitiva de Zygarde. Por la boca de su pecho emite una potente energía que arrasa con todo.
-Generation = 7
-Flags = Legendary
-#-------------------------------
-[ZYGARDE,3]
-FormName = Forma Completa
-BaseStats = 216,100,121,85,91,95
-BaseExp = 354
-Abilities = POWERCONSTRUCT
-HiddenAbilities = POWERCONSTRUCT
-Height = 4.5
-Weight = 610.0
-Color = Black
-Shape = BipedalTail
-Pokedex = Esta es la forma definitiva de Zygarde. Por la boca de su pecho emite una potente energía que arrasa con todo.
-Generation = 7
-Flags = Legendary
 #-------------------------------
 [ORICORIO,1]
 FormName = Estilo Animado

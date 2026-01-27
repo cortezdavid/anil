@@ -6905,7 +6905,7 @@
       "id": "ZYGARDE2",
       "image": "/images/pokemonFront/ZYGARDE_2.png",
       "location": "/images/location/ZYGARDE_2.webp",
-      "route": "Torre Batalla",
+      "route": "",
       "baseId": "ZYGARDE",
       "name": "Zygarde",
       "form": "Forma Completa",
