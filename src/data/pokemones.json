@@ -19615,7 +19615,7 @@
       "image": "/images/pokemonFront/WORMADAM.png",
       "location": "/images/location/WORMADAM.webp",
       "name": "Wormadam",
-      "form":"Troco Planta",
+      "form": "Troco Planta",
       "types": [
         "BUG",
         "GRASS"
@@ -33101,6 +33101,7 @@
       "image": "/images/pokemonFront/PUMPKABOO.png",
       "location": "/images/location/PUMPKABOO.webp",
       "route": "Ruta 10 Sur",
+      "form": "Pequeño",
       "name": "Pumpkaboo",
       "types": [
         "GHOST",
@@ -46171,7 +46172,7 @@
       "location": "/images/location/OGERPON.webp",
       "route": "Ruta 25 Sur - Evento",
       "name": "Ogerpon",
-      "form": "Forma Máscara Turquesa",
+      "form": "Máscara Turquesa",
       "types": [
         "GRASS"
       ],

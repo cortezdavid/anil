@@ -175396,5 +175396,419 @@
         "YAWN"
       ]
     }
+  },
+  "PUMPKABOO1": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 1,
+          "move": "ASTONISH"
+        },
+        {
+          "level": 4,
+          "move": "SHADOWSNEAK"
+        },
+        {
+          "level": 6,
+          "move": "WILLOWISP"
+        },
+        {
+          "level": 8,
+          "move": "CONFUSERAY"
+        },
+        {
+          "level": 12,
+          "move": "RAZORLEAF"
+        },
+        {
+          "level": 16,
+          "move": "LEECHSEED"
+        },
+        {
+          "level": 20,
+          "move": "BULLETSEED"
+        },
+        {
+          "level": 24,
+          "move": "SCARYFACE"
+        },
+        {
+          "level": 28,
+          "move": "WORRYSEED"
+        },
+        {
+          "level": 32,
+          "move": "SEEDBOMB"
+        },
+        {
+          "level": 36,
+          "move": "TRICKORTREAT"
+        },
+        {
+          "level": 36,
+          "move": "SHADOWBALL"
+        },
+        {
+          "level": 40,
+          "move": "TRICK"
+        },
+        {
+          "level": 44,
+          "move": "PAINSPLIT"
+        }
+      ],
+      "tutorMoves": [
+        "ALLYSWITCH",
+        "ATTRACT",
+        "BULLETSEED",
+        "CAPTIVATE",
+        "CHARGEBEAM",
+        "CONFIDE",
+        "DARKPULSE",
+        "DOUBLETEAM",
+        "DREAMEATER",
+        "ENDURE",
+        "ENERGYBALL",
+        "EXPLOSION",
+        "FACADE",
+        "FIREBLAST",
+        "FLAMECHARGE",
+        "FLAMETHROWER",
+        "FLASH",
+        "FOULPLAY",
+        "FRUSTRATION",
+        "GIGADRAIN",
+        "GRASSKNOT",
+        "GRASSYGLIDE",
+        "GYROBALL",
+        "HEX",
+        "HIDDENPOWER",
+        "IMPRISON",
+        "INCINERATE",
+        "LIGHTSCREEN",
+        "MAGICCOAT",
+        "MIMIC",
+        "MYSTICALFIRE",
+        "NATURALGIFT",
+        "NATUREPOWER",
+        "PAINSPLIT",
+        "POLTERGEIST",
+        "PROTECT",
+        "PSYCHIC",
+        "REST",
+        "RETURN",
+        "ROCKSLIDE",
+        "ROCKSMASH",
+        "ROLEPLAY",
+        "ROUND",
+        "SAFEGUARD",
+        "SCARYFACE",
+        "SECRETPOWER",
+        "SEEDBOMB",
+        "SHADOWBALL",
+        "SKILLSWAP",
+        "SKITTERSMACK",
+        "SLEEPTALK",
+        "SLUDGEBOMB",
+        "SNORE",
+        "SOLARBEAM",
+        "SPITE",
+        "SUBSTITUTE",
+        "SUNNYDAY",
+        "SWAGGER",
+        "SYNTHESIS",
+        "TELEKINESIS",
+        "THIEF",
+        "TOXIC",
+        "TRAILBLAZE",
+        "TRICK",
+        "TRICKROOM",
+        "WILLOWISP",
+        "WORKUP",
+        "WORRYSEED"
+      ],
+      "eggMoves": [
+        "BESTOW",
+        "CURSE",
+        "DESTINYBOND",
+        "DISABLE"
+      ]
+    }
+  },
+  "PUMPKABOO2": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 1,
+          "move": "ASTONISH"
+        },
+        {
+          "level": 4,
+          "move": "SHADOWSNEAK"
+        },
+        {
+          "level": 6,
+          "move": "WILLOWISP"
+        },
+        {
+          "level": 8,
+          "move": "CONFUSERAY"
+        },
+        {
+          "level": 12,
+          "move": "RAZORLEAF"
+        },
+        {
+          "level": 16,
+          "move": "LEECHSEED"
+        },
+        {
+          "level": 20,
+          "move": "BULLETSEED"
+        },
+        {
+          "level": 24,
+          "move": "SCARYFACE"
+        },
+        {
+          "level": 28,
+          "move": "WORRYSEED"
+        },
+        {
+          "level": 32,
+          "move": "SEEDBOMB"
+        },
+        {
+          "level": 36,
+          "move": "TRICKORTREAT"
+        },
+        {
+          "level": 36,
+          "move": "SHADOWBALL"
+        },
+        {
+          "level": 40,
+          "move": "TRICK"
+        },
+        {
+          "level": 44,
+          "move": "PAINSPLIT"
+        }
+      ],
+      "tutorMoves": [
+        "ALLYSWITCH",
+        "ATTRACT",
+        "BULLETSEED",
+        "CAPTIVATE",
+        "CHARGEBEAM",
+        "CONFIDE",
+        "DARKPULSE",
+        "DOUBLETEAM",
+        "DREAMEATER",
+        "ENDURE",
+        "ENERGYBALL",
+        "EXPLOSION",
+        "FACADE",
+        "FIREBLAST",
+        "FLAMECHARGE",
+        "FLAMETHROWER",
+        "FLASH",
+        "FOULPLAY",
+        "FRUSTRATION",
+        "GIGADRAIN",
+        "GRASSKNOT",
+        "GRASSYGLIDE",
+        "GYROBALL",
+        "HEX",
+        "HIDDENPOWER",
+        "IMPRISON",
+        "INCINERATE",
+        "LIGHTSCREEN",
+        "MAGICCOAT",
+        "MIMIC",
+        "MYSTICALFIRE",
+        "NATURALGIFT",
+        "NATUREPOWER",
+        "PAINSPLIT",
+        "POLTERGEIST",
+        "PROTECT",
+        "PSYCHIC",
+        "REST",
+        "RETURN",
+        "ROCKSLIDE",
+        "ROCKSMASH",
+        "ROLEPLAY",
+        "ROUND",
+        "SAFEGUARD",
+        "SCARYFACE",
+        "SECRETPOWER",
+        "SEEDBOMB",
+        "SHADOWBALL",
+        "SKILLSWAP",
+        "SKITTERSMACK",
+        "SLEEPTALK",
+        "SLUDGEBOMB",
+        "SNORE",
+        "SOLARBEAM",
+        "SPITE",
+        "SUBSTITUTE",
+        "SUNNYDAY",
+        "SWAGGER",
+        "SYNTHESIS",
+        "TELEKINESIS",
+        "THIEF",
+        "TOXIC",
+        "TRAILBLAZE",
+        "TRICK",
+        "TRICKROOM",
+        "WILLOWISP",
+        "WORKUP",
+        "WORRYSEED"
+      ],
+      "eggMoves": [
+        "BESTOW",
+        "CURSE",
+        "DESTINYBOND",
+        "DISABLE"
+      ]
+    }
+  },
+  "PUMPKABOO3": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 1,
+          "move": "ASTONISH"
+        },
+        {
+          "level": 4,
+          "move": "SHADOWSNEAK"
+        },
+        {
+          "level": 6,
+          "move": "WILLOWISP"
+        },
+        {
+          "level": 8,
+          "move": "CONFUSERAY"
+        },
+        {
+          "level": 12,
+          "move": "RAZORLEAF"
+        },
+        {
+          "level": 16,
+          "move": "LEECHSEED"
+        },
+        {
+          "level": 20,
+          "move": "BULLETSEED"
+        },
+        {
+          "level": 24,
+          "move": "SCARYFACE"
+        },
+        {
+          "level": 28,
+          "move": "WORRYSEED"
+        },
+        {
+          "level": 32,
+          "move": "SEEDBOMB"
+        },
+        {
+          "level": 36,
+          "move": "TRICKORTREAT"
+        },
+        {
+          "level": 36,
+          "move": "SHADOWBALL"
+        },
+        {
+          "level": 40,
+          "move": "TRICK"
+        },
+        {
+          "level": 44,
+          "move": "PAINSPLIT"
+        }
+      ],
+      "tutorMoves": [
+        "ALLYSWITCH",
+        "ATTRACT",
+        "BULLETSEED",
+        "CAPTIVATE",
+        "CHARGEBEAM",
+        "CONFIDE",
+        "DARKPULSE",
+        "DOUBLETEAM",
+        "DREAMEATER",
+        "ENDURE",
+        "ENERGYBALL",
+        "EXPLOSION",
+        "FACADE",
+        "FIREBLAST",
+        "FLAMECHARGE",
+        "FLAMETHROWER",
+        "FLASH",
+        "FOULPLAY",
+        "FRUSTRATION",
+        "GIGADRAIN",
+        "GRASSKNOT",
+        "GRASSYGLIDE",
+        "GYROBALL",
+        "HEX",
+        "HIDDENPOWER",
+        "IMPRISON",
+        "INCINERATE",
+        "LIGHTSCREEN",
+        "MAGICCOAT",
+        "MIMIC",
+        "MYSTICALFIRE",
+        "NATURALGIFT",
+        "NATUREPOWER",
+        "PAINSPLIT",
+        "POLTERGEIST",
+        "PROTECT",
+        "PSYCHIC",
+        "REST",
+        "RETURN",
+        "ROCKSLIDE",
+        "ROCKSMASH",
+        "ROLEPLAY",
+        "ROUND",
+        "SAFEGUARD",
+        "SCARYFACE",
+        "SECRETPOWER",
+        "SEEDBOMB",
+        "SHADOWBALL",
+        "SKILLSWAP",
+        "SKITTERSMACK",
+        "SLEEPTALK",
+        "SLUDGEBOMB",
+        "SNORE",
+        "SOLARBEAM",
+        "SPITE",
+        "SUBSTITUTE",
+        "SUNNYDAY",
+        "SWAGGER",
+        "SYNTHESIS",
+        "TELEKINESIS",
+        "THIEF",
+        "TOXIC",
+        "TRAILBLAZE",
+        "TRICK",
+        "TRICKROOM",
+        "WILLOWISP",
+        "WORKUP",
+        "WORRYSEED"
+      ],
+      "eggMoves": [
+        "BESTOW",
+        "CURSE",
+        "DESTINYBOND",
+        "DISABLE"
+      ]
+    }
   }
 }

@@ -5637,7 +5637,29 @@
       "physicalData": {
         "height": 1.5,
         "weight": 58.2
-      }
+      },
+      "evolutionChain": [
+        {
+          "species": "OSHAWOTT",
+          "evolvesTo": {
+            "species": "DEWOTT",
+            "method": "Nivel",
+            "requirement": 17
+          }
+        },
+        {
+          "species": "DEWOTT",
+          "evolvesTo": {
+            "species": "SAMUROTT_1",
+            "method": "Nivel",
+            "requirement": 36
+          }
+        },
+        {
+          "species": "SAMUROTT_1",
+          "evolvesTo": null
+        }
+      ]
     },
     {
       "id": "TYPHLOSION1",
@@ -5668,7 +5690,29 @@
       "physicalData": {
         "height": 1.6,
         "weight": 69.7
-      }
+      },
+      "evolutionChain": [
+        {
+          "species": "CYNDAQUIL",
+          "evolvesTo": {
+            "species": "QUILAVA",
+            "method": "Nivel",
+            "requirement": 14
+          }
+        },
+        {
+          "species": "QUILAVA",
+          "evolvesTo": {
+            "species": "TYPHLOSION_1",
+            "method": "Nivel",
+            "requirement": 36
+          }
+        },
+        {
+          "species": "TYPHLOSION_1",
+          "evolvesTo": null
+        }
+      ]
     },
     {
       "id": "TAUROS2",
@@ -7529,7 +7573,6 @@
       },
       "pokedex": "Hoy en día, la flor que lleva ya no se ve en la naturaleza. Se cree que alberga un temible poder."
     },
-  
     {
       "id": "CHIMECHO1",
       "image": "/images/pokemonFront/CHIMECHO_1.png",
@@ -7948,7 +7991,7 @@
         "height": 0.5,
         "weight": 6.5
       },
-        "evolutionChain": [
+      "evolutionChain": [
         {
           "species": "BURMY_1",
           "evolvesTo": [
@@ -8015,6 +8058,135 @@
         }
       ],
       "pokedex": "Cuando Burmy evolucionó, su caparazón pasó a formar parte de este Pokémon. Los materiales que encuentra pasan a formar parte de su cuerpo."
+    },
+    {
+      "id": "PUMPKABOO1",
+      "image": "/images/pokemonFront/PUMPKABOO_1.png",
+      "location": "/images/location/PUMPKABOO_1.webp",
+      "route": "",
+      "baseId": "PUMPKABOO",
+      "name": "PUMPKABOO",
+      "form": "Normal",
+      "types": [
+        "GHOST",
+        "GRASS"
+      ],
+      "baseStats": {
+        "hp": 49,
+        "attack": 66,
+        "defense": 70,
+        "specialAttack": 44,
+        "specialDefense": 55,
+        "speed": 51
+      },
+      "abilities": [
+        "FLASHFIRE"
+      ],
+      "physicalData": {
+        "height": 0.4,
+        "weight": 5
+      },
+      "evolutionChain": [
+        {
+          "species": "PUMPKABOO_1",
+          "evolvesTo": {
+            "species": "GOURGEIST_1",
+            "method": "Nivel",
+            "requirement": 37
+          }
+        },
+        {
+          "species": "GOURGEIST_1",
+          "evolvesTo": null
+        }
+      ],
+      "pokedex": "Las almas errantes de este mundo se introducen en su cuerpo e inician así su viaje al más allá."
+    },
+    {
+      "id": "PUMPKABOO2",
+      "image": "/images/pokemonFront/PUMPKABOO_2.png",
+      "location": "/images/location/PUMPKABOO_2.webp",
+      "route": "",
+      "baseId": "PUMPKABOO",
+      "name": "PUMPKABOO",
+      "form": "Grande",
+      "types": [
+        "GHOST",
+        "GRASS"
+      ],
+      "baseStats": {
+        "hp": 54,
+        "attack": 66,
+        "defense": 70,
+        "specialAttack": 44,
+        "specialDefense": 55,
+        "speed": 46
+      },
+      "abilities": [
+        "FLASHFIRE"
+      ],
+      "physicalData": {
+        "height": 0.5,
+        "weight": 7.5
+      },
+      "evolutionChain": [
+        {
+          "species": "PUMPKABOO_2",
+          "evolvesTo": {
+            "species": "GOURGEIST_2",
+            "method": "Nivel",
+            "requirement": 37
+          }
+        },
+        {
+          "species": "GOURGEIST_2",
+          "evolvesTo": null
+        }
+      ],
+      "pokedex": "Se atribuye su gran tamaño al hecho de haber vivido en un lugar donde no escaseaban las almas errantes."
+    },
+    {
+      "id": "PUMPKABOO3",
+      "image": "/images/pokemonFront/PUMPKABOO_3.png",
+      "location": "/images/location/PUMPKABOO_3.webp",
+      "route": "",
+      "baseId": "PUMPKABOO",
+      "name": "PUMPKABOO",
+      "form": "Extra Grande",
+      "types": [
+        "GHOST",
+        "GRASS"
+      ],
+      "baseStats": {
+        "hp": 59,
+        "attack": 66,
+        "defense": 70,
+        "specialAttack": 44,
+        "specialDefense": 55,
+        "speed": 41
+      },
+      "abilities": [
+        "FLASHFIRE"
+      ],
+      "physicalData": {
+        "height": 0.8,
+        "weight": 15
+      },
+      "evolutionChain": [
+        {
+          "species": "PUMPKABOO_3",
+          "evolvesTo": {
+            "species": "GOURGEIST_3",
+            "method": "Nivel",
+            "requirement": 37
+          }
+        },
+        {
+          "species": "GOURGEIST_3",
+          "evolvesTo": null
+        }
+      ],
+      "pokedex": "Se atribuye su enorme tamaño al hecho de haber vivido en un lugar donde abundaban las almas errantes."
     }
   ]
 }
