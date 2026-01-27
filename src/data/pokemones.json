@@ -33144,6 +33144,7 @@
       "image": "/images/pokemonFront/GOURGEIST.png",
       "location": "/images/location/GOURGEIST.webp",
       "name": "Gourgeist",
+      "form": "Pequeño",
       "types": [
         "GHOST",
         "GRASS"
