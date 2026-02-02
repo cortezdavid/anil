@@ -1,10 +1,12 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useRef, useEffect } from 'react';
 import movesData from '../../data/moves.json';
 import abilitiesData from '../../data/abilities.json';
 import typesData from '../../data/types.json';
 import AutoScrollTop from '../autoScrollTop/AutoScrollTop';
 import AbilityModal from './AbilityModal';
 import { useSEO } from '../../hooks/useSEO';
+
+const ITEMS_PER_PAGE = 50;
 
 const MovesAndAbilities = () => {
   useSEO({
@@ -16,6 +18,8 @@ const MovesAndAbilities = () => {
   const [activeTab, setActiveTab] = useState('moves');
   const [search, setSearch] = useState('');
   const [selectedAbility, setSelectedAbility] = useState(null);
+  const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
+  const loadMoreRef = useRef(null);
 
   const getTypeName = (typeId) => {
     const type = typesData.types.find(t => t.id === typeId);
@@ -46,29 +50,47 @@ const MovesAndAbilities = () => {
     return colors[type] || 'bg-gray-500';
   };
 
-  // Filtrar y ordenar movimientos (useMemo para optimizar)
+  // Filtrar y ordenar movimientos
   const filteredMoves = useMemo(() => {
     const searchLower = search.toLowerCase();
     return movesData.moves
-      .filter(move => {
-        return (
-          move.name.toLowerCase().includes(searchLower)
-        );
-      })
+      .filter(move => move.name.toLowerCase().includes(searchLower))
       .sort((a, b) => a.name.localeCompare(b.name));
   }, [search]);
 
-  // Filtrar y ordenar habilidades (useMemo para optimizar)
+  // Filtrar y ordenar habilidades
   const filteredAbilities = useMemo(() => {
     const searchLower = search.toLowerCase();
     return abilitiesData.abilities
-      .filter(ability => {
-        return ability.name.toLowerCase().includes(searchLower);
-      })
+      .filter(ability => ability.name.toLowerCase().includes(searchLower))
       .sort((a, b) => a.name.localeCompare(b.name));
   }, [search]);
 
   const currentList = activeTab === 'moves' ? filteredMoves : filteredAbilities;
+  const visibleList = currentList.slice(0, visibleCount);
+  const hasMore = visibleCount < currentList.length;
+
+  // Resetear visibleCount cuando cambia pestaña o búsqueda
+  useEffect(() => {
+    setVisibleCount(ITEMS_PER_PAGE);
+  }, [activeTab, search]);
+
+  // IntersectionObserver para cargar más al hacer scroll
+  useEffect(() => {
+    if (!loadMoreRef.current || !hasMore) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setVisibleCount(prev => prev + ITEMS_PER_PAGE);
+        }
+      },
+      { threshold: 0.1 }
+    );
+
+    observer.observe(loadMoreRef.current);
+    return () => observer.disconnect();
+  }, [hasMore, visibleCount]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-gray-900">
@@ -145,84 +167,90 @@ const MovesAndAbilities = () => {
             </p>
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {/* MOVIMIENTOS */}
-            {activeTab === 'moves' && filteredMoves.map(move => (
-              <div key={move.id} className="bg-slate-800 rounded-xl shadow-lg overflow-hidden border border-slate-700 hover:shadow-blue-900/20 transition-all duration-200">
-                {/* Header */}
-                <div className="p-4 bg-slate-700/50 border-b border-slate-600">
-                  <div className="flex items-center justify-between mb-2">
-                    <h3 className="font-black text-lg text-slate-100">{move.name}</h3>
-                    <span className={`px-3 py-1 rounded-full text-xs font-bold text-white ${getTypeColor(move.type)}`}>
-                      {getTypeName(move.type)}
-                    </span>
-                  </div>
-                  <div className="flex items-center space-x-2">
-                    <div className="h-8 rounded flex items-center overflow-hidden">
-                      <img
-                        src={`/images/category/${move.category.toLowerCase()}.png`}
-                        alt={move.category}
-                        className="h-6 object-contain"
-                        onError={(e) => { e.target.style.display = 'none'; }}
-                      />
+          <>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {/* MOVIMIENTOS */}
+              {activeTab === 'moves' && visibleList.map(move => (
+                <div key={move.id} className="bg-slate-800 rounded-xl shadow-lg overflow-hidden border border-slate-700 hover:shadow-blue-900/20 transition-all duration-200">
+                  <div className="p-4 bg-slate-700/50 border-b border-slate-600">
+                    <div className="flex items-center justify-between mb-2">
+                      <h3 className="font-black text-lg text-slate-100">{move.name}</h3>
+                      <span className={`px-3 py-1 rounded-full text-xs font-bold text-white ${getTypeColor(move.type)}`}>
+                        {getTypeName(move.type)}
+                      </span>
                     </div>
-                    <span className="text-sm text-slate-400">{move.category}</span>
+                    <div className="flex items-center space-x-2">
+                      <div className="h-8 rounded flex items-center overflow-hidden">
+                        <img
+                          src={`/images/category/${move.category.toLowerCase()}.png`}
+                          alt={move.category}
+                          className="h-6 object-contain"
+                          onError={(e) => { e.target.style.display = 'none'; }}
+                        />
+                      </div>
+                      <span className="text-sm text-slate-400">{move.category}</span>
+                    </div>
                   </div>
-                </div>
 
-                {/* Body */}
-                <div className="p-4 space-y-4">
-                  {/* Descripción */}
-                  <p className="text-slate-300 text-sm leading-relaxed">
-                    {move.description}
-                  </p>
-
-                  {/* Stats */}
-                  <div className="grid grid-cols-3 gap-2">
-                    {move.category !== 'Estado' && (
+                  <div className="p-4 space-y-4">
+                    <p className="text-slate-300 text-sm leading-relaxed">
+                      {move.description}
+                    </p>
+                    <div className="grid grid-cols-3 gap-2">
+                      {move.category !== 'Estado' && (
+                        <div className="bg-slate-900/50 rounded-lg p-2 text-center">
+                          <div className="text-xs text-slate-400 font-semibold">Poder</div>
+                          <div className="text-lg font-black text-slate-100">{move.power || '-'}</div>
+                        </div>
+                      )}
                       <div className="bg-slate-900/50 rounded-lg p-2 text-center">
-                        <div className="text-xs text-slate-400 font-semibold">Poder</div>
-                        <div className="text-lg font-black text-slate-100">{move.power || '-'}</div>
+                        <div className="text-xs text-slate-400 font-semibold">Precisión</div>
+                        <div className="text-lg font-black text-slate-100">
+                          {typeof move.accuracy === 'number' ? `${move.accuracy}%` : '-'}
+                        </div>
                       </div>
-                    )}
-                    <div className="bg-slate-900/50 rounded-lg p-2 text-center">
-                      <div className="text-xs text-slate-400 font-semibold">Precisión</div>
-                      <div className="text-lg font-black text-slate-100">
-                        {typeof move.accuracy === 'number' ? `${move.accuracy}%` : '-'}
+                      <div className="bg-slate-900/50 rounded-lg p-2 text-center">
+                        <div className="text-xs text-slate-400 font-semibold">PP</div>
+                        <div className="text-lg font-black text-slate-100">{move.pp}</div>
                       </div>
-                    </div>
-                    <div className="bg-slate-900/50 rounded-lg p-2 text-center">
-                      <div className="text-xs text-slate-400 font-semibold">PP</div>
-                      <div className="text-lg font-black text-slate-100">{move.pp}</div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              ))}
 
-            {/* HABILIDADES */}
-            {activeTab === 'abilities' && filteredAbilities.map(ability => (
-              <div
-                key={ability.id}
-                onClick={() => setSelectedAbility(ability)}
-                className="bg-slate-800 rounded-xl shadow-lg overflow-hidden border border-slate-700 hover:shadow-blue-900/20 transition-all duration-200 cursor-pointer hover:scale-[1.02] "
-              >
-                {/* Header */}
-                <div className="p-4 bg-slate-700/50 border-b border-slate-600">
-                  <h3 className="font-black text-lg text-slate-100">{ability.name}</h3>
+              {/* HABILIDADES */}
+              {activeTab === 'abilities' && visibleList.map(ability => (
+                <div
+                  key={ability.id}
+                  onClick={() => setSelectedAbility(ability)}
+                  className="bg-slate-800 rounded-xl shadow-lg overflow-hidden border border-slate-700 hover:shadow-blue-900/20 transition-all duration-200 cursor-pointer hover:scale-[1.02]"
+                >
+                  <div className="p-4 bg-slate-700/50 border-b border-slate-600">
+                    <h3 className="font-black text-lg text-slate-100">{ability.name}</h3>
+                  </div>
+                  <div className="p-4">
+                    <p className="text-slate-300 text-sm leading-relaxed">
+                      {ability.description}
+                    </p>
+                  </div>
                 </div>
+              ))}
+            </div>
 
-                {/* Body */}
-                <div className="p-4">
-                  <p className="text-slate-300 text-sm leading-relaxed">
-                    {ability.description}
-                  </p>
-                </div>
+            {/* Sentinel para cargar más */}
+            {hasMore && (
+              <div ref={loadMoreRef} className="mt-8 flex flex-col items-center gap-3">
+                <div className="inline-block animate-spin rounded-full h-6 w-6 border-3 border-blue-500 border-t-transparent"></div>
+                <p className="text-slate-500 text-sm">
+                  Mostrando {visibleCount} de {currentList.length}
+                </p>
               </div>
-            ))}
-          </div>
+            )}
+          </>
         )}
       </div>
+
+      {/* Modal de habilidad */}
       {selectedAbility && (
         <AbilityModal
           ability={selectedAbility}
