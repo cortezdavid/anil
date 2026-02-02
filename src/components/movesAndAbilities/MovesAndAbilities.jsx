@@ -3,6 +3,7 @@ import movesData from '../../data/moves.json';
 import abilitiesData from '../../data/abilities.json';
 import typesData from '../../data/types.json';
 import AutoScrollTop from '../autoScrollTop/AutoScrollTop';
+import AbilityModal from './AbilityModal';
 import { useSEO } from '../../hooks/useSEO';
 
 const MovesAndAbilities = () => {
@@ -14,6 +15,7 @@ const MovesAndAbilities = () => {
 
   const [activeTab, setActiveTab] = useState('moves');
   const [search, setSearch] = useState('');
+  const [selectedAbility, setSelectedAbility] = useState(null);
 
   const getTypeName = (typeId) => {
     const type = typesData.types.find(t => t.id === typeId);
@@ -75,22 +77,6 @@ const MovesAndAbilities = () => {
         <h1 className="text-4xl font-black text-slate-100 mb-6 uppercase tracking-wider drop-shadow-sm">
           Movimientos y Habilidades
         </h1>
-
-        {/* alert */}
-        {/* <div className="max-w-7xl mx-auto px-4 mb-6">
-          <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg shadow-sm">
-            <div className="flex items-start">
-              <div className="ml-3">
-                <p className="text-sm font-medium text-yellow-800">
-                  ⚠️ Guía en construcción
-                </p>
-                <p className="text-sm text-yellow-700 mt-1">
-                  Esta sección está siendo actualizada a la última versión del juego. La información puede estar sujeta a cambios.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> */}
 
         {/* Pestañas */}
         <div className="flex gap-4 mb-6">
@@ -216,7 +202,11 @@ const MovesAndAbilities = () => {
 
             {/* HABILIDADES */}
             {activeTab === 'abilities' && filteredAbilities.map(ability => (
-              <div key={ability.id} className="bg-slate-800 rounded-xl shadow-lg overflow-hidden border border-slate-700 hover:shadow-blue-900/20 transition-all duration-200">
+              <div
+                key={ability.id}
+                onClick={() => setSelectedAbility(ability)}
+                className="bg-slate-800 rounded-xl shadow-lg overflow-hidden border border-slate-700 hover:shadow-blue-900/20 transition-all duration-200 cursor-pointer hover:scale-[1.02] "
+              >
                 {/* Header */}
                 <div className="p-4 bg-slate-700/50 border-b border-slate-600">
                   <h3 className="font-black text-lg text-slate-100">{ability.name}</h3>
@@ -232,8 +222,13 @@ const MovesAndAbilities = () => {
             ))}
           </div>
         )}
-
       </div>
+      {selectedAbility && (
+        <AbilityModal
+          ability={selectedAbility}
+          onClose={() => setSelectedAbility(null)}
+        />
+      )}
       <AutoScrollTop />
     </div>
   );

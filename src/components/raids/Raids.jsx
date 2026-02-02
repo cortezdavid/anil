@@ -3,6 +3,7 @@ import raids from '../../data/raids.json';
 import items from '../../data/items.json';
 import types from '../../data/types.json';
 import pokemones from '../../data/pokemones.json';
+import PokemonStaticSprite from './PokemonStaticSprite';
 import { useSEO } from '../../hooks/useSEO';
 import AutoScrollTop from '../autoScrollTop/AutoScrollTop';
 
@@ -69,7 +70,7 @@ const Raids = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-gray-900">
       <div className="max-w-7xl mx-auto px-4 py-8">
-        
+
         {/* Título */}
         <h1 className="text-4xl font-black text-slate-100 mb-6 uppercase tracking-wider drop-shadow-sm">
           Nidos Alfas
@@ -100,7 +101,7 @@ const Raids = () => {
               </div>
 
               <div className="p-6 space-y-6">
-                
+
                 {/* Pokémon disponibles */}
                 <div>
                   <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-4">
@@ -113,13 +114,17 @@ const Raids = () => {
                         className="bg-slate-700 rounded-lg p-3 flex flex-col items-center border border-slate-600 hover:border-slate-500 transition-colors"
                       >
                         <div className="w-full aspect-square bg-slate-900 rounded-lg mb-2 flex items-center justify-center overflow-hidden">
-                          <img
-                            src={`/images/raids/${pokemonId}.png`}
+                          {/* <img
+                            src={`/images/pokemonFront/${pokemonId}.png`}
                             alt={getPokemonName(pokemonId)}
                             className="max-w-full max-h-full object-contain"
                             onError={(e) => {
                               e.target.style.display = 'none';
                             }}
+                          /> */}
+                          <PokemonStaticSprite
+                            img={`/images/pokemonFront/${pokemonId}.png`}
+                            scale={120}
                           />
                         </div>
                         <span className="text-sm font-bold text-slate-100 text-center">
