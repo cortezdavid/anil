@@ -8065,7 +8065,7 @@
       "location": "/images/location/PUMPKABOO_1.webp",
       "route": "",
       "baseId": "PUMPKABOO",
-      "name": "PUMPKABOO",
+      "name": "Pumpkaboo",
       "form": "Normal",
       "types": [
         "GHOST",
@@ -8108,7 +8108,7 @@
       "location": "/images/location/PUMPKABOO_2.webp",
       "route": "",
       "baseId": "PUMPKABOO",
-      "name": "PUMPKABOO",
+      "name": "Pumpkaboo",
       "form": "Grande",
       "types": [
         "GHOST",
@@ -8151,7 +8151,7 @@
       "location": "/images/location/PUMPKABOO_3.webp",
       "route": "",
       "baseId": "PUMPKABOO",
-      "name": "PUMPKABOO",
+      "name": "Pumpkaboo",
       "form": "Extra Grande",
       "types": [
         "GHOST",
@@ -8194,7 +8194,7 @@
       "location": "/images/location/GOURGEIST.webp",
       "route": "",
       "baseId": "GOURGEIST",
-      "name": "GOURGEIST",
+      "name": "Gourgeist",
       "form": "Normal",
       "types": [
         "GHOST",
@@ -8237,7 +8237,7 @@
       "location": "/images/location/GOURGEIST.webp",
       "route": "",
       "baseId": "GOURGEIST",
-      "name": "GOURGEIST",
+      "name": "Gourgeist",
       "form": "Grande",
       "types": [
         "GHOST",
@@ -8280,7 +8280,7 @@
       "location": "/images/location/GOURGEIST.webp",
       "route": "",
       "baseId": "GOURGEIST",
-      "name": "GOURGEIST",
+      "name": "Gourgeist",
       "form": "Extra Grande",
       "types": [
         "GHOST",

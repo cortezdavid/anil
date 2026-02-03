@@ -4,6 +4,7 @@ import abilitiesData from '../../data/abilities.json';
 import typesData from '../../data/types.json';
 import AutoScrollTop from '../autoScrollTop/AutoScrollTop';
 import AbilityModal from './AbilityModal';
+import MoveModal from './MoveModal';
 import { useSEO } from '../../hooks/useSEO';
 
 const ITEMS_PER_PAGE = 50;
@@ -18,6 +19,7 @@ const MovesAndAbilities = () => {
   const [activeTab, setActiveTab] = useState('moves');
   const [search, setSearch] = useState('');
   const [selectedAbility, setSelectedAbility] = useState(null);
+  const [selectedMove, setSelectedMove] = useState(null);
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
   const loadMoreRef = useRef(null);
 
@@ -171,7 +173,11 @@ const MovesAndAbilities = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {/* MOVIMIENTOS */}
               {activeTab === 'moves' && visibleList.map(move => (
-                <div key={move.id} className="bg-slate-800 rounded-xl shadow-lg overflow-hidden border border-slate-700 hover:shadow-blue-900/20 transition-all duration-200">
+                <div
+                  key={move.id}
+                  onClick={() => setSelectedMove(move)}
+                  className="bg-slate-800 rounded-xl shadow-lg overflow-hidden border border-slate-700 hover:shadow-blue-900/20 transition-all duration-200 cursor-pointer hover:scale-[1.02]"
+                >
                   <div className="p-4 bg-slate-700/50 border-b border-slate-600">
                     <div className="flex items-center justify-between mb-2">
                       <h3 className="font-black text-lg text-slate-100">{move.name}</h3>
@@ -249,6 +255,14 @@ const MovesAndAbilities = () => {
           </>
         )}
       </div>
+
+      {/* Modal de movimiento */}
+      {selectedMove && (
+        <MoveModal
+          move={selectedMove}
+          onClose={() => setSelectedMove(null)}
+        />
+      )}
 
       {/* Modal de habilidad */}
       {selectedAbility && (
