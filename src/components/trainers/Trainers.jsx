@@ -27,7 +27,7 @@ const PokemonCard = memo(({
   const pokemonTypes = pokemon?.types || [];
 
   return (
-    <div className="bg-gradient-to-br from-slate-700 to-slate-800 rounded-lg p-4 shadow-lg shadow-gray-900/30">
+    <div className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-lg p-4 shadow-lg shadow-gray-900/30">
       {/* Imagen del Pokémon */}
       <div className="flex justify-center mb-2">
         <img
@@ -93,7 +93,7 @@ const PokemonCard = memo(({
               const moveTypeName = typesMap.get(moveType)?.name;
 
               return (
-                <div key={moveIdx} className="flex items-center justify-between text-xs bg-slate-800 px-2 py-1 rounded">
+                <div key={moveIdx} className="flex items-center justify-between text-xs bg-slate-900 px-2 py-1 rounded">
                   <Tooltip text={move?.description} position="right">
                     <span className="font-medium text-slate-200">{move?.name || moveId}</span>
                   </Tooltip>
@@ -114,74 +114,6 @@ const PokemonCard = memo(({
 
 PokemonCard.displayName = 'PokemonCard';
 
-// Componente memoizado para cada entrenador
-const TrainerCard = memo(({
-  trainer,
-  trainerData,
-  selectedDifficulty,
-  pokemonMap,
-  itemsMap,
-  abilitiesMap,
-  movesMap,
-  typesMap,
-  getTypeColor
-}) => {
-  return (
-    <div>
-      {/* Ubicación */}
-      <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg p-4 shadow-lg">
-        <h2 className="text-2xl font-black text-white uppercase tracking-wider">
-          {trainer.location}
-        </h2>
-      </div>
-
-      {/* Card del entrenador */}
-      <div className="bg-slate-800 rounded-xl shadow-lg shadow-gray-900/30 p-6">
-        <div className="grid md:grid-cols-12 gap-6">
-          {/* Imagen del entrenador */}
-          <div className="md:col-span-2 flex flex-col items-center">
-            <img
-              src={trainer.img}
-              alt={`Entrenador ${trainer.id}`}
-              className="w-auto h-auto mb-2"
-            />
-            <div className="text-center">
-              <h3 className="font-black text-slate-100 text-lg">
-                {trainer.trainer}
-              </h3>
-              {trainerData.items && trainerData.items !== "" && (
-                <p className="text-sm text-slate-300 font-semibold mt-1">
-                  Objetos: {itemsMap.get(trainerData.items)?.name || trainerData.items}
-                </p>
-              )}
-            </div>
-          </div>
-
-          {/* Pokémon del entrenador */}
-          <div className="md:col-span-10">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-              {trainerData.pokemon.map((poke, pokeIndex) => (
-                <PokemonCard
-                  key={pokeIndex}
-                  poke={poke}
-                  pokemonMap={pokemonMap}
-                  itemsMap={itemsMap}
-                  abilitiesMap={abilitiesMap}
-                  movesMap={movesMap}
-                  typesMap={typesMap}
-                  getTypeColor={getTypeColor}
-                />
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-});
-
-TrainerCard.displayName = 'TrainerCard';
-
 const Trainers = () => {
   useSEO({
     title: 'Entrenadores - Pokémon Añil',
@@ -196,6 +128,17 @@ const Trainers = () => {
   const [selectedDifficulty, setSelectedDifficulty] = useState(() => {
     return localStorage.getItem('selectedDifficulty') || 'easy';
   });
+
+  const [openTrainer, setOpenTrainer] = useState(null);
+
+  // Guardar en localStorage cuando cambien
+  useEffect(() => {
+    localStorage.setItem('selectedStarter', selectedStarter);
+  }, [selectedStarter]);
+
+  useEffect(() => {
+    localStorage.setItem('selectedDifficulty', selectedDifficulty);
+  }, [selectedDifficulty]);
 
   // Crear Maps una sola vez 
   const pokemonMap = useMemo(() => {
@@ -221,49 +164,31 @@ const Trainers = () => {
     return new Map(types.types.map(t => [t.id, t]));
   }, []);
 
-  // Guardar en localStorage cuando cambien
-  useEffect(() => {
-    localStorage.setItem('selectedStarter', selectedStarter);
+  // Obtener datos según starter
+  const trainersData = useMemo(() => {
+    const dataMap = {
+      fire: fire.trainers,
+      ground: ground.trainers,
+      water: water.trainers
+    };
+    return dataMap[selectedStarter] || [];
   }, [selectedStarter]);
 
-  useEffect(() => {
-    localStorage.setItem('selectedDifficulty', selectedDifficulty);
-  }, [selectedDifficulty]);
-
-  const trainersData = {
-    fire: fire.trainers,
-    ground: ground.trainers,
-    water: water.trainers
-  };
-
-  const trainers = trainersData[selectedStarter];
-
-  //Filtrar por categoría (memoizado)
-  const routeTrainers = useMemo(() =>
-    trainers.filter(t => t.category === 'route'),
-    [trainers]
-  );
-
-  const eliteFour = useMemo(() =>
-    trainers.filter(t => t.category === 'liga'),
-    [trainers]
-  );
-
-  const postGame = useMemo(() =>
-    trainers.filter(t => t.category === 'postGame'),
-    [trainers]
-  );
+  // Separar en categorías
+  const routeTrainers = useMemo(() => trainersData.filter(t => t.category === "route"), [trainersData]);
+  const eliteFour = useMemo(() => trainersData.filter(t => t.category === "liga"), [trainersData]);
+  const postGame = useMemo(() => trainersData.filter(t => t.category === "postGame"), [trainersData]);
 
   const getTypeColor = (type) => {
     const colors = {
       'FIRE': 'bg-red-500',
       'WATER': 'bg-blue-500',
       'GRASS': 'bg-green-500',
-      'ELECTRIC': 'bg-yellow-500',
-      'PSYCHIC': 'bg-purple-500',
+      'ELECTRIC': 'bg-yellow-400',
       'ICE': 'bg-cyan-400',
-      'DRAGON': 'bg-indigo-600',
+      'PSYCHIC': 'bg-pink-500',
       'DARK': 'bg-gray-800',
+      'DRAGON': 'bg-purple-500',
       'FAIRY': 'bg-pink-400',
       'FIGHTING': 'bg-red-700',
       'POISON': 'bg-purple-600',
@@ -276,6 +201,15 @@ const Trainers = () => {
       'NORMAL': 'bg-gray-400'
     };
     return colors[type] || 'bg-gray-500';
+  };
+
+  const toggleTrainer = (trainerId) => {
+    setOpenTrainer(openTrainer === trainerId ? null : trainerId);
+  };
+
+  const formatIconName = (name) => {
+    if (!name) return '';
+    return name.replace(/(\d+)$/, '_$1');
   };
 
   return (
@@ -377,7 +311,7 @@ const Trainers = () => {
           </div>
         </div>
 
-        {/* Entrenadores de Ruta */}
+        {/* Entrenadores de Ruta con Acordeón */}
         {routeTrainers.length > 0 && (
           <div className="mb-12">
             <div className="bg-gradient-to-r from-green-600 to-green-700 rounded-xl p-6 shadow-2xl mb-6">
@@ -385,29 +319,106 @@ const Trainers = () => {
                 Combates importantes y gimnasios
               </h2>
             </div>
-            <div className="space-y-6">
+            <div className="space-y-4">
               {routeTrainers.map((trainer) => {
                 const trainerData = trainer.difficulties[selectedDifficulty];
+                const isOpen = openTrainer === trainer.id;
+
                 return (
-                  <TrainerCard
-                    key={trainer.id}
-                    trainer={trainer}
-                    trainerData={trainerData}
-                    selectedDifficulty={selectedDifficulty}
-                    pokemonMap={pokemonMap}
-                    itemsMap={itemsMap}
-                    abilitiesMap={abilitiesMap}
-                    movesMap={movesMap}
-                    typesMap={typesMap}
-                    getTypeColor={getTypeColor}
-                  />
+                  <div key={trainer.id} className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl shadow-lg shadow-gray-900/30 overflow-hidden">
+                    {/* Header clickeable */}
+                    <button
+                      onClick={() => toggleTrainer(trainer.id)}
+                      className="w-full p-4 flex items-center justify-between hover:bg-slate-800/70 transition-colors duration-200"
+                    >
+                      <div className="flex items-center space-x-4">
+                        {/* Sprite del entrenador */}
+                        <div className="flex-shrink-0">
+                          <img
+                            src={trainer.img}
+                            alt={trainer.trainer}
+                            className="w-20 h-20 object-contain"
+                          />
+                        </div>
+
+                        {/* Info del entrenador */}
+                        <div className="text-left">
+                          <div className="font-black text-lg text-slate-100">{trainer.trainer}</div>
+                          <div className="text-sm text-slate-400">{trainer.location}</div>
+                          {trainerData.items && trainerData.items !== "" && (
+                            <div className="text-xs text-slate-300 font-semibold mt-1">
+                              <span className="text-blue-400">Objetos:</span> {itemsMap.get(trainerData.items)?.name || trainerData.items}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+
+                      {/* Iconos de Pokémon y flecha */}
+                      <div className="flex items-center space-x-3">
+                        {/* Iconos pequeños de los Pokémon */}
+                        <div className="hidden md:flex items-center space-x-1">
+                          {trainerData.pokemon.map((poke, idx) => {
+                            const iconName = formatIconName(poke.name);
+                            return (
+                              <div key={idx} className="relative">
+                                <div className="w-12 h-12 flex items-center justify-center rounded-lg">
+                                  <img
+                                    src={`/images/icons/${iconName}.png`}
+                                    alt={poke.name}
+                                    className="w-full h-full object-contain"
+                                    onError={(e) => {
+                                      e.target.style.display = 'none';
+                                    }}
+                                  />
+                                </div>
+                                {/* Nivel del Pokémon */}
+                                <div className="absolute -bottom-1 -right-1 bg-blue-600 text-white text-xs font-bold px-1 rounded">
+                                  {poke.level}
+                                </div>
+                              </div>
+                            );
+                          })}
+                        </div>
+
+                        {/* Flecha */}
+                        <svg
+                          className={`w-6 h-6 text-blue-400 transform transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </div>
+                    </button>
+
+                    {/* Contenido expandible con información COMPLETA */}
+                    {isOpen && (
+                      <div className="bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950 p-6 border-t border-slate-700">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                          {trainerData.pokemon.map((poke, pokeIndex) => (
+                            <PokemonCard
+                              key={pokeIndex}
+                              poke={poke}
+                              pokemonMap={pokemonMap}
+                              itemsMap={itemsMap}
+                              abilitiesMap={abilitiesMap}
+                              movesMap={movesMap}
+                              typesMap={typesMap}
+                              getTypeColor={getTypeColor}
+                            />
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
                 );
               })}
             </div>
           </div>
         )}
 
-        {/* Liga Pokémon (Alto mando) */}
+        {/* Liga Pokémon (Alto mando) con Acordeón */}
         {eliteFour.length > 0 && (
           <div className="mb-12">
             <div className="bg-gradient-to-r from-purple-600 to-purple-700 rounded-xl p-6 shadow-2xl mb-6">
@@ -415,29 +426,106 @@ const Trainers = () => {
                 Liga Pokémon
               </h2>
             </div>
-            <div className="space-y-6">
+            <div className="space-y-4">
               {eliteFour.map((trainer) => {
                 const trainerData = trainer.difficulties[selectedDifficulty];
+                const isOpen = openTrainer === trainer.id;
+
                 return (
-                  <TrainerCard
-                    key={trainer.id}
-                    trainer={trainer}
-                    trainerData={trainerData}
-                    selectedDifficulty={selectedDifficulty}
-                    pokemonMap={pokemonMap}
-                    itemsMap={itemsMap}
-                    abilitiesMap={abilitiesMap}
-                    movesMap={movesMap}
-                    typesMap={typesMap}
-                    getTypeColor={getTypeColor}
-                  />
+                  <div key={trainer.id} className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl shadow-lg shadow-gray-900/30 overflow-hidden">
+                    {/* Header clickeable */}
+                    <button
+                      onClick={() => toggleTrainer(trainer.id)}
+                      className="w-full p-4 flex items-center justify-between hover:bg-slate-800/70 transition-colors duration-200"
+                    >
+                      <div className="flex items-center space-x-4">
+                        {/* Sprite del entrenador */}
+                        <div className="flex-shrink-0">
+                          <img
+                            src={trainer.img}
+                            alt={trainer.trainer}
+                            className="w-20 h-20 object-contain"
+                          />
+                        </div>
+
+                        {/* Info del entrenador */}
+                        <div className="text-left">
+                          <div className="font-black text-lg text-slate-100">{trainer.trainer}</div>
+                          <div className="text-sm text-slate-400">{trainer.location}</div>
+                          {trainerData.items && trainerData.items !== "" && (
+                            <div className="text-xs text-slate-300 font-semibold mt-1">
+                              <span className="text-blue-400">Objetos:</span> {itemsMap.get(trainerData.items)?.name || trainerData.items}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+
+                      {/* Iconos de Pokémon y flecha */}
+                      <div className="flex items-center space-x-3">
+                        {/* Iconos pequeños de los Pokémon */}
+                        <div className="hidden md:flex items-center space-x-1">
+                          {trainerData.pokemon.map((poke, idx) => {
+                            const iconName = formatIconName(poke.name);
+                            return (
+                              <div key={idx} className="relative">
+                                <div className="w-12 h-12 flex items-center justify-center rounded-lg">
+                                  <img
+                                    src={`/images/icons/${iconName}.png`}
+                                    alt={poke.name}
+                                    className="w-full h-full object-contain"
+                                    onError={(e) => {
+                                      e.target.style.display = 'none';
+                                    }}
+                                  />
+                                </div>
+                                {/* Nivel del Pokémon */}
+                                <div className="absolute -bottom-1 -right-1 bg-blue-600 text-white text-xs font-bold px-1 rounded">
+                                  {poke.level}
+                                </div>
+                              </div>
+                            );
+                          })}
+                        </div>
+
+                        {/* Flecha */}
+                        <svg
+                          className={`w-6 h-6 text-blue-400 transform transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </div>
+                    </button>
+
+                    {/* Contenido expandible con información COMPLETA */}
+                    {isOpen && (
+                      <div className="bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950 p-6 border-t border-slate-700">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                          {trainerData.pokemon.map((poke, pokeIndex) => (
+                            <PokemonCard
+                              key={pokeIndex}
+                              poke={poke}
+                              pokemonMap={pokemonMap}
+                              itemsMap={itemsMap}
+                              abilitiesMap={abilitiesMap}
+                              movesMap={movesMap}
+                              typesMap={typesMap}
+                              getTypeColor={getTypeColor}
+                            />
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
                 );
               })}
             </div>
           </div>
         )}
 
-        {/* Post-Liga */}
+        {/* Post-Liga con Acordeón */}
         {postGame.length > 0 && (
           <div className="mb-12">
             <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-xl p-6 shadow-2xl mb-6">
@@ -445,22 +533,99 @@ const Trainers = () => {
                 Post-Game
               </h2>
             </div>
-            <div className="space-y-6">
+            <div className="space-y-4">
               {postGame.map((trainer) => {
                 const trainerData = trainer.difficulties[selectedDifficulty];
+                const isOpen = openTrainer === trainer.id;
+
                 return (
-                  <TrainerCard
-                    key={trainer.id}
-                    trainer={trainer}
-                    trainerData={trainerData}
-                    selectedDifficulty={selectedDifficulty}
-                    pokemonMap={pokemonMap}
-                    itemsMap={itemsMap}
-                    abilitiesMap={abilitiesMap}
-                    movesMap={movesMap}
-                    typesMap={typesMap}
-                    getTypeColor={getTypeColor}
-                  />
+                  <div key={trainer.id} className="bg-gradient-to-br from-slate-800 to-slate-900 rounded-xl shadow-lg shadow-gray-900/30 overflow-hidden">
+                    {/* Header clickeable */}
+                    <button
+                      onClick={() => toggleTrainer(trainer.id)}
+                      className="w-full p-4 flex items-center justify-between hover:bg-slate-800/70 transition-colors duration-200"
+                    >
+                      <div className="flex items-center space-x-4">
+                        {/* Sprite del entrenador */}
+                        <div className="flex-shrink-0">
+                          <img
+                            src={trainer.img}
+                            alt={trainer.trainer}
+                            className="w-20 h-20 object-contain"
+                          />
+                        </div>
+
+                        {/* Info del entrenador */}
+                        <div className="text-left">
+                          <div className="font-black text-lg text-slate-100">{trainer.trainer}</div>
+                          <div className="text-sm text-slate-400">{trainer.location}</div>
+                          {trainerData.items && trainerData.items !== "" && (
+                            <div className="text-xs text-slate-300 font-semibold mt-1">
+                              <span className="text-blue-400">Objetos:</span> {itemsMap.get(trainerData.items)?.name || trainerData.items}
+                            </div>
+                          )}
+                        </div>
+                      </div>
+
+                      {/* Iconos de Pokémon y flecha */}
+                      <div className="flex items-center space-x-3">
+                        {/* Iconos pequeños de los Pokémon */}
+                        <div className="hidden md:flex items-center space-x-1">
+                          {trainerData.pokemon.map((poke, idx) => {
+                            const iconName = formatIconName(poke.name);
+                            return (
+                              <div key={idx} className="relative">
+                                <div className="w-12 h-12 flex items-center justify-center rounded-lg">
+                                  <img
+                                    src={`/images/icons/${iconName}.png`}
+                                    alt={poke.name}
+                                    className="w-full h-full object-contain"
+                                    onError={(e) => {
+                                      e.target.style.display = 'none';
+                                    }}
+                                  />
+                                </div>
+                                {/* Nivel del Pokémon */}
+                                <div className="absolute -bottom-1 -right-1 bg-blue-600 text-white text-xs font-bold px-1 rounded">
+                                  {poke.level}
+                                </div>
+                              </div>
+                            );
+                          })}
+                        </div>
+
+                        {/* Flecha */}
+                        <svg
+                          className={`w-6 h-6 text-blue-400 transform transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </div>
+                    </button>
+
+                    {/* Contenido expandible con información COMPLETA */}
+                    {isOpen && (
+                      <div className="bg-gradient-to-br from-slate-900 via-slate-900 to-slate-950 p-6 border-t border-slate-700">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                          {trainerData.pokemon.map((poke, pokeIndex) => (
+                            <PokemonCard
+                              key={pokeIndex}
+                              poke={poke}
+                              pokemonMap={pokemonMap}
+                              itemsMap={itemsMap}
+                              abilitiesMap={abilitiesMap}
+                              movesMap={movesMap}
+                              typesMap={typesMap}
+                              getTypeColor={getTypeColor}
+                            />
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
                 );
               })}
             </div>
