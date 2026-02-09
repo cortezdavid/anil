@@ -462,11 +462,11 @@
       "MegaStore": "RAICHUITEX",
       "baseStats": {
         "hp": 60,
-        "attack": 130,
-        "defense": 75,
+        "attack": 135,
+        "defense": 95,
         "specialAttack": 90,
-        "specialDefense": 90,
-        "speed": 130
+        "specialDefense": 95,
+        "speed": 110
       },
       "abilities": [
         "RECKLESS"
@@ -491,10 +491,10 @@
       "MegaStore": "RAICHUITEY",
       "baseStats": {
         "hp": 60,
-        "attack": 90,
-        "defense": 65,
-        "specialAttack": 130,
-        "specialDefense": 100,
+        "attack": 100,
+        "defense": 55,
+        "specialAttack": 160,
+        "specialDefense": 80,
         "speed": 130
       },
       "abilities": [
