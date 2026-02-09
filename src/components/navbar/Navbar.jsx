@@ -24,7 +24,7 @@ const Navbar = () => {
           </div>
 
           {/* Navegación - Desktop */}
-          <div className="hidden md:block">
+          <div className="hidden lg:block">
             <div className="ml-10 flex items-baseline space-x-4">
               <Link
                 to="/pokemon/bulbasaur"
@@ -84,7 +84,7 @@ const Navbar = () => {
           </div>
 
           {/* Botón menú móvil */}
-          <div className="md:hidden">
+          <div className="lg:hidden">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               className="text-white hover:text-blue-100 p-2 rounded-lg hover:bg-blue-700 transition-colors duration-200"
@@ -102,7 +102,7 @@ const Navbar = () => {
 
         {/* Menú móvil desplegable */}
         {mobileMenuOpen && (
-          <div className="md:hidden pb-4 space-y-3">
+          <div className="lg:hidden pb-4 space-y-3">
 
 
             {/* Links móvil */}
