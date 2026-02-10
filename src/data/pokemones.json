@@ -34505,6 +34505,7 @@
       "location": "/images/location/ORICORIO.webp",
       "route": "Ruta 16",
       "name": "Oricorio",
+      "form":"Normal",
       "types": [
         "FIRE",
         "FLYING"

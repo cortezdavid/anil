@@ -123346,6 +123346,471 @@
       ]
     }
   },
+  "ORICORIO1": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 1,
+          "move": "POUND"
+        },
+        {
+          "level": 4,
+          "move": "GROWL"
+        },
+        {
+          "level": 6,
+          "move": "PECK"
+        },
+        {
+          "level": 10,
+          "move": "HELPINGHAND"
+        },
+        {
+          "level": 13,
+          "move": "AIRCUTTER"
+        },
+        {
+          "level": 16,
+          "move": "BATONPASS"
+        },
+        {
+          "level": 20,
+          "move": "FEATHERDANCE"
+        },
+        {
+          "level": 23,
+          "move": "DOUBLESLAP"
+        },
+        {
+          "level": 23,
+          "move": "ACROBATICS"
+        },
+        {
+          "level": 26,
+          "move": "TEETERDANCE"
+        },
+        {
+          "level": 30,
+          "move": "ROOST"
+        },
+        {
+          "level": 33,
+          "move": "CAPTIVATE"
+        },
+        {
+          "level": 33,
+          "move": "FLATTER"
+        },
+        {
+          "level": 33,
+          "move": "FLAMETHROWER"
+        },
+        {
+          "level": 36,
+          "move": "AIRSLASH"
+        },
+        {
+          "level": 40,
+          "move": "REVELATIONDANCE"
+        },
+        {
+          "level": 43,
+          "move": "MIRRORMOVE"
+        },
+        {
+          "level": 43,
+          "move": "AGILITY"
+        },
+        {
+          "level": 46,
+          "move": "FIREBLAST"
+        },
+        {
+          "level": 47,
+          "move": "HURRICANE"
+        }
+      ],
+      "tutorMoves": [
+        "ACROBATICS",
+        "AERIALACE",
+        "AGILITY",
+        "AIRCUTTER",
+        "AIRSLASH",
+        "ALLURINGVOICE",
+        "ATTRACT",
+        "BATONPASS",
+        "CALMMIND",
+        "CAPTIVATE",
+        "CHARM",
+        "CONFIDE",
+        "COVET",
+        "DEFOG",
+        "DOUBLETEAM",
+        "DUALWINGBEAT",
+        "EMBARGO",
+        "ENDURE",
+        "FACADE",
+        "FEATHERDANCE",
+        "FIREBLAST",
+        "FLAMETHROWER",
+        "FLY",
+        "FRUSTRATION",
+        "HELPINGHAND",
+        "HIDDENPOWER",
+        "HURRICANE",
+        "ICYWIND",
+        "MIMIC",
+        "NATURALGIFT",
+        "PROTECT",
+        "PSYCHUP",
+        "QUASH",
+        "RAINDANCE",
+        "REST",
+        "RETURN",
+        "REVERSAL",
+        "ROLEPLAY",
+        "ROOST",
+        "ROUND",
+        "SAFEGUARD",
+        "SANDSTORM",
+        "SECRETPOWER",
+        "SHADOWBALL",
+        "SKYATTACK",
+        "SLEEPTALK",
+        "SNORE",
+        "SOLARBEAM",
+        "STEELWING",
+        "SUBSTITUTE",
+        "SUNNYDAY",
+        "SWAGGER",
+        "SWIFT",
+        "SWORDSDANCE",
+        "TAILWIND",
+        "TAKEDOWN",
+        "TAUNT",
+        "TOXIC",
+        "TRAILBLAZE",
+        "UTURN",
+        "WORKUP"
+      ],
+      "eggMoves": [
+        "CAPTIVATE",
+        "PLUCK",
+        "SAFEGUARD",
+        "TAILWIND"
+      ]
+    }
+  },
+  "ORICORIO2": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 1,
+          "move": "POUND"
+        },
+        {
+          "level": 4,
+          "move": "GROWL"
+        },
+        {
+          "level": 6,
+          "move": "PECK"
+        },
+        {
+          "level": 10,
+          "move": "HELPINGHAND"
+        },
+        {
+          "level": 13,
+          "move": "AIRCUTTER"
+        },
+        {
+          "level": 16,
+          "move": "BATONPASS"
+        },
+        {
+          "level": 20,
+          "move": "FEATHERDANCE"
+        },
+        {
+          "level": 23,
+          "move": "DOUBLESLAP"
+        },
+        {
+          "level": 23,
+          "move": "ACROBATICS"
+        },
+        {
+          "level": 26,
+          "move": "TEETERDANCE"
+        },
+        {
+          "level": 30,
+          "move": "ROOST"
+        },
+        {
+          "level": 33,
+          "move": "CAPTIVATE"
+        },
+        {
+          "level": 33,
+          "move": "FLATTER"
+        },
+        {
+          "level": 33,
+          "move": "FLAMETHROWER"
+        },
+        {
+          "level": 36,
+          "move": "AIRSLASH"
+        },
+        {
+          "level": 40,
+          "move": "REVELATIONDANCE"
+        },
+        {
+          "level": 43,
+          "move": "MIRRORMOVE"
+        },
+        {
+          "level": 43,
+          "move": "AGILITY"
+        },
+        {
+          "level": 46,
+          "move": "FIREBLAST"
+        },
+        {
+          "level": 47,
+          "move": "HURRICANE"
+        }
+      ],
+      "tutorMoves": [
+        "ACROBATICS",
+        "AERIALACE",
+        "AGILITY",
+        "AIRCUTTER",
+        "AIRSLASH",
+        "ALLURINGVOICE",
+        "ATTRACT",
+        "BATONPASS",
+        "CALMMIND",
+        "CAPTIVATE",
+        "CHARM",
+        "CONFIDE",
+        "COVET",
+        "DEFOG",
+        "DOUBLETEAM",
+        "DUALWINGBEAT",
+        "EMBARGO",
+        "ENDURE",
+        "FACADE",
+        "FEATHERDANCE",
+        "FIREBLAST",
+        "FLAMETHROWER",
+        "FLY",
+        "FRUSTRATION",
+        "HELPINGHAND",
+        "HIDDENPOWER",
+        "HURRICANE",
+        "ICYWIND",
+        "MIMIC",
+        "NATURALGIFT",
+        "PROTECT",
+        "PSYCHUP",
+        "QUASH",
+        "RAINDANCE",
+        "REST",
+        "RETURN",
+        "REVERSAL",
+        "ROLEPLAY",
+        "ROOST",
+        "ROUND",
+        "SAFEGUARD",
+        "SANDSTORM",
+        "SECRETPOWER",
+        "SHADOWBALL",
+        "SKYATTACK",
+        "SLEEPTALK",
+        "SNORE",
+        "SOLARBEAM",
+        "STEELWING",
+        "SUBSTITUTE",
+        "SUNNYDAY",
+        "SWAGGER",
+        "SWIFT",
+        "SWORDSDANCE",
+        "TAILWIND",
+        "TAKEDOWN",
+        "TAUNT",
+        "TOXIC",
+        "TRAILBLAZE",
+        "UTURN",
+        "WORKUP"
+      ],
+      "eggMoves": [
+        "CAPTIVATE",
+        "PLUCK",
+        "SAFEGUARD",
+        "TAILWIND"
+      ]
+    }
+  },
+  "ORICORIO3": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 1,
+          "move": "POUND"
+        },
+        {
+          "level": 4,
+          "move": "GROWL"
+        },
+        {
+          "level": 6,
+          "move": "PECK"
+        },
+        {
+          "level": 10,
+          "move": "HELPINGHAND"
+        },
+        {
+          "level": 13,
+          "move": "AIRCUTTER"
+        },
+        {
+          "level": 16,
+          "move": "BATONPASS"
+        },
+        {
+          "level": 20,
+          "move": "FEATHERDANCE"
+        },
+        {
+          "level": 23,
+          "move": "DOUBLESLAP"
+        },
+        {
+          "level": 23,
+          "move": "ACROBATICS"
+        },
+        {
+          "level": 26,
+          "move": "TEETERDANCE"
+        },
+        {
+          "level": 30,
+          "move": "ROOST"
+        },
+        {
+          "level": 33,
+          "move": "CAPTIVATE"
+        },
+        {
+          "level": 33,
+          "move": "FLATTER"
+        },
+        {
+          "level": 33,
+          "move": "FLAMETHROWER"
+        },
+        {
+          "level": 36,
+          "move": "AIRSLASH"
+        },
+        {
+          "level": 40,
+          "move": "REVELATIONDANCE"
+        },
+        {
+          "level": 43,
+          "move": "MIRRORMOVE"
+        },
+        {
+          "level": 43,
+          "move": "AGILITY"
+        },
+        {
+          "level": 46,
+          "move": "FIREBLAST"
+        },
+        {
+          "level": 47,
+          "move": "HURRICANE"
+        }
+      ],
+      "tutorMoves": [
+        "ACROBATICS",
+        "AERIALACE",
+        "AGILITY",
+        "AIRCUTTER",
+        "AIRSLASH",
+        "ALLURINGVOICE",
+        "ATTRACT",
+        "BATONPASS",
+        "CALMMIND",
+        "CAPTIVATE",
+        "CHARM",
+        "CONFIDE",
+        "COVET",
+        "DEFOG",
+        "DOUBLETEAM",
+        "DUALWINGBEAT",
+        "EMBARGO",
+        "ENDURE",
+        "FACADE",
+        "FEATHERDANCE",
+        "FIREBLAST",
+        "FLAMETHROWER",
+        "FLY",
+        "FRUSTRATION",
+        "HELPINGHAND",
+        "HIDDENPOWER",
+        "HURRICANE",
+        "ICYWIND",
+        "MIMIC",
+        "NATURALGIFT",
+        "PROTECT",
+        "PSYCHUP",
+        "QUASH",
+        "RAINDANCE",
+        "REST",
+        "RETURN",
+        "REVERSAL",
+        "ROLEPLAY",
+        "ROOST",
+        "ROUND",
+        "SAFEGUARD",
+        "SANDSTORM",
+        "SECRETPOWER",
+        "SHADOWBALL",
+        "SKYATTACK",
+        "SLEEPTALK",
+        "SNORE",
+        "SOLARBEAM",
+        "STEELWING",
+        "SUBSTITUTE",
+        "SUNNYDAY",
+        "SWAGGER",
+        "SWIFT",
+        "SWORDSDANCE",
+        "TAILWIND",
+        "TAKEDOWN",
+        "TAUNT",
+        "TOXIC",
+        "TRAILBLAZE",
+        "UTURN",
+        "WORKUP"
+      ],
+      "eggMoves": [
+        "CAPTIVATE",
+        "PLUCK",
+        "SAFEGUARD",
+        "TAILWIND"
+      ]
+    }
+  },
   "CUTIEFLY": {
     "moves": {
       "levelUpMoves": [

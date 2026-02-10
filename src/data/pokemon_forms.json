@@ -8316,6 +8316,89 @@
         }
       ],
       "pokedex": "Los Gourgeist tamaño Extragrande se llevan a cualquiera al otro mundo, pues nadie puede resistir su fuerza."
+    },
+    {
+      "id": "ORICORIO1",
+      "image": "/images/pokemonFront/ORICORIO_1.png",
+      "location": "/images/location/ORICORIO_1.webp",
+      "baseId": "ORICORIO",
+      "name": "Oricorio",
+      "form": "Estilo Animado",
+      "types": [
+        "ELECTRIC",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 70,
+        "defense": 70,
+        "specialAttack": 98,
+        "specialDefense": 70,
+        "speed": 93
+      },
+      "abilities": [
+        "DANCER"
+      ],
+      "physicalData": {
+        "height": 0.6,
+        "weight": 3.4
+      },
+      "pokedex": "Crea una carga eléctrica al frotar sus plumas. Baila hacia sus enemigos y les lanza impactantes golpes eléctricos."
+    },
+    {
+      "id": "ORICORIO2",
+      "image": "/images/pokemonFront/ORICORIO_2.png",
+      "location": "/images/location/ORICORIO_2.webp",
+      "baseId": "ORICORIO",
+      "name": "Oricorio",
+      "form": "Estilo Plácido",
+      "types": [
+        "PSYCHIC",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 70,
+        "defense": 70,
+        "specialAttack": 98,
+        "specialDefense": 70,
+        "speed": 93
+      },
+      "abilities": [
+        "DANCER"
+      ],
+      "physicalData": {
+        "height": 0.6,
+        "weight": 3.4
+      },
+      "pokedex": "Este Oricorio se relaja balanceándose suavemente. Esto aumenta su energía psíquica, que luego dispara a sus enemigos."
+    },{
+      "id": "ORICORIO3",
+      "image": "/images/pokemonFront/ORICORIO_3.png",
+      "location": "/images/location/ORICORIO_3.webp",
+      "baseId": "ORICORIO",
+      "name": "Oricorio",
+      "form": "Estilo Refinado",
+      "types": [
+        "GHOST",
+        "FLYING"
+      ],
+      "baseStats": {
+        "hp": 75,
+        "attack": 70,
+        "defense": 70,
+        "specialAttack": 98,
+        "specialDefense": 70,
+        "speed": 93
+      },
+      "abilities": [
+        "DANCER"
+      ],
+      "physicalData": {
+        "height": 0.6,
+        "weight": 3.4
+      },
+      "pokedex": "Convoca a los muertos con su danza de ensueño. De su malicia extrae poder para maldecir a sus enemigos."
     }
   ]
 }

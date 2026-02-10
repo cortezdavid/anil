@@ -304,24 +304,6 @@ EggGroups = Undiscovered
 Pokedex = Hoy en día, la flor que lleva ya no se ve en la naturaleza. Se cree que alberga un temible poder.
 Evolutions = FLORGES,None,
 #-------------------------------
-[ORICORIO,1]
-FormName = Estilo Animado
-Types = ELECTRIC,FLYING
-Color = Yellow
-Pokedex = Crea una carga eléctrica al frotar sus plumas. Baila hacia sus enemigos y les lanza impactantes golpes eléctricos.
-#-------------------------------
-[ORICORIO,2]
-FormName = Estilo Plácido
-Types = PSYCHIC,FLYING
-Color = Pink
-Pokedex = Este Oricorio se relaja balanceándose suavemente. Esto aumenta su energía psíquica, que luego dispara a sus enemigos.
-#-------------------------------
-[ORICORIO,3]
-FormName = Estilo Refinado
-Types = GHOST,FLYING
-Color = Purple
-Pokedex = Convoca a los muertos con su danza de ensueño. De su malicia extrae poder para maldecir a sus enemigos.
-#-------------------------------
 [SILVALLY,1]
 FormName = Tipo Lucha
 Types = FIGHTING
