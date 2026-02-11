@@ -11,19 +11,7 @@ const Home = () => {
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-gray-900">
       <div className="max-w-7xl mx-auto px-4 py-12 sm:py-16">
 
-        {/* Work in Progress Banner */}
-        {/* <div className="bg-yellow-100 border-l-4 border-yellow-500 rounded-lg p-6 mb-12 shadow-lg">
-          <div className="flex items-start">
-            <div className="text-3xl mr-4">🚧</div>
-            <div>
-              <h3 className="text-lg font-black text-yellow-800 mb-2">Proyecto en Desarrollo</h3>
-              <p className="text-yellow-700 font-medium">
-                Esta Pokédex está en constante actualización. Actualmente estamos trabajando en completar todas las ubicaciones, megas, objetos etc. de los Pokémon. ¡Vuelve pronto para ver las novedades!
-              </p>
-            </div>
-          </div>
-        </div> */}
-        <div className="max-w-7xl mx-auto px-4 mb-6">
+        {/* <div className="max-w-7xl mx-auto px-4 mb-6">
           <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg shadow-sm">
             <div className="flex items-start">
               <div className="ml-3">
@@ -36,7 +24,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Header con logo */}
         <div className="text-center mb-12">
