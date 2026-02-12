@@ -13,6 +13,10 @@ const Navegation = ({ pokemones }) => {
     navigate(`/pokemon/${pokemonId.toLowerCase()}`);
   };
 
+  const handleDownload = () => {
+    window.open('https://docs.google.com/spreadsheets/d/1I4Y5EYuUkHs6uYxWz3Wfm4PpgADuoSp3/', '_blank');
+  };
+
   const [search, setSearch] = useState("");
   const [suggestions, setSuggestions] = useState([]);
   const [selectedIndex, setSelectedIndex] = useState(-1);
@@ -102,24 +106,32 @@ const Navegation = ({ pokemones }) => {
 
       {/* Layout de botones y buscador */}
       <div className="flex flex-row lg:flex-row justify-between items-center gap-4">
-        {/* Botón anterior */}
-        <button
-          onClick={() => handleNavigation(prevPokemon.id)}
-          disabled={!prevPokemon}
-          className={`flex-1 lg:w-40 lg:flex-none flex items-center justify-center space-x-2 px-4 py-2 rounded-lg font-bold ${prevPokemon
-            ? 'bg-blue-600 hover:bg-blue-700 text-white shadow-lg hover:shadow-xl'
-            : 'bg-slate-700 text-slate-500 cursor-not-allowed'
-            }`}
-        >
-          <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-          </svg>
-          {prevPokemon && (
+        {/* Botón anterior o descarga */}
+        {prevPokemon ? (
+          <button
+            onClick={() => handleNavigation(prevPokemon.id)}
+            className="flex-1 lg:w-40 lg:flex-none flex items-center justify-center space-x-2 px-4 py-2 rounded-lg font-bold bg-blue-600 hover:bg-blue-700 text-white shadow-lg hover:shadow-xl"
+          >
+            <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+            </svg>
             <span className="truncate">
               {prevPokemon.name}
             </span>
-          )}
-        </button>
+          </button>
+        ) : (
+          <button
+            onClick={handleDownload}
+            className="cursor-pointer flex-1 lg:flex-none flex items-center justify-center space-x-2 px-4 py-2 rounded-lg font-bold bg-purple-600 hover:bg-purple-700 text-white shadow-lg hover:shadow-xl"
+          >
+            <svg className="w-5 h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+            </svg>
+            <span className="whitespace-nowrap">
+              Ver cambios de estadísticas y tipos
+            </span>
+          </button>
+        )}
 
         {/* Buscador en el centro (solo desktop) */}
         <div className="hidden lg:block w-96">
