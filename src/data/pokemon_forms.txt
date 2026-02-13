@@ -885,16 +885,6 @@ Pokedex = Absorbe la energía vital de aquellos que prueban un bocado de cualqui
 FormName = Forma Exquisita
 Pokedex = Vive en un exquisito cuenco de té elaborado por un alfarero de renombre. Los coleccionistas más acérrimos se desviven por este Pokémon.
 #-------------------------------
-[TERAPAGOS,1]
-FormName = Forma Teracristal
-BaseStats = 95,95,110,85,105,110
-EVs = DEFENSE,2,SPECIAL_DEFENSE,2
-Abilities = TERASHELL
-Height = 0.3
-Weight = 16.0
-Shape = Head
-Pokedex = Cuando presiente peligro, se prepara para combatir formando un caparazón de cristales muy resistente mediante la teracristalización.
-#-------------------------------
 [TERAPAGOS,2]
 FormName = Forma Astral
 BaseStats = 95,105,140,85,135,140
@@ -916,19 +906,6 @@ Weight = 100.8
 UnmegaForm = 5
 Pokedex = Su Flor Eterna ha absorbido toda la energía de la megaevolución y ahora es capaz de atacar a los enemigos por sí sola.
 Generation = 9
-#-------------------------------
-[ZYGARDE,4]
-FormName = Mega Zygarde
-MegaStone = ZYGARDITE
-BaseStats = 74,65,67,92,125,128
-Abilities = POWERCONSTRUCT
-HiddenAbilities = POWERCONSTRUCT
-Height = 7.7
-Weight = 610.0
-UnmegaForm = -2
-Pokedex = En crisis sin precedentes, megaevoluciona en respuesta a las emociones de la gente. Domina cualquier situación con su fuerza sin igual.
-Generation = 9
-Flags = Legendary
 #-------------------------------
 [MAGEARNA,3]
 FormName = Mega Magearna Forma Color Vetusta

@@ -30199,7 +30199,7 @@
       "location": "/images/location/MELOETTA.webp",
       "route": "Ruta 14 - Evento",
       "name": "Meloetta",
-      "form":"Forma Lírica",
+      "form": "Forma Lírica",
       "types": [
         "NORMAL",
         "PSYCHIC"
@@ -34506,7 +34506,7 @@
       "location": "/images/location/ORICORIO.webp",
       "route": "Ruta 16",
       "name": "Oricorio",
-      "form":"Normal",
+      "form": "Normal",
       "types": [
         "FIRE",
         "FLYING"
@@ -46430,6 +46430,7 @@
       "location": "/images/location/TERAPAGOS.webp",
       "route": "Cueva Celeste - Evento",
       "name": "Terapagos",
+      "form": "Normal",
       "types": [
         "NORMAL"
       ],

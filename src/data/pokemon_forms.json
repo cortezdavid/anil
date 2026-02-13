@@ -8523,6 +8523,34 @@
         "weight": 6.5
       },
       "pokedex": "Se han creado innumerables canciones inspiradas en las melodías que emite Meloetta."
+    },
+    {
+      "id": "TERAPAGOS1",
+      "image": "/images/pokemonFront/TERAPAGOS_1.png",
+      "location": "/images/location/TERAPAGOS_1.webp",
+      "baseId": "TERAPAGOS",
+      "name": "Terapagos",
+      "form": "Forma Teracristal",
+      "route": "Por Habilidad Teracambio",
+      "types": [
+        "NORMAL"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 95,
+        "defense": 110,
+        "specialAttack": 105,
+        "specialDefense": 110,
+        "speed": 85
+      },
+      "abilities": [
+        "TERASHELL"
+      ],
+      "physicalData": {
+        "height": 0.3,
+        "weight": 16
+      },
+      "pokedex": "Cuando presiente peligro, se prepara para combatir formando un caparazón de cristales muy resistente mediante la teracristalización."
     }
   ]
 }
