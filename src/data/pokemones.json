@@ -30199,6 +30199,7 @@
       "location": "/images/location/MELOETTA.webp",
       "route": "Ruta 14 - Evento",
       "name": "Meloetta",
+      "form":"Forma Lírica",
       "types": [
         "NORMAL",
         "PSYCHIC"
