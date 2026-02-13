@@ -6995,6 +6995,36 @@
       }
     },
     {
+      "id": "ZYGARDE4",
+      "image": "/images/pokemonFront/ZYGARDE_4.png",
+      "location": "/images/location/ZYGARDE_4.webp",
+      "route": "Torre Batalla",
+      "baseId": "ZYGARDE",
+      "name": "Zygarde",
+      "form": "Mega Zygarde",
+      "MegaStore": "ZYGARDITE",
+      "pokedex": "En crisis sin precedentes, megaevoluciona en respuesta a las emociones de la gente. Domina cualquier situación con su fuerza sin igual.",
+      "types": [
+        "DRAGON",
+        "GROUND"
+      ],
+      "baseStats": {
+        "hp": 74,
+        "attack": 65,
+        "defense": 67,
+        "specialAttack": 125,
+        "specialDefense": 128,
+        "speed": 92
+      },
+      "abilities": [
+        "POWERCONSTRUCT"
+      ],
+      "physicalData": {
+        "height": 7.7,
+        "weight": 610.0
+      }
+    },
+    {
       "id": "NECROZMA1",
       "image": "/images/pokemonFront/NECROZMA_1.png",
       "location": "/images/location/NECROZMA_1.webp",
