@@ -4587,6 +4587,38 @@
       ]
     },
     {
+      "id": "DARMANITAN2",
+      "image": "/images/pokemonFront/DARMANITAN_1.png",
+      "location": "/images/location/DARMANITAN_1.webp",
+      "route": "Habilidad Modo Daruma",
+      "baseId": "DARMANITAN",
+      "name": "Darmanitan",
+      "form": "Forma Daruma",
+      "pokedex": "Cuando resulta herido, se queda inmóvil como una piedra y medita para agudizar la mente.",
+      "types": [
+        "FIRE",
+        "PSYCHIC"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "attack": 30,
+        "defense": 105,
+        "specialAttack": 140,
+        "specialDefense": 105,
+        "speed": 55
+      },
+      "abilities": [
+        "SHEERFORCE"
+      ],
+      "hiddenAbilities": [
+        "ZENMODE"
+      ],
+      "physicalData": {
+        "height": 1.3,
+        "weight": 92.9
+      }
+    },
+    {
       "id": "DARMANITAN1",
       "image": "/images/pokemonFront/DARMANITAN_2.png",
       "location": "/images/location/DARMANITAN_2.webp",
@@ -4630,6 +4662,38 @@
           "evolvesTo": null
         }
       ]
+    },
+    {
+      "id": "DARMANITAN3",
+      "image": "/images/pokemonFront/DARMANITAN_3.png",
+      "location": "/images/location/DARMANITAN_3.webp",
+      "route": "Habilidad Modo Daruma",
+      "baseId": "DARMANITAN",
+      "name": "Darmanitan",
+      "form": "Daruma de Galar",
+      "pokedex": "Adopta esta forma cuando monta en cólera y, hasta que esta remite, suelta llamaradas por doquier aun a riesgo de derretirse a sí mismo.",
+      "types": [
+        "ICE",
+        "FIRE"
+      ],
+      "baseStats": {
+        "hp": 105,
+        "attack": 160,
+        "defense": 55,
+        "specialAttack": 30,
+        "specialDefense": 55,
+        "speed": 135
+      },
+      "abilities": [
+        "GORILLATACTICS"
+      ],
+      "hiddenAbilities": [
+        "ZENMODE"
+      ],
+      "physicalData": {
+        "height": 1.7,
+        "weight": 120
+      }
     },
     {
       "id": "YAMASK1",
@@ -8408,7 +8472,7 @@
       "baseId": "MELOETTA",
       "name": "Meloetta",
       "form": "Forma Danza",
-      "route":"Utilizando movimiento Canto Arcaico",
+      "route": "Utilizando movimiento Canto Arcaico",
       "types": [
         "NORMAL",
         "FIGHTING"

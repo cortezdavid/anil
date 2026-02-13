@@ -275,12 +275,6 @@ Pokedex = Se dice que lucha con el objetivo de defender el mundo ideal para huma
 FormName = Forma Brío
 Pokedex = Su poder latente se ha concentrado en el cuerno de la frente y lo ha convertido en una espada que todo lo corta.
 #-------------------------------
-[MELOETTA,1]
-FormName = Forma Danza
-Types = NORMAL,FIGHTING
-BaseStats = 100,128,90,128,77,77
-EVs = ATTACK,1,DEFENSE,1,SPEED,1
-#-------------------------------
 [GENESECT,1]
 FormName = Forma FulgoROM
 #-------------------------------
