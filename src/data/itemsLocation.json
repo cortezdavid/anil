@@ -869,6 +869,42 @@
       "name": "POKEFLUTE",
       "location": "Pueblo Lavanda",
       "img": "/images/items/POKEFLUTE.png"
+    },
+    {
+      "id": 146,
+      "name": "FOCUSSASH",
+      "location": "Ciudad Añil",
+      "img": "/images/items/FOCUSSASH.png"
+    },
+    {
+      "id": 147,
+      "name": "REDCARD",
+      "location": "Ciudad Añil",
+      "img": "/images/items/REDCARD.png"
+    },
+    {
+      "id": 148,
+      "name": "WHITEHERB",
+      "location": "Ciudad Añil",
+      "img": "/images/items/WHITEHERB.png"
+    },
+    {
+      "id": 149,
+      "name": "POWERHERB",
+      "location": "Ciudad Añil",
+      "img": "/images/items/POWERHERB.png"
+    },
+    {
+      "id": 150,
+      "name": "EJECTBUTTON",
+      "location": "Ciudad Añil",
+      "img": "/images/items/EJECTBUTTON.png"
+    },
+    {
+      "id": 151,
+      "name": "SCOPELENS",
+      "location": "Ciudad Añil",
+      "img": "/images/items/SCOPELENS.png"
     }
   ]
 }
