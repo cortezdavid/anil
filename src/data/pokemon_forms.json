@@ -8551,6 +8551,64 @@
         "weight": 16
       },
       "pokedex": "Cuando presiente peligro, se prepara para combatir formando un caparazón de cristales muy resistente mediante la teracristalización."
+    },
+    {
+      "id": "BASCULIN2",
+      "image": "/images/pokemonFront/BASCULIN_2.png",
+      "location": "/images/location/BASCULIN_2.webp",
+      "baseId": "BASCULIN",
+      "name": "Basculin",
+      "form": "Raya Roja",
+      "route": "Ciudad Celeste (surfeando/pescando)",
+      "types": [
+        "WATER"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 92,
+        "defense": 65,
+        "specialAttack": 80,
+        "specialDefense": 55,
+        "speed": 98
+      },
+      "abilities": [
+        "RECKLESS",
+        "ADAPTABILITY"
+      ],
+      "physicalData": {
+        "height": 1,
+        "weight": 18
+      },
+      "pokedex": "Los Basculin con la raya roja y aquellos con la raya azul se llevan fatal, pero algunos tienden a agruparse."
+    },
+    {
+      "id": "BASCULIN3",
+      "image": "/images/pokemonFront/BASCULIN_3.png",
+      "location": "/images/location/BASCULIN_2.webp",
+      "baseId": "BASCULIN",
+      "name": "Basculin",
+      "form": "Raya Azul",
+      "route": "Ciudad Celeste (surfeando/pescando)",
+      "types": [
+        "WATER"
+      ],
+      "baseStats": {
+        "hp": 70,
+        "attack": 92,
+        "defense": 65,
+        "specialAttack": 80,
+        "specialDefense": 55,
+        "speed": 98
+      },
+      "abilities": [
+        "RECKLESS",
+        "ADAPTABILITY"
+      ],
+      "physicalData": {
+        "height": 1,
+        "weight": 18
+      },
+      "pokedex": "Los Basculin con la raya roja y aquellos con la raya azul se llevan fatal, pero algunos tienden a agruparse."
     }
   ]
 }

@@ -25859,8 +25859,9 @@
       "id": "BASCULIN",
       "image": "/images/pokemonFront/BASCULIN.png",
       "location": "/images/location/BASCULIN.webp",
-      "route": "Ciudad Celeste (surfeando/pescando)",
+      "route": "Camino de Bicis (surfeando/pescando)",
       "name": "Basculin",
+      "form": "Raya Blanca",
       "types": [
         "WATER"
       ],
@@ -25881,8 +25882,7 @@
       ],
       "physicalData": {
         "height": 1,
-        "weight": 18,
-        "shape ": "Finned"
+        "weight": 18
       },
       "pokedex": "A pesar de diferenciarse de otros Basculin, como por su plácida naturaleza, se considera una forma regional por todas las características compartidas.",
       "evolutionChain": [
