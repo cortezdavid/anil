@@ -814,10 +814,6 @@ Region = Hisui
 Generation = 8
 Region = Hisui
 #-------------------------------
-[BASCULEGION,1]
-FormName = Forma Hembra
-BaseStats = 120,92,65,78,100,75
-#-------------------------------
 [DUDUNSPARCE,1]
 FormName = Forma Trinodular
 Height = 4.5

@@ -8609,6 +8609,55 @@
         "weight": 18
       },
       "pokedex": "Los Basculin con la raya roja y aquellos con la raya azul se llevan fatal, pero algunos tienden a agruparse."
+    },
+    {
+      "id": "BASCULEGION1",
+      "image": "/images/pokemonFront/BASCULEGION_1.png",
+      "location": "/images/location/BASCULEGION.webp",
+      "baseId": "BASCULEGION",
+      "name": "Basculegion",
+      "form": "Hembra",
+      "types": [
+        "WATER",
+        "GHOST"
+      ],
+      "baseStats": {
+        "hp": 120,
+        "attack": 92,
+        "defense": 65,
+        "specialAttack": 100,
+        "specialDefense": 75,
+        "speed": 78
+      },
+      "abilities": [
+        "RECKLESS",
+        "ADAPTABILITY"
+      ],
+      "hiddenAbilities": [
+        "MOLDBREAKER"
+      ],
+      "physicalData": {
+        "height": 3,
+        "weight": 110
+      },
+      "pokedex": "Durante las remontadas de los ríos, se envuelve de las almas de sus congéneres caídos en la ardua travesía. No tiene rival en ninguna de las corrientes que fluyen.",
+      "evolutionChain": [
+        {
+          "species": "BASCULIN",
+          "evolvesTo": [
+            {
+              "species": "BASCULEGION",
+              "method": "Siendo macho",
+              "requirement": "Nivel 40"
+            },
+            {
+              "species": "BASCULEGION_1",
+              "method": "Siendo hembra",
+              "requirement": "Nivel 40"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

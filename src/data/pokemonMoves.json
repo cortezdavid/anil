@@ -147021,6 +147021,169 @@
       ]
     }
   },
+  "BASCULEGION1": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 1,
+          "move": "PHANTOMFORCE"
+        },
+        {
+          "level": 1,
+          "move": "TAILWHIP"
+        },
+        {
+          "level": 1,
+          "move": "WATERGUN"
+        },
+        {
+          "level": 1,
+          "move": "SHADOWBALL"
+        },
+        {
+          "level": 4,
+          "move": "TACKLE"
+        },
+        {
+          "level": 8,
+          "move": "FLAIL"
+        },
+        {
+          "level": 12,
+          "move": "AQUAJET"
+        },
+        {
+          "level": 16,
+          "move": "BITE"
+        },
+        {
+          "level": 16,
+          "move": "CHIPAWAY"
+        },
+        {
+          "level": 20,
+          "move": "SCARYFACE"
+        },
+        {
+          "level": 24,
+          "move": "HEADBUTT"
+        },
+        {
+          "level": 28,
+          "move": "SOAK"
+        },
+        {
+          "level": 32,
+          "move": "CRUNCH"
+        },
+        {
+          "level": 32,
+          "move": "AQUATAIL"
+        },
+        {
+          "level": 36,
+          "move": "TAKEDOWN"
+        },
+        {
+          "level": 40,
+          "move": "UPROAR"
+        },
+        {
+          "level": 46,
+          "move": "ZENHEADBUTT"
+        },
+        {
+          "level": 48,
+          "move": "THRASH"
+        },
+        {
+          "level": 51,
+          "move": "WAVECRASH"
+        },
+        {
+          "level": 52,
+          "move": "DOUBLEEDGE"
+        },
+        {
+          "level": 56,
+          "move": "HEADSMASH"
+        },
+        {
+          "level": 60,
+          "move": "FISHIOUSREND"
+        }
+      ],
+      "tutorMoves": [
+        "AGILITY",
+        "AQUATAIL",
+        "ATTRACT",
+        "BLIZZARD",
+        "BRINE",
+        "CHILLINGWATER",
+        "CONFUSERAY",
+        "CRUNCH",
+        "DARKPULSE",
+        "DOUBLEEDGE",
+        "DREAMEATER",
+        "ENDEAVOR",
+        "ENDURE",
+        "FACADE",
+        "FLIPTURN",
+        "GIGAIMPACT",
+        "HEX",
+        "HIDDENPOWER",
+        "HYDROPUMP",
+        "HYPERBEAM",
+        "ICEBEAM",
+        "ICEFANG",
+        "ICYWIND",
+        "IRONHEAD",
+        "LIQUIDATION",
+        "MUDDYWATER",
+        "MUDSHOT",
+        "NIGHTSHADE",
+        "OUTRAGE",
+        "PAINSPLIT",
+        "PHANTOMFORCE",
+        "PROTECT",
+        "PSYCHICFANGS",
+        "RAINDANCE",
+        "REFLECT",
+        "REST",
+        "RETURN",
+        "SCALESHOT",
+        "SCARYFACE",
+        "SHADOWBALL",
+        "SLEEPTALK",
+        "SNOWSCAPE",
+        "SPITE",
+        "SUBSTITUTE",
+        "SURF",
+        "SWIFT",
+        "TAKEDOWN",
+        "UPROAR",
+        "WATERFALL",
+        "WATERPULSE",
+        "WHIRLPOOL",
+        "WILLOWISP",
+        "WORKUP",
+        "ZENHEADBUTT"
+      ],
+      "eggMoves": [
+        "AGILITY",
+        "BRINE",
+        "BUBBLEBEAM",
+        "ENDEAVOR",
+        "LASTRESPECTS",
+        "MUDDYWATER",
+        "MUDSHOT",
+        "RAGE",
+        "REVENGE",
+        "SWIFT",
+        "WHIRLPOOL"
+      ]
+    }
+  },
   "SNEASLER": {
     "moves": {
       "levelUpMoves": [
