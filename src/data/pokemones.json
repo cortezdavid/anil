@@ -25888,15 +25888,18 @@
       "evolutionChain": [
         {
           "species": "BASCULIN",
-          "evolvesTo": {
-            "species": "BASCULEGION",
-            "method": "Nivel",
-            "requirement": 40
-          }
-        },
-        {
-          "species": "BASCULEGION",
-          "evolvesTo": null
+          "evolvesTo": [
+            {
+              "species": "BASCULEGION",
+              "method": "Siendo macho",
+              "requirement": "Nivel 40"
+            },
+            {
+              "species": "BASCULEGION_1",
+              "method": "Siendo hembra",
+              "requirement": "Nivel 40"
+            }
+          ]
         }
       ]
     },
