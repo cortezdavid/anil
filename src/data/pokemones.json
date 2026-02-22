@@ -35931,7 +35931,21 @@
         "weight": 100.5,
         "shape ": "Quadruped"
       },
-      "pokedex": "La confianza con su Entrenador ha despertado su potencial. Ahora es capaz de cambiar de tipo a voluntad durante el combate."
+      "pokedex": "La confianza con su Entrenador ha despertado su potencial. Ahora es capaz de cambiar de tipo a voluntad durante el combate.",
+      "evolutionChain": [
+        {
+          "species": "TYPENULL",
+          "evolvesTo": {
+            "species": "SILVALLY",
+            "method": "Felicidad",
+            "requirement": null
+          }
+        },
+        {
+          "species": "SILVALLY",
+          "evolvesTo": null
+        }
+      ]
     },
     {
       "id": "MINIOR",
