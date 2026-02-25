@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import PokemonFront from "../pokemonFront/PokemonFront";
-import PokemonStaticSprite from './PokemonStaticSprite';
 import itemsData from "../../data/items.json";
 
 const PokemonEvolution = ({ pokemon }) => {
@@ -75,7 +74,7 @@ const PokemonEvolution = ({ pokemon }) => {
             <Link to={`/pokemon/${formatSpeciesName(baseStage.species)}`}>
               <div className="bg-gradient-to-br from-slate-700 to-slate-600 rounded-2xl p-6 border-2 border-slate-600 hover:border-blue-500 hover:shadow-lg transition-all duration-200 text-center min-w-[160px]">
                 <div className="bg-slate-900 rounded-xl p-3 mb-3 mx-auto w-fit">
-                  <PokemonStaticSprite
+                  <PokemonFront
                     img={`/images/pokemonFront/${baseStage.species}.png`}
                     scale={80}
                   />
@@ -113,7 +112,7 @@ const PokemonEvolution = ({ pokemon }) => {
                       <Link to={`/pokemon/${formatSpeciesName(evo.species)}`}>
                         <div className="bg-gradient-to-br from-slate-700 to-slate-600 rounded-xl p-3 border-2 border-slate-600 hover:border-blue-500 hover:shadow-lg transition-all duration-200 min-w-[140px]">
                           <div className="bg-slate-900 rounded-lg p-2 mb-2 mx-auto w-fit">
-                            <PokemonStaticSprite
+                            <PokemonFront
                               img={`/images/pokemonFront/${evo.species}.png`}
                               scale={60}
                             />
@@ -140,7 +139,7 @@ const PokemonEvolution = ({ pokemon }) => {
             <div className="bg-gradient-to-br from-slate-700 to-slate-600 rounded-xl p-4 border-2 border-slate-600 hover:border-blue-500 transition-all duration-200">
               <div className="flex items-center gap-4">
                 <div className="bg-slate-900 rounded-lg p-2">
-                  <PokemonStaticSprite
+                  <PokemonFront
                     img={`/images/pokemonFront/${baseStage.species}.png`}
                     scale={60}
                   />
@@ -188,7 +187,7 @@ const PokemonEvolution = ({ pokemon }) => {
                       <div className="bg-gradient-to-br from-slate-700 to-slate-600 rounded-xl p-3 border-2 border-slate-600 hover:border-blue-500 transition-all duration-200">
                         <div className="flex items-center gap-3">
                           <div className="bg-slate-900 rounded-lg p-2">
-                            <PokemonStaticSprite
+                            <PokemonFront
                               img={`/images/pokemonFront/${evo.species}.png`}
                               scale={50}
                             />
@@ -230,7 +229,7 @@ const PokemonEvolution = ({ pokemon }) => {
               >
                 <div className="bg-gradient-to-br from-slate-700 to-slate-600 rounded-2xl p-6 border-2 border-slate-600 hover:border-blue-500 hover:shadow-lg transition-all duration-200 text-center min-w-[160px]">
                   <div className="bg-slate-900 rounded-xl p-3 mb-3 mx-auto w-fit">
-                    <PokemonStaticSprite
+                    <PokemonFront
                       img={`/images/pokemonFront/${stage.species}.png`}
                       scale={80}
                     />
@@ -278,7 +277,7 @@ const PokemonEvolution = ({ pokemon }) => {
                 <div className="bg-gradient-to-br from-slate-700 to-slate-600 rounded-xl p-4 border-2 border-slate-600 hover:border-blue-500 transition-all duration-200">
                   <div className="flex items-center gap-4">
                     <div className="bg-slate-900 rounded-lg p-2">
-                      <PokemonStaticSprite
+                      <PokemonFront
                         img={`/images/pokemonFront/${stage.species}.png`}
                         scale={60}
                       />
@@ -345,7 +344,7 @@ const PokemonEvolution = ({ pokemon }) => {
                   <Link to={`/pokemon/${formatSpeciesName(stage.species)}`}>
                     <div className="bg-gradient-to-br from-slate-700 to-slate-600 rounded-2xl p-6 border-2 border-slate-600 hover:border-blue-500 hover:shadow-lg transition-all duration-200 text-center min-w-[160px]">
                       <div className="bg-slate-900 rounded-xl p-3 mb-3 mx-auto w-fit">
-                        <PokemonStaticSprite
+                        <PokemonFront
                           img={`/images/pokemonFront/${stage.species}.png`}
                           scale={80}
                         />
@@ -408,7 +407,7 @@ const PokemonEvolution = ({ pokemon }) => {
                   <Link to={`/pokemon/${formatSpeciesName(evo.species)}`} className="flex-1">
                     <div className="bg-gradient-to-br from-slate-700 to-slate-600 rounded-xl p-3 border-2 border-slate-600 hover:border-blue-500 hover:shadow-lg transition-all duration-200 flex items-center gap-3">
                       <div className="bg-slate-900 rounded-lg p-2">
-                        <PokemonStaticSprite
+                        <PokemonFront
                           img={`/images/pokemonFront/${evo.species}.png`}
                           scale={60}
                         />
@@ -434,7 +433,7 @@ const PokemonEvolution = ({ pokemon }) => {
                 <div className="bg-gradient-to-br from-slate-700 to-slate-600 rounded-xl p-4 border-2 border-slate-600 hover:border-blue-500 transition-all duration-200">
                   <div className="flex items-center gap-4">
                     <div className="bg-slate-900 rounded-lg p-2">
-                      <PokemonStaticSprite
+                      <PokemonFront
                         img={`/images/pokemonFront/${stage.species}.png`}
                         scale={60}
                       />
@@ -503,7 +502,7 @@ const PokemonEvolution = ({ pokemon }) => {
                 <div className="bg-gradient-to-br from-slate-700 to-slate-600 rounded-xl p-4 border-2 border-slate-600 hover:border-blue-500 transition-all duration-200">
                   <div className="flex items-center gap-4">
                     <div className="bg-slate-900 rounded-lg p-2">
-                      <PokemonStaticSprite
+                      <PokemonFront
                         img={`/images/pokemonFront/${evo.species}.png`}
                         scale={60}
                       />
@@ -541,7 +540,7 @@ const PokemonEvolution = ({ pokemon }) => {
   //       >
   //         <div className="bg-gradient-to-br from-purple-900/40 to-pink-900/40 rounded-2xl p-6 border-2 border-purple-600/50 hover:border-purple-500 hover:shadow-lg transition-all duration-200 text-center">
   //           <div className="bg-slate-900 rounded-xl p-4 mb-3 mx-auto w-fit">
-  //             <PokemonStaticSprite
+  //             <PokemonFront
   //               img={`/images/pokemonFront/${baseStage.species}.png`}
   //               scale={100}
   //             />
@@ -572,7 +571,7 @@ const PokemonEvolution = ({ pokemon }) => {
   //         >
   //           <div className="bg-gradient-to-br from-slate-700 to-slate-600 rounded-xl p-4 border-2 border-slate-600 hover:border-blue-500 hover:shadow-lg transition-all duration-200 min-w-[160px]">
   //             <div className="bg-slate-900 rounded-lg p-3 mb-3 mx-auto w-fit">
-  //               <PokemonStaticSprite
+  //               <PokemonFront
   //                 img={`/images/pokemonFront/${evo.species}.png`}
   //                 scale={70}
   //               />
