@@ -1,12 +1,6 @@
-import types from "../../data/types.json"
 import abilitiesData from "../../data/abilities.json"
 
 const PokemonInformation = ({ pokemon }) => {
-
-  const getTypeName = (typeId) => {
-    const typeObj = types.types.find(t => t.id === typeId);
-    return typeObj ? typeObj.name : typeId;
-  }
 
   const getAbilityName = (id) => {
     const ability = abilitiesData.abilities.find(a => a.id === id);
@@ -19,29 +13,6 @@ const PokemonInformation = ({ pokemon }) => {
     return ability?.description;
   };
 
-  const getTypeColor = (type) => {
-    const colors = {
-      'FIRE': 'bg-red-500',
-      'WATER': 'bg-blue-500',
-      'GRASS': 'bg-green-500',
-      'ELECTRIC': 'bg-yellow-500',
-      'PSYCHIC': 'bg-purple-500',
-      'ICE': 'bg-cyan-400',
-      'DRAGON': 'bg-indigo-600',
-      'DARK': 'bg-gray-800',
-      'FAIRY': 'bg-pink-400',
-      'FIGHTING': 'bg-red-700',
-      'POISON': 'bg-purple-600',
-      'GROUND': 'bg-yellow-600',
-      'FLYING': 'bg-indigo-400',
-      'BUG': 'bg-green-600',
-      'ROCK': 'bg-yellow-800',
-      'GHOST': 'bg-purple-800',
-      'STEEL': 'bg-gray-500',
-      'NORMAL': 'bg-gray-400'
-    };
-    return colors[type] || 'bg-gray-500';
-  };
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
