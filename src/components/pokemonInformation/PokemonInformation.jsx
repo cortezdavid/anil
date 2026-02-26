@@ -50,19 +50,12 @@ const PokemonInformation = ({ pokemon }) => {
       <div className="space-y-6 lg:col-span-1">
 
         {/* Card de Tipos */}
-        <div className="bg-slate-800 rounded-2xl shadow-lg shadow-gray-900/30 p-6 border border-slate-700">
+        <div className="bg-slate-800 rounded-2xl shadow-lg shadow-gray-900/30 p-5 border border-slate-700">
           <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-4">
-            Tipo
+            Descripción
           </h3>
-          <div className="flex gap-3 flex-wrap">
-            {pokemon.types?.map((type, index) => (
-              <span
-                key={index}
-                className={`px-4 py-2 rounded-xl text-sm font-bold text-white ${getTypeColor(type)} shadow-lg`}
-              >
-                {getTypeName(type)}
-              </span>
-            ))}
+          <div className="text-sm text-slate-300 tracking-wide mb-2">
+            {pokemon.pokedex}
           </div>
         </div>
 
@@ -95,7 +88,7 @@ const PokemonInformation = ({ pokemon }) => {
       {/* COLUMNA 2-3: Habilidades*/}
       <div className="lg:col-span-2">
         {/* Card de Habilidades */}
-        <div className="bg-slate-800 rounded-2xl shadow-lg shadow-gray-900/30 p-6 border border-slate-700 h-full">
+        <div className="bg-slate-800 rounded-2xl shadow-lg shadow-gray-900/30 p-5 border border-slate-700 h-full">
           <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-4">
             Habilidades
           </h3>

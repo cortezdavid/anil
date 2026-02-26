@@ -1,4 +1,17 @@
 const PokemonRoute = ({ pokemon }) => {
+  if (!pokemon.route) {
+    return (
+      <div className="max-w-6xl mx-auto">
+        <div className="bg-slate-800 rounded-2xl p-10 text-center">
+          <div className="text-5xl mb-3">🗺️</div>
+          <p className="text-slate-300 font-semibold">
+            Este Pokémon no aparece en ninguna ruta 
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="max-w-6xl mx-auto">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -25,20 +38,10 @@ const PokemonRoute = ({ pokemon }) => {
               <div>
                 <p className="text-xs font-semibold text-blue-400 uppercase tracking-wider">Ubicación</p>
                 <p className="text-base font-bold text-slate-100">
-                  {pokemon.route || "Desconocida"}
+                  {pokemon.route}
                 </p>
               </div>
             </div>
-          </div>
-
-          {/* Card de descripción */}
-          <div className="bg-slate-800 rounded-2xl p-6">
-            <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-3">
-              Descripción
-            </h3>
-            <p className="text-slate-300 leading-relaxed">
-              {pokemon.pokedex}
-            </p>
           </div>
         </div>
       </div>
