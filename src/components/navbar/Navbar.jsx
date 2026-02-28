@@ -58,13 +58,6 @@ const Navbar = () => {
               >
                 Combates
               </Link>
-              <Link
-                to="/donprodigio"
-                className="text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200"
-              >
-                Don Prodigio
-              </Link>
-
               {/* dropdown - Desktop */}
               <div className="relative">
                 <button
@@ -96,7 +89,18 @@ const Navbar = () => {
                   </div>
                 )}
               </div>
-
+              <Link
+                to="/nidos"
+                className="text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200"
+              >
+                Nidos
+              </Link>
+              <Link
+                to="/donprodigio"
+                className="text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200"
+              >
+                Don Prodigio
+              </Link>
               <Link
                 to="/chat"
                 className="text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200"
@@ -161,13 +165,6 @@ const Navbar = () => {
             >
               Combates
             </Link>
-            <Link
-              to="/donprodigio"
-              onClick={() => setMobileMenuOpen(false)}
-              className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-3 rounded-lg text-sm font-bold transition-all duration-200"
-            >
-              Don Prodigio
-            </Link>
             <div>
               <button
                 onClick={() => setMisionesOpenMobile(!misionesOpenMobile)}
@@ -197,7 +194,20 @@ const Navbar = () => {
                 </div>
               )}
             </div>
-
+            <Link
+              to="/nidos"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-3 rounded-lg text-sm font-bold transition-all duration-200"
+            >
+              Nidos
+            </Link>
+            <Link
+              to="/donprodigio"
+              onClick={() => setMobileMenuOpen(false)}
+              className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-3 rounded-lg text-sm font-bold transition-all duration-200"
+            >
+              Don Prodigio
+            </Link>
             <Link
               to="/chat"
               onClick={() => setMobileMenuOpen(false)}

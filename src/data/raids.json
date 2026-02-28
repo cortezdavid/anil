@@ -138,7 +138,13 @@
         "velocidad": 2
       },
       "objetos": [
-        "EARTHPLATE"
+        "STONEPLATE",
+        "DECapsula",
+        "DCapsula",
+        "IMPISHMINT",
+        "BOLDMINT",
+        "SASSYMINT",
+        "STARPIECE"
       ],
       "pokemon": [
         "KLEAVOR",
@@ -161,7 +167,15 @@
         "velocidad": 2
       },
       "objetos": [
-        "EARTHPLATE"
+        "SPOOKYPLATE",
+        "VCapsula",
+        "SCapsula",
+        "NAIVEMINT",
+        "JOLLYMINT",
+        "TIMIDMINT",
+        "SASSYMINT",
+        "BOLDMINT",
+        "BIGNUGGET"
       ],
       "pokemon": [
         "DUSKNOIR",
@@ -184,7 +198,15 @@
         "velocidad": 2
       },
       "objetos": [
-        "EARTHPLATE"
+        "TOXICPLATE",
+        "DCapsula",
+        "VCapsula",
+        "DECapsula",
+        "SCapsula",
+        "TIMIDMINT",
+        "TOXICORB",
+        "BLACKSLUDGE",
+        "BIGNUGGET"
       ],
       "pokemon": [
         "WEEZING",
@@ -192,6 +214,255 @@
         "MUK",
         "VICTREEBEL",
         "SNEASLER"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "FLYING",
+      "nivel": 46,
+      "location": "Ruta 13",
+      "information": {
+        "ataque": 2,
+        "defensa": 3,
+        "atEspecial": 2,
+        "deEspecial": 3,
+        "velocidad": 2
+      },
+      "objetos": [
+        "SKYPLATE",
+        "DECapsula",
+        "DCapsula",
+        "ACapsula",
+        "AECapsula",
+        "BRAVEMINT",
+        "ADAMANTMINT",
+        "MODESTMINT",
+        "PPMAX",
+        "BIGNUGGET"
+      ],
+      "pokemon": [
+        "GLISCOR",
+        "FEAROW",
+        "NOCTOWL",
+        "SKARMORY",
+        "MANTINE"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "NORMAL",
+      "nivel": 50,
+      "location": "Zona Safari",
+      "information": {
+        "ataque": 2,
+        "defensa": 3,
+        "atEspecial": 2,
+        "deEspecial": 3,
+        "velocidad": 2
+      },
+      "objetos": [
+        "BLANKPLATE",
+        "ACapsula",
+        "VCapsula",
+        "SCapsula",
+        "LAXMINT",
+        "NAUGHTYMINT",
+        "CAREFULMINT",
+        "EVIOLITE",
+        "LEFTOVERS"
+      ],
+      "pokemon": [
+        "URSALUNA",
+        "BLISSEY",
+        "WYRDEER",
+        "DUDUNSPARCE",
+        "LICKILICKY"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "GRASS",
+      "nivel": 50,
+      "location": "Zona Safari",
+      "information": {
+        "ataque": 2,
+        "defensa": 3,
+        "atEspecial": 2,
+        "deEspecial": 3,
+        "velocidad": 2
+      },
+      "objetos": [
+        "MEADOWPLATE",
+        "DECapsula",
+        "IMPISHMINT",
+        "HASTYMINT",
+        "JOLLYMINT",
+        "QUIETMINT",
+        "CALMMINT",
+        "MAXELIXIR",
+        "PPMAX",
+        "BIGNUGGET"
+      ],
+      "pokemon": [
+        "VENUSAUR",
+        "SUNFLORA",
+        "BELLOSSOM",
+        "TANGROWTH",
+        "MEGANIUM"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "STEEL",
+      "nivel": 52,
+      "location": "Camino de Bicis",
+      "information": {
+        "ataque": 2,
+        "defensa": 4,
+        "atEspecial": 2,
+        "deEspecial": 4,
+        "velocidad": 3
+      },
+      "objetos": [
+        "IRONPLATE",
+        "DCapsula",
+        "AECapsula",
+        "ACapsula",
+        "SHINYZADOR",
+        "BIGNUGGET",
+        "STARPIECE",
+        "COMETSHARD",
+        "BIGMUSHROOM"
+      ],
+      "pokemon": [
+        "METAGROSS",
+        "PERRSERKER",
+        "LUCARIO",
+        "SCIZOR",
+        "STEELIX"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "ICE",
+      "nivel": 55,
+      "location": "Ruta 18",
+      "information": {
+        "ataque": 2,
+        "defensa": 4,
+        "atEspecial": 2,
+        "deEspecial": 4,
+        "velocidad": 3
+      },
+      "objetos": [
+        "ICICLEPLATE",
+        "VCapsula",
+        "ACapsula",
+        "DCapsula",
+        "SCapsula",
+        "DECapsula",
+        "AECapsula",
+        "PPMAX",
+        "COMETSHARD"
+      ],
+      "pokemon": [
+        "LAPRAS",
+        "DEWGONG",
+        "CLOYSTER",
+        "MAMOSWINE",
+        "JYNX"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "WATER",
+      "nivel": 55,
+      "location": "Ruta 19",
+      "information": {
+        "ataque": 2,
+        "defensa": 4,
+        "atEspecial": 2,
+        "deEspecial": 4,
+        "velocidad": 3
+      },
+      "objetos": [
+        "SPLASHPLATE",
+        "DCapsula",
+        "DECapsula",
+        "SCapsula",
+        "SERIOUSMINT",
+        "RELAXEDMINT",
+        "MASTERBALL",
+        "COMETSHARD",
+        "PEARLSTRING"
+      ],
+      "pokemon": [
+        "TENTACRUEL",
+        "POLIWRATH",
+        "OCTILLERY",
+        "GYARADOS",
+        "FERALIGATR"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "DARK",
+      "nivel": 55,
+      "location": "Ruta 4",
+      "information": {
+        "ataque": 2,
+        "defensa": 4,
+        "atEspecial": 2,
+        "deEspecial": 4,
+        "velocidad": 3
+      },
+      "objetos": [
+        "DREADPLATE",
+        "ACapsula",
+        "AECapsula",
+        "SCapsula",
+        "MASTERBALL",
+        "SHINYZADOR",
+        "PPMAX",
+        "MAXELIXIR",
+        "COMETSHARD"
+      ],
+      "pokemon": [
+        "HONCHKROW",
+        "HOUNDOOM",
+        "TYRANITAR",
+        "GRIMMSNARL",
+        "WEAVILE"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "ELECTRIC",
+      "nivel": 70,
+      "location": "Ruta 10 Norte",
+      "information": {
+        "ataque": 2,
+        "defensa": 4,
+        "atEspecial": 2,
+        "deEspecial": 4,
+        "velocidad": 3
+      },
+      "objetos": [
+        "ZAPPLATE",
+        "DECapsula",
+        "AECapsula",
+        "DCapsula",
+        "MASTERBALL",
+        "SHINYZADOR",
+        "PPMAX",
+        "COMETSHARD"
+      ],
+      "pokemon": [
+        "MAGNEZONE",
+        "ELECTIVIRE",
+        "LANTURN",
+        "RAICHU",
+        "AMPHAROS"
       ]
     }
   ]

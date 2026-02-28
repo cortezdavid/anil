@@ -194,7 +194,7 @@ const Trainers = () => {
       'POISON': 'bg-purple-600',
       'GROUND': 'bg-yellow-600',
       'FLYING': 'bg-indigo-400',
-      'BUG': 'bg-green-600',
+      'BUG': 'bg-lime-600',
       'ROCK': 'bg-yellow-800',
       'GHOST': 'bg-purple-800',
       'STEEL': 'bg-gray-500',
