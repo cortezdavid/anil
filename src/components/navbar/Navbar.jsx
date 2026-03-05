@@ -58,11 +58,13 @@ const Navbar = () => {
               >
                 Combates
               </Link>
-              {/* dropdown - Desktop */}
-              <div className="relative">
+              {/* Misiones dropdown - Desktop */}
+              <div
+                className="relative"
+                onMouseEnter={() => setMisionesOpen(true)}
+                onMouseLeave={() => setMisionesOpen(false)}
+              >
                 <button
-                  onClick={() => setMisionesOpen(!misionesOpen)}
-                  onBlur={() => setTimeout(() => setMisionesOpen(false), 150)}
                   className="text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-bold transition-all duration-200 flex items-center gap-1"
                 >
                   Misiones
@@ -71,21 +73,23 @@ const Navbar = () => {
                   </svg>
                 </button>
                 {misionesOpen && (
-                  <div className="absolute top-full left-0 mt-1 w-44 bg-blue-600 rounded-lg shadow-xl z-50 overflow-hidden">
-                    <Link
-                      to="/fotos"
-                      onClick={() => setMisionesOpen(false)}
-                      className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 text-sm font-bold transition-all duration-200"
-                    >
-                      Fotos
-                    </Link>
-                    <Link
-                      to="/torrebatalla"
-                      onClick={() => setMisionesOpen(false)}
-                      className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 text-sm font-bold transition-all duration-200"
-                    >
-                      Torre Batalla
-                    </Link>
+                  <div className="absolute top-full left-0 pt-1 w-44 z-50">
+                    <div className="bg-blue-600 rounded-lg shadow-xl overflow-hidden">
+                      <Link
+                        to="/fotos"
+                        onClick={() => setMisionesOpen(false)}
+                        className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 text-sm font-bold transition-all duration-200"
+                      >
+                        Fotos
+                      </Link>
+                      <Link
+                        to="/torrebatalla"
+                        onClick={() => setMisionesOpen(false)}
+                        className="block text-white hover:text-blue-100 hover:bg-blue-700 px-4 py-2 text-sm font-bold transition-all duration-200"
+                      >
+                        Torre Batalla
+                      </Link>
+                    </div>
                   </div>
                 )}
               </div>
@@ -165,6 +169,7 @@ const Navbar = () => {
             >
               Combates
             </Link>
+            {/* Misiones dropdown - Mobile */}
             <div>
               <button
                 onClick={() => setMisionesOpenMobile(!misionesOpenMobile)}
