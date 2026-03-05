@@ -186,16 +186,6 @@ FormName = Forma Otoño
 [SAWSBUCK,3]
 FormName = Forma Invierno
 #-------------------------------
-[KYUREM,1]
-FormName = Forma Blanca
-BaseStats = 125,120,90,95,170,100
-BaseExp = 350
-EVs = SPECIAL_ATTACK,3
-Abilities = TURBOBLAZE
-Moves = 1,ICYWIND,1,DRAGONRAGE,8,IMPRISON,15,ANCIENTPOWER,22,ICEBEAM,29,DRAGONBREATH,36,SLASH,43,FUSIONFLARE,50,ICEBURN,57,DRAGONPULSE,64,NOBLEROAR,71,ENDEAVOR,78,BLIZZARD,85,OUTRAGE,92,HYPERVOICE
-Height = 3.6
-Pokedex = Como heraldo del mundo verdadero que ha de llegar para humanos y Pokémon, ha asumido la misión de protegerlo.
-#-------------------------------
 [KYUREM,3]
 PokedexForm = 1
 BaseStats = 125,120,90,95,170,100
@@ -388,29 +378,6 @@ Flags = InheritFormFromMother
 [MIMIKYU,1]
 FormName = Forma Descubierta
 Pokedex = Le entristece que pueda descubrirse su identidad. Jamás perdona a quienes rompen su disfraz y no descansa hasta vengarse.
-#-------------------------------
-[NECROZMA,1]
-FormName = Forma Melena Crepuscular
-Types = PSYCHIC,STEEL
-BaseStats = 97,157,127,77,113,109
-BaseExp = 340
-EVs = ATTACK,3
-Height = 3.8
-Weight = 460.0
-Color = Yellow
-Shape = Quadruped
-Pokedex = Forma que adapta tras alimentarse de la luz de Solgaleo. Se lanza sobre su oponente y lo desgarra sin piedad.
-#-------------------------------
-[NECROZMA,2]
-FormName = Forma Alas del Alba
-Types = PSYCHIC,GHOST
-BaseStats = 97,113,109,77,157,127
-BaseExp = 340
-EVs = SPECIAL_ATTACK,3
-Height = 4.2
-Weight = 350.0
-Color = Blue
-Pokedex = En esta forma, Lunala no goza de voluntad propia. Necrozma tiene control absoluto y absorbe su energía poco a poco.
 #-------------------------------
 [NECROZMA,3]
 FormName = Forma Ultra-Necrozma
@@ -766,29 +733,6 @@ FormName = Forma Mezcla Tres Sabores Confite lazo
 FormName = Forma Voraz
 Color = Purple
 Pokedex = El hambre lo ha vuelto agresivo y ha convertido la electricidad de sus carrillos en energía de tipo Siniestro.
-#-------------------------------
-[ZACIAN,1]
-FormName = Forma Espada Suprema
-Types = FAIRY,STEEL
-BaseStats = 92,150,115,148,80,115
-BaseExp = 360
-Weight = 355.0
-Pokedex = En esta forma, capaz de cortar cualquier cosa, es temido y respetado y se lo conoce como la Regia Espada Silvana.
-#-------------------------------
-[ZAMAZENTA,1]
-FormName = Forma Escudo Supremo
-Types = FIGHTING,STEEL
-BaseStats = 92,120,140,128,80,140
-BaseExp = 360
-Weight = 785.0
-Pokedex = Esta forma, temida y venerada por igual, le ha valido el nombre de Regio Escudo Guerrero por su capacidad de repeler cualquier ataque.
-#-------------------------------
-[URSHIFU,1]
-FormName = Estilo Fluido
-Types = FIGHTING,WATER
-Moves = 0,SURGINGSTRIKES,1,AQUAJET,1,ROCKSMASH,1,LEER,1,ENDURE,1,FOCUSENERGY,12,AERIALACE,16,SCARYFACE,20,HEADBUTT,24,BRICKBREAK,28,DETECT,32,BULKUP,36,IRONHEAD,40,DYNAMICPUNCH,44,COUNTER,48,CLOSECOMBAT,52,FOCUSPUNCH
-TutorMoves = ACROBATICS,ATTRACT,AURASPHERE,BODYPRESS,BODYSLAM,BRICKBREAK,BRINE,BULKUP,CAPTIVATE,CLOSECOMBAT,COACHING,CONFIDE,DIG,DIVE,DOUBLEEDGE,DOUBLETEAM,DRAINPUNCH,ENDURE,FACADE,FALSESWIPE,FIREPUNCH,FOCUSBLAST,FOCUSENERGY,FRUSTRATION,GIGAIMPACT,HELPINGHAND,HIDDENPOWER,ICEPUNCH,IRONDEFENSE,IRONHEAD,LIQUIDATION,LOWKICK,LOWSWEEP,MEGAKICK,MEGAPUNCH,MIMIC,NATURALGIFT,POISONJAB,PROTECT,RAINDANCE,REST,RETALIATE,RETURN,REVENGE,REVERSAL,ROCKSLIDE,ROCKTOMB,ROUND,SCALD,SCARYFACE,SECRETPOWER,SLEEPTALK,SNORE,STONEEDGE,SUBSTITUTE,SUPERPOWER,SWAGGER,SWIFT,TAUNT,THUNDERPUNCH,TOXIC,UTURN,WATERFALL,WHIRLPOOL,WORKUP,ZENHEADBUTT,AERIALACE,CHILLINGWATER,FLING,FOCUSPUNCH,ICESPINNER,SWORDSDANCE,TAKEDOWN,TRAILBLAZE
-Pokedex = Su estilo de combate se inspira en el flujo del agua y consiste en castigar al oponente de forma constante e ininterrumpida.
 #-------------------------------
 [PETILIL,1]
 Generation = 8
