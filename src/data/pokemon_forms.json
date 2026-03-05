@@ -6937,6 +6937,35 @@
       }
     },
     {
+      "id": "KYUREM1",
+      "image": "/images/pokemonFront/KYUREM_1.png",
+      "location": "/images/location/KYUREM_2.webp",
+      "route": "Torre Batalla",
+      "baseId": "KYUREM",
+      "name": "Kyurem",
+      "form": "Forma Blanca",
+      "pokedex": "Como heraldo del mundo verdadero que ha de llegar para humanos y Pokémon, ha asumido la misión de protegerlo.",
+      "types": [
+        "DRAGON",
+        "ICE"
+      ],
+      "baseStats": {
+        "hp": 125,
+        "attack": 120,
+        "defense": 90,
+        "specialAttack": 170,
+        "specialDefense": 100,
+        "speed": 95
+      },
+      "abilities": [
+        "TERAVOLT"
+      ],
+      "physicalData": {
+        "height": 3.6,
+        "weight": 325
+      }
+    },
+    {
       "id": "ZYGARDE1",
       "image": "/images/pokemonFront/ZYGARDE_1.png",
       "location": "/images/location/ZYGARDE_1.webp",
