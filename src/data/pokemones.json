@@ -40862,7 +40862,7 @@
       "location": "/images/location/ZACIAN.webp",
       "route": "Ruta 3 - Evento",
       "name": "Zacian",
-      "form": "Forma Guerrero Avezado",
+      "form": "Guerrero Avezado",
       "types": [
         "FAIRY"
       ],
@@ -40891,7 +40891,7 @@
       "location": "/images/location/ZAMAZENTA.webp",
       "route": "Ruta 4 - Evento",
       "name": "Zamazenta",
-      "form": "Forma Guerrero Avezado",
+      "form": "Guerrero Avezado",
       "types": [
         "FIGHTING"
       ],

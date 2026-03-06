@@ -278,7 +278,7 @@
       "location": "/images/location/BEEDRILL_1.webp",
       "route": "Ruta 14",
       "baseId": "BEEDRILL",
-      "name": "Mega Beedrill",
+      "name": "Beedrill",
       "form": "Mega Beedrill",
       "types": [
         "BUG",
@@ -308,7 +308,7 @@
       "location": "/images/location/PIDGEOT_1.webp",
       "route": "Ruta 14",
       "baseId": "PIDGEOT",
-      "name": "Mega Pidgeot",
+      "name": "Pidgeot",
       "form": "Mega Pidgeot",
       "types": [
         "NORMAL",
@@ -379,7 +379,7 @@
       "location": "/images/location/PIKACHU_17.webp",
       "route": "Ciudad Añil",
       "baseId": "PIKACHU",
-      "name": "Mega Pikachu",
+      "name": "Pikachu",
       "form": "Mega Pikachu",
       "types": [
         "ELECTRIC"
@@ -453,7 +453,7 @@
       "location": "/images/location/RAICHU_2.webp",
       "route": "Ruta 14",
       "baseId": "RAICHU",
-      "name": "Mega Raichu X",
+      "name": "Raichu X",
       "form": "Mega Raichu X",
       "pokedex": "Vuela manteniendo una pose en forma de X y suelta descargas eléctricas de 50 millones de voltios tanto por las orejas como por las dos colas.",
       "types": [
@@ -482,7 +482,7 @@
       "location": "/images/location/RAICHU_3.webp",
       "route": "Ruta 14",
       "baseId": "RAICHU",
-      "name": "Mega Raichu Y",
+      "name": "Raichu Y",
       "form": "Mega Raichu Y",
       "pokedex": "Emite descargas eléctricas por los pelos de su cabeza dispuestos en zigzag tras haber confeccionado un circuito en forma de Y desde la punta de su cola.",
       "types": [
@@ -924,7 +924,7 @@
       "location": "/images/location/ALAKAZAM_1.webp",
       "route": "Ciudad Azafrán",
       "baseId": "ALAKAZAM",
-      "name": "Mega Alakazam",
+      "name": "Alakazam",
       "form": "Mega Alakazam",
       "types": [
         "PSYCHIC"
@@ -953,7 +953,7 @@
       "location": "/images/location/MACHAMP_1.webp",
       "route": "Ciudad Celeste",
       "baseId": "MACHAMP",
-      "name": "Mega Machamp",
+      "name": "Machamp",
       "form": "Mega Machamp",
       "types": [
         "FIGHTING",
@@ -983,7 +983,7 @@
       "location": "/images/location/VICTREEBEL_1.webp",
       "route": "Ruta 14",
       "baseId": "VICTREEBEL",
-      "name": "Mega Victreebel",
+      "name": "Victreebel",
       "form": "Mega Victreebel",
       "types": [
         "GRASS",
@@ -1367,7 +1367,7 @@
       "location": "/images/location/SLOWBRO_2.webp",
       "route": "Ruta 14",
       "baseId": "SLOWBRO",
-      "name": "Mega Slowbro",
+      "name": "Slowbro",
       "form": "Mega Slowbro",
       "types": [
         "WATER",
@@ -1536,7 +1536,7 @@
       "location": "/images/location/GENGAR_1.webp",
       "route": "Ciudad Azafrán",
       "baseId": "GENGAR",
-      "name": "Mega Gengar X",
+      "name": "Gengar X",
       "form": "Mega Gengar X",
       "types": [
         "GHOST",
@@ -1566,7 +1566,7 @@
       "location": "/images/location/GENGAR_2.webp",
       "route": "Ciudad Azafrán",
       "baseId": "GENGAR",
-      "name": "Mega Gengar y",
+      "name": "Gengar y",
       "form": "Mega Gengar y",
       "types": [
         "GHOST",
@@ -1786,7 +1786,7 @@
       "location": "/images/location/KANGASKHAN_1.webp",
       "route": "Camino de Bicis",
       "baseId": "KANGASKHAN",
-      "name": "Mega Kangaskhan",
+      "name": "Kangaskhan",
       "form": "Mega Kangaskhan",
       "MegaStore": "KANGASKHANITE",
       "types": [
@@ -1815,7 +1815,7 @@
       "location": "/images/location/PINSIR_1.webp",
       "route": "Ruta 14",
       "baseId": "PINSIR",
-      "name": "Mega Pinsir",
+      "name": "Pinsir",
       "form": "Mega Pinsir",
       "MegaStore": "PINSIRITE",
       "types": [
@@ -1845,7 +1845,7 @@
       "location": "/images/location/GYARADOS_1.webp",
       "route": "Ruta 24",
       "baseId": "GYARADOS",
-      "name": "Mega Gyarados",
+      "name": "Gyarados",
       "form": "Mega Gyarados",
       "MegaStore": "GYARADOSITE",
       "types": [
@@ -1875,7 +1875,7 @@
       "location": "/images/location/AERODACTYL_1.webp",
       "route": "Cataratas Tohjo",
       "baseId": "AERODACTYL",
-      "name": "Mega Aerodactyl",
+      "name": "Aerodactyl",
       "form": "Mega Aerodactyl",
       "MegaStore": "AERODACTYLITE",
       "types": [
@@ -1964,7 +1964,7 @@
       "location": "/images/location/AMPHAROS_1.webp",
       "route": "Ruta 14",
       "baseId": "AMPHAROS",
-      "name": "Mega Ampharos",
+      "name": "Ampharos",
       "form": "Mega Ampharos",
       "MegaStore": "AMPHAROSITE",
       "types": [
@@ -1994,7 +1994,7 @@
       "location": "/images/location/STEELIX_1.webp",
       "route": "Ruta 14",
       "baseId": "STEELIX",
-      "name": "Mega Steelix",
+      "name": "Steelix",
       "form": "Mega Steelix",
       "MegaStore": "STEELIXITE",
       "types": [
@@ -2024,7 +2024,7 @@
       "location": "/images/location/SCIZOR_1.webp",
       "route": "Zona Safari",
       "baseId": "SCIZOR",
-      "name": "Mega Scizor",
+      "name": "Scizor",
       "form": "Mega Scizor",
       "MegaStore": "SCIZORITE",
       "types": [
@@ -2054,7 +2054,7 @@
       "location": "/images/location/HERACROSS_1.webp",
       "route": "Zona Safari",
       "baseId": "HERACROSS",
-      "name": "Mega Heracross",
+      "name": "Heracross",
       "form": "Mega Heracross",
       "MegaStore": "HERACRONITE",
       "types": [
@@ -2084,7 +2084,7 @@
       "location": "/images/location/HOUNDOOM_1.webp",
       "route": "Ruta 14",
       "baseId": "HOUNDOOM",
-      "name": "Mega Houndoom",
+      "name": "Houndoom",
       "form": "Mega Houndoom",
       "MegaStore": "HOUNDOOMINITE",
       "types": [
@@ -2114,7 +2114,7 @@
       "location": "/images/location/TYRANITAR_1.webp",
       "route": "Monte Plateado",
       "baseId": "TYRANITAR",
-      "name": "Mega Tyranitar",
+      "name": "Tyranitar",
       "form": "Mega Tyranitar",
       "MegaStore": "TYRANITARITE",
       "types": [
@@ -2144,7 +2144,7 @@
       "location": "/images/location/SCEPTILE_1.webp",
       "route": "Ciudad Añil",
       "baseId": "SCEPTILE",
-      "name": "Mega Sceptile",
+      "name": "Sceptile",
       "form": "Mega Sceptile",
       "MegaStore": "SCEPTILITE",
       "types": [
@@ -2174,7 +2174,7 @@
       "location": "/images/location/BLAZIKEN_1.webp",
       "route": "Ciudad Añil",
       "baseId": "BLAZIKEN",
-      "name": "Mega Blaziken",
+      "name": "Blaziken",
       "form": "Mega Blaziken",
       "MegaStore": "BLAZIKENITE",
       "types": [
@@ -2204,7 +2204,7 @@
       "location": "/images/location/SWAMPERT_1.webp",
       "route": "Ciudad Añil",
       "baseId": "SWAMPERT",
-      "name": "Mega Swampert",
+      "name": "Swampert",
       "form": "Mega Swampert",
       "MegaStore": "SWAMPERTITE",
       "types": [
@@ -2234,7 +2234,7 @@
       "location": "/images/location/GARDEVOIR_1.webp",
       "route": "Ruta 14",
       "baseId": "GARDEVOIR",
-      "name": "Mega Gardevoir",
+      "name": "Gardevoir",
       "form": "Mega Gardevoir",
       "MegaStore": "GARDEVOIRITE",
       "types": [
@@ -2264,7 +2264,7 @@
       "location": "/images/location/SABLEYE_1.webp",
       "route": "Ruta 14",
       "baseId": "SABLEYE",
-      "name": "Mega Sableye",
+      "name": "Sableye",
       "form": "Mega Sableye",
       "MegaStore": "SABLENITE",
       "types": [
@@ -2293,7 +2293,7 @@
       "image": "/images/pokemonFront/MAWILE_1.png",
       "location": "/images/location/MAWILE_1.webp",
       "baseId": "MAWILE",
-      "name": "Mega Mawile",
+      "name": "Mawile",
       "form": "Mega Mawile",
       "MegaStore": "MAWILITE",
       "types": [
@@ -2323,7 +2323,7 @@
       "location": "/images/location/AGGRON_1.webp",
       "route": "Ruta 14",
       "baseId": "AGGRON",
-      "name": "Mega Aggron",
+      "name": "Aggron",
       "form": "Mega Aggron",
       "MegaStore": "AGGRONITE",
       "types": [
@@ -2352,7 +2352,7 @@
       "location": "/images/location/MEDICHAM_1.webp",
       "route": "Ruta 14",
       "baseId": "MEDICHAM",
-      "name": "Mega Medicham",
+      "name": "Medicham",
       "form": "Mega Medicham",
       "MegaStore": "MEDICHAMITE",
       "types": [
@@ -2382,7 +2382,7 @@
       "location": "/images/location/MANECTRIC_1.webp",
       "route": "Ruta 14",
       "baseId": "MANECTRIC",
-      "name": "Mega Manectric",
+      "name": "Manectric",
       "form": "Mega Manectric",
       "MegaStore": "MANECTITE",
       "types": [
@@ -2411,7 +2411,7 @@
       "location": "/images/location/SHARPEDO_1.webp",
       "route": "Ruta 14",
       "baseId": "SHARPEDO",
-      "name": "Mega Sharpedo",
+      "name": "Sharpedo",
       "form": "Mega Sharpedo",
       "MegaStore": "SHARPEDONITE",
       "types": [
@@ -2441,7 +2441,7 @@
       "location": "/images/location/CAMERUPT_1.webp",
       "route": "Ruta 14",
       "baseId": "CAMERUPT",
-      "name": "Mega Camerupt",
+      "name": "Camerupt",
       "form": "Mega Camerupt",
       "MegaStore": "CAMERUPTITE",
       "types": [
@@ -2471,7 +2471,7 @@
       "location": "/images/location/ALTARIA_1.webp",
       "route": "Ruta 14",
       "baseId": "ALTARIA",
-      "name": "Mega Altaria",
+      "name": "Altaria",
       "form": "Mega Altaria",
       "MegaStore": "ALTARIANITE",
       "types": [
@@ -2500,7 +2500,7 @@
       "image": "/images/pokemonFront/BANETTE_1.png",
       "location": "/images/location/BANETTE_1.webp",
       "baseId": "BANETTE",
-      "name": "Mega Banette",
+      "name": "Banette",
       "form": "Mega Banette",
       "MegaStore": "BANETTITE",
       "types": [
@@ -2529,7 +2529,7 @@
       "location": "/images/location/ABSOL_1.webp",
       "route": "Ruta 14",
       "baseId": "ABSOL",
-      "name": "Mega Absol",
+      "name": "Absol",
       "form": "Mega Absol",
       "MegaStore": "ABSOLITE",
       "types": [
@@ -2558,7 +2558,7 @@
       "location": "/images/location/ABSOL_2.webp",
       "route": "Ruta 14",
       "baseId": "ABSOL",
-      "name": "Mega Absol Z",
+      "name": "Absol Z",
       "form": "Mega Absol Z",
       "MegaStore": "ABSOLITEZ",
       "types": [
@@ -2588,7 +2588,7 @@
       "location": "/images/location/GLALIE_1.webp",
       "route": "Ruta 14",
       "baseId": "GLALIE",
-      "name": "Mega Glalie",
+      "name": "Glalie",
       "form": "Mega Glalie",
       "MegaStore": "GLALITITE",
       "types": [
@@ -2618,7 +2618,7 @@
       "location": "/images/location/SALAMENCE_1.webp",
       "route": "Islote Recuerdo",
       "baseId": "SALAMENCE",
-      "name": "Mega Salamence",
+      "name": "Salamence",
       "form": "Mega Salamence",
       "MegaStore": "SALAMENCITE",
       "types": [
@@ -2648,7 +2648,7 @@
       "location": "/images/location/METAGROSS_1.webp",
       "route": "Cueva Glaciada",
       "baseId": "METAGROSS",
-      "name": "Mega Metagross",
+      "name": "Metagross",
       "form": "Mega Metagross",
       "MegaStore": "METAGROSSITE",
       "types": [
@@ -2678,7 +2678,7 @@
       "location": "/images/location/LATIAS_1.webp",
       "route": "Torre Batalla",
       "baseId": "LATIAS",
-      "name": "Mega Latias",
+      "name": "Latias",
       "form": "Mega Latias",
       "MegaStore": "LATIASITE",
       "types": [
@@ -2708,7 +2708,7 @@
       "location": "/images/location/LATIOS_1.webp",
       "route": "Torre Batalla",
       "baseId": "LATIOS",
-      "name": "Mega Latios",
+      "name": "Latios",
       "form": "Mega Latios",
       "MegaStore": "LATIOSITE",
       "types": [
@@ -2738,7 +2738,7 @@
       "location": "/images/location/RAYQUAZA_1.webp",
       "route": "Conocer movimiento Ascenso Draco",
       "baseId": "RAYQUAZA",
-      "name": "Mega Rayquaza",
+      "name": "Rayquaza",
       "form": "Mega Rayquaza",
       "MegaStore": "DRAGONASCENT",
       "types": [
@@ -2768,7 +2768,7 @@
       "location": "/images/location/LOPUNNY_1.webp",
       "route": "Ruta 14",
       "baseId": "LOPUNNY",
-      "name": "Mega Lopunny",
+      "name": "Lopunny",
       "form": "Mega Lopunny",
       "MegaStore": "LOPUNNITE",
       "types": [
@@ -2798,7 +2798,7 @@
       "location": "/images/location/GARCHOMP_1.webp",
       "route": "Cabo Magenta",
       "baseId": "GARCHOMP",
-      "name": "Mega Garchomp",
+      "name": "Garchomp",
       "form": "Mega Garchomp",
       "MegaStore": "GARCHOMPITE",
       "types": [
@@ -2828,7 +2828,7 @@
       "location": "/images/location/GARCHOMP_2.webp",
       "route": "Ruta 29",
       "baseId": "GARCHOMP",
-      "name": "Mega Garchomp Z",
+      "name": "Garchomp Z",
       "form": "Mega Garchomp Z",
       "MegaStore": "GARCHOMPITEZ",
       "types": [
@@ -2857,7 +2857,7 @@
       "location": "/images/location/LUCARIO_1.webp",
       "route": "Ruta 14",
       "baseId": "LUCARIO",
-      "name": "Mega Lucario",
+      "name": "Lucario",
       "form": "Mega Lucario",
       "MegaStore": "LUCARIONITE",
       "types": [
@@ -2887,7 +2887,7 @@
       "location": "/images/location/LUCARIO_2.webp",
       "route": "Ruta 14",
       "baseId": "LUCARIO",
-      "name": "Mega Lucario Z",
+      "name": "Lucario Z",
       "form": "Mega Lucario Z",
       "MegaStore": "LUCARIONITEZ",
       "types": [
@@ -2917,7 +2917,7 @@
       "location": "/images/location/ABOMASNOW_1.webp",
       "route": "Ruta 14",
       "baseId": "ABOMASNOW",
-      "name": "Mega Abomasnow",
+      "name": "Abomasnow",
       "form": "Mega Abomasnow",
       "MegaStore": "ABOMASITE",
       "types": [
@@ -2947,7 +2947,7 @@
       "location": "/images/location/GALLADE_1.webp",
       "route": "Ruta 14",
       "baseId": "GALLADE",
-      "name": "Mega Gallade",
+      "name": "Gallade",
       "form": "Mega Gallade",
       "MegaStore": "GALLADITE",
       "types": [
@@ -2977,7 +2977,7 @@
       "location": "/images/location/AUDINO_1.webp",
       "route": "Ruta 14",
       "baseId": "AUDINO",
-      "name": "Mega Audino",
+      "name": "Audino",
       "form": "Mega Audino",
       "MegaStore": "AUDINITE",
       "types": [
@@ -3007,7 +3007,7 @@
       "location": "/images/location/DIANCIE_1.webp",
       "route": "Torre Batalla",
       "baseId": "DIANCIE",
-      "name": "Mega Diancie",
+      "name": "Diancie",
       "form": "Mega Diancie",
       "MegaStore": "DIANCITE",
       "types": [
@@ -3037,7 +3037,7 @@
       "location": "/images/location/DRAGONITE_1.webp",
       "route": "Cabo Azabache",
       "baseId": "DRAGONITE",
-      "name": "Mega Dragonite",
+      "name": "Dragonite",
       "form": "Mega Dragonite",
       "MegaStore": "DRAGONITITE",
       "types": [
@@ -3067,7 +3067,7 @@
       "location": "/images/location/KINGLER_1.webp",
       "route": "Ruta 14",
       "baseId": "KINGLER",
-      "name": "Mega Kingler",
+      "name": "Kingler",
       "form": "Mega Kingler",
       "MegaStore": "KINGLERITE",
       "types": [
@@ -3096,7 +3096,7 @@
       "location": "/images/location/LAPRAS_1.webp",
       "route": "Islas Espuma",
       "baseId": "LAPRAS",
-      "name": "Mega Lapras",
+      "name": "Lapras",
       "form": "Mega Lapras",
       "MegaStore": "LAPRASITE",
       "types": [
@@ -3126,7 +3126,7 @@
       "location": "/images/location/GARBODOR_1.webp",
       "route": "Ruta 14",
       "baseId": "GARBODOR",
-      "name": "Mega Garbodor",
+      "name": "Garbodor",
       "form": "Mega Garbodor",
       "MegaStore": "GARBODORITE",
       "types": [
@@ -3156,7 +3156,7 @@
       "location": "/images/location/CORVIKNIGHT_1.webp",
       "route": "Ruta 14",
       "baseId": "CORVIKNIGHT",
-      "name": "Mega Corviknight",
+      "name": "Corviknight",
       "form": "Mega Corviknight",
       "MegaStore": "CORVIKNIGHTITE",
       "types": [
@@ -3186,7 +3186,7 @@
       "location": "/images/location/ORBEETLE_1.webp",
       "route": "Ruta 14",
       "baseId": "ORBEETLE",
-      "name": "Mega Orbeetle",
+      "name": "Orbeetle",
       "form": "Mega Orbeetle",
       "MegaStore": "ORBEETLEITE",
       "types": [
@@ -3216,7 +3216,7 @@
       "location": "/images/location/BUTTERFREE_1.webp",
       "route": "Ruta 14",
       "baseId": "BUTTERFREE",
-      "name": "Mega Butterfree",
+      "name": "Butterfree",
       "form": "Mega Butterfree",
       "MegaStore": "BUTTERFREEITE",
       "types": [
@@ -3246,7 +3246,7 @@
       "location": "/images/location/DREDNAW_1.webp",
       "route": "Ruta 14",
       "baseId": "DREDNAW",
-      "name": "Mega Drednaw",
+      "name": "Drednaw",
       "form": "Mega Drednaw",
       "MegaStore": "DREDNAWITE",
       "types": [
@@ -3276,7 +3276,7 @@
       "location": "/images/location/COALOSSAL_1.webp",
       "route": "Ruta 14",
       "baseId": "COALOSSAL",
-      "name": "Mega Coalossal",
+      "name": "Coalossal",
       "form": "Mega Coalossal",
       "MegaStore": "COALOSSALITE",
       "types": [
@@ -3306,7 +3306,7 @@
       "location": "/images/location/FLAPPLE_1.webp",
       "route": "Ruta 14",
       "baseId": "FLAPPLE",
-      "name": "Mega Flapple",
+      "name": "Flapple",
       "form": "Mega Flapple",
       "MegaStore": "FLAPPLETUNITE",
       "types": [
@@ -3336,7 +3336,7 @@
       "location": "/images/location/APPLETUN_1.webp",
       "route": "Ruta 14",
       "baseId": "APPLETUN",
-      "name": "Mega Appletun",
+      "name": "Appletun",
       "form": "Mega Appletun",
       "MegaStore": "FLAPPLETUNITE",
       "types": [
@@ -3366,7 +3366,7 @@
       "location": "/images/location/SANDACONDA_1.webp",
       "route": "Ruta 14",
       "baseId": "SANDACONDA",
-      "name": "Mega Sandaconda",
+      "name": "Sandaconda",
       "form": "Mega Sandaconda",
       "MegaStore": "SANDACONDITE",
       "types": [
@@ -3395,7 +3395,7 @@
       "location": "/images/location/CENTISKORCH_1.webp",
       "route": "Ruta 14",
       "baseId": "CENTISKORCH",
-      "name": "Mega Centiskorch",
+      "name": "Centiskorch",
       "form": "Mega Centiskorch",
       "MegaStore": "CENTISKORCHITE",
       "types": [
@@ -3425,7 +3425,7 @@
       "location": "/images/location/HATTERENE_1.webp",
       "route": "Ruta 14",
       "baseId": "HATTERENE",
-      "name": "Mega Hatterene",
+      "name": "Hatterene",
       "form": "Mega Hatterene",
       "MegaStore": "HATTERENITE",
       "types": [
@@ -3455,7 +3455,7 @@
       "location": "/images/location/GRIMMSNARL_1.webp",
       "route": "Ruta 14",
       "baseId": "GRIMMSNARL",
-      "name": "Mega Grimmsnarl",
+      "name": "Grimmsnarl",
       "form": "Mega Grimmsnarl",
       "MegaStore": "GRIMMSNARLITE",
       "types": [
@@ -3485,7 +3485,7 @@
       "location": "/images/location/ALCREMIE_63.webp",
       "route": "Ruta 14",
       "baseId": "ALCREMIE",
-      "name": "Mega Alcremie",
+      "name": "Alcremie",
       "form": "Mega Alcremie",
       "MegaStore": "ALCREMITE",
       "types": [
@@ -3514,7 +3514,7 @@
       "location": "/images/location/COPPERAJAH_1.webp",
       "route": "Ruta 14",
       "baseId": "COPPERAJAH",
-      "name": "Mega Copperajah",
+      "name": "Copperajah",
       "form": "Mega Copperajah",
       "MegaStore": "COPPERAJITE",
       "types": [
@@ -3542,7 +3542,7 @@
       "image": "/images/pokemonFront/DURALUDON_1.png",
       "location": "/images/location/DURALUDON_1.webp",
       "baseId": "---",
-      "name": "Mega Duraludon",
+      "name": "Duraludon",
       "form": "Mega Duraludon",
       "MegaStore": "DURALUDONITE",
       "types": [
@@ -3571,7 +3571,7 @@
       "location": "/images/location/HAWLUCHA_1.webp",
       "route": "Ruta 14",
       "baseId": "HAWLUCHA",
-      "name": "Mega Hawlucha",
+      "name": "Hawlucha",
       "form": "Mega Hawlucha",
       "MegaStore": "HAWLUCHITE",
       "types": [
@@ -3647,7 +3647,7 @@
       "location": "/images/location/EEVEE_2.webp",
       "route": "Ciudad Añil",
       "baseId": "EEVEE",
-      "name": "Mega Eevee",
+      "name": "Eevee",
       "form": "Mega Eevee",
       "MegaStore": "EEVEEITE",
       "types": [
@@ -3690,7 +3690,7 @@
       "location": "/images/location/MALAMAR_1.webp",
       "route": "Ruta 14",
       "baseId": "MALAMAR",
-      "name": "Mega Malamar",
+      "name": "Malamar",
       "form": "Mega Malamar",
       "MegaStore": "MALAMARITE",
       "types": [
@@ -3720,7 +3720,7 @@
       "location": "/images/location/JUMPLUFF_1.webp",
       "route": "Ruta 14",
       "baseId": "JUMPLUFF",
-      "name": "Mega Jumpluff",
+      "name": "Jumpluff",
       "form": "Mega Jumpluff",
       "MegaStore": "JUMPLUFITE",
       "types": [
@@ -3750,7 +3750,7 @@
       "location": "/images/location/RILLABOOM_1.webp",
       "route": "Ciudad Añil",
       "baseId": "RILLABOOM",
-      "name": "Mega Rillaboom",
+      "name": "Rillaboom",
       "form": "Mega Rillaboom",
       "MegaStore": "RILLABOOMITE",
       "types": [
@@ -3779,7 +3779,7 @@
       "location": "/images/location/CINDERACE_1.webp",
       "route": "Ciudad Añil",
       "baseId": "CINDERACE",
-      "name": "Mega Cinderace",
+      "name": "Cinderace",
       "form": "Mega Cinderace",
       "MegaStore": "CINDERECITE",
       "types": [
@@ -3808,7 +3808,7 @@
       "location": "/images/location/INTELEON_1.webp",
       "route": "Ciudad Añil",
       "baseId": "INTELEON",
-      "name": "Mega Inteleon",
+      "name": "Inteleon",
       "form": "Mega Inteleon",
       "MegaStore": "INTELEONITE",
       "types": [
@@ -3838,7 +3838,7 @@
       "location": "/images/location/SNORLAX_1.webp",
       "route": "Bosque Arcoiris",
       "baseId": "SNORLAX",
-      "name": "Mega Snorlax",
+      "name": "Snorlax",
       "form": "Mega Snorlax",
       "MegaStore": "SNORLAXITE",
       "types": [
@@ -3867,7 +3867,7 @@
       "location": "/images/location/CHESNAUGHT_1.webp",
       "route": "Ciudad Añil",
       "baseId": "CHESNAUGHT",
-      "name": "Mega Chesnaught",
+      "name": "Chesnaught",
       "form": "Mega Chesnaught",
       "MegaStore": "CHESNAUGHTITE",
       "types": [
@@ -3897,7 +3897,7 @@
       "location": "/images/location/DELPHOX_1.webp",
       "route": "Ciudad Añil",
       "baseId": "DELPHOX",
-      "name": "Mega Delphox",
+      "name": "Delphox",
       "form": "Mega Delphox",
       "MegaStore": "DELPHOXITE",
       "types": [
@@ -3927,7 +3927,7 @@
       "location": "/images/location/GRENINJA_3.webp",
       "route": "Ciudad Añil",
       "baseId": "GRENINJA",
-      "name": "Mega Greninja",
+      "name": "Greninja",
       "form": "Mega Greninja",
       "MegaStore": "GRENINJITE",
       "types": [
@@ -4975,7 +4975,7 @@
       "location": "/images/location/TOXTRICITY_2.webp",
       "route": "Ruta 14",
       "baseId": "TOXTRICITY",
-      "name": "Mega Toxtricity",
+      "name": "Toxtricity",
       "form": "Mega Toxtricity",
       "pokedex": "Cuando rasga las protuberancias del pecho para generar energía eléctrica, emite un sonido similar al de una guitarra, que reverbera en el entorno.",
       "MegaStore": "TOXTRICITITE",
@@ -6173,7 +6173,7 @@
       "location": "/images/location/MEOWSTIC_2.webp",
       "route": "Ruta 14",
       "baseId": "MEOWSTIC",
-      "name": "Mega Meowstic",
+      "name": "Meowstic",
       "form": "Mega Meowstic",
       "pokedex": "Mega Meowstic puede usar su poder psíquico para comprimir o expandir cualquier cosa. Abruma a sus enemigos distorsionando el espacio mismo.",
       "types": [
@@ -6488,7 +6488,7 @@
       "location": "/images/location/CALYREX_1.webp",
       "baseId": "CALYREX",
       "name": "Calyrex",
-      "form": "Forma Jinete Glacial",
+      "form": "Jinete Glacial",
       "pokedex": "No tenía piedad con quienes se interponían en su camino, pero se sabe también que curaba a sus rivales tras enfrentarse a ellos en combate.",
       "types": [
         "PSYCHIC",
@@ -6516,7 +6516,7 @@
       "location": "/images/location/CALYREX_2.webp",
       "baseId": "CALYREX",
       "name": "Calyrex",
-      "form": "Forma Jinete Espectral",
+      "form": "Jinete Espectral",
       "pokedex": "Cuentan que salvó a las criaturas del bosque del impacto de un meteorito gracias a su capacidad para ver todo acontecimiento pasado y futuro.",
       "types": [
         "PSYCHIC",
@@ -6724,7 +6724,7 @@
       "location": "/images/location/ZAMAZENTA_1.webp",
       "baseId": "ZAMAZENTA",
       "name": "Zamazenta",
-      "form": "Forma Escudo Supremo",
+      "form": "Escudo Supremo",
       "pokedex": "Esta forma, temida y venerada por igual, le ha valido el nombre de Regio Escudo Guerrero por su capacidad de repeler cualquier ataque.",
       "types": [
         "FIGHTING",
@@ -6752,7 +6752,7 @@
       "location": "/images/location/ZACIAN_1.webp",
       "baseId": "ZACIAN",
       "name": "Zacian",
-      "form": "Forma Espada Suprema",
+      "form": "Espada Suprema",
       "pokedex": "En esta forma, capaz de cortar cualquier cosa, es temido y respetado y se lo conoce como la Regia Espada Silvana.",
       "types": [
         "FAIRY",
@@ -7118,7 +7118,7 @@
       "route": "Torre Batalla",
       "baseId": "URSHIFU",
       "name": "Urshifu",
-      "form": "Forma Fluido",
+      "form": "Estilo Fluido",
       "pokedex": "Su estilo de combate se inspira en el flujo del agua y consiste en castigar al oponente de forma constante e ininterrumpida.",
       "types": [
         "FIGHTING",
@@ -7163,7 +7163,7 @@
       "location": "/images/location/CLEFABLE_1.webp",
       "route": "Ruta 14",
       "baseId": "CLEFABLE",
-      "name": "Mega Clefable",
+      "name": "Clefable",
       "form": "Mega Clefable",
       "MegaStore": "CLEFABLITE",
       "types": [
@@ -7193,7 +7193,7 @@
       "location": "/images/location/STARMIE_1.webp",
       "route": "Ruta 14",
       "baseId": "STARMIE",
-      "name": "Mega Starmie",
+      "name": "Starmie",
       "form": "Mega Starmie",
       "MegaStore": "STARMINITE",
       "types": [
@@ -7223,7 +7223,7 @@
       "location": "/images/location/MEGANIUM_1.webp",
       "route": "Ciudad Añil",
       "baseId": "MEGANIUM",
-      "name": "Mega Meganium",
+      "name": "Meganium",
       "form": "Mega Meganium",
       "MegaStore": "MEGANIUMITE",
       "types": [
@@ -7253,7 +7253,7 @@
       "location": "/images/location/FERALIGATR_1.webp",
       "route": "Ciudad Añil",
       "baseId": "FERALIGATR",
-      "name": "Mega Feraligatr",
+      "name": "Feraligatr",
       "form": "Mega Feraligatr",
       "MegaStore": "FERALIGITE",
       "types": [
@@ -7283,7 +7283,7 @@
       "location": "/images/location/SKARMORY_1.webp",
       "route": "Ruta 14",
       "baseId": "SKARMORY",
-      "name": "Mega Skarmory",
+      "name": "Skarmory",
       "form": "Mega Skarmory",
       "MegaStore": "SKARMORITE",
       "types": [
@@ -7313,7 +7313,7 @@
       "location": "/images/location/FROSLASS_1.webp",
       "route": "Ruta 14",
       "baseId": "FROSLASS",
-      "name": "Mega Froslass",
+      "name": "Froslass",
       "form": "Mega Froslass",
       "MegaStore": "FROSLASSITE",
       "types": [
@@ -7343,7 +7343,7 @@
       "location": "/images/location/EMBOAR_1.webp",
       "route": "Ciudad Añil",
       "baseId": "EMBOAR",
-      "name": "Mega Emboar",
+      "name": "Emboar",
       "form": "Mega Emboar",
       "MegaStore": "EMBOARITE",
       "types": [
@@ -7373,7 +7373,7 @@
       "location": "/images/location/EXCADRILL_1.webp",
       "route": "Ruta 14",
       "baseId": "EXCADRILL",
-      "name": "Mega Excadrill",
+      "name": "Excadrill",
       "form": "Mega Excadrill",
       "MegaStore": "EXCADRITE",
       "types": [
@@ -7403,7 +7403,7 @@
       "location": "/images/location/SCOLIPEDE_1.webp",
       "route": "Ruta 14",
       "baseId": "SCOLIPEDE",
-      "name": "Mega Scolipede",
+      "name": "Scolipede",
       "form": "Mega Scolipede",
       "MegaStore": "SCOLIPITE",
       "types": [
@@ -7433,7 +7433,7 @@
       "location": "/images/location/SCRAFTY_1.webp",
       "route": "Ruta 14",
       "baseId": "SCRAFTY",
-      "name": "Mega Scrafty",
+      "name": "Scrafty",
       "form": "Mega Scrafty",
       "MegaStore": "SCRAFTINITE",
       "types": [
@@ -7463,7 +7463,7 @@
       "location": "/images/location/EELEKTROSS_1.webp",
       "route": "Ruta 14",
       "baseId": "EELEKTROSS",
-      "name": "Mega Eelektross",
+      "name": "Eelektross",
       "form": "Mega Eelektross",
       "MegaStore": "EELEKTROSSITE",
       "types": [
@@ -7492,7 +7492,7 @@
       "location": "/images/location/CHANDELURE_1.webp",
       "route": "Ruta 14",
       "baseId": "CHANDELURE",
-      "name": "Mega Chandelure",
+      "name": "Chandelure",
       "form": "Mega Chandelure",
       "MegaStore": "CHANDELURITE",
       "types": [
@@ -7522,7 +7522,7 @@
       "location": "/images/location/PYROAR_1.webp",
       "route": "Ruta 14",
       "baseId": "PYROAR",
-      "name": "Mega Pyroar",
+      "name": "Pyroar",
       "form": "Mega Pyroar",
       "MegaStore": "PYROARITE",
       "types": [
@@ -7552,7 +7552,7 @@
       "location": "/images/location/BARBARACLE_1.webp",
       "route": "Ruta 14",
       "baseId": "BARBARACLE",
-      "name": "Mega Barbaracle",
+      "name": "Barbaracle",
       "form": "Mega Barbaracle",
       "MegaStore": "BARBARACITE",
       "types": [
@@ -7582,7 +7582,7 @@
       "location": "/images/location/DRAGALGE_1.webp",
       "route": "Ruta 14",
       "baseId": "DRAGALGE",
-      "name": "Mega Dragalge",
+      "name": "Dragalge",
       "form": "Mega Dragalge",
       "MegaStore": "DRAGALGITE",
       "types": [
@@ -7612,7 +7612,7 @@
       "location": "/images/location/DRAMPA_1.webp",
       "route": "Ruta 14",
       "baseId": "DRAMPA",
-      "name": "Mega Drampa",
+      "name": "Drampa",
       "form": "Mega Drampa",
       "MegaStore": "DRAMPANITE",
       "types": [
@@ -7642,7 +7642,7 @@
       "location": "/images/location/FALINKS_1.webp",
       "route": "Ruta 14",
       "baseId": "FALINKS",
-      "name": "Mega Falinks",
+      "name": "Falinks",
       "form": "Mega Falinks",
       "MegaStore": "FALINKSITE",
       "types": [
@@ -7702,7 +7702,7 @@
       "location": "/images/location/CHIMECHO_1.webp",
       "route": "Ruta 14",
       "baseId": "CHIMECHO",
-      "name": "Mega Chimecho",
+      "name": "Chimecho",
       "form": "Mega Chimecho",
       "MegaStore": "CHIMECHITE",
       "types": [
@@ -7732,7 +7732,7 @@
       "location": "/images/location/BAXCALIBUR_1.webp",
       "route": "Cueva Glaciada",
       "baseId": "BAXCALIBUR",
-      "name": "Mega Baxcalibur",
+      "name": "Baxcalibur",
       "form": "Mega Baxcalibur",
       "MegaStore": "BAXCALIBRITE",
       "types": [
@@ -7762,7 +7762,7 @@
       "location": "/images/location/STARAPTOR_1.webp",
       "route": "Ruta 14",
       "baseId": "STARAPTOR",
-      "name": "Mega Staraptor",
+      "name": "Staraptor",
       "form": "Mega Staraptor",
       "MegaStore": "STARAPTITE",
       "types": [
@@ -7792,7 +7792,7 @@
       "location": "/images/location/CRABOMINABLE_1.webp",
       "route": "Ruta 14",
       "baseId": "CRABOMINABLE",
-      "name": "Mega Crabominable",
+      "name": "Crabominable",
       "form": "Mega Crabominable",
       "MegaStore": "CRABOMINITE",
       "types": [
@@ -7822,7 +7822,7 @@
       "location": "/images/location/MAGEARNA_2.webp",
       "route": "Torre Batalla",
       "baseId": "MAGEARNA",
-      "name": "Mega Magearna",
+      "name": "Magearna",
       "form": "Mega Magearna",
       "MegaStore": "MAGEARNITE",
       "types": [
@@ -7852,7 +7852,7 @@
       "location": "/images/location/GOLURK_1.webp",
       "route": "Ruta 14",
       "baseId": "GOLURK",
-      "name": "Mega Golurk",
+      "name": "Golurk",
       "form": "Mega Golurk",
       "MegaStore": "GOLURKITE",
       "types": [
@@ -7882,7 +7882,7 @@
       "location": "/images/location/TATSUGIRI_3.webp",
       "route": "Ruta 14",
       "baseId": "TATSUGIRI",
-      "name": "Mega Tatsugiri",
+      "name": "Tatsugiri",
       "form": "Mega Tatsugiri",
       "MegaStore": "TATSUGIRINITE",
       "types": [
@@ -7912,7 +7912,7 @@
       "location": "/images/location/SCOVILLAIN_1.webp",
       "route": "Ruta 14",
       "baseId": "SCOVILLAIN",
-      "name": "Mega Scovillain",
+      "name": "Scovillain",
       "form": "Mega Scovillain",
       "MegaStore": "SCOVILLAINITE",
       "types": [
@@ -7942,7 +7942,7 @@
       "location": "/images/location/GLIMMORA_1.webp",
       "route": "Ruta 14",
       "baseId": "GLIMMORA",
-      "name": "Mega Glimmora",
+      "name": "Glimmora",
       "form": "Mega Glimmora",
       "MegaStore": "GLIMMORANITE",
       "types": [
@@ -7972,7 +7972,7 @@
       "location": "/images/location/GOLISOPOD_1.webp",
       "route": "Ruta 14",
       "baseId": "GOLISOPOD",
-      "name": "Mega Golisopod",
+      "name": "Golisopod",
       "form": "Mega Golisopod",
       "MegaStore": "GOLISOPITE",
       "types": [
@@ -8002,7 +8002,7 @@
       "location": "/images/location/ZERAORA_1.webp",
       "route": "Torre Batalla",
       "baseId": "ZERAORA",
-      "name": "Mega Zeraora",
+      "name": "Zeraora",
       "form": "Mega Zeraora",
       "MegaStore": "ZERAORITE",
       "types": [
@@ -8031,7 +8031,7 @@
       "location": "/images/location/HEATRAN_1.webp",
       "route": "Torre Batalla",
       "baseId": "HEATRAN",
-      "name": "Mega Heatran",
+      "name": "Heatran",
       "form": "Mega Heatran",
       "MegaStore": "HEATRANITE",
       "types": [
@@ -8061,7 +8061,7 @@
       "location": "/images/location/DARKRAI_1.webp",
       "route": "Torre Batalla",
       "baseId": "DARKRAI",
-      "name": "Mega Darkrai",
+      "name": "Darkrai",
       "form": "Mega Darkrai",
       "MegaStore": "DARKRANITE",
       "types": [

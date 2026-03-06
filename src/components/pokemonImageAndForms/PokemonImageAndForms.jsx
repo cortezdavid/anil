@@ -77,7 +77,7 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
           {pokemon.types.map((type, typeIdx) => (
             <span
               key={typeIdx}
-              className={`px-2 py-0.5 rounded text-xs font-bold text-white ${getTypeColor(type)} shadow-lg shadow-gray-900/30`}
+              className={`px-2 py-1 rounded text-xs font-bold text-white ${getTypeColor(type)} shadow-lg shadow-gray-900/30`}
             >
               {getTypeName(type)}
             </span>
