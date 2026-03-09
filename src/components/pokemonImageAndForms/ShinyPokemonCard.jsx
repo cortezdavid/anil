@@ -11,14 +11,13 @@ const ShinyPokemonCard = ({ pokemon }) => {
     currentFrameRef.current = 0;
 
     const colorShift = pokemon.colorShift || 0;
-    const formIndex = pokemon.formIndex || 0;
+    // const formIndex = pokemon.formIndex || 0;
 
-    let pokemonId = pokemon.id;
-    if (pokemon.forms && pokemon.forms[formIndex]) {
-      pokemonId = pokemon.forms[formIndex].id;
-    }
+    // let pokemonId = pokemon.id;
+    // if (pokemon.forms && pokemon.forms[formIndex]) {
+    //   pokemonId = pokemon.forms[formIndex].id;
+    // }
 
-    // DESPUÉS
     const src = colorShift === 0
       ? pokemon.image
       : pokemon.image.replace('/pokemonFront/', '/pokemonFrontShiny/');
@@ -124,7 +123,7 @@ const ShinyPokemonCard = ({ pokemon }) => {
     };
   }, [pokemon.id, pokemon.colorShift, pokemon.formIndex]);
 
-  return <canvas ref={canvasRef} style={{ imageRendering: 'pixelated' }} />;
+  return <canvas ref={canvasRef} />;
 };
 
 export default ShinyPokemonCard;
