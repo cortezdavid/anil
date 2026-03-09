@@ -27,7 +27,7 @@ const PokemonFront = ({ img, scale }) => {
       const ctx = canvas.getContext('2d');
       ctx.imageSmoothingEnabled = false;
 
-      const frameInterval = 150;
+      const frameInterval = 60;
       let lastTime = 0;
 
       const animate = (currentTime) => {
