@@ -73,6 +73,7 @@ const Pokemon = () => {
             handleFormChange={handleFormChange}
             handleBaseForm={handleBaseForm}
             selectedForm={selectedForm}
+            pokemonId={id}
           />
 
           {/* COLUMNA DERECHA: Tabs con toda la información */}

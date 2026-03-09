@@ -1,18 +1,40 @@
-import { useMemo } from 'react';
+import { useState, useEffect } from 'react';
 import PokemonFront from "../pokemonFront/PokemonFront";
+import ShinyPokemonCard from "./ShinyPokemonCard";
 import typesData from "../../data/types.json";
 
-const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange, handleBaseForm, selectedForm }) => {
-  const isShiny = useMemo(() => {
-    const randomNum = Math.floor(Math.random() * 100) + 1;
-    return randomNum === 1;
-  }, [pokemon.id]);
+const SLIDER_LABELS = [
+  'Normal',
+  'Shiny',
+  'Posible Super Shiny',
+  'Posible Super Shiny',
+  'Posible Super Shiny',
+  'Posible Super Shiny',
+  'Posible Super Shiny',
+  'Posible Super Shiny',
+  'Posible Super Shiny',
+  'Posible Super Shiny',
+  'Posible Super Shiny',
+  'Posible Super Shiny',
+];
 
-  const getImagePath = () => {
-    if (isShiny) {
-      return pokemon.image.replace('/pokemonFront/', '/pokemonFrontShiny/');
-    }
-    return pokemon.image;
+const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange, handleBaseForm, selectedForm, pokemonId }) => {
+  useEffect(() => {
+    setSliderValue(0);
+  }, [pokemonId, pokemon.id]);
+
+  const [sliderValue, setSliderValue] = useState(0);
+
+
+  const isSuperShiny = sliderValue >= 2;
+  const isShiny = sliderValue > 0;
+
+  // Construir el objeto pokemon para ShinyPokemonCard
+  const shinyPokemon = {
+    ...pokemon,
+    colorShift: sliderValue,
+    formIndex: 0,
+    forms: null,
   };
 
   const getTypeColor = (type) => {
@@ -57,22 +79,18 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
         relative bg-gradient-to-br from-slate-700 to-slate-600 
         rounded-2xl p-8 mb-6 flex justify-center items-center
         border-4 transition-all duration-300
-        ${isShiny ? 'border-amber-400 shadow-lg shadow-amber-500/30' : 'border-slate-600'}
+        ${isSuperShiny ? 'border-purple-800 shadow-lg shadow-purple-800/30' : isShiny ? 'border-amber-400 shadow-lg shadow-amber-500/30' : 'border-slate-600'}
         min-h-[280px]
       `}>
-        <div className="relative">
-          <PokemonFront img={getImagePath()} scale={200} />
-
-          {isShiny && (
-            <>
-              <div className="absolute -top-3 -right-3 text-5xl animate-bounce">
-                ✨
-              </div>
-            </>
+        <div className="relative flex justify-center items-center">
+          {sliderValue === 0 ? (
+            <PokemonFront key={pokemon.image} img={pokemon.image} scale={200} />
+          ) : (
+            <ShinyPokemonCard key={`${pokemon.image}-${sliderValue}`} pokemon={{ ...shinyPokemon, colorShift: sliderValue }} />
           )}
         </div>
 
-        {/* Tipos - Abajo a la izquierda */}
+        {/* Tipos */}
         <div className="absolute bottom-3 left-3 flex gap-1 flex-wrap">
           {pokemon.types.map((type, typeIdx) => (
             <span
@@ -85,7 +103,22 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
         </div>
       </div>
 
-      {/* Botones de Formas - Solo si existen variantes */}
+      {/* Barra Normal / Shiny / Paletas */}
+      <div className="mb-6">
+        <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wide">
+          {SLIDER_LABELS[sliderValue]}
+        </h3>
+        <input
+          min="0"
+          max="11"
+          type="range"
+          value={sliderValue}
+          onChange={(e) => setSliderValue(Number(e.target.value))}
+          className="flex-1 w-full h-2 bg-blue-900 rounded-lg appearance-none cursor-pointer"
+        />
+      </div>
+
+      {/* Botones de Formas */}
       {variants && variants.length > 0 && (
         <div className="space-y-3">
           <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wide">
