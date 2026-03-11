@@ -2292,6 +2292,7 @@
       "id": "MAWILE1",
       "image": "/images/pokemonFront/MAWILE_1.png",
       "location": "/images/location/MAWILE_1.webp",
+      "route":"Ruta 14",
       "baseId": "MAWILE",
       "name": "Mawile",
       "form": "Mega Mawile",
