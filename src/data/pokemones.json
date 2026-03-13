@@ -30327,6 +30327,7 @@
       "image": "/images/pokemonFront/COBALION.png",
       "location": "/images/location/COBALION.webp",
       "route": "Ruta 4 - Evento",
+      "map": "/images/maps/r4.png",
       "name": "Cobalion",
       "types": [
         "STEEL",
@@ -37271,6 +37272,7 @@
       "image": "/images/pokemonFront/PHEROMOSA.png",
       "location": "/images/location/PHEROMOSA.webp",
       "route": "Ruta 4 - Evento",
+      "map": "/images/maps/r4.png",
       "name": "Pheromosa",
       "types": [
         "BUG",
@@ -41478,6 +41480,7 @@
       "image": "/images/pokemonFront/ZAMAZENTA.png",
       "location": "/images/location/ZAMAZENTA.webp",
       "route": "Ruta 4 - Evento",
+      "map": "/images/maps/r4.png",
       "name": "Zamazenta",
       "form": "Guerrero Avezado",
       "types": [
