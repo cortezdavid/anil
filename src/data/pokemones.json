@@ -44872,6 +44872,7 @@
       "image": "/images/pokemonFront/PALAFIN.png",
       "location": "/images/location/PALAFIN.webp",
       "route": "Ruta 28 (surfeando/pescando)",
+      "map": "/images/maps/r28.png",
       "name": "Palafin",
       "form": "Forma Ingenua",
       "types": [
