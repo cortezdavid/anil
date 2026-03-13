@@ -2111,6 +2111,7 @@
       "image": "/images/pokemonFront/GOLBAT.png",
       "location": "/images/location/GOLBAT.webp",
       "route": "Túnel Roca",
+      "map": "/images/maps/tunelRoca.png",
       "name": "Golbat",
       "types": [
         "POISON",
@@ -2382,6 +2383,7 @@
       "image": "/images/pokemonFront/PARASECT.png",
       "location": "/images/location/PARASECT.webp",
       "route": "Cueva Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Parasect",
       "types": [
         "BUG",
@@ -3222,6 +3224,7 @@
       "image": "/images/pokemonFront/KADABRA.png",
       "location": "/images/location/KADABRA.webp",
       "route": "Cueva Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Kadabra",
       "types": [
         "PSYCHIC"
@@ -3276,6 +3279,7 @@
       "image": "/images/pokemonFront/ALAKAZAM.png",
       "location": "/images/location/ALAKAZAM.webp",
       "route": "Cueva Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Alakazam",
       "form": "Normal",
       "types": [
@@ -5050,6 +5054,7 @@
       "image": "/images/pokemonFront/ELECTRODE.png",
       "location": "/images/location/ELECTRODE.webp",
       "route": "Central Energía",
+      "map": "/images/maps/centralEnergia.png",
       "name": "Electrode",
       "form": "Normal",
       "types": [
@@ -5529,6 +5534,7 @@
       "image": "/images/pokemonFront/RHYHORN.png",
       "location": "/images/location/RHYHORN.webp",
       "route": "Túnel Roca",
+      "map": "/images/maps/tunelRoca.png",
       "name": "Rhyhorn",
       "types": [
         "GROUND",
@@ -5734,6 +5740,7 @@
       "image": "/images/pokemonFront/KANGASKHAN.png",
       "location": "/images/location/KANGASKHAN.webp",
       "route": "Túnel Roca",
+      "map": "/images/maps/tunelRoca.png",
       "name": "Kangaskhan",
       "form": "Normal",
       "types": [
@@ -6205,6 +6212,7 @@
       "image": "/images/pokemonFront/ELECTABUZZ.png",
       "location": "/images/location/ELECTABUZZ.webp",
       "route": "Central Energía",
+      "map": "/images/maps/centralEnergia.png",
       "name": "Electabuzz",
       "types": [
         "ELECTRIC"
@@ -7229,6 +7237,7 @@
       "image": "/images/pokemonFront/ZAPDOS.png",
       "location": "/images/location/ZAPDOS.webp",
       "route": "Central Energía",
+      "map": "/images/maps/centralEnergia.png",
       "name": "Zapdos",
       "form": "Normal",
       "types": [
@@ -7454,6 +7463,7 @@
       "image": "/images/pokemonFront/MEWTWO.png",
       "location": "/images/location/MEWTWO.webp",
       "route": "Bosque Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Mewtwo",
       "form": "Normal",
       "types": [
@@ -10055,6 +10065,7 @@
       "image": "/images/pokemonFront/WOBBUFFET.png",
       "location": "/images/location/WOBBUFFET.webp",
       "route": "Cueva Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Wobbuffet",
       "types": [
         "PSYCHIC"
@@ -10720,6 +10731,7 @@
       "image": "/images/pokemonFront/URSARING.png",
       "location": "/images/location/URSARING.webp",
       "route": "Túnel Roca",
+      "map": "/images/maps/tunelRoca.png",
       "name": "Ursaring",
       "types": [
         "NORMAL"
@@ -15031,6 +15043,7 @@
       "image": "/images/pokemonFront/AGGRON.png",
       "location": "/images/location/AGGRON.webp",
       "route": "Cueva Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Aggron",
       "form": "Normal",
       "types": [
@@ -18079,6 +18092,7 @@
       "image": "/images/pokemonFront/METANG.png",
       "location": "/images/location/METANG.webp",
       "route": "Cueva Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Metang",
       "types": [
         "STEEL",
@@ -18132,6 +18146,7 @@
       "image": "/images/pokemonFront/METAGROSS.png",
       "location": "/images/location/METAGROSS.webp",
       "route": "Cueva Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Metagross",
       "form": "Normal",
       "types": [
@@ -18187,6 +18202,7 @@
       "image": "/images/pokemonFront/REGIROCK.png",
       "location": "/images/location/REGIROCK.webp",
       "route": "Túnel Roca - Evento",
+      "map": "/images/maps/tunelRoca.png",
       "name": "Regirock",
       "types": [
         "ROCK"
@@ -19979,6 +19995,7 @@
       "image": "/images/pokemonFront/PACHIRISU.png",
       "location": "/images/location/PACHIRISU.webp",
       "route": "Central Energía",
+      "map": "/images/maps/centralEnergia.png",
       "name": "Pachirisu",
       "types": [
         "ELECTRIC"
@@ -20139,6 +20156,7 @@
       "image": "/images/pokemonFront/CHERRIM.png",
       "location": "/images/location/CHERRIM.webp",
       "route": "Bosque Arcoiris",
+      "map": "/images/maps/bosqueArcoiris.png",
       "name": "Cherrim",
       "types": [
         "GRASS"
@@ -22292,6 +22310,7 @@
       "image": "/images/pokemonFront/TOGEKISS.png",
       "location": "/images/location/TOGEKISS.webp",
       "route": "Bosque Arcoiris",
+      "map": "/images/maps/bosqueArcoiris.png",
       "name": "Togekiss",
       "types": [
         "FAIRY",
@@ -23274,6 +23293,7 @@
       "image": "/images/pokemonFront/DARKRAI.png",
       "location": "/images/location/DARKRAI.webp",
       "route": "Túnel Roca - Evento",
+      "map": "/images/maps/tunelRoca.png",
       "form": "Normal",
       "name": "Darkrai",
       "types": [
@@ -24508,6 +24528,7 @@
       "image": "/images/pokemonFront/MUSHARNA.png",
       "location": "/images/location/MUSHARNA.webp",
       "route": "Cueva Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Musharna",
       "types": [
         "PSYCHIC"
@@ -24855,6 +24876,7 @@
       "image": "/images/pokemonFront/BOLDORE.png",
       "location": "/images/location/BOLDORE.webp",
       "route": "Túnel Roca",
+      "map": "/images/maps/tunelRoca.png",
       "name": "Boldore",
       "types": [
         "ROCK"
@@ -27275,6 +27297,7 @@
       "image": "/images/pokemonFront/GOTHITELLE.png",
       "location": "/images/location/GOTHITELLE.webp",
       "route": "Cueva Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Gothitelle",
       "types": [
         "PSYCHIC"
@@ -27838,6 +27861,7 @@
       "image": "/images/pokemonFront/EMOLGA.png",
       "location": "/images/location/EMOLGA.webp",
       "route": "Central Energía",
+      "map": "/images/maps/centralEnergia.png",
       "name": "Emolga",
       "types": [
         "ELECTRIC",
@@ -28613,6 +28637,7 @@
       "location": "/images/location/EELEKTROSS.webp",
       "form": "Normal",
       "route": "Central Energía",
+      "map": "/images/maps/centralEnergia.png",
       "name": "Eelektross",
       "types": [
         "ELECTRIC"
@@ -31353,6 +31378,7 @@
       "image": "/images/pokemonFront/VIVILLON.png",
       "location": "/images/location/VIVILLON.webp",
       "route": "Bosque Arcoiris",
+      "map": "/images/maps/bosqueArcoiris.png",
       "name": "Vivillon",
       "types": [
         "BUG",
@@ -32009,6 +32035,7 @@
       "image": "/images/pokemonFront/DOUBLADE.png",
       "location": "/images/location/DOUBLADE.webp",
       "route": "Cueva Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Doublade",
       "types": [
         "STEEL",
@@ -32059,6 +32086,7 @@
       "image": "/images/pokemonFront/AEGISLASH.png",
       "location": "/images/location/AEGISLASH.webp",
       "route": "Cueva Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Aegislash",
       "form": "Forma Escudo",
       "types": [
@@ -32154,6 +32182,7 @@
       "image": "/images/pokemonFront/AROMATISSE.png",
       "location": "/images/location/AROMATISSE.webp",
       "route": "Bosque Arcoiris",
+      "map": "/images/maps/bosqueArcoiris.png",
       "name": "Aromatisse",
       "types": [
         "FAIRY"
@@ -32244,6 +32273,7 @@
       "image": "/images/pokemonFront/SLURPUFF.png",
       "location": "/images/location/SLURPUFF.webp",
       "route": "Bosque Arcoiris",
+      "map": "/images/maps/bosqueArcoiris.png",
       "name": "Slurpuff",
       "types": [
         "FAIRY"
@@ -33040,6 +33070,7 @@
       "image": "/images/pokemonFront/DEDENNE.png",
       "location": "/images/location/DEDENNE.webp",
       "route": "Central Energía",
+      "map": "/images/maps/centralEnergia.png",
       "name": "Dedenne",
       "types": [
         "ELECTRIC",
@@ -33073,6 +33104,7 @@
       "image": "/images/pokemonFront/CARBINK.png",
       "location": "/images/location/CARBINK.webp",
       "route": "Cueva Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Carbink",
       "types": [
         "ROCK",
@@ -33746,6 +33778,7 @@
       "image": "/images/pokemonFront/DIANCIE.png",
       "location": "/images/location/DIANCIE.webp",
       "route": "Cueva Celeste - Evento",
+      "map":"/images/maps/cuevaBosqueCeleste.png",
       "name": "Diancie",
       "form": "Normal",
       "types": [
@@ -36262,6 +36295,7 @@
       "image": "/images/pokemonFront/MINIOR.png",
       "location": "/images/location/MINIOR.webp",
       "route": "Túnel Roca",
+      "map": "/images/maps/tunelRoca.png",
       "name": "Minior",
       "form": "Forma Meteorito",
       "types": [
@@ -36351,6 +36385,7 @@
       "image": "/images/pokemonFront/TOGEDEMARU.png",
       "location": "/images/location/TOGEDEMARU.webp",
       "route": "Central Energía",
+      "map": "/images/maps/centralEnergia.png",
       "name": "Togedemaru",
       "types": [
         "ELECTRIC",
@@ -37204,6 +37239,7 @@
       "image": "/images/pokemonFront/NECROZMA.png",
       "location": "/images/location/NECROZMA.webp",
       "route": "Cueva Celeste - Evento",
+      "map":"/images/maps/cuevaBosqueCeleste.png",
       "name": "Necrozma",
       "form": "Normal",
       "types": [
@@ -37231,6 +37267,7 @@
       "image": "/images/pokemonFront/MAGEARNA.png",
       "location": "/images/location/MAGEARNA.webp",
       "route": "Central Energía - Evento",
+      "map": "/images/maps/centralEnergia.png",
       "name": "Magearna",
       "form": "Normal",
       "types": [
@@ -38369,6 +38406,7 @@
       "image": "/images/pokemonFront/ORBEETLE.png",
       "location": "/images/location/ORBEETLE.webp",
       "route": "Cueva Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Orbeetle",
       "form": "Normal",
       "types": [
@@ -40091,6 +40129,7 @@
       "image": "/images/pokemonFront/GRIMMSNARL.png",
       "location": "/images/location/GRIMMSNARL.webp",
       "route": "Cueva Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Grimmsnarl",
       "form": "Normal",
       "types": [
@@ -40754,6 +40793,7 @@
       "image": "/images/pokemonFront/MORPEKO.png",
       "location": "/images/location/MORPEKO.webp",
       "route": "Central Energía",
+      "map": "/images/maps/centralEnergia.png",
       "name": "Morpeko",
       "types": [
         "ELECTRIC",
@@ -41275,6 +41315,7 @@
       "image": "/images/pokemonFront/ETERNATUS.png",
       "location": "/images/location/ETERNATUS.webp",
       "route": "Bosque Celeste - Evento",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Eternatus",
       "types": [
         "POISON",
@@ -41422,6 +41463,7 @@
       "image": "/images/pokemonFront/REGIELEKI.png",
       "location": "/images/location/REGIELEKI.webp",
       "route": "Central Energía - Evento",
+      "map": "/images/maps/centralEnergia.png",
       "name": "Regieleki",
       "types": [
         "ELECTRIC"
@@ -43205,6 +43247,7 @@
       "image": "/images/pokemonFront/NACLSTACK.png",
       "location": "/images/location/NACLSTACK.webp",
       "route": "Túnel Roca",
+      "map": "/images/maps/tunelRoca.png",
       "name": "Naclstack",
       "types": [
         "ROCK"
@@ -43496,6 +43539,7 @@
       "image": "/images/pokemonFront/BELLIBOLT.png",
       "location": "/images/location/BELLIBOLT.webp",
       "route": "Central Energía",
+      "map": "/images/maps/centralEnergia.png",
       "name": "Bellibolt",
       "types": [
         "ELECTRIC"
@@ -45459,6 +45503,7 @@
       "image": "/images/pokemonFront/GREATTUSK.png",
       "location": "/images/location/GREATTUSK.webp",
       "route": "Bosque Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Colmilargo",
       "types": [
         "GROUND",
@@ -45488,6 +45533,7 @@
       "image": "/images/pokemonFront/SCREAMTAIL.png",
       "location": "/images/location/SCREAMTAIL.webp",
       "route": "Bosque Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Colagrito",
       "types": [
         "FAIRY",
@@ -45517,6 +45563,7 @@
       "image": "/images/pokemonFront/BRUTEBONNET.png",
       "location": "/images/location/BRUTEBONNET.webp",
       "route": "Bosque Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Furioseta",
       "types": [
         "GRASS",
@@ -45545,6 +45592,7 @@
       "image": "/images/pokemonFront/FLUTTERMANE.png",
       "location": "/images/location/FLUTTERMANE.webp",
       "route": "Bosque Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Melenaleteo",
       "types": [
         "GHOST",
@@ -45574,6 +45622,7 @@
       "image": "/images/pokemonFront/SLITHERWING.png",
       "location": "/images/location/SLITHERWING.webp",
       "route": "Bosque Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Reptalada",
       "types": [
         "BUG",
@@ -45603,6 +45652,7 @@
       "image": "/images/pokemonFront/SANDYSHOCKS.png",
       "location": "/images/location/SANDYSHOCKS.webp",
       "route": "Bosque Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Pelarena",
       "types": [
         "ELECTRIC",
@@ -45632,6 +45682,7 @@
       "image": "/images/pokemonFront/IRONTREADS.png",
       "location": "/images/location/IRONTREADS.webp",
       "route": "Bosque Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Ferrodada",
       "types": [
         "GROUND",
@@ -45661,6 +45712,7 @@
       "image": "/images/pokemonFront/IRONBUNDLE.png",
       "location": "/images/location/IRONBUNDLE.webp",
       "route": "Bosque Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Ferrosaco",
       "types": [
         "ICE",
@@ -45690,6 +45742,7 @@
       "image": "/images/pokemonFront/IRONHANDS.png",
       "location": "/images/location/IRONHANDS.webp",
       "route": "Bosque Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Ferropalmas",
       "types": [
         "FIGHTING",
@@ -45719,6 +45772,7 @@
       "image": "/images/pokemonFront/IRONJUGULIS.png",
       "location": "/images/location/IRONJUGULIS.webp",
       "route": "Bosque Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Ferrocuello",
       "types": [
         "DARK",
@@ -45748,6 +45802,7 @@
       "image": "/images/pokemonFront/IRONMOTH.png",
       "location": "/images/location/IRONMOTH.webp",
       "route": "Bosque Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Ferropolilla",
       "types": [
         "FIRE",
@@ -45777,6 +45832,7 @@
       "image": "/images/pokemonFront/IRONTHORNS.png",
       "location": "/images/location/IRONTHORNS.webp",
       "route": "Bosque Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Ferropúas",
       "types": [
         "ROCK",
@@ -46165,6 +46221,7 @@
       "image": "/images/pokemonFront/ROARINGMOON.png",
       "location": "/images/location/ROARINGMOON.webp",
       "route": "Bosque Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Bramaluna",
       "types": [
         "DRAGON",
@@ -46194,6 +46251,7 @@
       "image": "/images/pokemonFront/IRONVALIANT.png",
       "location": "/images/location/IRONVALIANT.webp",
       "route": "Bosque Celeste",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Ferropaladín",
       "types": [
         "FAIRY",
@@ -46280,6 +46338,7 @@
       "image": "/images/pokemonFront/WALKINGWAKE.png",
       "location": "/images/location/WALKINGWAKE.webp",
       "route": "Bosque Celeste - Evento",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Ondulagua",
       "types": [
         "WATER",
@@ -46308,6 +46367,7 @@
       "image": "/images/pokemonFront/IRONLEAVES.png",
       "location": "/images/location/IRONLEAVES.webp",
       "route": "Bosque Celeste - Evento",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Ferroverdor",
       "types": [
         "GRASS",
@@ -46736,6 +46796,7 @@
       "image": "/images/pokemonFront/GOUGINGFIRE.png",
       "location": "/images/location/GOUGINGFIRE.webp",
       "route": "Bosque Celeste - Evento",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Flamariete",
       "types": [
         "FIRE",
@@ -46764,6 +46825,7 @@
       "image": "/images/pokemonFront/RAGINGBOLT.png",
       "location": "/images/location/RAGINGBOLT.webp",
       "route": "Bosque Celeste - Evento",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Electrofuria",
       "types": [
         "ELECTRIC",
@@ -46792,6 +46854,7 @@
       "image": "/images/pokemonFront/IRONBOULDER.png",
       "location": "/images/location/IRONBOULDER.webp",
       "route": "Bosque Celeste - Evento",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Ferromole",
       "types": [
         "ROCK",
@@ -46820,6 +46883,7 @@
       "image": "/images/pokemonFront/IRONCROWN.png",
       "location": "/images/location/IRONCROWN.webp",
       "route": "Bosque Celeste - Evento",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Ferrotesta",
       "types": [
         "STEEL",
@@ -46848,6 +46912,7 @@
       "image": "/images/pokemonFront/TERAPAGOS.png",
       "location": "/images/location/TERAPAGOS.webp",
       "route": "Cueva Celeste - Evento",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Terapagos",
       "form": "Normal",
       "types": [
