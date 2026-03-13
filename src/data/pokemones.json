@@ -895,6 +895,7 @@
       "image": "/images/pokemonFront/PIDGEOT.png",
       "location": "/images/location/PIDGEOT.webp",
       "route": "Almacén Secreto",
+      "map": "/images/maps/almacenSecreto.png",
       "name": "Pidgeot",
       "form": "Normal",
       "types": [
@@ -1182,6 +1183,7 @@
       "image": "/images/pokemonFront/ARBOK.png",
       "location": "/images/location/ARBOK.webp",
       "route": "Almacén Secreto",
+      "map": "/images/maps/almacenSecreto.png",
       "name": "Arbok",
       "types": [
         "POISON",
@@ -1533,6 +1535,7 @@
       "image": "/images/pokemonFront/NIDOQUEEN.png",
       "location": "/images/location/NIDOQUEEN.webp",
       "route": "Almacén Secreto",
+      "map": "/images/maps/almacenSecreto.png",
       "name": "Nidoqueen",
       "types": [
         "POISON",
@@ -1693,6 +1696,7 @@
       "image": "/images/pokemonFront/NIDOKING.png",
       "location": "/images/location/NIDOKING.webp",
       "route": "Almacén Secreto",
+      "map": "/images/maps/almacenSecreto.png",
       "name": "Nidoking",
       "types": [
         "POISON",
@@ -1856,6 +1860,7 @@
       "image": "/images/pokemonFront/VULPIX.png",
       "location": "/images/location/VULPIX.webp",
       "route": "Ruta 5",
+      "map": "/images/maps/r5.png",
       "name": "Vulpix",
       "form": "Normal",
       "types": [
@@ -2621,6 +2626,7 @@
       "image": "/images/pokemonFront/MEOWTH.png",
       "location": "/images/location/MEOWTH.webp",
       "route": "Ruta 5",
+      "map": "/images/maps/r5.png",
       "name": "Meowth",
       "form": "Normal",
       "types": [
@@ -3551,6 +3557,7 @@
       "image": "/images/pokemonFront/WEEPINBELL.png",
       "location": "/images/location/WEEPINBELL.webp",
       "route": "Ruta 10 Norte",
+      "map": "/images/maps/r10n.png",
       "name": "Weepinbell",
       "types": [
         "GRASS",
@@ -3657,6 +3664,7 @@
       "image": "/images/pokemonFront/TENTACOOL.png",
       "location": "/images/location/TENTACOOL.webp",
       "route": "Ruta 12 (surfeando/pescando)",
+      "map": "/images/maps/r12.png",
       "name": "Tentacool",
       "types": [
         "WATER",
@@ -3704,6 +3712,7 @@
       "image": "/images/pokemonFront/TENTACRUEL.png",
       "location": "/images/location/TENTACRUEL.webp",
       "route": "Ruta 17 (surfeando)",
+      "map": "/images/maps/r17.png",
       "name": "Tentacruel",
       "types": [
         "WATER",
@@ -4114,6 +4123,7 @@
       "image": "/images/pokemonFront/MAGNEMITE.png",
       "location": "/images/location/MAGNEMITE.webp",
       "route": "Ruta 6",
+      "map": "/images/maps/r6.png",
       "name": "Magnemite",
       "types": [
         "ELECTRIC",
@@ -4222,6 +4232,7 @@
       "image": "/images/pokemonFront/FARFETCHD.png",
       "location": "/images/location/FARFETCHD.webp",
       "route": "Ruta 10 Norte",
+      "map": "/images/maps/r10n.png",
       "name": "Farfetch'd",
       "form": "Normal",
       "types": [
@@ -4919,6 +4930,7 @@
       "image": "/images/pokemonFront/KRABBY.png",
       "location": "/images/location/KRABBY.webp",
       "route": "Ruta 10 Norte (surfeando/pescando)",
+      "map": "/images/maps/r10n.png",
       "name": "Krabby",
       "types": [
         "WATER"
@@ -5009,6 +5021,7 @@
       "image": "/images/pokemonFront/VOLTORB.png",
       "location": "/images/location/VOLTORB.webp",
       "route": "Ruta 10 Norte",
+      "map": "/images/maps/r10n.png",
       "name": "Voltorb",
       "form": "Normal",
       "types": [
@@ -5395,6 +5408,7 @@
       "image": "/images/pokemonFront/LICKITUNG.png",
       "location": "/images/location/LICKITUNG.webp",
       "route": "Ruta 13",
+      "map": "/images/maps/r13.png",
       "name": "Lickitung",
       "types": [
         "NORMAL"
@@ -5696,6 +5710,7 @@
       "image": "/images/pokemonFront/TANGELA.png",
       "location": "/images/location/TANGELA.webp",
       "route": "Ruta 12",
+      "map": "/images/maps/r12.png",
       "name": "Tangela",
       "types": [
         "GRASS"
@@ -5773,6 +5788,7 @@
       "image": "/images/pokemonFront/HORSEA.png",
       "location": "/images/location/HORSEA.webp",
       "route": "Ruta 12 (surfeando/pescando)",
+      "map": "/images/maps/r12.png",
       "name": "Horsea",
       "types": [
         "WATER"
@@ -5882,6 +5898,7 @@
       "image": "/images/pokemonFront/GOLDEEN.png",
       "location": "/images/location/GOLDEEN.webp",
       "route": "Ruta 6 (surfeando/pescando)",
+      "map": "/images/maps/r6.png",
       "name": "Goldeen",
       "types": [
         "WATER"
@@ -6116,6 +6133,7 @@
       "image": "/images/pokemonFront/SCYTHER.png",
       "location": "/images/location/SCYTHER.webp",
       "route": "Ruta 12",
+      "map": "/images/maps/r12.png",
       "name": "Scyther",
       "types": [
         "BUG",
@@ -6386,6 +6404,7 @@
       "image": "/images/pokemonFront/MAGIKARP.png",
       "location": "/images/location/MAGIKARP.webp",
       "route": "Ruta 19 (surfeando)",
+      "map": "/images/maps/r19.png",
       "name": "Magikarp",
       "types": [
         "WATER"
@@ -6430,6 +6449,7 @@
       "image": "/images/pokemonFront/GYARADOS.png",
       "location": "/images/location/GYARADOS.webp",
       "route": "Ruta 19 (surfeando)",
+      "map": "/images/maps/r19.png",
       "name": "Gyarados",
       "form": "Normal",
       "types": [
@@ -6510,6 +6530,7 @@
       "image": "/images/pokemonFront/DITTO.png",
       "location": "/images/location/DITTO.webp",
       "route": "Ruta 5",
+      "map": "/images/maps/r5.png",
       "name": "Ditto",
       "types": [
         "NORMAL"
@@ -7157,6 +7178,7 @@
       "image": "/images/pokemonFront/SNORLAX.png",
       "location": "/images/location/SNORLAX.webp",
       "route": "Ruta 12",
+      "map": "/images/maps/r12.png",
       "name": "Snorlax",
       "form": "Normal",
       "types": [
@@ -8418,6 +8440,7 @@
       "image": "/images/pokemonFront/CHINCHOU.png",
       "location": "/images/location/CHINCHOU.webp",
       "route": "Ruta 17 (surfeando/pescando)",
+      "map": "/images/maps/r17.png",
       "name": "Chinchou",
       "types": [
         "WATER",
@@ -8775,6 +8798,7 @@
       "image": "/images/pokemonFront/NATU.png",
       "location": "/images/location/NATU.webp",
       "route": "Ruta 10 Sur",
+      "map": "/images/maps/r10s.png",
       "name": "Natu",
       "types": [
         "PSYCHIC",
@@ -9186,6 +9210,7 @@
       "image": "/images/pokemonFront/SUDOWOODO.png",
       "location": "/images/location/SUDOWOODO.webp",
       "route": "Ruta 10 Norte",
+      "map": "/images/maps/r10n.png",
       "name": "Sudowoodo",
       "types": [
         "ROCK"
@@ -9497,6 +9522,7 @@
       "image": "/images/pokemonFront/SUNKERN.png",
       "location": "/images/location/SUNKERN.webp",
       "route": "Ruta 5",
+      "map": "/images/maps/r5.png",
       "name": "Sunkern",
       "types": [
         "GRASS"
@@ -9585,6 +9611,7 @@
       "image": "/images/pokemonFront/YANMA.png",
       "location": "/images/location/YANMA.webp",
       "route": "Ruta 12",
+      "map": "/images/maps/r12.png",
       "name": "Yanma",
       "types": [
         "BUG",
@@ -10156,6 +10183,7 @@
       "image": "/images/pokemonFront/PINECO.png",
       "location": "/images/location/PINECO.webp",
       "route": "Ruta 6",
+      "map": "/images/maps/r6.png",
       "name": "Pineco",
       "types": [
         "BUG"
@@ -10246,6 +10274,7 @@
       "image": "/images/pokemonFront/DUNSPARCE.png",
       "location": "/images/location/DUNSPARCE.webp",
       "route": "Ruta 5",
+      "map": "/images/maps/r5.png",
       "name": "Dunsparce",
       "types": [
         "NORMAL"
@@ -10291,6 +10320,7 @@
       "image": "/images/pokemonFront/GLIGAR.png",
       "location": "/images/location/GLIGAR.webp",
       "route": "Ruta 13",
+      "map": "/images/maps/r13.png",
       "name": "Gligar",
       "types": [
         "GROUND",
@@ -11972,6 +12002,7 @@
       "image": "/images/pokemonFront/ENTEI.png",
       "location": "/images/location/ENTEI.webp",
       "route": "Ruta 19 - Evento",
+      "map": "/images/maps/r19.png",
       "name": "Entei",
       "types": [
         "FIRE"
@@ -12002,6 +12033,7 @@
       "image": "/images/pokemonFront/SUICUNE.png",
       "location": "/images/location/SUICUNE.webp",
       "route": "Ruta 10 Norte - Evento",
+      "map": "/images/maps/r10n.png",
       "name": "Suicune",
       "types": [
         "WATER"
@@ -12804,6 +12836,7 @@
       "image": "/images/pokemonFront/MIGHTYENA.png",
       "location": "/images/location/MIGHTYENA.webp",
       "route": "Camino de Bicis",
+      "map": "/images/maps/caminoBicis.png",
       "name": "Mightyena",
       "types": [
         "DARK"
@@ -12897,6 +12930,7 @@
       "image": "/images/pokemonFront/LINOONE.png",
       "location": "/images/location/LINOONE.webp",
       "route": "Camino de Bicis",
+      "map": "/images/maps/caminoBicis.png",
       "name": "Linoone",
       "form": "Normal",
       "types": [
@@ -13640,6 +13674,7 @@
       "image": "/images/pokemonFront/SWELLOW.png",
       "location": "/images/location/SWELLOW.webp",
       "route": "Ruta 6",
+      "map": "/images/maps/r6.png",
       "name": "Swellow",
       "types": [
         "NORMAL",
@@ -13732,6 +13767,7 @@
       "image": "/images/pokemonFront/PELIPPER.png",
       "location": "/images/location/PELIPPER.webp",
       "route": "Ruta 17",
+      "map": "/images/maps/r17.png",
       "name": "Pelipper",
       "types": [
         "WATER",
@@ -13892,6 +13928,7 @@
       "image": "/images/pokemonFront/GARDEVOIR.png",
       "location": "/images/location/GARDEVOIR.webp",
       "route": "Islote Recuerdo",
+      "map": "/images/maps/isloteRecuerdo.png",
       "name": "Gardevoir",
       "form": "Normal",
       "types": [
@@ -14043,6 +14080,7 @@
       "image": "/images/pokemonFront/SHROOMISH.png",
       "location": "/images/location/SHROOMISH.webp",
       "route": "Ruta 10 Sur",
+      "map": "/images/maps/r10s.png",
       "name": "Shroomish",
       "types": [
         "GRASS"
@@ -14474,6 +14512,7 @@
       "image": "/images/pokemonFront/LOUDRED.png",
       "location": "/images/location/LOUDRED.webp",
       "route": "Ruta 19",
+      "map": "/images/maps/r19.png",
       "name": "Loudred",
       "types": [
         "NORMAL"
@@ -15146,6 +15185,7 @@
       "image": "/images/pokemonFront/MEDICHAM.png",
       "location": "/images/location/MEDICHAM.webp",
       "route": "Ruta 19",
+      "map": "/images/maps/r19.png",
       "name": "Medicham",
       "form": "Normal",
       "types": [
@@ -15192,6 +15232,7 @@
       "image": "/images/pokemonFront/ELECTRIKE.png",
       "location": "/images/location/ELECTRIKE.webp",
       "route": "Ruta 10 Norte",
+      "map": "/images/maps/r10n.png",
       "name": "Electrike",
       "types": [
         "ELECTRIC"
@@ -15284,6 +15325,7 @@
       "image": "/images/pokemonFront/PLUSLE.png",
       "location": "/images/location/PLUSLE.webp",
       "route": "Ruta 10 Norte",
+      "map": "/images/maps/r10n.png",
       "name": "Plusle",
       "types": [
         "ELECTRIC"
@@ -15315,6 +15357,7 @@
       "image": "/images/pokemonFront/MINUN.png",
       "location": "/images/location/MINUN.webp",
       "route": "Ruta 10 Norte",
+      "map": "/images/maps/r10n.png",
       "name": "Minun",
       "types": [
         "ELECTRIC"
@@ -15609,6 +15652,7 @@
       "image": "/images/pokemonFront/SHARPEDO.png",
       "location": "/images/location/SHARPEDO.webp",
       "route": "Ruta 17 (surfeando)",
+      "map": "/images/maps/r17.png",
       "name": "Sharpedo",
       "form": "Normal",
       "types": [
@@ -15657,6 +15701,7 @@
       "image": "/images/pokemonFront/WAILMER.png",
       "location": "/images/location/WAILMER.webp",
       "route": "Ruta 19 (surfeando)",
+      "map": "/images/maps/r19.png",
       "name": "Wailmer",
       "types": [
         "WATER"
@@ -16099,6 +16144,7 @@
       "image": "/images/pokemonFront/FLYGON.png",
       "location": "/images/location/FLYGON.webp",
       "route": "Cabo Azabache",
+      "map": "/images/maps/caboAzabache.png",
       "name": "Flygon",
       "types": [
         "GROUND",
@@ -16242,6 +16288,7 @@
       "image": "/images/pokemonFront/SWABLU.png",
       "location": "/images/location/SWABLU.webp",
       "route": "Ruta 5",
+      "map": "/images/maps/r5.png",
       "name": "Swablu",
       "types": [
         "NORMAL",
@@ -16397,6 +16444,7 @@
       "image": "/images/pokemonFront/LUNATONE.png",
       "location": "/images/location/LUNATONE.webp",
       "route": "Islote Recuerdo",
+      "map": "/images/maps/isloteRecuerdo.png",
       "name": "Lunatone",
       "types": [
         "ROCK",
@@ -16426,6 +16474,7 @@
       "image": "/images/pokemonFront/SOLROCK.png",
       "location": "/images/location/SOLROCK.webp",
       "route": "Islote Recuerdo",
+      "map": "/images/maps/isloteRecuerdo.png",
       "name": "Solrock",
       "types": [
         "ROCK",
@@ -16593,6 +16642,7 @@
       "image": "/images/pokemonFront/CRAWDAUNT.png",
       "location": "/images/location/CRAWDAUNT.webp",
       "route": "Ruta 19",
+      "map": "/images/maps/r19.png",
       "name": "Crawdaunt",
       "types": [
         "WATER",
@@ -16907,6 +16957,7 @@
       "image": "/images/pokemonFront/FEEBAS.png",
       "location": "/images/location/FEEBAS.webp",
       "route": "Ruta 6 (surfeando/pescando)",
+      "map": "/images/maps/r6.png",
       "name": "Feebas",
       "types": [
         "WATER"
@@ -16996,6 +17047,7 @@
       "image": "/images/pokemonFront/CASTFORM.png",
       "location": "/images/location/CASTFORM.webp",
       "route": "Ruta 10 Sur",
+      "map": "/images/maps/r10s.png",
       "name": "Castform",
       "form": "Normal",
       "types": [
@@ -17255,6 +17307,7 @@
       "image": "/images/pokemonFront/TROPIUS.png",
       "location": "/images/location/TROPIUS.webp",
       "route": "Ruta 13",
+      "map": "/images/maps/r13.png",
       "name": "Tropius",
       "types": [
         "GRASS",
@@ -17331,6 +17384,7 @@
       "image": "/images/pokemonFront/ABSOL.png",
       "location": "/images/location/ABSOL.webp",
       "route": "Ruta 23",
+      "map": "/images/maps/r23.png",
       "name": "Absol",
       "form": "Normal",
       "types": [
@@ -17364,6 +17418,7 @@
       "image": "/images/pokemonFront/WYNAUT.png",
       "location": "/images/location/WYNAUT.webp",
       "route": "Ruta 19",
+      "map": "/images/maps/r19.png",
       "name": "Wynaut",
       "types": [
         "PSYCHIC"
@@ -17670,6 +17725,7 @@
       "image": "/images/pokemonFront/CLAMPERL.png",
       "location": "/images/location/CLAMPERL.webp",
       "route": "Ruta 23 (surfeando/pescando)",
+      "map": "/images/maps/r23.png",
       "name": "Clamperl",
       "types": [
         "WATER"
@@ -17718,6 +17774,7 @@
       "image": "/images/pokemonFront/HUNTAIL.png",
       "location": "/images/location/HUNTAIL.webp",
       "route": "Ruta 23 (surfeando/pescando)",
+      "map": "/images/maps/r23.png",
       "name": "Huntail",
       "types": [
         "WATER"
@@ -17767,6 +17824,7 @@
       "image": "/images/pokemonFront/GOREBYSS.png",
       "location": "/images/location/GOREBYSS.webp",
       "route": "Ruta 23 (surfeando/pescando)",
+      "map": "/images/maps/r23.png",
       "name": "Gorebyss",
       "types": [
         "WATER"
@@ -17815,6 +17873,7 @@
       "image": "/images/pokemonFront/RELICANTH.png",
       "location": "/images/location/RELICANTH.webp",
       "route": "Islote Recuerdo (pescando)",
+      "map": "/images/maps/isloteRecuerdo.png",
       "name": "Relicanth",
       "types": [
         "WATER",
@@ -17848,6 +17907,7 @@
       "image": "/images/pokemonFront/LUVDISC.png",
       "location": "/images/location/LUVDISC.webp",
       "route": "Ruta 17 (surfeando)",
+      "map": "/images/maps/r17.png",
       "name": "Luvdisc",
       "types": [
         "WATER",
@@ -18295,6 +18355,7 @@
       "image": "/images/pokemonFront/LATIAS.png",
       "location": "/images/location/LATIAS.webp",
       "route": "Ruta 13 - Evento",
+      "map": "/images/maps/r13.png",
       "name": "Latias",
       "form": "Normal",
       "types": [
@@ -19948,6 +20009,7 @@
       "image": "/images/pokemonFront/VESPIQUEN.png",
       "location": "/images/location/VESPIQUEN.webp",
       "route": "Ruta 19",
+      "map": "/images/maps/r19.png",
       "name": "Vespiquen",
       "types": [
         "BUG",
@@ -20071,6 +20133,7 @@
       "image": "/images/pokemonFront/FLOATZEL.png",
       "location": "/images/location/FLOATZEL.webp",
       "route": "Ruta 23",
+      "map": "/images/maps/r23.png",
       "name": "Floatzel",
       "types": [
         "WATER"
@@ -20199,6 +20262,7 @@
       "image": "/images/pokemonFront/SHELLOS.png",
       "location": "/images/location/SHELLOS.webp",
       "route": "Ruta 13",
+      "map": "/images/maps/r13.png",
       "name": "Shellos",
       "types": [
         "WATER"
@@ -20244,6 +20308,7 @@
       "image": "/images/pokemonFront/GASTRODON.png",
       "location": "/images/location/GASTRODON.webp",
       "route": "Ruta 13",
+      "map": "/images/maps/r13.png",
       "name": "Gastrodon",
       "types": [
         "WATER",
@@ -20784,6 +20849,7 @@
       "image": "/images/pokemonFront/SKUNTANK.png",
       "location": "/images/location/SKUNTANK.webp",
       "route": "Camino de Bicis",
+      "map": "/images/maps/caminoBicis.png",
       "name": "Skuntank",
       "types": [
         "POISON",
@@ -21068,6 +21134,7 @@
       "image": "/images/pokemonFront/CHATOT.png",
       "location": "/images/location/CHATOT.webp",
       "route": "Ruta 19",
+      "map": "/images/maps/r19.png",
       "name": "Chatot",
       "types": [
         "NORMAL",
@@ -21564,6 +21631,7 @@
       "image": "/images/pokemonFront/DRAPION.png",
       "location": "/images/location/DRAPION.webp",
       "route": "Ruta 12",
+      "map": "/images/maps/r12.png",
       "name": "Drapion",
       "types": [
         "POISON",
@@ -21705,6 +21773,7 @@
       "image": "/images/pokemonFront/CARNIVINE.png",
       "location": "/images/location/CARNIVINE.webp",
       "route": "Ruta 19",
+      "map": "/images/maps/r19.png",
       "name": "Carnivine",
       "types": [
         "GRASS"
@@ -21733,6 +21802,7 @@
       "image": "/images/pokemonFront/FINNEON.png",
       "location": "/images/location/FINNEON.webp",
       "route": "Ruta 5 (surfeando/pescando)",
+      "map": "/images/maps/r5.png",
       "name": "Finneon",
       "types": [
         "WATER"
@@ -21778,6 +21848,7 @@
       "image": "/images/pokemonFront/LUMINEON.png",
       "location": "/images/location/LUMINEON.webp",
       "route": "Ruta 19 (surfeando)",
+      "map": "/images/maps/r19.png",
       "name": "Lumineon",
       "types": [
         "WATER"
@@ -22629,6 +22700,7 @@
       "image": "/images/pokemonFront/MAMOSWINE.png",
       "location": "/images/location/MAMOSWINE.webp",
       "route": "Ruta 25 Norte",
+      "map": "/images/maps/r25n.png",
       "name": "Mamoswine",
       "types": [
         "ICE",
@@ -24732,6 +24804,7 @@
       "image": "/images/pokemonFront/BLITZLE.png",
       "location": "/images/location/BLITZLE.webp",
       "route": "Ruta 10 Norte",
+      "map": "/images/maps/r10n.png",
       "name": "Blitzle",
       "types": [
         "ELECTRIC"
@@ -25258,6 +25331,7 @@
       "image": "/images/pokemonFront/GURDURR.png",
       "location": "/images/location/GURDURR.webp",
       "route": "Camino de Bicis",
+      "map": "/images/maps/caminoBicis.png",
       "name": "Gurdurr",
       "types": [
         "FIGHTING"
@@ -26104,6 +26178,7 @@
       "image": "/images/pokemonFront/BASCULIN.png",
       "location": "/images/location/BASCULIN.webp",
       "route": "Camino de Bicis (surfeando/pescando)",
+      "map": "/images/maps/caminoBicis.png",
       "name": "Basculin",
       "form": "Raya Blanca",
       "types": [
@@ -26408,6 +26483,7 @@
       "image": "/images/pokemonFront/MARACTUS.png",
       "location": "/images/location/MARACTUS.webp",
       "route": "Ruta 19",
+      "map": "/images/maps/r19.png",
       "name": "Maractus",
       "types": [
         "GRASS"
@@ -26488,6 +26564,7 @@
       "image": "/images/pokemonFront/CRUSTLE.png",
       "location": "/images/location/CRUSTLE.webp",
       "route": "Islote Recuerdo",
+      "map": "/images/maps/isloteRecuerdo.png",
       "name": "Crustle",
       "types": [
         "BUG",
@@ -27019,6 +27096,7 @@
       "image": "/images/pokemonFront/ZORUA.png",
       "location": "/images/location/ZORUA.webp",
       "route": "Ruta 10 Sur",
+      "map": "/images/maps/r10s.png",
       "name": "Zorua",
       "form": "Normal",
       "types": [
@@ -27102,6 +27180,7 @@
       "image": "/images/pokemonFront/MINCCINO.png",
       "location": "/images/location/MINCCINO.webp",
       "route": "Ruta 19",
+      "map": "/images/maps/r19.png",
       "name": "Minccino",
       "types": [
         "NORMAL"
@@ -28382,6 +28461,7 @@
       "image": "/images/pokemonFront/KLINK.png",
       "location": "/images/location/KLINK.webp",
       "route": "Ruta 10 Norte",
+      "map": "/images/maps/r10n.png",
       "name": "Klink",
       "types": [
         "STEEL"
@@ -28777,6 +28857,7 @@
       "image": "/images/pokemonFront/LITWICK.png",
       "location": "/images/location/LITWICK.webp",
       "route": "Ruta 10 Sur",
+      "map": "/images/maps/r10s.png",
       "name": "Litwick",
       "types": [
         "GHOST",
@@ -29141,6 +29222,7 @@
       "image": "/images/pokemonFront/BEARTIC.png",
       "location": "/images/location/BEARTIC.webp",
       "route": "Ruta 25 Norte",
+      "map": "/images/maps/r25n.png",
       "name": "Beartic",
       "types": [
         "ICE"
@@ -29464,6 +29546,7 @@
       "image": "/images/pokemonFront/GOLETT.png",
       "location": "/images/location/GOLETT.webp",
       "route": "Ruta 10 Sur",
+      "map": "/images/maps/r10s.png",
       "name": "Golett",
       "types": [
         "GROUND",
@@ -30223,6 +30306,7 @@
       "image": "/images/pokemonFront/TERRAKION.png",
       "location": "/images/location/TERRAKION.webp",
       "route": "Ruta 23 - Evento",
+      "map": "/images/maps/r23.png",
       "name": "Terrakion",
       "types": [
         "ROCK",
@@ -30280,6 +30364,7 @@
       "image": "/images/pokemonFront/TORNADUS.png",
       "location": "/images/location/TORNADUS.webp",
       "route": "Ruta 6 - Evento",
+      "map": "/images/maps/r6.png",
       "name": "Tornadus",
       "form": "Forma Avatar",
       "types": [
@@ -30311,6 +30396,7 @@
       "image": "/images/pokemonFront/THUNDURUS.png",
       "location": "/images/location/THUNDURUS.webp",
       "route": "Ruta 12 - Evento",
+      "map": "/images/maps/r12.png",
       "name": "Thundurus",
       "form": "Forma Avatar",
       "types": [
@@ -31581,6 +31667,7 @@
       "location": "/images/location/FLOETTE.webp",
       "form": "Normal",
       "route": "Ruta 5",
+      "map": "/images/maps/r5.png",
       "name": "Floette",
       "types": [
         "FAIRY"
@@ -31866,6 +31953,7 @@
       "image": "/images/pokemonFront/FURFROU.png",
       "location": "/images/location/FURFROU.webp",
       "route": "Ruta 6",
+      "map": "/images/maps/r6.png",
       "name": "Furfrou",
       "form": "Normal",
       "types": [
@@ -32138,6 +32226,7 @@
       "image": "/images/pokemonFront/SPRITZEE.png",
       "location": "/images/location/SPRITZEE.webp",
       "route": "Ruta 6",
+      "map": "/images/maps/r6.png",
       "name": "Spritzee",
       "types": [
         "FAIRY"
@@ -32228,6 +32317,7 @@
       "image": "/images/pokemonFront/SWIRLIX.png",
       "location": "/images/location/SWIRLIX.webp",
       "route": "Ruta 6",
+      "map": "/images/maps/r6.png",
       "name": "Swirlix",
       "types": [
         "FAIRY"
@@ -32319,6 +32409,7 @@
       "image": "/images/pokemonFront/INKAY.png",
       "location": "/images/location/INKAY.webp",
       "route": "Ruta 10 Sur",
+      "map": "/images/maps/r10s.png",
       "name": "Inkay",
       "types": [
         "DARK",
@@ -32503,6 +32594,7 @@
       "image": "/images/pokemonFront/SKRELP.png",
       "location": "/images/location/SKRELP.webp",
       "route": "Ruta 13 (surfeando/pescando)",
+      "map": "/images/maps/r13.png",
       "name": "Skrelp",
       "types": [
         "POISON",
@@ -32595,6 +32687,7 @@
       "image": "/images/pokemonFront/CLAUNCHER.png",
       "location": "/images/location/CLAUNCHER.webp",
       "route": "Ruta 10 Norte (surfeando/pescando)",
+      "map": "/images/maps/r10n.png",
       "name": "Clauncher",
       "types": [
         "WATER"
@@ -32636,6 +32729,7 @@
       "image": "/images/pokemonFront/CLAWITZER.png",
       "location": "/images/location/CLAWITZER.webp",
       "route": "Ruta 17 (surfeando)",
+      "map": "/images/maps/r17.png",
       "name": "Clawitzer",
       "types": [
         "WATER"
@@ -33036,6 +33130,7 @@
       "image": "/images/pokemonFront/HAWLUCHA.png",
       "location": "/images/location/HAWLUCHA.webp",
       "route": "Ruta 23",
+      "map": "/images/maps/r23.png",
       "name": "Hawlucha",
       "form": "Normal",
       "types": [
@@ -33331,6 +33426,7 @@
       "image": "/images/pokemonFront/PHANTUMP.png",
       "location": "/images/location/PHANTUMP.webp",
       "route": "Ruta 10 Sur",
+      "map": "/images/maps/r10s.png",
       "name": "Phantump",
       "types": [
         "GHOST",
@@ -33421,6 +33517,7 @@
       "image": "/images/pokemonFront/PUMPKABOO.png",
       "location": "/images/location/PUMPKABOO.webp",
       "route": "Ruta 10 Sur",
+      "map": "/images/maps/r10s.png",
       "form": "Pequeño",
       "name": "Pumpkaboo",
       "types": [
@@ -33778,7 +33875,7 @@
       "image": "/images/pokemonFront/DIANCIE.png",
       "location": "/images/location/DIANCIE.webp",
       "route": "Cueva Celeste - Evento",
-      "map":"/images/maps/cuevaBosqueCeleste.png",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Diancie",
       "form": "Normal",
       "types": [
@@ -34445,6 +34542,7 @@
       "image": "/images/pokemonFront/TOUCANNON.png",
       "location": "/images/location/TOUCANNON.webp",
       "route": "Ruta 17",
+      "map": "/images/maps/r17.png",
       "name": "Toucannon",
       "types": [
         "NORMAL",
@@ -34642,6 +34740,7 @@
       "image": "/images/pokemonFront/CHARJABUG.png",
       "location": "/images/location/CHARJABUG.webp",
       "route": "Ruta 13",
+      "map": "/images/maps/r13.png",
       "name": "Charjabug",
       "types": [
         "BUG",
@@ -34742,6 +34841,7 @@
       "image": "/images/pokemonFront/CRABRAWLER.png",
       "location": "/images/location/CRABRAWLER.webp",
       "route": "Ruta 12",
+      "map": "/images/maps/r12.png",
       "name": "Crabrawler",
       "types": [
         "FIGHTING"
@@ -35018,6 +35118,7 @@
       "image": "/images/pokemonFront/LYCANROC.png",
       "location": "/images/location/LYCANROC.webp",
       "route": "Ruta 23 - Mañana",
+      "map": "/images/maps/r23.png",
       "name": "Lycanroc",
       "form": "Forma Diurna",
       "types": [
@@ -35102,6 +35203,7 @@
       "image": "/images/pokemonFront/MAREANIE.png",
       "location": "/images/location/MAREANIE.webp",
       "route": "Ruta 17 (surfeando/pescando)",
+      "map": "/images/maps/r17.png",
       "name": "Mareanie",
       "types": [
         "POISON",
@@ -35149,6 +35251,7 @@
       "image": "/images/pokemonFront/TOXAPEX.png",
       "location": "/images/location/TOXAPEX.webp",
       "route": "Islote Recuerdo (surfeando)",
+      "map": "/images/maps/isloteRecuerdo.png",
       "name": "Toxapex",
       "types": [
         "POISON",
@@ -35565,6 +35668,7 @@
       "image": "/images/pokemonFront/SALANDIT.png",
       "location": "/images/location/SALANDIT.webp",
       "route": "Ruta 10 Norte",
+      "map": "/images/maps/r10n.png",
       "name": "Salandit",
       "types": [
         "POISON",
@@ -35941,6 +36045,7 @@
       "image": "/images/pokemonFront/ORANGURU.png",
       "location": "/images/location/ORANGURU.webp",
       "route": "Ruta 17",
+      "map": "/images/maps/r17.png",
       "name": "Oranguru",
       "types": [
         "NORMAL",
@@ -35974,6 +36079,7 @@
       "image": "/images/pokemonFront/PASSIMIAN.png",
       "location": "/images/location/PASSIMIAN.webp",
       "route": "Ruta 17",
+      "map": "/images/maps/r17.png",
       "name": "Passimian",
       "types": [
         "FIGHTING"
@@ -36091,6 +36197,7 @@
       "image": "/images/pokemonFront/SANDYGAST.png",
       "location": "/images/location/SANDYGAST.webp",
       "route": "Ruta 17",
+      "map": "/images/maps/r17.png",
       "name": "Sandygast",
       "types": [
         "GHOST",
@@ -36183,6 +36290,7 @@
       "image": "/images/pokemonFront/PYUKUMUKU.png",
       "location": "/images/location/PYUKUMUKU.webp",
       "route": "Ruta 17",
+      "map": "/images/maps/r17.png",
       "name": "Pyukumuku",
       "types": [
         "WATER"
@@ -36654,6 +36762,7 @@
       "image": "/images/pokemonFront/KOMMOO.png",
       "location": "/images/location/KOMMOO.webp",
       "route": "Islote Recuerdo",
+      "map": "/images/maps/isloteRecuerdo.png",
       "name": "Kommo-o",
       "types": [
         "DRAGON",
@@ -36708,6 +36817,7 @@
       "image": "/images/pokemonFront/TAPUKOKO.png",
       "location": "/images/location/TAPUKOKO.webp",
       "route": "Ruta 19 - Evento",
+      "map": "/images/maps/r19.png",
       "name": "Tapu Koko",
       "types": [
         "ELECTRIC",
@@ -36769,6 +36879,7 @@
       "image": "/images/pokemonFront/TAPUBULU.png",
       "location": "/images/location/TAPUBULU.webp",
       "route": "Ruta 13 - Evento",
+      "map": "/images/maps/r13.png",
       "name": "Tapu Bulu",
       "types": [
         "GRASS",
@@ -36799,6 +36910,7 @@
       "image": "/images/pokemonFront/TAPUFINI.png",
       "location": "/images/location/TAPUFINI.webp",
       "route": "Ruta 17 - Evento",
+      "map": "/images/maps/r17.png",
       "name": "Tapu Fini",
       "types": [
         "WATER",
@@ -37126,6 +37238,7 @@
       "image": "/images/pokemonFront/XURKITREE.png",
       "location": "/images/location/XURKITREE.webp",
       "route": "Ruta 10 Norte - Evento",
+      "map": "/images/maps/r10n.png",
       "name": "Xurkitree",
       "types": [
         "ELECTRIC"
@@ -37182,6 +37295,7 @@
       "image": "/images/pokemonFront/KARTANA.png",
       "location": "/images/location/KARTANA.webp",
       "route": "Ruta 12 - Evento",
+      "map": "/images/maps/r12.png",
       "name": "Kartana",
       "types": [
         "GRASS",
@@ -37239,7 +37353,7 @@
       "image": "/images/pokemonFront/NECROZMA.png",
       "location": "/images/location/NECROZMA.webp",
       "route": "Cueva Celeste - Evento",
-      "map":"/images/maps/cuevaBosqueCeleste.png",
+      "map": "/images/maps/cuevaBosqueCeleste.png",
       "name": "Necrozma",
       "form": "Normal",
       "types": [
@@ -37408,6 +37522,7 @@
       "image": "/images/pokemonFront/STAKATAKA.png",
       "location": "/images/location/STAKATAKA.webp",
       "route": "Ruta 23 - Evento",
+      "map": "/images/maps/r23.png",
       "name": "Stakataka",
       "types": [
         "ROCK",
@@ -38243,6 +38358,7 @@
       "image": "/images/pokemonFront/CORVIKNIGHT.png",
       "location": "/images/location/CORVIKNIGHT.webp",
       "route": "Ruta 23",
+      "map": "/images/maps/r23.png",
       "name": "Corviknight",
       "form": "Normal",
       "types": [
@@ -38598,6 +38714,7 @@
       "image": "/images/pokemonFront/ELDEGOSS.png",
       "location": "/images/location/ELDEGOSS.webp",
       "route": "Ruta 13",
+      "map": "/images/maps/r13.png",
       "name": "Eldegoss",
       "types": [
         "GRASS"
@@ -39384,6 +39501,7 @@
       "image": "/images/pokemonFront/CRAMORANT.png",
       "location": "/images/location/CRAMORANT.webp",
       "route": "Ruta 19 (pescando)",
+      "map": "/images/maps/r19.png",
       "name": "Cramorant",
       "types": [
         "FLYING",
@@ -39456,6 +39574,7 @@
       "image": "/images/pokemonFront/BARRASKEWDA.png",
       "location": "/images/location/BARRASKEWDA.webp",
       "route": "Camino de Bicis (surfeando/pescando)",
+      "map": "/images/maps/caminoBicis.png",
       "name": "Barraskewda",
       "types": [
         "WATER"
@@ -40238,6 +40357,7 @@
       "image": "/images/pokemonFront/PERRSERKER.png",
       "location": "/images/location/PERRSERKER.webp",
       "route": "Camino de Bicis",
+      "map": "/images/maps/caminoBicis.png",
       "name": "Perrserker",
       "types": [
         "STEEL"
@@ -40546,6 +40666,7 @@
       "location": "/images/location/FALINKS.webp",
       "form": "Normal",
       "route": "Camino de Bicis",
+      "map": "/images/maps/caminoBicis.png",
       "name": "Falinks",
       "types": [
         "FIGHTING"
@@ -42577,6 +42698,7 @@
       "image": "/images/pokemonFront/NYMBLE.png",
       "location": "/images/location/NYMBLE.webp",
       "route": "Ruta 6",
+      "map": "/images/maps/r6.png",
       "name": "Nymble",
       "types": [
         "BUG"
@@ -43631,6 +43753,7 @@
       "image": "/images/pokemonFront/KILOWATTREL.png",
       "location": "/images/location/KILOWATTREL.webp",
       "route": "Ruta 12",
+      "map": "/images/maps/r12.png",
       "name": "Kilowattrel",
       "types": [
         "ELECTRIC",
@@ -44114,7 +44237,8 @@
       "image": "/images/pokemonFront/SCOVILLAIN.png",
       "location": "/images/location/SCOVILLAIN.webp",
       "form": "Normal",
-      "route": "Cabo Azabache",
+      "route": "Villa Azabache",
+      "map": "/images/maps/villaAzabache.png",
       "name": "Scovillain",
       "types": [
         "GRASS",
@@ -44502,6 +44626,7 @@
       "image": "/images/pokemonFront/WIGLETT.png",
       "location": "/images/location/WIGLETT.webp",
       "route": "Ruta 17",
+      "map": "/images/maps/r17.png",
       "name": "Wiglett",
       "types": [
         "WATER"
@@ -44547,6 +44672,7 @@
       "image": "/images/pokemonFront/WUGTRIO.png",
       "location": "/images/location/WUGTRIO.webp",
       "route": "Ruta 17",
+      "map": "/images/maps/r17.png",
       "name": "Wugtrio",
       "types": [
         "WATER"
@@ -44625,6 +44751,7 @@
       "image": "/images/pokemonFront/FINIZEN.png",
       "location": "/images/location/FINIZEN.webp",
       "route": "Ruta 23 (surfeando/pescando)",
+      "map": "/images/maps/r23.png",
       "name": "Finizen",
       "types": [
         "WATER"
@@ -44798,6 +44925,7 @@
       "image": "/images/pokemonFront/CYCLIZAR.png",
       "location": "/images/location/CYCLIZAR.webp",
       "route": "Camino de Bicis",
+      "map": "/images/maps/caminoBicis.png",
       "name": "Cyclizar",
       "types": [
         "DRAGON",
@@ -44830,6 +44958,7 @@
       "image": "/images/pokemonFront/ORTHWORM.png",
       "location": "/images/location/ORTHWORM.webp",
       "route": "Ruta 10 Norte",
+      "map": "/images/maps/r10n.png",
       "name": "Orthworm",
       "types": [
         "STEEL"
@@ -45119,6 +45248,7 @@
       "image": "/images/pokemonFront/CETITAN.png",
       "location": "/images/location/CETITAN.webp",
       "route": "Ruta 25 Norte",
+      "map": "/images/maps/r25n.png",
       "name": "Cetitan",
       "types": [
         "ICE"
@@ -45164,6 +45294,7 @@
       "image": "/images/pokemonFront/VELUZA.png",
       "location": "/images/location/VELUZA.webp",
       "route": "Ruta 19 (surfeando)",
+      "map": "/images/maps/r19.png",
       "name": "Veluza",
       "types": [
         "WATER",
@@ -46136,6 +46267,7 @@
       "image": "/images/pokemonFront/CHIENPAO.png",
       "location": "/images/location/CHIENPAO.webp",
       "route": "Ruta 25 Norte - Evento",
+      "map": "/images/maps/r25n.png",
       "name": "Chien-Pao",
       "types": [
         "DARK",
@@ -46281,6 +46413,7 @@
       "image": "/images/pokemonFront/KORAIDON.png",
       "location": "/images/location/KORAIDON.webp",
       "route": "Camino de Bicis - Evento",
+      "map": "/images/maps/caminoBicis.png",
       "name": "Koraidon",
       "types": [
         "FIGHTING",
