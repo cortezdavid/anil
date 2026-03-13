@@ -9112,6 +9112,7 @@
       "image": "/images/pokemonFront/MARILL.png",
       "location": "/images/location/MARILL.webp",
       "route": "Pueblo Paleta (surfeando/pescando)",
+      "map": "/images/maps/puebloPaleta.png",
       "name": "Marill",
       "types": [
         "WATER",
@@ -10073,6 +10074,7 @@
       "image": "/images/pokemonFront/UNOWN.png",
       "location": "/images/location/UNOWN.webp",
       "route": "Claro Secreto (Bosque Verde)",
+      "map": "/images/maps/bosqueVerde.png",
       "name": "Unown",
       "types": [
         "PSYCHIC"
@@ -10600,6 +10602,7 @@
       "image": "/images/pokemonFront/SHUCKLE.png",
       "location": "/images/location/SHUCKLE.webp",
       "route": "Ruta 25 Sur",
+      "map": "/images/maps/r25s.png",
       "name": "Shuckle",
       "types": [
         "BUG",
@@ -11060,6 +11063,7 @@
       "image": "/images/pokemonFront/REMORAID.png",
       "location": "/images/location/REMORAID.webp",
       "route": "Ciudad Carmín (surfeando/pescando)",
+      "map": "/images/maps/ciudadCarmin.png",
       "name": "Remoraid",
       "types": [
         "WATER"
@@ -15617,6 +15621,7 @@
       "image": "/images/pokemonFront/CARVANHA.png",
       "location": "/images/location/CARVANHA.webp",
       "route": "Ciudad Carmín (surfeando/pescando)",
+      "map": "/images/maps/ciudadCarmin.png",
       "name": "Carvanha",
       "types": [
         "WATER",
@@ -18520,6 +18525,7 @@
       "image": "/images/pokemonFront/JIRACHI.png",
       "location": "/images/location/JIRACHI.webp",
       "route": "Laboratorio - Evento",
+      "map": "/images/maps/puebloPaleta.png",
       "name": "Jirachi",
       "types": [
         "STEEL",
@@ -19604,6 +19610,7 @@
       "image": "/images/pokemonFront/ROSERADE.png",
       "location": "/images/location/ROSERADE.webp",
       "route": "Ruta 25 Sur",
+      "map": "/images/maps/r25s.png",
       "name": "Roserade",
       "types": [
         "GRASS",
@@ -23365,6 +23372,7 @@
       "image": "/images/pokemonFront/MANAPHY.png",
       "location": "/images/location/MANAPHY.webp",
       "route": "Laboratorio - Evento",
+      "map": "/images/maps/puebloPaleta.png",
       "name": "Manaphy",
       "types": [
         "WATER"
@@ -23421,6 +23429,7 @@
       "image": "/images/pokemonFront/SHAYMIN.png",
       "location": "/images/location/SHAYMIN.webp",
       "route": "Pueblo Paleta - Evento",
+      "map": "/images/maps/puebloPaleta.png",
       "name": "Shaymin",
       "form": "Forma Tierra",
       "types": [
@@ -23479,6 +23488,7 @@
       "image": "/images/pokemonFront/VICTINI.png",
       "location": "/images/location/VICTINI.webp",
       "route": "Laboratorio - Evento",
+      "map": "/images/maps/puebloPaleta.png",
       "name": "Victini",
       "types": [
         "PSYCHIC",
@@ -33784,6 +33794,7 @@
       "image": "/images/pokemonFront/NOIVERN.png",
       "location": "/images/location/NOIVERN.webp",
       "route": "Ruta 25 Sur",
+      "map": "/images/maps/r25s.png",
       "name": "Noivern",
       "types": [
         "FLYING",
@@ -33946,6 +33957,7 @@
       "image": "/images/pokemonFront/HOOPA.png",
       "location": "/images/location/HOOPA.webp",
       "route": "Laboratorio - Evento",
+      "map": "/images/maps/puebloPaleta.png",
       "name": "Hoopa",
       "form": "Normal",
       "types": [
@@ -36365,6 +36377,7 @@
       "image": "/images/pokemonFront/TYPENULL.png",
       "location": "/images/location/TYPENULL.webp",
       "route": "Laboratorio - Evento",
+      "map": "/images/maps/puebloPaleta.png",
       "name": "Código Cero",
       "types": [
         "NORMAL"
@@ -36985,6 +36998,7 @@
       "image": "/images/pokemonFront/COSMOG.png",
       "location": "/images/location/COSMOG.webp",
       "route": "Laboratorio - Evento",
+      "map": "/images/maps/puebloPaleta.png",
       "name": "Cosmog",
       "types": [
         "PSYCHIC"
@@ -37484,6 +37498,7 @@
       "image": "/images/pokemonFront/POIPOLE.png",
       "location": "/images/location/POIPOLE.webp",
       "route": "Laboratorio - Evento",
+      "map": "/images/maps/puebloPaleta.png",
       "name": "Poipole",
       "types": [
         "POISON"
@@ -37625,6 +37640,7 @@
       "location": "/images/location/ZERAORA.webp",
       "form": "Normal",
       "route": "Ruta 25 Sur - Evento",
+      "map": "/images/maps/r25s.png",
       "name": "Zeraora",
       "types": [
         "ELECTRIC"
@@ -37652,6 +37668,7 @@
       "image": "/images/pokemonFront/MELTAN.png",
       "location": "/images/location/MELTAN.webp",
       "route": "Laboratorio - Evento",
+      "map": "/images/maps/puebloPaleta.png",
       "name": "Meltan",
       "types": [
         "STEEL"
@@ -38941,6 +38958,7 @@
       "image": "/images/pokemonFront/DREDNAW.png",
       "location": "/images/location/DREDNAW.webp",
       "route": "Ruta 25 Sur (surfeando/pescando)",
+      "map": "/images/maps/r25s.png",
       "name": "Drednaw",
       "form": "Normal",
       "types": [
@@ -40490,6 +40508,7 @@
       "image": "/images/pokemonFront/SIRFETCHD.png",
       "location": "/images/location/SIRFETCHD.webp",
       "route": "Ruta 25 Sur",
+      "map": "/images/maps/r25s.png",
       "name": "Sirfetch'd",
       "types": [
         "FIGHTING"
@@ -41513,6 +41532,7 @@
       "image": "/images/pokemonFront/KUBFU.png",
       "location": "/images/location/KUBFU.webp",
       "route": "Laboratorio - Evento",
+      "map": "/images/maps/puebloPaleta.png",
       "name": "Kubfu",
       "types": [
         "FIGHTING"
@@ -41774,6 +41794,7 @@
       "image": "/images/pokemonFront/WYRDEER.png",
       "location": "/images/location/WYRDEER.webp",
       "route": "Ruta 25 Sur",
+      "map": "/images/maps/r25s.png",
       "name": "Wyrdeer",
       "types": [
         "NORMAL",
@@ -41974,6 +41995,7 @@
       "image": "/images/pokemonFront/SNEASLER.png",
       "location": "/images/location/SNEASLER.webp",
       "route": "Ruta 25 Sur",
+      "map": "/images/maps/r25s.png",
       "name": "Sneasler",
       "types": [
         "FIGHTING",
@@ -46351,6 +46373,7 @@
       "image": "/images/pokemonFront/TINGLU.png",
       "location": "/images/location/TINGLU.webp",
       "route": "Ruta 25 Sur - Evento",
+      "map": "/images/maps/r25s.png",
       "name": "Ting-Lu",
       "types": [
         "DARK",
@@ -46841,6 +46864,7 @@
       "image": "/images/pokemonFront/OGERPON.png",
       "location": "/images/location/OGERPON.webp",
       "route": "Ruta 25 Sur - Evento",
+      "map": "/images/maps/r25s.png",
       "name": "Ogerpon",
       "form": "Máscara Turquesa",
       "types": [
