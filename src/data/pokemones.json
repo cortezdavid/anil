@@ -25810,6 +25810,7 @@
       "image": "/images/pokemonFront/LEAVANNY.png",
       "location": "/images/location/LEAVANNY.webp",
       "route": "Ruta 28",
+      "map": "/images/maps/r28.png",
       "name": "Leavanny",
       "types": [
         "BUG",
@@ -28458,6 +28459,7 @@
       "image": "/images/pokemonFront/FERROTHORN.png",
       "location": "/images/location/FERROTHORN.webp",
       "route": "Ruta 28",
+      "map": "/images/maps/r28.png",
       "name": "Ferrothorn",
       "types": [
         "GRASS",
@@ -36299,6 +36301,7 @@
       "image": "/images/pokemonFront/PALOSSAND.png",
       "location": "/images/location/PALOSSAND.webp",
       "route": "Ruta 28",
+      "map": "/images/maps/r28.png",
       "name": "Palossand",
       "types": [
         "GHOST",
@@ -39911,6 +39914,7 @@
       "image": "/images/pokemonFront/GRAPPLOCT.png",
       "location": "/images/location/GRAPPLOCT.webp",
       "route": "Ruta 28",
+      "map": "/images/maps/r28.png",
       "name": "Grapploct",
       "types": [
         "FIGHTING"
