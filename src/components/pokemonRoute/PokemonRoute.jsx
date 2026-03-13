@@ -5,7 +5,7 @@ const PokemonRoute = ({ pokemon }) => {
         <div className="bg-slate-800 rounded-2xl p-10 text-center">
           <div className="text-5xl mb-3">🗺️</div>
           <p className="text-slate-300 font-semibold">
-            Este Pokémon no aparece en ninguna ruta 
+            Este Pokémon no aparece en ninguna ruta
           </p>
         </div>
       </div>
@@ -42,6 +42,13 @@ const PokemonRoute = ({ pokemon }) => {
                 </p>
               </div>
             </div>
+            {pokemon.map && (
+              <img
+                src={pokemon.map}
+                alt={`Mapa de ${pokemon.route}`}
+                className="mt-3 rounded-xl w-full object-cover"
+              />
+            )}
           </div>
         </div>
       </div>

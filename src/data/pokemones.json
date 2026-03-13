@@ -5,6 +5,7 @@
       "image": "/images/pokemonFront/BULBASAUR.png",
       "location": "/images/location/BULBASAUR.webp",
       "route": "Ciudad Celeste",
+      "map": "/images/maps/ciudadCeleste.png",
       "name": "Bulbasaur",
       "types": [
         "GRASS",
@@ -161,6 +162,7 @@
       "image": "/images/pokemonFront/CHARMANDER.png",
       "location": "/images/location/CHARMANDER.webp",
       "route": "Ciudad Celeste",
+      "map": "/images/maps/ciudadCeleste.png",
       "name": "Charmander",
       "types": [
         "FIRE"
@@ -317,6 +319,7 @@
       "image": "/images/pokemonFront/SQUIRTLE.png",
       "location": "/images/location/SQUIRTLE.webp",
       "route": "Ciudad Celeste",
+      "map": "/images/maps/ciudadCeleste.png",
       "name": "Squirtle",
       "types": [
         "WATER"
@@ -782,6 +785,7 @@
       "image": "/images/pokemonFront/PIDGEY.png",
       "location": "/images/location/PIDGEY.webp",
       "route": "Pueblo Paleta",
+      "map": "/images/maps/puebloPaleta.png",
       "name": "Pidgey",
       "types": [
         "NORMAL",
@@ -944,6 +948,7 @@
       "image": "/images/pokemonFront/RATTATA.png",
       "location": "/images/location/RATTATA.webp",
       "route": "Pueblo Paleta",
+      "map": "/images/maps/puebloPaleta.png",
       "name": "Rattata",
       "form": "Normal",
       "types": [
@@ -1128,6 +1133,7 @@
       "image": "/images/pokemonFront/EKANS.png",
       "location": "/images/location/EKANS.webp",
       "route": "Ruta 3",
+      "map": "/images/maps/r3.png",
       "name": "Ekans",
       "types": [
         "POISON"
@@ -1933,6 +1939,7 @@
       "image": "/images/pokemonFront/JIGGLYPUFF.png",
       "location": "/images/location/JIGGLYPUFF.webp",
       "route": "Ruta 3",
+      "map": "/images/maps/r3.png",
       "name": "Jigglypuff",
       "types": [
         "NORMAL",
@@ -2148,6 +2155,7 @@
       "image": "/images/pokemonFront/ODDISH.png",
       "location": "/images/location/ODDISH.webp",
       "route": "Ruta 2 Sur",
+      "map": "/images/maps/r2s.png",
       "name": "Oddish",
       "types": [
         "GRASS",
@@ -2691,6 +2699,7 @@
       "image": "/images/pokemonFront/PSYDUCK.png",
       "location": "/images/location/PSYDUCK.webp",
       "route": "Ruta 1 (surfeando/pescando)",
+      "map": "/images/maps/r1.png",
       "name": "Psyduck",
       "types": [
         "WATER"
@@ -2886,6 +2895,7 @@
       "image": "/images/pokemonFront/GROWLITHE.png",
       "location": "/images/location/GROWLITHE.webp",
       "route": "Ruta 8",
+      "map": "/images/maps/r8.png",
       "name": "Growlithe",
       "form": "Normal",
       "types": [
@@ -2977,6 +2987,7 @@
       "image": "/images/pokemonFront/POLIWAG.png",
       "location": "/images/location/POLIWAG.webp",
       "route": "Ciudad Celeste",
+      "map": "/images/maps/ciudadCeleste.png",
       "name": "Poliwag",
       "types": [
         "WATER"
@@ -3306,6 +3317,7 @@
       "image": "/images/pokemonFront/MACHOP.png",
       "location": "/images/location/MACHOP.webp",
       "route": "Ciudad Plateada",
+      "map": "/images/maps/ciudadPlateada.png",
       "name": "Machop",
       "types": [
         "FIGHTING"
@@ -3887,6 +3899,7 @@
       "image": "/images/pokemonFront/PONYTA.png",
       "location": "/images/location/PONYTA.webp",
       "route": "Mansión Quemada",
+      "map": "/images/maps/islaCanela.png",
       "name": "Ponyta",
       "form": "Normal",
       "types": [
@@ -3933,6 +3946,7 @@
       "image": "/images/pokemonFront/RAPIDASH.png",
       "location": "/images/location/RAPIDASH.webp",
       "route": "Mansión Quemada",
+      "map": "/images/maps/islaCanela.png",
       "name": "Rapidash",
       "form": "Normal",
       "types": [
@@ -4221,6 +4235,7 @@
       "image": "/images/pokemonFront/DODUO.png",
       "location": "/images/location/DODUO.webp",
       "route": "Ruta 11",
+      "map": "/images/maps/r11.png",
       "name": "Doduo",
       "types": [
         "NORMAL",
@@ -4268,6 +4283,7 @@
       "image": "/images/pokemonFront/DODRIO.png",
       "location": "/images/location/DODRIO.webp",
       "route": "Ruta 16",
+      "map": "/images/maps/r16.png",
       "name": "Dodrio",
       "types": [
         "NORMAL",
@@ -4406,6 +4422,7 @@
       "image": "/images/pokemonFront/GRIMER.png",
       "location": "/images/location/GRIMER.webp",
       "route": "Ciudad Carmín",
+      "map": "/images/maps/ciudadCarmin.png",
       "name": "Grimer",
       "form": "Normal",
       "types": [
@@ -4452,6 +4469,7 @@
       "image": "/images/pokemonFront/MUK.png",
       "location": "/images/location/MUK.webp",
       "route": "Ciudad Azulona (surfeando/nadando)",
+      "map": "/images/maps/ciudadAzulona.png",
       "name": "Muk",
       "form": "Normal",
       "types": [
@@ -4590,6 +4608,7 @@
       "image": "/images/pokemonFront/GASTLY.png",
       "location": "/images/location/GASTLY.webp",
       "route": "Torre Pokémon",
+      "map": "/images/maps/puebloLavanda.png",
       "name": "Gastly",
       "types": [
         "GHOST",
@@ -4640,6 +4659,7 @@
       "image": "/images/pokemonFront/HAUNTER.png",
       "location": "/images/location/HAUNTER.webp",
       "route": "Torre Pokémon",
+      "map": "/images/maps/puebloLavanda.png",
       "name": "Haunter",
       "types": [
         "GHOST",
@@ -4785,6 +4805,7 @@
       "image": "/images/pokemonFront/DROWZEE.png",
       "location": "/images/location/DROWZEE.webp",
       "route": "Ciudad Celeste",
+      "map": "/images/maps/ciudadCeleste.png",
       "name": "Drowzee",
       "types": [
         "PSYCHIC"
@@ -5054,6 +5075,7 @@
       "image": "/images/pokemonFront/EXEGGCUTE.png",
       "location": "/images/location/EXEGGCUTE.webp",
       "route": "Ruta 2 Norte",
+      "map": "/images/maps/r2n.png",
       "name": "Exeggcute",
       "types": [
         "GRASS",
@@ -5239,6 +5261,7 @@
       "image": "/images/pokemonFront/HITMONLEE.png",
       "location": "/images/location/HITMONLEE.webp",
       "route": "Ciudad Azafrán",
+      "map": "/images/maps/ciudadAzafran.png",
       "name": "Hitmonlee",
       "types": [
         "FIGHTING"
@@ -5292,6 +5315,7 @@
       "image": "/images/pokemonFront/HITMONCHAN.png",
       "location": "/images/location/HITMONCHAN.webp",
       "route": "Ciudad Azafrán",
+      "map": "/images/maps/ciudadAzafran.png",
       "name": "Hitmonchan",
       "types": [
         "FIGHTING"
@@ -5436,6 +5460,7 @@
       "image": "/images/pokemonFront/WEEZING.png",
       "location": "/images/location/WEEZING.webp",
       "route": "Mansión Quemada",
+      "map": "/images/maps/islaCanela.png",
       "name": "Weezing",
       "form": "Normal",
       "types": [
@@ -5918,6 +5943,7 @@
       "image": "/images/pokemonFront/STARYU.png",
       "location": "/images/location/STARYU.webp",
       "route": "Ciudad Verde (surfeando/pescando)",
+      "map": "/images/maps/ciudadVerde.png",
       "name": "Staryu",
       "types": [
         "WATER"
@@ -6012,6 +6038,7 @@
       "image": "/images/pokemonFront/MRMIME.png",
       "location": "/images/location/MRMIME.webp",
       "route": "Ciudad Carmín",
+      "map": "/images/maps/ciudadCarmin.png",
       "name": "Mr. Mime",
       "form": "Normal",
       "types": [
@@ -6207,6 +6234,7 @@
       "image": "/images/pokemonFront/MAGMAR.png",
       "location": "/images/location/MAGMAR.webp",
       "route": "Mansión Quemada",
+      "map": "/images/maps/islaCanela.png",
       "name": "Magmar",
       "types": [
         "FIRE"
@@ -6260,6 +6288,7 @@
       "image": "/images/pokemonFront/PINSIR.png",
       "location": "/images/location/PINSIR.webp",
       "route": "Ruta 14",
+      "map": "/images/maps/r14.png",
       "name": "Pinsir",
       "form": "Normal",
       "types": [
@@ -6292,6 +6321,7 @@
       "image": "/images/pokemonFront/TAUROS.png",
       "location": "/images/location/TAUROS.webp",
       "route": "Pueblo Marengo",
+      "map": "/images/maps/puebloMarengo.png",
       "name": "Tauros",
       "form": "Normal",
       "types": [
@@ -6477,6 +6507,7 @@
       "location": "/images/location/EEVEE.webp",
       "name": "Eevee",
       "route": "Ciudad Azulona",
+      "map": "/images/maps/ciudadAzulona.png",
       "form": "Normal",
       "types": [
         "NORMAL"
@@ -6822,6 +6853,7 @@
       "image": "/images/pokemonFront/PORYGON.png",
       "location": "/images/location/PORYGON.webp",
       "route": "Ciudad Azulona",
+      "map": "/images/maps/ciudadAzulona.png",
       "name": "Porygon",
       "types": [
         "NORMAL"
@@ -6875,6 +6907,7 @@
       "image": "/images/pokemonFront/OMANYTE.png",
       "location": "/images/location/OMANYTE.webp",
       "route": "Isla Canela - (Fósil Helix)",
+      "map": "/images/maps/islaCanela.png",
       "name": "Omanyte",
       "types": [
         "ROCK",
@@ -6966,6 +6999,7 @@
       "image": "/images/pokemonFront/KABUTO.png",
       "location": "/images/location/KABUTO.webp",
       "route": "Isla Canela - (Fósil Domo)",
+      "map": "/images/maps/islaCanela.png",
       "name": "Kabuto",
       "types": [
         "ROCK",
@@ -7057,6 +7091,7 @@
       "image": "/images/pokemonFront/AERODACTYL.png",
       "location": "/images/location/AERODACTYL.webp",
       "route": "Isla Canela - (Ámbar Viejo)",
+      "map": "/images/maps/islaCanela.png",
       "name": "Aerodactyl",
       "form": "Normal",
       "types": [
@@ -7423,6 +7458,7 @@
       "image": "/images/pokemonFront/MEW.png",
       "location": "/images/location/MEW.webp",
       "route": "Ciudad Carmín",
+      "map": "/images/maps/ciudadCarmin.png",
       "name": "Mew",
       "types": [
         "PSYCHIC"
@@ -7451,6 +7487,7 @@
       "image": "/images/pokemonFront/CHIKORITA.png",
       "location": "/images/location/CHIKORITA.webp",
       "route": "Ciudad Celeste",
+      "map": "/images/maps/ciudadCeleste.png",
       "name": "Chikorita",
       "types": [
         "GRASS",
@@ -7609,6 +7646,7 @@
       "image": "/images/pokemonFront/CYNDAQUIL.png",
       "location": "/images/location/CYNDAQUIL.webp",
       "route": "Ciudad Celeste",
+      "map": "/images/maps/ciudadCeleste.png",
       "name": "Cyndaquil",
       "types": [
         "FIRE",
@@ -7767,6 +7805,7 @@
       "image": "/images/pokemonFront/TOTODILE.png",
       "location": "/images/location/TOTODILE.webp",
       "route": "Ciudad Celeste",
+      "map": "/images/maps/ciudadCeleste.png",
       "name": "Totodile",
       "types": [
         "WATER"
@@ -7923,6 +7962,7 @@
       "image": "/images/pokemonFront/SENTRET.png",
       "location": "/images/location/SENTRET.webp",
       "route": "Pueblo Paleta",
+      "map": "/images/maps/puebloPaleta.png",
       "name": "Sentret",
       "types": [
         "NORMAL"
@@ -8011,6 +8051,7 @@
       "image": "/images/pokemonFront/HOOTHOOT.png",
       "location": "/images/location/HOOTHOOT.webp",
       "route": "Ciudad Celeste",
+      "map": "/images/maps/ciudadCeleste.png",
       "name": "Hoothoot",
       "types": [
         "NORMAL",
@@ -8057,6 +8098,7 @@
       "image": "/images/pokemonFront/NOCTOWL.png",
       "location": "/images/location/NOCTOWL.webp",
       "route": "Ruta 15",
+      "map": "/images/maps/r15.png",
       "name": "Noctowl",
       "types": [
         "NORMAL",
@@ -8103,6 +8145,7 @@
       "image": "/images/pokemonFront/LEDYBA.png",
       "location": "/images/location/LEDYBA.webp",
       "route": "Pueblo Paleta",
+      "map": "/images/maps/puebloPaleta.png",
       "name": "Ledyba",
       "types": [
         "BUG",
@@ -8193,6 +8236,7 @@
       "image": "/images/pokemonFront/SPINARAK.png",
       "location": "/images/location/SPINARAK.webp",
       "route": "Ruta 3",
+      "map": "/images/maps/r3.png",
       "name": "Spinarak",
       "types": [
         "BUG",
@@ -8587,6 +8631,7 @@
       "image": "/images/pokemonFront/TOGEPI.png",
       "location": "/images/location/TOGEPI.webp",
       "route": "Ciudad Plateada - Evento",
+      "map": "/images/maps/ciudadPlateada.png",
       "name": "Togepi",
       "types": [
         "FAIRY"
@@ -8784,6 +8829,7 @@
       "image": "/images/pokemonFront/MAREEP.png",
       "location": "/images/location/MAREEP.webp",
       "route": "Ruta 1",
+      "map": "/images/maps/r1.png",
       "name": "Mareep",
       "types": [
         "ELECTRIC"
@@ -8887,6 +8933,7 @@
       "image": "/images/pokemonFront/AMPHAROS.png",
       "location": "/images/location/AMPHAROS.webp",
       "route": "Ciudad Añil",
+      "map": "/images/maps/ciudadAnil.png",
       "name": "Ampharos",
       "form": "Normal",
       "types": [
@@ -9203,6 +9250,7 @@
       "image": "/images/pokemonFront/HOPPIP.png",
       "location": "/images/location/HOPPIP.webp",
       "route": "Ciudad Verde",
+      "map": "/images/maps/ciudadVerde.png",
       "name": "Hoppip",
       "types": [
         "GRASS",
@@ -9257,6 +9305,7 @@
       "image": "/images/pokemonFront/SKIPLOOM.png",
       "location": "/images/location/SKIPLOOM.webp",
       "route": "Ruta 15",
+      "map": "/images/maps/r15.png",
       "name": "Skiploom",
       "types": [
         "GRASS",
@@ -9365,6 +9414,7 @@
       "image": "/images/pokemonFront/AIPOM.png",
       "location": "/images/location/AIPOM.webp",
       "route": "Ciudad Celeste",
+      "map": "/images/maps/ciudadCeleste.png",
       "name": "Aipom",
       "types": [
         "NORMAL"
@@ -9545,6 +9595,7 @@
       "image": "/images/pokemonFront/WOOPER.png",
       "location": "/images/location/WOOPER.webp",
       "route": "Ruta 2 Sur",
+      "map": "/images/maps/r2s.png",
       "name": "Wooper",
       "form": "Normal",
       "types": [
@@ -9809,6 +9860,7 @@
       "image": "/images/pokemonFront/MURKROW.png",
       "location": "/images/location/MURKROW.webp",
       "route": "Ruta 8",
+      "map": "/images/maps/r8.png",
       "name": "Murkrow",
       "types": [
         "DARK",
@@ -9905,6 +9957,7 @@
       "image": "/images/pokemonFront/MISDREAVUS.png",
       "location": "/images/location/MISDREAVUS.webp",
       "route": "Torre Pokémon",
+      "map": "/images/maps/puebloLavanda.png",
       "name": "Misdreavus",
       "types": [
         "GHOST",
@@ -10108,6 +10161,7 @@
       "image": "/images/pokemonFront/FORRETRESS.png",
       "location": "/images/location/FORRETRESS.webp",
       "route": "Ciudad Fucsia",
+      "map": "/images/maps/ciudadFucsia.png",
       "name": "Forretress",
       "types": [
         "BUG",
@@ -10291,6 +10345,7 @@
       "image": "/images/pokemonFront/SNUBBULL.png",
       "location": "/images/location/SNUBBULL.webp",
       "route": "Ciudad Verde",
+      "map": "/images/maps/ciudadVerde.png",
       "name": "Snubbull",
       "types": [
         "FAIRY"
@@ -10336,6 +10391,7 @@
       "image": "/images/pokemonFront/GRANBULL.png",
       "location": "/images/location/GRANBULL.webp",
       "route": "Ciudad Añil",
+      "map": "/images/maps/ciudadAnil.png",
       "name": "Granbull",
       "types": [
         "FAIRY",
@@ -10498,6 +10554,7 @@
       "image": "/images/pokemonFront/HERACROSS.png",
       "location": "/images/location/HERACROSS.webp",
       "route": "Ruta 11",
+      "map": "/images/maps/r11.png",
       "name": "Heracross",
       "form": "Normal",
       "types": [
@@ -10531,6 +10588,7 @@
       "image": "/images/pokemonFront/SNEASEL.png",
       "location": "/images/location/SNEASEL.webp",
       "route": "Ruta 2 Norte",
+      "map": "/images/maps/r2n.png",
       "name": "Sneasel",
       "form": "Normal",
       "types": [
@@ -10579,6 +10637,7 @@
       "image": "/images/pokemonFront/TEDDIURSA.png",
       "location": "/images/location/TEDDIURSA.webp",
       "route": "Ruta 4",
+      "map": "/images/maps/r4.png",
       "name": "Teddiursa",
       "types": [
         "NORMAL"
@@ -10685,6 +10744,7 @@
       "image": "/images/pokemonFront/SLUGMA.png",
       "location": "/images/location/SLUGMA.webp",
       "route": "Ruta 11",
+      "map": "/images/maps/r11.png",
       "name": "Slugma",
       "types": [
         "FIRE"
@@ -10962,6 +11022,7 @@
       "image": "/images/pokemonFront/OCTILLERY.png",
       "location": "/images/location/OCTILLERY.webp",
       "route": "Pueblo Marengo (surfeando/pescando)",
+      "map": "/images/maps/puebloMarengo.png",
       "name": "Octillery",
       "types": [
         "WATER"
@@ -11120,6 +11181,7 @@
       "image": "/images/pokemonFront/HOUNDOUR.png",
       "location": "/images/location/HOUNDOUR.webp",
       "route": "Ruta 4",
+      "map": "/images/maps/r4.png",
       "name": "Houndour",
       "types": [
         "DARK",
@@ -11267,6 +11329,7 @@
       "image": "/images/pokemonFront/PHANPY.png",
       "location": "/images/location/PHANPY.webp",
       "route": "Ruta 3",
+      "map": "/images/maps/r3.png",
       "name": "Phanpy",
       "types": [
         "GROUND"
@@ -11409,6 +11472,7 @@
       "image": "/images/pokemonFront/STANTLER.png",
       "location": "/images/location/STANTLER.webp",
       "route": "Ruta 9",
+      "map": "/images/maps/r9.png",
       "name": "Stantler",
       "types": [
         "NORMAL",
@@ -11455,6 +11519,7 @@
       "image": "/images/pokemonFront/SMEARGLE.png",
       "location": "/images/location/SMEARGLE.webp",
       "route": "Ruta 16",
+      "map": "/images/maps/r16.png",
       "name": "Smeargle",
       "types": [
         "NORMAL"
@@ -11636,6 +11701,7 @@
       "image": "/images/pokemonFront/ELEKID.png",
       "location": "/images/location/ELEKID.webp",
       "route": "Ciudad Plateada",
+      "map": "/images/maps/ciudadPlateada.png",
       "name": "Elekid",
       "types": [
         "ELECTRIC"
@@ -11741,6 +11807,7 @@
       "image": "/images/pokemonFront/MILTANK.png",
       "location": "/images/location/MILTANK.webp",
       "route": "Pueblo Marengo",
+      "map": "/images/maps/puebloMarengo.png",
       "name": "Miltank",
       "types": [
         "NORMAL"
@@ -11826,6 +11893,7 @@
       "image": "/images/pokemonFront/RAIKOU.png",
       "location": "/images/location/RAIKOU.webp",
       "route": "Ruta 11 - Evento",
+      "map":"/images/maps/r11.png",
       "name": "Raikou",
       "types": [
         "ELECTRIC"
@@ -12636,6 +12704,7 @@
       "image": "/images/pokemonFront/POOCHYENA.png",
       "location": "/images/location/POOCHYENA.webp",
       "route": "Pueblo Paleta",
+      "map": "/images/maps/puebloPaleta.png",
       "name": "Poochyena",
       "types": [
         "DARK"
@@ -12726,6 +12795,7 @@
       "image": "/images/pokemonFront/ZIGZAGOON.png",
       "location": "/images/location/ZIGZAGOON.webp",
       "route": "Ciudad Plateada",
+      "map": "/images/maps/ciudadPlateada.png",
       "name": "Zigzagoon",
       "form": "Normal",
       "types": [
@@ -13140,6 +13210,7 @@
       "image": "/images/pokemonFront/LOTAD.png",
       "location": "/images/location/LOTAD.webp",
       "route": "Ruta 15 (surfeando/pescando)",
+      "map": "/images/maps/r15.png",
       "name": "Lotad",
       "types": [
         "WATER",
@@ -13195,6 +13266,7 @@
       "image": "/images/pokemonFront/LOMBRE.png",
       "location": "/images/location/LOMBRE.webp",
       "route": "Ruta 21",
+      "map": "/images/maps/r21.png",
       "name": "Lombre",
       "types": [
         "WATER",
@@ -13304,6 +13376,7 @@
       "image": "/images/pokemonFront/SEEDOT.png",
       "location": "/images/location/SEEDOT.webp",
       "route": "Ruta 2 Sur",
+      "map": "/images/maps/r2s.png",
       "name": "Seedot",
       "types": [
         "GRASS"
@@ -13358,6 +13431,7 @@
       "image": "/images/pokemonFront/NUZLEAF.png",
       "location": "/images/location/NUZLEAF.webp",
       "route": "Ruta 21",
+      "map": "/images/maps/r21.png",
       "name": "Nuzleaf",
       "types": [
         "GRASS",
@@ -13556,6 +13630,7 @@
       "image": "/images/pokemonFront/WINGULL.png",
       "location": "/images/location/WINGULL.webp",
       "route": "Ciudad Celeste",
+      "map": "/images/maps/ciudadCeleste.png",
       "name": "Wingull",
       "types": [
         "WATER",
@@ -13648,6 +13723,7 @@
       "image": "/images/pokemonFront/RALTS.png",
       "location": "/images/location/RALTS.webp",
       "route": "Ruta 2 Norte",
+      "map": "/images/maps/r2n.png",
       "name": "Ralts",
       "types": [
         "PSYCHIC",
@@ -13819,6 +13895,7 @@
       "image": "/images/pokemonFront/SURSKIT.png",
       "location": "/images/location/SURSKIT.webp",
       "route": "Ruta 15 (surfeando/pescando)",
+      "map": "/images/maps/r15.png",
       "name": "Surskit",
       "types": [
         "BUG",
@@ -14147,6 +14224,7 @@
       "image": "/images/pokemonFront/NINCADA.png",
       "location": "/images/location/NINCADA.webp",
       "route": "Ruta 8",
+      "map": "/images/maps/r8.png",
       "name": "Nincada",
       "types": [
         "BUG",
@@ -14635,6 +14713,7 @@
       "image": "/images/pokemonFront/SKITTY.png",
       "location": "/images/location/SKITTY.webp",
       "route": "Ciudad Plateada",
+      "map": "/images/maps/ciudadPlateada.png",
       "name": "Skitty",
       "types": [
         "NORMAL",
@@ -14724,6 +14803,7 @@
       "image": "/images/pokemonFront/SABLEYE.png",
       "location": "/images/location/SABLEYE.webp",
       "route": "Torre Pokémon",
+      "map": "/images/maps/puebloLavanda.png",
       "name": "Sableye",
       "form": "Normal",
       "types": [
@@ -14846,6 +14926,7 @@
       "image": "/images/pokemonFront/LAIRON.png",
       "location": "/images/location/LAIRON.webp",
       "route": "Ruta 9",
+      "map": "/images/maps/r9.png",
       "name": "Lairon",
       "types": [
         "STEEL",
@@ -14957,6 +15038,7 @@
       "image": "/images/pokemonFront/MEDITITE.png",
       "location": "/images/location/MEDITITE.webp",
       "route": "Ciudad Celeste",
+      "map": "/images/maps/ciudadCeleste.png",
       "name": "Meditite",
       "types": [
         "FIGHTING",
@@ -15093,6 +15175,7 @@
       "image": "/images/pokemonFront/MANECTRIC.png",
       "location": "/images/location/MANECTRIC.webp",
       "route": "Ciudad Azafrán",
+      "map": "/images/maps/ciudadAzafran.png",
       "name": "Manectric",
       "form": "Normal",
       "types": [
@@ -15201,6 +15284,7 @@
       "image": "/images/pokemonFront/VOLBEAT.png",
       "location": "/images/location/VOLBEAT.webp",
       "route": "Ciudad Fucsia",
+      "map": "/images/maps/ciudadFucsia.png",
       "name": "Volbeat",
       "types": [
         "BUG",
@@ -15234,6 +15318,7 @@
       "image": "/images/pokemonFront/ILLUMISE.png",
       "location": "/images/location/ILLUMISE.webp",
       "route": "Ciudad Fucsia",
+      "map": "/images/maps/ciudadFucsia.png",
       "name": "Illumise",
       "types": [
         "BUG",
@@ -15267,6 +15352,7 @@
       "image": "/images/pokemonFront/ROSELIA.png",
       "location": "/images/location/ROSELIA.webp",
       "route": "Ruta 7",
+      "map": "/images/maps/r7.png",
       "name": "Roselia",
       "types": [
         "GRASS",
@@ -15322,6 +15408,7 @@
       "image": "/images/pokemonFront/GULPIN.png",
       "location": "/images/location/GULPIN.webp",
       "route": "Ruta 2 Sur",
+      "map": "/images/maps/r2s.png",
       "name": "Gulpin",
       "types": [
         "POISON"
@@ -15689,6 +15776,7 @@
       "image": "/images/pokemonFront/TORKOAL.png",
       "location": "/images/location/TORKOAL.webp",
       "route": "Mansión Quemada",
+      "map": "/images/maps/islaCanela.png",
       "name": "Torkoal",
       "types": [
         "FIRE"
@@ -15721,6 +15809,7 @@
       "image": "/images/pokemonFront/SPOINK.png",
       "location": "/images/location/SPOINK.webp",
       "route": "Ciudad Plateada",
+      "map": "/images/maps/ciudadPlateada.png",
       "name": "Spoink",
       "types": [
         "PSYCHIC"
@@ -15994,6 +16083,7 @@
       "image": "/images/pokemonFront/CACNEA.png",
       "location": "/images/location/CACNEA.webp",
       "route": "Ruta 4",
+      "map": "/images/maps/r4.png",
       "name": "Cacnea",
       "types": [
         "GRASS"
@@ -16176,6 +16266,7 @@
       "image": "/images/pokemonFront/ZANGOOSE.png",
       "location": "/images/location/ZANGOOSE.webp",
       "route": "Ruta 15",
+      "map": "/images/maps/r15.png",
       "name": "Zangoose",
       "types": [
         "NORMAL"
@@ -16207,6 +16298,7 @@
       "image": "/images/pokemonFront/SEVIPER.png",
       "location": "/images/location/SEVIPER.webp",
       "route": "Ruta 15",
+      "map": "/images/maps/r15.png",
       "name": "Seviper",
       "types": [
         "POISON"
@@ -16296,6 +16388,7 @@
       "image": "/images/pokemonFront/BARBOACH.png",
       "location": "/images/location/BARBOACH.webp",
       "route": "Ruta 1 (surfeando/pescando)",
+      "map": "/images/maps/r1.png",
       "name": "Barboach",
       "types": [
         "WATER",
@@ -16561,6 +16654,7 @@
       "image": "/images/pokemonFront/LILEEP.png",
       "location": "/images/location/LILEEP.webp",
       "route": "Isla Canela - (Fósil Raíz)",
+      "map": "/images/maps/islaCanela.png",
       "name": "Lileep",
       "types": [
         "ROCK",
@@ -16652,6 +16746,7 @@
       "image": "/images/pokemonFront/ANORITH.png",
       "location": "/images/location/ANORITH.webp",
       "route": "Isla Canela - (Fósil Garra)",
+      "map": "/images/maps/islaCanela.png",
       "name": "Anorith",
       "types": [
         "ROCK",
@@ -16861,6 +16956,7 @@
       "image": "/images/pokemonFront/KECLEON.png",
       "location": "/images/location/KECLEON.webp",
       "route": "Ciudad Azafrán",
+      "map": "/images/maps/ciudadAzafran.png",
       "name": "Kecleon",
       "types": [
         "NORMAL"
@@ -16892,6 +16988,7 @@
       "image": "/images/pokemonFront/SHUPPET.png",
       "location": "/images/location/SHUPPET.webp",
       "route": "Torre Pokémon",
+      "map": "/images/maps/puebloLavanda.png",
       "name": "Shuppet",
       "types": [
         "GHOST"
@@ -16984,6 +17081,7 @@
       "image": "/images/pokemonFront/DUSKULL.png",
       "location": "/images/location/DUSKULL.webp",
       "route": "Torre Pokémon",
+      "map": "/images/maps/puebloLavanda.png",
       "name": "Duskull",
       "types": [
         "GHOST"
@@ -17122,6 +17220,7 @@
       "location": "/images/location/CHIMECHO.webp",
       "form": "Normal",
       "route": "Ruta 14",
+      "map": "/images/maps/r14.png",
       "name": "Chimecho",
       "types": [
         "PSYCHIC"
@@ -18149,6 +18248,7 @@
       "image": "/images/pokemonFront/LATIOS.png",
       "location": "/images/location/LATIOS.webp",
       "route": "Ruta 2 Norte - Evento",
+      "map": "/images/maps/r2n.png",
       "name": "Latios",
       "form": "Normal",
       "types": [
@@ -18206,6 +18306,7 @@
       "image": "/images/pokemonFront/GROUDON.png",
       "location": "/images/location/GROUDON.webp",
       "route": "Isla Canela - Evento",
+      "map": "/images/maps/islaCanela.png",
       "form": "Normal",
       "name": "Groudon",
       "types": [
@@ -18786,6 +18887,7 @@
       "image": "/images/pokemonFront/STARLY.png",
       "location": "/images/location/STARLY.webp",
       "route": "Ruta 1",
+      "map": "/images/maps/r1.png",
       "name": "Starly",
       "types": [
         "NORMAL",
@@ -18891,6 +18993,7 @@
       "image": "/images/pokemonFront/STARAPTOR.png",
       "location": "/images/location/STARAPTOR.webp",
       "route": "Villa Azabache",
+      "map": "/images/maps/villaAzabache.png",
       "name": "Staraptor",
       "form": "Normal",
       "types": [
@@ -18945,6 +19048,7 @@
       "image": "/images/pokemonFront/BIDOOF.png",
       "location": "/images/location/BIDOOF.webp",
       "route": "Ruta 1",
+      "map": "/images/maps/r1.png",
       "name": "Bidoof",
       "types": [
         "NORMAL"
@@ -19125,6 +19229,7 @@
       "image": "/images/pokemonFront/SHINX.png",
       "location": "/images/location/SHINX.webp",
       "route": "Ruta 2 Sur",
+      "map": "/images/maps/r2s.png",
       "name": "Shinx",
       "types": [
         "ELECTRIC"
@@ -19282,6 +19387,7 @@
       "image": "/images/pokemonFront/BUDEW.png",
       "location": "/images/location/BUDEW.webp",
       "route": "Ruta 3",
+      "map": "/images/maps/r3.png",
       "name": "Budew",
       "types": [
         "GRASS",
@@ -19392,6 +19498,7 @@
       "image": "/images/pokemonFront/CRANIDOS.png",
       "location": "/images/location/CRANIDOS.webp",
       "route": "Isla Canela - (Fósil Cráneo)",
+      "map": "/images/maps/islaCanela.png",
       "name": "Cranidos",
       "types": [
         "ROCK"
@@ -19479,6 +19586,7 @@
       "image": "/images/pokemonFront/SHIELDON.png",
       "location": "/images/location/SHIELDON.webp",
       "route": "Isla Canela - (Fósil Coraza)",
+      "map": "/images/maps/islaCanela.png",
       "name": "Shieldon",
       "types": [
         "ROCK",
@@ -20141,6 +20249,7 @@
       "image": "/images/pokemonFront/DRIFLOON.png",
       "location": "/images/location/DRIFLOON.webp",
       "route": "Ruta 14",
+      "map": "/images/maps/r14.png",
       "name": "Drifloon",
       "types": [
         "GHOST",
@@ -20186,6 +20295,7 @@
       "image": "/images/pokemonFront/DRIFBLIM.png",
       "location": "/images/location/DRIFBLIM.webp",
       "route": "Ruta 14",
+      "map": "/images/maps/r14.png",
       "name": "Drifblim",
       "types": [
         "GHOST",
@@ -20408,6 +20518,7 @@
       "image": "/images/pokemonFront/GLAMEOW.png",
       "location": "/images/location/GLAMEOW.webp",
       "route": "Ciudad Verde",
+      "map": "/images/maps/ciudadVerde.png",
       "name": "Glameow",
       "types": [
         "NORMAL"
@@ -20453,6 +20564,7 @@
       "image": "/images/pokemonFront/PURUGLY.png",
       "location": "/images/location/PURUGLY.webp",
       "route": "Ciudad Fucsia",
+      "map": "/images/maps/ciudadFucsia.png",
       "name": "Purugly",
       "types": [
         "NORMAL"
@@ -20539,6 +20651,7 @@
       "image": "/images/pokemonFront/STUNKY.png",
       "location": "/images/location/STUNKY.webp",
       "route": "Ruta 3",
+      "map": "/images/maps/r3.png",
       "name": "Stunky",
       "types": [
         "POISON",
@@ -20631,6 +20744,7 @@
       "image": "/images/pokemonFront/BRONZOR.png",
       "location": "/images/location/BRONZOR.webp",
       "route": "Ciudad Plateada",
+      "map": "/images/maps/ciudadPlateada.png",
       "name": "Bronzor",
       "types": [
         "STEEL",
@@ -20724,6 +20838,7 @@
       "image": "/images/pokemonFront/BONSLY.png",
       "location": "/images/location/BONSLY.webp",
       "route": "Ciudad Plateada",
+      "map": "/images/maps/ciudadPlateada.png",
       "name": "Bonsly",
       "types": [
         "ROCK"
@@ -20899,6 +21014,7 @@
       "image": "/images/pokemonFront/SPIRITOMB.png",
       "location": "/images/location/SPIRITOMB.webp",
       "route": "Torre Pokémon",
+      "map": "/images/maps/puebloLavanda.png",
       "name": "Spiritomb",
       "types": [
         "GHOST",
@@ -21406,6 +21522,7 @@
       "image": "/images/pokemonFront/CROAGUNK.png",
       "location": "/images/location/CROAGUNK.webp",
       "route": "Ciudad Celeste",
+      "map": "/images/maps/ciudadCeleste.png",
       "name": "Croagunk",
       "types": [
         "POISON",
@@ -21662,6 +21779,7 @@
       "image": "/images/pokemonFront/SNOVER.png",
       "location": "/images/location/SNOVER.webp",
       "route": "Ruta 2 Sur",
+      "map": "/images/maps/r2s.png",
       "name": "Snover",
       "types": [
         "GRASS",
@@ -22731,6 +22849,7 @@
       "image": "/images/pokemonFront/ROTOM.png",
       "location": "/images/location/ROTOM.webp",
       "route": "Ruta 8",
+      "map": "/images/maps/r8.png",
       "name": "Rotom",
       "form": "Normal",
       "types": [
@@ -22761,6 +22880,7 @@
       "image": "/images/pokemonFront/UXIE.png",
       "location": "/images/location/UXIE.webp",
       "route": "Ciudad Plateada - Evento",
+      "map": "/images/maps/ciudadPlateada.png",
       "name": "Uxie",
       "types": [
         "PSYCHIC"
@@ -22788,6 +22908,7 @@
       "image": "/images/pokemonFront/MESPRIT.png",
       "location": "/images/location/MESPRIT.webp",
       "route": "Torre Pokémon - Evento",
+      "map": "/images/maps/puebloLavanda.png",
       "name": "Mesprit",
       "types": [
         "PSYCHIC"
@@ -23657,6 +23778,7 @@
       "image": "/images/pokemonFront/PATRAT.png",
       "location": "/images/location/PATRAT.webp",
       "route": "Ruta 1",
+      "map": "/images/maps/r1.png",
       "name": "Patrat",
       "types": [
         "NORMAL"
@@ -23746,6 +23868,7 @@
       "image": "/images/pokemonFront/LILLIPUP.png",
       "location": "/images/location/LILLIPUP.webp",
       "route": "Ciudad Plateada",
+      "map": "/images/maps/ciudadPlateada.png",
       "name": "Lillipup",
       "types": [
         "NORMAL"
@@ -23903,6 +24026,7 @@
       "image": "/images/pokemonFront/PURRLOIN.png",
       "location": "/images/location/PURRLOIN.webp",
       "route": "Ruta 1",
+      "map": "/images/maps/r1.png",
       "name": "Purrloin",
       "types": [
         "DARK"
@@ -23948,6 +24072,7 @@
       "image": "/images/pokemonFront/LIEPARD.png",
       "location": "/images/location/LIEPARD.webp",
       "route": "Ciudad Carmín",
+      "map": "/images/maps/ciudadCarmin.png",
       "name": "Liepard",
       "types": [
         "DARK"
@@ -23993,6 +24118,7 @@
       "image": "/images/pokemonFront/PANSAGE.png",
       "location": "/images/location/PANSAGE.webp",
       "route": "Ciudad Azulona",
+      "map": "/images/maps/ciudadAzulona.png",
       "name": "Pansage",
       "types": [
         "GRASS"
@@ -24080,6 +24206,7 @@
       "image": "/images/pokemonFront/PANSEAR.png",
       "location": "/images/location/PANSEAR.webp",
       "route": "Ciudad Azulona",
+      "map": "/images/maps/ciudadAzulona.png",
       "name": "Pansear",
       "types": [
         "FIRE"
@@ -24167,6 +24294,7 @@
       "image": "/images/pokemonFront/PANPOUR.png",
       "location": "/images/location/PANPOUR.webp",
       "route": "Ciudad Azulona",
+      "map": "/images/maps/ciudadAzulona.png",
       "name": "Panpour",
       "types": [
         "WATER"
@@ -24344,6 +24472,7 @@
       "image": "/images/pokemonFront/PIDOVE.png",
       "location": "/images/location/PIDOVE.webp",
       "route": "Ciudad Verde",
+      "map": "/images/maps/ciudadVerde.png",
       "name": "Pidove",
       "types": [
         "NORMAL",
@@ -24934,6 +25063,7 @@
       "image": "/images/pokemonFront/AUDINO.png",
       "location": "/images/location/AUDINO.webp",
       "route": "Ciudad Fucsia",
+      "map": "/images/maps/ciudadFucsia.png",
       "name": "Audino",
       "form": "Normal",
       "types": [
@@ -24967,6 +25097,7 @@
       "image": "/images/pokemonFront/TIMBURR.png",
       "location": "/images/location/TIMBURR.webp",
       "route": "Ciudad Verde",
+      "map": "/images/maps/ciudadVerde.png",
       "name": "Timburr",
       "types": [
         "FIGHTING"
@@ -25125,6 +25256,7 @@
       "image": "/images/pokemonFront/TYMPOLE.png",
       "location": "/images/location/TYMPOLE.webp",
       "route": "Ruta 3 (surfeando/pescando)",
+      "map": "/images/maps/r3.png",
       "name": "Tympole",
       "types": [
         "WATER"
@@ -25285,6 +25417,7 @@
       "image": "/images/pokemonFront/THROH.png",
       "location": "/images/location/THROH.webp",
       "route": "Ruta 7",
+      "map": "/images/maps/r7.png",
       "name": "Throh",
       "types": [
         "FIGHTING"
@@ -25317,6 +25450,7 @@
       "image": "/images/pokemonFront/SAWK.png",
       "location": "/images/location/SAWK.webp",
       "route": "Ruta 7",
+      "map": "/images/maps/r7.png",
       "name": "Sawk",
       "types": [
         "FIGHTING"
@@ -25511,6 +25645,7 @@
       "image": "/images/pokemonFront/VENIPEDE.png",
       "location": "/images/location/VENIPEDE.webp",
       "route": "Ruta 2 Norte",
+      "map": "/images/maps/r2n.png",
       "name": "Venipede",
       "types": [
         "BUG",
@@ -25768,6 +25903,7 @@
       "image": "/images/pokemonFront/PETILIL.png",
       "location": "/images/location/PETILIL.webp",
       "route": "Ciudad Celeste",
+      "map": "/images/maps/ciudadCeleste.png",
       "name": "Petilil",
       "types": [
         "GRASS"
@@ -26071,6 +26207,7 @@
       "image": "/images/pokemonFront/DARUMAKA.png",
       "location": "/images/location/DARUMAKA.webp",
       "route": "Ruta 9",
+      "map": "/images/maps/r9.png",
       "name": "Darumaka",
       "form": "Normal",
       "types": [
@@ -26193,6 +26330,7 @@
       "image": "/images/pokemonFront/DWEBBLE.png",
       "location": "/images/location/DWEBBLE.webp",
       "route": "Ruta 2 Sur",
+      "map": "/images/maps/r2s.png",
       "name": "Dwebble",
       "types": [
         "BUG",
@@ -26287,6 +26425,7 @@
       "image": "/images/pokemonFront/SCRAGGY.png",
       "location": "/images/location/SCRAGGY.webp",
       "route": "Ruta 2 Sur",
+      "map": "/images/maps/r2s.png",
       "name": "Scraggy",
       "types": [
         "DARK",
@@ -26381,6 +26520,7 @@
       "image": "/images/pokemonFront/SIGILYPH.png",
       "location": "/images/location/SIGILYPH.webp",
       "route": "Ciudad Azafrán",
+      "map": "/images/maps/ciudadAzafran.png",
       "name": "Sigilyph",
       "types": [
         "PSYCHIC",
@@ -26414,6 +26554,7 @@
       "image": "/images/pokemonFront/YAMASK.png",
       "location": "/images/location/YAMASK.webp",
       "route": "Torre Pokémon",
+      "map": "/images/maps/puebloLavanda.png",
       "name": "Yamask",
       "form": "Normal",
       "types": [
@@ -26497,6 +26638,7 @@
       "image": "/images/pokemonFront/TIRTOUGA.png",
       "location": "/images/location/TIRTOUGA.webp",
       "route": "Isla Canela - (Fósil Tapa)",
+      "map": "/images/maps/islaCanela.png",
       "name": "Tirtouga",
       "types": [
         "WATER",
@@ -26589,6 +26731,7 @@
       "image": "/images/pokemonFront/ARCHEN.png",
       "location": "/images/location/ARCHEN.webp",
       "route": "Isla Canela - (Fósil Pluma)",
+      "map": "/images/maps/islaCanela.png",
       "name": "Archen",
       "types": [
         "ROCK",
@@ -26672,6 +26815,7 @@
       "image": "/images/pokemonFront/TRUBBISH.png",
       "location": "/images/location/TRUBBISH.webp",
       "route": "Ruta 11",
+      "map": "/images/maps/r11.png",
       "name": "Trubbish",
       "types": [
         "POISON"
@@ -26989,6 +27133,7 @@
       "image": "/images/pokemonFront/GOTHORITA.png",
       "location": "/images/location/GOTHORITA.webp",
       "route": "Ciudad Azafrán",
+      "map": "/images/maps/ciudadAzafran.png",
       "name": "Gothorita",
       "types": [
         "PSYCHIC"
@@ -27095,6 +27240,7 @@
       "image": "/images/pokemonFront/SOLOSIS.png",
       "location": "/images/location/SOLOSIS.webp",
       "route": "Ruta 15",
+      "map": "/images/maps/r15.png",
       "name": "Solosis",
       "types": [
         "PSYCHIC"
@@ -27201,6 +27347,7 @@
       "image": "/images/pokemonFront/REUNICLUS.png",
       "location": "/images/location/REUNICLUS.webp",
       "route": "Mansión Quemada",
+      "map": "/images/maps/islaCanela.png",
       "name": "Reuniclus",
       "types": [
         "PSYCHIC"
@@ -27253,6 +27400,7 @@
       "image": "/images/pokemonFront/DUCKLETT.png",
       "location": "/images/location/DUCKLETT.webp",
       "route": "Ciudad Celeste",
+      "map": "/images/maps/ciudadCeleste.png",
       "name": "Ducklett",
       "types": [
         "WATER",
@@ -27299,6 +27447,7 @@
       "image": "/images/pokemonFront/SWANNA.png",
       "location": "/images/location/SWANNA.webp",
       "route": "Villa Magenta (surfeando/pescando)",
+      "map": "/images/maps/villaMagenta.png",
       "name": "Swanna",
       "types": [
         "WATER",
@@ -27344,6 +27493,7 @@
       "image": "/images/pokemonFront/VANILLITE.png",
       "location": "/images/location/VANILLITE.webp",
       "route": "Ciudad Plateada",
+      "map": "/images/maps/ciudadPlateada.png",
       "name": "Vanillite",
       "types": [
         "ICE",
@@ -27631,6 +27781,7 @@
       "image": "/images/pokemonFront/KARRABLAST.png",
       "location": "/images/location/KARRABLAST.webp",
       "route": "Ruta 8",
+      "map": "/images/maps/r8.png",
       "name": "Karrablast",
       "types": [
         "BUG"
@@ -27720,6 +27871,7 @@
       "image": "/images/pokemonFront/FOONGUS.png",
       "location": "/images/location/FOONGUS.webp",
       "route": "Ruta 21",
+      "map": "/images/maps/r21.png",
       "name": "Foongus",
       "types": [
         "GRASS",
@@ -27809,6 +27961,7 @@
       "image": "/images/pokemonFront/FRILLISH.png",
       "location": "/images/location/FRILLISH.webp",
       "route": "Pueblo Lavanda (surfeando/pescando)",
+      "map": "/images/maps/puebloLavanda.png",
       "name": "Frillish",
       "types": [
         "WATER",
@@ -27900,6 +28053,7 @@
       "image": "/images/pokemonFront/ALOMOMOLA.png",
       "location": "/images/location/ALOMOMOLA.webp",
       "route": "Isla Canela (surfeando)",
+      "map": "/images/maps/islaCanela.png",
       "name": "Alomomola",
       "types": [
         "WATER"
@@ -27977,6 +28131,7 @@
       "image": "/images/pokemonFront/GALVANTULA.png",
       "location": "/images/location/GALVANTULA.webp",
       "route": "Villa Azabache",
+      "map": "/images/maps/villaAzabache.png",
       "name": "Galvantula",
       "types": [
         "BUG",
@@ -28270,6 +28425,7 @@
       "image": "/images/pokemonFront/TYNAMO.png",
       "location": "/images/location/TYNAMO.webp",
       "route": "Ciudad Plateada",
+      "map": "/images/maps/ciudadPlateada.png",
       "name": "Tynamo",
       "types": [
         "ELECTRIC"
@@ -28823,6 +28979,7 @@
       "image": "/images/pokemonFront/CUBCHOO.png",
       "location": "/images/location/CUBCHOO.webp",
       "route": "Ciudad Verde",
+      "map": "/images/maps/ciudadVerde.png",
       "name": "Cubchoo",
       "types": [
         "ICE"
@@ -28944,6 +29101,7 @@
       "image": "/images/pokemonFront/SHELMET.png",
       "location": "/images/location/SHELMET.webp",
       "route": "Ruta 8",
+      "map": "/images/maps/r8.png",
       "name": "Shelmet",
       "types": [
         "BUG"
@@ -29234,6 +29392,7 @@
       "image": "/images/pokemonFront/GOLURK.png",
       "location": "/images/location/GOLURK.webp",
       "route": "Mansión Quemada",
+      "map": "/images/maps/islaCanela.png",
       "name": "Golurk",
       "form": "Normal",
       "types": [
@@ -29281,6 +29440,7 @@
       "image": "/images/pokemonFront/PAWNIARD.png",
       "location": "/images/location/PAWNIARD.webp",
       "route": "Ruta 2 Sur",
+      "map": "/images/maps/r2s.png",
       "name": "Pawniard",
       "types": [
         "DARK",
@@ -29335,6 +29495,7 @@
       "image": "/images/pokemonFront/BISHARP.png",
       "location": "/images/location/BISHARP.webp",
       "route": "Mansión Quemada",
+      "map": "/images/maps/islaCanela.png",
       "name": "Bisharp",
       "types": [
         "DARK",
@@ -29421,6 +29582,7 @@
       "image": "/images/pokemonFront/RUFFLET.png",
       "location": "/images/location/RUFFLET.webp",
       "route": "Ruta 16",
+      "map": "/images/maps/r16.png",
       "name": "Rufflet",
       "types": [
         "NORMAL",
@@ -29514,6 +29676,7 @@
       "image": "/images/pokemonFront/VULLABY.png",
       "location": "/images/location/VULLABY.webp",
       "route": "Ruta 16",
+      "map": "/images/maps/r16.png",
       "name": "Vullaby",
       "types": [
         "DARK",
@@ -29605,6 +29768,7 @@
       "image": "/images/pokemonFront/HEATMOR.png",
       "location": "/images/location/HEATMOR.webp",
       "route": "Mansión Quemada",
+      "map": "/images/maps/islaCanela.png",
       "name": "Heatmor",
       "types": [
         "FIRE",
@@ -29638,6 +29802,7 @@
       "image": "/images/pokemonFront/DURANT.png",
       "location": "/images/location/DURANT.webp",
       "route": "Mansión Quemada",
+      "map": "/images/maps/islaCanela.png",
       "name": "Durant",
       "types": [
         "BUG",
@@ -30112,6 +30277,7 @@
       "image": "/images/pokemonFront/LANDORUS.png",
       "location": "/images/location/LANDORUS.webp",
       "route": "Ruta 9 - Evento",
+      "map": "/images/maps/r9.png",
       "name": "Landorus",
       "form": "Forma Avatar",
       "types": [
@@ -30201,6 +30367,7 @@
       "image": "/images/pokemonFront/MELOETTA.png",
       "location": "/images/location/MELOETTA.webp",
       "route": "Ruta 14 - Evento",
+      "map": "/images/maps/r14.png",
       "name": "Meloetta",
       "form": "Forma Lírica",
       "types": [
@@ -30259,6 +30426,7 @@
       "image": "/images/pokemonFront/CHESPIN.png",
       "location": "/images/location/CHESPIN.webp",
       "route": "Isla Canela",
+      "map": "/images/maps/islaCanela.png",
       "name": "Chespin",
       "types": [
         "GRASS"
@@ -30415,6 +30583,7 @@
       "image": "/images/pokemonFront/FENNEKIN.png",
       "location": "/images/location/FENNEKIN.webp",
       "route": "Isla Canela",
+      "map": "/images/maps/islaCanela.png",
       "name": "Fennekin",
       "types": [
         "FIRE"
@@ -30571,6 +30740,7 @@
       "image": "/images/pokemonFront/FROAKIE.png",
       "location": "/images/location/FROAKIE.webp",
       "route": "Isla Canela",
+      "map": "/images/maps/islaCanela.png",
       "name": "Froakie",
       "types": [
         "WATER"
@@ -30727,6 +30897,7 @@
       "image": "/images/pokemonFront/BUNNELBY.png",
       "location": "/images/location/BUNNELBY.webp",
       "route": "Ruta 2 Norte",
+      "map": "/images/maps/r2n.png",
       "name": "Bunnelby",
       "types": [
         "NORMAL"
@@ -30870,6 +31041,7 @@
       "image": "/images/pokemonFront/FLETCHINDER.png",
       "location": "/images/location/FLETCHINDER.webp",
       "route": "Ruta 14",
+      "map": "/images/maps/r14.png",
       "name": "Fletchinder",
       "types": [
         "FIRE",
@@ -31133,6 +31305,7 @@
       "image": "/images/pokemonFront/LITLEO.png",
       "location": "/images/location/LITLEO.webp",
       "route": "Ruta 1",
+      "map": "/images/maps/r1.png",
       "name": "Litleo",
       "types": [
         "FIRE",
@@ -31226,6 +31399,7 @@
       "image": "/images/pokemonFront/FLABEBE.png",
       "location": "/images/location/FLABEBE.webp",
       "route": "Ruta 1",
+      "map": "/images/maps/r1.png",
       "name": "Flabébé",
       "types": [
         "FAIRY"
@@ -31379,6 +31553,7 @@
       "image": "/images/pokemonFront/SKIDDO.png",
       "location": "/images/location/SKIDDO.webp",
       "route": "Ruta 9",
+      "map": "/images/maps/r9.png",
       "name": "Skiddo",
       "types": [
         "GRASS"
@@ -31424,6 +31599,7 @@
       "image": "/images/pokemonFront/GOGOAT.png",
       "location": "/images/location/GOGOAT.webp",
       "route": "Pueblo Marengo",
+      "map": "/images/maps/puebloMarengo.png",
       "name": "Gogoat",
       "types": [
         "GRASS"
@@ -31634,6 +31810,7 @@
       "image": "/images/pokemonFront/MEOWSTIC.png",
       "location": "/images/location/MEOWSTIC.webp",
       "route": "Ciudad Azafrán",
+      "map": "/images/maps/ciudadAzafran.png",
       "name": "Meowstic",
       "form": "Macho",
       "types": [
@@ -32412,6 +32589,7 @@
       "image": "/images/pokemonFront/HELIOLISK.png",
       "location": "/images/location/HELIOLISK.webp",
       "route": "Ruta 16",
+      "map": "/images/maps/r16.png",
       "name": "Heliolisk",
       "types": [
         "ELECTRIC",
@@ -32458,6 +32636,7 @@
       "image": "/images/pokemonFront/TYRUNT.png",
       "location": "/images/location/TYRUNT.webp",
       "route": "Isla Canela - (Fósil Mandíbula)",
+      "map": "/images/maps/islaCanela.png",
       "name": "Tyrunt",
       "types": [
         "ROCK",
@@ -32547,6 +32726,7 @@
       "image": "/images/pokemonFront/AMAURA.png",
       "location": "/images/location/AMAURA.webp",
       "route": "Isla Canela - (Fósil Aleta)",
+      "map": "/images/maps/islaCanela.png",
       "name": "Amaura",
       "types": [
         "ROCK",
@@ -32983,6 +33163,7 @@
       "image": "/images/pokemonFront/KLEFKI.png",
       "location": "/images/location/KLEFKI.webp",
       "route": "Ruta 8",
+      "map": "/images/maps/r8.png",
       "name": "Klefki",
       "types": [
         "STEEL",
@@ -33281,6 +33462,7 @@
       "image": "/images/pokemonFront/NOIBAT.png",
       "location": "/images/location/NOIBAT.webp",
       "route": "Ruta 2 Norte",
+      "map": "/images/maps/r2n.png",
       "name": "Noibat",
       "types": [
         "FLYING",
@@ -33400,6 +33582,7 @@
       "image": "/images/pokemonFront/YVELTAL.png",
       "location": "/images/location/YVELTAL.webp",
       "route": "Torre Pokémon - Evento",
+      "map": "/images/maps/puebloLavanda.png",
       "name": "Yveltal",
       "types": [
         "DARK",
@@ -33542,6 +33725,7 @@
       "image": "/images/pokemonFront/ROWLET.png",
       "location": "/images/location/ROWLET.webp",
       "route": "Isla Canela",
+      "map": "/images/maps/islaCanela.png",
       "name": "Rowlet",
       "types": [
         "GRASS",
@@ -33701,6 +33885,7 @@
       "image": "/images/pokemonFront/LITTEN.png",
       "location": "/images/location/LITTEN.webp",
       "route": "Isla Canela",
+      "map": "/images/maps/islaCanela.png",
       "name": "Litten",
       "types": [
         "FIRE"
@@ -33856,6 +34041,7 @@
       "image": "/images/pokemonFront/POPPLIO.png",
       "location": "/images/location/POPPLIO.webp",
       "route": "Isla Canela",
+      "map": "/images/maps/islaCanela.png",
       "name": "Popplio",
       "types": [
         "WATER"
@@ -34219,6 +34405,7 @@
       "image": "/images/pokemonFront/GUMSHOOS.png",
       "location": "/images/location/GUMSHOOS.webp",
       "route": "Ruta 8",
+      "map": "/images/maps/r8.png",
       "name": "Gumshoos",
       "types": [
         "NORMAL"
@@ -34508,6 +34695,7 @@
       "image": "/images/pokemonFront/ORICORIO.png",
       "location": "/images/location/ORICORIO.webp",
       "route": "Ruta 16",
+      "map": "/images/maps/r16.png",
       "name": "Oricorio",
       "form": "Normal",
       "types": [
@@ -34538,6 +34726,7 @@
       "image": "/images/pokemonFront/CUTIEFLY.png",
       "location": "/images/location/CUTIEFLY.webp",
       "route": "Ruta 9",
+      "map": "/images/maps/r9.png",
       "name": "Cutiefly",
       "types": [
         "BUG",
@@ -34585,6 +34774,7 @@
       "image": "/images/pokemonFront/RIBOMBEE.png",
       "location": "/images/location/RIBOMBEE.webp",
       "route": "Ciudad Azulona",
+      "map": "/images/maps/ciudadAzulona.png",
       "name": "Ribombee",
       "types": [
         "BUG",
@@ -34632,6 +34822,7 @@
       "image": "/images/pokemonFront/ROCKRUFF.png",
       "location": "/images/location/ROCKRUFF.webp",
       "route": "Ruta 2 Sur",
+      "map": "/images/maps/r2s.png",
       "name": "Rockruff",
       "types": [
         "ROCK"
@@ -34862,6 +35053,7 @@
       "image": "/images/pokemonFront/MUDBRAY.png",
       "location": "/images/location/MUDBRAY.webp",
       "route": "Pueblo Marengo",
+      "map": "/images/maps/puebloMarengo.png",
       "name": "Mudbray",
       "types": [
         "GROUND"
@@ -34908,6 +35100,7 @@
       "image": "/images/pokemonFront/MUDSDALE.png",
       "location": "/images/location/MUDSDALE.webp",
       "route": "Pueblo Marengo",
+      "map": "/images/maps/puebloMarengo.png",
       "name": "Mudsdale",
       "types": [
         "GROUND"
@@ -34954,6 +35147,7 @@
       "image": "/images/pokemonFront/DEWPIDER.png",
       "location": "/images/location/DEWPIDER.webp",
       "route": "Ciudad Verde",
+      "map": "/images/maps/ciudadVerde.png",
       "name": "Dewpider",
       "types": [
         "WATER",
@@ -35273,6 +35467,7 @@
       "image": "/images/pokemonFront/SALAZZLE.png",
       "location": "/images/location/SALAZZLE.webp",
       "route": "Ruta 16",
+      "map": "/images/maps/r16.png",
       "name": "Salazzle",
       "types": [
         "POISON",
@@ -35567,6 +35762,7 @@
       "image": "/images/pokemonFront/COMFEY.png",
       "location": "/images/location/COMFEY.webp",
       "route": "Ruta 8",
+      "map": "/images/maps/r8.png",
       "name": "Comfey",
       "types": [
         "FAIRY"
@@ -35706,6 +35902,7 @@
       "location": "/images/location/GOLISOPOD.webp",
       "form": "Normal",
       "route": "Ruta 16",
+      "map": "/images/maps/r16.png",
       "name": "Golisopod",
       "types": [
         "BUG",
@@ -35982,6 +36179,7 @@
       "image": "/images/pokemonFront/KOMALA.png",
       "location": "/images/location/KOMALA.webp",
       "route": "Ruta 11",
+      "map": "/images/maps/r11.png",
       "name": "Komala",
       "types": [
         "NORMAL"
@@ -36072,6 +36270,7 @@
       "image": "/images/pokemonFront/MIMIKYU.png",
       "location": "/images/location/MIMIKYU.webp",
       "route": "Ruta 7",
+      "map": "/images/maps/r7.png",
       "name": "Mimikyu",
       "types": [
         "GHOST",
@@ -36101,6 +36300,7 @@
       "image": "/images/pokemonFront/BRUXISH.png",
       "location": "/images/location/BRUXISH.webp",
       "route": "Ruta 14 (surfeando/pescando",
+      "map": "/images/maps/r14.png",
       "name": "Bruxish",
       "types": [
         "WATER",
@@ -36581,6 +36781,7 @@
       "image": "/images/pokemonFront/SOLGALEO.png",
       "location": "/images/location/SOLGALEO.webp",
       "route": "Ruta 16 - Evento",
+      "map": "/images/maps/r16.png",
       "name": "Solgaleo",
       "types": [
         "PSYCHIC",
@@ -36715,6 +36916,7 @@
       "image": "/images/pokemonFront/BUZZWOLE.png",
       "location": "/images/location/BUZZWOLE.webp",
       "route": "Ruta 3 - Evento",
+      "map": "/images/maps/r3.png",
       "name": "Buzzwole",
       "types": [
         "BUG",
@@ -36798,6 +37000,7 @@
       "image": "/images/pokemonFront/CELESTEELA.png",
       "location": "/images/location/CELESTEELA.webp",
       "route": "Ruta 7 - Evento",
+      "map": "/images/maps/r7.png",
       "name": "Celesteela",
       "types": [
         "STEEL",
@@ -36854,6 +37057,7 @@
       "image": "/images/pokemonFront/GUZZLORD.png",
       "location": "/images/location/GUZZLORD.webp",
       "route": "Ruta 14 - Evento",
+      "map": "/images/maps/r14.png",
       "name": "Guzzlord",
       "types": [
         "DARK",
@@ -36938,6 +37142,7 @@
       "image": "/images/pokemonFront/MARSHADOW.png",
       "location": "/images/location/MARSHADOW.webp",
       "route": "Ruta 8 - Evento",
+      "map": "/images/maps/r8.png",
       "name": "Marshadow",
       "types": [
         "FIGHTING",
@@ -37213,6 +37418,7 @@
       "image": "/images/pokemonFront/GROOKEY.png",
       "location": "/images/location/GROOKEY.webp",
       "route": "Ciudad Añil",
+      "map": "/images/maps/ciudadAnil.png",
       "name": "Grookey",
       "types": [
         "GRASS"
@@ -37368,6 +37574,7 @@
       "image": "/images/pokemonFront/SCORBUNNY.png",
       "location": "/images/location/SCORBUNNY.webp",
       "route": "Ciudad Añil",
+      "map": "/images/maps/ciudadAnil.png",
       "name": "Scorbunny",
       "types": [
         "FIRE"
@@ -37525,6 +37732,7 @@
       "image": "/images/pokemonFront/SOBBLE.png",
       "location": "/images/location/SOBBLE.webp",
       "route": "Ciudad Añil",
+      "map": "/images/maps/ciudadAnil.png",
       "name": "Sobble",
       "types": [
         "WATER"
@@ -37771,6 +37979,7 @@
       "image": "/images/pokemonFront/ROOKIDEE.png",
       "location": "/images/location/ROOKIDEE.webp",
       "route": "Ruta 4",
+      "map": "/images/maps/r4.png",
       "name": "Rookidee",
       "types": [
         "FLYING"
@@ -37824,6 +38033,7 @@
       "image": "/images/pokemonFront/CORVISQUIRE.png",
       "location": "/images/location/CORVISQUIRE.webp",
       "route": "Ruta 9",
+      "map": "/images/maps/r9.png",
       "name": "Corvisquire",
       "types": [
         "FLYING"
@@ -37984,6 +38194,7 @@
       "image": "/images/pokemonFront/DOTTLER.png",
       "location": "/images/location/DOTTLER.webp",
       "route": "Ruta 16",
+      "map": "/images/maps/r16.png",
       "name": "Dottler",
       "types": [
         "BUG",
@@ -38094,6 +38305,7 @@
       "image": "/images/pokemonFront/NICKIT.png",
       "location": "/images/location/NICKIT.webp",
       "route": "Ciudad Azafrán",
+      "map": "/images/maps/ciudadAzafran.png",
       "name": "Nickit",
       "types": [
         "DARK"
@@ -38139,6 +38351,7 @@
       "image": "/images/pokemonFront/THIEVUL.png",
       "location": "/images/location/THIEVUL.webp",
       "route": "Ciudad Azafrán",
+      "map": "/images/maps/ciudadAzafran.png",
       "name": "Thievul",
       "types": [
         "DARK"
@@ -38273,6 +38486,7 @@
       "image": "/images/pokemonFront/WOOLOO.png",
       "location": "/images/location/WOOLOO.webp",
       "route": "Ciudad Verde",
+      "map": "/images/maps/ciudadVerde.png",
       "name": "Wooloo",
       "types": [
         "NORMAL"
@@ -38317,6 +38531,7 @@
       "image": "/images/pokemonFront/DUBWOOL.png",
       "location": "/images/location/DUBWOOL.webp",
       "route": "Pueblo Marengo",
+      "map": "/images/maps/puebloMarengo.png",
       "name": "Dubwool",
       "types": [
         "NORMAL"
@@ -38453,6 +38668,7 @@
       "image": "/images/pokemonFront/YAMPER.png",
       "location": "/images/location/YAMPER.webp",
       "route": "Ruta 4",
+      "map": "/images/maps/r4.png",
       "name": "Yamper",
       "types": [
         "ELECTRIC"
@@ -38594,6 +38810,7 @@
       "image": "/images/pokemonFront/CARKOL.png",
       "location": "/images/location/CARKOL.webp",
       "route": "Mansión Quemada",
+      "map": "/images/maps/islaCanela.png",
       "name": "Carkol",
       "types": [
         "ROCK",
@@ -38703,6 +38920,7 @@
       "image": "/images/pokemonFront/APPLIN.png",
       "location": "/images/location/APPLIN.webp",
       "route": "Ciudad Azulona",
+      "map": "/images/maps/ciudadAzulona.png",
       "name": "Applin",
       "types": [
         "GRASS",
@@ -39167,6 +39385,7 @@
       "image": "/images/pokemonFront/TOXTRICITY.png",
       "location": "/images/location/TOXTRICITY.webp",
       "route": "Ciudad Fucsia",
+      "map": "/images/maps/ciudadFucsia.png",
       "name": "Toxtricity",
       "form": "Forma Aguda",
       "types": [
@@ -39214,6 +39433,7 @@
       "image": "/images/pokemonFront/SIZZLIPEDE.png",
       "location": "/images/location/SIZZLIPEDE.webp",
       "route": "Ruta 15",
+      "map": "/images/maps/r15.png",
       "name": "Sizzlipede",
       "types": [
         "FIRE",
@@ -39393,6 +39613,7 @@
       "image": "/images/pokemonFront/SINISTEA.png",
       "location": "/images/location/SINISTEA.webp",
       "route": "Ruta 7",
+      "map": "/images/maps/r7.png",
       "name": "Sinistea",
       "types": [
         "GHOST"
@@ -39480,6 +39701,7 @@
       "image": "/images/pokemonFront/HATENNA.png",
       "location": "/images/location/HATENNA.webp",
       "route": "Ruta 7",
+      "map": "/images/maps/r7.png",
       "name": "Hatenna",
       "types": [
         "PSYCHIC"
@@ -39639,6 +39861,7 @@
       "image": "/images/pokemonFront/IMPIDIMP.png",
       "location": "/images/location/IMPIDIMP.webp",
       "route": "Ruta 4",
+      "map": "/images/maps/r4.png",
       "name": "Impidimp",
       "types": [
         "DARK",
@@ -40072,6 +40295,7 @@
       "image": "/images/pokemonFront/MILCERY.png",
       "location": "/images/location/MILCERY.webp",
       "route": "Ciudad Verde",
+      "map": "/images/maps/ciudadVerde.png",
       "name": "Milcery",
       "types": [
         "FAIRY"
@@ -40193,6 +40417,7 @@
       "image": "/images/pokemonFront/PINCURCHIN.png",
       "location": "/images/location/PINCURCHIN.webp",
       "route": "Ciudad Carmín",
+      "map": "/images/maps/ciudadCarmin.png",
       "name": "Pincurchin",
       "types": [
         "ELECTRIC"
@@ -40372,6 +40597,7 @@
       "image": "/images/pokemonFront/INDEEDEE.png",
       "location": "/images/location/INDEEDEE.webp",
       "route": "Ciudad Azafrán",
+      "map": "/images/maps/ciudadAzafran.png",
       "name": "Indeedee",
       "form": "Macho",
       "types": [
@@ -40434,6 +40660,7 @@
       "image": "/images/pokemonFront/CUFANT.png",
       "location": "/images/location/CUFANT.webp",
       "route": "Ruta 2 Norte",
+      "map": "/images/maps/r2n.png",
       "name": "Cufant",
       "types": [
         "STEEL"
@@ -40524,6 +40751,7 @@
       "image": "/images/pokemonFront/DRACOZOLT.png",
       "location": "/images/location/DRACOZOLT.webp",
       "route": "Isla Canela - (Ornitofósil + Dracofósil)",
+      "map": "/images/maps/islaCanela.png",
       "name": "Dracozolt",
       "types": [
         "ELECTRIC",
@@ -40557,6 +40785,7 @@
       "image": "/images/pokemonFront/ARCTOZOLT.png",
       "location": "/images/location/ARCTOZOLT.webp",
       "route": "Isla Canela - (Ornitofósil + Plesiofósil)",
+      "map": "/images/maps/islaCanela.png",
       "name": "Arctozolt",
       "types": [
         "ELECTRIC",
@@ -40590,6 +40819,7 @@
       "image": "/images/pokemonFront/DRACOVISH.png",
       "location": "/images/location/DRACOVISH.webp",
       "route": "Isla Canela - (Ictiofósil + Dracofósil)",
+      "map": "/images/maps/islaCanela.png",
       "name": "Dracovish",
       "types": [
         "WATER",
@@ -40623,6 +40853,7 @@
       "image": "/images/pokemonFront/ARCTOVISH.png",
       "location": "/images/location/ARCTOVISH.webp",
       "route": "Isla Canela - (Ictiofósil + Plesiofósil)",
+      "map": "/images/maps/islaCanela.png",
       "name": "Arctovish",
       "types": [
         "WATER",
@@ -40755,6 +40986,7 @@
       "image": "/images/pokemonFront/DRAKLOAK.png",
       "location": "/images/location/DRAKLOAK.webp",
       "route": "Villa Azabache",
+      "map": "/images/maps/villaAzabache.png",
       "name": "Drakloak",
       "types": [
         "DRAGON",
@@ -40861,6 +41093,7 @@
       "image": "/images/pokemonFront/ZACIAN.png",
       "location": "/images/location/ZACIAN.webp",
       "route": "Ruta 3 - Evento",
+      "map": "/images/maps/r3.png",
       "name": "Zacian",
       "form": "Guerrero Avezado",
       "types": [
@@ -41146,6 +41379,7 @@
       "image": "/images/pokemonFront/SPECTRIER.png",
       "location": "/images/location/SPECTRIER.webp",
       "route": "Ruta 8 - Evento",
+      "map": "/images/maps/r8.png",
       "name": "Spectrier",
       "types": [
         "GHOST"
@@ -41493,6 +41727,7 @@
       "image": "/images/pokemonFront/ENAMORUS.png",
       "location": "/images/location/ENAMORUS.webp",
       "route": "Ruta 15 - Evento",
+      "map": "/images/maps/r15.png",
       "name": "Enamorus",
       "form": "Forma Avatar",
       "types": [
@@ -41525,6 +41760,7 @@
       "image": "/images/pokemonFront/SPRIGATITO.png",
       "location": "/images/location/SPRIGATITO.webp",
       "route": "Ciudad Añil",
+      "map": "/images/maps/ciudadAnil.png",
       "name": "Sprigatito",
       "types": [
         "GRASS"
@@ -41680,6 +41916,7 @@
       "image": "/images/pokemonFront/FUECOCO.png",
       "location": "/images/location/FUECOCO.webp",
       "route": "Ciudad Añil",
+      "map": "/images/maps/ciudadAnil.png",
       "name": "Fuecoco",
       "types": [
         "FIRE"
@@ -41835,6 +42072,7 @@
       "image": "/images/pokemonFront/QUAXLY.png",
       "location": "/images/location/QUAXLY.webp",
       "route": "Ciudad Añil",
+      "map": "/images/maps/ciudadAnil.png",
       "name": "Quaxly",
       "types": [
         "WATER"
@@ -41990,6 +42228,7 @@
       "image": "/images/pokemonFront/LECHONK.png",
       "location": "/images/location/LECHONK.webp",
       "route": "Ruta 3",
+      "map": "/images/maps/r3.png",
       "name": "Lechonk",
       "types": [
         "NORMAL"
@@ -42035,6 +42274,7 @@
       "image": "/images/pokemonFront/OINKOLOGNE.png",
       "location": "/images/location/OINKOLOGNE.webp",
       "route": "Ruta 14",
+      "map": "/images/maps/r14.png",
       "name": "Oinkologne",
       "form": "Macho",
       "types": [
@@ -42256,6 +42496,7 @@
       "image": "/images/pokemonFront/PAWMI.png",
       "location": "/images/location/PAWMI.webp",
       "route": "Ruta 3",
+      "map": "/images/maps/r3.png",
       "name": "Pawmi",
       "types": [
         "ELECTRIC"
@@ -42415,6 +42656,7 @@
       "image": "/images/pokemonFront/TANDEMAUS.png",
       "location": "/images/location/TANDEMAUS.webp",
       "route": "Ciudad Fucsia",
+      "map": "/images/maps/ciudadFucsia.png",
       "name": "Tandemaus",
       "types": [
         "NORMAL"
@@ -42504,6 +42746,7 @@
       "image": "/images/pokemonFront/FIDOUGH.png",
       "location": "/images/location/FIDOUGH.webp",
       "route": "Pueblo Paleta",
+      "map": "/images/maps/puebloPaleta.png",
       "name": "Fidough",
       "types": [
         "FAIRY"
@@ -42591,6 +42834,7 @@
       "image": "/images/pokemonFront/SMOLIV.png",
       "location": "/images/location/SMOLIV.webp",
       "route": "Pueblo Paleta",
+      "map": "/images/maps/puebloPaleta.png",
       "name": "Smoliv",
       "types": [
         "GRASS",
@@ -42748,6 +42992,7 @@
       "image": "/images/pokemonFront/SQUAWKABILLY.png",
       "location": "/images/location/SQUAWKABILLY.webp",
       "route": "Ruta 21",
+      "map": "/images/maps/r21.png",
       "name": "Squawkabilly",
       "types": [
         "NORMAL",
@@ -42938,6 +43183,7 @@
       "image": "/images/pokemonFront/CHARCADET.png",
       "location": "/images/location/CHARCADET.webp",
       "route": "Ruta 15",
+      "map": "/images/maps/r15.png",
       "name": "Charcadet",
       "types": [
         "FIRE"
@@ -43167,6 +43413,7 @@
       "image": "/images/pokemonFront/WATTREL.png",
       "location": "/images/location/WATTREL.webp",
       "route": "Ciudad Celeste",
+      "map": "/images/maps/ciudadCeleste.png",
       "name": "Wattrel",
       "types": [
         "ELECTRIC",
@@ -43259,6 +43506,7 @@
       "image": "/images/pokemonFront/MASCHIFF.png",
       "location": "/images/location/MASCHIFF.webp",
       "route": "Ciudad Verde",
+      "map": "/images/maps/ciudadVerde.png",
       "name": "Maschiff",
       "types": [
         "DARK"
@@ -43348,6 +43596,7 @@
       "image": "/images/pokemonFront/SHROODLE.png",
       "location": "/images/location/SHROODLE.webp",
       "route": "Ruta 11",
+      "map": "/images/maps/r11.png",
       "name": "Shroodle",
       "types": [
         "POISON",
@@ -43439,6 +43688,7 @@
       "image": "/images/pokemonFront/BRAMBLIN.png",
       "location": "/images/location/BRAMBLIN.webp",
       "route": "Ruta 2 Norte",
+      "map": "/images/maps/r2n.png",
       "name": "Bramblin",
       "types": [
         "GRASS",
@@ -43528,6 +43778,7 @@
       "image": "/images/pokemonFront/TOEDSCOOL.png",
       "location": "/images/location/TOEDSCOOL.webp",
       "route": "Ruta 21",
+      "map": "/images/maps/r21.png",
       "name": "Toedscool",
       "types": [
         "GROUND",
@@ -43645,6 +43896,7 @@
       "image": "/images/pokemonFront/CAPSAKID.png",
       "location": "/images/location/CAPSAKID.webp",
       "route": "Ruta 8",
+      "map": "/images/maps/r8.png",
       "name": "Capsakid",
       "types": [
         "GRASS"
@@ -43737,6 +43989,7 @@
       "image": "/images/pokemonFront/RELLOR.png",
       "location": "/images/location/RELLOR.webp",
       "route": "Ruta 7",
+      "map": "/images/maps/r7.png",
       "name": "Rellor",
       "types": [
         "BUG"
@@ -43826,6 +44079,7 @@
       "image": "/images/pokemonFront/FLITTLE.png",
       "location": "/images/location/FLITTLE.webp",
       "route": "Ciudad Azulona",
+      "map": "/images/maps/ciudadAzulona.png",
       "name": "Flittle",
       "types": [
         "PSYCHIC"
@@ -44165,6 +44419,7 @@
       "image": "/images/pokemonFront/BOMBIRDIER.png",
       "location": "/images/location/BOMBIRDIER.webp",
       "route": "Ruta 11",
+      "map": "/images/maps/r11.png",
       "name": "Bombirdier",
       "types": [
         "FLYING",
@@ -44280,6 +44535,7 @@
       "image": "/images/pokemonFront/VAROOM.png",
       "location": "/images/location/VAROOM.webp",
       "route": "Ruta 4",
+      "map": "/images/maps/r4.png",
       "name": "Varoom",
       "types": [
         "STEEL",
@@ -44477,6 +44733,7 @@
       "location": "/images/location/GLIMMORA.webp",
       "form": "Normal",
       "route": "Mansión Quemada",
+      "map": "/images/maps/islaCanela.png",
       "name": "Glimmora",
       "types": [
         "ROCK",
@@ -44522,6 +44779,7 @@
       "image": "/images/pokemonFront/GREAVARD.png",
       "location": "/images/location/GREAVARD.webp",
       "route": "Torre Pokémon",
+      "map": "/images/maps/puebloLavanda.png",
       "name": "Greavard",
       "types": [
         "GHOST"
@@ -44610,6 +44868,7 @@
       "image": "/images/pokemonFront/FLAMIGO.png",
       "location": "/images/location/FLAMIGO.webp",
       "route": "Ruta 16",
+      "map": "/images/maps/r16.png",
       "name": "Flamigo",
       "types": [
         "FLYING",
@@ -44796,6 +45055,7 @@
       "image": "/images/pokemonFront/TATSUGIRI.png",
       "location": "/images/location/TATSUGIRI.webp",
       "route": "Villa Ambar (surfeando/pescando)",
+      "map": "/images/maps/villaAmbar.png",
       "name": "Tatsugiri",
       "form": "Normal",
       "types": [
@@ -45577,6 +45837,7 @@
       "image": "/images/pokemonFront/GIMMIGHOUL.png",
       "location": "/images/location/GIMMIGHOUL.webp",
       "route": "Torre Pokémon",
+      "map": "/images/maps/puebloLavanda.png",
       "name": "Gimmighoul",
       "form": "Forma Cofre",
       "types": [
@@ -46012,6 +46273,7 @@
       "image": "/images/pokemonFront/POLTCHAGEIST.png",
       "location": "/images/location/POLTCHAGEIST.webp",
       "route": "Ciudad Verde",
+      "map": "/images/maps/ciudadVerde.png",
       "name": "Poltchageist",
       "types": [
         "GRASS",
@@ -46102,6 +46364,7 @@
       "image": "/images/pokemonFront/OKIDOGI.png",
       "location": "/images/location/OKIDOGI.webp",
       "route": "Isla Canela - Evento",
+      "map": "/images/maps/islaCanela.png",
       "name": "Okidogi",
       "types": [
         "POISON",
@@ -46133,6 +46396,7 @@
       "image": "/images/pokemonFront/MUNKIDORI.png",
       "location": "/images/location/MUNKIDORI.webp",
       "route": "Ruta 11 - Evento",
+      "map":"/images/maps/r11.png",
       "name": "Munkidori",
       "types": [
         "POISON",
@@ -46164,6 +46428,7 @@
       "image": "/images/pokemonFront/FEZANDIPITI.png",
       "location": "/images/location/FEZANDIPITI.webp",
       "route": "Ruta 16 - Evento",
+      "map": "/images/maps/r16.png",
       "name": "Fezandipiti",
       "types": [
         "POISON",
@@ -46478,6 +46743,7 @@
       "image": "/images/pokemonFront/PECHARUNT.png",
       "location": "/images/location/PECHARUNT.webp",
       "route": "Ruta 14 - Evento",
+      "map": "/images/maps/r14.png",
       "name": "Pecharunt",
       "types": [
         "POISON",
