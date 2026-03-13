@@ -2436,6 +2436,7 @@
       "image": "/images/pokemonFront/VENONAT.png",
       "location": "/images/location/VENONAT.webp",
       "route": "Ruta 20",
+      "map": "/images/maps/r20.png",
       "name": "Venonat",
       "types": [
         "BUG",
@@ -3176,6 +3177,7 @@
       "image": "/images/pokemonFront/ABRA.png",
       "location": "/images/location/ABRA.webp",
       "route": "Ruta 20",
+      "map": "/images/maps/r20.png",
       "name": "Abra",
       "types": [
         "PSYCHIC"
@@ -3396,6 +3398,7 @@
       "image": "/images/pokemonFront/MACHOKE.png",
       "location": "/images/location/MACHOKE.webp",
       "route": "Ruta 27",
+      "map": "/images/maps/r27.png",
       "name": "Machoke",
       "types": [
         "FIGHTING"
@@ -3504,6 +3507,7 @@
       "image": "/images/pokemonFront/BELLSPROUT.png",
       "location": "/images/location/BELLSPROUT.webp",
       "route": "Ruta 20",
+      "map": "/images/maps/r20.png",
       "name": "Bellsprout",
       "types": [
         "GRASS",
@@ -3871,6 +3875,7 @@
       "image": "/images/pokemonFront/GOLEM.png",
       "location": "/images/location/GOLEM.webp",
       "route": "Monte Plateado",
+      "map": "/images/maps/montePlateado.png",
       "name": "Golem",
       "form": "Normal",
       "types": [
@@ -4595,6 +4600,7 @@
       "image": "/images/pokemonFront/CLOYSTER.png",
       "location": "/images/location/CLOYSTER.webp",
       "route": "Cueva Glaciada (surfeando/pescando)",
+      "map": "/images/maps/r29CuevaGlaciada.png",
       "name": "Cloyster",
       "types": [
         "WATER",
@@ -6038,6 +6044,7 @@
       "location": "/images/location/STARMIE.webp",
       "form": "Normal",
       "route": "Ruta 26",
+      "map": "/images/maps/r26.png",
       "name": "Starmie",
       "types": [
         "WATER",
@@ -6496,6 +6503,7 @@
       "image": "/images/pokemonFront/LAPRAS.png",
       "location": "/images/location/LAPRAS.webp",
       "route": "Cabo Magenta",
+      "map": "/images/maps/caboMagenta.png",
       "name": "Lapras",
       "form": "Normal",
       "types": [
@@ -8387,6 +8395,7 @@
       "image": "/images/pokemonFront/CROBAT.png",
       "location": "/images/location/CROBAT.webp",
       "route": "Cueva Glaciada",
+      "map": "/images/maps/r29CuevaGlaciada.png",
       "name": "Crobat",
       "types": [
         "POISON",
@@ -11351,6 +11360,7 @@
       "image": "/images/pokemonFront/KINGDRA.png",
       "location": "/images/location/KINGDRA.webp",
       "route": "Ruta 26 (surfeando)",
+      "map": "/images/maps/r26.png",
       "name": "Kingdra",
       "types": [
         "WATER",
@@ -12064,6 +12074,7 @@
       "image": "/images/pokemonFront/LARVITAR.png",
       "location": "/images/location/LARVITAR.webp",
       "route": "Monte Plateado",
+      "map": "/images/maps/montePlateado.png",
       "name": "Larvitar",
       "types": [
         "ROCK",
@@ -12117,6 +12128,7 @@
       "image": "/images/pokemonFront/PUPITAR.png",
       "location": "/images/location/PUPITAR.webp",
       "route": "Monte Plateado",
+      "map": "/images/maps/montePlateado.png",
       "name": "Pupitar",
       "types": [
         "ROCK",
@@ -16008,6 +16020,7 @@
       "image": "/images/pokemonFront/SPINDA.png",
       "location": "/images/location/SPINDA.webp",
       "route": "Ruta 29",
+      "map": "/images/maps/r29CuevaGlaciada.png",
       "name": "Spinda",
       "types": [
         "NORMAL"
@@ -16334,6 +16347,7 @@
       "image": "/images/pokemonFront/ALTARIA.png",
       "location": "/images/location/ALTARIA.webp",
       "route": "Cabo Magenta",
+      "map": "/images/maps/caboMagenta.png",
       "name": "Altaria",
       "form": "Normal",
       "types": [
@@ -17513,6 +17527,7 @@
       "image": "/images/pokemonFront/GLALIE.png",
       "location": "/images/location/GLALIE.webp",
       "route": "Cueva Glaciada",
+      "map": "/images/maps/r29CuevaGlaciada.png",
       "name": "Glalie",
       "form": "Normal",
       "types": [
@@ -17671,6 +17686,7 @@
       "image": "/images/pokemonFront/WALREIN.png",
       "location": "/images/location/WALREIN.webp",
       "route": "Cueva Glaciada (surfeando/pescando)",
+      "map": "/images/maps/r29CuevaGlaciada.png",
       "name": "Walrein",
       "types": [
         "ICE",
@@ -17992,6 +18008,7 @@
       "image": "/images/pokemonFront/SHELGON.png",
       "location": "/images/location/SHELGON.webp",
       "route": "Monte Plateado",
+      "map": "/images/maps/montePlateado.png",
       "name": "Shelgon",
       "types": [
         "DRAGON"
@@ -18473,6 +18490,7 @@
       "image": "/images/pokemonFront/RAYQUAZA.png",
       "location": "/images/location/RAYQUAZA.webp",
       "route": "Monte Plateado - Evento",
+      "map": "/images/maps/montePlateado.png",
       "name": "Rayquaza",
       "form": "Normal",
       "types": [
@@ -20089,6 +20107,7 @@
       "image": "/images/pokemonFront/BUIZEL.png",
       "location": "/images/location/BUIZEL.webp",
       "route": "Ruta 20",
+      "map": "/images/maps/r20.png",
       "name": "Buizel",
       "types": [
         "WATER"
@@ -21201,6 +21220,7 @@
       "image": "/images/pokemonFront/GIBLE.png",
       "location": "/images/location/GIBLE.webp",
       "route": "Ruta 29",
+      "map": "/images/maps/r29CuevaGlaciada.png",
       "name": "Gible",
       "types": [
         "DRAGON",
@@ -21406,6 +21426,7 @@
       "image": "/images/pokemonFront/RIOLU.png",
       "location": "/images/location/RIOLU.webp",
       "route": "Ruta 26",
+      "map": "/images/maps/r26.png",
       "name": "Riolu",
       "types": [
         "FIGHTING"
@@ -21987,6 +22008,7 @@
       "image": "/images/pokemonFront/ABOMASNOW.png",
       "location": "/images/location/ABOMASNOW.webp",
       "route": "Monte Plateado",
+      "map": "/images/maps/montePlateado.png",
       "name": "Abomasnow",
       "form": "Normal",
       "types": [
@@ -22035,6 +22057,7 @@
       "image": "/images/pokemonFront/WEAVILE.png",
       "location": "/images/location/WEAVILE.webp",
       "route": "Monte Plateado",
+      "map": "/images/maps/montePlateado.png",
       "name": "Weavile",
       "types": [
         "DARK",
@@ -22180,6 +22203,7 @@
       "image": "/images/pokemonFront/RHYPERIOR.png",
       "location": "/images/location/RHYPERIOR.webp",
       "route": "Ruta 27",
+      "map": "/images/maps/r27.png",
       "name": "Rhyperior",
       "types": [
         "GROUND",
@@ -22963,6 +22987,7 @@
       "image": "/images/pokemonFront/FROSLASS.png",
       "location": "/images/location/FROSLASS.webp",
       "route": "Cueva Glaciada",
+      "map": "/images/maps/r29CuevaGlaciada.png",
       "form": "Normal",
       "name": "Froslass",
       "types": [
@@ -23099,6 +23124,7 @@
       "image": "/images/pokemonFront/AZELF.png",
       "location": "/images/location/AZELF.webp",
       "route": "Monte Plateado - Evento",
+      "map": "/images/maps/montePlateado.png",
       "name": "Azelf",
       "types": [
         "PSYCHIC"
@@ -23126,6 +23152,7 @@
       "image": "/images/pokemonFront/DIALGA.png",
       "location": "/images/location/DIALGA.webp",
       "route": "Monte Plateado - Evento",
+      "map": "/images/maps/montePlateado.png",
       "name": "Dialga",
       "form": "Normal",
       "types": [
@@ -23424,6 +23451,7 @@
       "image": "/images/pokemonFront/ARCEUS.png",
       "location": "/images/location/ARCEUS.webp",
       "route": "Monte Plateado - Evento",
+      "map": "/images/maps/montePlateado.png",
       "name": "Arceus",
       "types": [
         "NORMAL"
@@ -26038,6 +26066,7 @@
       "image": "/images/pokemonFront/WHIMSICOTT.png",
       "location": "/images/location/WHIMSICOTT.webp",
       "route": "Ruta 29",
+      "map": "/images/maps/r29CuevaGlaciada.png",
       "name": "Whimsicott",
       "types": [
         "GRASS",
@@ -26283,6 +26312,7 @@
       "image": "/images/pokemonFront/KROKOROK.png",
       "location": "/images/location/KROKOROK.webp",
       "route": "Ruta 27",
+      "map": "/images/maps/r27.png",
       "name": "Krokorok",
       "types": [
         "GROUND",
@@ -27484,6 +27514,7 @@
       "image": "/images/pokemonFront/DUOSION.png",
       "location": "/images/location/DUOSION.webp",
       "route": "Ruta 26",
+      "map": "/images/maps/r26.png",
       "name": "Duosion",
       "types": [
         "PSYCHIC"
@@ -27795,6 +27826,7 @@
       "image": "/images/pokemonFront/VANILLUXE.png",
       "location": "/images/location/VANILLUXE.webp",
       "route": "Cueva Glaciada",
+      "map": "/images/maps/r29CuevaGlaciada.png",
       "name": "Vanilluxe",
       "types": [
         "ICE",
@@ -27849,6 +27881,7 @@
       "image": "/images/pokemonFront/DEERLING.png",
       "location": "/images/location/DEERLING.webp",
       "route": "Ruta 20",
+      "map": "/images/maps/r20.png",
       "name": "Deerling",
       "types": [
         "NORMAL",
@@ -29069,6 +29102,7 @@
       "image": "/images/pokemonFront/FRAXURE.png",
       "location": "/images/location/FRAXURE.webp",
       "route": "Monte Plateado",
+      "map": "/images/maps/montePlateado.png",
       "name": "Fraxure",
       "types": [
         "DRAGON"
@@ -29268,6 +29302,7 @@
       "image": "/images/pokemonFront/CRYOGONAL.png",
       "location": "/images/location/CRYOGONAL.webp",
       "route": "Cueva Glaciada",
+      "map": "/images/maps/r29CuevaGlaciada.png",
       "name": "Cryogonal",
       "types": [
         "ICE"
@@ -30089,6 +30124,7 @@
       "image": "/images/pokemonFront/ZWEILOUS.png",
       "location": "/images/location/ZWEILOUS.webp",
       "route": "Monte Plateado",
+      "map": "/images/maps/montePlateado.png",
       "name": "Zweilous",
       "types": [
         "DARK",
@@ -30188,6 +30224,7 @@
       "image": "/images/pokemonFront/LARVESTA.png",
       "location": "/images/location/LARVESTA.webp",
       "route": "Cabo Magenta",
+      "map": "/images/maps/caboMagenta.png",
       "name": "Larvesta",
       "types": [
         "BUG",
@@ -30429,6 +30466,7 @@
       "image": "/images/pokemonFront/RESHIRAM.png",
       "location": "/images/location/RESHIRAM.webp",
       "route": "Monte Plateado - Evento",
+      "map": "/images/maps/montePlateado.png",
       "name": "Reshiram",
       "types": [
         "DRAGON",
@@ -31906,6 +31944,7 @@
       "image": "/images/pokemonFront/PANGORO.png",
       "location": "/images/location/PANGORO.webp",
       "route": "Ruta 26",
+      "map": "/images/maps/r26.png",
       "name": "Pangoro",
       "types": [
         "FIGHTING",
@@ -32502,6 +32541,7 @@
       "image": "/images/pokemonFront/BINACLE.png",
       "location": "/images/location/BINACLE.webp",
       "route": "Ruta 20",
+      "map": "/images/maps/r20.png",
       "name": "Binacle",
       "types": [
         "ROCK",
@@ -33285,6 +33325,7 @@
       "image": "/images/pokemonFront/SLIGGOO.png",
       "location": "/images/location/SLIGGOO.webp",
       "route": "Ruta 29",
+      "map": "/images/maps/r29CuevaGlaciada.png",
       "name": "Sliggoo",
       "form": "Normal",
       "types": [
@@ -33649,6 +33690,7 @@
       "image": "/images/pokemonFront/AVALUGG.png",
       "location": "/images/location/AVALUGG.webp",
       "route": "Cueva Glaciada",
+      "map": "/images/maps/r29CuevaGlaciada.png",
       "name": "Avalugg",
       "form": "Normal",
       "types": [
@@ -35485,6 +35527,7 @@
       "image": "/images/pokemonFront/FOMANTIS.png",
       "location": "/images/location/FOMANTIS.webp",
       "route": "Ruta 20",
+      "map": "/images/maps/r20.png",
       "name": "Fomantis",
       "types": [
         "GRASS"
@@ -36592,6 +36635,7 @@
       "location": "/images/location/DRAMPA.webp",
       "form": "Normal",
       "route": "Ruta 29",
+      "map": "/images/maps/r29CuevaGlaciada.png",
       "name": "Drampa",
       "types": [
         "NORMAL",
@@ -37551,6 +37595,7 @@
       "image": "/images/pokemonFront/BLACEPHALON.png",
       "location": "/images/location/BLACEPHALON.webp",
       "route": "Monte Plateado - Evento",
+      "map": "/images/maps/montePlateado.png",
       "name": "Blacephalon",
       "types": [
         "FIRE",
@@ -40776,6 +40821,7 @@
       "image": "/images/pokemonFront/FROSMOTH.png",
       "location": "/images/location/FROSMOTH.webp",
       "route": "Monte Plateado",
+      "map": "/images/maps/montePlateado.png",
       "name": "Frosmoth",
       "types": [
         "ICE",
@@ -40822,6 +40868,7 @@
       "image": "/images/pokemonFront/STONJOURNER.png",
       "location": "/images/location/STONJOURNER.webp",
       "route": "Monte Plateado",
+      "map": "/images/maps/montePlateado.png",
       "name": "Stonjourner",
       "types": [
         "ROCK"
@@ -41171,6 +41218,7 @@
       "image": "/images/pokemonFront/DURALUDON.png",
       "location": "/images/location/DURALUDON.webp",
       "route": "Cabo Magenta",
+      "map": "/images/maps/caboMagenta.png",
       "name": "Duraludon",
       "types": [
         "STEEL",
@@ -41612,6 +41660,7 @@
       "image": "/images/pokemonFront/REGIDRAGO.png",
       "location": "/images/location/REGIDRAGO.webp",
       "route": "Monte Plateado - Evento",
+      "map": "/images/maps/montePlateado.png",
       "name": "Regidrago",
       "types": [
         "DRAGON"
@@ -41695,6 +41744,7 @@
       "image": "/images/pokemonFront/CALYREX.png",
       "location": "/images/location/CALYREX.webp",
       "route": "Monte Plateado - Evento",
+      "map": "/images/maps/montePlateado.png",
       "name": "Calyrex",
       "form": "Normal",
       "types": [
@@ -41970,6 +42020,7 @@
       "image": "/images/pokemonFront/OVERQWIL.png",
       "location": "/images/location/OVERQWIL.webp",
       "route": "Ruta 29",
+      "map": "/images/maps/r29CuevaGlaciada.png",
       "name": "Overqwil",
       "types": [
         "DARK",
@@ -44159,6 +44210,7 @@
       "image": "/images/pokemonFront/KLAWF.png",
       "location": "/images/location/KLAWF.webp",
       "route": "Monte Plateado",
+      "map": "/images/maps/montePlateado.png",
       "name": "Klawf",
       "types": [
         "ROCK"
@@ -44330,6 +44382,7 @@
       "image": "/images/pokemonFront/RABSCA.png",
       "location": "/images/location/RABSCA.webp",
       "route": "Ruta 29",
+      "map": "/images/maps/r29CuevaGlaciada.png",
       "name": "Rabsca",
       "types": [
         "BUG",
@@ -46045,6 +46098,7 @@
       "image": "/images/pokemonFront/ARCTIBAX.png",
       "location": "/images/location/ARCTIBAX.webp",
       "route": "Monte Plateado",
+      "map": "/images/maps/montePlateado.png",
       "name": "Arctibax",
       "types": [
         "DRAGON",
@@ -46100,6 +46154,7 @@
       "location": "/images/location/BAXCALIBUR.webp",
       "form": "Normal",
       "route": "Cueva Glaciada",
+      "map": "/images/maps/r29CuevaGlaciada.png",
       "name": "Baxcalibur",
       "types": [
         "DRAGON",
