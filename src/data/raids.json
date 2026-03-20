@@ -464,6 +464,96 @@
         "RAICHU",
         "AMPHAROS"
       ]
+    },
+    {
+      "id": 16,
+      "type": "FIRE",
+      "nivel": 70,
+      "location": "Isla Canela",
+      "information": {
+        "ataque": 2,
+        "defensa": 4,
+        "atEspecial": 2,
+        "deEspecial": 4,
+        "velocidad": 3
+      },
+      "objetos": [
+        "FLAMEPLATE",
+        "VCapsula",
+        "FLAMEORB",
+        "SHINYZADOR",
+        "BALMMUSHROOM",
+        "COMETSHARD",
+        "BIGNUGGET",
+        "PEARLSTRING"
+      ],
+      "pokemon": [
+        "NINETALES",
+        "MAGMORTAR",
+        "CHARIZARD",
+        "TYPHLOSION",
+        "ARCANINE"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "FIGHTING",
+      "nivel": 72,
+      "location": "Ruta 24",
+      "information": {
+        "ataque": 2,
+        "defensa": 4,
+        "atEspecial": 2,
+        "deEspecial": 4,
+        "velocidad": 3
+      },
+      "objetos": [
+        "FISTPLATE",
+        "ACapsula",
+        "AECapsula",
+        "DECapsula",
+        "DCapsula",
+        "SHINYZADOR",
+        "COMETSHARD",
+        "BALMMUSHROOM"
+      ],
+      "pokemon": [
+        "SIRFETCHD",
+        "HITMONCHAN",
+        "HITMONLEE",
+        "HERACROSS",
+        "MACHAMP"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "DRAGON",
+      "nivel": 75,
+      "location": "Ruta 25 Sur",
+      "information": {
+        "ataque": 2,
+        "defensa": 4,
+        "atEspecial": 2,
+        "deEspecial": 4,
+        "velocidad": 3
+      },
+      "objetos": [
+        "DRACOPLATE",
+        "SCapsula",
+        "AECapsula",
+        "ACapsula",
+        "VCapsula",
+        "LIFEORB",
+        "MASTERBALL",
+        "SHINYZADOR"
+      ],
+      "pokemon": [
+        "DRAGONITE",
+        "SALAMENCE",
+        "HYDREIGON",
+        "GARCHOMP",
+        "KINGDRA"
+      ]
     }
   ]
 }

@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import raids from '../../data/raids.json';
 import items from '../../data/items.json';
 import types from '../../data/types.json';
@@ -14,6 +14,12 @@ const Raids = () => {
     description: 'Guía completa de nidos en Pokémon Añil: ubicaciones, Pokémon disponibles, recompensas y estadísticas mejoradas.',
     keywords: 'pokémon añil nidos, nidos pokémon añil, incursiones pokémon añil, recompensas nidos'
   });
+
+  const [openRaid, setOpenRaid] = useState(null);
+
+  const toggleRaid = (raidId) => {
+    setOpenRaid(openRaid === raidId ? null : raidId);
+  };
 
   const itemsMap = useMemo(() => {
     return new Map(items.items.map(item => [item.id, item]));
@@ -82,13 +88,18 @@ const Raids = () => {
         <div className="space-y-6">
           {raids.raids.map((raid) => {
             const typeStyle = getTypeStyle(raid.type);
+            const isOpen = openRaid === raid.id;
+
             return (
               <div
                 key={raid.id}
                 className={`bg-slate-800 rounded-xl shadow-lg shadow-gray-900/30 overflow-hidden`}
               >
-                {/* Header del raid */}
-                <div className={`${typeStyle.headerBg} border-b ${typeStyle.border} px-6 py-4`}>
+                {/* Header del raid — ahora clickeable */}
+                <button
+                  onClick={() => toggleRaid(raid.id)}
+                  className={`w-full ${typeStyle.headerBg} border-b ${typeStyle.border} px-6 py-4 hover:brightness-110 transition-all duration-200`}
+                >
                   <div className="flex items-center justify-between flex-wrap gap-3">
                     <div className="flex items-center gap-3">
                       <span className={`px-4 py-2 rounded-lg text-sm font-bold text-white ${getTypeColor(raid.type)}`}>
@@ -98,133 +109,129 @@ const Raids = () => {
                         Nivel {raid.nivel}
                       </span>
                     </div>
-                    <div className="flex items-center gap-2 text-white">
-                      <svg className="w-4 h-4 text-slate-300 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                      </svg>
-                      <span className="font-semibold">{raid.location}</span>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="p-6 space-y-6">
-
-                  {/* Pokémon disponibles */}
-                  <div>
-                    <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-4">
-                      Posibles Pokémon
-                    </h3>
-                    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
-                      {raid.pokemon.map((pokemonId, index) => (
-                        <div
-                          key={index}
-                          className="bg-slate-700 rounded-lg p-3 flex flex-col items-center border border-slate-600 hover:border-slate-500 transition-colors"
-                        >
-                          <div className="w-full aspect-square bg-slate-900 rounded-lg mb-2 flex items-center justify-center overflow-hidden">
-                            <PokemonStaticSprite
-                              img={`/images/pokemonFront/${pokemonId}.png`}
-                              scale={140}
-                            />
-                          </div>
-                          <span className="text-sm font-bold text-slate-100 text-center">
-                            {getPokemonName(pokemonId)}
-                          </span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-
-                  {/* Mejoras de stats */}
-                  <div>
-                    <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-3">
-                      Mejoras
-                    </h3>
-                    <div className="bg-slate-700 rounded-lg p-4 border border-slate-600">
-                      <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 text-sm">
-                        <div className="flex items-center gap-2">
-                          <span className="text-slate-400">Ataque:</span>
-                          <span className="text-red-400 font-bold">+{raid.information.ataque}</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                          <span className="text-slate-400">Defensa:</span>
-                          <span className="text-blue-400 font-bold">+{raid.information.defensa}</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                          <span className="text-slate-400">At. Esp:</span>
-                          <span className="text-purple-400 font-bold">+{raid.information.atEspecial}</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                          <span className="text-slate-400">Def. Esp:</span>
-                          <span className="text-green-400 font-bold">+{raid.information.deEspecial}</span>
-                        </div>
-                        <div className="flex items-center gap-2">
-                          <span className="text-slate-400">Velocidad:</span>
-                          <span className="text-yellow-400 font-bold">+{raid.information.velocidad}</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  {/* Objetos recompensa */}
-                  <div>
-                    <h3 className="text-sm  text-slate-300 tracking-wider mb-4 flex items-center">
-                      <span className="uppercase font-bold">Posibles Recompensas</span>
-                      <Tooltip text="Existe la posibilidad de que falte algún objeto." position="right">
-                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                    <div className="flex items-center gap-3 text-white">
+                      <div className="flex items-center gap-2">
+                        <svg className="w-4 h-4 text-slate-300 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
-                      </Tooltip>
-                    </h3>
-                    <div className="bg-slate-700 rounded-lg p-3 border border-slate-600">
-                      <div className="flex flex-wrap gap-2">
-                        {raid.objetos.map((objetoId, index) => {
-                          const itemData = getItemData(objetoId);
-                          return (
-                            <div
-                              key={index}
-                              className="flex items-center gap-2 bg-slate-800 px-3 py-2 rounded-lg border border-slate-600"
-                            >
-                              <img
-                                src={`/images/items/${objetoId}.png`}
-                                alt={itemData?.name || objetoId}
-                                className="w-8 h-8 object-contain"
-                                onError={(e) => {
-                                  e.target.style.display = 'none';
-                                }}
+                        <span className="font-semibold">{raid.location}</span>
+                      </div>
+                      <svg
+                        className={`w-6 h-6 text-blue-400 transform transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                      </svg>
+                    </div>
+                  </div>
+                </button>
+
+                {/* Contenido expandible */}
+                {isOpen && (
+                  <div className="p-6 space-y-6">
+
+                    {/* Pokémon disponibles */}
+                    <div>
+                      <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-4">
+                        Posibles Pokémon
+                      </h3>
+                      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+                        {raid.pokemon.map((pokemonId, index) => (
+                          <div
+                            key={index}
+                            className="bg-slate-700 rounded-lg p-3 flex flex-col items-center border border-slate-600 shadow-lg shadow-gray-900/30 hover:shadow-blue-900/20 transition-all duration-200"                        >
+                            <div className="w-full aspect-square bg-slate-900 rounded-lg mb-2 flex items-center justify-center overflow-hidden">
+                              <PokemonStaticSprite
+                                img={`/images/pokemonFront/${pokemonId}.png`}
+                                scale={140}
                               />
-                              <span className="text-sm text-slate-200 font-medium cursor-help">
-                                <Tooltip text={itemData.description} position="top">
-                                  {itemData?.name || objetoId}
-                                </Tooltip >
-                              </span>
                             </div>
-                          );
-                        })}
+                            <span className="text-sm font-bold text-slate-100 text-center">
+                              {getPokemonName(pokemonId)}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Mejoras de stats */}
+                    <div>
+                      <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-3">
+                        Mejoras
+                      </h3>
+                      <div className="bg-slate-700 rounded-lg p-4 border border-slate-600">
+                        <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 text-sm">
+                          <div className="flex items-center gap-2">
+                            <span className="text-slate-400">Ataque:</span>
+                            <span className="text-red-400 font-bold">+{raid.information.ataque}</span>
+                          </div>
+                          <div className="flex items-center gap-2">
+                            <span className="text-slate-400">Defensa:</span>
+                            <span className="text-blue-400 font-bold">+{raid.information.defensa}</span>
+                          </div>
+                          <div className="flex items-center gap-2">
+                            <span className="text-slate-400">At. Esp:</span>
+                            <span className="text-purple-400 font-bold">+{raid.information.atEspecial}</span>
+                          </div>
+                          <div className="flex items-center gap-2">
+                            <span className="text-slate-400">Def. Esp:</span>
+                            <span className="text-green-400 font-bold">+{raid.information.deEspecial}</span>
+                          </div>
+                          <div className="flex items-center gap-2">
+                            <span className="text-slate-400">Velocidad:</span>
+                            <span className="text-yellow-400 font-bold">+{raid.information.velocidad}</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Objetos recompensa */}
+                    <div>
+                      <h3 className="text-sm  text-slate-300 tracking-wider mb-4 flex items-center">
+                        <span className="uppercase font-bold">Posibles Recompensas</span>
+                        <Tooltip text="Existe la posibilidad de que falte algún objeto." position="right">
+                          <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+                          </svg>
+                        </Tooltip>
+                      </h3>
+                      <div className="bg-slate-700 rounded-lg p-3 border border-slate-600">
+                        <div className="flex flex-wrap gap-2">
+                          {raid.objetos.map((objetoId, index) => {
+                            const itemData = getItemData(objetoId);
+                            return (
+                              <div
+                                key={index}
+                                className="flex items-center gap-2 bg-slate-800 px-3 py-2 rounded-lg border border-slate-600"
+                              >
+                                <img
+                                  src={`/images/items/${objetoId}.png`}
+                                  alt={itemData?.name || objetoId}
+                                  className="w-8 h-8 object-contain"
+                                  onError={(e) => {
+                                    e.target.style.display = 'none';
+                                  }}
+                                />
+                                <span className="text-sm text-slate-200 font-medium cursor-help">
+                                  <Tooltip text={itemData.description} position="top">
+                                    {itemData?.name || objetoId}
+                                  </Tooltip >
+                                </span>
+                              </div>
+                            );
+                          })}
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
+                )}
               </div>
             );
           })}
         </div>
-
-        <div className="max-w-7xl mx-auto px-4 mb-6">
-          <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg shadow-sm">
-            <div className="flex items-start">
-              <div className="ml-3">
-                <p className="text-s font-medium text-yellow-800">
-                  🚧¡En Construcción!🚧
-                </p>
-                <p className="text-sm text-yellow-700 mt-1">
-                  Esta sección aún no está completa. Estará disponible pronto.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
       <AutoScrollTop />
     </div>
