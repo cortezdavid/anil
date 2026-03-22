@@ -14,8 +14,7 @@ const SLIDER_LABELS = [
   'Posible Super Shiny',
   'Posible Super Shiny',
   'Posible Super Shiny',
-  'Posible Super Shiny',
-  'Posible Super Shiny',
+  'Posible Super Shiny'
 ];
 
 const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange, handleBaseForm, selectedForm, pokemonId }) => {
@@ -110,7 +109,7 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
         </h3>
         <input
           min="0"
-          max="11"
+          max="10"
           type="range"
           value={sliderValue}
           onChange={(e) => setSliderValue(Number(e.target.value))}

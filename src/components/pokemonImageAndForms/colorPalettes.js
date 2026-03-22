@@ -4,30 +4,27 @@ export const COLOR_PALETTES = [
   // #1 - Rojo/Rosa
   { hueShift: 340, saturation: 1.2, brightness: 1.0 },
   
-  // #2 - Naranja
+  // #2 - Naranja - sí
   { hueShift: 30, saturation: 1.3, brightness: 1.1 },
   
-  // #3 - Amarillo/Dorado
+  // #3 - Amarillo/Dorado creo que sí (otros)
   { hueShift: 50, saturation: 1.1, brightness: 1.15 },
   
   // #4 - Verde Lima
   { hueShift: 90, saturation: 1.2, brightness: 1.1 },
   
-  // #5 - Verde Agua
-  { hueShift: 150, saturation: 1.0, brightness: 1.05 },
+  // #5 - Verde Agua - sí
+  { hueShift: 135, saturation: 1.0, brightness: 1.05 },
   
-  // #6 - Cyan
+  // #6 - Cyan - sí
   { hueShift: 180, saturation: 1.15, brightness: 1.1 },
   
-  // #7 - Azul
-  { hueShift: 210, saturation: 1.1, brightness: 1.0 },
+  // #7 - Azul - sí 
+  { hueShift: 220, saturation: 1.1, brightness: 1.0 },
   
-  // #8 - Púrpura
+  // #8 - Púrpura - sí
   { hueShift: 270, saturation: 1.2, brightness: 1.05 },
   
-  // #9 - Magenta
-  { hueShift: 300, saturation: 1.15, brightness: 1.0 },
-  
-  // #10 - Rosa Pastel
-  { hueShift: 320, saturation: 0.9, brightness: 1.2 }
+  // #9 - Magenta - creo que sí (otros)
+  { hueShift: 305, saturation: 1.15, brightness: 1.0 }
 ];
