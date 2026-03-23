@@ -1,7 +1,7 @@
 // colorPalettes.js - Paletas fijas compartidas por todos los usuarios
 
 export const COLOR_PALETTES = [
-  // #1 - Rojo/Rosa
+  // #1 - Rojo/Rosa -sí
   { hueShift: 340, saturation: 1.2, brightness: 1.0 },
   
   // #2 - Naranja - sí
@@ -11,7 +11,7 @@ export const COLOR_PALETTES = [
   { hueShift: 50, saturation: 1.1, brightness: 1.15 },
   
   // #4 - Verde Lima
-  { hueShift: 90, saturation: 1.2, brightness: 1.1 },
+  // { hueShift: 90, saturation: 1.2, brightness: 1.1 },
   
   // #5 - Verde Agua - sí
   { hueShift: 135, saturation: 1.0, brightness: 1.05 },
