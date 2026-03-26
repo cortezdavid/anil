@@ -147,11 +147,6 @@ const MovimientosSection = ({ pokemon }) => {
             <h3 className="text-white font-bold text-sm flex items-center justify-between">
               <span className="flex items-center gap-2">
                 Por MT
-                <Tooltip text="Lista de MTs del modo normal. El modo random incluye MTs extra no mostradas aquí." position="right">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
-                  </svg>
-                </Tooltip>
               </span>
               <span className="bg-white/20 px-2 py-1 rounded-full text-xs">
                 {mtMoves.length}
@@ -295,11 +290,6 @@ const MovimientosSection = ({ pokemon }) => {
           >
             <span className="font-bold text-sm flex items-center gap-2">
               Por MT ({mtMoves.length})
-              <Tooltip text="Lista de MTs del modo normal. El modo random incluye MTs extra no mostradas aquí." position="right">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
-                </svg>
-              </Tooltip>
             </span>
             <svg
               className={`w-5 h-5 transform transition-transform duration-200 ${openSection === 'mt' ? 'rotate-180' : ''}`}
