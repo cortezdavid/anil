@@ -6434,6 +6434,8 @@
       "baseId": "GROUDON",
       "name": "Groudon",
       "form": "Forma Primigenia",
+      "route": "Torre Batalla",
+      "map": "/images/maps/ciudadCarmin.png",
       "pokedex": "En la mitología se considera a Groudon el creador de la tierra. Duerme enterrado en magma y dicen que, al despertar, hace que los volcanes entren en erupción.",
       "types": [
         "GROUND",
