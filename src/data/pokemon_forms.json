@@ -2563,6 +2563,7 @@
       "id": "BANETTE1",
       "image": "/images/pokemonFront/BANETTE_1.png",
       "location": "/images/location/BANETTE_1.webp",
+      "route": "Ruta 14",
       "baseId": "BANETTE",
       "name": "Banette",
       "form": "Mega Banette",
@@ -4411,6 +4412,7 @@
       "baseId": "CASTFORM",
       "name": "Castform",
       "form": "Forma Sol",
+      "route": "Con Sol",
       "pokedex": "Castform adopta esta forma cuando el sol brilla con fuerza. Conviene tener cuidado al tocarlo, ya que su piel alcanza altas temperaturas.",
       "types": [
         "FIRE"
@@ -4438,6 +4440,7 @@
       "baseId": "CASTFORM",
       "name": "Castform",
       "form": "Forma Lluvia",
+      "route": "Con Lluvia",
       "pokedex": "Castform adopta esta forma cuando llueve. Su cuerpo es como una esponja y suelta agua con solo presionarlo ligeramente.",
       "types": [
         "WATER"
@@ -4465,6 +4468,7 @@
       "baseId": "CASTFORM",
       "name": "Castform",
       "form": "Forma Nieve",
+      "route": "Con Nieve",
       "pokedex": "Castform adopta esta forma cuando graniza. Su cuerpo se enfría y su piel se congela parcialmente.",
       "types": [
         "ICE"
