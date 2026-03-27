@@ -4715,7 +4715,7 @@
     {
       "id": "DARMANITAN2",
       "image": "/images/pokemonFront/DARMANITAN_1.png",
-      "location": "/images/location/DARMANITAN_1.webp",
+      "location": "/images/location/DARMANITAN_1.jpg",
       "route": "Habilidad Modo Daruma",
       "baseId": "DARMANITAN",
       "name": "Darmanitan",
@@ -4793,7 +4793,7 @@
     {
       "id": "DARMANITAN3",
       "image": "/images/pokemonFront/DARMANITAN_3.png",
-      "location": "/images/location/DARMANITAN_3.webp",
+      "location": "/images/location/DARMANITAN_3.jpg",
       "route": "Habilidad Modo Daruma",
       "baseId": "DARMANITAN",
       "name": "Darmanitan",
