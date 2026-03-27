@@ -6641,7 +6641,9 @@
     {
       "id": "CALYREX1",
       "image": "/images/pokemonFront/CALYREX_1.png",
-      "location": "/images/location/CALYREX_1.webp",
+      "location": "/images/location/CALYREX_1.jpg",
+      "route": "Torre Batalla",
+      "map": "/images/maps/ciudadCarmin.png",
       "baseId": "CALYREX",
       "name": "Calyrex",
       "form": "Jinete Glacial",
@@ -6669,7 +6671,9 @@
     {
       "id": "CALYREX2",
       "image": "/images/pokemonFront/CALYREX_2.png",
-      "location": "/images/location/CALYREX_2.webp",
+      "location": "/images/location/CALYREX_1.jpg",
+      "route": "Torre Batalla",
+      "map": "/images/maps/ciudadCarmin.png",
       "baseId": "CALYREX",
       "name": "Calyrex",
       "form": "Jinete Espectral",
