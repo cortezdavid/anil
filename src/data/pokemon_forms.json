@@ -7194,7 +7194,7 @@
     {
       "id": "ZYGARDE4",
       "image": "/images/pokemonFront/ZYGARDE_4.png",
-      "location": "/images/location/ZYGARDE_4.webp",
+      "location": "/images/location/ZYGARDE_4.jpg",
       "route": "Torre Batalla",
       "map": "/images/maps/ciudadCarmin.png",
       "baseId": "ZYGARDE",
@@ -8721,7 +8721,7 @@
     {
       "id": "MELOETTA1",
       "image": "/images/pokemonFront/MELOETTA_1.png",
-      "location": "/images/location/MELOETTA_1.webp",
+      "location": "/images/location/MELOETTA_1.jpg",
       "baseId": "MELOETTA",
       "name": "Meloetta",
       "form": "Forma Danza",
