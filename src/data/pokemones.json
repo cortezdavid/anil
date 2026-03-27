@@ -26216,8 +26216,8 @@
     {
       "id": "BASCULIN",
       "image": "/images/pokemonFront/BASCULIN.png",
-      "location": "/images/location/BASCULIN.webp",
-      "route": "Camino de Bicis (surfeando/pescando)",
+      "location": "/images/location/BASCULIN.jpg",
+      "route": "Camino de Bicis (pescando)",
       "map": "/images/maps/caminoBicis.png",
       "name": "Basculin",
       "form": "Raya Blanca",
