@@ -41584,6 +41584,7 @@
       "image": "/images/pokemonFront/URSHIFU.png",
       "location": "/images/location/URSHIFU.webp",
       "route": "Torre Batalla",
+      "map": "/images/maps/ciudadCarmin.png",
       "name": "Urshifu",
       "form": "Estilo Brusco",
       "types": [
