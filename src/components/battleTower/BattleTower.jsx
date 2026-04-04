@@ -60,7 +60,7 @@ const BattleTower = () => {
         {/* Contador simple */}
         <div className="bg-slate-800 rounded-xl shadow-lg shadow-gray-900/30  p-4 mb-8 text-center">
           <span className="text-2xl font-black text-slate-100">
-            🏆 Derrotados: {defeatedCount} / {trainers.length}
+            Derrotados: {defeatedCount} / {trainers.length}
           </span>
         </div>
 
