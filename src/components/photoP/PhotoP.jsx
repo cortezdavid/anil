@@ -63,14 +63,14 @@ const PhotoP = () => {
 
         <div className="bg-slate-800 rounded-xl shadow-lg shadow-gray-900/30 p-4 mb-8 text-center">
           <span className="text-2xl font-black text-slate-100">
-            📸 Total de Fotografías: {photos.length}
+            Total de Fotografías: {photos.length}
           </span>
         </div>
 
         <div className="mb-12">
           <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg p-4 mb-6 shadow-lg">
             <h2 className="text-2xl font-black text-white uppercase tracking-wider flex items-center justify-center gap-2">
-              🗺️ Lugares ({placeSpots.length})
+              Lugares ({placeSpots.length})
             </h2>
           </div>
 
@@ -84,7 +84,7 @@ const PhotoP = () => {
         <div>
           <div className="bg-gradient-to-r from-blue-600 to-blue-700 rounded-lg p-4 mb-6 shadow-lg">
             <h2 className="text-2xl font-black text-white uppercase tracking-wider flex items-center justify-center gap-2">
-              👤 Entrenadores ({trainerSpots.length})
+              Entrenadores ({trainerSpots.length})
             </h2>
           </div>
 
