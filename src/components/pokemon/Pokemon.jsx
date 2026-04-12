@@ -1,18 +1,20 @@
 import { useParams } from "react-router-dom";
 import data from "../../data/pokemones.json";
-import dataVariant from "../../data/pokemon_forms.json"
+import dataVariant from "../../data/pokemon_forms.json";
 import PokemonImageAndForms from "../pokemonImageAndForms/PokemonImageAndForms";
 import PokemonDetailsTabs from "../pokemonDetailsTabs/PokemonDetailsTabs";
 import Navegation from "../navegation/Navegation";
 import { useEffect, useState } from "react";
-import { useSEO } from '../../hooks/useSEO';
+import { useSEO } from "../../hooks/useSEO";
 
 const Pokemon = () => {
   const { id } = useParams();
   const pokemones = data.pokemones;
-  const pokemon = pokemones.find(p => p.id.toLowerCase() === id.toLowerCase());
+  const pokemon = pokemones.find(
+    (p) => p.id.toLowerCase() === id.toLowerCase(),
+  );
 
-  const variants = dataVariant.variants.filter(v => v.baseId === pokemon.id);
+  const variants = dataVariant.variants.filter((v) => v.baseId === pokemon.id);
 
   // Estado para controlar qué forma se está mostrando
   const [selectedForm, setSelectedForm] = useState(null); // null = forma base
@@ -32,20 +34,20 @@ const Pokemon = () => {
     setSelectedForm(null);
   }, [id]); // cada vez que cambia el id de la URL
 
-  const [activeTab, setActiveTab] = useState('caracteristicas');
+  const [activeTab, setActiveTab] = useState("caracteristicas");
 
   if (!pokemon) return <p>Pokémon no encontrado</p>;
 
   useSEO({
     title: `Pokédex Añil - ${pokemon.name}`,
     description: `Guía de ${pokemon.name} en Pokémon Añil: estadísticas, ubicación, evoluciones y habilidades.`,
-    keywords: `${pokemon.name}, pokémon añil ${pokemon.name}, ${pokemon.name} ubicación`
+    keywords: `${pokemon.name}, pokémon añil ${pokemon.name}, ${pokemon.name} ubicación`,
+    noindex: true, // ← esto agregás
   });
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-gray-900">
       <div className="max-w-7xl mx-auto px-4 py-8">
-
         {/* alert */}
         {/* <div className="max-w-7xl mx-auto px-4 mb-6">
           <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg shadow-sm">
@@ -64,7 +66,6 @@ const Pokemon = () => {
 
         <Navegation pokemones={pokemones} />
         <div className="grid grid-cols-1 lg:grid-cols-[380px_1fr] gap-6 mt-8">
-
           {/* COLUMNA IZQUIERDA: Imagen y Formas */}
           <PokemonImageAndForms
             pokemon={displayPokemon}
@@ -86,7 +87,6 @@ const Pokemon = () => {
             handleBaseForm={handleBaseForm}
             selectedForm={selectedForm}
           />
-
         </div>
       </div>
     </div>
