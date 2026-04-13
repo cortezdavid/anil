@@ -5,7 +5,7 @@ export const COLOR_PALETTES = [
   { hueShift: 340, saturation: 1.2, brightness: 1.0 },
   
   // #2 - Naranja - sí
-  { hueShift: 30, saturation: 1.3, brightness: 1.1 },
+  { hueShift: 40, saturation: 1.3, brightness: 1.1 },
   
   // #3 - Amarillo/Dorado creo que sí (otros)
   { hueShift: 50, saturation: 1.1, brightness: 1.15 },
