@@ -1,12 +1,12 @@
 import { useMemo, useState } from 'react';
 import raids from '../../data/raids.json';
 import items from '../../data/items.json';
-import types from '../../data/types.json';
 import pokemones from '../../data/pokemones.json';
 import PokemonStaticSprite from './PokemonStaticSprite';
 import Tooltip from '../tooltip/Tooltip';
 import { useSEO } from '../../hooks/useSEO';
 import AutoScrollTop from '../autoScrollTop/AutoScrollTop';
+import { getTypeColor, getTypeName } from "../../utils/typeHelpers";
 
 const Raids = () => {
   useSEO({
@@ -25,45 +25,32 @@ const Raids = () => {
     return new Map(items.items.map(item => [item.id, item]));
   }, []);
 
-  const typesMap = useMemo(() => {
-    return new Map(types.types.map(type => [type.id, type]));
-  }, []);
-
   const pokemonMap = useMemo(() => {
     return new Map(pokemones.pokemones.map(poke => [poke.id, poke]));
   }, []);
 
   const getTypeStyle = (type) => {
     const styles = {
-      'FIRE': { border: 'border-red-500/40', headerBg: 'bg-red-500/15', badge: 'bg-red-500' },
-      'WATER': { border: 'border-blue-500/40', headerBg: 'bg-blue-500/15', badge: 'bg-blue-500' },
-      'GRASS': { border: 'border-green-500/40', headerBg: 'bg-green-500/15', badge: 'bg-green-500' },
-      'ELECTRIC': { border: 'border-yellow-400/40', headerBg: 'bg-yellow-400/15', badge: 'bg-yellow-400' },
-      'PSYCHIC': { border: 'border-pink-500/40', headerBg: 'bg-pink-500/15', badge: 'bg-pink-500' },
-      'ICE': { border: 'border-cyan-400/40', headerBg: 'bg-cyan-400/15', badge: 'bg-cyan-400' },
-      'DRAGON': { border: 'border-indigo-500/40', headerBg: 'bg-indigo-500/15', badge: 'bg-indigo-600' },
-      'DARK': { border: 'border-gray-600/40', headerBg: 'bg-gray-700/30', badge: 'bg-gray-800' },
-      'FAIRY': { border: 'border-pink-300/40', headerBg: 'bg-pink-300/15', badge: 'bg-pink-400' },
-      'FIGHTING': { border: 'border-red-700/40', headerBg: 'bg-red-700/15', badge: 'bg-red-700' },
-      'POISON': { border: 'border-purple-600/40', headerBg: 'bg-purple-600/15', badge: 'bg-purple-600' },
-      'GROUND': { border: 'border-yellow-600/40', headerBg: 'bg-yellow-600/15', badge: 'bg-yellow-600' },
-      'FLYING': { border: 'border-indigo-400/40', headerBg: 'bg-indigo-400/15', badge: 'bg-indigo-400' },
-      'BUG': { border: 'border-lime-600/40', headerBg: 'bg-lime-600/15', badge: 'bg-lime-600' },
-      'ROCK': { border: 'border-amber-700/40', headerBg: 'bg-amber-700/15', badge: 'bg-yellow-800' },
-      'GHOST': { border: 'border-purple-700/40', headerBg: 'bg-purple-900/25', badge: 'bg-purple-800' },
-      'STEEL': { border: 'border-slate-500/40', headerBg: 'bg-slate-500/15', badge: 'bg-slate-500' },
-      'NORMAL': { border: 'border-gray-400/40', headerBg: 'bg-gray-400/15', badge: 'bg-gray-400' },
+      FIRE: { border: 'border-red-500/40', headerBg: 'bg-red-500/15', badge: 'bg-red-500' },
+      WATER: { border: 'border-blue-500/40', headerBg: 'bg-blue-500/15', badge: 'bg-blue-500' },
+      GRASS: { border: 'border-green-500/40', headerBg: 'bg-green-500/15', badge: 'bg-green-500' },
+      ELECTRIC: { border: 'border-yellow-400/40', headerBg: 'bg-yellow-400/15', badge: 'bg-yellow-400' },
+      PSYCHIC: { border: 'border-pink-500/40', headerBg: 'bg-pink-500/15', badge: 'bg-pink-500' },
+      ICE: { border: 'border-cyan-400/40', headerBg: 'bg-cyan-400/15', badge: 'bg-cyan-400' },
+      DRAGON: { border: 'border-indigo-500/40', headerBg: 'bg-indigo-500/15', badge: 'bg-indigo-600' },
+      DARK: { border: 'border-gray-600/40', headerBg: 'bg-gray-700/30', badge: 'bg-gray-800' },
+      FAIRY: { border: 'border-pink-300/40', headerBg: 'bg-pink-300/15', badge: 'bg-pink-400' },
+      FIGHTING: { border: 'border-red-700/40', headerBg: 'bg-red-700/15', badge: 'bg-red-700' },
+      POISON: { border: 'border-purple-600/40', headerBg: 'bg-purple-600/15', badge: 'bg-purple-600' },
+      GROUND: { border: 'border-yellow-600/40', headerBg: 'bg-yellow-600/15', badge: 'bg-yellow-600' },
+      FLYING: { border: 'border-indigo-400/40', headerBg: 'bg-indigo-400/15', badge: 'bg-indigo-400' },
+      BUG: { border: 'border-lime-600/40', headerBg: 'bg-lime-600/15', badge: 'bg-lime-600' },
+      ROCK: { border: 'border-amber-700/40', headerBg: 'bg-amber-700/15', badge: 'bg-yellow-800' },
+      GHOST: { border: 'border-purple-700/40', headerBg: 'bg-purple-900/25', badge: 'bg-purple-800' },
+      STEEL: { border: 'border-slate-500/40', headerBg: 'bg-slate-500/15', badge: 'bg-slate-500' },
+      NORMAL: { border: 'border-gray-400/40', headerBg: 'bg-gray-400/15', badge: 'bg-gray-400' },
     };
     return styles[type.toUpperCase()] || { border: 'border-slate-700', headerBg: 'bg-slate-700/20', badge: 'bg-slate-500', glow: 'none' };
-  };
-
-  const getTypeColor = (type) => {
-    return getTypeStyle(type).badge;
-  };
-
-  const getTypeName = (typeId) => {
-    const typeData = typesMap.get(typeId);
-    return typeData?.name || typeId;
   };
 
   const getItemData = (itemId) => {

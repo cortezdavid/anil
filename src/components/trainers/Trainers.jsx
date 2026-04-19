@@ -11,6 +11,7 @@ import types from "../../data/types.json"
 import AutoScrollTop from "../autoScrollTop/AutoScrollTop";
 import Tooltip from "../tooltip/Tooltip";
 import { useSEO } from '../../hooks/useSEO';
+import { getTypeColor, getTypeName } from "../../utils/typeHelpers";
 
 // Componente memoizado para cada Pokémon
 const PokemonCard = memo(({
@@ -19,8 +20,7 @@ const PokemonCard = memo(({
   itemsMap,
   abilitiesMap,
   movesMap,
-  typesMap,
-  getTypeColor
+  typesMap
 }) => {
   const pokemon = pokemonMap.get(poke.name);
   const pokemonName = pokemon?.name || poke.name;
@@ -50,17 +50,14 @@ const PokemonCard = memo(({
 
         {/* Tipos del Pokémon */}
         <div className="flex gap-1 flex-wrap">
-          {pokemonTypes.map((type, typeIdx) => {
-            const typeName = typesMap.get(type)?.name || type;
-            return (
+          {pokemonTypes.map((type, typeIdx) => (
               <span
                 key={typeIdx}
                 className={`px-2 py-0.5 rounded text-xs font-bold text-white ${getTypeColor(type)}`}
               >
-                {typeName}
+                {getTypeName(type)}
               </span>
-            );
-          })}
+            ))}
         </div>
       </div>
 
@@ -178,30 +175,6 @@ const Trainers = () => {
   const routeTrainers = useMemo(() => trainersData.filter(t => t.category === "route"), [trainersData]);
   const eliteFour = useMemo(() => trainersData.filter(t => t.category === "liga"), [trainersData]);
   const postGame = useMemo(() => trainersData.filter(t => t.category === "postGame"), [trainersData]);
-
-  const getTypeColor = (type) => {
-    const colors = {
-      'FIRE': 'bg-red-500',
-      'WATER': 'bg-blue-500',
-      'GRASS': 'bg-green-500',
-      'ELECTRIC': 'bg-yellow-400',
-      'ICE': 'bg-cyan-400',
-      'PSYCHIC': 'bg-pink-500',
-      'DARK': 'bg-gray-800',
-      'DRAGON': 'bg-purple-500',
-      'FAIRY': 'bg-pink-400',
-      'FIGHTING': 'bg-red-700',
-      'POISON': 'bg-purple-600',
-      'GROUND': 'bg-yellow-600',
-      'FLYING': 'bg-indigo-400',
-      'BUG': 'bg-lime-600',
-      'ROCK': 'bg-yellow-800',
-      'GHOST': 'bg-purple-800',
-      'STEEL': 'bg-gray-500',
-      'NORMAL': 'bg-gray-400'
-    };
-    return colors[type] || 'bg-gray-500';
-  };
 
   const toggleTrainer = (trainerId) => {
     setOpenTrainer(openTrainer === trainerId ? null : trainerId);
@@ -405,7 +378,7 @@ const Trainers = () => {
                               abilitiesMap={abilitiesMap}
                               movesMap={movesMap}
                               typesMap={typesMap}
-                              getTypeColor={getTypeColor}
+                              
                             />
                           ))}
                         </div>
@@ -512,7 +485,7 @@ const Trainers = () => {
                               abilitiesMap={abilitiesMap}
                               movesMap={movesMap}
                               typesMap={typesMap}
-                              getTypeColor={getTypeColor}
+                              
                             />
                           ))}
                         </div>
@@ -619,7 +592,7 @@ const Trainers = () => {
                               abilitiesMap={abilitiesMap}
                               movesMap={movesMap}
                               typesMap={typesMap}
-                              getTypeColor={getTypeColor}
+                              
                             />
                           ))}
                         </div>

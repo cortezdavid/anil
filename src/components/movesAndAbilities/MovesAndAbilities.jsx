@@ -1,10 +1,10 @@
 import { useState, useMemo, useRef, useEffect } from 'react';
 import movesData from '../../data/moves.json';
 import abilitiesData from '../../data/abilities.json';
-import typesData from '../../data/types.json';
 import AutoScrollTop from '../autoScrollTop/AutoScrollTop';
 import AbilityModal from './AbilityModal';
 import MoveModal from './MoveModal';
+import { getTypeColor, getTypeName } from "../../utils/typeHelpers";
 import { useSEO } from '../../hooks/useSEO';
 
 const ITEMS_PER_PAGE = 50;
@@ -22,35 +22,6 @@ const MovesAndAbilities = () => {
   const [selectedMove, setSelectedMove] = useState(null);
   const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
   const loadMoreRef = useRef(null);
-
-  const getTypeName = (typeId) => {
-    const type = typesData.types.find(t => t.id === typeId);
-    return type ? type.name : typeId;
-  };
-
-  const getTypeColor = (type) => {
-    const colors = {
-      'FIRE': 'bg-red-500',
-      'WATER': 'bg-blue-500',
-      'GRASS': 'bg-green-500',
-      'ELECTRIC': 'bg-yellow-500',
-      'PSYCHIC': 'bg-pink-500',
-      'ICE': 'bg-cyan-400',
-      'DRAGON': 'bg-indigo-600',
-      'DARK': 'bg-gray-800',
-      'FAIRY': 'bg-pink-400',
-      'FIGHTING': 'bg-red-700',
-      'POISON': 'bg-purple-600',
-      'GROUND': 'bg-yellow-600',
-      'FLYING': 'bg-indigo-400',
-      'BUG': 'bg-lime-600',
-      'ROCK': 'bg-yellow-800',
-      'GHOST': 'bg-purple-800',
-      'STEEL': 'bg-gray-500',
-      'NORMAL': 'bg-gray-400'
-    };
-    return colors[type] || 'bg-gray-500';
-  };
 
   // Filtrar y ordenar movimientos
   const filteredMoves = useMemo(() => {
