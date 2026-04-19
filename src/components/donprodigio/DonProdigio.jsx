@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react";
 import pokemonesData from "../../data/pokemones.json";
-import PokemonStaticSprite from "./PokemonStaticSprite";
+import PokemonStaticSprite from '../PokemonStaticSprite/PokemonStaticSprite';
 import AutoScrollTop from "../autoScrollTop/AutoScrollTop";
 import { useSEO } from '../../hooks/useSEO';
 

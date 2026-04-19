@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import raids from '../../data/raids.json';
 import items from '../../data/items.json';
 import pokemones from '../../data/pokemones.json';
-import PokemonStaticSprite from './PokemonStaticSprite';
+import PokemonStaticSprite from '../PokemonStaticSprite/PokemonStaticSprite';
 import Tooltip from '../tooltip/Tooltip';
 import { useSEO } from '../../hooks/useSEO';
 import AutoScrollTop from '../autoScrollTop/AutoScrollTop';
