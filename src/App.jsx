@@ -9,8 +9,6 @@ import PhotoP from './components/photoP/PhotoP'
 import Items from './components/items/Items'
 import BattleTower from './components/battleTower/BattleTower'
 import Chat from './components/chat/Chat'
-import Collection from './components/collection/Collection'
-import ShareCollection from './components/collection/ShareCollection'
 import Raids from './components/raids/Raids'
 import MovesAndAbilities from './components/movesAndAbilities/MovesAndAbilities'
 import DonProdigio from './components/donprodigio/DonProdigio'
@@ -32,8 +30,6 @@ function App() {
           <Route path='/fotos' element={<PhotoP />} />
           <Route path='/torrebatalla' element={<BattleTower />} />
           <Route path='/chat' element={<Chat />} />
-          {/* <Route path='/coleccion' element={<Collection />} /> */}
-          {/* <Route path='/coleccion/:id' element={<ShareCollection />} /> */}
           <Route path='/nidos' element={<Raids />} />
           <Route path='/movshabs' element={<MovesAndAbilities />} />
           <Route path='/donprodigio' element={<DonProdigio />} />
