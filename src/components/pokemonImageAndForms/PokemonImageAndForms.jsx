@@ -74,7 +74,7 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
       </div>
 
       {/* Barra Normal / Shiny / Paletas */}
-      {/* <div className="mb-6">
+      <div className="mb-6">
         <h3 className="flex items-center gap-1 text-sm font-bold text-slate-300 uppercase tracking-wide">
           {SLIDER_LABELS[sliderValue]}
           {isSuperShiny && (
@@ -95,7 +95,7 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
           onChange={(e) => setSliderValue(Number(e.target.value))}
           className="flex-1 w-full h-2 bg-blue-900 rounded-lg appearance-none cursor-pointer"
         />
-      </div> */}
+      </div>
 
       {/* Botones de Formas */}
       {variants && variants.length > 0 && (
