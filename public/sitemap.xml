@@ -2,26 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://guianil.pages.dev/</loc>
+    <lastmod>2026-05-11</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://guianil.pages.dev/mt</loc>
+    <lastmod>2026-05-11</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
     <loc>https://guianil.pages.dev/objetos</loc>
+    <lastmod>2026-05-11</lastmod>
     <priority>0.80</priority>
   </url>
-   <url>
+  <url>
     <loc>https://guianil.pages.dev/combates</loc>
+    <lastmod>2026-05-11</lastmod>
     <priority>0.80</priority>
   </url>
-   <url>
+  <url>
     <loc>https://guianil.pages.dev/fotos</loc>
+    <lastmod>2026-05-11</lastmod>
     <priority>0.80</priority>
   </url>
-   <url>
+  <url>
     <loc>https://guianil.pages.dev/torrebatalla</loc>
+    <lastmod>2026-05-11</lastmod>
     <priority>0.80</priority>
   </url>
 </urlset>
