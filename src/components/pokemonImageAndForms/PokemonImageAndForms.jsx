@@ -19,65 +19,91 @@ const SLIDER_LABELS = [
 ];
 
 const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange, handleBaseForm, selectedForm, pokemonId }) => {
+
   useEffect(() => {
     setSliderValue(0);
   }, [pokemonId, pokemon.id]);
 
   const [sliderValue, setSliderValue] = useState(0);
 
+  const hasRealPalette = pokemon.superShinyPalette != null;
+
+  // Pasos reales cuando ya está configurado
+  const buildSteps = () => {
+    const steps = [
+      { label: 'Normal', colorShift: 0 },
+      { label: 'Shiny',  colorShift: 1 },
+    ];
+    if (hasRealPalette) {
+      steps.push({ label: 'Super Shiny Capturable', colorShift: pokemon.superShinyPalette });
+    }
+    if (pokemon.superShinyFromEvolution?.length) {
+      pokemon.superShinyFromEvolution.forEach((palette) => {
+        steps.push({ label: 'Super Shiny por Evolución', colorShift: palette });
+      });
+    }
+    return steps;
+  };
+
+  const steps = buildSteps();
+  const maxSlider = hasRealPalette ? steps.length - 1 : 10;
+
+  // El colorShift real depende del modo
+  const getColorShift = () => {
+    if (!hasRealPalette) return sliderValue;         // modo posibles: directo
+    return steps[sliderValue]?.colorShift ?? 0;      // modo real: desde steps
+  };
+
+  const colorShift = getColorShift();
+  const currentLabel = hasRealPalette
+    ? (steps[sliderValue]?.label ?? 'Normal')
+    : SLIDER_LABELS[sliderValue];
+
   const isSuperShiny = sliderValue >= 2;
   const isShiny = sliderValue > 0;
-
-  // Construir el objeto pokemon para ShinyPokemonCard
-  const shinyPokemon = {
-    ...pokemon,
-    colorShift: sliderValue,
-    formIndex: 0,
-    forms: null,
-  };
 
   return (
     <div className="bg-slate-800 rounded-2xl shadow-lg shadow-gray-900/30 p-6 h-fit lg:sticky lg:top-8 border border-slate-700">
 
-      {/* Nombre del Pokémon */}
+      {/* Nombre */}
       <h1 className="text-4xl font-black text-slate-100 mb-6 uppercase tracking-wider text-center">
         {pokemon.name}
       </h1>
 
-      {/* Imagen del Pokémon */}
+      {/* Imagen */}
       <div className={`
-        relative bg-gradient-to-br from-slate-700 to-slate-600 
+        relative bg-gradient-to-br from-slate-700 to-slate-600
         rounded-2xl p-8 mb-6 flex justify-center items-center
         border-4 transition-all duration-300
         ${isSuperShiny ? 'border-purple-800 shadow-lg shadow-purple-800/30' : isShiny ? 'border-amber-400 shadow-lg shadow-amber-500/30' : 'border-slate-600'}
         min-h-[280px]
       `}>
         <div className="relative flex justify-center items-center">
-          {sliderValue === 0 ? (
+          {colorShift === 0 ? (
             <PokemonFront key={pokemon.image} img={pokemon.image} scale={200} />
           ) : (
-            <ShinyPokemonCard key={`${pokemon.image}-${sliderValue}`} pokemon={{ ...shinyPokemon, colorShift: sliderValue }} />
+            <ShinyPokemonCard
+              key={`${pokemon.image}-${colorShift}`}
+              pokemon={{ ...pokemon, colorShift, formIndex: 0, forms: null }}
+            />
           )}
         </div>
 
         {/* Tipos */}
         <div className="absolute bottom-3 left-3 flex gap-1 flex-wrap">
-          {pokemon.types.map((type, typeIdx) => (
-            <span
-              key={typeIdx}
-              className={`px-2 py-1 rounded text-xs font-bold text-white ${getTypeColor(type)} shadow-lg shadow-gray-900/30`}
-            >
+          {pokemon.types.map((type, i) => (
+            <span key={i} className={`px-2 py-1 rounded text-xs font-bold text-white ${getTypeColor(type)} shadow-lg shadow-gray-900/30`}>
               {getTypeName(type)}
             </span>
           ))}
         </div>
       </div>
 
-      {/* Barra Normal / Shiny / Paletas */}
+      {/* Barra */}
       <div className="mb-6">
         <h3 className="flex items-center gap-1 text-sm font-bold text-slate-300 uppercase tracking-wide">
-          {SLIDER_LABELS[sliderValue]}
-          {isSuperShiny && (
+          {currentLabel}
+          {!hasRealPalette && isSuperShiny && (
             <span className="normal-case">
               <Tooltip text="Solo uno de estos colores será el real al capturar" position="top">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -88,12 +114,12 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
           )}
         </h3>
         <input
-          min="0"
-          max="10"
           type="range"
+          min="0"
+          max={maxSlider}
           value={sliderValue}
           onChange={(e) => setSliderValue(Number(e.target.value))}
-          className="flex-1 w-full h-2 bg-blue-900 rounded-lg appearance-none cursor-pointer"
+          className="w-full h-2 bg-blue-900 rounded-lg appearance-none cursor-pointer"
         />
       </div>
 
@@ -107,7 +133,7 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
             <button
               onClick={handleBaseForm}
               className={`
-                px-4 py-2 rounded-xl text-sm font-bold 
+                px-4 py-2 rounded-xl text-sm font-bold
                 ${selectedForm === 'base' || !selectedForm
                   ? 'bg-blue-600 text-white shadow-lg shadow-blue-900/50'
                   : 'bg-slate-700 text-slate-300 hover:bg-slate-600 border-2 border-slate-600'
