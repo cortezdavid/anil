@@ -2039,7 +2039,7 @@
           "species": "WIGGLYTUFF",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "WIGGLYTUFF",
@@ -2092,7 +2092,7 @@
           "species": "WIGGLYTUFF",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 10,
       "wildItemUncommon": "MOONSTONE"
     },
     {
@@ -2147,7 +2147,7 @@
           "species": "CROBAT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "GOLBAT",
@@ -2201,7 +2201,7 @@
           "species": "CROBAT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "ODDISH",
@@ -2259,7 +2259,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "GLOOM",
@@ -2314,7 +2314,7 @@
             }
           ]
         }
-      ],
+      ],"superShinyPalette": 8,
       "wildItemUncommon": "ABSORBBULB"
     },
     {
@@ -2370,7 +2370,7 @@
             }
           ]
         }
-      ],
+      ],"superShinyPalette": 9,
       "wildItemUncommon": "ABSORBBULB"
     },
     {
@@ -2419,7 +2419,7 @@
           "species": "PARASECT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "PARASECT",
@@ -2466,7 +2466,7 @@
           "species": "PARASECT",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 4,
       "wildItemUncommon": "BIGMUSHROOM"
     },
     {
@@ -2514,7 +2514,7 @@
           "species": "VENOMOTH",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "VENOMOTH",
@@ -2561,7 +2561,7 @@
           "species": "VENOMOTH",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 5,
       "wildItemUncommon": "SHEDSHELL"
     },
     {

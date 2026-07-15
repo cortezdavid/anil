@@ -7,15 +7,15 @@ import Tooltip from '../tooltip/Tooltip';
 const SLIDER_LABELS = [
   'Normal',
   'Shiny',
-  'Posible Super Shiny 2',
-  'Posible Super Shiny 3',
-  'Posible Super Shiny 4',
-  'Posible Super Shiny 5',
-  'Posible Super Shiny 6',
-  'Posible Super Shiny 7',
-  'Posible Super Shiny 8',
-  'Posible Super Shiny 9',
-  'Posible Super Shiny 10'
+  'Posible Super Shiny',
+  'Posible Super Shiny',
+  'Posible Super Shiny',
+  'Posible Super Shiny',
+  'Posible Super Shiny',
+  'Posible Super Shiny',
+  'Posible Super Shiny',
+  'Posible Super Shiny',
+  'Posible Super Shiny'
 ];
 
 const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange, handleBaseForm, selectedForm, pokemonId }) => {
