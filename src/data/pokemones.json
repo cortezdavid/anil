@@ -2039,7 +2039,8 @@
           "species": "WIGGLYTUFF",
           "evolvesTo": null
         }
-      ],"superShinyPalette": 7
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "WIGGLYTUFF",
@@ -2092,7 +2093,8 @@
           "species": "WIGGLYTUFF",
           "evolvesTo": null
         }
-      ],"superShinyPalette": 10,
+      ],
+      "superShinyPalette": 10,
       "wildItemUncommon": "MOONSTONE"
     },
     {
@@ -2147,7 +2149,8 @@
           "species": "CROBAT",
           "evolvesTo": null
         }
-      ],"superShinyPalette": 9
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "GOLBAT",
@@ -2201,7 +2204,8 @@
           "species": "CROBAT",
           "evolvesTo": null
         }
-      ],"superShinyPalette": 3
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "ODDISH",
@@ -2259,7 +2263,8 @@
             }
           ]
         }
-      ],"superShinyPalette": 6
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "GLOOM",
@@ -2314,7 +2319,8 @@
             }
           ]
         }
-      ],"superShinyPalette": 8,
+      ],
+      "superShinyPalette": 8,
       "wildItemUncommon": "ABSORBBULB"
     },
     {
@@ -2370,7 +2376,8 @@
             }
           ]
         }
-      ],"superShinyPalette": 9,
+      ],
+      "superShinyPalette": 9,
       "wildItemUncommon": "ABSORBBULB"
     },
     {
@@ -2419,7 +2426,8 @@
           "species": "PARASECT",
           "evolvesTo": null
         }
-      ],"superShinyPalette": 8
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "PARASECT",
@@ -2466,7 +2474,8 @@
           "species": "PARASECT",
           "evolvesTo": null
         }
-      ],"superShinyPalette": 4,
+      ],
+      "superShinyPalette": 4,
       "wildItemUncommon": "BIGMUSHROOM"
     },
     {
@@ -2514,7 +2523,8 @@
           "species": "VENOMOTH",
           "evolvesTo": null
         }
-      ],"superShinyPalette": 3
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "VENOMOTH",
@@ -2561,7 +2571,8 @@
           "species": "VENOMOTH",
           "evolvesTo": null
         }
-      ],"superShinyPalette": 5,
+      ],
+      "superShinyPalette": 5,
       "wildItemUncommon": "SHEDSHELL"
     },
     {
@@ -2610,7 +2621,8 @@
           "species": "DUGTRIO",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 4
     },
     {
       "id": "DUGTRIO",
@@ -2658,6 +2670,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 7,
       "wildItemUncommon": "SOFTSAND"
     },
     {
@@ -2706,7 +2719,8 @@
           "species": "PERSIAN",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "PERSIAN",
@@ -2752,6 +2766,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 9,
       "wildItemUncommon": "QUICKCLAW"
     },
     {
@@ -2798,7 +2813,8 @@
           "species": "GOLDUCK",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "GOLDUCK",
@@ -2843,7 +2859,8 @@
           "species": "GOLDUCK",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "MANKEY",
@@ -2897,7 +2914,8 @@
           "species": "ANNIHILAPE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "PRIMEAPE",
@@ -2949,7 +2967,8 @@
           "species": "ANNIHILAPE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 4
     },
     {
       "id": "GROWLITHE",
@@ -2996,7 +3015,8 @@
           "species": "ARCANINE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 4
     },
     {
       "id": "ARCANINE",
@@ -3041,7 +3061,8 @@
           "species": "ARCANINE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "POLIWAG",
@@ -3097,7 +3118,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "POLIWHIRL",
@@ -3152,7 +3174,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "POLIWRATH",
@@ -3208,6 +3231,7 @@
           ]
         }
       ],
+      "superShinyPalette": 9,
       "wildItemUncommon": "KINGSROCK"
     },
     {
@@ -3263,7 +3287,8 @@
           "species": "ALAKAZAM",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "KADABRA",
@@ -3318,7 +3343,8 @@
           "species": "ALAKAZAM",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "ALAKAZAM",
@@ -3374,6 +3400,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 8,
       "wildItemUncommon": "TWISTEDSPOON"
     },
     {
@@ -3429,7 +3456,8 @@
           "species": "MACHAMP",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "MACHOKE",
@@ -3484,7 +3512,8 @@
           "species": "MACHAMP",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "MACHAMP",
@@ -3538,6 +3567,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 10,
       "wildItemUncommon": "FOCUSBAND"
     },
     {
@@ -3592,7 +3622,8 @@
           "species": "VICTREEBEL",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "WEEPINBELL",
@@ -3646,7 +3677,8 @@
           "species": "VICTREEBEL",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "VICTREEBEL",
@@ -3699,7 +3731,8 @@
           "species": "VICTREEBEL",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "TENTACOOL",
@@ -3747,7 +3780,8 @@
           "species": "TENTACRUEL",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "TENTACRUEL",
@@ -3795,6 +3829,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 7,
       "wildItemUncommon": "POISONBARB"
     },
     {
@@ -3851,7 +3886,8 @@
           "species": "GOLEM",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "GRAVELER",
@@ -3906,7 +3942,8 @@
           "species": "GOLEM",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "GOLEM",
@@ -3963,6 +4000,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 5,
       "wildItemUncommon": "EVERSTONE"
     },
     {
@@ -4010,7 +4048,8 @@
           "species": "RAPIDASH",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "RAPIDASH",
@@ -4057,7 +4096,8 @@
           "species": "RAPIDASH",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "SLOWPOKE",
@@ -4109,7 +4149,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "SLOWBRO",
@@ -4159,6 +4200,7 @@
           ]
         }
       ],
+      "superShinyPalette": 10,
       "wildItemUncommon": "KINGSROCK"
     },
     {
@@ -4214,7 +4256,8 @@
           "species": "MAGNEZONE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "MAGNETON",
@@ -4268,7 +4311,8 @@
           "species": "MAGNEZONE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "FARFETCHD",
@@ -4302,7 +4346,8 @@
         "shape ": "Winged"
       },
       "pokedex": "Lleva siempre una especie de palo de algún tipo de planta y dicen que éste puede ser mejor o peor. Tiene fama de haber luchado contra otros Pokémon por algún palo.",
-      "wildItemUncommon": "LEEK"
+      "wildItemUncommon": "LEEK",
+      "superShinyPalette": 7
     },
     {
       "id": "DODUO",
@@ -4350,7 +4395,8 @@
           "species": "DODRIO",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "DODRIO",
@@ -4398,7 +4444,8 @@
           "species": "DODRIO",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "SEEL",
@@ -4444,7 +4491,8 @@
           "species": "DEWGONG",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "DEWGONG",
@@ -4491,7 +4539,8 @@
           "species": "DEWGONG",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "GRIMER",
@@ -4538,7 +4587,8 @@
           "species": "MUK",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "MUK",
@@ -4584,7 +4634,8 @@
           "species": "MUK",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "SHELLDER",
@@ -4631,7 +4682,8 @@
           "species": "CLOYSTER",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 4
     },
     {
       "id": "CLOYSTER",
@@ -4679,7 +4731,8 @@
           "species": "CLOYSTER",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "GASTLY",
@@ -4730,7 +4783,8 @@
           "species": "GENGAR",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "HAUNTER",
@@ -4780,7 +4834,8 @@
           "species": "GENGAR",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "GENGAR",
@@ -4830,7 +4885,8 @@
           "species": "GENGAR",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "ONIX",
@@ -4877,7 +4933,8 @@
           "species": "STEELIX",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "DROWZEE",
@@ -4923,7 +4980,8 @@
           "species": "HYPNO",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "HYPNO",
@@ -4967,7 +5025,8 @@
           "species": "HYPNO",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "KRABBY",
@@ -5013,7 +5072,8 @@
           "species": "KINGLER",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "KINGLER",
@@ -5058,7 +5118,8 @@
           "species": "KINGLER",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "VOLTORB",
@@ -5104,7 +5165,8 @@
           "species": "ELECTRODE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "ELECTRODE",
@@ -5150,7 +5212,8 @@
           "species": "ELECTRODE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "EXEGGCUTE",
@@ -5198,7 +5261,8 @@
           "species": "EXEGGUTOR",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "EXEGGUTOR",
@@ -5244,7 +5308,8 @@
           "species": "EXEGGUTOR",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "CUBONE",
@@ -5291,7 +5356,8 @@
           "species": "MAROWAK",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "MAROWAK",
@@ -5337,7 +5403,8 @@
           "species": "MAROWAK",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "HITMONLEE",
@@ -5391,6 +5458,7 @@
           ]
         }
       ],
+      "superShinyPalette": 9,
       "pokedex": "Da unas patadas demoledoras encogiendo y estirando las patas. Tras la lucha, se las masajea para relajar los músculos y descansar."
     },
     {
@@ -5445,6 +5513,7 @@
           ]
         }
       ],
+      "superShinyPalette": 7,
       "pokedex": "Dicen que su alma es la de un boxeador que se entrenó para un campeonato mundial. Tiene un espíritu indomable que nunca se doblega ante la adversidad."
     },
     {
@@ -5492,7 +5561,8 @@
           "species": "LICKILICKY",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "KOFFING",
@@ -5537,7 +5607,8 @@
           "species": "WEEZING",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "WEEZING",
@@ -5585,7 +5656,8 @@
           "species": "WEEZING",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "RHYHORN",
@@ -5640,7 +5712,8 @@
           "species": "RHYPERIOR",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "RHYDON",
@@ -5693,7 +5766,8 @@
           "species": "RHYPERIOR",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "CHANSEY",
@@ -5747,7 +5821,8 @@
           "species": "BLISSEY",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "TANGELA",
@@ -5792,7 +5867,8 @@
           "species": "TANGROWTH",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "KANGASKHAN",
@@ -5825,6 +5901,7 @@
         "weight": 80,
         "shape ": "BipedalTail"
       },
+      "superShinyPalette": 10,
       "pokedex": "Si te cruzas con uno que esté jugando, no lo molestes ni intentes atraparlo. Seguro que uno de sus progenitores anda cerca y reaccionará con enfado y violencia."
     },
     {
@@ -5880,7 +5957,8 @@
           "species": "KINGDRA",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "SEADRA",
@@ -5935,7 +6013,8 @@
           "species": "KINGDRA",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "GOLDEEN",
@@ -5982,7 +6061,8 @@
           "species": "SEAKING",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "SEAKING",
@@ -6027,7 +6107,8 @@
           "species": "SEAKING",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "STARYU",
@@ -6074,7 +6155,8 @@
           "species": "STARMIE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "STARMIE",
@@ -6123,7 +6205,8 @@
           "species": "STARMIE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "MRMIME",
@@ -6171,7 +6254,8 @@
           "species": "MRMIME",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "SCYTHER",
@@ -6221,7 +6305,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 4
     },
     {
       "id": "JYNX",
@@ -6268,6 +6353,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 3,
       "pokedex": "Camina con ritmo, cimbreándose y balanceando las caderas como si bailara. Hace movimientos tan atractivos que no hay quien se resista a mover las caderas."
     },
     {
@@ -6322,7 +6408,8 @@
           "species": "ELECTIVIRE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "MAGMAR",
@@ -6376,7 +6463,8 @@
           "species": "MAGMORTAR",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "PINSIR",
@@ -6409,6 +6497,7 @@
         "weight": 55,
         "shape ": "Bipedal"
       },
+      "superShinyPalette": 3,
       "pokedex": "Sus cuernos tienen fuerza para destrozar grandes troncos. Como odia el frío, cavan madrigueras bajo tierra donde duermen cuando bajan las temperaturas."
     },
     {
@@ -6442,6 +6531,7 @@
         "weight": 88.4,
         "shape ": "Quadruped"
       },
+      "superShinyPalette": 6,
       "pokedex": "Le resulta imposible estarse quieto. Si no hay ningún rival que luche con él, se estampa contra árboles para calmarse y los embiste para echarlos abajo."
     },
     {
@@ -6487,7 +6577,8 @@
           "species": "GYARADOS",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 4
     },
     {
       "id": "GYARADOS",
@@ -6534,7 +6625,7 @@
           "species": "GYARADOS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 4
     },
     {
       "id": "LAPRAS",
@@ -6567,7 +6658,7 @@
         "height": 2.5,
         "weight": 220,
         "shape ": "Finned"
-      },
+      },"superShinyPalette": 7,
       "pokedex": "Está en peligro de extinción. Dicen que, al anochecer, se pone a cantar quejicoso mientras busca a los miembros de su especie que puedan quedar.",
       "wildItemUncommon": "MYSTICWATER"
     },
@@ -6596,7 +6687,7 @@
         "height": 0.3,
         "weight": 4,
         "shape ": "Head"
-      },
+      },"superShinyPalette": 7,
       "pokedex": "Altera su estructura celular para cambiar de forma. Pero, si intenta transformarse en algo según los datos que tenga en la memoria, habrá detalles que se le escapen.",
       "wildItemUncommon": "METALPOWDER"
     },
@@ -6629,7 +6720,7 @@
       "physicalData": {
         "height": 0.3,
         "weight": 6.5
-      },
+      },"superShinyPalette": 9,
       "pokedex": "Su configuración genética le permite mutar y adaptarse enseguida a cualquier medio. Evoluciona gracias a las radiaciones emitidas por varias piedras.",
       "evolutionChain": [
         {
@@ -6772,7 +6863,7 @@
             }
           ]
         }
-      ],
+      ],"superShinyPalette": 6,
       "pokedex": "Sufrió una mutación repentina y desarrolló aletas y branquias que le permiten vivir bajo el agua. Este Pokémon tiene la habilidad de controlar las aguas."
     },
     {
@@ -6858,7 +6949,7 @@
             }
           ]
         }
-      ],
+      ],"superShinyPalette": 3,
       "pokedex": "Crea algo de electricidad, cuya intensidad aumenta con la estática que acumula en un pelaje formado por agujas cargadas de energía. Así puede lanzar rayos."
     },
     {
@@ -6944,7 +7035,7 @@
             }
           ]
         }
-      ],
+      ],"superShinyPalette": 5,
       "pokedex": "La suavidad de su pelaje tiene una función clara: liberar calor para que no se asfixie. La temperatura corporal puede alcanzar los 900 grados centígrados."
     },
     {
@@ -6999,7 +7090,7 @@
           "species": "PORYGONZ",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "OMANYTE",
@@ -7046,7 +7137,7 @@
           "species": "OMASTAR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "OMASTAR",
@@ -7090,7 +7181,7 @@
           "species": "OMASTAR",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 7,
       "pokedex": "Usa los tentáculos para cazar. Se cree que se ha extinguido debido al tamaño y al peso que alcanza su concha, que entorpece sus movimientos."
     },
     {
@@ -7138,7 +7229,7 @@
           "species": "KABUTOPS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "KABUTOPS",
@@ -7182,7 +7273,7 @@
           "species": "KABUTOPS",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 5,
       "pokedex": "Antes buceaba para atrapar a su presa, pero evolucionó y ahora vive en tierra firme. El cambio que se ve en patas y branquias así lo confirma."
     },
     {
@@ -7216,7 +7307,7 @@
         "height": 1.8,
         "weight": 59,
         "shape ": "Winged"
-      },
+      },"superShinyPalette": 6,
       "pokedex": "Surgió en la era de los dinosaurios. Se regeneró a partir de material genético contenido en ámbar. Se cree que fue el amo de los cielos en épocas pasadas."
     },
     {
@@ -7263,7 +7354,7 @@
           "species": "SNORLAX",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 9,
       "pokedex": "Se dedica a comer y dormir. Es tan dócil que es fácil ver a niños usando la gran panza que tiene como lugar de juegos.",
       "wildItemUncommon": "LEFTOVERS"
     },
@@ -7297,7 +7388,7 @@
         "height": 1.7,
         "weight": 55.4,
         "shape ": "Winged"
-      },
+      },"superShinyPalette": 8,
       "pokedex": "Es un legendario pájaro Pokémon que puede controlar el hielo. El batir de sus alas congela el aire. Dicen que consigue hacer nevar cuando vuela."
     },
     {
@@ -7330,7 +7421,7 @@
         "height": 1.6,
         "weight": 52.6,
         "shape ": "Winged"
-      },
+      },"superShinyPalette": 7,
       "pokedex": "Es un legendario pájaro Pokémon que tiene la habilidad de controlar la electricidad. Suele vivir en nubarrones. Gana mucha fuerza si le alcanzan los rayos."
     },
     {
@@ -7363,7 +7454,7 @@
         "height": 2,
         "weight": 60,
         "shape ": "Winged"
-      },
+      },"superShinyPalette": 8,
       "pokedex": "Moltres tiene la habilidad de controlar el fuego. Dicen que, si resulta herido, se sumerge en el líquido magma de un volcán para arder y curarse."
     },
     {
@@ -7394,7 +7485,7 @@
         "height": 1.8,
         "weight": 3.3,
         "shape ": "Serpentine"
-      },
+      },"superShinyPalette": 9,
       "pokedex": "Está mudando la piel continuamente. Es algo que necesita hacer porque la energía que tiene en su interior alcanza niveles que resultan incontrolables.",
       "wildItemUncommon": "DRAGONSCALE",
       "evolutionChain": [
@@ -7470,7 +7561,7 @@
           "species": "DRAGONITE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "DRAGONITE",
@@ -7522,7 +7613,7 @@
           "species": "DRAGONITE",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 8,
       "pokedex": "Es capaz de dar la vuelta al mundo en sólo 16 horas. Tiene buen corazón: guía a tierra firme a los barcos que se han perdido en plena tormenta.",
       "wildItemUncommon": "DRAGONSCALE"
     },
@@ -7555,7 +7646,7 @@
         "height": 2,
         "weight": 122,
         "shape ": "BipedalTail"
-      },
+      },"superShinyPalette": 3,
       "pokedex": "Fue creado por manipulación genética, pero, a pesar de que los científicos dieron a Mewtwo un cuerpo, no lograron dotarle de un corazón compasivo."
     },
     {
