@@ -7,15 +7,15 @@ import Tooltip from '../tooltip/Tooltip';
 const SLIDER_LABELS = [
   'Normal',
   'Shiny',
-  'Posible Super Shiny',
-  'Posible Super Shiny',
-  'Posible Super Shiny',
-  'Posible Super Shiny',
-  'Posible Super Shiny',
-  'Posible Super Shiny',
-  'Posible Super Shiny',
-  'Posible Super Shiny',
-  'Posible Super Shiny'
+  'Posible Super Shiny 2',
+  'Posible Super Shiny 3',
+  'Posible Super Shiny 4',
+  'Posible Super Shiny 5',
+  'Posible Super Shiny 6',
+  'Posible Super Shiny 7',
+  'Posible Super Shiny 8',
+  'Posible Super Shiny 9',
+  'Posible Super Shiny 10'
 ];
 
 const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange, handleBaseForm, selectedForm, pokemonId }) => {
@@ -35,7 +35,7 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
       { label: 'Shiny',  colorShift: 1 },
     ];
     if (hasRealPalette) {
-      steps.push({ label: 'Super Shiny Capturable', colorShift: pokemon.superShinyPalette });
+      steps.push({ label: 'Super Shiny por captura', colorShift: pokemon.superShinyPalette });
     }
     if (pokemon.superShinyFromEvolution?.length) {
       pokemon.superShinyFromEvolution.forEach((palette) => {

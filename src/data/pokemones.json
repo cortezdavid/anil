@@ -103,7 +103,8 @@
           "species": "VENUSAUR",
           "evolvesTo": null
         }
-      ],"superShinyPalette": 7
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "VENUSAUR",
@@ -156,7 +157,8 @@
           "species": "VENUSAUR",
           "evolvesTo": null
         }
-      ],"superShinyPalette": 7
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "CHARMANDER",
@@ -209,7 +211,8 @@
           "species": "CHARIZARD",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "CHARMELEON",
@@ -260,7 +263,8 @@
           "species": "CHARIZARD",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "CHARIZARD",
@@ -313,7 +317,8 @@
           "species": "CHARIZARD",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "SQUIRTLE",
@@ -366,7 +371,8 @@
           "species": "BLASTOISE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "WARTORTLE",
@@ -417,7 +423,8 @@
           "species": "BLASTOISE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "BLASTOISE",
@@ -469,7 +476,8 @@
           "species": "BLASTOISE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "CATERPIE",
@@ -522,7 +530,8 @@
           "species": "BUTTERFREE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "METAPOD",
@@ -570,7 +579,8 @@
           "species": "BUTTERFREE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "BUTTERFREE",
@@ -624,6 +634,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 8,
       "wildItemUncommon": "SILVERPOWDER"
     },
     {
@@ -678,7 +689,8 @@
           "species": "BEEDRILL",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "KAKUNA",
@@ -727,7 +739,8 @@
           "species": "BEEDRILL",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "BEEDRILL",
@@ -781,6 +794,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 9,
       "wildItemUncommon": "POISONBARB"
     },
     {
@@ -836,7 +850,8 @@
           "species": "PIDGEOT",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "PIDGEOTTO",
@@ -889,7 +904,8 @@
           "species": "PIDGEOT",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "PIDGEOT",
@@ -945,7 +961,8 @@
           "species": "PIDGEOT",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "RATTATA",
@@ -993,7 +1010,8 @@
           "species": "RATICATE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "RATICATE",
@@ -1039,6 +1057,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 5,
       "wildItemUncommon": "CHILANBERRY"
     },
     {
@@ -1086,7 +1105,8 @@
           "species": "FEAROW",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "FEAROW",
@@ -1131,6 +1151,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 8,
       "wildItemUncommon": "SHARPBEAK"
     },
     {
@@ -1177,7 +1198,8 @@
           "species": "ARBOK",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "ARBOK",
@@ -1224,7 +1246,8 @@
           "species": "ARBOK",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "PIKACHU",
@@ -1279,7 +1302,8 @@
           "species": "RAICHU",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "RAICHU",
@@ -1331,7 +1355,8 @@
           "species": "RAICHU",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "SANDSHREW",
@@ -1378,7 +1403,8 @@
           "species": "SANDSLASH",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "SANDSLASH",
@@ -1423,6 +1449,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 5,
       "wildItemUncommon": "GRIPCLAW"
     },
     {
@@ -1477,7 +1504,8 @@
           "species": "NIDOQUEEN",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "NIDORINA",
@@ -1529,7 +1557,8 @@
           "species": "NIDOQUEEN",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "NIDOQUEEN",
@@ -1584,7 +1613,8 @@
           "species": "NIDOQUEEN",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "NIDORANMA",
@@ -1638,7 +1668,8 @@
           "species": "NIDOKING",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "NIDORINO",
@@ -1690,7 +1721,8 @@
           "species": "NIDOKING",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "NIDOKING",
@@ -1745,7 +1777,8 @@
           "species": "NIDOKING",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "CLEFAIRY",
@@ -1800,7 +1833,8 @@
           "species": "CLEFABLE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "CLEFABLE",
@@ -1854,6 +1888,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 9,
       "wildItemUncommon": "MOONSTONE"
     },
     {
@@ -1901,7 +1936,8 @@
           "species": "NINETALES",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "NINETALES",
@@ -1946,6 +1982,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 7,
       "wildItemUncommon": "CHARCOAL"
     },
     {
