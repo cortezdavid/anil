@@ -10672,7 +10672,7 @@
         "height": 0.5,
         "weight": 3.9,
         "shape ": "Finned"
-      },
+      },"superShinyPalette": 10,
       "pokedex": "Bebe agua, se hincha y usa la presión del agua que ha tragado para lanzar plumas tóxicas a través de la piel. Para Qwilfish, nadar es todo un desafío.",
       "wildItemUncommon": "POISONBARB"
     },
@@ -10723,7 +10723,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "SHUCKLE",
@@ -10755,7 +10755,7 @@
         "height": 0.6,
         "weight": 20.5,
         "shape ": "Insectoid"
-      },
+      },"superShinyPalette": 6,
       "pokedex": "Se esconde bajo las rocas, oculto en su caparazón, para comerse las bayas que ha recolectado. Las bayas se mezclan con sus fluidos corporales y originan zumo.",
       "wildItemUncommon": "BERRYJUICE"
     },
@@ -10790,7 +10790,7 @@
         "height": 1.5,
         "weight": 54,
         "shape ": "Bipedal"
-      },
+      },"superShinyPalette": 7,
       "pokedex": "Va en grupo al bosque en busca de la dulce savia de los árboles. Cubierto con una coraza dura como el acero, luce su cuerno orgulloso y voltea con él a los rivales."
     },
     {
@@ -10840,7 +10840,7 @@
           "species": "WEAVILE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "TEDDIURSA",
@@ -10894,7 +10894,7 @@
           "species": "URSALUNA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "URSARING",
@@ -10948,7 +10948,7 @@
           "species": "URSALUNA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "SLUGMA",
@@ -10994,7 +10994,7 @@
           "species": "MAGCARGO",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "MAGCARGO",
@@ -11041,7 +11041,7 @@
           "species": "MAGCARGO",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "SWINUB",
@@ -11096,7 +11096,7 @@
           "species": "MAMOSWINE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "PILOSWINE",
@@ -11149,7 +11149,7 @@
           "species": "MAMOSWINE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "CORSOLA",
@@ -11182,7 +11182,7 @@
         "height": 0.6,
         "weight": 5,
         "shape ": "Insectoid"
-      },
+      },"superShinyPalette": 10,
       "pokedex": "Corsola vive en las cálidas aguas de los mares del Sur. Cuando hay contaminación, las bellas ramas coralinas que le cubren se decoloran y se caen a pedazos.",
       "wildItemUncommon": "LUMINOUSMOSS"
     },
@@ -11230,7 +11230,7 @@
           "species": "OCTILLERY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "OCTILLERY",
@@ -11276,7 +11276,7 @@
           "species": "OCTILLERY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "DELIBIRD",
@@ -11308,9 +11308,8 @@
         "height": 0.9,
         "weight": 16,
         "shape ": "Winged"
-      },
-      "pokedex": "Usa la cola a modo de saco para llevar su alimento. Una vez, un escalador consiguió coronar el Everest porque uno de estos Pokémon compartió sus alimentos con él.",
-      "generation": 2
+      },"superShinyPalette": 5,
+      "pokedex": "Usa la cola a modo de saco para llevar su alimento. Una vez, un escalador consiguió coronar el Everest porque uno de estos Pokémon compartió sus alimentos con él."
     },
     {
       "id": "MANTINE",
@@ -11357,7 +11356,7 @@
           "species": "MANTINE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "SKARMORY",
@@ -11390,7 +11389,7 @@
         "height": 1.7,
         "weight": 50.5,
         "shape ": "Winged"
-      },
+      },"superShinyPalette": 6,
       "pokedex": "Tiene el cuerpo y las alas de acero. Hace mucho, la gente usaba las plumas que se le caían a Skarmory para forjar espadas y cuchillos.",
       "wildItemUncommon": "METALCOAT"
     },
@@ -11439,7 +11438,7 @@
           "species": "HOUNDOOM",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "HOUNDOOM",
@@ -11485,7 +11484,7 @@
           "species": "HOUNDOOM",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "KINGDRA",
@@ -11541,7 +11540,7 @@
           "species": "KINGDRA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "PHANPY",
@@ -11587,7 +11586,7 @@
           "species": "DONPHAN",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "DONPHAN",
@@ -11633,7 +11632,7 @@
           "species": "DONPHAN",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "PORYGON2",
@@ -11685,7 +11684,7 @@
           "species": "PORYGONZ",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "STANTLER",
@@ -11732,7 +11731,7 @@
           "species": "WYRDEER",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "SMEARGLE",
@@ -11763,9 +11762,8 @@
         "height": 1.2,
         "weight": 58,
         "shape ": "BipedalTail"
-      },
-      "pokedex": "Marca su territorio liberando un fluido corporal por el extremo de la cola. Hasta la fecha, se conocen más de 5.000 tipos de marcas dejadas por este Pokémon.",
-      "generation": 2
+      },"superShinyPalette": 8,
+      "pokedex": "Marca su territorio liberando un fluido corporal por el extremo de la cola. Hasta la fecha, se conocen más de 5.000 tipos de marcas dejadas por este Pokémon."
     },
     {
       "id": "TYROGUE",
@@ -11817,7 +11815,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "HITMONTOP",
@@ -11869,7 +11867,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "SMOOCHUM",
@@ -11914,7 +11912,7 @@
           "species": "JYNX",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "ELEKID",
@@ -11968,7 +11966,7 @@
           "species": "ELECTIVIRE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "MAGBY",
@@ -12020,7 +12018,7 @@
           "species": "MAGMORTAR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "MILTANK",
@@ -12051,7 +12049,7 @@
         "height": 1.2,
         "weight": 75.5,
         "shape ": "BipedalTail"
-      },
+      },"superShinyPalette": 7,
       "pokedex": "Miltank da al día 20 litros de una dulce leche que gusta a grandes y pequeños. Aquellos a los que no les agrada la leche, la toman en forma de yogurt.",
       "wildItemUncommon": "MOOMOOMILK"
     },
@@ -12106,7 +12104,7 @@
           "species": "BLISSEY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 4
     },
     {
       "id": "RAIKOU",
@@ -12136,7 +12134,7 @@
         "height": 1.9,
         "weight": 178,
         "shape ": "Quadruped"
-      },
+      },"superShinyPalette": 8,
       "pokedex": "Tiene la velocidad del rayo. Al rugir, emite ondas de choque que se esparcen vibrando por el aire y sacuden el suelo como si fueran auténticas descargas."
     },
     {
@@ -12167,7 +12165,7 @@
         "height": 2.1,
         "weight": 198,
         "shape ": "Quadruped"
-      },
+      },"superShinyPalette": 6,
       "pokedex": "Contiene el furor del magma. Se cree que nació de la erupción de un volcán. Escupe ráfagas de llamaradas que devoran todo lo que tocan, reduciéndolo a cenizas."
     },
     {
@@ -12198,7 +12196,7 @@
         "height": 2,
         "weight": 187,
         "shape ": "Quadruped"
-      },
+      },"superShinyPalette": 5,
       "pokedex": "Emana la pureza de los manantiales. Suele ir corriendo por el campo con gran elegancia. Este Pokémon tiene el poder de purificar el agua contaminada."
     },
     {
@@ -12253,7 +12251,7 @@
           "species": "TYRANITAR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "PUPITAR",
@@ -12304,7 +12302,7 @@
           "species": "TYRANITAR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "TYRANITAR",
@@ -12357,7 +12355,7 @@
           "species": "TYRANITAR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "LUGIA",
@@ -12388,7 +12386,7 @@
         "height": 5.2,
         "weight": 216,
         "shape ": "Winged"
-      },
+      },"superShinyPalette": 10,
       "pokedex": "La fuerza que tiene en las alas es devastadora. Al batirlas, puede derribar edificios enteros, por eso prefiere vivir donde no hay nadie, en el fondo del mar."
     },
     {
@@ -12420,7 +12418,7 @@
         "height": 3.8,
         "weight": 199,
         "shape ": "Winged"
-      },
+      },"superShinyPalette": 5,
       "pokedex": "Su plumaje contiene siete colores que se ven según el ángulo desde el que le da la luz. Se cree que es portador de alegría. Este Pokémon vive a los pies del arco iris.",
       "wildItemUncommon": "SACREDASH"
     },
@@ -12450,7 +12448,7 @@
         "height": 0.6,
         "weight": 5,
         "shape ": "Bipedal"
-      },
+      },"superShinyPalette": 3,
       "pokedex": "Vino del futuro haciendo un viaje en el tiempo. Hay quien piensa que, mientras Celebi siga apareciendo, el futuro será brillante y esperanzador.",
       "wildItemUncommon": "LUMBERRY"
     },
