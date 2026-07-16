@@ -7674,7 +7674,7 @@
         "height": 0.4,
         "weight": 4,
         "shape ": "BipedalTail"
-      },
+      },"superShinyPalette": 6,
       "pokedex": "Dicen que posee el mapa genético de todos los Pokémon. Puede hacerse invisible a voluntad, así que logra pasar inadvertido aunque haya gente cerca.",
       "wildItemUncommon": "LUMBERRY"
     },
@@ -7730,7 +7730,7 @@
           "species": "MEGANIUM",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "BAYLEEF",
@@ -7782,7 +7782,7 @@
           "species": "MEGANIUM",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 4
     },
     {
       "id": "MEGANIUM",
@@ -7835,7 +7835,7 @@
           "species": "MEGANIUM",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 4
     },
     {
       "id": "CYNDAQUIL",
@@ -7889,7 +7889,7 @@
           "species": "TYPHLOSION",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "QUILAVA",
@@ -7941,7 +7941,7 @@
           "species": "TYPHLOSION",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "TYPHLOSION",
@@ -7993,7 +7993,7 @@
           "species": "TYPHLOSION",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 6,
       "pokedex": "Se oculta tras un trémulo haz de calor que crea mediante intensas y sofocantes llamaradas. Provoca explosiones abrasadoras que reducen todo a cenizas."
     },
     {
@@ -8047,7 +8047,7 @@
           "species": "FERALIGATR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "CROCONAW",
@@ -8098,7 +8098,7 @@
           "species": "FERALIGATR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "FERALIGATR",
@@ -8151,7 +8151,7 @@
           "species": "FERALIGATR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "SENTRET",
@@ -8197,7 +8197,7 @@
           "species": "FURRET",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "FURRET",
@@ -8240,7 +8240,7 @@
           "species": "FURRET",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "HOOTHOOT",
@@ -8287,7 +8287,7 @@
           "species": "NOCTOWL",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "NOCTOWL",
@@ -8334,7 +8334,7 @@
           "species": "NOCTOWL",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "LEDYBA",
@@ -8381,7 +8381,7 @@
           "species": "LEDIAN",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "LEDIAN",
@@ -8425,7 +8425,7 @@
           "species": "LEDIAN",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "SPINARAK",
@@ -8472,7 +8472,7 @@
           "species": "ARIADOS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "ARIADOS",
@@ -8517,7 +8517,7 @@
           "species": "ARIADOS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "CROBAT",
@@ -8571,7 +8571,7 @@
           "species": "CROBAT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "CHINCHOU",
@@ -8619,7 +8619,7 @@
           "species": "LANTURN",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "LANTURN",
@@ -8663,7 +8663,7 @@
           "species": "LANTURN",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 6,
       "pokedex": "Las esferas brillantes que tiene en la cabeza emiten luz y se forman a partir de su aleta dorsal. Este Pokémon logra iluminar las profundidades abisales.",
       "wildItemUncommon": "DEEPSEASCALE"
     },
@@ -8716,7 +8716,7 @@
           "species": "RAICHU",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "CLEFFA",
@@ -8769,7 +8769,7 @@
           "species": "CLEFABLE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "IGGLYBUFF",
@@ -8822,7 +8822,7 @@
           "species": "WIGGLYTUFF",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "TOGEPI",
@@ -8876,7 +8876,7 @@
           "species": "TOGEKISS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "TOGETIC",
@@ -8929,7 +8929,7 @@
           "species": "TOGEKISS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "NATU",
@@ -8976,7 +8976,7 @@
           "species": "XATU",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "XATU",
@@ -9021,7 +9021,7 @@
           "species": "XATU",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "MAREEP",
@@ -9074,7 +9074,7 @@
           "species": "AMPHAROS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "FLAAFFY",
@@ -9125,7 +9125,7 @@
           "species": "AMPHAROS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "AMPHAROS",
@@ -9179,7 +9179,7 @@
           "species": "AMPHAROS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "BELLOSSOM",
@@ -9233,7 +9233,7 @@
             }
           ]
         }
-      ],
+      ],"superShinyPalette": 6,
       "wildItemUncommon": "ABSORBBULB"
     },
     {
@@ -9289,7 +9289,7 @@
           "species": "AZUMARILL",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "AZUMARILL",
@@ -9342,7 +9342,7 @@
           "species": "AZUMARILL",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "SUDOWOODO",
@@ -9388,7 +9388,7 @@
           "species": "SUDOWOODO",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "POLITOED",
@@ -9443,7 +9443,7 @@
             }
           ]
         }
-      ],
+      ],"superShinyPalette": 10,
       "wildItemUncommon": "KINGSROCK"
     },
     {
@@ -9499,7 +9499,7 @@
           "species": "JUMPLUFF",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "SKIPLOOM",
@@ -9554,7 +9554,7 @@
           "species": "JUMPLUFF",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "JUMPLUFF",
@@ -9608,7 +9608,7 @@
           "species": "JUMPLUFF",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "AIPOM",
@@ -9654,7 +9654,7 @@
           "species": "AMBIPOM",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "SUNKERN",
@@ -9699,7 +9699,7 @@
           "species": "SUNFLORA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "SUNFLORA",
@@ -9743,7 +9743,7 @@
           "species": "SUNFLORA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "YANMA",
@@ -9791,7 +9791,7 @@
           "species": "YANMEGA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "WOOPER",
@@ -9839,7 +9839,7 @@
           "species": "QUAGSIRE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "QUAGSIRE",
@@ -9884,7 +9884,7 @@
           "species": "QUAGSIRE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "ESPEON",
@@ -9970,7 +9970,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "UMBREON",
@@ -10056,7 +10056,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "MURKROW",
@@ -10103,7 +10103,7 @@
           "species": "HONCHKROW",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "SLOWKING",
@@ -10152,7 +10152,7 @@
             }
           ]
         }
-      ],
+      ],"superShinyPalette": 10,
       "wildItemUncommon": "KINGSROCK"
     },
     {
@@ -10196,7 +10196,7 @@
           "species": "MISMAGIUS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "UNOWN",
@@ -10223,9 +10223,8 @@
         "height": 0.5,
         "weight": 5,
         "shape ": "Head"
-      },
-      "pokedex": "Tienen forma de caracteres antiguos. No se sabe qué surgió primero: la escritura o los distintos Unown, pero se sigue investigando.",
-      "generation": 2
+      },"superShinyPalette": 5,
+      "pokedex": "Tienen forma de caracteres antiguos. No se sabe qué surgió primero: la escritura o los distintos Unown, pero se sigue investigando."
     },
     {
       "id": "WOBBUFFET",
@@ -10270,7 +10269,7 @@
           "species": "WOBBUFFET",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "GIRAFARIG",
@@ -10316,7 +10315,7 @@
           "species": "FARIGIRAF",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "PINECO",
@@ -10361,7 +10360,7 @@
           "species": "FORRETRESS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "FORRETRESS",
@@ -10407,7 +10406,7 @@
           "species": "FORRETRESS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "DUNSPARCE",
@@ -10453,7 +10452,7 @@
           "species": "DUDUNSPARCE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "GLIGAR",
@@ -10500,7 +10499,7 @@
           "species": "GLISCOR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "STEELIX",
@@ -10547,7 +10546,7 @@
           "species": "STEELIX",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "SNUBBULL",
@@ -10593,7 +10592,7 @@
           "species": "GRANBULL",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "GRANBULL",
@@ -10640,7 +10639,7 @@
           "species": "GRANBULL",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "QWILFISH",
