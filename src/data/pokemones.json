@@ -12503,7 +12503,7 @@
           "species": "SCEPTILE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "GROVYLE",
@@ -12554,7 +12554,7 @@
           "species": "SCEPTILE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "SCEPTILE",
@@ -12607,7 +12607,7 @@
           "species": "SCEPTILE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "TORCHIC",
@@ -12660,7 +12660,7 @@
           "species": "BLAZIKEN",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "COMBUSKEN",
@@ -12713,7 +12713,7 @@
           "species": "BLAZIKEN",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 4
     },
     {
       "id": "BLAZIKEN",
@@ -12767,7 +12767,7 @@
           "species": "BLAZIKEN",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "MUDKIP",
@@ -12820,7 +12820,7 @@
           "species": "SWAMPERT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "MARSHTOMP",
@@ -12872,7 +12872,7 @@
           "species": "SWAMPERT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "SWAMPERT",
@@ -12925,7 +12925,7 @@
           "species": "SWAMPERT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "POOCHYENA",
@@ -12971,7 +12971,7 @@
           "species": "MIGHTYENA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "MIGHTYENA",
@@ -13017,7 +13017,7 @@
           "species": "MIGHTYENA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "ZIGZAGOON",
@@ -13065,7 +13065,7 @@
           "species": "LINOONE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "LINOONE",
@@ -13111,7 +13111,7 @@
           "species": "LINOONE",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 4,
       "pokedex": "Es tremendamente rápido si corre en línea recta. Cuando detecta a su presa bajo el agua de una charca, da un veloz salto y la atrapa con sus afiladas garras.",
       "wildItemUncommon": "MAXREVIVE"
     },
@@ -13180,7 +13180,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "SILCOON",
@@ -13241,7 +13241,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "BEAUTIFLY",
@@ -13306,7 +13306,7 @@
             }
           ]
         }
-      ],
+      ],"superShinyPalette": 9,
       "wildItemUncommon": "SHEDSHELL"
     },
     {
@@ -13368,7 +13368,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "DUSTOX",
@@ -13433,7 +13433,7 @@
             }
           ]
         }
-      ],
+      ],"superShinyPalette": 8,
       "wildItemUncommon": "SHEDSHELL"
     },
     {
@@ -13490,7 +13490,7 @@
           "species": "LUDICOLO",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "LOMBRE",
@@ -13546,7 +13546,7 @@
           "species": "LUDICOLO",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "LUDICOLO",
@@ -13599,7 +13599,7 @@
           "species": "LUDICOLO",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 5,
       "wildItemUncommon": "MENTALHERB"
     },
     {
@@ -13655,7 +13655,7 @@
           "species": "SHIFTRY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "NUZLEAF",
@@ -13711,7 +13711,7 @@
           "species": "SHIFTRY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "SHIFTRY",
@@ -13764,7 +13764,7 @@
           "species": "SHIFTRY",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 3,
       "wildItemUncommon": "POWERHERB"
     },
     {
@@ -13809,7 +13809,7 @@
           "species": "SWELLOW",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "SWELLOW",
@@ -13855,7 +13855,7 @@
           "species": "SWELLOW",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "WINGULL",
@@ -13902,7 +13902,7 @@
           "species": "PELIPPER",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 4
     },
     {
       "id": "PELIPPER",
@@ -13949,7 +13949,7 @@
           "species": "PELIPPER",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "RALTS",
@@ -14007,7 +14007,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "KIRLIA",
@@ -14063,7 +14063,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "GARDEVOIR",
@@ -14122,7 +14122,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "SURSKIT",
@@ -14168,7 +14168,7 @@
           "species": "MASQUERAIN",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "MASQUERAIN",
@@ -14213,7 +14213,7 @@
           "species": "MASQUERAIN",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 6,
       "pokedex": "Intimida al enemigo con los ojos que tiene dibujados en las antenas. Como no puede volar si se le mojan las alas, se protege de la lluvia bajo aleros y grandes árboles.",
       "wildItemUncommon": "SILVERPOWDER"
     },
@@ -14262,7 +14262,7 @@
           "species": "BRELOOM",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 4
     },
     {
       "id": "BRELOOM",
@@ -14306,7 +14306,7 @@
           "species": "BRELOOM",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 7,
       "pokedex": "Libera esporas por los orificios de la cabeza. Le encanta el clima cálido y húmedo. Se nutre de árboles y plantas que hay en el campo y en el bosque.",
       "wildItemUncommon": "BIGMUSHROOM"
     },
@@ -14358,7 +14358,7 @@
           "species": "SLAKING",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "VIGOROTH",
@@ -14406,7 +14406,7 @@
           "species": "SLAKING",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "SLAKING",
@@ -14454,7 +14454,7 @@
           "species": "SLAKING",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "NINCADA",
@@ -14504,7 +14504,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "NINJASK",
@@ -14551,7 +14551,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "SHEDINJA",
@@ -14595,7 +14595,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "WHISMUR",
@@ -14647,7 +14647,7 @@
           "species": "EXPLOUD",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "LOUDRED",
@@ -14701,7 +14701,7 @@
           "species": "EXPLOUD",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "EXPLOUD",
@@ -14755,7 +14755,7 @@
           "species": "EXPLOUD",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "MAKUHITA",
@@ -14800,7 +14800,7 @@
           "species": "HARIYAMA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "HARIYAMA",
@@ -14845,7 +14845,7 @@
           "species": "HARIYAMA",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 3,
       "pokedex": "Tiene la costumbre de desafiar a otros sin medir la fuerza del adversario. Alguna vez se ha montado sobre las vías del tren y parado trenes a base de puñetazos.",
       "wildItemUncommon": "KINGSROCK"
     },
@@ -14900,7 +14900,7 @@
           "species": "AZUMARILL",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "NOSEPASS",
@@ -14947,7 +14947,7 @@
           "species": "PROBOPASS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "SKITTY",
@@ -14993,7 +14993,7 @@
           "species": "DELCATTY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "DELCATTY",
@@ -15037,7 +15037,7 @@
           "species": "DELCATTY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "SABLEYE",
@@ -15070,7 +15070,7 @@
         "height": 0.5,
         "weight": 11,
         "shape ": "Bipedal"
-      },
+      },"superShinyPalette": 10,
       "pokedex": "Cava conductos en cuevas usando sus afiladas garras para buscar rocas con las que alimentarse. Sableye permanece al acecho en la oscuridad; no es fácil verlo.",
       "wildItemUncommon": "WIDELENS"
     },
@@ -15105,7 +15105,7 @@
         "height": 0.6,
         "weight": 11.5,
         "shape ": "Bipedal"
-      },
+      },"superShinyPalette": 10,
       "pokedex": "Las gigantescas fauces que tiene fueron cuernos de acero en su día. Engaña al enemigo con gestos dóciles y a continuación abre sus fauces.",
       "wildItemUncommon": "IRONBALL"
     },
