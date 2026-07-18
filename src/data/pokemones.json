@@ -18754,7 +18754,7 @@
           "species": "TORTERRA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "GROTLE",
@@ -18805,7 +18805,7 @@
           "species": "TORTERRA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "TORTERRA",
@@ -18857,7 +18857,7 @@
           "species": "TORTERRA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "CHIMCHAR",
@@ -18910,7 +18910,7 @@
           "species": "INFERNAPE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "MONFERNO",
@@ -18962,7 +18962,7 @@
           "species": "INFERNAPE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "INFERNAPE",
@@ -19014,7 +19014,7 @@
           "species": "INFERNAPE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "PIPLUP",
@@ -19067,7 +19067,7 @@
           "species": "EMPOLEON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "PRINPLUP",
@@ -19118,7 +19118,7 @@
           "species": "EMPOLEON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "EMPOLEON",
@@ -19170,7 +19170,7 @@
           "species": "EMPOLEON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "STARLY",
@@ -19224,7 +19224,7 @@
           "species": "STARAPTOR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "STARAVIA",
@@ -19276,7 +19276,7 @@
           "species": "STARAPTOR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "STARAPTOR",
@@ -19331,7 +19331,7 @@
           "species": "STARAPTOR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "BIDOOF",
@@ -19377,7 +19377,7 @@
           "species": "BIBAREL",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "BIBAREL",
@@ -19422,7 +19422,7 @@
           "species": "BIBAREL",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 4
     },
     {
       "id": "KRICKETOT",
@@ -19468,7 +19468,7 @@
           "species": "KRICKETUNE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "KRICKETUNE",
@@ -19512,7 +19512,7 @@
           "species": "KRICKETUNE",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 5,
       "wildItemUncommon": "METRONOME"
     },
     {
@@ -19567,7 +19567,7 @@
           "species": "LUXRAY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "LUXIO",
@@ -19619,7 +19619,7 @@
           "species": "LUXRAY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "LUXRAY",
@@ -19671,7 +19671,7 @@
           "species": "LUXRAY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "BUDEW",
@@ -19727,7 +19727,7 @@
           "species": "ROSERADE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "ROSERADE",
@@ -19782,7 +19782,7 @@
           "species": "ROSERADE",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 6,
       "wildItemUncommon": "POISONBARB"
     },
     {
@@ -19828,7 +19828,7 @@
           "species": "RAMPARDOS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "RAMPARDOS",
@@ -19871,7 +19871,7 @@
           "species": "RAMPARDOS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "SHIELDON",
@@ -19917,7 +19917,7 @@
           "species": "BASTIODON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "BASTIODON",
@@ -19961,7 +19961,7 @@
           "species": "BASTIODON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "BURMY",
@@ -20009,7 +20009,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "WORMADAM",
@@ -20057,7 +20057,7 @@
             }
           ]
         }
-      ],
+      ],"superShinyPalette": 9,
       "wildItemUncommon": "SILVERPOWDER"
     },
     {
@@ -20105,7 +20105,7 @@
             }
           ]
         }
-      ],
+      ],"superShinyPalette": 3,
       "wildItemUncommon": "SILVERPOWDER"
     },
     {
@@ -20151,7 +20151,7 @@
           "species": "VESPIQUEN",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 4
     },
     {
       "id": "VESPIQUEN",
@@ -20197,7 +20197,7 @@
           "species": "VESPIQUEN",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 8,
       "pokedex": "Su abdomen es un panal de larvas que alimenta con la miel recogida por Combee. Libera feromonas para hacer que hagan lo que diga cuando combate.",
       "wildItemUncommon": "POISONBARB"
     },
@@ -20230,7 +20230,7 @@
         "height": 0.4,
         "weight": 3.9,
         "shape ": "Quadruped"
-      },
+      },"superShinyPalette": 5,
       "pokedex": "Crea bolas de pelo que crepitan con electricidad estática. Las almacena en agujeros de árboles. A veces se ve a dos frotándose las bolsas de las mejillas."
     },
     {
@@ -20276,7 +20276,7 @@
           "species": "FLOATZEL",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "FLOATZEL",
@@ -20321,7 +20321,7 @@
           "species": "FLOATZEL",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "CHERUBI",
@@ -20362,7 +20362,7 @@
           "species": "CHERRIM",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "CHERRIM",
@@ -20403,7 +20403,7 @@
           "species": "CHERRIM",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 8,
       "pokedex": "Florece en épocas de mucha luz solar. Intenta compensar lo que soportó como capullo. Si la luz solar mengua, se transforma en capullo.",
       "wildItemUncommon": "MIRACLESEED"
     },
@@ -20451,7 +20451,7 @@
           "species": "GASTRODON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "GASTRODON",
@@ -20498,7 +20498,7 @@
           "species": "GASTRODON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "AMBIPOM",
@@ -20542,7 +20542,7 @@
           "species": "AMBIPOM",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "DRIFLOON",
@@ -20588,7 +20588,7 @@
           "species": "DRIFBLIM",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "DRIFBLIM",
@@ -20634,7 +20634,7 @@
           "species": "DRIFBLIM",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "BUNEARY",
@@ -20680,7 +20680,7 @@
           "species": "LOPUNNY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "LOPUNNY",
@@ -20726,7 +20726,7 @@
           "species": "LOPUNNY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "MISMAGIUS",
@@ -20767,7 +20767,7 @@
           "species": "MISMAGIUS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "HONCHKROW",
@@ -20812,7 +20812,7 @@
           "species": "HONCHKROW",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "GLAMEOW",
@@ -20858,7 +20858,7 @@
           "species": "PURUGLY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "PURUGLY",
@@ -20904,7 +20904,7 @@
           "species": "PURUGLY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "CHINGLING",
@@ -20945,7 +20945,7 @@
           "species": "CHIMECHO",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "STUNKY",
@@ -20992,7 +20992,7 @@
           "species": "SKUNTANK",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "SKUNTANK",
@@ -21039,7 +21039,7 @@
           "species": "SKUNTANK",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 4
     },
     {
       "id": "BRONZOR",
@@ -21087,7 +21087,7 @@
           "species": "BRONZONG",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "BRONZONG",
@@ -21132,7 +21132,7 @@
           "species": "BRONZONG",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 3,
       "pokedex": "Se produjo un gran revuelo cuando encontraron uno en una obra después de 2000 años durmiendo. Hace tiempo, la gente creía que traía buenas cosechas.",
       "wildItemUncommon": "METALCOAT"
     },
@@ -21180,7 +21180,7 @@
           "species": "SUDOWOODO",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "MIMEJR",
@@ -21225,7 +21225,7 @@
           "species": "MRMIME",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "HAPPINY",
@@ -21277,7 +21277,7 @@
           "species": "BLISSEY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "CHATOT",
@@ -21309,7 +21309,7 @@
         "height": 0.5,
         "weight": 1.9,
         "shape ": "Winged"
-      },
+      },"superShinyPalette": 7,
       "pokedex": "Pueden aprender y hablar lenguas humanas. Si se juntan, todos aprenden las mismas palabras. Mantiene el compás agitando la cola como un metrónomo.",
       "wildItemUncommon": "METRONOME"
     },
@@ -21342,9 +21342,8 @@
         "height": 1,
         "weight": 108,
         "shape ": "HeadBase"
-      },
-      "pokedex": "Se formó a partir de 108 espíritus. Como castigo por una fechoría realizada 500 años atrás, está unido a la fisura de una piedra angular mística.",
-      "generation": 4
+      },"superShinyPalette": 8,
+      "pokedex": "Se formó a partir de 108 espíritus. Como castigo por una fechoría realizada 500 años atrás, está unido a la fisura de una piedra angular mística."
     },
     {
       "id": "GIBLE",
@@ -21398,7 +21397,7 @@
           "species": "GARCHOMP",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "GABITE",
@@ -21452,7 +21451,7 @@
           "species": "GARCHOMP",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "GARCHOMP",
@@ -21505,7 +21504,7 @@
           "species": "GARCHOMP",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "MUNCHLAX",
@@ -21550,7 +21549,7 @@
           "species": "SNORLAX",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "RIOLU",
@@ -21596,7 +21595,7 @@
           "species": "LUCARIO",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "LUCARIO",
@@ -21642,7 +21641,7 @@
           "species": "LUCARIO",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "HIPPOPOTAS",
@@ -21687,7 +21686,7 @@
           "species": "HIPPOWDON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "HIPPOWDON",
@@ -21730,7 +21729,7 @@
           "species": "HIPPOWDON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "SKORUPI",
@@ -21776,7 +21775,7 @@
           "species": "DRAPION",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "DRAPION",
@@ -21822,7 +21821,7 @@
           "species": "DRAPION",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 3,
       "pokedex": "Sus brazos tienen fuerza para destrozar un coche. La punta de sus zarpas segrega veneno. Su cabeza rota 180 grados para poder ver en todas direcciones.",
       "wildItemUncommon": "POISONBARB"
     },
@@ -21872,7 +21871,7 @@
           "species": "TOXICROAK",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "TOXICROAK",
@@ -21917,7 +21916,7 @@
           "species": "TOXICROAK",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 10,
       "wildItemUncommon": "BLACKSLUDGE"
     },
     {
@@ -21945,9 +21944,8 @@
         "height": 1.4,
         "weight": 27,
         "shape ": "Multiped"
-      },
-      "pokedex": "Atrae a sus presas con saliva de olor dulce y las mastica. Se cuelga de las ramas con sus tentáculos y espera a sus presas con la boca abierta.",
-      "generation": 4
+      },"superShinyPalette": 10,
+      "pokedex": "Atrae a sus presas con saliva de olor dulce y las mastica. Se cuelga de las ramas con sus tentáculos y espera a sus presas con la boca abierta."
     },
     {
       "id": "FINNEON",
@@ -21993,7 +21991,7 @@
           "species": "LUMINEON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 4
     },
     {
       "id": "LUMINEON",
@@ -22039,7 +22037,7 @@
           "species": "LUMINEON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "MANTYKE",
@@ -22084,7 +22082,7 @@
           "species": "MANTINE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "SNOVER",
@@ -22132,7 +22130,7 @@
           "species": "ABOMASNOW",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "ABOMASNOW",
@@ -22180,7 +22178,7 @@
           "species": "ABOMASNOW",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 4,
       "wildItemUncommon": "NEVERMELTICE"
     },
     {
@@ -22228,7 +22226,7 @@
           "species": "WEAVILE",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 3,
       "wildItemUncommon": "QUICKCLAW"
     },
     {
@@ -22282,7 +22280,7 @@
           "species": "MAGNEZONE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "LICKILICKY",
@@ -22327,7 +22325,7 @@
           "species": "LICKILICKY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "RHYPERIOR",
@@ -22382,7 +22380,7 @@
           "species": "RHYPERIOR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "TANGROWTH",
@@ -22425,7 +22423,7 @@
           "species": "TANGROWTH",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "ELECTIVIRE",
@@ -22477,7 +22475,7 @@
           "species": "ELECTIVIRE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "MAGMORTAR",
@@ -22529,7 +22527,7 @@
           "species": "MAGMORTAR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "TOGEKISS",
@@ -22584,7 +22582,7 @@
           "species": "TOGEKISS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "YANMEGA",
@@ -22628,7 +22626,7 @@
           "species": "YANMEGA",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 7,
       "pokedex": "Agita sus alas para crear ondas de choque que producen lesiones internas a sus rivales. Vuela a gran velocidad mientras se equilibra con las alas de su cola.",
       "wildItemUncommon": "WIDELENS"
     },
@@ -22716,7 +22714,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "GLACEON",
@@ -22803,7 +22801,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "GLISCOR",
@@ -22848,7 +22846,7 @@
           "species": "GLISCOR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "MAMOSWINE",
@@ -22903,7 +22901,7 @@
           "species": "MAMOSWINE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "PORYGONZ",
@@ -22954,7 +22952,7 @@
           "species": "PORYGONZ",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "GALLADE",
@@ -23011,7 +23009,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "PROBOPASS",
@@ -23057,7 +23055,7 @@
           "species": "PROBOPASS",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 8,
       "pokedex": "Emana un fuerte magnetismo. Controla tres pequeñas unidades, llamadas Mini-Narices, para capturar presas o combatir.",
       "wildItemUncommon": "MAGNET"
     },
@@ -23109,7 +23107,7 @@
           "species": "DUSKNOIR",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 3,
       "pokedex": "La antena de la cabeza capta ondas de otra dimensión que le incitan a llevarse allí a la gente. Es temido porque se cree que absorbe almas errantes.",
       "wildItemUncommon": "SPELLTAG"
     },
@@ -23161,7 +23159,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "ROTOM",
@@ -23190,9 +23188,8 @@
         "height": 0.3,
         "weight": 0.3,
         "shape ": "Head"
-      },
-      "pokedex": "Su cuerpo está hecho de plasma. Puede infiltrarse en dispositivos electrónicos e inutilizarlos. Le encanta realizar fechorías.",
-      "generation": 4
+      },"superShinyPalette": 6,
+      "pokedex": "Su cuerpo está hecho de plasma. Puede infiltrarse en dispositivos electrónicos e inutilizarlos. Le encanta realizar fechorías."
     },
     {
       "id": "UXIE",
@@ -23219,7 +23216,7 @@
         "height": 0.3,
         "weight": 0.3,
         "shape ": "BipedalTail"
-      },
+      },"superShinyPalette": 4,
       "pokedex": "Se le conoce como el \"ser de la sabiduría\". Otorgó a las personas la capacidad de resolver problemas. Se dice que puede borrar la memoria con una mirada."
     },
     {
@@ -23247,7 +23244,7 @@
         "height": 0.3,
         "weight": 0.3,
         "shape ": "BipedalTail"
-      },
+      },"superShinyPalette": 6,
       "pokedex": "Se le conoce como el \"ser de la emoción\". Enseñó a los humanos los sentimientos de la alegría, la tristeza y el dolor. Duerme en el fondo de un lago."
     },
     {
@@ -23275,7 +23272,7 @@
         "height": 0.3,
         "weight": 0.3,
         "shape ": "BipedalTail"
-      },
+      },"superShinyPalette": 10,
       "pokedex": "Se le conoce como el \"ser de la voluntad\". Otorgó a la gente la determinación para hacer cosas. Duerme en el fondo de un lago para equilibrar el mundo."
     },
     {
@@ -23308,7 +23305,7 @@
         "height": 5.4,
         "weight": 683,
         "shape ": "Quadruped"
-      },
+      },"superShinyPalette": 9,
       "pokedex": "Aparece en los mitos de Sinnoh como una vieja deidad. Tiene el poder de controlar el tiempo y viajar así libremente al pasado y al futuro."
     },
     {
@@ -23341,7 +23338,7 @@
         "height": 4.2,
         "weight": 336,
         "shape ": "BipedalTail"
-      },
+      },"superShinyPalette": 4,
       "pokedex": "Aparece en la mitología de Sinnoh. Controla las conexiones del espacio y puede viajar a su antojo a otras dimensiones y a lugares lejanos."
     },
     {
@@ -23374,7 +23371,7 @@
         "height": 1.7,
         "weight": 430,
         "shape ": "Quadruped"
-      },
+      },"superShinyPalette": 8,
       "pokedex": "Habita en cuevas volcánicas. Cava con sus pies en forma de cruz para trepar por techos y paredes. Su sangre fluye ardiendo como si fuera magma."
     },
     {
@@ -23402,7 +23399,7 @@
         "height": 3.7,
         "weight": 420,
         "shape ": "Bipedal"
-      },
+      },"superShinyPalette": 3,
       "pokedex": "Existen leyendas en todo el mundo que narran como Regigigas creó otros Pokémon a su imagen y semejanza. Después, colocó los continentes en su posición actual."
     },
     {
@@ -23435,7 +23432,7 @@
         "height": 4.5,
         "weight": 750,
         "shape ": "Multiped"
-      },
+      },"superShinyPalette": 7,
       "pokedex": "Fue desterrado por su violencia. Vive en el Mundo Distorsión, un mundo opuesto al nuestro y cuyas leyes desafían el sentido común. Desde ahí observa nuestro mundo."
     },
     {
@@ -23463,7 +23460,7 @@
         "height": 1.5,
         "weight": 85.6,
         "shape ": "Serpentine"
-      },
+      },"superShinyPalette": 6,
       "pokedex": "En las noches de media luna, la aurora de su cola se extiende y ondea más hermosa que nunca. Se dice que representa un cuarto lunar."
     },
     {
@@ -23488,7 +23485,7 @@
       "physicalData": {
         "height": 0.4,
         "weight": 3.1
-      },
+      },"superShinyPalette": 7,
       "pokedex": "Vive en los mares cálidos. Infla el flotador de la cabeza para nadar en busca de comida. Siempre vuelve a donde nació, por mucho que se haya alejado."
     },
     {
@@ -23516,7 +23513,7 @@
         "height": 0.3,
         "weight": 1.4,
         "shape ": "Bipedal"
-      },
+      },"superShinyPalette": 5,
       "pokedex": "Nace con un maravilloso poder que le permite establecer vínculos con cualquier tipo de Pokémon. Le afecta considerablemente el entorno."
     },
     {
@@ -23545,7 +23542,7 @@
         "height": 1.5,
         "weight": 50.5,
         "shape ": "Bipedal"
-      },
+      },"superShinyPalette": 10,
       "pokedex": "Las historias populares cuentan que en las noches de luna nueva hace soñar pesadillas horribles. Pero no lo hace con intención de hacer daño."
     },
     {
@@ -23575,7 +23572,7 @@
         "height": 0.2,
         "weight": 2.1,
         "shape ": "Quadruped"
-      },
+      },"superShinyPalette": 9,
       "pokedex": "Se dice que, cuando florecen las gracídeas, Shaymin alza su vuelo para mostrar su gratitud. Vive entre las flores enroscado como si fuera una planta.",
       "wildItemUncommon": "LUMBERRY"
     },
@@ -23604,7 +23601,7 @@
         "height": 3.2,
         "weight": 320,
         "shape ": "Quadruped"
-      },
+      },"superShinyPalette": 7,
       "pokedex": "Según la mitología de Sinnoh, Arceus surgió de un huevo en un lugar en el que no había nada y después dio forma al Universo con sus 1.000 brazos."
     },
     {
@@ -23633,7 +23630,7 @@
         "height": 0.4,
         "weight": 4,
         "shape ": "Bipedal"
-      },
+      },"superShinyPalette": 6,
       "pokedex": "Pokémon que atrae la victoria. Dicen que el Entrenador que lo lleve saldrá vencedor de cualquier batalla."
     },
     {
