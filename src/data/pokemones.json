@@ -15161,7 +15161,7 @@
           "species": "AGGRON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "LAIRON",
@@ -15217,7 +15217,7 @@
           "species": "AGGRON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "AGGRON",
@@ -15272,7 +15272,7 @@
           "species": "AGGRON",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 9,
       "pokedex": "Los cuernos de hierro que tiene le crecen poco a poco. Sirven para determinar la edad que tiene. Luce los desperfectos de su coraza en recuerdo de sus combates.",
       "wildItemUncommon": "HARDSTONE"
     },
@@ -15320,7 +15320,7 @@
           "species": "MEDICHAM",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "MEDICHAM",
@@ -15367,7 +15367,7 @@
           "species": "MEDICHAM",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "ELECTRIKE",
@@ -15413,7 +15413,7 @@
           "species": "MANECTRIC",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "MANECTRIC",
@@ -15460,7 +15460,7 @@
           "species": "MANECTRIC",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "PLUSLE",
@@ -15490,7 +15490,7 @@
         "height": 0.4,
         "weight": 4.2,
         "shape ": "BipedalTail"
-      },
+      },"superShinyPalette": 3,
       "pokedex": "Siempre anima a sus compañeros Pokémon. Crea cortocircuitos con la electricidad que libera por las patas para hacer pompones de chispas y animar al resto.",
       "wildItemUncommon": "CELLBATTERY"
     },
@@ -15522,7 +15522,7 @@
         "height": 0.4,
         "weight": 4.2,
         "shape ": "BipedalTail"
-      },
+      },"superShinyPalette": 10,
       "pokedex": "En una reunión de estudiosos de Pokémon, se anunció que la exposición simultánea a la electricidad de un Plusle y de un Minun mejora la circulación y da más vitalidad.",
       "wildItemUncommon": "CELLBATTERY"
     },
@@ -15556,7 +15556,7 @@
         "height": 0.7,
         "weight": 17.7,
         "shape ": "BipedalTail"
-      },
+      },"superShinyPalette": 3,
       "pokedex": "Vuelan en enjambres dibujando con la luz de la cola formas geométricas en el cielo nocturno. Si la charca en la que viven se ensucia, se mudan a otro sitio.",
       "wildItemUncommon": "BRIGHTPOWDER"
     },
@@ -15590,7 +15590,7 @@
         "height": 0.6,
         "weight": 17.7,
         "shape ": "Bipedal"
-      },
+      },"superShinyPalette": 7,
       "pokedex": "Este Pokémon nocturno sólo está activo de noche. Guía a un enjambre de Volbeat para que hagan dibujos en el cielo de la noche y saben hacer hasta 200 distintos.",
       "wildItemUncommon": "BRIGHTPOWDER"
     },
@@ -15648,7 +15648,7 @@
           "species": "ROSERADE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "GULPIN",
@@ -15694,7 +15694,7 @@
           "species": "SWALOT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "SWALOT",
@@ -15739,7 +15739,7 @@
           "species": "SWALOT",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 9,
       "wildItemUncommon": "SITRUSBERRY"
     },
     {
@@ -15788,7 +15788,7 @@
           "species": "SHARPEDO",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "SHARPEDO",
@@ -15835,7 +15835,7 @@
           "species": "SHARPEDO",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 7,
       "pokedex": "Este Pokémon, muy violento y astuto, es el terror de los mares. La textura de su piel reduce al mínimo la resistencia al agua. Llega a alcanzar los 120 km por hora.",
       "wildItemUncommon": "DEEPSEATOOTH"
     },
@@ -15883,7 +15883,7 @@
           "species": "WAILORD",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "WAILORD",
@@ -15927,7 +15927,7 @@
           "species": "WAILORD",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "NUMEL",
@@ -15974,7 +15974,7 @@
           "species": "CAMERUPT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "CAMERUPT",
@@ -16022,7 +16022,7 @@
           "species": "CAMERUPT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "TORKOAL",
@@ -16053,7 +16053,7 @@
         "height": 0.5,
         "weight": 80.4,
         "shape ": "Quadruped"
-      },
+      },"superShinyPalette": 5,
       "pokedex": "Lucha usando la energía que obtiene quemando carbón. Cuando suelta humo por los orificios nasales, emite un sonido que recuerda a la chimenea de una locomotora.",
       "wildItemUncommon": "CHARCOAL"
     },
@@ -16100,7 +16100,7 @@
           "species": "GRUMPIG",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "GRUMPIG",
@@ -16144,7 +16144,7 @@
           "species": "GRUMPIG",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "SPINDA",
@@ -16175,7 +16175,7 @@
         "height": 1.1,
         "weight": 5,
         "shape ": "BipedalTail"
-      },
+      },"superShinyPalette": 10,
       "pokedex": "Se le diferencia por los dibujos del pelaje; no hay dos iguales. Su forma de andar, inestable y torpe, logra confundir al enemigo y hacer que su puntería falle.",
       "generation": 3
     },
@@ -16232,7 +16232,7 @@
           "species": "FLYGON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "VIBRAVA",
@@ -16281,7 +16281,7 @@
           "species": "FLYGON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "FLYGON",
@@ -16332,7 +16332,7 @@
           "species": "FLYGON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "CACNEA",
@@ -16378,7 +16378,7 @@
           "species": "CACTURNE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "CACTURNE",
@@ -16424,7 +16424,7 @@
           "species": "CACTURNE",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 6,
       "wildItemUncommon": "STICKYBARB"
     },
     {
@@ -16471,7 +16471,7 @@
           "species": "ALTARIA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 4
     },
     {
       "id": "ALTARIA",
@@ -16518,7 +16518,7 @@
           "species": "ALTARIA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "ZANGOOSE",
@@ -16548,7 +16548,7 @@
         "height": 1.3,
         "weight": 40.3,
         "shape ": "BipedalTail"
-      },
+      },"superShinyPalette": 9,
       "pokedex": "Cuando lucha, se yergue sobre las patas traseras y ataca con sus afiladas zarpas. El pelaje se le eriza si se encuentra con un Seviper.",
       "wildItemUncommon": "QUICKCLAW"
     },
@@ -16580,7 +16580,7 @@
         "height": 2.7,
         "weight": 52.5,
         "shape ": "Serpentine"
-      },
+      },"superShinyPalette": 7,
       "pokedex": "Seviper y Zangoose son rivales eternos. Contrarresta la gran agilidad de Zangoose con una cola en forma de espada que además rezuma un veneno terrible.",
       "wildItemUncommon": "SHEDSHELL"
     },
@@ -16610,7 +16610,7 @@
         "height": 1,
         "weight": 168,
         "shape ": "Head"
-      },
+      },"superShinyPalette": 9,
       "pokedex": "Llega a ser muy activo en las noches de luna llena. Este Pokémon fue descubierto hace 40 años en el lugar en el que había caído un meteorito.",
       "wildItemUncommon": "MOONSTONE"
     },
@@ -16640,7 +16640,7 @@
         "height": 1.2,
         "weight": 154,
         "shape ": "Head"
-      },
+      },"superShinyPalette": 6,
       "pokedex": "El origen de la fuerza de este Pokémon está en la energía solar. En días soleados, grupos de Solrock se alinean de cara al sol para absorber su luz.",
       "wildItemUncommon": "SUNSTONE"
     },
@@ -16689,7 +16689,7 @@
           "species": "WHISCASH",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "WHISCASH",
@@ -16736,7 +16736,7 @@
           "species": "WHISCASH",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 4
     },
     {
       "id": "CORPHISH",
@@ -16780,7 +16780,7 @@
           "species": "CRAWDAUNT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "CRAWDAUNT",
@@ -16827,7 +16827,7 @@
           "species": "CRAWDAUNT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "BALTOY",
@@ -16870,7 +16870,7 @@
           "species": "CLAYDOL",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "CLAYDOL",
@@ -16909,7 +16909,7 @@
           "species": "CLAYDOL",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 6,
       "pokedex": "Claydol duerme mientras levita. Tiene los brazos separados del cuerpo y los mantiene flotando gracias a sus poderes psicoquinéticos.",
       "wildItemUncommon": "LIGHTCLAY"
     },
@@ -16958,7 +16958,7 @@
           "species": "CRADILY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "CRADILY",
@@ -17001,7 +17001,7 @@
           "species": "CRADILY",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 6,
       "pokedex": "Arrastra su pesado cuerpo por el fondo marino. Anida cerca de la superficie, en aguas templadas. Cuando hay marea baja, es posible ver a Cradily en la playa.",
       "wildItemUncommon": "BIGROOT"
     },
@@ -17050,7 +17050,7 @@
           "species": "ARMALDO",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "ARMALDO",
@@ -17095,7 +17095,7 @@
           "species": "ARMALDO",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "FEEBAS",
@@ -17141,7 +17141,7 @@
           "species": "MILOTIC",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "MILOTIC",
@@ -17185,7 +17185,7 @@
           "species": "MILOTIC",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "CASTFORM",
@@ -17213,7 +17213,7 @@
         "height": 0.3,
         "weight": 0.8,
         "shape ": "Head"
-      },
+      },"superShinyPalette": 9,
       "pokedex": "Tiene la habilidad de cambiar y adaptarse al tiempo. Según el clima, se transformará en sol, o en nubarrones de lluvia, nieve o arena.",
       "wildItemUncommon": "MYSTICWATER"
     },
@@ -17245,9 +17245,8 @@
         "height": 1,
         "weight": 22,
         "shape ": "BipedalTail"
-      },
-      "pokedex": "Puede alterar la coloración de su cuerpo para camuflarse en el medio en el que esté. Si se asusta, Kecleon recuperará sus colores originales.",
-      "generation": 3
+      },"superShinyPalette": 6,
+      "pokedex": "Puede alterar la coloración de su cuerpo para camuflarse en el medio en el que esté. Si se asusta, Kecleon recuperará sus colores originales."
     },
     {
       "id": "SHUPPET",
@@ -17294,7 +17293,7 @@
           "species": "BANETTE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 4
     },
     {
       "id": "BANETTE",
@@ -17338,7 +17337,7 @@
           "species": "BANETTE",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 8,
       "pokedex": "Solía ser un muñeco de felpa al que abandonaron. Dicen que vive en vertederos de basura y que va buscando al niño que lo tiró en su día.",
       "wildItemUncommon": "SPELLTAG"
     },
@@ -17393,7 +17392,7 @@
           "species": "DUSKNOIR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "DUSCLOPS",
@@ -17445,7 +17444,7 @@
           "species": "DUSKNOIR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "TROPIUS",
@@ -17477,9 +17476,8 @@
         "height": 2,
         "weight": 100,
         "shape ": "Quadruped"
-      },
-      "pokedex": "Logra volar agitando sus amplias hojas. El racimo de fruta que le crece alrededor del cuello es de una dulzura exquisita. En primavera, libera polen por el cuello.",
-      "generation": 3
+      },"superShinyPalette": 10,
+      "pokedex": "Logra volar agitando sus amplias hojas. El racimo de fruta que le crece alrededor del cuello es de una dulzura exquisita. En primavera, libera polen por el cuello."
     },
     {
       "id": "CHIMECHO",
@@ -17520,7 +17518,7 @@
           "species": "CHIMECHO",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 6,
       "pokedex": "Se ponen a volar sin parar cuando llega la estación cálida. Se comunica con otros a través de siete tipos de grito distintos muy característicos.",
       "wildItemUncommon": "CLEANSETAG"
     },
@@ -17554,9 +17552,8 @@
         "height": 1.2,
         "weight": 47,
         "shape ": "Quadruped"
-      },
-      "pokedex": "Detecta con precisión cualquier cambio producido en la atmósfera o la tierra y predice catástrofes naturales. Es un Pokémon longevo que vive 100 años.",
-      "generation": 3
+      },"superShinyPalette": 9,
+      "pokedex": "Detecta con precisión cualquier cambio producido en la atmósfera o la tierra y predice catástrofes naturales. Es un Pokémon longevo que vive 100 años."
     },
     {
       "id": "WYNAUT",
@@ -17601,7 +17598,7 @@
           "species": "WOBBUFFET",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "SNORUNT",
@@ -17651,7 +17648,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "GLALIE",
@@ -17702,7 +17699,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "SPHEAL",
@@ -17755,7 +17752,7 @@
           "species": "WALREIN",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "SEALEO",
@@ -17810,7 +17807,7 @@
           "species": "WALREIN",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "WALREIN",
@@ -17865,7 +17862,7 @@
           "species": "WALREIN",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "CLAMPERL",
@@ -17914,7 +17911,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "HUNTAIL",
@@ -17962,7 +17959,7 @@
             }
           ]
         }
-      ],
+      ],"superShinyPalette": 5,
       "pokedex": "Para soportar la presión del mar a gran profundidad desarrolla una espina dorsal muy gruesa y fuerte. La cola, con forma de pez, tiene ojos que brillan.",
       "wildItemUncommon": "DEEPSEATOOTH"
     },
@@ -18011,7 +18008,7 @@
             }
           ]
         }
-      ],
+      ],"superShinyPalette": 10,
       "pokedex": "Gorebyss absorbe los fluidos corporales de su presa a través de la boca, que es fina y tubular. Cuando acaba de comer, se le acentúa el tono rosado.",
       "wildItemUncommon": "DEEPSEASCALE"
     },
@@ -18045,7 +18042,7 @@
         "height": 1,
         "weight": 23.4,
         "shape ": "Finned"
-      },
+      },"superShinyPalette": 5,
       "pokedex": "Se llegó a creer que se había extinguido. La especie no ha cambiado de forma desde hace 100 millones de años. Camina por el fondo marino usando las aletas frontales.",
       "wildItemUncommon": "DEEPSEASCALE"
     },
@@ -18078,9 +18075,8 @@
         "height": 0.6,
         "weight": 8.7,
         "shape ": "Finned"
-      },
-      "pokedex": "Para Luvdisc, las ramas de Corsola son su nido. Existe una antigua costumbre que consiste en regalar un Luvdisc para expresar un sentimiento amoroso.",
-      "generation": 3
+      },"superShinyPalette": 10,
+      "pokedex": "Para Luvdisc, las ramas de Corsola son su nido. Existe una antigua costumbre que consiste en regalar un Luvdisc para expresar un sentimiento amoroso."
     },
     {
       "id": "BAGON",
@@ -18132,7 +18128,7 @@
           "species": "SALAMENCE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "SHELGON",
@@ -18186,7 +18182,7 @@
           "species": "SALAMENCE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "SALAMENCE",
@@ -18240,7 +18236,7 @@
           "species": "SALAMENCE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "BELDUM",
@@ -18295,7 +18291,7 @@
           "species": "METAGROSS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "METANG",
@@ -18349,7 +18345,7 @@
           "species": "METAGROSS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "METAGROSS",
@@ -18403,7 +18399,7 @@
           "species": "METAGROSS",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 3,
       "pokedex": "Metagross tiene cuatro cerebros unidos por una compleja red neuronal. Esta integración hace que sea más inteligente que un ordenador de última generación.",
       "wildItemUncommon": "METALCOAT"
     },
@@ -18435,7 +18431,7 @@
         "height": 1.7,
         "weight": 230,
         "shape ": "Bipedal"
-      },
+      },"superShinyPalette": 7,
       "pokedex": "Está enteramente formado por rocas y cantos rodados. Si se le desprendieran partes del cuerpo en combate, Regirock se repararía agregando rocas nuevas."
     },
     {
@@ -18466,7 +18462,7 @@
         "height": 1.8,
         "weight": 175,
         "shape ": "Bipedal"
-      },
+      },"superShinyPalette": 8,
       "pokedex": "Está formado en su totalidad por hielo de la Antártica. Todas las investigaciones parecen indicar que dicho hielo procede de alguna glaciación."
     },
     {
@@ -18497,7 +18493,7 @@
         "height": 1.9,
         "weight": 205,
         "shape ": "Bipedal"
-      },
+      },"superShinyPalette": 8,
       "pokedex": "Su cuerpo está compuesto del metal más duro que hay; una misteriosa sustancia que, además de ser muy sólida, se contrae y dilata con facilidad."
     },
     {
@@ -18527,7 +18523,7 @@
         "height": 1.4,
         "weight": 40,
         "shape ": "Winged"
-      },
+      },"superShinyPalette": 9,
       "pokedex": "Es parte de una manada de pequeño tamaño. Rara vez entra en contacto con la gente o con otros Pokémon. Si siente la presencia del enemigo, desaparece."
     },
     {
@@ -18557,7 +18553,7 @@
         "height": 2,
         "weight": 60,
         "shape ": "Winged"
-      },
+      },"superShinyPalette": 9,
       "pokedex": "Incluso oculto, detecta la ubicación de los demás y capta sus emociones telepáticamente. Es tan inteligente que entiende el lenguaje humano."
     },
     {
@@ -18586,7 +18582,7 @@
         "height": 4.5,
         "weight": 352,
         "shape ": "Finned"
-      },
+      },"superShinyPalette": 7,
       "pokedex": "En la mitología se considera a Kyogre como el creador del mar. Tras largos años de enfrentamiento con Groudon, se echó a dormir en el fondo del mar."
     },
     {
@@ -18615,7 +18611,7 @@
         "height": 3.5,
         "weight": 950,
         "shape ": "BipedalTail"
-      },
+      },"superShinyPalette": 7,
       "pokedex": "En la mitología se considera a Groudon el creador de la tierra. Duerme enterrado en magma y dicen que, al despertar, hace que los volcanes entren en erupción."
     },
     {
@@ -18645,7 +18641,7 @@
         "height": 7,
         "weight": 206.5,
         "shape ": "Serpentine"
-      },
+      },"superShinyPalette": 10,
       "pokedex": "Este Pokémon vuela sin parar por la capa de ozono. Dicen que, si Kyogre y Groudon fueran a luchar, bajaría a tierra firme para apaciguarlos."
     },
     {
@@ -18674,7 +18670,7 @@
         "height": 0.3,
         "weight": 1.1,
         "shape ": "Bipedal"
-      },
+      },"superShinyPalette": 6,
       "pokedex": "Dicen que Jirachi hace que se cumplan los deseos. Mientras duerme, una resistente capa cristalina lo envuelve para protegerlo de los enemigos.",
       "wildItemUncommon": "STARPIECE"
     },
@@ -18704,7 +18700,7 @@
         "height": 1.7,
         "weight": 60.8,
         "shape ": "Bipedal"
-      },
+      },"superShinyPalette": 3,
       "pokedex": "Es el resultado de la mutación que sufrió un virus espacial expuesto a un rayo láser. Tiene una velocidad y agilidad superiores a las del resto."
     },
     {
