@@ -23684,7 +23684,7 @@
           "species": "SERPERIOR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "SERVINE",
@@ -23735,7 +23735,7 @@
           "species": "SERPERIOR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "SERPERIOR",
@@ -23787,7 +23787,7 @@
           "species": "SERPERIOR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "TEPIG",
@@ -23840,7 +23840,7 @@
           "species": "EMBOAR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "PIGNITE",
@@ -23892,7 +23892,7 @@
           "species": "EMBOAR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "EMBOAR",
@@ -23945,7 +23945,7 @@
           "species": "EMBOAR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "OSHAWOTT",
@@ -23998,7 +23998,7 @@
           "species": "SAMUROTT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "DEWOTT",
@@ -24049,7 +24049,7 @@
           "species": "SAMUROTT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "SAMUROTT",
@@ -24102,7 +24102,7 @@
           "species": "SAMUROTT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "PATRAT",
@@ -24148,7 +24148,7 @@
           "species": "WATCHOG",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "WATCHOG",
@@ -24192,7 +24192,7 @@
           "species": "WATCHOG",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "LILLIPUP",
@@ -24246,7 +24246,7 @@
           "species": "STOUTLAND",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "HERDIER",
@@ -24298,7 +24298,7 @@
           "species": "STOUTLAND",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "STOUTLAND",
@@ -24350,7 +24350,7 @@
           "species": "STOUTLAND",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "PURRLOIN",
@@ -24396,7 +24396,7 @@
           "species": "LIEPARD",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "LIEPARD",
@@ -24442,7 +24442,7 @@
           "species": "LIEPARD",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "PANSAGE",
@@ -24487,7 +24487,7 @@
           "species": "SIMISAGE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 4
     },
     {
       "id": "SIMISAGE",
@@ -24530,7 +24530,7 @@
           "species": "SIMISAGE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "PANSEAR",
@@ -24575,7 +24575,7 @@
           "species": "SIMISEAR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "SIMISEAR",
@@ -24618,7 +24618,7 @@
           "species": "SIMISEAR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "PANPOUR",
@@ -24663,7 +24663,7 @@
           "species": "SIMIPOUR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "SIMIPOUR",
@@ -24706,7 +24706,7 @@
           "species": "SIMIPOUR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "MUNNA",
@@ -24752,7 +24752,7 @@
           "species": "MUSHARNA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "MUSHARNA",
@@ -24798,7 +24798,7 @@
           "species": "MUSHARNA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "PIDOVE",
@@ -24852,7 +24852,7 @@
           "species": "UNFEZANT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "TRANQUILL",
@@ -24904,7 +24904,7 @@
           "species": "UNFEZANT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "UNFEZANT",
@@ -24956,7 +24956,7 @@
           "species": "UNFEZANT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "BLITZLE",
@@ -25002,7 +25002,7 @@
           "species": "ZEBSTRIKA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "ZEBSTRIKA",
@@ -25046,7 +25046,7 @@
           "species": "ZEBSTRIKA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "ROGGENROLA",
@@ -25101,7 +25101,7 @@
           "species": "GIGALITH",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "BOLDORE",
@@ -25156,7 +25156,7 @@
           "species": "GIGALITH",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "GIGALITH",
@@ -25207,7 +25207,7 @@
           "species": "GIGALITH",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 8,
       "pokedex": "Con los cristales naranjas de su cuerpo, absorbe la energía de los rayos del sol, la amplifica y la expulsa por la boca.",
       "wildItemUncommon": "HARDSTONE"
     },
@@ -25256,7 +25256,7 @@
           "species": "SWOOBAT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "SWOOBAT",
@@ -25303,7 +25303,7 @@
           "species": "SWOOBAT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "DRILBUR",
@@ -25349,7 +25349,7 @@
           "species": "EXCADRILL",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 4
     },
     {
       "id": "EXCADRILL",
@@ -25395,7 +25395,7 @@
           "species": "EXCADRILL",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "AUDINO",
@@ -25427,7 +25427,7 @@
         "height": 1.1,
         "weight": 31,
         "shape ": "BipedalTail"
-      },
+      },"superShinyPalette": 3,
       "pokedex": "Su sentido del oído es infalible: capta cualquier ruido de su alrededor y hace las veces de radar.",
       "wildItemUncommon": "SITRUSBERRY"
     },
@@ -25483,7 +25483,7 @@
           "species": "CONKELDURR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "GURDURR",
@@ -25537,7 +25537,7 @@
           "species": "CONKELDURR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "CONKELDURR",
@@ -25589,7 +25589,7 @@
           "species": "CONKELDURR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "TYMPOLE",
@@ -25643,7 +25643,7 @@
           "species": "SEISMITOAD",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "PALPITOAD",
@@ -25698,7 +25698,7 @@
           "species": "SEISMITOAD",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "SEISMITOAD",
@@ -25751,7 +25751,7 @@
           "species": "SEISMITOAD",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "THROH",
@@ -25782,7 +25782,7 @@
         "height": 1.3,
         "weight": 55.5,
         "shape ": "Bipedal"
-      },
+      },"superShinyPalette": 8,
       "pokedex": "Su carácter le empuja a sentir ansias de lanzar por los aires a rivales mayores que él. Forman manadas de cinco.",
       "wildItemUncommon": "BLACKBELT"
     },
@@ -25815,7 +25815,7 @@
         "height": 1.4,
         "weight": 51,
         "shape ": "Bipedal"
-      },
+      },"superShinyPalette": 6,
       "pokedex": "La potencia de sus puñetazos aumenta si se aprieta el cinturón. Si le molestan cuando se entrena, se enfada.",
       "wildItemUncommon": "BLACKBELT"
     },
@@ -25871,7 +25871,7 @@
           "species": "LEAVANNY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "SWADLOON",
@@ -25924,7 +25924,7 @@
           "species": "LEAVANNY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "LEAVANNY",
@@ -25978,7 +25978,7 @@
           "species": "LEAVANNY",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 8,
       "pokedex": "Calienta sus huevos con el calor desprendido por el humus. Hace mantillas con las hojas para Sewaddle.",
       "wildItemUncommon": "MENTALHERB"
     },
@@ -26036,7 +26036,7 @@
           "species": "SCOLIPEDE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "WHIRLIPEDE",
@@ -26090,7 +26090,7 @@
           "species": "SCOLIPEDE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "SCOLIPEDE",
@@ -26143,7 +26143,7 @@
           "species": "SCOLIPEDE",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 10,
       "pokedex": "Las garras del cuello contienen un potente veneno capaz de acabar con sus rivales. Es muy agresivo.",
       "wildItemUncommon": "POISONBARB"
     },
@@ -26191,7 +26191,7 @@
           "species": "WHIMSICOTT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 4
     },
     {
       "id": "WHIMSICOTT",
@@ -26237,7 +26237,7 @@
           "species": "WHIMSICOTT",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 6,
       "pokedex": "Aparece con remolinos de viento. Entra en las casas por las rendijas y les encanta hacer travesuras.",
       "wildItemUncommon": "ABSORBBULB"
     },
@@ -26286,7 +26286,7 @@
           "species": "LILLIGANT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "LILLIGANT",
@@ -26330,7 +26330,7 @@
           "species": "LILLIGANT",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 3,
       "pokedex": "El aroma de la flor de su tocado relaja a cualquiera a su alrededor. Hay que cuidarlo para que no se marchite.",
       "wildItemUncommon": "ABSORBBULB"
     },
@@ -26381,7 +26381,7 @@
             }
           ]
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "SANDILE",
@@ -26437,7 +26437,7 @@
           "species": "KROOKODILE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "KROKOROK",
@@ -26493,7 +26493,7 @@
           "species": "KROOKODILE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "KROOKODILE",
@@ -26546,7 +26546,7 @@
           "species": "KROOKODILE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "DARUMAKA",
@@ -26592,7 +26592,7 @@
           "species": "DARMANITAN",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "DARMANITAN",
@@ -26638,7 +26638,7 @@
           "species": "DARMANITAN",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "MARACTUS",
@@ -26669,7 +26669,7 @@
         "height": 1,
         "weight": 28,
         "shape ": "HeadBase"
-      },
+      },"superShinyPalette": 10,
       "pokedex": "Vive en territorio árido. Emite un sonido parecido a unas maracas si se mueve de forma rítmica.",
       "wildItemUncommon": "MIRACLESEED"
     },
@@ -26719,7 +26719,7 @@
           "species": "CRUSTLE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "CRUSTLE",
@@ -26765,7 +26765,7 @@
           "species": "CRUSTLE",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 4,
       "pokedex": "Su inmensa capacidad motriz le permite desplazarse cargando a sus espaldas rocas enormes durante días.",
       "wildItemUncommon": "HARDSTONE"
     },
@@ -26815,7 +26815,7 @@
           "species": "SCRAFTY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "SCRAFTY",
@@ -26860,7 +26860,7 @@
           "species": "SCRAFTY",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 5,
       "pokedex": "El líder del grupo es aquel cuya cresta es mayor. Es capaz de romper bloques de cemento con sus potentes patadas.",
       "wildItemUncommon": "SHEDSHELL"
     },
@@ -26894,9 +26894,8 @@
         "height": 1.4,
         "weight": 14,
         "shape ": "Winged"
-      },
-      "pokedex": "Fue la deidad protectora de una ciudad milenaria. Ataca con su poder psíquico a los enemigos que invaden su territorio.",
-      "generation": 5
+      },"superShinyPalette": 5,
+      "pokedex": "Fue la deidad protectora de una ciudad milenaria. Ataca con su poder psíquico a los enemigos que invaden su territorio."
     },
     {
       "id": "YAMASK",
@@ -26939,7 +26938,7 @@
           "species": "COFAGRIGUS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "COFAGRIGUS",
@@ -26978,7 +26977,7 @@
           "species": "COFAGRIGUS",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 8,
       "pokedex": "Se hace pasar por un ataúd y castiga a los ladrones de tumbas. Tiene el cuerpo bañado en oro puro.",
       "wildItemUncommon": "SPELLTAG"
     },
@@ -27027,7 +27026,7 @@
           "species": "CARRACOSTA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "CARRACOSTA",
@@ -27071,9 +27070,8 @@
           "species": "CARRACOSTA",
           "evolvesTo": null
         }
-      ],
-      "pokedex": "La fuerza de sus mandíbulas es enorme. Tritura presas, huesos y rocas a la vez y los engulle.",
-      "generation": 5
+      ],"superShinyPalette": 8,
+      "pokedex": "La fuerza de sus mandíbulas es enorme. Tritura presas, huesos y rocas a la vez y los engulle."
     },
     {
       "id": "ARCHEN",
@@ -27116,7 +27114,7 @@
           "species": "ARCHEOPS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "ARCHEOPS",
@@ -27157,7 +27155,7 @@
           "species": "ARCHEOPS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "TRUBBISH",
@@ -27204,7 +27202,7 @@
           "species": "GARBODOR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "GARBODOR",
@@ -27249,7 +27247,7 @@
           "species": "GARBODOR",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 8,
       "pokedex": "Traga basura y la integra en su cuerpo. Despide veneno líquido por la punta de los dedos de su mano derecha.",
       "wildItemUncommon": "BLACKSLUDGE"
     },
@@ -27294,7 +27292,7 @@
           "species": "ZOROARK",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "ZOROARK",
@@ -27335,7 +27333,7 @@
           "species": "ZOROARK",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "MINCCINO",
@@ -27381,7 +27379,7 @@
           "species": "CINCCINO",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "CINCCINO",
@@ -27425,7 +27423,7 @@
           "species": "CINCCINO",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "GOTHITA",
@@ -27477,7 +27475,7 @@
           "species": "GOTHITELLE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "GOTHORITA",
@@ -27531,7 +27529,7 @@
           "species": "GOTHITELLE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "GOTHITELLE",
@@ -27585,7 +27583,7 @@
           "species": "GOTHITELLE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "SOLOSIS",
@@ -27639,7 +27637,7 @@
           "species": "REUNICLUS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "DUOSION",
@@ -27693,7 +27691,7 @@
           "species": "REUNICLUS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "REUNICLUS",
@@ -27746,7 +27744,7 @@
           "species": "REUNICLUS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "DUCKLETT",
@@ -27793,7 +27791,7 @@
           "species": "SWANNA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "SWANNA",
@@ -27839,7 +27837,7 @@
           "species": "SWANNA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "VANILLITE",
@@ -27895,7 +27893,7 @@
           "species": "VANILLUXE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "VANILLISH",
@@ -27951,7 +27949,7 @@
           "species": "VANILLUXE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "VANILLUXE",
@@ -28006,7 +28004,7 @@
           "species": "VANILLUXE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "DEERLING",
@@ -28053,7 +28051,7 @@
           "species": "SAWSBUCK",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "SAWSBUCK",
@@ -28098,7 +28096,7 @@
           "species": "SAWSBUCK",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "EMOLGA",
@@ -28129,9 +28127,8 @@
         "height": 0.4,
         "weight": 5,
         "shape ": "Quadruped"
-      },
-      "pokedex": "Vive en la copa de los árboles. Produce descargas mientras vuela con el interior de la membrana que hace de capa.",
-      "generation": 5
+      },"superShinyPalette": 7,
+      "pokedex": "Vive en la copa de los árboles. Produce descargas mientras vuela con el interior de la membrana que hace de capa."
     },
     {
       "id": "KARRABLAST",
@@ -28177,7 +28174,7 @@
           "species": "ESCAVALIER",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "ESCAVALIER",
@@ -28221,7 +28218,7 @@
           "species": "ESCAVALIER",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "FOONGUS",
@@ -28267,7 +28264,7 @@
           "species": "AMOONGUSS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "AMOONGUSS",
@@ -28309,7 +28306,7 @@
           "species": "AMOONGUSS",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 3,
       "pokedex": "Aunque intenta pasar por parte superior de una Poké Ball para atraer a sus presas, consigue engañar a pocos.",
       "wildItemUncommon": "BIGMUSHROOM"
     },
@@ -28358,7 +28355,7 @@
           "species": "JELLICENT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "JELLICENT",
@@ -28403,7 +28400,7 @@
           "species": "JELLICENT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "ALOMOMOLA",
@@ -28434,9 +28431,8 @@
         "height": 1.2,
         "weight": 31.6,
         "shape ": "Finned"
-      },
-      "pokedex": "Vive flotando a la deriva en mar abierto. Siempre que encuentra un Pokémon herido, lo abraza y lo lleva a la costa.",
-      "generation": 5
+      },"superShinyPalette": 5,
+      "pokedex": "Vive flotando a la deriva en mar abierto. Siempre que encuentra un Pokémon herido, lo abraza y lo lleva a la costa."
     },
     {
       "id": "JOLTIK",
@@ -28481,7 +28477,7 @@
           "species": "GALVANTULA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "GALVANTULA",
@@ -28528,7 +28524,7 @@
           "species": "GALVANTULA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "FERROSEED",
@@ -28573,7 +28569,7 @@
           "species": "FERROTHORN",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "FERROTHORN",
@@ -28618,7 +28614,7 @@
           "species": "FERROTHORN",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 3,
       "pokedex": "Se pega al techo de las cuevas y lanza púas de metal a todo el que pase por debajo de donde se encuentre.",
       "wildItemUncommon": "STICKYBARB"
     },
@@ -28674,7 +28670,7 @@
           "species": "KLINKLANG",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "KLANG",
@@ -28726,7 +28722,7 @@
           "species": "KLINKLANG",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "KLINKLANG",
@@ -28777,7 +28773,7 @@
           "species": "KLINKLANG",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "TYNAMO",
@@ -28827,7 +28823,7 @@
           "species": "EELEKTROSS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "EELEKTRIK",
@@ -28875,7 +28871,7 @@
           "species": "EELEKTROSS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 4
     },
     {
       "id": "EELEKTROSS",
@@ -28926,7 +28922,7 @@
           "species": "EELEKTROSS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "ELGYEM",
@@ -28972,7 +28968,7 @@
           "species": "BEHEEYEM",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "BEHEEYEM",
@@ -29016,7 +29012,7 @@
           "species": "BEHEEYEM",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "LITWICK",
@@ -29071,7 +29067,7 @@
           "species": "CHANDELURE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "LAMPENT",
@@ -29123,7 +29119,7 @@
           "species": "CHANDELURE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "CHANDELURE",
@@ -29176,7 +29172,7 @@
           "species": "CHANDELURE",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "AXEW",
@@ -29228,7 +29224,7 @@
           "species": "HAXORUS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "FRAXURE",
@@ -29282,7 +29278,7 @@
           "species": "HAXORUS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "HAXORUS",
@@ -29336,7 +29332,7 @@
           "species": "HAXORUS",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "CUBCHOO",
@@ -29382,7 +29378,7 @@
           "species": "BEARTIC",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "BEARTIC",
@@ -29428,7 +29424,7 @@
           "species": "BEARTIC",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "CRYOGONAL",
@@ -29458,7 +29454,7 @@
         "height": 1.1,
         "weight": 148,
         "shape ": "Head"
-      },
+      },"superShinyPalette": 3,
       "pokedex": "Nació entre nubes de nieve. Atrapa a sus presas con una cadena hecha de hielo cristalizado.",
       "wildItemUncommon": "NEVERMELTICE"
     },
@@ -29506,7 +29502,7 @@
           "species": "ACCELGOR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "ACCELGOR",
@@ -29549,7 +29545,7 @@
           "species": "ACCELGOR",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "STUNFISK",
@@ -29582,7 +29578,7 @@
         "height": 0.7,
         "weight": 11,
         "shape ": "Finned"
-      },
+      },"superShinyPalette": 5,
       "pokedex": "Acecha a sus presas oculto en la arena húmeda de la playa. Las paraliza con una descarga eléctrica cuando lo tocan.",
       "wildItemUncommon": "SOFTSAND"
     },
@@ -29628,7 +29624,7 @@
           "species": "MIENSHAO",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "MIENSHAO",
@@ -29674,7 +29670,7 @@
           "species": "MIENSHAO",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "DRUDDIGON",
@@ -29705,7 +29701,7 @@
         "height": 1.6,
         "weight": 139,
         "shape ": "BipedalTail"
-      },
+      },"superShinyPalette": 3,
       "pokedex": "Corre por estrechas cavernas y atrapa a sus presas con sus afiladas garras. La piel de su cara es mas dura que una roca.",
       "wildItemUncommon": "DRAGONFANG"
     },
@@ -29755,7 +29751,7 @@
           "species": "GOLURK",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "GOLURK",
@@ -29801,7 +29797,7 @@
           "species": "GOLURK",
           "evolvesTo": null
         }
-      ],
+      ],"superShinyPalette": 10,
       "pokedex": "Al parecer, aquel que antaño lo creó le ordenó proteger a los Pokémon y a los humanos.",
       "wildItemUncommon": "LIGHTCLAY"
     },
@@ -29858,7 +29854,7 @@
           "species": "KINGAMBIT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "BISHARP",
@@ -29913,7 +29909,7 @@
           "species": "KINGAMBIT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "BOUFFALANT",
@@ -29944,9 +29940,8 @@
         "height": 1.6,
         "weight": 94.5,
         "shape ": "Quadruped"
-      },
-      "pokedex": "Embiste con la cabeza sin distinción. Su potencia es capaz de hacer descarrilar un tren en marcha.",
-      "generation": 5
+      },"superShinyPalette": 7,
+      "pokedex": "Embiste con la cabeza sin distinción. Su potencia es capaz de hacer descarrilar un tren en marcha."
     },
     {
       "id": "RUFFLET",
@@ -29993,7 +29988,7 @@
           "species": "BRAVIARY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "BRAVIARY",
@@ -30041,7 +30036,7 @@
           "species": "BRAVIARY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "VULLABY",
@@ -30088,7 +30083,7 @@
           "species": "MANDIBUZZ",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "MANDIBUZZ",
@@ -30133,7 +30128,7 @@
           "species": "MANDIBUZZ",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 10
     },
     {
       "id": "HEATMOR",
@@ -30165,9 +30160,8 @@
         "height": 1.4,
         "weight": 58,
         "shape ": "BipedalTail"
-      },
-      "pokedex": "Usa su lengua de fuego para derretir la armadura de los Durant y llegar así hasta su interior.",
-      "generation": 5
+      },"superShinyPalette": 7,
+      "pokedex": "Usa su lengua de fuego para derretir la armadura de los Durant y llegar así hasta su interior."
     },
     {
       "id": "DURANT",
@@ -30199,9 +30193,8 @@
         "height": 0.3,
         "weight": 33,
         "shape ": "Insectoid"
-      },
-      "pokedex": "Abre agujeros en las montañas. Los intrincados túneles son obras laberínticas de los Durant.",
-      "generation": 5
+      },"superShinyPalette": 4,
+      "pokedex": "Abre agujeros en las montañas. Los intrincados túneles son obras laberínticas de los Durant."
     },
     {
       "id": "DEINO",
@@ -30250,7 +30243,7 @@
           "species": "HYDREIGON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "ZWEILOUS",
@@ -30301,7 +30294,7 @@
           "species": "HYDREIGON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "HYDREIGON",
@@ -30350,7 +30343,7 @@
           "species": "HYDREIGON",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "LARVESTA",
@@ -30396,7 +30389,7 @@
           "species": "VOLCARONA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "VOLCARONA",
@@ -30441,7 +30434,7 @@
           "species": "VOLCARONA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "COBALION",
@@ -30469,7 +30462,7 @@
         "height": 2.1,
         "weight": 250,
         "shape ": "Quadruped"
-      },
+      },"superShinyPalette": 6,
       "pokedex": "Posee un cuerpo y un corazón de acero. Basta una mirada suya para que Pokémon violentos le obedezcan."
     },
     {
@@ -30498,7 +30491,7 @@
         "height": 1.9,
         "weight": 260,
         "shape ": "Quadruped"
-      },
+      },"superShinyPalette": 5,
       "pokedex": "Su potencia al embestir es capaz de derribar las murallas de un castillo. Las leyendas hablan de sus proezas."
     },
     {
@@ -30527,7 +30520,7 @@
         "height": 2,
         "weight": 200,
         "shape ": "Quadruped"
-      },
+      },"superShinyPalette": 8,
       "pokedex": "Sus cuernos son hojas afiladas. Sacude a sus enemigos con sus relampagueantes movimientos y los reduce."
     },
     {
@@ -30559,7 +30552,7 @@
       "physicalData": {
         "height": 1.5,
         "weight": 63
-      },
+      },"superShinyPalette": 5,
       "pokedex": "La energía que desprende de su cola genera violentas tempestades capaces de echar abajo casas."
     },
     {
@@ -30592,7 +30585,7 @@
       "physicalData": {
         "height": 1.5,
         "weight": 61
-      },
+      },"superShinyPalette": 5,
       "pokedex": "Lanza descargas eléctricas por las púas de su cola. Sobrevuela Teselia dejando caer rayos."
     },
     {
@@ -30621,7 +30614,7 @@
         "height": 3.2,
         "weight": 330,
         "shape ": "Winged"
-      },
+      },"superShinyPalette": 5,
       "pokedex": "Cuando la cola de Reshiram arde, su energía calorífica altera la atmósfera, y el tiempo meteorológico cambia."
     },
     {
@@ -30650,7 +30643,7 @@
         "height": 2.9,
         "weight": 345,
         "shape ": "BipedalTail"
-      },
+      },"superShinyPalette": 7,
       "pokedex": "Pokémon que aparece en los mitos de antaño. Su cola está provista de un enorme generador de electricidad."
     },
     {
@@ -30683,7 +30676,7 @@
       "physicalData": {
         "height": 1.5,
         "weight": 68
-      },
+      },"superShinyPalette": 4,
       "pokedex": "La energía que desprende de su cola enriquece de nutrientes la tierra, y la calidad de las cosechas mejora."
     },
     {
@@ -30713,7 +30706,7 @@
         "height": 3,
         "weight": 325,
         "shape ": "BipedalTail"
-      },
+      },"superShinyPalette": 5,
       "pokedex": "Puede crear corrientes de aire tremendamente frías, pero al final acaba congelando su propio cuerpo."
     },
     {
@@ -30742,7 +30735,7 @@
         "height": 1.4,
         "weight": 48.5,
         "shape ": "Quadruped"
-      },
+      },"superShinyPalette": 6,
       "pokedex": "Corre por mares, ríos o cualquier superficie acuática de todo el mundo. Aparece en aguas limpias."
     },
     {
@@ -30772,7 +30765,7 @@
         "height": 0.6,
         "weight": 6.5,
         "shape ": "Bipedal"
-      },
+      },"superShinyPalette": 5,
       "pokedex": "Se han creado innumerables canciones inspiradas en las melodías que emite Meloetta.",
       "wildItemUncommon": "STARPIECE"
     },
@@ -30802,7 +30795,7 @@
         "height": 1.5,
         "weight": 82.5,
         "shape ": "Bipedal"
-      },
+      },"superShinyPalette": 6,
       "pokedex": "Pokémon de tipo bicho de la antigüedad, modificado por el Equipo Plasma. El cañón de su lomo ha sido mejorado."
     },
     {
@@ -30856,7 +30849,7 @@
           "species": "CHESNAUGHT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "QUILLADIN",
@@ -30907,7 +30900,7 @@
           "species": "CHESNAUGHT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "CHESNAUGHT",
@@ -30960,7 +30953,7 @@
           "species": "CHESNAUGHT",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 8
     },
     {
       "id": "FENNEKIN",
@@ -31013,7 +31006,7 @@
           "species": "DELPHOX",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "BRAIXEN",
@@ -31064,7 +31057,7 @@
           "species": "DELPHOX",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 7
     },
     {
       "id": "DELPHOX",
@@ -31117,7 +31110,7 @@
           "species": "DELPHOX",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "FROAKIE",
@@ -31170,7 +31163,7 @@
           "species": "GRENINJA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "FROGADIER",
@@ -31221,7 +31214,7 @@
           "species": "GRENINJA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 5
     },
     {
       "id": "GRENINJA",
@@ -31274,7 +31267,7 @@
           "species": "GRENINJA",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 6
     },
     {
       "id": "BUNNELBY",
@@ -31320,7 +31313,7 @@
           "species": "DIGGERSBY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 9
     },
     {
       "id": "DIGGERSBY",
@@ -31365,7 +31358,7 @@
           "species": "DIGGERSBY",
           "evolvesTo": null
         }
-      ]
+      ],"superShinyPalette": 3
     },
     {
       "id": "FLETCHLING",
