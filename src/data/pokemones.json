@@ -16058,8 +16058,7 @@
         "weight": 5
       },
       "superShinyPalette": 10,
-      "pokedex": "Se le diferencia por los dibujos del pelaje; no hay dos iguales. Su forma de andar, inestable y torpe, logra confundir al enemigo y hacer que su puntería falle.",
-      "generation": 3
+      "pokedex": "Se le diferencia por los dibujos del pelaje; no hay dos iguales. Su forma de andar, inestable y torpe, logra confundir al enemigo y hacer que su puntería falle."
     },
     {
       "id": "TRAPINCH",
@@ -40815,8 +40814,8 @@
         "height": 0.3,
         "weight": 1
       },
-      "pokedex": "Acumula electricidad en cada una de sus púas. Aunque estas se rompan, son capaces de seguir descargando energía durante 3 h.",
-      "generation": 8
+      "superShinyPalette": 10,
+      "pokedex": "Acumula electricidad en cada una de sus púas. Aunque estas se rompan, son capaces de seguir descargando energía durante 3 h."
     },
     {
       "id": "SNOM",
@@ -40860,7 +40859,8 @@
           "species": "FROSMOTH",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "FROSMOTH",
@@ -40906,7 +40906,8 @@
           "species": "FROSMOTH",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "STONJOURNER",
@@ -40933,8 +40934,8 @@
         "height": 2.5,
         "weight": 520
       },
-      "pokedex": "Pasa el tiempo observando inmóvil el recorrido del sol sobre las extensas praderas que habita. Se especializa en técnicas de ágiles patadas.",
-      "generation": 8
+      "superShinyPalette": 9,
+      "pokedex": "Pasa el tiempo observando inmóvil el recorrido del sol sobre las extensas praderas que habita. Se especializa en técnicas de ágiles patadas."
     },
     {
       "id": "EISCUE",
@@ -40962,8 +40963,8 @@
         "height": 1.4,
         "weight": 89
       },
-      "pokedex": "La corriente lo ha transportado hasta aquí desde un lugar sumamente gélido. Utiliza el hielo para mantener la cara refrigerada en todo momento.",
-      "generation": 8
+      "superShinyPalette": 9,
+      "pokedex": "La corriente lo ha transportado hasta aquí desde un lugar sumamente gélido. Utiliza el hielo para mantener la cara refrigerada en todo momento."
     },
     {
       "id": "INDEEDEE",
@@ -40995,8 +40996,8 @@
         "height": 0.9,
         "weight": 28
       },
-      "pokedex": "Percibe las emociones del objetivo con los cuernos de la cabeza. Los machos están atentos a cualquier cosa que necesite su Entrenador.",
-      "generation": 8
+      "superShinyPalette": 7,
+      "pokedex": "Percibe las emociones del objetivo con los cuernos de la cabeza. Los machos están atentos a cualquier cosa que necesite su Entrenador."
     },
     {
       "id": "MORPEKO",
@@ -41024,8 +41025,8 @@
         "height": 0.3,
         "weight": 3
       },
-      "pokedex": "Siempre tiene hambre. Se nutre de las semillas que guarda en una suerte de bolsillos para generar electricidad.",
-      "generation": 8
+      "superShinyPalette": 6,
+      "pokedex": "Siempre tiene hambre. Se nutre de las semillas que guarda en una suerte de bolsillos para generar electricidad."
     },
     {
       "id": "CUFANT",
@@ -41070,7 +41071,8 @@
           "species": "COPPERAJAH",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "COPPERAJAH",
@@ -41113,6 +41115,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 9,
       "pokedex": "Su piel verdosa es resistente al agua. Proviene de tierras lejanas y presta ayuda a las personas en la realización de ciertos trabajos.",
       "wildItemUncommon": "LAGGINGTAIL"
     },
@@ -41146,8 +41149,8 @@
         "height": 1.8,
         "weight": 190
       },
-      "pokedex": "La robustez de su tren inferior lo hacía invencible en la antigüedad, pero se extinguió tras comerse todas las plantas de las que se nutría.",
-      "generation": 8
+      "superShinyPalette": 8,
+      "pokedex": "La robustez de su tren inferior lo hacía invencible en la antigüedad, pero se extinguió tras comerse todas las plantas de las que se nutría."
     },
     {
       "id": "ARCTOZOLT",
@@ -41179,8 +41182,8 @@
         "height": 2.3,
         "weight": 150
       },
-      "pokedex": "Antiguamente vivía en el mar y usaba el hielo del cuerpo para conservar los alimentos. Su extrema lentitud, sin embargo, lo condenó a la extinción.",
-      "generation": 8
+      "superShinyPalette": 10,
+      "pokedex": "Antiguamente vivía en el mar y usaba el hielo del cuerpo para conservar los alimentos. Su extrema lentitud, sin embargo, lo condenó a la extinción."
     },
     {
       "id": "DRACOVISH",
@@ -41212,8 +41215,8 @@
         "height": 2.3,
         "weight": 215
       },
-      "pokedex": "Exhibe con orgullo su inmensa capacidad motriz, que le permite superar los 60 km/h, pero solo puede respirar bajo el agua.",
-      "generation": 8
+      "superShinyPalette": 7,
+      "pokedex": "Exhibe con orgullo su inmensa capacidad motriz, que le permite superar los 60 km/h, pero solo puede respirar bajo el agua."
     },
     {
       "id": "ARCTOVISH",
@@ -41245,8 +41248,8 @@
         "height": 2,
         "weight": 175
       },
-      "pokedex": "Aunque la piel de su rostro era capaz de resistir cualquier ataque, su dificultad para respirar acabó provocando su extinción.",
-      "generation": 8
+      "superShinyPalette": 9,
+      "pokedex": "Aunque la piel de su rostro era capaz de resistir cualquier ataque, su dificultad para respirar acabó provocando su extinción."
     },
     {
       "id": "DURALUDON",
@@ -41292,7 +41295,8 @@
           "species": "ARCHALUDON",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "DREEPY",
@@ -41344,7 +41348,8 @@
           "species": "DRAGAPULT",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "DRAKLOAK",
@@ -41398,7 +41403,8 @@
           "species": "DRAGAPULT",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "DRAGAPULT",
@@ -41450,7 +41456,8 @@
           "species": "DRAGAPULT",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "ZACIAN",
@@ -41478,6 +41485,7 @@
         "height": 2.8,
         "weight": 110
       },
+      "superShinyPalette": 8,
       "pokedex": "Este Pokémon está considerado como un héroe de leyenda. Absorbe el metal para transformarlo y emplearlo como armamento.",
       "wildItemUncommon": "RUSTEDSWORD"
     },
@@ -41507,6 +41515,7 @@
         "height": 2.9,
         "weight": 210
       },
+      "superShinyPalette": 8,
       "pokedex": "Con la apariencia de una estatua de piedra, este Pokémon se sumió en un letargo tan profundo que acabó cayendo en el olvido.",
       "wildItemUncommon": "RUSTEDSHIELD"
     },
@@ -41536,6 +41545,7 @@
         "height": 20,
         "weight": 950
       },
+      "superShinyPalette": 10,
       "pokedex": "Fue hallado en el interior de un meteorito caído hace 20000 años. Por lo visto, está relacionado con el misterio que rodea al fenómeno Dinamax."
     },
     {
@@ -41580,7 +41590,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "URSHIFU",
@@ -41626,7 +41637,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "ZARUDE",
@@ -41654,6 +41666,7 @@
         "height": 1.8,
         "weight": 70
       },
+      "superShinyPalette": 8,
       "pokedex": "Las lianas que le brotan del cuerpo nutren y fertilizan el mantillo del bosque cuando se le desprenden."
     },
     {
@@ -41681,6 +41694,7 @@
         "height": 1.2,
         "weight": 145
       },
+      "superShinyPalette": 10,
       "pokedex": "Su cuerpo entero es energía eléctrica. Por lo visto, quitarle los anillos que lleva libera su poder oculto."
     },
     {
@@ -41708,6 +41722,7 @@
         "height": 2.1,
         "weight": 200
       },
+      "superShinyPalette": 6,
       "pokedex": "Cierta teoría afirma que la forma de sus brazos representa la cabeza de un Pokémon dragón ancestral, aunque esto no ha podido verificarse."
     },
     {
@@ -41735,6 +41750,7 @@
         "height": 2.2,
         "weight": 800
       },
+      "superShinyPalette": 10,
       "pokedex": "Libera un potente vaho gélido por las pezuñas. Un ser violento que no duda en tomar a la fuerza todo cuanto desea."
     },
     {
@@ -41762,6 +41778,7 @@
         "height": 2,
         "weight": 44.5
       },
+      "superShinyPalette": 7,
       "pokedex": "Examina su entorno con todos los sentidos, salvo la vista. Se dice que sus coces son capaces de robarle el alma a quien las recibe."
     },
     {
@@ -41791,6 +41808,7 @@
         "height": 1.1,
         "weight": 7.7
       },
+      "superShinyPalette": 8,
       "pokedex": "Un Pokémon muy compasivo agraciado con el poder de la curación. Reinó en Galar en tiempos remotos."
     },
     {
@@ -41837,7 +41855,8 @@
           "species": "WYRDEER",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "KLEAVOR",
@@ -41886,7 +41905,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "URSALUNA",
@@ -41939,7 +41959,8 @@
           "species": "URSALUNA",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "BASCULEGION",
@@ -41988,6 +42009,7 @@
           ]
         }
       ],
+      "superShinyPalette": 3,
       "wildItemUncommon": "DEEPSEATOOTH"
     },
     {
@@ -42034,7 +42056,8 @@
           "species": "SNEASLER",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "OVERQWIL",
@@ -42080,7 +42103,8 @@
           "species": "OVERQWIL",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "ENAMORUS",
@@ -42113,6 +42137,7 @@
         "height": 1.8,
         "weight": 48
       },
+      "superShinyPalette": 6,
       "pokedex": "Su llegada de allende el mar significa el fin del duro invierno. De acuerdo con el folclore, su amor siempre trae consigo un soplo de vida nueva a Hisui."
     },
     {
@@ -42165,7 +42190,8 @@
           "species": "MEOWSCARADA",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "FLORAGATO",
@@ -42215,7 +42241,8 @@
           "species": "MEOWSCARADA",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "MEOWSCARADA",
@@ -42266,7 +42293,8 @@
           "species": "MEOWSCARADA",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "FUECOCO",
@@ -42318,7 +42346,8 @@
           "species": "SKELEDIRGE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "CROCALOR",
@@ -42368,7 +42397,8 @@
           "species": "SKELEDIRGE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "SKELEDIRGE",
@@ -42419,7 +42449,8 @@
           "species": "SKELEDIRGE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "QUAXLY",
@@ -42471,7 +42502,8 @@
           "species": "QUAQUAVAL",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "QUAXWELL",
@@ -42521,7 +42553,8 @@
           "species": "QUAQUAVAL",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "QUAQUAVAL",
@@ -42572,7 +42605,8 @@
           "species": "QUAQUAVAL",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "LECHONK",
@@ -42617,7 +42651,8 @@
           "species": "OINKOLOGNE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "OINKOLOGNE",
@@ -42663,7 +42698,8 @@
           "species": "OINKOLOGNE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "TAROUNTULA",
@@ -42707,7 +42743,8 @@
           "species": "SPIDOPS",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "SPIDOPS",
@@ -42749,7 +42786,8 @@
           "species": "SPIDOPS",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "NYMBLE",
@@ -42793,7 +42831,8 @@
           "species": "LOKIX",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "LOKIX",
@@ -42836,7 +42875,8 @@
           "species": "LOKIX",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "PAWMI",
@@ -42889,7 +42929,8 @@
           "species": "PAWMOT",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "PAWMO",
@@ -42941,7 +42982,8 @@
           "species": "PAWMOT",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "PAWMOT",
@@ -42993,7 +43035,8 @@
           "species": "PAWMOT",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "TANDEMAUS",
@@ -43038,7 +43081,8 @@
           "species": "MAUSHOLD",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "MAUSHOLD",
@@ -43081,7 +43125,8 @@
           "species": "MAUSHOLD",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "FIDOUGH",
@@ -43125,7 +43170,8 @@
           "species": "DACHSBUN",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "DACHSBUN",
@@ -43167,7 +43213,8 @@
           "species": "DACHSBUN",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "SMOLIV",
@@ -43220,7 +43267,8 @@
           "species": "ARBOLIVA",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "DOLLIV",
@@ -43271,7 +43319,8 @@
           "species": "ARBOLIVA",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "ARBOLIVA",
@@ -43322,7 +43371,8 @@
           "species": "ARBOLIVA",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "SQUAWKABILLY",
@@ -43354,8 +43404,8 @@
         "height": 0.6,
         "weight": 2.4
       },
-      "pokedex": "Los Squawkabilly de plumas verdes son los predominantes. Arman mucho ruido al buscar comida por las mañanas y las noches.",
-      "generation": 9
+      "superShinyPalette": 8,
+      "pokedex": "Los Squawkabilly de plumas verdes son los predominantes. Arman mucho ruido al buscar comida por las mañanas y las noches."
     },
     {
       "id": "NACLI",
@@ -43406,7 +43456,8 @@
           "species": "GARGANACL",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "NACLSTACK",
@@ -43459,7 +43510,8 @@
           "species": "GARGANACL",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "GARGANACL",
@@ -43510,7 +43562,8 @@
           "species": "GARGANACL",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "CHARCADET",
@@ -43557,7 +43610,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "ARMAROUGE",
@@ -43603,7 +43657,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "CERULEDGE",
@@ -43649,7 +43704,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "TADBULB",
@@ -43692,7 +43748,8 @@
           "species": "BELLIBOLT",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "BELLIBOLT",
@@ -43737,7 +43794,8 @@
           "species": "BELLIBOLT",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "WATTREL",
@@ -43783,7 +43841,8 @@
           "species": "KILOWATTREL",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "KILOWATTREL",
@@ -43829,7 +43888,8 @@
           "species": "KILOWATTREL",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "MASCHIFF",
@@ -43874,7 +43934,8 @@
           "species": "MABOSSTIFF",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "MABOSSTIFF",
@@ -43917,7 +43978,8 @@
           "species": "MABOSSTIFF",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "SHROODLE",
@@ -43963,7 +44025,8 @@
           "species": "GRAFAIAI",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "GRAFAIAI",
@@ -44007,7 +44070,8 @@
           "species": "GRAFAIAI",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "BRAMBLIN",
@@ -44052,7 +44116,8 @@
           "species": "BRAMBLEGHAST",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "BRAMBLEGHAST",
@@ -44095,7 +44160,8 @@
           "species": "BRAMBLEGHAST",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "TOEDSCOOL",
@@ -44138,7 +44204,8 @@
           "species": "TOEDSCRUEL",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "TOEDSCRUEL",
@@ -44180,7 +44247,8 @@
           "species": "TOEDSCRUEL",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "KLAWF",
@@ -44211,8 +44279,8 @@
         "height": 1.3,
         "weight": 79
       },
-      "pokedex": "Acecha a sus presas colgado cabeza abajo de los acantilados, pero no puede aguantar así mucho tiempo porque se le sube la sangre a la cabeza.",
-      "generation": 9
+      "superShinyPalette": 6,
+      "pokedex": "Acecha a sus presas colgado cabeza abajo de los acantilados, pero no puede aguantar así mucho tiempo porque se le sube la sangre a la cabeza."
     },
     {
       "id": "CAPSAKID",
@@ -44257,7 +44325,8 @@
           "species": "SCOVILLAIN",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "SCOVILLAIN",
@@ -44304,7 +44373,8 @@
           "species": "SCOVILLAIN",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "RELLOR",
@@ -44348,7 +44418,8 @@
           "species": "RABSCA",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "RABSCA",
@@ -44393,7 +44464,8 @@
           "species": "RABSCA",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "FLITTLE",
@@ -44438,7 +44510,8 @@
           "species": "ESPATHRA",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "ESPATHRA",
@@ -44481,7 +44554,8 @@
           "species": "ESPATHRA",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "TINKATINK",
@@ -44535,7 +44609,8 @@
           "species": "TINKATON",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "TINKATUFF",
@@ -44587,7 +44662,8 @@
           "species": "TINKATON",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "TINKATON",
@@ -44639,7 +44715,8 @@
           "species": "TINKATON",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "WIGLETT",
@@ -44684,7 +44761,8 @@
           "species": "WUGTRIO",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "WUGTRIO",
@@ -44729,7 +44807,8 @@
           "species": "WUGTRIO",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "BOMBIRDIER",
@@ -44760,8 +44839,8 @@
         "height": 1.5,
         "weight": 42.9
       },
-      "pokedex": "Mete cosas en su bolsa, fabricada con el plumón de su pecho y con plumas mudadas, para luego dejarlas caer desde las alturas por diversión.",
-      "generation": 9
+      "superShinyPalette": 4,
+      "pokedex": "Mete cosas en su bolsa, fabricada con el plumón de su pecho y con plumas mudadas, para luego dejarlas caer desde las alturas por diversión."
     },
     {
       "id": "FINIZEN",
@@ -44802,7 +44881,8 @@
           "species": "PALAFIN",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "PALAFIN",
@@ -44844,7 +44924,8 @@
           "species": "PALAFIN",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "VAROOM",
@@ -44889,7 +44970,8 @@
           "species": "REVAVROOM",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "REVAVROOM",
@@ -44932,7 +45014,8 @@
           "species": "REVAVROOM",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "CYCLIZAR",
@@ -44963,8 +45046,8 @@
         "height": 1.6,
         "weight": 63
       },
-      "pokedex": "Según parece, ha permitido que los humanos monten en él desde tiempos remotos. Aparece en pinturas rupestres de hace diez mil años.",
-      "generation": 9
+      "superShinyPalette": 3,
+      "pokedex": "Según parece, ha permitido que los humanos monten en él desde tiempos remotos. Aparece en pinturas rupestres de hace diez mil años."
     },
     {
       "id": "ORTHWORM",
@@ -44994,8 +45077,8 @@
         "height": 2.5,
         "weight": 310
       },
-      "pokedex": "Cuando lo atacan, usa los pelos de su cuerpo a modo de puños y hace llover un aluvión de puñetazos sobre sus enemigos.",
-      "generation": 9
+      "superShinyPalette": 9,
+      "pokedex": "Cuando lo atacan, usa los pelos de su cuerpo a modo de puños y hace llover un aluvión de puñetazos sobre sus enemigos."
     },
     {
       "id": "GLIMMET",
@@ -45038,7 +45121,8 @@
           "species": "GLIMMORA",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "GLIMMORA",
@@ -45084,7 +45168,8 @@
           "species": "GLIMMORA",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "GREAVARD",
@@ -45128,7 +45213,8 @@
           "species": "HOUNDSTONE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "HOUNDSTONE",
@@ -45171,7 +45257,8 @@
           "species": "HOUNDSTONE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "FLAMIGO",
@@ -45203,8 +45290,8 @@
         "height": 1.6,
         "weight": 37
       },
-      "pokedex": "Al parecer, se anudan la base del cuello para impedir que la energía que tienen almacenada en el estómago escape por el pico.",
-      "generation": 9
+      "superShinyPalette": 3,
+      "pokedex": "Al parecer, se anudan la base del cuello para impedir que la energía que tienen almacenada en el estómago escape por el pico."
     },
     {
       "id": "CETODDLE",
@@ -45247,7 +45334,8 @@
           "species": "CETITAN",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "CETITAN",
@@ -45292,7 +45380,8 @@
           "species": "CETITAN",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "VELUZA",
@@ -45323,8 +45412,8 @@
         "height": 2.5,
         "weight": 90
       },
-      "pokedex": "Al desechar la carne que no necesita, agudiza la mente y sus poderes psíquicos se incrementan. Dicha carne tiene un sabor suave pero exquisito.",
-      "generation": 9
+      "superShinyPalette": 6,
+      "pokedex": "Al desechar la carne que no necesita, agudiza la mente y sus poderes psíquicos se incrementan. Dicha carne tiene un sabor suave pero exquisito."
     },
     {
       "id": "DONDOZO",
@@ -45355,8 +45444,8 @@
         "height": 12,
         "weight": 220
       },
-      "pokedex": "Le gusta mucho comer, pero no se le da bien cazar, por lo que aúna fuerzas con Tatsugiri con el fin de capturar presas.",
-      "generation": 9
+      "superShinyPalette": 6,
+      "pokedex": "Le gusta mucho comer, pero no se le da bien cazar, por lo que aúna fuerzas con Tatsugiri con el fin de capturar presas."
     },
     {
       "id": "TATSUGIRI",
@@ -45388,8 +45477,8 @@
         "height": 0.3,
         "weight": 8
       },
-      "pokedex": "Es un Pokémon de gran astucia. Atrae a sus presas fingiendo estar débil para otorgarle a su compañero la oportunidad de atacar.",
-      "generation": 9
+      "superShinyPalette": 4,
+      "pokedex": "Es un Pokémon de gran astucia. Atrae a sus presas fingiendo estar débil para otorgarle a su compañero la oportunidad de atacar."
     },
     {
       "id": "ANNIHILAPE",
@@ -45441,7 +45530,8 @@
           "species": "ANNIHILAPE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "CLODSIRE",
@@ -45485,7 +45575,8 @@
           "species": "CLODSIRE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "FARIGIRAF",
@@ -45529,7 +45620,8 @@
           "species": "FARIGIRAF",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "DUDUNSPARCE",
@@ -45572,7 +45664,8 @@
           "species": "DUDUNSPARCE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "KINGAMBIT",
@@ -45624,7 +45717,8 @@
           "species": "KINGAMBIT",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "GREATTUSK",
@@ -45652,6 +45746,7 @@
         "height": 2.2,
         "weight": 320
       },
+      "superShinyPalette": 9,
       "pokedex": "Su aspecto recuerda al de un extraño Pokémon de origen primitivo que apareció en un artículo de cierta revista esotérica.",
       "wildItemUncommon": "BOOSTERENERGY"
     },
@@ -45681,6 +45776,7 @@
         "height": 1.2,
         "weight": 8
       },
+      "superShinyPalette": 10,
       "pokedex": "Guarda similitud con el supuesto aspecto que, según una revista esotérica, tenía Jigglypuff hace mil millones de años.",
       "wildItemUncommon": "BOOSTERENERGY"
     },
@@ -45710,6 +45806,7 @@
         "height": 1.2,
         "weight": 21
       },
+      "superShinyPalette": 3,
       "pokedex": "Guarda un leve parecido con un Pokémon mitad dinosaurio y mitad seta que apareció en un artículo de cierta revista de dudosa veracidad.",
       "wildItemUncommon": "BOOSTERENERGY"
     },
@@ -45739,6 +45836,7 @@
         "height": 1.4,
         "weight": 4
       },
+      "superShinyPalette": 10,
       "pokedex": "Sus rasgos distintivos se asemejan a los del espíritu de un reptil volador mencionado en una revista esotérica.",
       "wildItemUncommon": "BOOSTERENERGY"
     },
@@ -45768,6 +45866,7 @@
         "height": 3.2,
         "weight": 92
       },
+      "superShinyPalette": 5,
       "pokedex": "Guarda un ligero parecido con un supuesto antepasado de Volcarona /publicado en cierta revista de dudosa veracidad.",
       "wildItemUncommon": "BOOSTERENERGY"
     },
@@ -45797,6 +45896,7 @@
         "height": 2.3,
         "weight": 60
       },
+      "superShinyPalette": 6,
       "pokedex": "Su aspecto recuerda ligeramente a un supuesto Magneton que ha vivido 10000 años y cuya imagen se /publicó en una revista esotérica.",
       "wildItemUncommon": "BOOSTERENERGY"
     },
@@ -45826,6 +45926,7 @@
         "height": 0.9,
         "weight": 240
       },
+      "superShinyPalette": 4,
       "pokedex": "Su aspecto recuerda al de un arma científica de origen extraterrestre que apareció en un artículo de una revista esotérica.",
       "wildItemUncommon": "BOOSTERENERGY"
     },
@@ -45855,6 +45956,7 @@
         "height": 0.6,
         "weight": 11
       },
+      "superShinyPalette": 9,
       "pokedex": "Tiene una forma similar a la del robot construido por una civilización antigua mencionado en cierto artículo de una revista esotérica.",
       "wildItemUncommon": "BOOSTERENERGY"
     },
@@ -45884,6 +45986,7 @@
         "height": 1.8,
         "weight": 380.7
       },
+      "superShinyPalette": 10,
       "pokedex": "Guarda parecido con un atleta, supuestamente transformado en cíborg, que apareció entre las exclusivas de una revista esotérica.",
       "wildItemUncommon": "BOOSTERENERGY"
     },
@@ -45913,6 +46016,7 @@
         "height": 1.3,
         "weight": 111
       },
+      "superShinyPalette": 9,
       "pokedex": "Se asemeja a un Pokémon que apareció en una revista esotérica descrito como \"el fruto de un romance entre un Hydreigon y un robot\".",
       "wildItemUncommon": "BOOSTERENERGY"
     },
@@ -45942,6 +46046,7 @@
         "height": 1.2,
         "weight": 36
       },
+      "superShinyPalette": 5,
       "pokedex": "Se asemeja a un extraño objeto descrito en una revista esotérica como \"un ovni enviado con el objetivo de espiar a la raza humana\".",
       "wildItemUncommon": "BOOSTERENERGY"
     },
@@ -45971,6 +46076,7 @@
         "height": 1.6,
         "weight": 303
       },
+      "superShinyPalette": 10,
       "pokedex": "Guarda similitudes con el supuesto aspecto que, según cierta revista de dudosa veracidad, tendrá Tyranitar dentro de mil millones de años.",
       "wildItemUncommon": "BOOSTERENERGY"
     },
@@ -46023,7 +46129,8 @@
           "species": "BAXCALIBUR",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "ARCTIBAX",
@@ -46077,7 +46184,8 @@
           "species": "BAXCALIBUR",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "BAXCALIBUR",
@@ -46132,7 +46240,8 @@
           "species": "BAXCALIBUR",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "GIMMIGHOUL",
@@ -46174,7 +46283,8 @@
           "species": "GHOLDENGO",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "GHOLDENGO",
@@ -46214,7 +46324,8 @@
           "species": "GHOLDENGO",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "WOCHIEN",
@@ -46242,6 +46353,7 @@
         "height": 1.5,
         "weight": 74.2
       },
+      "superShinyPalette": 3,
       "pokedex": "Este Pokémon nació al imbuirse en hojas marchitas el rencor de una persona castigada por enumerar las fechorías de su rey en unas tablillas."
     },
     {
@@ -46270,6 +46382,7 @@
         "height": 1.9,
         "weight": 152.2
       },
+      "superShinyPalette": 6,
       "pokedex": "Controla a su voluntad masas de nieve de hasta cien toneladas. Se divierte zambulléndose y saltando felizmente en los aludes que provoca."
     },
     {
@@ -46298,6 +46411,7 @@
         "height": 2.7,
         "weight": 699.7
       },
+      "superShinyPalette": 9,
       "pokedex": "Este Pokémon nació al imbuirse en tierra y rocas el miedo vertido en un caldero que se utilizaba en rituales antiguos."
     },
     {
@@ -46326,6 +46440,7 @@
         "height": 0.4,
         "weight": 4.9
       },
+      "superShinyPalette": 5,
       "pokedex": "Controla a su voluntad llamas de hasta 3000ºC. Nada tranquilamente por los mares de magma que crea al derretir las rocas y la grava a su paso."
     },
     {
@@ -46354,6 +46469,7 @@
         "height": 2,
         "weight": 380
       },
+      "superShinyPalette": 7,
       "pokedex": "Según un artículo /publicado en cierta revista de dudosa veracidad, este Pokémon guarda relación con un fenómeno que tiene lugar en otra región.",
       "wildItemUncommon": "BOOSTERENERGY"
     },
@@ -46383,6 +46499,7 @@
         "height": 1.4,
         "weight": 35
       },
+      "superShinyPalette": 10,
       "pokedex": "Comparte varios rasgos con el invento de un científico loco que apareció en un artículo de una revista esotérica.",
       "wildItemUncommon": "BOOSTERENERGY"
     },
@@ -46412,6 +46529,7 @@
         "height": 2.5,
         "weight": 303
       },
+      "superShinyPalette": 8,
       "pokedex": "Procede de la paradoja de un Cyclizar, viene de un tiempo donde suelen ser mucho más violentos y fornidos. Se desconoce totalmente su relación con el entorno y otros seres vivos."
     },
     {
@@ -46440,6 +46558,7 @@
         "height": 3.5,
         "weight": 240
       },
+      "superShinyPalette": 3,
       "pokedex": "Pese a las similitudes con los Cyclizar, es mucho más fuerte y despiadado que ellos. Está rodeado de incógnitas."
     },
     {
@@ -46468,6 +46587,7 @@
         "height": 3.5,
         "weight": 280
       },
+      "superShinyPalette": 6,
       "pokedex": "Ondulagua guarda cierto parecido con uno de los bocetos que realizó la brigada de exploración del Área Cero en el Libro Escarlata. Se caracteriza por los singulares cuernos que tiene en la frente. Además, soporta el peso de su cuerpo con sus patas traseras, por lo que anda en postura bípeda."
     },
     {
@@ -46496,6 +46616,7 @@
         "height": 1.5,
         "weight": 125
       },
+      "superShinyPalette": 8,
       "pokedex": "Ferroverdor guarda cierto parecido con uno de los bocetos que realizó la brigada de exploración del Área Cero en el Libro Púrpura. Su cuerpo es liso, reluciente y de textura metálica. Cuenta con unos puntos brillantes en la frente y el cuello que a veces se transforman en espadas largas."
     },
     {
@@ -46565,7 +46686,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "POLTCHAGEIST",
@@ -46610,7 +46732,8 @@
           "species": "SINISTCHA",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "SINISTCHA",
@@ -46654,7 +46777,8 @@
           "species": "SINISTCHA",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "OKIDOGI",
@@ -46685,6 +46809,7 @@
         "height": 1.8,
         "weight": 92
       },
+      "superShinyPalette": 3,
       "pokedex": "Un Pokémon violento al que se le sube la sangre a la cabeza enseguida. Hace girar en círculos la cadena que lleva al cuello para golpearlo todo."
     },
     {
@@ -46716,6 +46841,7 @@
         "height": 1,
         "weight": 12.2
       },
+      "superShinyPalette": 8,
       "pokedex": "Utiliza sus poderes psíquicos desde un lugar seguro para provocar fuertes mareos a sus enemigos y divertirse a su costa."
     },
     {
@@ -46747,6 +46873,7 @@
         "height": 1.4,
         "weight": 30.1
       },
+      "superShinyPalette": 8,
       "pokedex": "Al agitar sus majestuosas alas, libera unas feromonas que dejan embelesados tanto a humanos como a Pokémon."
     },
     {
@@ -46775,6 +46902,7 @@
         "height": 1.2,
         "weight": 39.8
       },
+      "superShinyPalette": 10,
       "pokedex": "Es bromista y extremadamente curioso. A la hora de combatir, se sirve del tipo de energía que contenga la máscara que lleve puesta."
     },
     {
@@ -46819,7 +46947,8 @@
           "species": "ARCHALUDON",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "HYDRAPPLE",
@@ -46888,7 +47017,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "GOUGINGFIRE",
@@ -46916,6 +47046,7 @@
         "height": 3.5,
         "weight": 590
       },
+      "superShinyPalette": 7,
       "pokedex": "Apenas constan avistamientos de este Pokémon, pero existe una breve grabación donde aparece desbocado y escupiendo ráfagas de fuego."
     },
     {
@@ -46944,6 +47075,7 @@
         "height": 5.2,
         "weight": 480
       },
+      "superShinyPalette": 7,
       "pokedex": "Se dice que calcina todo cuanto lo rodea con los rayos que libera su pelaje. Aparte de eso, se sabe muy poco sobre esta criatura."
     },
     {
@@ -46972,6 +47104,7 @@
         "height": 1.5,
         "weight": 162.5
       },
+      "superShinyPalette": 8,
       "pokedex": "Su cuerpo parece estar compuesto enteramente de metal. Debe su nombre a un objeto descrito en un tomo antiguo."
     },
     {
@@ -47000,6 +47133,7 @@
         "height": 1.6,
         "weight": 156
       },
+      "superShinyPalette": 9,
       "pokedex": "Se dice que puede cortarlo todo a su alrededor lanzando afiladas hojas luminosas, pero nada más se sabe acerca de esta criatura."
     },
     {
@@ -47028,6 +47162,7 @@
         "height": 0.2,
         "weight": 6.5
       },
+      "superShinyPalette": 10,
       "pokedex": "Se vale de su capacidad para transformar energía en duros cristales para protegerse. Este Pokémon dio origen a la teracristalización."
     },
     {
@@ -47056,6 +47191,7 @@
         "height": 0.3,
         "weight": 0.3
       },
+      "superShinyPalette": 7,
       "pokedex": "Su caparazón con forma de melocotón alberga un potente veneno con el que prepara un mochi tóxico que ofrece a humanos y Pokémon."
     },
     {
@@ -47141,7 +47277,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "CEFIREON",
@@ -47226,6 +47363,7 @@
           ]
         }
       ],
+      "superShinyPalette": 10,
       "pokedex": "Se ha hecho uno con el viento y ahora es capaz de dominarlo a voluntad. Vuela a gran velocidad atravesando nubes y tormentas."
     }
   ]
