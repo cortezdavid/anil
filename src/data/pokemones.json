@@ -7668,7 +7668,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 4
+      "superShinyPalette": 4, "superShinyFromEvolution":[9]
     },
     {
       "id": "MEGANIUM",
@@ -7721,7 +7721,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 4
+      "superShinyPalette": 4, "superShinyFromEvolution":[9,4]
     },
     {
       "id": "CYNDAQUIL",
@@ -7827,7 +7827,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[7]
     },
     {
       "id": "TYPHLOSION",
@@ -7879,7 +7879,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6,
+      "superShinyPalette": 6, "superShinyFromEvolution":[7,10],
       "pokedex": "Se oculta tras un trémulo haz de calor que crea mediante intensas y sofocantes llamaradas. Provoca explosiones abrasadoras que reducen todo a cenizas."
     },
     {
@@ -7984,7 +7984,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[7]
     },
     {
       "id": "FERALIGATR",
@@ -8037,7 +8037,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[7,6]
     },
     {
       "id": "SENTRET",
@@ -8126,7 +8126,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[7]
     },
     {
       "id": "HOOTHOOT",
@@ -8220,7 +8220,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[9]
     },
     {
       "id": "LEDYBA",
@@ -8311,7 +8311,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[10]
     },
     {
       "id": "SPINARAK",
@@ -8403,7 +8403,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[10]
     },
     {
       "id": "CROBAT",
@@ -8549,7 +8549,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6,
+      "superShinyPalette": 6, "superShinyFromEvolution":[9],
       "pokedex": "Las esferas brillantes que tiene en la cabeza emiten luz y se forman a partir de su aleta dorsal. Este Pokémon logra iluminar las profundidades abisales.",
       "wildItemUncommon": "DEEPSEASCALE"
     },
@@ -8815,7 +8815,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[5]
     },
     {
       "id": "NATU",
@@ -8907,7 +8907,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[8]
     },
     {
       "id": "MAREEP",
@@ -9011,7 +9011,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[5]
     },
     {
       "id": "AMPHAROS",
@@ -9065,7 +9065,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[5,5,5]
     },
     {
       "id": "BELLOSSOM",
@@ -9175,7 +9175,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[5]
     },
     {
       "id": "AZUMARILL",
@@ -9228,7 +9228,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[5,5]
     },
     {
       "id": "SUDOWOODO",
@@ -9274,7 +9274,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[6]
     },
     {
       "id": "POLITOED",
@@ -9440,7 +9440,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[6]
     },
     {
       "id": "JUMPLUFF",
@@ -9494,7 +9494,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[6,10]
     },
     {
       "id": "AIPOM",
@@ -9629,7 +9629,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[8]
     },
     {
       "id": "YANMA",
@@ -9770,7 +9770,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[3]
     },
     {
       "id": "ESPEON",
@@ -10155,7 +10155,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[9]
     },
     {
       "id": "GIRAFARIG",
@@ -10292,7 +10292,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[9]
     },
     {
       "id": "DUNSPARCE",
@@ -10525,7 +10525,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[10]
     },
     {
       "id": "QWILFISH",
@@ -10834,7 +10834,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[9]
     },
     {
       "id": "SLUGMA",
@@ -10927,7 +10927,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[6]
     },
     {
       "id": "SWINUB",
@@ -11035,7 +11035,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[7]
     },
     {
       "id": "CORSOLA",
@@ -11162,7 +11162,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[3]
     },
     {
       "id": "DELIBIRD",
@@ -11242,7 +11242,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[9]
     },
     {
       "id": "SKARMORY",
@@ -11370,7 +11370,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[9]
     },
     {
       "id": "KINGDRA",
@@ -11518,7 +11518,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[6]
     },
     {
       "id": "PORYGON2",
@@ -12188,7 +12188,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[8]
     },
     {
       "id": "TYRANITAR",
@@ -12241,7 +12241,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[8,7]
     },
     {
       "id": "LUGIA",
@@ -20435,7 +20435,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[7]
     },
     {
       "id": "DRIFLOON",
@@ -20662,7 +20662,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[5]
     },
     {
       "id": "HONCHKROW",
@@ -20707,7 +20707,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[3]
     },
     {
       "id": "GLAMEOW",
@@ -22122,7 +22122,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3,
+      "superShinyPalette": 3, "superShinyFromEvolution":[9],
       "wildItemUncommon": "QUICKCLAW"
     },
     {
@@ -22479,7 +22479,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[5,6]
     },
     {
       "id": "YANMEGA",
@@ -22523,7 +22523,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7,
+      "superShinyPalette": 7, "superShinyFromEvolution":[7],
       "pokedex": "Agita sus alas para crear ondas de choque que producen lesiones internas a sus rivales. Vuela a gran velocidad mientras se equilibra con las alas de su cola.",
       "wildItemUncommon": "WIDELENS"
     },
@@ -22743,7 +22743,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[8]
     },
     {
       "id": "MAMOSWINE",
@@ -22798,7 +22798,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[7,9]
     },
     {
       "id": "PORYGONZ",
@@ -41863,7 +41863,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[9]
     },
     {
       "id": "KLEAVOR",
@@ -41967,7 +41967,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[9,7]
     },
     {
       "id": "BASCULEGION",
@@ -45628,7 +45628,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[5]
     },
     {
       "id": "DUDUNSPARCE",
@@ -45672,7 +45672,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[9]
     },
     {
       "id": "KINGAMBIT",
