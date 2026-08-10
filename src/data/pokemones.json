@@ -34149,7 +34149,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[5]
     },
     {
       "id": "DECIDUEYE",
@@ -34203,7 +34203,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[5,7]
     },
     {
       "id": "LITTEN",
@@ -34307,7 +34307,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[6]
     },
     {
       "id": "INCINEROAR",
@@ -34359,7 +34359,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[6,10]
     },
     {
       "id": "POPPLIO",
@@ -34463,7 +34463,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[5]
     },
     {
       "id": "PRIMARINA",
@@ -34515,7 +34515,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[5,3]
     },
     {
       "id": "PIKIPEK",
@@ -34623,7 +34623,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[3]
     },
     {
       "id": "TOUCANNON",
@@ -34679,7 +34679,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[3,5]
     },
     {
       "id": "YUNGOOS",
@@ -34771,7 +34771,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[8]
     },
     {
       "id": "GRUBBIN",
@@ -34873,7 +34873,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[7]
     },
     {
       "id": "VIKAVOLT",
@@ -34922,7 +34922,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[7,7]
     },
     {
       "id": "CRABRAWLER",
@@ -35018,7 +35018,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[10]
     },
     {
       "id": "ORICORIO",
@@ -35145,7 +35145,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[8]
     },
     {
       "id": "ROCKRUFF",
@@ -35254,7 +35254,7 @@
           ]
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[5]
     },
     {
       "id": "WISHIWASHI",
@@ -35379,7 +35379,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[8]
     },
     {
       "id": "MUDBRAY",
@@ -35473,7 +35473,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[3]
     },
     {
       "id": "DEWPIDER",
@@ -35565,7 +35565,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[5]
     },
     {
       "id": "FOMANTIS",
@@ -35655,7 +35655,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[3]
     },
     {
       "id": "MORELULL",
@@ -35749,7 +35749,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[8]
     },
     {
       "id": "SALANDIT",
@@ -35843,7 +35843,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[8]
     },
     {
       "id": "STUFFUL",
@@ -35933,7 +35933,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[4]
     },
     {
       "id": "BOUNSWEET",
@@ -36039,7 +36039,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[3]
     },
     {
       "id": "TSAREENA",
@@ -36093,7 +36093,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[3,7]
     },
     {
       "id": "COMFEY",
@@ -36276,7 +36276,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[6]
     },
     {
       "id": "SANDYGAST",
@@ -36370,7 +36370,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[3]
     },
     {
       "id": "PYUKUMUKU",
@@ -36483,7 +36483,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[3]
     },
     {
       "id": "MINIOR",
@@ -36841,7 +36841,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[9]
     },
     {
       "id": "KOMMOO",
@@ -36896,7 +36896,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[9,5]
     },
     {
       "id": "TAPUKOKO",
@@ -37128,7 +37128,7 @@
           ]
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[5]
     },
     {
       "id": "SOLGALEO",
@@ -37182,7 +37182,7 @@
           ]
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[5,10]
     },
     {
       "id": "LUNALA",
@@ -37236,7 +37236,7 @@
           ]
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[5,10]
     },
     {
       "id": "NIHILEGO",
@@ -37609,7 +37609,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[8]
     },
     {
       "id": "STAKATAKA",
@@ -37778,7 +37778,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[5]
     },
     {
       "id": "GROOKEY",
