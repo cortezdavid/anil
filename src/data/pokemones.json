@@ -18698,7 +18698,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[10]
     },
     {
       "id": "TORTERRA",
@@ -18750,7 +18750,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[10,10]
     },
     {
       "id": "CHIMCHAR",
@@ -18855,7 +18855,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[5]
     },
     {
       "id": "INFERNAPE",
@@ -18907,7 +18907,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[5,7]
     },
     {
       "id": "PIPLUP",
@@ -19011,7 +19011,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[9]
     },
     {
       "id": "EMPOLEON",
@@ -19063,7 +19063,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[9,8]
     },
     {
       "id": "STARLY",
@@ -19169,7 +19169,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[7]
     },
     {
       "id": "STARAPTOR",
@@ -19224,7 +19224,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[7,5]
     },
     {
       "id": "BIDOOF",
@@ -19315,7 +19315,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 4
+      "superShinyPalette": 4, "superShinyFromEvolution":[5]
     },
     {
       "id": "KRICKETOT",
@@ -19405,7 +19405,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5,
+      "superShinyPalette": 5, "superShinyFromEvolution":[6],
       "wildItemUncommon": "METRONOME"
     },
     {
@@ -19512,7 +19512,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[6]
     },
     {
       "id": "LUXRAY",
@@ -19564,7 +19564,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[6,6]
     },
     {
       "id": "BUDEW",
@@ -19764,7 +19764,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[3]
     },
     {
       "id": "SHIELDON",
@@ -19854,7 +19854,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[7]
     },
     {
       "id": "BURMY",
@@ -19950,7 +19950,7 @@
           ]
         }
       ],
-      "superShinyPalette": 9,
+      "superShinyPalette": 9, "superShinyFromEvolution":[3],
       "wildItemUncommon": "SILVERPOWDER"
     },
     {
@@ -19998,7 +19998,7 @@
           ]
         }
       ],
-      "superShinyPalette": 3,
+      "superShinyPalette": 3, "superShinyFromEvolution":[3],
       "wildItemUncommon": "SILVERPOWDER"
     },
     {
@@ -20090,7 +20090,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8,
+      "superShinyPalette": 8, "superShinyFromEvolution":[4],
       "pokedex": "Su abdomen es un panal de larvas que alimenta con la miel recogida por Combee. Libera feromonas para hacer que hagan lo que diga cuando combate.",
       "wildItemUncommon": "POISONBARB"
     },
@@ -20214,7 +20214,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[8]
     },
     {
       "id": "CHERUBI",
@@ -20296,7 +20296,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8,
+      "superShinyPalette": 8, "superShinyFromEvolution":[7],
       "pokedex": "Florece en épocas de mucha luz solar. Intenta compensar lo que soportó como capullo. Si la luz solar mengua, se transforma en capullo.",
       "wildItemUncommon": "MIRACLESEED"
     },
@@ -20391,7 +20391,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[10]
     },
     {
       "id": "AMBIPOM",
@@ -20529,7 +20529,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[7]
     },
     {
       "id": "BUNEARY",
@@ -20621,7 +20621,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[6]
     },
     {
       "id": "MISMAGIUS",
@@ -20799,7 +20799,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[10]
     },
     {
       "id": "CHINGLING",
@@ -20934,7 +20934,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 4
+      "superShinyPalette": 4, "superShinyFromEvolution":[8]
     },
     {
       "id": "BRONZOR",
@@ -21028,7 +21028,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3,
+      "superShinyPalette": 3, "superShinyFromEvolution":[7],
       "pokedex": "Se produjo un gran revuelo cuando encontraron uno en una obra después de 2000 años durmiendo. Hace tiempo, la gente creía que traía buenas cosechas.",
       "wildItemUncommon": "METALCOAT"
     },
@@ -21347,7 +21347,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[9]
     },
     {
       "id": "GARCHOMP",
@@ -21400,7 +21400,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[9,5]
     },
     {
       "id": "MUNCHLAX",
@@ -21537,7 +21537,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[7]
     },
     {
       "id": "HIPPOPOTAS",
@@ -21625,7 +21625,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[9]
     },
     {
       "id": "SKORUPI",
@@ -21717,7 +21717,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3,
+      "superShinyPalette": 3, "superShinyFromEvolution":[8],
       "pokedex": "Sus brazos tienen fuerza para destrozar un coche. La punta de sus zarpas segrega veneno. Su cabeza rota 180 grados para poder ver en todas direcciones.",
       "wildItemUncommon": "POISONBARB"
     },
@@ -21812,7 +21812,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10,
+      "superShinyPalette": 10, "superShinyFromEvolution":[3],
       "wildItemUncommon": "BLACKSLUDGE"
     },
     {
@@ -21933,7 +21933,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[4]
     },
     {
       "id": "MANTYKE",
@@ -22074,7 +22074,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 4,
+      "superShinyPalette": 4, "superShinyFromEvolution":[5],
       "wildItemUncommon": "NEVERMELTICE"
     },
     {
