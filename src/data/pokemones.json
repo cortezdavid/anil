@@ -23636,7 +23636,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[7]
     },
     {
       "id": "SERPERIOR",
@@ -23688,7 +23688,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[7,5]
     },
     {
       "id": "TEPIG",
@@ -23793,7 +23793,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[10]
     },
     {
       "id": "EMBOAR",
@@ -23846,7 +23846,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[10,7]
     },
     {
       "id": "OSHAWOTT",
@@ -23950,7 +23950,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[7]
     },
     {
       "id": "SAMUROTT",
@@ -24003,7 +24003,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[7,6]
     },
     {
       "id": "PATRAT",
@@ -24093,7 +24093,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[10]
     },
     {
       "id": "LILLIPUP",
@@ -24199,7 +24199,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[7]
     },
     {
       "id": "STOUTLAND",
@@ -24251,7 +24251,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[7,8]
     },
     {
       "id": "PURRLOIN",
@@ -24343,7 +24343,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[9]
     },
     {
       "id": "PANSAGE",
@@ -24431,7 +24431,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[4]
     },
     {
       "id": "PANSEAR",
@@ -24519,7 +24519,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[8]
     },
     {
       "id": "PANPOUR",
@@ -24607,7 +24607,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[7]
     },
     {
       "id": "MUNNA",
@@ -24699,7 +24699,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[9]
     },
     {
       "id": "PIDOVE",
@@ -24805,7 +24805,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[3]
     },
     {
       "id": "UNFEZANT",
@@ -24857,7 +24857,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[3,3]
     },
     {
       "id": "BLITZLE",
@@ -24947,7 +24947,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[6]
     },
     {
       "id": "ROGGENROLA",
@@ -25057,7 +25057,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[7]
     },
     {
       "id": "GIGALITH",
@@ -25108,7 +25108,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8,
+      "superShinyPalette": 8, "superShinyFromEvolution":[7,5],
       "pokedex": "Con los cristales naranjas de su cuerpo, absorbe la energía de los rayos del sol, la amplifica y la expulsa por la boca.",
       "wildItemUncommon": "HARDSTONE"
     },
@@ -25204,7 +25204,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[9]
     },
     {
       "id": "DRILBUR",
@@ -25296,7 +25296,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[4]
     },
     {
       "id": "AUDINO",
@@ -25438,7 +25438,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[7]
     },
     {
       "id": "CONKELDURR",
@@ -25490,7 +25490,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[7,6]
     },
     {
       "id": "TYMPOLE",
@@ -25599,7 +25599,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[5]
     },
     {
       "id": "SEISMITOAD",
@@ -25652,7 +25652,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[5,9]
     },
     {
       "id": "THROH",
@@ -25826,7 +25826,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[8]
     },
     {
       "id": "LEAVANNY",
@@ -25880,7 +25880,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8,
+      "superShinyPalette": 8, "superShinyFromEvolution":[8,10],
       "pokedex": "Calienta sus huevos con el calor desprendido por el humus. Hace mantillas con las hojas para Sewaddle.",
       "wildItemUncommon": "MENTALHERB"
     },
@@ -25992,7 +25992,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[8]
     },
     {
       "id": "SCOLIPEDE",
@@ -26045,7 +26045,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10,
+      "superShinyPalette": 10, "superShinyFromEvolution":[8,3],
       "pokedex": "Las garras del cuello contienen un potente veneno capaz de acabar con sus rivales. Es muy agresivo.",
       "wildItemUncommon": "POISONBARB"
     },
@@ -26139,7 +26139,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6,
+      "superShinyPalette": 6, "superShinyFromEvolution":[4],
       "pokedex": "Aparece con remolinos de viento. Entra en las casas por las rendijas y les encanta hacer travesuras.",
       "wildItemUncommon": "ABSORBBULB"
     },
@@ -26232,7 +26232,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3,
+      "superShinyPalette": 3, "superShinyFromEvolution":[10],
       "pokedex": "El aroma de la flor de su tocado relaja a cualquiera a su alrededor. Hay que cuidarlo para que no se marchite.",
       "wildItemUncommon": "ABSORBBULB"
     },
@@ -26396,7 +26396,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[5]
     },
     {
       "id": "KROOKODILE",
@@ -26449,7 +26449,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[5,7]
     },
     {
       "id": "DARUMAKA",
@@ -26541,7 +26541,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[5]
     },
     {
       "id": "MARACTUS",
@@ -26668,7 +26668,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 4,
+      "superShinyPalette": 4, "superShinyFromEvolution":[8],
       "pokedex": "Su inmensa capacidad motriz le permite desplazarse cargando a sus espaldas rocas enormes durante días.",
       "wildItemUncommon": "HARDSTONE"
     },
@@ -26763,7 +26763,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5,
+      "superShinyPalette": 5, "superShinyFromEvolution":[7],
       "pokedex": "El líder del grupo es aquel cuya cresta es mayor. Es capaz de romper bloques de cemento con sus potentes patadas.",
       "wildItemUncommon": "SHEDSHELL"
     },
@@ -26881,7 +26881,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8,
+      "superShinyPalette": 8, "superShinyFromEvolution":[10],
       "pokedex": "Se hace pasar por un ataúd y castiga a los ladrones de tumbas. Tiene el cuerpo bañado en oro puro.",
       "wildItemUncommon": "SPELLTAG"
     },
@@ -26974,7 +26974,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8,
+      "superShinyPalette": 8, "superShinyFromEvolution":[3],
       "pokedex": "La fuerza de sus mandíbulas es enorme. Tritura presas, huesos y rocas a la vez y los engulle."
     },
     {
@@ -27059,7 +27059,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[10]
     },
     {
       "id": "TRUBBISH",
@@ -27151,7 +27151,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8,
+      "superShinyPalette": 8, "superShinyFromEvolution":[6],
       "pokedex": "Traga basura y la integra en su cuerpo. Despide veneno líquido por la punta de los dedos de su mano derecha.",
       "wildItemUncommon": "BLACKSLUDGE"
     },
@@ -27237,7 +27237,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[6]
     },
     {
       "id": "MINCCINO",
@@ -27327,7 +27327,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[8]
     },
     {
       "id": "GOTHITA",
@@ -27433,7 +27433,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[7]
     },
     {
       "id": "GOTHITELLE",
@@ -27487,7 +27487,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[7,7]
     },
     {
       "id": "SOLOSIS",
@@ -27595,7 +27595,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[7]
     },
     {
       "id": "REUNICLUS",
@@ -27649,7 +27649,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[7,10]
     },
     {
       "id": "DUCKLETT",
@@ -27742,7 +27742,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[10]
     },
     {
       "id": "VANILLITE",
@@ -27854,7 +27854,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[5]
     },
     {
       "id": "VANILLUXE",
@@ -27909,7 +27909,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[5,7]
     },
     {
       "id": "DEERLING",
@@ -28001,7 +28001,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[9]
     },
     {
       "id": "EMOLGA",
@@ -28124,7 +28124,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[5]
     },
     {
       "id": "FOONGUS",
@@ -28214,7 +28214,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3,
+      "superShinyPalette": 3, "superShinyFromEvolution":[10],
       "pokedex": "Aunque intenta pasar por parte superior de una Poké Ball para atraer a sus presas, consigue engañar a pocos.",
       "wildItemUncommon": "BIGMUSHROOM"
     },
@@ -28308,7 +28308,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[7]
     },
     {
       "id": "ALOMOMOLA",
@@ -28432,7 +28432,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[10]
     },
     {
       "id": "FERROSEED",
@@ -28522,7 +28522,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3,
+      "superShinyPalette": 3, "superShinyFromEvolution":[10],
       "pokedex": "Se pega al techo de las cuevas y lanza púas de metal a todo el que pase por debajo de donde se encuentre.",
       "wildItemUncommon": "STICKYBARB"
     },
@@ -28630,7 +28630,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[10]
     },
     {
       "id": "KLINKLANG",
@@ -28681,7 +28681,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[10,5]
     },
     {
       "id": "TYNAMO",
@@ -28779,7 +28779,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 4
+      "superShinyPalette": 4, "superShinyFromEvolution":[7]
     },
     {
       "id": "EELEKTROSS",
@@ -28830,7 +28830,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[7,4]
     },
     {
       "id": "ELGYEM",
@@ -28920,7 +28920,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[7]
     },
     {
       "id": "LITWICK",
@@ -29028,7 +29028,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[7]
     },
     {
       "id": "CHANDELURE",
@@ -29082,7 +29082,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[7,8]
     },
     {
       "id": "AXEW",
@@ -29188,7 +29188,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[5]
     },
     {
       "id": "HAXORUS",
@@ -29242,7 +29242,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[5,6]
     },
     {
       "id": "CUBCHOO",
@@ -29334,7 +29334,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[8]
     },
     {
       "id": "CRYOGONAL",
@@ -29456,7 +29456,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[9]
     },
     {
       "id": "STUNFISK",
@@ -29581,7 +29581,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[3]
     },
     {
       "id": "DRUDDIGON",
@@ -29708,7 +29708,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10,
+      "superShinyPalette": 10, "superShinyFromEvolution":[5],
       "pokedex": "Al parecer, aquel que antaño lo creó le ordenó proteger a los Pokémon y a los humanos.",
       "wildItemUncommon": "LIGHTCLAY"
     },
@@ -29820,7 +29820,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[7]
     },
     {
       "id": "BOUFFALANT",
@@ -29947,7 +29947,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[8]
     },
     {
       "id": "VULLABY",
@@ -30039,7 +30039,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[8]
     },
     {
       "id": "HEATMOR",
@@ -30205,7 +30205,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[7]
     },
     {
       "id": "HYDREIGON",
@@ -30254,7 +30254,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[7,9]
     },
     {
       "id": "LARVESTA",
@@ -30345,7 +30345,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[5]
     },
     {
       "id": "COBALION",
@@ -42016,7 +42016,7 @@
           ]
         }
       ],
-      "superShinyPalette": 3,
+      "superShinyPalette": 3, "superShinyFromEvolution":[9],
       "wildItemUncommon": "DEEPSEATOOTH"
     },
     {
@@ -45725,7 +45725,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[7,7]
     },
     {
       "id": "GREATTUSK",
