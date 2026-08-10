@@ -37882,7 +37882,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[9]
     },
     {
       "id": "RILLABOOM",
@@ -37934,7 +37934,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[9,10]
     },
     {
       "id": "SCORBUNNY",
@@ -38039,7 +38039,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 4
+      "superShinyPalette": 4, "superShinyFromEvolution":[4]
     },
     {
       "id": "CINDERACE",
@@ -38092,7 +38092,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[4,4]
     },
     {
       "id": "SOBBLE",
@@ -38197,7 +38197,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[9]
     },
     {
       "id": "INTELEON",
@@ -38250,7 +38250,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[9,9]
     },
     {
       "id": "SKWOVET",
@@ -38340,7 +38340,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[7]
     },
     {
       "id": "ROOKIDEE",
@@ -38448,7 +38448,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[10]
     },
     {
       "id": "CORVIKNIGHT",
@@ -38504,7 +38504,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 4
+      "superShinyPalette": 4, "superShinyFromEvolution":[10,10]
     },
     {
       "id": "BLIPBUG",
@@ -38612,7 +38612,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[10]
     },
     {
       "id": "ORBEETLE",
@@ -38668,7 +38668,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[10,7]
     },
     {
       "id": "NICKIT",
@@ -38760,7 +38760,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[6]
     },
     {
       "id": "GOSSIFLEUR",
@@ -38850,7 +38850,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[5]
     },
     {
       "id": "WOOLOO",
@@ -38940,7 +38940,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[7]
     },
     {
       "id": "CHEWTLE",
@@ -39034,7 +39034,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[10]
     },
     {
       "id": "YAMPER",
@@ -39124,7 +39124,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[3]
     },
     {
       "id": "ROLYCOLY",
@@ -39231,7 +39231,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[3]
     },
     {
       "id": "COALOSSAL",
@@ -39287,7 +39287,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[3,7]
     },
     {
       "id": "APPLIN",
@@ -39430,7 +39430,7 @@
           ]
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[8]
     },
     {
       "id": "APPLETUN",
@@ -39501,7 +39501,7 @@
           ]
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[8]
     },
     {
       "id": "SILICOBRA",
@@ -39592,7 +39592,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[10]
     },
     {
       "id": "CRAMORANT",
@@ -39709,7 +39709,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[10]
     },
     {
       "id": "TOXEL",
@@ -39802,7 +39802,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[8]
     },
     {
       "id": "SIZZLIPEDE",
@@ -39895,7 +39895,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[5]
     },
     {
       "id": "CLOBBOPUS",
@@ -39983,7 +39983,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[6]
     },
     {
       "id": "SINISTEA",
@@ -40071,7 +40071,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[10]
     },
     {
       "id": "HATENNA",
@@ -40177,7 +40177,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[4]
     },
     {
       "id": "HATTERENE",
@@ -40231,7 +40231,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[4,5]
     },
     {
       "id": "IMPIDIMP",
@@ -40339,7 +40339,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[10]
     },
     {
       "id": "GRIMMSNARL",
@@ -40395,7 +40395,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[10,9]
     },
     {
       "id": "OBSTAGOON",
@@ -40758,7 +40758,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[5]
     },
     {
       "id": "FALINKS",
@@ -40914,7 +40914,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[6]
     },
     {
       "id": "STONJOURNER",
@@ -41122,7 +41122,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9,
+      "superShinyPalette": 9, "superShinyFromEvolution":[5],
       "pokedex": "Su piel verdosa es resistente al agua. Proviene de tierras lejanas y presta ayuda a las personas en la realización de ciertos trabajos.",
       "wildItemUncommon": "LAGGINGTAIL"
     },
@@ -41411,7 +41411,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[6]
     },
     {
       "id": "DRAGAPULT",
@@ -41464,7 +41464,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[6,8]
     },
     {
       "id": "ZACIAN",
@@ -41645,7 +41645,7 @@
           ]
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[7]
     },
     {
       "id": "ZARUDE",
@@ -46694,7 +46694,7 @@
           ]
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[8]
     },
     {
       "id": "POLTCHAGEIST",
@@ -46955,7 +46955,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[3]
     },
     {
       "id": "HYDRAPPLE",
@@ -47025,7 +47025,7 @@
           ]
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[8,7]
     },
     {
       "id": "GOUGINGFIRE",
