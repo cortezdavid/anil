@@ -12440,7 +12440,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[3]
     },
     {
       "id": "SCEPTILE",
@@ -12493,7 +12493,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[3,10]
     },
     {
       "id": "TORCHIC",
@@ -12599,7 +12599,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 4
+      "superShinyPalette": 4, "superShinyFromEvolution":[10]
     },
     {
       "id": "BLAZIKEN",
@@ -12653,7 +12653,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[10,4]
     },
     {
       "id": "MUDKIP",
@@ -12758,7 +12758,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[7]
     },
     {
       "id": "SWAMPERT",
@@ -12811,7 +12811,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[7,10]
     },
     {
       "id": "POOCHYENA",
@@ -12903,7 +12903,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[10]
     },
     {
       "id": "ZIGZAGOON",
@@ -12997,7 +12997,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 4,
+      "superShinyPalette": 4, "superShinyFromEvolution":[7],
       "pokedex": "Es tremendamente rápido si corre en línea recta. Cuando detecta a su presa bajo el agua de una charca, da un veloz salto y la atrapa con sus afiladas garras.",
       "wildItemUncommon": "MAXREVIVE"
     },
@@ -13127,7 +13127,7 @@
           ]
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[7]
     },
     {
       "id": "BEAUTIFLY",
@@ -13192,7 +13192,7 @@
           ]
         }
       ],
-      "superShinyPalette": 9,
+      "superShinyPalette": 9, "superShinyFromEvolution":[7,7],
       "wildItemUncommon": "SHEDSHELL"
     },
     {
@@ -13254,7 +13254,7 @@
           ]
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[7]
     },
     {
       "id": "DUSTOX",
@@ -13319,7 +13319,7 @@
           ]
         }
       ],
-      "superShinyPalette": 8,
+      "superShinyPalette": 8, "superShinyFromEvolution":[7,3],
       "wildItemUncommon": "SHEDSHELL"
     },
     {
@@ -13432,7 +13432,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[5]
     },
     {
       "id": "LUDICOLO",
@@ -13485,7 +13485,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5,
+      "superShinyPalette": 5, "superShinyFromEvolution":[5,5],
       "wildItemUncommon": "MENTALHERB"
     },
     {
@@ -13597,7 +13597,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[8]
     },
     {
       "id": "SHIFTRY",
@@ -13650,7 +13650,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3,
+      "superShinyPalette": 3, "superShinyFromEvolution":[8,5],
       "wildItemUncommon": "POWERHERB"
     },
     {
@@ -13741,7 +13741,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[5]
     },
     {
       "id": "WINGULL",
@@ -13835,7 +13835,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[4]
     },
     {
       "id": "RALTS",
@@ -13949,7 +13949,7 @@
           ]
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[9]
     },
     {
       "id": "GARDEVOIR",
@@ -14008,7 +14008,7 @@
           ]
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[9,7]
     },
     {
       "id": "SURSKIT",
@@ -14099,7 +14099,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6,
+      "superShinyPalette": 6, "superShinyFromEvolution":[9],
       "pokedex": "Intimida al enemigo con los ojos que tiene dibujados en las antenas. Como no puede volar si se le mojan las alas, se protege de la lluvia bajo aleros y grandes árboles.",
       "wildItemUncommon": "SILVERPOWDER"
     },
@@ -14192,7 +14192,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7,
+      "superShinyPalette": 7, "superShinyFromEvolution":[4],
       "pokedex": "Libera esporas por los orificios de la cabeza. Le encanta el clima cálido y húmedo. Se nutre de árboles y plantas que hay en el campo y en el bosque.",
       "wildItemUncommon": "BIGMUSHROOM"
     },
@@ -14292,7 +14292,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[6]
     },
     {
       "id": "SLAKING",
@@ -14340,7 +14340,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[6,7]
     },
     {
       "id": "NINCADA",
@@ -14437,7 +14437,7 @@
           ]
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[8]
     },
     {
       "id": "SHEDINJA",
@@ -14481,7 +14481,7 @@
           ]
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[8]
     },
     {
       "id": "WHISMUR",
@@ -14587,7 +14587,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[10]
     },
     {
       "id": "EXPLOUD",
@@ -14641,7 +14641,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[10,6]
     },
     {
       "id": "MAKUHITA",
@@ -14731,7 +14731,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3,
+      "superShinyPalette": 3, "superShinyFromEvolution":[5],
       "pokedex": "Tiene la costumbre de desafiar a otros sin medir la fuerza del adversario. Alguna vez se ha montado sobre las vías del tren y parado trenes a base de puñetazos.",
       "wildItemUncommon": "KINGSROCK"
     },
@@ -14923,7 +14923,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[9]
     },
     {
       "id": "SABLEYE",
@@ -15103,7 +15103,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[7]
     },
     {
       "id": "AGGRON",
@@ -15158,7 +15158,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9,
+      "superShinyPalette": 9, "superShinyFromEvolution":[7,9],
       "pokedex": "Los cuernos de hierro que tiene le crecen poco a poco. Sirven para determinar la edad que tiene. Luce los desperfectos de su coraza en recuerdo de sus combates.",
       "wildItemUncommon": "HARDSTONE"
     },
@@ -15253,7 +15253,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[6]
     },
     {
       "id": "ELECTRIKE",
@@ -15346,7 +15346,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[10]
     },
     {
       "id": "PLUSLE",
@@ -15534,7 +15534,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[8]
     },
     {
       "id": "GULPIN",
@@ -15627,7 +15627,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9,
+      "superShinyPalette": 9, "superShinyFromEvolution":[5],
       "wildItemUncommon": "SITRUSBERRY"
     },
     {
@@ -15723,7 +15723,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7,
+      "superShinyPalette": 7, "superShinyFromEvolution":[10],
       "pokedex": "Este Pokémon, muy violento y astuto, es el terror de los mares. La textura de su piel reduce al mínimo la resistencia al agua. Llega a alcanzar los 120 km por hora.",
       "wildItemUncommon": "DEEPSEATOOTH"
     },
@@ -15815,7 +15815,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[8]
     },
     {
       "id": "NUMEL",
@@ -15910,7 +15910,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[3]
     },
     {
       "id": "TORKOAL",
@@ -16033,7 +16033,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[10]
     },
     {
       "id": "SPINDA",
@@ -16169,7 +16169,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[10]
     },
     {
       "id": "FLYGON",
@@ -16220,7 +16220,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[10,9]
     },
     {
       "id": "CACNEA",
@@ -16312,7 +16312,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6,
+      "superShinyPalette": 6, "superShinyFromEvolution":[9],
       "wildItemUncommon": "STICKYBARB"
     },
     {
@@ -16406,7 +16406,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[4]
     },
     {
       "id": "ZANGOOSE",
@@ -16624,7 +16624,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 4
+      "superShinyPalette": 4, "superShinyFromEvolution":[6]
     },
     {
       "id": "CORPHISH",
@@ -16715,7 +16715,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[10]
     },
     {
       "id": "BALTOY",
@@ -16799,7 +16799,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6,
+      "superShinyPalette": 6, "superShinyFromEvolution":[8],
       "pokedex": "Claydol duerme mientras levita. Tiene los brazos separados del cuerpo y los mantiene flotando gracias a sus poderes psicoquinéticos.",
       "wildItemUncommon": "LIGHTCLAY"
     },
@@ -16891,7 +16891,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6,
+      "superShinyPalette": 6, "superShinyFromEvolution":[6],
       "pokedex": "Arrastra su pesado cuerpo por el fondo marino. Anida cerca de la superficie, en aguas templadas. Cuando hay marea baja, es posible ver a Cradily en la playa.",
       "wildItemUncommon": "BIGROOT"
     },
@@ -16985,7 +16985,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[5]
     },
     {
       "id": "FEEBAS",
@@ -17075,7 +17075,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[6]
     },
     {
       "id": "CASTFORM",
@@ -17227,7 +17227,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8,
+      "superShinyPalette": 8, "superShinyFromEvolution":[4],
       "pokedex": "Solía ser un muñeco de felpa al que abandonaron. Dicen que vive en vertederos de basura y que va buscando al niño que lo tiró en su día.",
       "wildItemUncommon": "SPELLTAG"
     },
@@ -17335,7 +17335,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[6]
     },
     {
       "id": "TROPIUS",
@@ -17410,7 +17410,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6,
+      "superShinyPalette": 6, "superShinyFromEvolution":[5],
       "pokedex": "Se ponen a volar sin parar cuando llega la estación cálida. Se comunica con otros a través de siete tipos de grito distintos muy característicos.",
       "wildItemUncommon": "CLEANSETAG"
     },
@@ -17591,7 +17591,7 @@
           ]
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[6]
     },
     {
       "id": "SPHEAL",
@@ -17699,7 +17699,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[8]
     },
     {
       "id": "WALREIN",
@@ -17754,7 +17754,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[8,3]
     },
     {
       "id": "CLAMPERL",
@@ -17851,7 +17851,7 @@
           ]
         }
       ],
-      "superShinyPalette": 5,
+      "superShinyPalette": 5, "superShinyFromEvolution":[8],
       "pokedex": "Para soportar la presión del mar a gran profundidad desarrolla una espina dorsal muy gruesa y fuerte. La cola, con forma de pez, tiene ojos que brillan.",
       "wildItemUncommon": "DEEPSEATOOTH"
     },
@@ -17900,7 +17900,7 @@
           ]
         }
       ],
-      "superShinyPalette": 10,
+      "superShinyPalette": 10, "superShinyFromEvolution":[8],
       "pokedex": "Gorebyss absorbe los fluidos corporales de su presa a través de la boca, que es fina y tubular. Cuando acaba de comer, se le acentúa el tono rosado.",
       "wildItemUncommon": "DEEPSEASCALE"
     },
@@ -18074,7 +18074,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[6]
     },
     {
       "id": "SALAMENCE",
@@ -18128,7 +18128,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[6,7]
     },
     {
       "id": "BELDUM",
@@ -18238,7 +18238,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[3]
     },
     {
       "id": "METAGROSS",
@@ -18292,7 +18292,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3,
+      "superShinyPalette": 3, "superShinyFromEvolution":[3,7],
       "pokedex": "Metagross tiene cuatro cerebros unidos por una compleja red neuronal. Esta integración hace que sea más inteligente que un ordenador de última generación.",
       "wildItemUncommon": "METALCOAT"
     },
@@ -19675,7 +19675,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6,
+      "superShinyPalette": 6, "superShinyFromEvolution":[8,6],
       "wildItemUncommon": "POISONBARB"
     },
     {
@@ -22907,7 +22907,7 @@
           ]
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[9,7]
     },
     {
       "id": "PROBOPASS",
@@ -22953,7 +22953,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8,
+      "superShinyPalette": 8, "superShinyFromEvolution":[8],
       "pokedex": "Emana un fuerte magnetismo. Controla tres pequeñas unidades, llamadas Mini-Narices, para capturar presas o combatir.",
       "wildItemUncommon": "MAGNET"
     },
@@ -23006,7 +23006,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3,
+      "superShinyPalette": 3, "superShinyFromEvolution":[6,9],
       "pokedex": "La antena de la cabeza capta ondas de otra dimensión que le incitan a llevarse allí a la gente. Es temido porque se cree que absorbe almas errantes.",
       "wildItemUncommon": "SPELLTAG"
     },
@@ -23059,7 +23059,7 @@
           ]
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[6]
     },
     {
       "id": "ROTOM",
