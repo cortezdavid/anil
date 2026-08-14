@@ -42102,8 +42102,8 @@
           "species": "QWILFISH_1",
           "evolvesTo": {
             "species": "SNEASLER",
-            "method": "Subir de nivel sabiendo",
-            "requirement": "Mil puas tóxicas"
+            "method": "Nivel",
+            "requirement": "40"
           }
         },
         {
