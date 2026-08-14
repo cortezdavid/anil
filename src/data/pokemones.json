@@ -42249,7 +42249,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[8]
     },
     {
       "id": "MEOWSCARADA",
@@ -42301,7 +42301,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[8,10]
     },
     {
       "id": "FUECOCO",
@@ -42405,7 +42405,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[9]
     },
     {
       "id": "SKELEDIRGE",
@@ -42457,7 +42457,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[9,6]
     },
     {
       "id": "QUAXLY",
@@ -42561,7 +42561,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[5]
     },
     {
       "id": "QUAQUAVAL",
@@ -42613,7 +42613,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[5,8]
     },
     {
       "id": "LECHONK",
@@ -42706,7 +42706,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[9]
     },
     {
       "id": "TAROUNTULA",
@@ -42794,7 +42794,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[10]
     },
     {
       "id": "NYMBLE",
@@ -42883,7 +42883,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[3]
     },
     {
       "id": "PAWMI",
@@ -42990,7 +42990,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[8]
     },
     {
       "id": "PAWMOT",
@@ -43043,7 +43043,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[8,7]
     },
     {
       "id": "TANDEMAUS",
@@ -43133,7 +43133,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[6]
     },
     {
       "id": "FIDOUGH",
@@ -43221,7 +43221,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[3]
     },
     {
       "id": "SMOLIV",
@@ -43327,7 +43327,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[9]
     },
     {
       "id": "ARBOLIVA",
@@ -43379,7 +43379,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[9,7]
     },
     {
       "id": "SQUAWKABILLY",
@@ -43518,7 +43518,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[6]
     },
     {
       "id": "GARGANACL",
@@ -43570,7 +43570,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[6,6]
     },
     {
       "id": "CHARCADET",
@@ -43665,7 +43665,7 @@
           ]
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[6]
     },
     {
       "id": "CERULEDGE",
@@ -43712,7 +43712,7 @@
           ]
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[6]
     },
     {
       "id": "TADBULB",
@@ -43802,7 +43802,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[10]
     },
     {
       "id": "WATTREL",
@@ -43896,7 +43896,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[5]
     },
     {
       "id": "MASCHIFF",
@@ -43986,7 +43986,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[7]
     },
     {
       "id": "SHROODLE",
@@ -44078,7 +44078,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 8
+      "superShinyPalette": 8, "superShinyFromEvolution":[10]
     },
     {
       "id": "BRAMBLIN",
@@ -44168,7 +44168,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[6]
     },
     {
       "id": "TOEDSCOOL",
@@ -44255,7 +44255,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[9]
     },
     {
       "id": "KLAWF",
@@ -44381,7 +44381,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[6]
     },
     {
       "id": "RELLOR",
@@ -44472,7 +44472,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[6]
     },
     {
       "id": "FLITTLE",
@@ -44562,7 +44562,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[3]
     },
     {
       "id": "TINKATINK",
@@ -44670,7 +44670,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[10]
     },
     {
       "id": "TINKATON",
@@ -44723,7 +44723,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 3
+      "superShinyPalette": 3, "superShinyFromEvolution":[10,9]
     },
     {
       "id": "WIGLETT",
@@ -44815,7 +44815,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 5
+      "superShinyPalette": 5, "superShinyFromEvolution":[9]
     },
     {
       "id": "BOMBIRDIER",
@@ -44932,7 +44932,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 7
+      "superShinyPalette": 7, "superShinyFromEvolution":[10]
     },
     {
       "id": "VAROOM",
@@ -45022,7 +45022,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[10]
     },
     {
       "id": "CYCLIZAR",
@@ -45176,7 +45176,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[6]
     },
     {
       "id": "GREAVARD",
@@ -45265,7 +45265,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[3]
     },
     {
       "id": "FLAMIGO",
@@ -45388,7 +45388,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[10]
     },
     {
       "id": "VELUZA",
@@ -46192,7 +46192,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 6
+      "superShinyPalette": 6, "superShinyFromEvolution":[3]
     },
     {
       "id": "BAXCALIBUR",
@@ -46248,7 +46248,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[3,6]
     },
     {
       "id": "GIMMIGHOUL",
@@ -46332,7 +46332,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 9
+      "superShinyPalette": 9, "superShinyFromEvolution":[9]
     },
     {
       "id": "WOCHIEN",
@@ -46785,7 +46785,7 @@
           "evolvesTo": null
         }
       ],
-      "superShinyPalette": 10
+      "superShinyPalette": 10, "superShinyFromEvolution":[3]
     },
     {
       "id": "OKIDOGI",
