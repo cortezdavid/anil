@@ -151,7 +151,7 @@ const Chat = () => {
           <div className="bg-blue-900/20 border border-blue-600/30 rounded-xl p-4">
             <p className="text-slate-300 leading-relaxed">
               Este es un espacio para hacer preguntas sobre el juego, reportar errores de la página,
-              sugerir mejoras, buscar con quién jugar o intercambiar Pokémon,
+              sugerir mejoras,
               o simplemente compartir tus experiencias.
             </p>
           </div>
