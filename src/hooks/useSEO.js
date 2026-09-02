@@ -35,5 +35,13 @@ export const useSEO = ({ title, description, keywords, noindex = false }) => {
       document.head.appendChild(metaRobots);
     }
     metaRobots.content = noindex ? "noindex, nofollow" : "index, follow";
+
+    let canonical = document.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement("link");
+      canonical.rel = "canonical";
+      document.head.appendChild(canonical);
+    }
+    canonical.href = `${window.location.origin}${window.location.pathname}`;
   }, [title, description, keywords, noindex]);
 };

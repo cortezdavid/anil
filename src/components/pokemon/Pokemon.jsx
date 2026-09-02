@@ -14,7 +14,9 @@ const Pokemon = () => {
     (p) => p.id.toLowerCase() === id.toLowerCase(),
   );
 
-  const variants = dataVariant.variants.filter((v) => v.baseId === pokemon.id);
+  const variants = pokemon
+    ? dataVariant.variants.filter((v) => v.baseId === pokemon.id)
+    : [];
 
   // Estado para controlar qué forma se está mostrando
   const [selectedForm, setSelectedForm] = useState(null); // null = forma base
@@ -36,14 +38,17 @@ const Pokemon = () => {
 
   const [activeTab, setActiveTab] = useState("caracteristicas");
 
-  if (!pokemon) return <p>Pokémon no encontrado</p>;
-
   useSEO({
-    title: `Pokédex Añil - ${pokemon.name}`,
-    description: `Guía de ${pokemon.name} en Pokémon Añil: estadísticas, ubicación, evoluciones y habilidades.`,
-    keywords: `${pokemon.name}, pokémon añil ${pokemon.name}, ${pokemon.name} ubicación`,
-    noindex: true, // ← esto agregás
+    title: pokemon ? `Pokédex Añil - ${pokemon.name}` : "Pokémon no encontrado - Guía Pokémon Añil",
+    description: pokemon
+      ? `Guía de ${pokemon.name} en Pokémon Añil: estadísticas, ubicación, evoluciones y habilidades.`
+      : "El Pokémon solicitado no se encuentra en la guía Pokémon Añil.",
+    keywords: pokemon
+      ? `${pokemon.name}, pokémon añil ${pokemon.name}, ${pokemon.name} ubicación`
+      : "guía Pokémon Añil",
   });
+
+  if (!pokemon) return <p>Pokémon no encontrado</p>;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-gray-900">
