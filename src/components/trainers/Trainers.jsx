@@ -193,7 +193,7 @@ const Trainers = () => {
         </h1>
 
         {/* alert */}
-        <div className="max-w-7xl mx-auto px-4 mb-6">
+        {/* <div className="max-w-7xl mx-auto px-4 mb-6">
           <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg shadow-sm">
             <div className="flex items-start">
               <div className="ml-3">
@@ -206,7 +206,7 @@ const Trainers = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Selectores en una fila */}
         <div className="mb-8 grid grid-cols-1 lg:grid-cols-2 gap-6">
