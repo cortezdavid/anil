@@ -68,7 +68,7 @@
               "name": "PIDGEY",
               "level": "7",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "KEENEYE",
               "moves": [
                 "TACKLE",
                 "SANDATTACK"
@@ -95,7 +95,7 @@
               "name": "PIDGEY",
               "level": "7",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "KEENEYE",
               "moves": [
                 "TACKLE",
                 "SANDATTACK"
@@ -116,13 +116,13 @@
           ]
         },
         "hard": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "PIDGEY",
-              "level": "8",
+              "level": "7",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "KEENEYE",
               "moves": [
                 "QUICKATTACK",
                 "SANDATTACK",
@@ -159,7 +159,7 @@
               "name": "MANKEY",
               "level": "6",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "ACOMETIDA",
               "moves": [
                 "SCRATCH",
                 "LEER",
@@ -187,7 +187,7 @@
               "name": "MANKEY",
               "level": "6",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "ACOMETIDA",
               "moves": [
                 "SCRATCH",
                 "LEER",
@@ -209,13 +209,13 @@
           ]
         },
         "hard": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "MANKEY",
               "level": "7",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "ACOMETIDA",
               "moves": [
                 "SCRATCH",
                 "LEER",
@@ -243,11 +243,11 @@
       "id": 4,
       "trainer": "Norman",
       "category": "route",
-      "location": "Museo",
+      "location": "Ciudad plateada - Museo",
       "img": "/images/trainers/NORMAN.png",
       "difficulties": {
         "easy": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "SLAKOTH",
@@ -277,7 +277,7 @@
               "name": "LOUDRED",
               "level": "12",
               "item": "SITRUSBERRY",
-              "ability": "Desconocido",
+              "ability": "SOUNDPROOF",
               "moves": [
                 "ECHOEDVOICE",
                 "WORKUP",
@@ -288,7 +288,7 @@
           ]
         },
         "normal": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "SLAKOTH",
@@ -318,7 +318,7 @@
               "name": "LOUDRED",
               "level": "12",
               "item": "SITRUSBERRY",
-              "ability": "Desconocido",
+              "ability": "SOUNDPROOF",
               "moves": [
                 "ECHOEDVOICE",
                 "WORKUP",
@@ -329,7 +329,7 @@
           ]
         },
         "hard": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "SLAKOTH",
@@ -359,7 +359,7 @@
               "name": "LOUDRED",
               "level": "12",
               "item": "SITRUSBERRY",
-              "ability": "Desconocido",
+              "ability": "SOUNDPROOF",
               "moves": [
                 "ECHOEDVOICE",
                 "WORKUP",
@@ -375,7 +375,7 @@
       "id": 5,
       "trainer": "Brock",
       "category": "route",
-      "location": "Ciudad Plateada",
+      "location": "Ciudad plateada",
       "img": "/images/trainers/BROCK.png",
       "difficulties": {
         "easy": {
@@ -411,10 +411,10 @@
               "item": "",
               "ability": "STURDY",
               "moves": [
-                "ROAR",
-                "SANDSTORM",
+                "ROCKTOMB",
                 "SANDTOMB",
-                "ROCKTOMB"
+                "SANDSTORM",
+                "ROAR"
               ]
             }
           ]
@@ -452,16 +452,16 @@
               "item": "",
               "ability": "STURDY",
               "moves": [
-                "ROAR",
-                "SANDSTORM",
+                "ROCKTOMB",
                 "SANDTOMB",
-                "ROCKTOMB"
+                "SANDSTORM",
+                "ROAR"
               ]
             }
           ]
         },
         "hard": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "DWEBBLE",
@@ -505,10 +505,10 @@
               "item": "MUSCLEBAND",
               "ability": "STURDY",
               "moves": [
-                "ROAR",
-                "SANDSTORM",
+                "ROCKTOMB",
                 "BULLDOZE",
-                "ROCKTOMB"
+                "SANDSTORM",
+                "ROAR"
               ]
             }
           ]
@@ -519,7 +519,7 @@
       "id": 6,
       "trainer": "Hoja",
       "category": "route",
-      "location": "Monte Moon",
+      "location": "Monte Moon - interior",
       "img": "/images/trainers/HOJA.png",
       "difficulties": {
         "easy": {
@@ -529,7 +529,7 @@
               "name": "MANKEY",
               "level": "16",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "ACOMETIDA",
               "moves": [
                 "KARATECHOP",
                 "FOCUSENERGY",
@@ -541,7 +541,7 @@
               "name": "HOOTHOOT",
               "level": "16",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "INSOMNIA",
               "moves": [
                 "AIRCUTTER",
                 "CONFUSION",
@@ -570,7 +570,7 @@
               "name": "MANKEY",
               "level": "16",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "ACOMETIDA",
               "moves": [
                 "KARATECHOP",
                 "FOCUSENERGY",
@@ -582,7 +582,7 @@
               "name": "HOOTHOOT",
               "level": "16",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "INSOMNIA",
               "moves": [
                 "AIRCUTTER",
                 "CONFUSION",
@@ -605,13 +605,13 @@
           ]
         },
         "hard": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "MANKEY",
               "level": "16",
               "item": "BLACKBELT",
-              "ability": "Desconocido",
+              "ability": "ACOMETIDA",
               "moves": [
                 "KARATECHOP",
                 "FOCUSENERGY",
@@ -623,7 +623,7 @@
               "name": "HOOTHOOT",
               "level": "16",
               "item": "WISEGLASSES",
-              "ability": "Desconocido",
+              "ability": "INSOMNIA",
               "moves": [
                 "AIRCUTTER",
                 "CONFUSION",
@@ -661,7 +661,7 @@
               "name": "KOFFING",
               "level": "18",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "LEVITATE",
               "moves": [
                 "SMOKESCREEN",
                 "CLEARSMOG",
@@ -673,7 +673,7 @@
               "name": "HOUNDOUR",
               "level": "18",
               "item": "BLACKGLASSES",
-              "ability": "Desconocido",
+              "ability": "EARLYBIRD",
               "moves": [
                 "FIREFANG",
                 "PURSUIT",
@@ -702,7 +702,7 @@
               "name": "IMPIDIMP",
               "level": "18",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "PRANKSTER",
               "moves": [
                 "FAKEOUT",
                 "BITE",
@@ -714,7 +714,7 @@
               "name": "HOUNDOUR",
               "level": "18",
               "item": "BLACKGLASSES",
-              "ability": "Desconocido",
+              "ability": "EARLYBIRD",
               "moves": [
                 "FIREFANG",
                 "PURSUIT",
@@ -737,13 +737,13 @@
           ]
         },
         "hard": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "IMPIDIMP",
               "level": "18",
               "item": "FOCUSSASH",
-              "ability": "Desconocido",
+              "ability": "PRANKSTER",
               "moves": [
                 "FAKEOUT",
                 "BITE",
@@ -755,7 +755,7 @@
               "name": "HOUNDOUR",
               "level": "18",
               "item": "EVIOLITE",
-              "ability": "Desconocido",
+              "ability": "EARLYBIRD",
               "moves": [
                 "INCINERATE",
                 "PURSUIT",
@@ -793,7 +793,7 @@
               "name": "PIDGEOTTO",
               "level": "17",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "KEENEYE",
               "moves": [
                 "WINGATTACK",
                 "GROWL",
@@ -805,7 +805,7 @@
               "name": "RATICATE",
               "level": "17",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "RUNAWAY",
               "moves": [
                 "HYPERFANG",
                 "BITE",
@@ -817,7 +817,7 @@
               "name": "KADABRA",
               "level": "18",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "SYNCHRONIZE",
               "moves": [
                 "CONFUSION",
                 "DISABLE",
@@ -846,7 +846,7 @@
               "name": "PIDGEOTTO",
               "level": "17",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "KEENEYE",
               "moves": [
                 "WINGATTACK",
                 "GROWL",
@@ -858,7 +858,7 @@
               "name": "RATICATE",
               "level": "17",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "RUNAWAY",
               "moves": [
                 "HYPERFANG",
                 "BITE",
@@ -870,7 +870,7 @@
               "name": "KADABRA",
               "level": "18",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "SYNCHRONIZE",
               "moves": [
                 "CONFUSION",
                 "DISABLE",
@@ -893,13 +893,13 @@
           ]
         },
         "hard": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "PIDGEOTTO",
               "level": "17",
               "item": "SHARPBEAK",
-              "ability": "Desconocido",
+              "ability": "KEENEYE",
               "moves": [
                 "WINGATTACK",
                 "GROWL",
@@ -923,7 +923,7 @@
               "name": "KADABRA",
               "level": "18",
               "item": "",
-              "ability": "Desconocido",
+              "ability": "SYNCHRONIZE",
               "moves": [
                 "PSYBEAM",
                 "DISABLE",
@@ -955,7 +955,7 @@
       "img": "/images/trainers/CANDELA.png",
       "difficulties": {
         "easy": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "MAGMAR",
@@ -973,7 +973,7 @@
               "name": "MAGCARGO",
               "level": "21",
               "item": "FOCUSSASH",
-              "ability": "Desconocido",
+              "ability": "GOOEY",
               "moves": [
                 "ANCIENTPOWER",
                 "INCINERATE",
@@ -996,7 +996,7 @@
           ]
         },
         "normal": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "MAGMAR",
@@ -1014,7 +1014,7 @@
               "name": "MAGCARGO",
               "level": "21",
               "item": "FOCUSSASH",
-              "ability": "Desconocido",
+              "ability": "GOOEY",
               "moves": [
                 "ANCIENTPOWER",
                 "INCINERATE",
@@ -1037,7 +1037,7 @@
           ]
         },
         "hard": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "MAGMAR",
@@ -1055,7 +1055,7 @@
               "name": "MAGCARGO",
               "level": "21",
               "item": "FOCUSSASH",
-              "ability": "Desconocido",
+              "ability": "GOOEY",
               "moves": [
                 "ANCIENTPOWER",
                 "INCINERATE",
@@ -1169,7 +1169,7 @@
           ]
         },
         "hard": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "GOLDUCK",
@@ -1249,7 +1249,7 @@
               "name": "GLOOM",
               "level": "26",
               "item": "BLACKSLUDGE",
-              "ability": "STENCH",
+              "ability": "CHLOROPHYLL",
               "moves": [
                 "MEGADRAIN",
                 "POISONJAB",
@@ -1313,7 +1313,7 @@
           ]
         },
         "hard": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "MURKROW",
@@ -1481,7 +1481,7 @@
           ]
         },
         "hard": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "TROPIUS",
@@ -1649,7 +1649,7 @@
           ]
         },
         "hard": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "ELECTRODE",
@@ -1676,18 +1676,6 @@
               ]
             },
             {
-              "name": "GALVANTULA",
-              "level": "29",
-              "item": "LIFEORB",
-              "ability": "SWARM",
-              "moves": [
-                "ELECTROBALL",
-                "GIGADRAIN",
-                "SIGNALBEAM",
-                "VOLTSWITCH"
-              ]
-            },
-            {
               "name": "KILOWATTREL",
               "level": "29",
               "item": "MAGNET",
@@ -1697,6 +1685,18 @@
                 "AIRCUTTER",
                 "FEATHERDANCE",
                 "SHOCKWAVE"
+              ]
+            },
+            {
+              "name": "GALVANTULA",
+              "level": "29",
+              "item": "LIFEORB",
+              "ability": "SWARM",
+              "moves": [
+                "ELECTROBALL",
+                "GIGADRAIN",
+                "SIGNALBEAM",
+                "VOLTSWITCH"
               ]
             },
             {
@@ -1729,7 +1729,7 @@
               "name": "PRIMEAPE",
               "level": "30",
               "item": "MUSCLEBAND",
-              "ability": "Desconocido",
+              "ability": "ACOMETIDA",
               "moves": [
                 "BRICKBREAK",
                 "FOCUSENERGY",
@@ -1741,7 +1741,7 @@
               "name": "NOCTOWL",
               "level": "30",
               "item": "WISEGLASSES",
-              "ability": "Desconocido",
+              "ability": "TINTEDLENS",
               "moves": [
                 "AIRCUTTER",
                 "PSYBEAM",
@@ -1753,7 +1753,7 @@
               "name": "EEVEE",
               "level": "30",
               "item": "SILKSCARF",
-              "ability": "Desconocido",
+              "ability": "RUNAWAY",
               "moves": [
                 "TAKEDOWN",
                 "CHARM",
@@ -1782,7 +1782,7 @@
               "name": "PRIMEAPE",
               "level": "30",
               "item": "MUSCLEBAND",
-              "ability": "Desconocido",
+              "ability": "ACOMETIDA",
               "moves": [
                 "BRICKBREAK",
                 "FOCUSENERGY",
@@ -1794,7 +1794,7 @@
               "name": "NOCTOWL",
               "level": "30",
               "item": "WISEGLASSES",
-              "ability": "Desconocido",
+              "ability": "TINTEDLENS",
               "moves": [
                 "AIRCUTTER",
                 "PSYBEAM",
@@ -1806,7 +1806,7 @@
               "name": "EEVEE",
               "level": "30",
               "item": "SILKSCARF",
-              "ability": "Desconocido",
+              "ability": "RUNAWAY",
               "moves": [
                 "TAKEDOWN",
                 "CHARM",
@@ -1835,7 +1835,7 @@
               "name": "PRIMEAPE",
               "level": "30",
               "item": "LIFEORB",
-              "ability": "Desconocido",
+              "ability": "ACOMETIDA",
               "moves": [
                 "BRICKBREAK",
                 "THUNDERPUNCH",
@@ -1847,7 +1847,7 @@
               "name": "NOCTOWL",
               "level": "30",
               "item": "WISEGLASSES",
-              "ability": "Desconocido",
+              "ability": "TINTEDLENS",
               "moves": [
                 "AIRSLASH",
                 "PSYSHOCK",
@@ -1859,7 +1859,7 @@
               "name": "EEVEE",
               "level": "30",
               "item": "EVIOLITE",
-              "ability": "Desconocido",
+              "ability": "RUNAWAY",
               "moves": [
                 "RETURN",
                 "CHARM",
@@ -1891,30 +1891,18 @@
       "img": "/images/trainers/AZUL.png",
       "difficulties": {
         "easy": {
-          "items": "2 Superpoción",
+          "items": "2 Hiperpoción",
           "pokemon": [
             {
               "name": "PIDGEOTTO",
               "level": "33",
               "item": "SHARPBEAK",
-              "ability": "Desconocido",
+              "ability": "KEENEYE",
               "moves": [
                 "AIRCUTTER",
                 "FEATHERDANCE",
                 "TAKEDOWN",
                 "UTURN"
-              ]
-            },
-            {
-              "name": "KADABRA",
-              "level": "34",
-              "item": "FOCUSSASH",
-              "ability": "Desconocido",
-              "moves": [
-                "PSYBEAM",
-                "SHADOWBALL",
-                "HYPNOSIS",
-                "SHOCKWAVE"
               ]
             },
             {
@@ -1927,6 +1915,18 @@
                 "BITE",
                 "THRASH",
                 "HYDROPUMP"
+              ]
+            },
+            {
+              "name": "KADABRA",
+              "level": "34",
+              "item": "FOCUSSASH",
+              "ability": "SYNCHRONIZE",
+              "moves": [
+                "PSYBEAM",
+                "SHADOWBALL",
+                "HYPNOSIS",
+                "SHOCKWAVE"
               ]
             },
             {
@@ -1944,30 +1944,18 @@
           ]
         },
         "normal": {
-          "items": "2 Superpoción",
+          "items": "2 Hiperpoción",
           "pokemon": [
             {
               "name": "PIDGEOTTO",
               "level": "33",
               "item": "SHARPBEAK",
-              "ability": "Desconocido",
+              "ability": "KEENEYE",
               "moves": [
                 "AIRCUTTER",
                 "FEATHERDANCE",
                 "TAKEDOWN",
                 "UTURN"
-              ]
-            },
-            {
-              "name": "KADABRA",
-              "level": "34",
-              "item": "FOCUSSASH",
-              "ability": "Desconocido",
-              "moves": [
-                "PSYBEAM",
-                "SHADOWBALL",
-                "HYPNOSIS",
-                "SHOCKWAVE"
               ]
             },
             {
@@ -1980,6 +1968,18 @@
                 "BITE",
                 "THRASH",
                 "HYDROPUMP"
+              ]
+            },
+            {
+              "name": "KADABRA",
+              "level": "34",
+              "item": "FOCUSSASH",
+              "ability": "SYNCHRONIZE",
+              "moves": [
+                "PSYBEAM",
+                "SHADOWBALL",
+                "HYPNOSIS",
+                "SHOCKWAVE"
               ]
             },
             {
@@ -2003,24 +2003,12 @@
               "name": "PIDGEOTTO",
               "level": "33",
               "item": "SHARPBEAK",
-              "ability": "Desconocido",
+              "ability": "KEENEYE",
               "moves": [
                 "AIRSLASH",
                 "FEATHERDANCE",
                 "HYPERVOICE",
                 "UTURN"
-              ]
-            },
-            {
-              "name": "KADABRA",
-              "level": "34",
-              "item": "FOCUSSASH",
-              "ability": "Desconocido",
-              "moves": [
-                "PSYSHOCK",
-                "SHADOWBALL",
-                "HYPNOSIS",
-                "ENERGYBALL"
               ]
             },
             {
@@ -2033,6 +2021,18 @@
                 "CRUNCH",
                 "THRASH",
                 "AQUATAIL"
+              ]
+            },
+            {
+              "name": "KADABRA",
+              "level": "34",
+              "item": "FOCUSSASH",
+              "ability": "SYNCHRONIZE",
+              "moves": [
+                "PSYSHOCK",
+                "SHADOWBALL",
+                "HYPNOSIS",
+                "ENERGYBALL"
               ]
             },
             {
@@ -2449,7 +2449,7 @@
               "name": "RHYDON",
               "level": "40",
               "item": "FOCUSSASH",
-              "ability": "Desconocido",
+              "ability": "LIGHTNINGROD",
               "moves": [
                 "DRILLRUN",
                 "ROCKSLIDE",
@@ -2502,7 +2502,7 @@
               "name": "RHYDON",
               "level": "40",
               "item": "FOCUSSASH",
-              "ability": "Desconocido",
+              "ability": "LIGHTNINGROD",
               "moves": [
                 "DRILLRUN",
                 "ROCKSLIDE",
@@ -2531,7 +2531,7 @@
               "name": "HONCHKROW",
               "level": "39",
               "item": "ASSAULTVEST",
-              "ability": "Desconocido",
+              "ability": "INSOMNIA",
               "moves": [
                 "DRILLPECK",
                 "SUCKERPUNCH",
@@ -2567,7 +2567,7 @@
               "name": "RHYDON",
               "level": "40",
               "item": "FOCUSSASH",
-              "ability": "Desconocido",
+              "ability": "LIGHTNINGROD",
               "moves": [
                 "DRILLRUN",
                 "ROCKSLIDE",
@@ -2605,7 +2605,7 @@
               "name": "HERACROSS",
               "level": "40",
               "item": "ASSAULTVEST",
-              "ability": "Desconocido",
+              "ability": "SWARM",
               "moves": [
                 "FURYCUTTER",
                 "ROCKSLIDE",
@@ -2617,7 +2617,7 @@
               "name": "KABUTOPS",
               "level": "41",
               "item": "CHOICESCARF",
-              "ability": "Desconocido",
+              "ability": "SWIFTSWIM",
               "moves": [
                 "AQUACUTTER",
                 "ROCKSLIDE",
@@ -2658,7 +2658,7 @@
               "name": "HERACROSS",
               "level": "40",
               "item": "ASSAULTVEST",
-              "ability": "Desconocido",
+              "ability": "SWARM",
               "moves": [
                 "FURYCUTTER",
                 "ROCKSLIDE",
@@ -2670,7 +2670,7 @@
               "name": "KABUTOPS",
               "level": "41",
               "item": "CHOICESCARF",
-              "ability": "Desconocido",
+              "ability": "SWIFTSWIM",
               "moves": [
                 "AQUACUTTER",
                 "ROCKSLIDE",
@@ -2711,7 +2711,7 @@
               "name": "HERACROSS",
               "level": "40",
               "item": "ASSAULTVEST",
-              "ability": "Desconocido",
+              "ability": "SWARM",
               "moves": [
                 "FURYCUTTER",
                 "ROCKSLIDE",
@@ -2723,7 +2723,7 @@
               "name": "KABUTOPS",
               "level": "41",
               "item": "CHOICESCARF",
-              "ability": "Desconocido",
+              "ability": "SWIFTSWIM",
               "moves": [
                 "AQUACUTTER",
                 "ROCKSLIDE",
@@ -2802,7 +2802,7 @@
               "name": "BANETTE",
               "level": "40",
               "item": "WIDELENS",
-              "ability": "Desconocido",
+              "ability": "CURSEDBODY",
               "moves": [
                 "WILLOWISP",
                 "SHADOWCLAW",
@@ -2843,7 +2843,7 @@
               "name": "BANETTE",
               "level": "40",
               "item": "WIDELENS",
-              "ability": "Desconocido",
+              "ability": "CURSEDBODY",
               "moves": [
                 "WILLOWISP",
                 "SHADOWCLAW",
@@ -2893,7 +2893,7 @@
               "name": "PRIMEAPE",
               "level": "43",
               "item": "LIFEORB",
-              "ability": "Desconocido",
+              "ability": "ACOMETIDA",
               "moves": [
                 "CLOSECOMBAT",
                 "FOCUSENERGY",
@@ -2905,7 +2905,7 @@
               "name": "NOCTOWL",
               "level": "44",
               "item": "WISEGLASSES",
-              "ability": "Desconocido",
+              "ability": "TINTEDLENS",
               "moves": [
                 "AIRSLASH",
                 "PSYSHOCK",
@@ -2946,7 +2946,7 @@
               "name": "PRIMEAPE",
               "level": "43",
               "item": "LIFEORB",
-              "ability": "Desconocido",
+              "ability": "ACOMETIDA",
               "moves": [
                 "CLOSECOMBAT",
                 "FOCUSENERGY",
@@ -2958,7 +2958,7 @@
               "name": "NOCTOWL",
               "level": "44",
               "item": "WISEGLASSES",
-              "ability": "Desconocido",
+              "ability": "TINTEDLENS",
               "moves": [
                 "AIRSLASH",
                 "PSYSHOCK",
@@ -2999,7 +2999,7 @@
               "name": "PRIMEAPE",
               "level": "43",
               "item": "LIFEORB",
-              "ability": "Desconocido",
+              "ability": "ACOMETIDA",
               "moves": [
                 "CLOSECOMBAT",
                 "FOCUSENERGY",
@@ -3011,7 +3011,7 @@
               "name": "NOCTOWL",
               "level": "44",
               "item": "WISEGLASSES",
-              "ability": "Desconocido",
+              "ability": "TINTEDLENS",
               "moves": [
                 "AIRSLASH",
                 "PSYCHIC",
@@ -3035,7 +3035,7 @@
               "name": "BISHARP",
               "level": "44",
               "item": "EVIOLITE",
-              "ability": "Desconocido",
+              "ability": "DEFIANT",
               "moves": [
                 "IRONHEAD",
                 "SUCKERPUNCH",
@@ -3073,7 +3073,7 @@
               "name": "ARMALDO",
               "level": "46",
               "item": "WHITEHERB",
-              "ability": "Desconocido",
+              "ability": "BATTLEARMOR",
               "moves": [
                 "XSCISSOR",
                 "ROCKSLIDE",
@@ -3235,7 +3235,7 @@
       "img": "/images/trainers/KYS.png",
       "difficulties": {
         "easy": {
-          "items": "2 Poción Máxima",
+          "items": "2 Pocion Máxima",
           "pokemon": [
             {
               "name": "TENTACRUEL",
@@ -3288,7 +3288,7 @@
           ]
         },
         "normal": {
-          "items": "2 Poción Máxima",
+          "items": "2 Pocion Máxima",
           "pokemon": [
             {
               "name": "DRAGALGE",
@@ -3445,7 +3445,7 @@
               "name": "PERSIAN1",
               "level": "48",
               "item": "ROCKYHELMET",
-              "ability": "Desconocido",
+              "ability": "FURCOAT",
               "moves": [
                 "DARKPULSE",
                 "POWERGEM",
@@ -3474,7 +3474,7 @@
               "name": "CRABOMINABLE",
               "level": "48",
               "item": "BLACKBELT",
-              "ability": "Desconocido",
+              "ability": "HYPERCUTTER",
               "moves": [
                 "CLOSECOMBAT",
                 "ICEHAMMER",
@@ -3486,7 +3486,7 @@
               "name": "PERSIAN1",
               "level": "48",
               "item": "ROCKYHELMET",
-              "ability": "Desconocido",
+              "ability": "FURCOAT",
               "moves": [
                 "DARKPULSE",
                 "POWERGEM",
@@ -3515,7 +3515,7 @@
               "name": "CRABOMINABLE",
               "level": "48",
               "item": "BLACKBELT",
-              "ability": "Desconocido",
+              "ability": "HYPERCUTTER",
               "moves": [
                 "CLOSECOMBAT",
                 "ICEHAMMER",
@@ -3527,7 +3527,7 @@
               "name": "PERSIAN1",
               "level": "48",
               "item": "ROCKYHELMET",
-              "ability": "Desconocido",
+              "ability": "FURCOAT",
               "moves": [
                 "DARKPULSE",
                 "POWERGEM",
@@ -3577,7 +3577,7 @@
               "name": "LUCARIO",
               "level": "50",
               "item": "LIFEORB",
-              "ability": "Desconocido",
+              "ability": "STEADFAST",
               "moves": [
                 "AURASPHERE",
                 "FLASHCANNON",
@@ -3642,7 +3642,7 @@
               "name": "LUCARIO",
               "level": "50",
               "item": "LIFEORB",
-              "ability": "Desconocido",
+              "ability": "STEADFAST",
               "moves": [
                 "AURASPHERE",
                 "FLASHCANNON",
@@ -3707,7 +3707,7 @@
               "name": "LUCARIO",
               "level": "50",
               "item": "LIFEORB",
-              "ability": "Desconocido",
+              "ability": "STEADFAST",
               "moves": [
                 "AURASPHERE",
                 "FLASHCANNON",
@@ -3769,7 +3769,7 @@
               "name": "WEEZING",
               "level": "48",
               "item": "POISONBARB",
-              "ability": "Desconocido",
+              "ability": "LEVITATE",
               "moves": [
                 "EXPLOSION",
                 "SLUDGEBOMB",
@@ -3781,7 +3781,7 @@
               "name": "HOUNDOOM",
               "level": "48",
               "item": "BLACKGLASSES",
-              "ability": "Desconocido",
+              "ability": "EARLYBIRD",
               "moves": [
                 "FLAMETHROWER",
                 "DARKPULSE",
@@ -3822,7 +3822,7 @@
               "name": "HOUNDOOM",
               "level": "48",
               "item": "BLACKGLASSES",
-              "ability": "Desconocido",
+              "ability": "EARLYBIRD",
               "moves": [
                 "FLAMETHROWER",
                 "DARKPULSE",
@@ -3851,7 +3851,7 @@
               "name": "WEEZING",
               "level": "48",
               "item": "PAYAPABERRY",
-              "ability": "Desconocido",
+              "ability": "LEVITATE",
               "moves": [
                 "SLUDGEBOMB",
                 "WILLOWISP",
@@ -3875,7 +3875,7 @@
               "name": "HOUNDOOM",
               "level": "48",
               "item": "LIFEORB",
-              "ability": "Desconocido",
+              "ability": "EARLYBIRD",
               "moves": [
                 "FLAMETHROWER",
                 "DARKPULSE",
@@ -4057,24 +4057,12 @@
               "name": "PIDGEOT",
               "level": "50",
               "item": "SHARPBEAK",
-              "ability": "Desconocido",
+              "ability": "KEENEYE",
               "moves": [
                 "AIRSLASH",
                 "FEATHERDANCE",
                 "HEATWAVE",
                 "UTURN"
-              ]
-            },
-            {
-              "name": "ALAKAZAM",
-              "level": "50",
-              "item": "",
-              "ability": "Desconocido",
-              "moves": [
-                "PSYCHIC",
-                "SHADOWBALL",
-                "HYPNOSIS",
-                "FOCUSBLAST"
               ]
             },
             {
@@ -4087,6 +4075,18 @@
                 "CRUNCH",
                 "ICEFANG",
                 "AQUATAIL"
+              ]
+            },
+            {
+              "name": "ALAKAZAM",
+              "level": "50",
+              "item": "",
+              "ability": "SYNCHRONIZE",
+              "moves": [
+                "PSYCHIC",
+                "SHADOWBALL",
+                "HYPNOSIS",
+                "FOCUSBLAST"
               ]
             },
             {
@@ -4110,24 +4110,12 @@
               "name": "PIDGEOT",
               "level": "50",
               "item": "SHARPBEAK",
-              "ability": "Desconocido",
+              "ability": "KEENEYE",
               "moves": [
                 "AIRSLASH",
                 "FEATHERDANCE",
                 "HEATWAVE",
                 "UTURN"
-              ]
-            },
-            {
-              "name": "ALAKAZAM",
-              "level": "50",
-              "item": "",
-              "ability": "Desconocido",
-              "moves": [
-                "PSYCHIC",
-                "SHADOWBALL",
-                "HYPNOSIS",
-                "FOCUSBLAST"
               ]
             },
             {
@@ -4140,6 +4128,18 @@
                 "CRUNCH",
                 "ICEFANG",
                 "AQUATAIL"
+              ]
+            },
+            {
+              "name": "ALAKAZAM",
+              "level": "50",
+              "item": "",
+              "ability": "SYNCHRONIZE",
+              "moves": [
+                "PSYCHIC",
+                "SHADOWBALL",
+                "HYPNOSIS",
+                "FOCUSBLAST"
               ]
             },
             {
@@ -4163,7 +4163,7 @@
               "name": "PIDGEOT",
               "level": "50",
               "item": "SHARPBEAK",
-              "ability": "Desconocido",
+              "ability": "KEENEYE",
               "moves": [
                 "AIRSLASH",
                 "FEATHERDANCE",
@@ -4184,18 +4184,6 @@
               ]
             },
             {
-              "name": "ALAKAZAM",
-              "level": "50",
-              "item": "FOCUSSASH",
-              "ability": "Desconocido",
-              "moves": [
-                "PSYCHIC",
-                "SHADOWBALL",
-                "HYPNOSIS",
-                "FOCUSBLAST"
-              ]
-            },
-            {
               "name": "GYARADOS",
               "level": "50",
               "item": "LIFEORB",
@@ -4205,6 +4193,18 @@
                 "CRUNCH",
                 "ICEFANG",
                 "AQUATAIL"
+              ]
+            },
+            {
+              "name": "ALAKAZAM",
+              "level": "50",
+              "item": "FOCUSSASH",
+              "ability": "SYNCHRONIZE",
+              "moves": [
+                "PSYCHIC",
+                "SHADOWBALL",
+                "HYPNOSIS",
+                "FOCUSBLAST"
               ]
             },
             {
@@ -4237,7 +4237,7 @@
               "name": "PERSIAN",
               "level": "51",
               "item": "KINGSROCK",
-              "ability": "TECHNICIAN",
+              "ability": "TOUGHCLAWS",
               "moves": [
                 "FAKEOUT",
                 "TAILSLAP",
@@ -4249,7 +4249,7 @@
               "name": "NIDOKING",
               "level": "51",
               "item": "EXPERTBELT",
-              "ability": "SHEERFORCE",
+              "ability": "RIVALRY",
               "moves": [
                 "POISONJAB",
                 "BULLDOZE",
@@ -4261,7 +4261,7 @@
               "name": "NIDOQUEEN",
               "level": "51",
               "item": "EXPERTBELT",
-              "ability": "SHEERFORCE",
+              "ability": "RIVALRY",
               "moves": [
                 "SLUDGEWAVE",
                 "EARTHPOWER",
@@ -4302,7 +4302,7 @@
               "name": "PERSIAN",
               "level": "51",
               "item": "KINGSROCK",
-              "ability": "TECHNICIAN",
+              "ability": "TOUGHCLAWS",
               "moves": [
                 "FAKEOUT",
                 "TAILSLAP",
@@ -4314,7 +4314,7 @@
               "name": "NIDOKING",
               "level": "51",
               "item": "EXPERTBELT",
-              "ability": "SHEERFORCE",
+              "ability": "RIVALRY",
               "moves": [
                 "POISONJAB",
                 "BULLDOZE",
@@ -4326,7 +4326,7 @@
               "name": "NIDOQUEEN",
               "level": "51",
               "item": "EXPERTBELT",
-              "ability": "SHEERFORCE",
+              "ability": "RIVALRY",
               "moves": [
                 "SLUDGEWAVE",
                 "EARTHPOWER",
@@ -4367,7 +4367,7 @@
               "name": "PERSIAN",
               "level": "51",
               "item": "KINGSROCK",
-              "ability": "TECHNICIAN",
+              "ability": "TOUGHCLAWS",
               "moves": [
                 "FAKEOUT",
                 "TAILSLAP",
@@ -4447,13 +4447,13 @@
       "img": "/images/trainers/SABRINA.png",
       "difficulties": {
         "easy": {
-          "items": "2 Poción Máxima",
+          "items": "2 Pocion Máxima",
           "pokemon": [
             {
               "name": "FARIGIRAF",
               "level": "53",
               "item": "LIGHTCLAY",
-              "ability": "Desconocido",
+              "ability": "PSYCHICSURGE",
               "moves": [
                 "REFLECT",
                 "LIGHTSCREEN",
@@ -4477,7 +4477,7 @@
               "name": "SLOWKING1",
               "level": "53",
               "item": "BLACKSLUDGE",
-              "ability": "ESPANTO",
+              "ability": "REGENERATOR",
               "moves": [
                 "CALMMIND",
                 "PSYCHIC",
@@ -4512,13 +4512,13 @@
           ]
         },
         "normal": {
-          "items": "2 Poción Máxima",
+          "items": "2 Pocion Máxima",
           "pokemon": [
             {
               "name": "FARIGIRAF",
               "level": "53",
               "item": "LIGHTCLAY",
-              "ability": "Desconocido",
+              "ability": "PSYCHICSURGE",
               "moves": [
                 "REFLECT",
                 "LIGHTSCREEN",
@@ -4542,7 +4542,7 @@
               "name": "SLOWKING1",
               "level": "53",
               "item": "BLACKSLUDGE",
-              "ability": "ESPANTO",
+              "ability": "REGENERATOR",
               "moves": [
                 "CALMMIND",
                 "PSYCHIC",
@@ -4583,7 +4583,7 @@
               "name": "FARIGIRAF",
               "level": "53",
               "item": "LIGHTCLAY",
-              "ability": "Desconocido",
+              "ability": "PSYCHICSURGE",
               "moves": [
                 "REFLECT",
                 "LIGHTSCREEN",
@@ -4715,7 +4715,7 @@
             },
             {
               "name": "SHARPEDO1",
-              "level": "56",
+              "level": "54",
               "item": "SHARPEDONITE",
               "ability": "STRONGJAW",
               "moves": [
@@ -4728,7 +4728,7 @@
           ]
         },
         "normal": {
-          "items": "2 Poción Máxima",
+          "items": "2 Pocion Máxima",
           "pokemon": [
             {
               "name": "LUDICOLO",
@@ -4780,7 +4780,7 @@
             },
             {
               "name": "SHARPEDO1",
-              "level": "56",
+              "level": "54",
               "item": "SHARPEDONITE",
               "ability": "STRONGJAW",
               "moves": [
@@ -4845,7 +4845,7 @@
             },
             {
               "name": "SHARPEDO1",
-              "level": "56",
+              "level": "54",
               "item": "SHARPEDONITE",
               "ability": "STRONGJAW",
               "moves": [
@@ -4863,7 +4863,7 @@
       "id": 32,
       "trainer": "Surya",
       "category": "route",
-      "location": "Isla Canela - Mansión Pokémon",
+      "location": "Isla Canela - Mansión Quemada",
       "img": "/images/trainers/SURYA.png",
       "difficulties": {
         "easy": {
@@ -4885,7 +4885,7 @@
               "name": "RAPIDASH1",
               "level": "56",
               "item": "ASSAULTVEST",
-              "ability": "IMMUNITY",
+              "ability": "ANTICIPATION",
               "moves": [
                 "PLAYROUGH",
                 "PSYCHOCUT",
@@ -4938,7 +4938,7 @@
               "name": "RAPIDASH1",
               "level": "56",
               "item": "ASSAULTVEST",
-              "ability": "IMMUNITY",
+              "ability": "ANTICIPATION",
               "moves": [
                 "PLAYROUGH",
                 "PSYCHOCUT",
@@ -4991,7 +4991,7 @@
               "name": "TINKATON",
               "level": "56",
               "item": "ASSAULTVEST",
-              "ability": "Desconocido",
+              "ability": "MOLDBREAKER",
               "moves": [
                 "GIGATONHAMMER",
                 "PLAYROUGH",
@@ -5002,8 +5002,8 @@
             {
               "name": "RAPIDASH1",
               "level": "56",
-              "item": "ASSAULTVEST",
-              "ability": "IMMUNITY",
+              "item": "CHOICEBAND",
+              "ability": "ANTICIPATION",
               "moves": [
                 "PLAYROUGH",
                 "PSYCHOCUT",
@@ -5041,13 +5041,13 @@
     },
     {
       "id": 33,
-      "trainer": "Braine",
+      "trainer": "Blaine",
       "category": "route",
       "location": "Isla Canela",
-      "img": "/images/trainers/BRAINE.png",
+      "img": "/images/trainers/BLAINE.png",
       "difficulties": {
         "easy": {
-          "items": "2 Poción Máxima",
+          "items": "2 Pocion Máxima",
           "pokemon": [
             {
               "name": "NINETALES",
@@ -5112,7 +5112,7 @@
           ]
         },
         "normal": {
-          "items": "2 Poción Máxima",
+          "items": "2 Pocion Máxima",
           "pokemon": [
             {
               "name": "TORKOAL",
@@ -5263,7 +5263,7 @@
       "img": "/images/trainers/SURYA2.png",
       "difficulties": {
         "easy": {
-          "items": "2 Poción Máxima",
+          "items": "2 Pocion Máxima",
           "pokemon": [
             {
               "name": "WIGGLYTUFF",
@@ -5278,10 +5278,10 @@
               ]
             },
             {
-              "name": "RAPIDASH1",
+              "name": "RAPIDASH",
               "level": "61",
               "item": "ASSAULTVEST",
-              "ability": "IMMUNITY",
+              "ability": "ACOMETIDA",
               "moves": [
                 "PLAYROUGH",
                 "PSYCHOCUT",
@@ -5290,10 +5290,10 @@
               ]
             },
             {
-              "name": "RATICATE1",
+              "name": "RATICATE",
               "level": "61",
               "item": "WIDELENS",
-              "ability": "HUSTLE",
+              "ability": "GUTS",
               "moves": [
                 "CRUNCH",
                 "DOUBLEEDGE",
@@ -5305,7 +5305,7 @@
               "name": "WEAVILE",
               "level": "62",
               "item": "FOCUSSASH",
-              "ability": "TECHNICIAN",
+              "ability": "PICKPOCKET",
               "moves": [
                 "ICEPUNCH",
                 "NIGHTSLASH",
@@ -5316,8 +5316,8 @@
             {
               "name": "MAWILE1",
               "level": "62",
-              "item": "HOUNDOOMINITE",
-              "ability": "INTIMIDATE",
+              "item": "MAWILITE",
+              "ability": "HUGEPOWER",
               "moves": [
                 "PLAYROUGH",
                 "IRONHEAD",
@@ -5328,7 +5328,7 @@
           ]
         },
         "normal": {
-          "items": "2 Poción Máxima",
+          "items": "2 Pocion Máxima",
           "pokemon": [
             {
               "name": "WIGGLYTUFF",
@@ -5337,7 +5337,7 @@
               "ability": "MISTYSURGE",
               "moves": [
                 "MISTYEXPLOSION",
-                "NASTYPLOT",
+                "PROTECT",
                 "THUNDERBOLT",
                 "PSYCHIC"
               ]
@@ -5346,7 +5346,7 @@
               "name": "TINKATON",
               "level": "61",
               "item": "ASSAULTVEST",
-              "ability": "Desconocido",
+              "ability": "MOLDBREAKER",
               "moves": [
                 "GIGATONHAMMER",
                 "PLAYROUGH",
@@ -5370,7 +5370,7 @@
               "name": "WEAVILE",
               "level": "62",
               "item": "FOCUSSASH",
-              "ability": "TECHNICIAN",
+              "ability": "PICKPOCKET",
               "moves": [
                 "ICEPUNCH",
                 "NIGHTSLASH",
@@ -5381,8 +5381,8 @@
             {
               "name": "MAWILE1",
               "level": "62",
-              "item": "HOUNDOOMINITE",
-              "ability": "INTIMIDATE",
+              "item": "MAWILITE",
+              "ability": "HUGEPOWER",
               "moves": [
                 "PLAYROUGH",
                 "IRONHEAD",
@@ -5423,7 +5423,7 @@
               "name": "TINKATON",
               "level": "61",
               "item": "ASSAULTVEST",
-              "ability": "Desconocido",
+              "ability": "MOLDBREAKER",
               "moves": [
                 "GIGATONHAMMER",
                 "PLAYROUGH",
@@ -5447,7 +5447,7 @@
               "name": "WEAVILE",
               "level": "62",
               "item": "FOCUSSASH",
-              "ability": "TECHNICIAN",
+              "ability": "PICKPOCKET",
               "moves": [
                 "ICEPUNCH",
                 "NIGHTSLASH",
@@ -5458,8 +5458,8 @@
             {
               "name": "MAWILE1",
               "level": "62",
-              "item": "HOUNDOOMINITE",
-              "ability": "INTIMIDATE",
+              "item": "MAWILITE",
+              "ability": "HUGEPOWER",
               "moves": [
                 "PLAYROUGH",
                 "IRONHEAD",
@@ -5476,7 +5476,7 @@
       "trainer": "Giovanni",
       "category": "route",
       "location": "Bosque Celeste",
-      "img": "/images/trainers/GIOVANNI2.png",
+      "img": "/images/trainers/GIOVANNI.png",
       "difficulties": {
         "easy": {
           "items": "2 Restaura Todo",
@@ -5485,7 +5485,7 @@
               "name": "PERSIAN",
               "level": "61",
               "item": "KINGSROCK",
-              "ability": "TECHNICIAN",
+              "ability": "TOUGHCLAWS",
               "moves": [
                 "FAKEOUT",
                 "TAILSLAP",
@@ -5543,7 +5543,7 @@
             },
             {
               "name": "KANGASKHAN1",
-              "level": "63",
+              "level": "62",
               "item": "KANGASKHANITE",
               "ability": "PARENTALBOND",
               "moves": [
@@ -5562,7 +5562,7 @@
               "name": "PERSIAN",
               "level": "61",
               "item": "KINGSROCK",
-              "ability": "TECHNICIAN",
+              "ability": "TOUGHCLAWS",
               "moves": [
                 "FAKEOUT",
                 "TAILSLAP",
@@ -5620,7 +5620,7 @@
             },
             {
               "name": "KANGASKHAN1",
-              "level": "63",
+              "level": "62",
               "item": "KANGASKHANITE",
               "ability": "PARENTALBOND",
               "moves": [
@@ -5697,7 +5697,7 @@
             },
             {
               "name": "KANGASKHAN1",
-              "level": "63",
+              "level": "62",
               "item": "KANGASKHANITE",
               "ability": "PARENTALBOND",
               "moves": [
@@ -5867,7 +5867,7 @@
               "name": "GOLISOPOD",
               "level": "64",
               "item": "ASSAULTVEST",
-              "ability": "DAMP",
+              "ability": "EMERGENCYEXIT",
               "moves": [
                 "FIRSTIMPRESSION",
                 "AQUACUTTER",
@@ -6145,7 +6145,7 @@
               "name": "ANNIHILAPE",
               "level": "68",
               "item": "LIFEORB",
-              "ability": "Desconocido",
+              "ability": "ACOMETIDA",
               "moves": [
                 "CLOSECOMBAT",
                 "POISONJAB",
@@ -6157,7 +6157,7 @@
               "name": "NOCTOWL",
               "level": "68",
               "item": "WISEGLASSES",
-              "ability": "Desconocido",
+              "ability": "TINTEDLENS",
               "moves": [
                 "AIRSLASH",
                 "PSYSHOCK",
@@ -6169,7 +6169,7 @@
               "name": "SNORLAX",
               "level": "68",
               "item": "LEFTOVERS",
-              "ability": "Desconocido",
+              "ability": "IMMUNITY",
               "moves": [
                 "BODYSLAM",
                 "EARTHQUAKE",
@@ -6193,7 +6193,7 @@
               "name": "SCIZOR",
               "level": "69",
               "item": "FOCUSSASH",
-              "ability": "Desconocido",
+              "ability": "SWARM",
               "moves": [
                 "BULLETPUNCH",
                 "IRONHEAD",
@@ -6222,7 +6222,7 @@
               "name": "ANNIHILAPE",
               "level": "68",
               "item": "LIFEORB",
-              "ability": "Desconocido",
+              "ability": "ACOMETIDA",
               "moves": [
                 "CLOSECOMBAT",
                 "POISONJAB",
@@ -6234,7 +6234,7 @@
               "name": "NOCTOWL",
               "level": "68",
               "item": "WISEGLASSES",
-              "ability": "Desconocido",
+              "ability": "TINTEDLENS",
               "moves": [
                 "AIRSLASH",
                 "PSYSHOCK",
@@ -6246,7 +6246,7 @@
               "name": "SNORLAX",
               "level": "68",
               "item": "LEFTOVERS",
-              "ability": "Desconocido",
+              "ability": "IMMUNITY",
               "moves": [
                 "BODYSLAM",
                 "EARTHQUAKE",
@@ -6270,7 +6270,7 @@
               "name": "SCIZOR",
               "level": "69",
               "item": "FOCUSSASH",
-              "ability": "Desconocido",
+              "ability": "SWARM",
               "moves": [
                 "BULLETPUNCH",
                 "IRONHEAD",
@@ -6299,7 +6299,7 @@
               "name": "ANNIHILAPE",
               "level": "68",
               "item": "LIFEORB",
-              "ability": "Desconocido",
+              "ability": "ACOMETIDA",
               "moves": [
                 "CLOSECOMBAT",
                 "POISONJAB",
@@ -6311,7 +6311,7 @@
               "name": "NOCTOWL",
               "level": "68",
               "item": "WISEGLASSES",
-              "ability": "Desconocido",
+              "ability": "TINTEDLENS",
               "moves": [
                 "AIRSLASH",
                 "PSYSHOCK",
@@ -6323,7 +6323,7 @@
               "name": "SNORLAX",
               "level": "68",
               "item": "LEFTOVERS",
-              "ability": "Desconocido",
+              "ability": "IMMUNITY",
               "moves": [
                 "BODYSLAM",
                 "EARTHQUAKE",
@@ -6337,7 +6337,7 @@
               "item": "MAGNET",
               "ability": "VOLTABSORB",
               "moves": [
-                "THUNDER",
+                "DISCHARGE",
                 "SIGNALBEAM",
                 "VOLTSWITCH",
                 "SHADOWBALL"
@@ -6347,7 +6347,7 @@
               "name": "KINGAMBIT",
               "level": "69",
               "item": "FOCUSSASH",
-              "ability": "Desconocido",
+              "ability": "DEFIANT",
               "moves": [
                 "NIGHTSLASH",
                 "IRONHEAD",
