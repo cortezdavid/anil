@@ -6379,13 +6379,13 @@
       "img": "/images/trainers/LORELEI.png",
       "difficulties": {
         "easy": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "NINETALES1",
               "level": "68",
               "item": "FOCUSSASH",
-              "ability": "SNOWWARNING",
+              "ability": "SNOWCLOAK",
               "moves": [
                 "BLIZZARD",
                 "MOONBLAST",
@@ -6444,7 +6444,7 @@
           ]
         },
         "normal": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "AURORUS",
@@ -6595,7 +6595,7 @@
       "img": "/images/trainers/BRUNO.png",
       "difficulties": {
         "easy": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "STEELIX",
@@ -6660,7 +6660,7 @@
           ]
         },
         "normal": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "STEELIX",
@@ -6702,7 +6702,7 @@
               "name": "LUCARIO",
               "level": "70",
               "item": "FOCUSSASH",
-              "ability": "Desconocido",
+              "ability": "STEADFAST",
               "moves": [
                 "FLASHCANNON",
                 "AURASPHERE",
@@ -6731,7 +6731,7 @@
               "name": "HAWLUCHA",
               "level": "69",
               "item": "POWERHERB",
-              "ability": "Desconocido",
+              "ability": "UNBURDEN",
               "moves": [
                 "SKYATTACK",
                 "HIGHJUMPKICK",
@@ -6779,7 +6779,7 @@
               "name": "LUCARIO",
               "level": "70",
               "item": "FOCUSSASH",
-              "ability": "Desconocido",
+              "ability": "STEADFAST",
               "moves": [
                 "FLASHCANNON",
                 "AURASPHERE",
@@ -6811,7 +6811,7 @@
       "img": "/images/trainers/AGATHA.png",
       "difficulties": {
         "easy": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "CROBAT",
@@ -6853,7 +6853,7 @@
               "name": "TYPHLOSION1",
               "level": "71",
               "item": "POWERHERB",
-              "ability": "BLAZE",
+              "ability": "BERSERK",
               "moves": [
                 "SHADOWBALL",
                 "WILLOWISP",
@@ -6876,7 +6876,7 @@
           ]
         },
         "normal": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "CROBAT",
@@ -6947,7 +6947,7 @@
               "name": "DRAGAPULT",
               "level": "70",
               "item": "WHITEHERB",
-              "ability": "Desconocido",
+              "ability": "CLEARBODY",
               "moves": [
                 "DRACOMETEOR",
                 "SHADOWBALL",
@@ -7027,7 +7027,7 @@
       "img": "/images/trainers/LANCE.png",
       "difficulties": {
         "easy": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "GYARADOS",
@@ -7057,7 +7057,7 @@
               "name": "AERODACTYL",
               "level": "72",
               "item": "POWERHERB",
-              "ability": "Desconocido",
+              "ability": "ROCKHEAD",
               "moves": [
                 "SKYATTACK",
                 "STONEEDGE",
@@ -7092,7 +7092,7 @@
           ]
         },
         "normal": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "HAXORUS",
@@ -7243,13 +7243,13 @@
       "img": "/images/trainers/AZUL.png",
       "difficulties": {
         "easy": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "PIDGEOT",
               "level": "73",
               "item": "SHARPBEAK",
-              "ability": "Desconocido",
+              "ability": "KEENEYE",
               "moves": [
                 "AIRSLASH",
                 "FEATHERDANCE",
@@ -7267,6 +7267,18 @@
                 "MEGAHORN",
                 "STONEEDGE",
                 "SHADOWCLAW"
+              ]
+            },
+            {
+              "name": "ARCANINE",
+              "level": "73",
+              "item": "CHARCOAL",
+              "ability": "INTIMIDATE",
+              "moves": [
+                "CRUNCH",
+                "FLAREBLITZ",
+                "EXTREMESPEED",
+                "WILLOWISP"
               ]
             },
             {
@@ -7294,21 +7306,9 @@
               ]
             },
             {
-              "name": "ARCANINE",
-              "level": "73",
-              "item": "CHARCOAL",
-              "ability": "INTIMIDATE",
-              "moves": [
-                "CRUNCH",
-                "FLAREBLITZ",
-                "EXTREMESPEED",
-                "WILLOWISP"
-              ]
-            },
-            {
               "name": "VENUSAUR1",
               "level": "75",
-              "item": "VENUSAURITEX",
+              "item": "BLASTOISINITEX",
               "ability": "THICKFAT",
               "moves": [
                 "GIGADRAIN",
@@ -7320,13 +7320,13 @@
           ]
         },
         "normal": {
-          "items": "",
+          "items": "Ninguno",
           "pokemon": [
             {
               "name": "PIDGEOT",
               "level": "73",
               "item": "SHARPBEAK",
-              "ability": "Desconocido",
+              "ability": "KEENEYE",
               "moves": [
                 "AIRSLASH",
                 "FEATHERDANCE",
@@ -7344,6 +7344,18 @@
                 "MEGAHORN",
                 "STONEEDGE",
                 "SHADOWCLAW"
+              ]
+            },
+            {
+              "name": "ARCANINE",
+              "level": "73",
+              "item": "CHARCOAL",
+              "ability": "INTIMIDATE",
+              "moves": [
+                "CRUNCH",
+                "FLAREBLITZ",
+                "EXTREMESPEED",
+                "WILLOWISP"
               ]
             },
             {
@@ -7371,21 +7383,9 @@
               ]
             },
             {
-              "name": "ARCANINE",
-              "level": "73",
-              "item": "CHARCOAL",
-              "ability": "INTIMIDATE",
-              "moves": [
-                "CRUNCH",
-                "FLAREBLITZ",
-                "EXTREMESPEED",
-                "WILLOWISP"
-              ]
-            },
-            {
               "name": "VENUSAUR1",
               "level": "75",
-              "item": "VENUSAURITEX",
+              "item": "BLASTOISINITEX",
               "ability": "THICKFAT",
               "moves": [
                 "GIGADRAIN",
@@ -7403,7 +7403,7 @@
               "name": "PIDGEOT",
               "level": "73",
               "item": "SHARPBEAK",
-              "ability": "Desconocido",
+              "ability": "KEENEYE",
               "moves": [
                 "AIRSLASH",
                 "FEATHERDANCE",
@@ -7421,6 +7421,18 @@
                 "MEGAHORN",
                 "STONEEDGE",
                 "SHADOWCLAW"
+              ]
+            },
+            {
+              "name": "ARCANINE",
+              "level": "73",
+              "item": "CHARCOAL",
+              "ability": "INTIMIDATE",
+              "moves": [
+                "CRUNCH",
+                "FLAREBLITZ",
+                "EXTREMESPEED",
+                "WILLOWISP"
               ]
             },
             {
@@ -7448,21 +7460,9 @@
               ]
             },
             {
-              "name": "ARCANINE",
-              "level": "73",
-              "item": "CHARCOAL",
-              "ability": "INTIMIDATE",
-              "moves": [
-                "CRUNCH",
-                "FLAREBLITZ",
-                "EXTREMESPEED",
-                "WILLOWISP"
-              ]
-            },
-            {
               "name": "VENUSAUR1",
               "level": "75",
-              "item": "VENUSAURITEX",
+              "item": "BLASTOISINITEX",
               "ability": "THICKFAT",
               "moves": [
                 "GIGADRAIN",
@@ -7547,7 +7547,7 @@
             },
             {
               "name": "PIDGEOT1",
-              "level": "78",
+              "level": "75",
               "item": "PIDGEOTITE",
               "ability": "NOGUARD",
               "moves": [
@@ -7624,7 +7624,7 @@
             },
             {
               "name": "PIDGEOT1",
-              "level": "78",
+              "level": "75",
               "item": "PIDGEOTITE",
               "ability": "NOGUARD",
               "moves": [
@@ -7701,7 +7701,7 @@
             },
             {
               "name": "PIDGEOT1",
-              "level": "78",
+              "level": "75",
               "item": "PIDGEOTITE",
               "ability": "NOGUARD",
               "moves": [
@@ -7717,7 +7717,7 @@
     },
     {
       "id": 45,
-      "trainer": "",
+      "trainer": "???",
       "category": "postGame",
       "location": "Monte Plateado",
       "img": "/images/trainers/000.png",
@@ -7753,7 +7753,7 @@
               "name": "DRACOVISH",
               "level": "77",
               "item": "MYSTICWATER",
-              "ability": "Desconocido",
+              "ability": "WATERABSORB",
               "moves": [
                 "LIQUIDATION",
                 "OUTRAGE",
@@ -7777,7 +7777,7 @@
               "name": "LUCARIO",
               "level": "77",
               "item": "FOCUSSASH",
-              "ability": "Desconocido",
+              "ability": "STEADFAST",
               "moves": [
                 "FLASHCANNON",
                 "AURASPHERE",
@@ -7830,7 +7830,7 @@
               "name": "DRACOVISH",
               "level": "77",
               "item": "MYSTICWATER",
-              "ability": "Desconocido",
+              "ability": "WATERABSORB",
               "moves": [
                 "LIQUIDATION",
                 "OUTRAGE",
@@ -7854,7 +7854,7 @@
               "name": "LUCARIO",
               "level": "77",
               "item": "FOCUSSASH",
-              "ability": "Desconocido",
+              "ability": "STEADFAST",
               "moves": [
                 "FLASHCANNON",
                 "AURASPHERE",
@@ -7907,7 +7907,7 @@
               "name": "DRACOVISH",
               "level": "77",
               "item": "MYSTICWATER",
-              "ability": "Desconocido",
+              "ability": "WATERABSORB",
               "moves": [
                 "LIQUIDATION",
                 "OUTRAGE",
@@ -7931,7 +7931,7 @@
               "name": "LUCARIO",
               "level": "77",
               "item": "FOCUSSASH",
-              "ability": "Desconocido",
+              "ability": "STEADFAST",
               "moves": [
                 "FLASHCANNON",
                 "AURASPHERE",
@@ -7969,7 +7969,7 @@
               "name": "SKARMORY",
               "level": "78",
               "item": "REDCARD",
-              "ability": "Desconocido",
+              "ability": "KEENEYE",
               "moves": [
                 "STEALTHROCK",
                 "IRONHEAD",
@@ -7981,7 +7981,7 @@
               "name": "AGGRON",
               "level": "78",
               "item": "AIRBALLOON",
-              "ability": "Desconocido",
+              "ability": "STURDY",
               "moves": [
                 "IRONHEAD",
                 "STONEEDGE",
@@ -8034,7 +8034,7 @@
               "name": "SKARMORY",
               "level": "78",
               "item": "REDCARD",
-              "ability": "Desconocido",
+              "ability": "KEENEYE",
               "moves": [
                 "STEALTHROCK",
                 "IRONHEAD",
@@ -8046,7 +8046,7 @@
               "name": "AGGRON",
               "level": "78",
               "item": "AIRBALLOON",
-              "ability": "Desconocido",
+              "ability": "STURDY",
               "moves": [
                 "IRONHEAD",
                 "STONEEDGE",
@@ -8099,7 +8099,7 @@
               "name": "SKARMORY",
               "level": "78",
               "item": "REDCARD",
-              "ability": "Desconocido",
+              "ability": "KEENEYE",
               "moves": [
                 "STEALTHROCK",
                 "IRONHEAD",
@@ -8111,7 +8111,7 @@
               "name": "AGGRON",
               "level": "78",
               "item": "AIRBALLOON",
-              "ability": "Desconocido",
+              "ability": "STURDY",
               "moves": [
                 "IRONHEAD",
                 "STONEEDGE",
@@ -8197,7 +8197,7 @@
               "name": "LUCARIO",
               "level": "79",
               "item": "FOCUSSASH",
-              "ability": "Desconocido",
+              "ability": "STEADFAST",
               "moves": [
                 "AURASPHERE",
                 "FLASHCANNON",
@@ -8209,7 +8209,7 @@
               "name": "MILOTIC",
               "level": "79",
               "item": "LEFTOVERS",
-              "ability": "Desconocido",
+              "ability": "MARVELSCALE",
               "moves": [
                 "SURF",
                 "ICEBEAM",
@@ -8262,7 +8262,7 @@
               "name": "LUCARIO",
               "level": "79",
               "item": "FOCUSSASH",
-              "ability": "Desconocido",
+              "ability": "STEADFAST",
               "moves": [
                 "AURASPHERE",
                 "FLASHCANNON",
@@ -8274,7 +8274,7 @@
               "name": "MILOTIC",
               "level": "79",
               "item": "LEFTOVERS",
-              "ability": "Desconocido",
+              "ability": "MARVELSCALE",
               "moves": [
                 "SURF",
                 "ICEBEAM",
@@ -8327,7 +8327,7 @@
               "name": "LUCARIO",
               "level": "79",
               "item": "FOCUSSASH",
-              "ability": "Desconocido",
+              "ability": "STEADFAST",
               "moves": [
                 "AURASPHERE",
                 "FLASHCANNON",
@@ -8339,7 +8339,7 @@
               "name": "MILOTIC",
               "level": "79",
               "item": "LEFTOVERS",
-              "ability": "Desconocido",
+              "ability": "MARVELSCALE",
               "moves": [
                 "SURF",
                 "ICEBEAM",
@@ -8401,7 +8401,7 @@
               "name": "ACCELGOR",
               "level": "79",
               "item": "LIFEORB",
-              "ability": "Desconocido",
+              "ability": "HYDRATION",
               "moves": [
                 "BUGBUZZ",
                 "FOCUSBLAST",
@@ -8413,7 +8413,7 @@
               "name": "ESCAVALIER",
               "level": "79",
               "item": "CHOICEBAND",
-              "ability": "Desconocido",
+              "ability": "SWARM",
               "moves": [
                 "XSCISSOR",
                 "IRONHEAD",
@@ -8466,7 +8466,7 @@
               "name": "ACCELGOR",
               "level": "79",
               "item": "LIFEORB",
-              "ability": "Desconocido",
+              "ability": "HYDRATION",
               "moves": [
                 "BUGBUZZ",
                 "FOCUSBLAST",
@@ -8478,7 +8478,7 @@
               "name": "ESCAVALIER",
               "level": "79",
               "item": "CHOICEBAND",
-              "ability": "Desconocido",
+              "ability": "SWARM",
               "moves": [
                 "XSCISSOR",
                 "IRONHEAD",
@@ -8531,7 +8531,7 @@
               "name": "ACCELGOR",
               "level": "79",
               "item": "LIFEORB",
-              "ability": "Desconocido",
+              "ability": "HYDRATION",
               "moves": [
                 "BUGBUZZ",
                 "FOCUSBLAST",
@@ -8543,7 +8543,7 @@
               "name": "ESCAVALIER",
               "level": "79",
               "item": "CHOICEBAND",
-              "ability": "Desconocido",
+              "ability": "SWARM",
               "moves": [
                 "XSCISSOR",
                 "IRONHEAD",
@@ -8794,15 +8794,15 @@
               ]
             },
             {
-              "name": "URSALUNA",
+              "name": "URSALUNA1",
               "level": "84",
               "item": "ASSAULTVEST",
-              "ability": "Desconocido",
+              "ability": "MINDSEYE",
               "moves": [
-                "EARTHQUAKE",
-                "PLAYROUGH",
-                "DRAINPUNCH",
-                "ROCKSLIDE"
+                "BLOODMOON",
+                "EARTHPOWER",
+                "MOONBLAST",
+                "SNARL"
               ]
             },
             {
@@ -8821,7 +8821,7 @@
               "name": "LAPRAS",
               "level": "84",
               "item": "LEFTOVERS",
-              "ability": "Desconocido",
+              "ability": "WATERABSORB",
               "moves": [
                 "ICEBEAM",
                 "HYDROPUMP",
@@ -8871,15 +8871,15 @@
               ]
             },
             {
-              "name": "URSALUNA",
+              "name": "URSALUNA1",
               "level": "84",
               "item": "ASSAULTVEST",
-              "ability": "Desconocido",
+              "ability": "MINDSEYE",
               "moves": [
-                "EARTHQUAKE",
-                "PLAYROUGH",
-                "DRAINPUNCH",
-                "ROCKSLIDE"
+                "BLOODMOON",
+                "EARTHPOWER",
+                "MOONBLAST",
+                "SNARL"
               ]
             },
             {
@@ -8898,7 +8898,7 @@
               "name": "LAPRAS",
               "level": "84",
               "item": "LEFTOVERS",
-              "ability": "Desconocido",
+              "ability": "WATERABSORB",
               "moves": [
                 "ICEBEAM",
                 "HYDROPUMP",
@@ -8948,15 +8948,15 @@
               ]
             },
             {
-              "name": "URSALUNA",
+              "name": "URSALUNA1",
               "level": "84",
               "item": "ASSAULTVEST",
-              "ability": "Desconocido",
+              "ability": "MINDSEYE",
               "moves": [
-                "EARTHQUAKE",
-                "PLAYROUGH",
-                "DRAINPUNCH",
-                "ROCKSLIDE"
+                "BLOODMOON",
+                "EARTHPOWER",
+                "MOONBLAST",
+                "SNARL"
               ]
             },
             {
@@ -8975,7 +8975,7 @@
               "name": "LAPRAS",
               "level": "84",
               "item": "LEFTOVERS",
-              "ability": "Desconocido",
+              "ability": "WATERABSORB",
               "moves": [
                 "ICEBEAM",
                 "HYDROPUMP",
