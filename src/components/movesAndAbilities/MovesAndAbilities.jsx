@@ -66,10 +66,10 @@ const MovesAndAbilities = () => {
   }, [hasMore, visibleCount]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-gray-900">
+    <div className="min-h-screen bg-blue-950 text-blue-100">
       <div className="max-w-7xl mx-auto px-4 py-8">
 
-        <h1 className="text-4xl font-black text-slate-100 mb-6 uppercase tracking-wider drop-shadow-sm">
+        <h1 className="text-4xl font-bold mb-6">
           Movimientos y Habilidades
         </h1>
 
@@ -80,9 +80,9 @@ const MovesAndAbilities = () => {
               setActiveTab('moves');
               setSearch('');
             }}
-            className={`flex-1 px-6 py-3 rounded-xl font-black transition-all duration-200 ${activeTab === 'moves'
-              ? 'bg-blue-600 text-white shadow-xl'
-              : 'bg-slate-800 text-slate-300 hover:bg-slate-700 border border-slate-700'
+            className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-colors ${activeTab === 'moves'
+              ? 'bg-blue-700 text-blue-100'
+              : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50 border border-blue-800'
               }`}
           >
             Movimientos ({movesData.moves.length})
@@ -92,9 +92,9 @@ const MovesAndAbilities = () => {
               setActiveTab('abilities');
               setSearch('');
             }}
-            className={`flex-1 px-6 py-3 rounded-xl font-black transition-all duration-200 ${activeTab === 'abilities'
-              ? 'bg-blue-600 text-white shadow-xl'
-              : 'bg-slate-800 text-slate-300 hover:bg-slate-700 border border-slate-700'
+            className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-colors ${activeTab === 'abilities'
+              ? 'bg-blue-700 text-blue-100'
+              : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50 border border-blue-800'
               }`}
           >
             Habilidades ({abilitiesData.abilities.length})
@@ -115,17 +115,31 @@ const MovesAndAbilities = () => {
               placeholder={`Buscar ${activeTab === 'moves' ? 'movimiento' : 'habilidad'}...`}
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="w-full px-4 py-3 pr-12 text-slate-100 bg-slate-800 rounded-lg shadow-lg font-medium 
-                border-none outline-none focus:outline-none focus:border-none focus:ring-0 placeholder:text-slate-500"
+              className="w-full px-4 py-3 pr-12 text-blue-100 bg-blue-900 rounded-lg font-medium outline-none
+                placeholder:text-blue-300/60 
+                [&::-webkit-search-cancel-button]:appearance-none"
             />
-            <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
-              <svg className="h-5 w-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
+            <div className="absolute inset-y-0 right-0 pr-3 flex items-center">
+              {search ? (
+                <button
+                  type="button"
+                  onClick={() => setSearch('')}
+                  aria-label="Borrar búsqueda"
+                  className="p-1 rounded-full text-blue-300 hover:text-blue-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100"
+                >
+                  <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              ) : (
+                <svg className="h-5 w-5 text-blue-300 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              )}
             </div>
           </div>
           {search && (
-            <p className="text-center mt-2 text-sm text-blue-400 font-semibold">
+            <p className="text-center mt-2 text-sm text-blue-300 font-medium">
               {currentList.length} resultado{currentList.length !== 1 ? 's' : ''} encontrado{currentList.length !== 1 ? 's' : ''}
             </p>
           )}
@@ -133,12 +147,9 @@ const MovesAndAbilities = () => {
 
         {/* Grid de Cards */}
         {currentList.length === 0 ? (
-          <div className="text-center py-12">
-            <div className="text-4xl mb-3">🔍</div>
-            <p className="text-slate-400 font-semibold">
-              No se encontraron resultados para "{search}"
-            </p>
-          </div>
+          <p className="text-center py-12 text-blue-300 font-medium">
+            No se encontraron resultados para "{search}"
+          </p>
         ) : (
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -147,12 +158,12 @@ const MovesAndAbilities = () => {
                 <div
                   key={move.id}
                   onClick={() => setSelectedMove(move)}
-                  className="bg-slate-800 rounded-xl shadow-lg overflow-hidden border border-slate-700 hover:shadow-blue-900/20 transition-all duration-200 cursor-pointer hover:scale-[1.02]"
+                  className="bg-blue-900 rounded-xl overflow-hidden border border-blue-800 hover:shadow-lg hover:shadow-blue-900/40 transition-all duration-200 cursor-pointer hover:scale-[1.02]"
                 >
-                  <div className="p-4 bg-slate-700/50 border-b border-slate-600">
+                  <div className="p-4 bg-blue-950/50 border-b border-blue-800">
                     <div className="flex items-center justify-between mb-2">
-                      <h3 className="font-black text-lg text-slate-100">{move.name}</h3>
-                      <span className={`px-3 py-1 rounded-full text-xs font-bold text-white ${getTypeColor(move.type)}`}>
+                      <h3 className="font-semibold text-lg">{move.name}</h3>
+                      <span className={`px-3 py-1 rounded-full text-xs font-semibold text-white ${getTypeColor(move.type)}`}>
                         {getTypeName(move.type)}
                       </span>
                     </div>
@@ -165,30 +176,30 @@ const MovesAndAbilities = () => {
                           onError={(e) => { e.target.style.display = 'none'; }}
                         />
                       </div>
-                      <span className="text-sm text-slate-400">{move.category}</span>
+                      <span className="text-sm text-blue-300">{move.category}</span>
                     </div>
                   </div>
 
                   <div className="p-4 space-y-4">
-                    <p className="text-slate-300 text-sm leading-relaxed">
+                    <p className="text-sm leading-relaxed">
                       {move.description}
                     </p>
-                    <div className="grid grid-cols-3 gap-2">
+                    <div className={`grid gap-2 ${move.category !== 'Estado' ? 'grid-cols-3' : 'grid-cols-2'}`}>
                       {move.category !== 'Estado' && (
-                        <div className="bg-slate-900/50 rounded-lg p-2 text-center">
-                          <div className="text-xs text-slate-400 font-semibold">Poder</div>
-                          <div className="text-lg font-black text-slate-100">{move.power || '-'}</div>
+                        <div className="bg-blue-950/50 rounded-lg p-2 text-center">
+                          <div className="text-xs text-blue-300 font-medium">Poder</div>
+                          <div className="text-lg font-semibold">{move.power || '-'}</div>
                         </div>
                       )}
-                      <div className="bg-slate-900/50 rounded-lg p-2 text-center">
-                        <div className="text-xs text-slate-400 font-semibold">Precisión</div>
-                        <div className="text-lg font-black text-slate-100">
+                      <div className="bg-blue-950/50 rounded-lg p-2 text-center">
+                        <div className="text-xs text-blue-300 font-medium">Precisión</div>
+                        <div className="text-lg font-semibold">
                           {typeof move.accuracy === 'number' ? `${move.accuracy}%` : '-'}
                         </div>
                       </div>
-                      <div className="bg-slate-900/50 rounded-lg p-2 text-center">
-                        <div className="text-xs text-slate-400 font-semibold">PP</div>
-                        <div className="text-lg font-black text-slate-100">{move.pp}</div>
+                      <div className="bg-blue-950/50 rounded-lg p-2 text-center">
+                        <div className="text-xs text-blue-300 font-medium">PP</div>
+                        <div className="text-lg font-semibold">{move.pp}</div>
                       </div>
                     </div>
                   </div>
@@ -200,13 +211,13 @@ const MovesAndAbilities = () => {
                 <div
                   key={ability.id}
                   onClick={() => setSelectedAbility(ability)}
-                  className="bg-slate-800 rounded-xl shadow-lg overflow-hidden border border-slate-700 hover:shadow-blue-900/20 transition-all duration-200 cursor-pointer hover:scale-[1.02]"
+                  className="bg-blue-900 rounded-xl overflow-hidden border border-blue-800 hover:shadow-lg hover:shadow-blue-900/40 transition-all duration-200 cursor-pointer hover:scale-[1.02]"
                 >
-                  <div className="p-4 bg-slate-700/50 border-b border-slate-600">
-                    <h3 className="font-black text-lg text-slate-100">{ability.name}</h3>
+                  <div className="p-4 bg-blue-950/50 border-b border-blue-800">
+                    <h3 className="font-semibold text-lg">{ability.name}</h3>
                   </div>
                   <div className="p-4">
-                    <p className="text-slate-300 text-sm leading-relaxed">
+                    <p className="text-sm leading-relaxed">
                       {ability.description}
                     </p>
                   </div>
@@ -217,8 +228,8 @@ const MovesAndAbilities = () => {
             {/* Sentinel para cargar más */}
             {hasMore && (
               <div ref={loadMoreRef} className="mt-8 flex flex-col items-center gap-3">
-                <div className="inline-block animate-spin rounded-full h-6 w-6 border-3 border-blue-500 border-t-transparent"></div>
-                <p className="text-slate-500 text-sm">
+                <div className="inline-block animate-spin rounded-full h-6 w-6 border-3 border-blue-300 border-t-transparent"></div>
+                <p className="text-blue-300 text-sm">
                   Mostrando {visibleCount} de {currentList.length}
                 </p>
               </div>

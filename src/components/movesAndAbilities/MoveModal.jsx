@@ -121,7 +121,7 @@ const MoveModal = ({ move, onClose }) => {
 
   // Componente reutilizable para cada Pokémon
   const PokemonCard = ({ pokemonId, subtitle }) => (
-    <div className="bg-slate-700 rounded-lg p-3 text-center hover:bg-slate-600 transition-colors">
+    <div className="bg-blue-950/50 rounded-lg p-3 text-center hover:bg-blue-800/50 transition-colors">
       <div className="w-16 h-16 mx-auto mb-2 overflow-hidden">
         <img
           src={getIconPath(pokemonId)}
@@ -131,38 +131,39 @@ const MoveModal = ({ move, onClose }) => {
           onError={(e) => { e.target.style.display = 'none'; }}
         />
       </div>
-      <p className="text-slate-100 font-semibold text-sm">
+      <p className="font-semibold text-sm">
         {getPokemonName(pokemonId)}
       </p>
       {subtitle && (
-        <p className="text-slate-400 text-xs mt-0.5">{subtitle}</p>
+        <p className="text-blue-300 text-xs mt-0.5">{subtitle}</p>
       )}
     </div>
   );
 
   return (
     <div
-      className="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-4"
+      className="fixed inset-0 bg-blue-950/80 backdrop-blur-sm z-50 flex items-center justify-center p-4"
       onClick={onClose}
     >
       <div
-        className="bg-slate-800 rounded-2xl shadow-2xl max-w-2xl w-full max-h-[80vh] overflow-hidden border border-slate-700"
+        className="bg-blue-900 rounded-2xl max-w-2xl w-full max-h-[80vh] overflow-hidden border border-blue-800"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="bg-gradient-to-r from-blue-600 to-blue-700 p-6 border-b border-slate-700">
+        <div className="bg-blue-700 p-6 border-b border-blue-800">
           <div className="flex items-center justify-between">
             <div>
-              <h2 className="text-2xl font-black text-white mb-1">
+              <h2 className="text-2xl font-semibold text-blue-100 mb-1">
                 {move.name}
               </h2>
-              <p className="text-blue-100 text-sm">
+              <p className="text-blue-100/80 text-sm">
                 {totalPokemon} Pokémon aprenden este movimiento
               </p>
             </div>
             <button
               onClick={onClose}
-              className="text-white hover:bg-white/20 rounded-lg p-2 transition-colors"
+              aria-label="Cerrar"
+              className="text-blue-100 hover:bg-blue-800 rounded-lg p-2 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -177,7 +178,7 @@ const MoveModal = ({ move, onClose }) => {
           {/* Por Nivel */}
           {byLevel.length > 0 && (
             <div className="mb-6">
-              <h3 className="text-lg font-bold text-slate-100 mb-3">
+              <h3 className="text-lg font-semibold mb-3">
                 Por Nivel ({byLevel.length})
               </h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
@@ -191,7 +192,7 @@ const MoveModal = ({ move, onClose }) => {
           {/* Por MT */}
           {byMT.length > 0 && (
             <div className="mb-6">
-              <h3 className="text-lg font-bold text-slate-100 mb-3">
+              <h3 className="text-lg font-semibold mb-3">
                 Por MT ({byMT.length})
               </h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
@@ -205,7 +206,7 @@ const MoveModal = ({ move, onClose }) => {
           {/* Por Huevo */}
           {byEgg.length > 0 && (
             <div className="mb-6">
-              <h3 className="text-lg font-bold text-slate-100 mb-3">
+              <h3 className="text-lg font-semibold mb-3">
                 Por Huevo ({byEgg.length})
               </h3>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
@@ -218,11 +219,9 @@ const MoveModal = ({ move, onClose }) => {
 
           {/* Sin resultados */}
           {totalPokemon === 0 && (
-            <div className="text-center py-8">
-              <p className="text-slate-400">
-                No se encontraron Pokémon que aprendan este movimiento
-              </p>
-            </div>
+            <p className="text-center py-8 text-blue-300">
+              No se encontraron Pokémon que aprendan este movimiento
+            </p>
           )}
         </div>
       </div>
