@@ -1,144 +1,212 @@
-import { Link } from "react-router-dom";
-import { useSEO } from '../../hooks/useSEO';
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import pokemonesData from "../../data/pokemones.json";
+import { useSEO } from "../../hooks/useSEO";
+
+const SECTIONS = [
+  {
+    title: "Dónde encontrar",
+    items: [
+      { to: "/objetos", name: "Objetos", desc: "Ubicación de los objetos del juego." },
+      { to: "/mt", name: "MTs", desc: "Dónde conseguir cada MT." },
+      { to: "/nidos", name: "Nidos", desc: "Qué Pokémon aparece en cada nido." },
+      { to: "/fotos", name: "Fotos", desc: "Ubicación de los puntos fotográficos." }
+    ],
+  },
+  {
+    title: "Combates",
+    items: [
+      { to: "/combates", name: "Entrenadores", desc: "Equipos de todos los entrenadores." },
+      { to: "/torrebatalla", name: "Torre de Batalla", desc: "Rivales de la Torre Batalla." }],
+  },
+  {
+    title: "Consultar",
+    items: [
+      { to: "/movshabs", name: "Movimientos y habilidades", desc: "Datos de cada movimiento y habilidad." },
+      { to: "/donprodigio", name: "Don Prodigio", desc: "Consulta intercambios." },
+      { to: "/chat", name: "Foro", desc: "Escribe tus preguntas sobre el juego." }
+
+    ],
+  },
+];
+
+const focusRing =
+  "focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100";
+
+// Dentro de la lista con scroll el contorno va hacia adentro para que no se recorte
+const listFocusRing =
+  "focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-blue-100";
+
+const ExternalLink = ({ href, children }) => (
+  <a
+    href={href}
+    target="_blank"
+    rel="noopener noreferrer"
+    className={`underline decoration-blue-800 underline-offset-4 hover:decoration-blue-100 ${focusRing}`}
+  >
+    {children}
+    <span className="sr-only"> (se abre en una pestaña nueva)</span>
+  </a>
+);
 
 const Home = () => {
   useSEO({
-    title: 'Pokémon Añil - Guía',
-    description: 'Guía de Pokémon Añil: Pokédex completa, ubicaciones de objetos y MTs, lista de entrenadores, Torre de Batalla y misiones especiales.',
-    keywords: 'pokémon añil, guía pokémon añil, pokédex añil, fangame pokémon añil, guía completa pokémon añil'
+    title: "Pokémon Añil - Guía",
+    description:
+      "Guía de Pokémon Añil: Pokédex completa, ubicaciones de objetos y MTs, lista de entrenadores, Torre de Batalla y misiones especiales.",
+    keywords:
+      "pokémon añil, guía pokémon añil, pokédex añil, fangame pokémon añil, guía completa pokémon añil",
   });
+
+  const navigate = useNavigate();
+  const [query, setQuery] = useState("");
+
+  const term = query.trim().toLowerCase();
+  const suggestions = term
+    ? pokemonesData.pokemones
+      .filter((p) => p.name.toLowerCase().includes(term))
+      .slice(0, 8)
+    : [];
+
+  // Enter (o el botón) lleva al primer resultado
+  const handleSearch = (e) => {
+    e.preventDefault();
+    if (suggestions[0]) navigate(`/pokemon/${suggestions[0].id}`);
+  };
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-gray-900">
-      <div className="max-w-7xl mx-auto px-4 py-12 sm:py-16">
+    <div className="min-h-screen bg-blue-950 text-blue-100">
+      <main className="mx-auto max-w-6xl px-5 py-12 sm:py-20">
+        {/* Hero */}
+        <section className="grid items-center gap-10 lg:grid-cols-[1.2fr_1fr] lg:gap-16">
+          <div>
+            <h1 className="text-4xl font-bold leading-tight sm:text-6xl">
+              Guía de Pokémon Añil{" "}
+              <span className="whitespace-nowrap text-base font-medium tracking-normal text-blue-300 sm:text-xl">
+                (no oficial)
+              </span>
+            </h1>
+            <p className="mt-5 max-w-md text-lg leading-relaxed">
+              Pokédex, ubicaciones, MTs, entrenadores y más, en un solo lugar.
+            </p>
 
-        {/* <div className="max-w-7xl mx-auto px-4 mb-6">
-          <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg shadow-sm">
-            <div className="flex items-start">
-              <div className="ml-3">
-                <p className="text-sm font-medium text-yellow-800">
-                  ⚠️¡Aviso importante!
-                </p>
-                <p className="text-sm font-medium text-yellow-700 mt-1">
-                  Ahora estamos en guianil.pages.dev (ya estas! no necesitas redireccionar). Será la página principal y la anterior (guianil.vercel.app) dejará de estar disponible dentro de un tiempo.
-                </p>
+            <form onSubmit={handleSearch} className="mt-8 max-w-xl" role="search">
+              <label htmlFor="buscar-pokemon" className="mb-2 block font-medium">
+                Busca un Pokémon
+              </label>
+              <div className="flex flex-col gap-3 sm:flex-row">
+                <div className="relative w-full">
+                  <input
+                    id="buscar-pokemon"
+                    type="text"
+                    value={query}
+                    onChange={(e) => setQuery(e.target.value)}
+                    onKeyDown={(e) => e.key === "Escape" && setQuery("")}
+                    placeholder="Bulbasaur, Pikachu..."
+                    autoComplete="off"
+                    autoCapitalize="off"
+                    spellCheck={false}
+                    className={`w-full outline-none rounded-lg bg-blue-900 px-4 py-3.5 text-lg text-blue-100 placeholder:text-blue-300/60 ${focusRing}`}
+                  />
+
+                  {/* Sugerencias */}
+                  {term && (
+                    <div className="absolute z-10 mt-2 max-h-80 w-full overflow-y-auto rounded-lg border border-blue-800 bg-blue-900 shadow-xl">
+                      {suggestions.length > 0 ? (
+                        <ul>
+                          {suggestions.map((pokemon) => (
+                            <li key={pokemon.id}>
+                              <Link
+                                to={`/pokemon/${pokemon.id}`}
+                                className={`flex items-center justify-between gap-3 px-4 py-1.5 hover:bg-blue-800/50 ${listFocusRing}`}
+                              >
+                                <span className="font-medium capitalize">{pokemon.name}</span>
+                                <span className="h-12 w-12 shrink-0 overflow-hidden">
+                                  <img
+                                    src={`/images/icons/${pokemon.id}.png`}
+                                    alt=""
+                                    loading="lazy"
+                                    className="h-full w-full object-cover object-left"
+                                    onError={(e) => {
+                                      e.target.style.display = "none";
+                                    }}
+                                  />
+                                </span>
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <p className="px-4 py-3">
+                          No hay ningún Pokémon con ese nombre.
+                        </p>
+                      )}
+                    </div>
+                  )}
+                </div>
+
+                <button
+                  type="submit"
+                  className={`shrink-0 rounded-lg bg-white px-6 py-3.5 text-lg font-bold text-blue-950 hover:bg-blue-100 ${focusRing}`}
+                >
+                  Buscar
+                </button>
               </div>
+            </form>
+
+            <p className="mt-6 text-blue-300">
+              <ExternalLink href="https://lostiefangames.blogspot.com/p/pokemon-anil.html">
+                Descarga el juego
+              </ExternalLink>
+            </p>
+          </div>
+
+          <div className="order-first lg:order-last">
+            <img
+              src="/logop.png"
+              alt="Pokémon Añil"
+              className="mx-auto h-auto w-full max-w-xs lg:max-w-md"
+            />
+          </div>
+        </section>
+
+        {/* Secciones de la guía */}
+        <section className="mt-20 grid gap-x-12 gap-y-12 md:grid-cols-3" aria-label="Secciones de la guía">
+          {SECTIONS.map((section) => (
+            <div key={section.title}>
+              <h2 className="mb-2 px-3 text-xl font-bold">{section.title}</h2>
+              <ul>
+                {section.items.map((item) => (
+                  <li key={item.to} className="border-t border-blue-800">
+                    <Link
+                      to={item.to}
+                      className={`block px-3 py-4 hover:bg-blue-900 ${focusRing}`}
+                    >
+                      <span className="block font-semibold">{item.name}</span>
+                      <span className="mt-0.5 block text-sm">
+                        {item.desc}
+                      </span>
+                    </Link>
+                  </li>
+                ))}
+              </ul>
             </div>
-          </div>
-        </div> */}
+          ))}
+        </section>
 
-        {/* Header con logo */}
-        <div className="text-center mb-12">
-          <img
-            src="/logop.png"
-            alt="Pokémon Añil Logo"
-            className="mx-auto max-w-2xl w-full h-auto drop-shadow-2xl"
-          />
-        </div>
-
-        {/* Hero Section */}
-        <div className="bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl shadow-2xl p-8 sm:p-12 mb-12">
-          <h1 className="text-4xl sm:text-5xl font-black text-white text-center mb-6 drop-shadow-lg">
-            Bienvenido a la Pokédex de Añil
-          </h1>
-          <p className="text-xl text-blue-100 text-center mb-8 font-medium leading-relaxed max-w-3xl mx-auto">
-            Tu guía completa para encontrar y conocer todos los Pokémon en <span className="font-bold text-white">Pokémon Añil</span>
+        {/* Créditos */}
+        <footer className="mt-20 border-t border-blue-800 pt-6 text-sm text-blue-300">
+          <p>
+            Juego creado por{" "}
+            <ExternalLink href="https://x.com/Eric_Lostie">Eric Lostie</ExternalLink> en
+            colaboración con{" "}
+            <ExternalLink href="https://x.com/Skyflyer_R">Skyflyer</ExternalLink> y{" "}
+            <ExternalLink href="https://x.com/dpertierra">DPertierra</ExternalLink>.
           </p>
-
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to="/pokemon/bulbasaur"
-              className="bg-white hover:bg-blue-50 text-blue-900 font-black py-4 px-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-200 text-center text-lg"
-            >
-              🔍 Explorar Pokédex
-            </Link>
-            <a
-              href="https://lostiefangames.blogspot.com/p/pokemon-anil.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-yellow-400 hover:bg-yellow-300 text-blue-900 font-black py-4 px-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-200 text-center text-lg"
-            >
-              ⬇️ Descargar Juego
-            </a>
-          </div>
-        </div>
-
-        {/* Features */}
-        <div className="grid md:grid-cols-3 gap-6 mb-12">
-          <div className="bg-slate-800 rounded-xl shadow-lg shadow-gray-900/30 border border-slate-700 p-6">
-            <div className="text-4xl mb-4 text-center">🗺️</div>
-            <h3 className="text-xl font-black text-slate-100 mb-3 text-center">Ubicaciones</h3>
-            <p className="text-slate-300 text-center font-medium">
-              Descubre dónde encontrar cada Pokémon en el mapa de la región Kanto
-            </p>
-          </div>
-
-          <div className="bg-slate-800 rounded-xl shadow-lg shadow-gray-900/30 border border-slate-700 p-6">
-            <div className="text-4xl mb-4 text-center">📊</div>
-            <h3 className="text-xl font-black text-slate-100 mb-3 text-center">Estadísticas</h3>
-            <p className="text-slate-300 text-center font-medium">
-              Consulta stats, tipos y habilidades de todos los Pokémon
-            </p>
-          </div>
-
-          <div className="bg-slate-800 rounded-xl shadow-lg shadow-gray-900/30 border border-slate-700 p-6">
-            <div className="text-4xl mb-4 text-center">🔄</div>
-            <h3 className="text-xl font-black text-slate-100 mb-3 text-center">Evoluciones</h3>
-            <p className="text-slate-300 text-center font-medium">
-              Conoce las cadenas evolutivas y requisitos para cada evolución
-            </p>
-          </div>
-        </div>
-
-        {/* About Section */}
-        <div className="bg-gradient-to-br from-slate-800 to-slate-700 rounded-xl shadow-lg shadow-gray-900/30 border border-slate-700 p-8">
-          <div className="text-center space-y-3">
-            <p className="text-slate-300 font-medium">
-              <span className="font-black text-slate-100">Juego creado por</span>{' '}
-              <a
-                href="https://x.com/Eric_Lostie"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-300 font-bold hover:underline transition-colors duration-200"
-              >
-                Eric Lostie
-              </a>
-              <span className="font-black text-slate-100"> en colaboración con </span>{' '}
-              <a
-                href="https://x.com/Skyflyer_R"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-300 font-bold hover:underline transition-colors duration-200"
-              >
-                Skyflyer
-              </a>
-              <span className="font-black text-slate-100"> y </span>{' '}
-              <a
-                href="https://x.com/dpertierra"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-300 font-bold hover:underline transition-colors duration-200"
-              >
-                DPertierra
-              </a>
-            </p>
-          </div>
-        </div>
-
-      </div>
+        </footer>
+      </main>
     </div>
   );
 };
 
 export default Home;
-
-//  <div className="bg-yellow-100 border-l-4 border-yellow-500 rounded-lg p-6 mb-12 shadow-lg">
-//           <div className="flex items-start">
-//             <div className="text-3xl mr-4">🚧</div>
-//             <div>
-//               <h3 className="text-lg font-black text-yellow-800 mb-2">Proyecto en Desarrollo</h3>
-//               <p className="text-yellow-700 font-medium">
-//                 Esta Pokédex está en constante actualización. Actualmente estamos trabajando en completar todas las ubicaciones, megas, objetos etc. de los Pokémon. ¡Vuelve pronto para ver las novedades!
-//               </p>
-//             </div>
-//           </div>
-//         </div>
