@@ -1,112 +1,73 @@
-import abilitiesData from "../../data/abilities.json"
+import abilitiesData from "../../data/abilities.json";
 
 const PokemonInformation = ({ pokemon }) => {
-
-  const getAbilityName = (id) => {
-    const ability = abilitiesData.abilities.find(a => a.id === id);
-    return ability ? ability.name : id;
-  }
-
-  const getAbilityDescription = (abilityId) => {
-    if (!abilityId || abilityId === "") return null;
-    const ability = abilitiesData.abilities.find(a => a.id === abilityId);
-    return ability?.description;
-  };
-
+  // Habilidades normales y ocultas en una sola lista (se ignoran los ids vacíos)
+  const abilities = [
+    ...(pokemon.abilities ?? []).filter(Boolean).map((id) => ({ id, hidden: false })),
+    ...(pokemon.hiddenAbilities ?? []).filter(Boolean).map((id) => ({ id, hidden: true })),
+  ];
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
+      {/* Columna izquierda: descripción y datos físicos */}
+      <div className="space-y-6">
+        <section className="rounded-xl bg-blue-950/50 p-5">
+          <h3 className="mb-3 text-base font-semibold">Descripción</h3>
+          <p className="text-sm leading-relaxed">{pokemon.pokedex}</p>
+        </section>
 
-      {/* COLUMNA 1: Tipo y Datos Físicos */}
-      <div className="space-y-6 lg:col-span-1">
-
-        {/* Card de Tipos */}
-        <div className="bg-slate-800 rounded-2xl shadow-lg shadow-gray-900/30 p-5 border border-slate-700">
-          <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-4">
-            Descripción
-          </h3>
-          <div className="text-sm text-slate-300 tracking-wide mb-2">
-            {pokemon.pokedex}
-          </div>
-        </div>
-
-        {/* Card de Datos Físicos */}
-        <div className="bg-slate-800 rounded-2xl shadow-lg shadow-gray-900/30 p-4 border border-slate-700">
-          <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-4">
-            Datos Físicos
-          </h3>
-          <div className="grid grid-cols-2 gap-4">
-            <div className="bg-gradient-to-br from-blue-900/30 to-indigo-900/30 rounded-xl p-5 border border-blue-700/50 text-center">
-              <div className="text-xs font-semibold text-blue-400 uppercase tracking-wide mb-2">
-                Altura
-              </div>
-              <div className="text-2xl font-black text-blue-100">
-                {pokemon.physicalData?.height}<span className="text-base font-bold text-blue-400 ml-1">m</span>
-              </div>
+        <section className="rounded-xl bg-blue-950/50 p-5">
+          <h3 className="mb-3 text-base font-semibold">Datos físicos</h3>
+          <dl className="grid grid-cols-2 gap-3 text-center">
+            <div className="rounded-lg bg-blue-900 p-4">
+              <dt className="mb-1 text-sm text-blue-300">Altura</dt>
+              <dd className="text-2xl font-semibold">
+                {pokemon.physicalData?.height}
+                <span className="ml-1 text-base font-medium text-blue-300">m</span>
+              </dd>
             </div>
-            <div className="bg-gradient-to-br from-blue-900/30 to-indigo-900/30 rounded-xl p-5 border border-blue-700/50 text-center">
-              <div className="text-xs font-semibold text-blue-400 uppercase tracking-wide mb-2">
-                Peso
-              </div>
-              <div className="text-2xl font-black text-blue-100">
-                {pokemon.physicalData?.weight}<span className="text-base font-bold text-blue-400 ml-1">kg</span>
-              </div>
+            <div className="rounded-lg bg-blue-900 p-4">
+              <dt className="mb-1 text-sm text-blue-300">Peso</dt>
+              <dd className="text-2xl font-semibold">
+                {pokemon.physicalData?.weight}
+                <span className="ml-1 text-base font-medium text-blue-300">kg</span>
+              </dd>
             </div>
-          </div>
-        </div>
+          </dl>
+        </section>
       </div>
 
-      {/* COLUMNA 2-3: Habilidades*/}
-      <div className="lg:col-span-2">
-        {/* Card de Habilidades */}
-        <div className="bg-slate-800 rounded-2xl shadow-lg shadow-gray-900/30 p-5 border border-slate-700 h-full">
-          <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wider mb-4">
-            Habilidades
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {pokemon.abilities?.map((ability, index) => (
-              <div
-                key={index}
-                className="bg-blue-900/20 border border-blue-600/30 rounded-xl p-4"
+      {/* Columna derecha: habilidades */}
+      <section className="rounded-xl bg-blue-950/50 p-5 lg:col-span-2">
+        <h3 className="mb-3 text-base font-semibold">Habilidades</h3>
+        <ul className="grid gap-3 md:grid-cols-2">
+          {abilities.map(({ id, hidden }) => {
+            const ability = abilitiesData.abilities.find((a) => a.id === id);
+            return (
+              <li
+                key={`${hidden}-${id}`}
+                className="rounded-lg bg-blue-900 p-4"
               >
-                <div className="flex items-start justify-between gap-3 mb-2">
-                  <span className="text-base font-bold text-slate-100">
-                    {getAbilityName(ability)}
-                  </span>
-                  <span className="text-xs font-bold text-white bg-blue-600 px-3 py-1 rounded-full shadow-sm whitespace-nowrap">
-                    Normal
+                <div className="mb-2 flex items-start justify-between gap-3">
+                  <span className="font-semibold">{ability?.name ?? id}</span>
+                  <span
+                    className={`whitespace-nowrap rounded-full px-3 py-1 text-xs font-medium ${
+                      hidden ? "bg-blue-100 text-blue-950" : "bg-blue-800 text-blue-100"
+                    }`}
+                  >
+                    {hidden ? "Oculta" : "Normal"}
                   </span>
                 </div>
-                <p className="text-xs text-slate-300 leading-relaxed">
-                  {getAbilityDescription(ability)}
-                </p>
-              </div>
-            ))}
-
-            {pokemon.hiddenAbilities?.map((ability, index) => (
-              <div
-                key={`hidden-${index}`}
-                className="bg-purple-900/20 border border-purple-600/30 rounded-xl p-4"
-              >
-                <div className="flex items-start justify-between gap-3 mb-2">
-                  <span className="text-base font-bold text-slate-100">
-                    {getAbilityName(ability)}
-                  </span>
-                  <span className="text-xs font-bold text-white bg-purple-600 px-3 py-1 rounded-full shadow-sm whitespace-nowrap">
-                    Oculta
-                  </span>
-                </div>
-                <p className="text-xs text-slate-300 leading-relaxed">
-                  {getAbilityDescription(ability)}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
+                {ability?.description && (
+                  <p className="text-sm leading-relaxed">{ability.description}</p>
+                )}
+              </li>
+            );
+          })}
+        </ul>
+      </section>
     </div>
-  )
-}
+  );
+};
 
-export default PokemonInformation
+export default PokemonInformation;
