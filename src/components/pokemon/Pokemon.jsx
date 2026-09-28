@@ -59,7 +59,7 @@ const Pokemon = () => {
           <Link
             to="/"
             className="inline-block bg-blue-700 hover:bg-blue-800 text-blue-100 font-semibold px-6 py-3 rounded-lg transition-colors
-                       focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100"
+                       focus-visible:outline-offset-2 focus-visible:outline-blue-100"
           >
             Volver al Inicio
           </Link>
