@@ -8,7 +8,6 @@ import {
   onSnapshot,
   serverTimestamp,
   limit,
-  where
 } from 'firebase/firestore';
 import { useAnonymousAuth } from '../../hooks/useAnonymousAuth';
 import LoginForm from './LoginForm';
@@ -31,7 +30,6 @@ const Chat = () => {
   const [newComment, setNewComment] = useState('');
   const [loadingComments, setLoadingComments] = useState(true);
   const [sending, setSending] = useState(false);
-  const [search, setSearch] = useState('');
 
   useEffect(() => {
     const q = query(
@@ -86,42 +84,35 @@ const Chat = () => {
     }
   };
 
-  // Filtrar comentarios según búsqueda (solo por texto)
-  const filteredComments = comments.filter(comment => {
-    if (!search.trim()) return true;
-    const searchLower = search.toLowerCase();
-    return comment.text.toLowerCase().includes(searchLower);
-  });
-
   if (authLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-gray-900 flex items-center justify-center">
-        <div className="text-slate-400 text-lg">Cargando...</div>
+      <div className="min-h-screen bg-blue-950 flex items-center justify-center">
+        <div className="text-blue-300 text-lg">Cargando...</div>
       </div>
     );
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-gray-900">
+    <div className="min-h-screen bg-blue-950 text-blue-100">
       <Toaster
         position="top-center"
         toastOptions={{
           duration: 3000,
           style: {
-            background: '#1e293b',
-            color: '#f1f5f9',
-            border: '1px solid #334155',
+            background: '#1e3a8a',
+            color: '#dbeafe',
+            border: '1px solid #1e40af',
           },
           success: {
             iconTheme: {
               primary: '#3b82f6',
-              secondary: '#f1f5f9',
+              secondary: '#dbeafe',
             },
           },
           error: {
             iconTheme: {
               primary: '#ef4444',
-              secondary: '#f1f5f9',
+              secondary: '#dbeafe',
             },
           },
         }}
@@ -129,27 +120,12 @@ const Chat = () => {
       <div className="max-w-4xl mx-auto px-4 py-8">
 
         <div className="mb-8">
-          <h1 className="text-4xl font-black text-slate-100 mb-4 uppercase tracking-wider drop-shadow-sm">
+          <h1 className="text-4xl font-bold mb-4">
             Chat
           </h1>
 
-          {/* <div className="max-w-7xl mx-auto px-4 mb-6">
-            <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg shadow-sm">
-              <div className="flex items-start">
-                <div className="ml-3">
-                  <p className="text-sm font-medium text-yellow-800">
-                    ⚠️¡Aviso importante!
-                  </p>
-                  <p className="text-sm font-medium text-yellow-700 mt-1">
-                    Ahora estamos en guianil.pages.dev (ya estas! no necesitas redireccionar) . Posiblemente será la dirección principal y, si esto sucede, la versión anterior (guianil.vercel.app) dejará de estar disponible.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div> */}
-
-          <div className="bg-blue-900/20 border border-blue-600/30 rounded-xl p-4">
-            <p className="text-slate-300 leading-relaxed">
+          <div className="bg-blue-950/50 border border-blue-800 rounded-xl p-4">
+            <p className="leading-relaxed">
               Este es un espacio para hacer preguntas sobre el juego, reportar errores de la página,
               sugerir mejoras,
               o simplemente compartir tus experiencias.
@@ -161,12 +137,12 @@ const Chat = () => {
           <LoginForm onLogin={loginAnonymously} />
         ) : (
           <div className="mb-8">
-            <div className="bg-slate-800 rounded-xl shadow-lg shadow-gray-900/30 p-6 border border-slate-700">
+            <div className="bg-blue-900 border border-blue-800 rounded-xl p-6">
               <div className="flex items-center gap-2 mb-3">
-                <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-sm">
+                <div className="w-8 h-8 rounded-full bg-blue-950 flex items-center justify-center text-blue-100 font-bold text-sm">
                   {username.charAt(0).toUpperCase()}
                 </div>
-                <span className="text-slate-300 font-semibold">{username}</span>
+                <span className="font-semibold">{username}</span>
               </div>
 
               <div>
@@ -175,9 +151,10 @@ const Chat = () => {
                   onChange={(e) => setNewComment(e.target.value)}
                   onKeyDown={handleKeyDown}
                   placeholder="Escribe un comentario..."
-                  className="w-full px-4 py-3 text-slate-100 bg-slate-700 rounded-lg shadow-inner font-medium 
-                           border border-slate-600 outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 
-                           placeholder:text-slate-500 resize-none"
+                  className="w-full px-4 py-3 text-blue-100 bg-blue-950 rounded-lg font-medium
+                           border border-blue-800 outline-none focus-visible:outline focus-visible:outline-2
+                           focus-visible:outline-offset-2 focus-visible:outline-blue-100
+                           placeholder:text-blue-300/60 resize-none"
                   rows="3"
                   maxLength="1000"
                   disabled={sending}
@@ -189,15 +166,15 @@ const Chat = () => {
                 />
 
                 <div className="flex justify-between items-center mt-3">
-                  <span className="text-xs text-slate-400">
+                  <span className="text-xs text-blue-300">
                     {newComment.length}/1000 caracteres
                   </span>
                   <button
                     onClick={handleSubmitComment}
                     disabled={!newComment.trim() || sending}
-                    className="px-6 py-2 bg-blue-600 hover:bg-blue-700 disabled:bg-slate-600 
-                             disabled:cursor-not-allowed text-white font-bold rounded-lg 
-                             shadow-lg transition-colors duration-200"
+                    className="px-6 py-2 bg-blue-700 hover:bg-blue-800 disabled:bg-blue-950 disabled:border disabled:border-blue-800 disabled:text-blue-300
+                             disabled:cursor-not-allowed text-blue-100 font-semibold rounded-lg
+                             transition-colors duration-200"
                   >
                     {sending ? 'Enviando...' : 'Enviar'}
                   </button>
@@ -207,47 +184,13 @@ const Chat = () => {
           </div>
         )}
 
-        {/* <div className="mb-6">
-          <div className="relative">
-            <input
-              type="search"
-              value={search}
-              onChange={(e) => setSearch(e.target.value)}
-              placeholder="Buscar comentarios"
-              className="w-full px-4 py-3 pr-12 text-slate-100 bg-slate-800 rounded-lg shadow-lg font-medium 
-                       border-none outline-none focus:outline-none focus:border-none focus:ring-0 placeholder:text-slate-500"
-              autoComplete="off"
-              autoCorrect="off"
-              autoCapitalize="off"
-              spellCheck="false"
-            />
-            <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
-              <svg className="h-5 w-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
-            </div>
-          </div>
-          {search && (
-            <p className="text-center mt-2 text-sm text-blue-400 font-semibold">
-              {filteredComments.length} resultado{filteredComments.length !== 1 ? 's' : ''} encontrado{filteredComments.length !== 1 ? 's' : ''}
-            </p>
-          )}
-        </div> */}
-
         {loadingComments ? (
-          <div className="text-center py-12 bg-slate-800 rounded-xl shadow-lg border border-slate-700">
-            <div className="text-slate-400">Cargando comentarios...</div>
+          <div className="text-center py-12 bg-blue-900 border border-blue-800 rounded-xl">
+            <div className="text-blue-300">Cargando comentarios...</div>
           </div>
-        ) : search && filteredComments.length === 0 ? (
-          <div className="text-center py-12 bg-slate-800 rounded-xl shadow-lg border border-slate-700">
-            <div className="text-4xl mb-3">🔍</div>
-            <p className="text-slate-400 font-semibold">
-              No se encontraron comentarios con "{search}"
-            </p>
-          </div>
-        ) : !search && filteredComments.length === 0 ? null : (
+        ) : comments.length === 0 ? null : (
           <div className="space-y-4">
-            {filteredComments.map(comment => (
+            {comments.map(comment => (
               <CommentItem
                 key={comment.id}
                 comment={comment}

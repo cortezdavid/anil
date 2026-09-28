@@ -140,36 +140,35 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
     });
   };
 
-  // const repliesCount = replies.length;
   const isOwner = currentUser && comment.userId === currentUser.uid;
 
   if (deleting) {
     return (
-      <div className="bg-slate-800/50 rounded-xl shadow-lg p-4 border border-slate-700">
-        <div className="text-center text-slate-400 text-sm">Eliminando comentario...</div>
+      <div className="bg-blue-900/50 border border-blue-800 rounded-xl p-4">
+        <div className="text-center text-blue-300 text-sm">Eliminando comentario...</div>
       </div>
     );
   }
 
   return (
-    <div className="bg-slate-800 rounded-xl shadow-lg shadow-gray-900/30 p-4 border border-slate-700">
+    <div className="bg-blue-900 border border-blue-800 rounded-xl p-4">
       {/* Comentario principal */}
       <div className="flex gap-3">
-        <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold flex-shrink-0">
+        <div className="w-10 h-10 rounded-full bg-blue-950 flex items-center justify-center text-blue-100 font-bold flex-shrink-0">
           {comment.username.charAt(0).toUpperCase()}
         </div>
 
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 mb-1">
-            <span className="text-slate-100 font-bold text-sm">
+            <span className="font-semibold text-sm">
               {comment.username}
             </span>
-            <span className="text-slate-500 text-xs">
+            <span className="text-blue-300 text-xs">
               {formatDate(comment.timestamp)}
             </span>
           </div>
 
-          <p className="text-slate-300 text-sm leading-relaxed whitespace-pre-wrap break-words">
+          <p className="text-sm leading-relaxed whitespace-pre-wrap break-words">
             {comment.text}
           </p>
 
@@ -178,28 +177,11 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
             {currentUser && (
               <button
                 onClick={() => setShowReplyBox(!showReplyBox)}
-                className="text-blue-400 hover:text-blue-300 text-xs font-semibold transition-colors"
+                className="text-blue-300 hover:text-blue-100 text-xs font-semibold transition-colors"
               >
                 Responder
               </button>
             )}
-
-            {/* {repliesCount > 0 && (
-              <button
-                onClick={() => setShowReplies(!showReplies)}
-                className="text-slate-400 hover:text-slate-300 text-xs font-semibold transition-colors flex items-center gap-1"
-              >
-                <svg
-                  className={`w-4 h-4 transition-transform ${showReplies ? 'rotate-180' : ''}`}
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                </svg>
-                {showReplies ? 'Ocultar' : 'Ver'} {repliesCount} {repliesCount === 1 ? 'respuesta' : 'respuestas'}
-              </button>
-            )} */}
 
             {isOwner && (
               <button
@@ -215,9 +197,9 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
 
       {/* Caja de respuesta */}
       {showReplyBox && currentUser && (
-        <div className="mt-4 ml-13 pl-4 border-l-2 border-blue-600/30">
+        <div className="mt-4 ml-12 pl-4 border-l-2 border-blue-800">
           <div className="flex items-start gap-2">
-            <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center text-white font-bold text-xs flex-shrink-0">
+            <div className="w-8 h-8 rounded-full bg-blue-700 flex items-center justify-center text-blue-100 font-bold text-xs flex-shrink-0">
               {currentUsername.charAt(0).toUpperCase()}
             </div>
             <div className="flex-1">
@@ -226,9 +208,10 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
                 onChange={(e) => setReplyText(e.target.value)}
                 onKeyDown={handleKeyDown}
                 placeholder={`Responder a ${comment.username}...`}
-                className="w-full px-3 py-2 text-slate-100 bg-slate-700 rounded-lg shadow-inner text-sm font-medium 
-                         border border-slate-600 outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 
-                         placeholder:text-slate-500 resize-none"
+                className="w-full px-3 py-2 text-blue-100 bg-blue-950 rounded-lg text-sm font-medium
+                         border border-blue-800 outline-none focus-visible:outline focus-visible:outline-2
+                         focus-visible:outline-offset-2 focus-visible:outline-blue-100
+                         placeholder:text-blue-300/60 resize-none"
                 rows="2"
                 maxLength="1000"
                 disabled={sending}
@@ -239,7 +222,7 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
                 data-form-type="other"
               />
               <div className="flex justify-between items-center mt-2">
-                <span className="text-xs text-slate-500">
+                <span className="text-xs text-blue-300">
                   {replyText.length}/1000
                 </span>
                 <div className="flex gap-2">
@@ -248,16 +231,16 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
                       setShowReplyBox(false);
                       setReplyText('');
                     }}
-                    className="px-3 py-1 text-slate-400 hover:text-slate-300 text-xs font-semibold transition-colors"
+                    className="px-3 py-1 text-blue-300 hover:text-blue-100 text-xs font-semibold transition-colors"
                   >
                     Cancelar
                   </button>
                   <button
                     onClick={handleSubmitReply}
                     disabled={!replyText.trim() || sending}
-                    className="px-4 py-1 bg-blue-600 hover:bg-blue-700 disabled:bg-slate-600 
-                             disabled:cursor-not-allowed text-white text-xs font-bold rounded-lg 
-                             shadow transition-colors duration-200"
+                    className="px-4 py-1 bg-blue-700 hover:bg-blue-800 disabled:bg-blue-950 disabled:border disabled:border-blue-800 disabled:text-blue-300
+                             disabled:cursor-not-allowed text-blue-100 text-xs font-bold rounded-lg
+                             transition-colors duration-200"
                   >
                     {sending ? 'Enviando...' : 'Enviar'}
                   </button>
@@ -270,28 +253,28 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
 
       {/* Lista de respuestas */}
       {showReplies && (
-        <div className="mt-4 ml-13 pl-4 border-l-2 border-slate-700 space-y-3">
+        <div className="mt-4 ml-12 pl-4 border-l-2 border-white/50 space-y-3">
           {loadingReplies ? (
-            <div className="text-slate-500 text-xs">Cargando respuestas...</div>
+            <div className="text-blue-300 text-xs">Cargando respuestas...</div>
           ) : replies.length === 0 ? (
-            <div className="text-slate-500 text-xs">No hay respuestas aún</div>
+            <div className="text-blue-300 text-xs">No hay respuestas aún</div>
           ) : (
             replies.map(reply => {
               const isReplyOwner = currentUser && reply.userId === currentUser.uid;
 
               return (
                 <div key={reply.id} className="flex gap-2">
-                  <div className="w-8 h-8 rounded-full bg-purple-600 flex items-center justify-center text-white font-bold text-xs flex-shrink-0">
+                  <div className="w-8 h-8 rounded-full bg-blue-950 flex items-center justify-center text-blue-100 font-bold text-xs flex-shrink-0">
                     {reply.username.charAt(0).toUpperCase()}
                   </div>
                   <div className="flex-1 min-w-0">
-                    <div className="bg-slate-700/50 rounded-lg p-3">
+                    <div className="bg-blue-950/50 border border-blue-800 rounded-lg p-3">
                       <div className="flex items-center justify-between mb-1">
                         <div className="flex items-center gap-2">
-                          <span className="text-slate-100 font-bold text-xs">
+                          <span className="font-semibold text-xs">
                             {reply.username}
                           </span>
-                          <span className="text-slate-500 text-xs">
+                          <span className="text-blue-300 text-xs">
                             {formatDate(reply.timestamp)}
                           </span>
                         </div>
@@ -304,7 +287,7 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
                           </button>
                         )}
                       </div>
-                      <p className="text-slate-300 text-xs leading-relaxed whitespace-pre-wrap break-words">
+                      <p className="text-xs leading-relaxed whitespace-pre-wrap break-words">
                         {reply.text}
                       </p>
                     </div>

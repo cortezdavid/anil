@@ -18,7 +18,7 @@ const LoginForm = ({ onLogin }) => {
     setLoading(false);
   };
 
-  const handleKeyPress = (e) => {
+  const handleKeyDown = (e) => {
     if (e.key === 'Enter') {
       handleLogin();
     }
@@ -26,12 +26,12 @@ const LoginForm = ({ onLogin }) => {
 
   return (
     <div className="mb-8">
-      <div className="bg-slate-800 rounded-xl shadow-lg shadow-gray-900/30 p-6 border border-slate-700">
-        <h2 className="text-xl font-bold text-slate-100 mb-4">
+      <div className="bg-blue-900 border border-blue-800 rounded-xl p-6">
+        <h2 className="text-xl font-semibold mb-4">
           Únete a la conversación
         </h2>
 
-        <p className="text-slate-300 text-sm mb-4">
+        <p className="text-sm mb-4">
           Para comentar, elige un nombre de usuario. No necesitas registrarte ni proporcionar un email.
         </p>
 
@@ -41,21 +41,22 @@ const LoginForm = ({ onLogin }) => {
               type="text"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
-              onKeyPress={handleKeyPress}
+              onKeyDown={handleKeyDown}
               placeholder="Escribe tu nombre de usuario..."
-              className="w-full px-4 py-3 text-slate-100 bg-slate-700 rounded-lg shadow-inner font-medium 
-                       border border-slate-600 outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 
-                       placeholder:text-slate-500"
+              className="w-full px-4 py-3 text-blue-100 bg-blue-950 rounded-lg font-medium
+                       border border-blue-800 outline-none focus-visible:outline focus-visible:outline-2
+                       focus-visible:outline-offset-2 focus-visible:outline-blue-100
+                       placeholder:text-blue-300/60"
               maxLength="20"
               disabled={loading}
             />
-            <p className="text-xs text-slate-400 mt-1">
+            <p className="text-xs text-blue-300 mt-1">
               Mínimo 3 caracteres, máximo 20
             </p>
           </div>
 
           {error && (
-            <div className="bg-red-900/20 border border-red-600/30 rounded-lg p-3">
+            <div className="bg-red-950/50 border border-red-800 rounded-lg p-3">
               <p className="text-red-400 text-sm font-semibold">
                 {error}
               </p>
@@ -65,13 +66,13 @@ const LoginForm = ({ onLogin }) => {
           <button
             onClick={handleLogin}
             disabled={username.trim().length < 3 || loading}
-            className="w-full px-6 py-3 bg-blue-600 hover:bg-blue-700 disabled:bg-slate-600 
-                     disabled:cursor-not-allowed text-white font-bold rounded-lg 
-                     shadow-lg transition-colors duration-200"
+            className="w-full px-6 py-3 bg-blue-700 hover:bg-blue-800 disabled:bg-blue-950 disabled:border disabled:border-blue-800 disabled:text-blue-300
+                     disabled:cursor-not-allowed text-blue-100 font-semibold rounded-lg
+                     transition-colors duration-200"
           >
             {loading ? 'Entrando...' : 'Ingresar'}
           </button>
-          
+
         </div>
       </div>
     </div>
