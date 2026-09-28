@@ -64,11 +64,11 @@ const PokemonEffectiveness = ({ pokemon }) => {
   const isMobile = useIsMobile();
 
   return (
-    <div className="bg-slate-800 rounded-2xl shadow-gray-900/30 p-6">
-      <h3 className="flex items-center text-sm font-bold text-slate-300 tracking-wider mb-4">
-        EFECTIVIDAD DE TIPOS
-        <Tooltip text="Efectividad basada solo en tipos, sin considerar habilidades" position={isMobile ? "bottom" : "right"}>
-          <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+    <div className="shadow-gray-900/30 p-6">
+      <h3 className="mb-3 flex items-center gap-2 text-lg font-bold">
+        Efectividad de tipos
+        <Tooltip text="Efectividad basada solo en tipos, sin considerar habilidades" position="bottom">
+          <svg className="h-4 w-4 text-blue-300" fill="currentColor" viewBox="0 0 20 20">
             <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
           </svg>
         </Tooltip>
@@ -80,7 +80,7 @@ const PokemonEffectiveness = ({ pokemon }) => {
           if (!types || types.length === 0) return null;
 
           return (
-            <div key={mult} className="border-b border-slate-700 last:border-0 pb-4 last:pb-0">
+            <div key={mult} className="border-b border-white last:border-0 pb-4 last:pb-0">
               <h4 className="text-sm font-bold text-slate-300 mb-3">
                 {label}
               </h4>
