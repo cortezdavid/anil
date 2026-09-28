@@ -4,27 +4,21 @@ import ShinyPokemonCard from "./ShinyPokemonCard";
 import { getTypeColor, getTypeName } from "../../utils/typeHelpers";
 import Tooltip from '../tooltip/Tooltip';
 
-const SLIDER_LABELS = [
-  'Normal',
-  'Shiny',
-  'Posible Super Shiny',
-  'Posible Super Shiny',
-  'Posible Super Shiny',
-  'Posible Super Shiny',
-  'Posible Super Shiny',
-  'Posible Super Shiny',
-  'Posible Super Shiny',
-  'Posible Super Shiny',
-  'Posible Super Shiny'
-];
+// Botones de formas (base, mega, regionales...): misma clase para todos
+const formButtonClass = (isActive) => `rounded-lg border px-4 py-2 text-sm font-medium transition-colors
+  focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100
+  ${isActive
+    ? 'border-blue-700 bg-blue-700'
+    : 'border-blue-800 bg-blue-950 hover:bg-blue-700'
+  }`;
 
 const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange, handleBaseForm, selectedForm, pokemonId }) => {
+
+  const [sliderValue, setSliderValue] = useState(0);
 
   useEffect(() => {
     setSliderValue(0);
   }, [pokemonId, pokemon.id]);
-
-  const [sliderValue, setSliderValue] = useState(0);
 
   const hasRealPalette = pokemon.superShinyPalette != null;
 
@@ -32,7 +26,7 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
   const buildSteps = () => {
     const steps = [
       { label: 'Normal', colorShift: 0 },
-      { label: 'Shiny',  colorShift: 1 },
+      { label: 'Shiny', colorShift: 1 },
     ];
     if (hasRealPalette) {
       steps.push({ label: 'Super Shiny por captura', colorShift: pokemon.superShinyPalette });
@@ -57,26 +51,25 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
   const colorShift = getColorShift();
   const currentLabel = hasRealPalette
     ? (steps[sliderValue]?.label ?? 'Normal')
-    : SLIDER_LABELS[sliderValue];
+    : sliderValue === 0 ? 'Normal' : sliderValue === 1 ? 'Shiny' : 'Posible Super Shiny';
 
   const isSuperShiny = sliderValue >= 2;
   const isShiny = sliderValue > 0;
+  const isBaseForm = selectedForm === 'base' || !selectedForm;
 
   return (
-    <div className="bg-slate-800 rounded-2xl shadow-lg shadow-gray-900/30 p-6 h-fit lg:sticky lg:top-8 border border-slate-700">
+    <div className="h-fit rounded-2xl border border-blue-800 bg-blue-900 p-6 lg:sticky lg:top-8">
 
       {/* Nombre */}
-      <h1 className="text-4xl font-black text-slate-100 mb-6 uppercase tracking-wider text-center">
+      <h1 className="mb-6 text-center text-4xl font-bold capitalize">
         {pokemon.name}
       </h1>
 
       {/* Imagen */}
       <div className={`
-        relative bg-gradient-to-br from-slate-700 to-slate-600
-        rounded-2xl p-8 mb-6 flex justify-center items-center
-        border-4 transition-all duration-300
-        ${isSuperShiny ? 'border-purple-800 shadow-lg shadow-purple-800/30' : isShiny ? 'border-amber-400 shadow-lg shadow-amber-500/30' : 'border-slate-600'}
-        min-h-[280px]
+        relative mb-6 flex min-h-[280px] items-center justify-center
+        rounded-2xl border-4 bg-blue-950 p-8 transition-all duration-300
+        ${isSuperShiny ? 'border-purple-800 shadow-lg shadow-purple-800/30' : isShiny ? 'border-amber-400 shadow-lg shadow-amber-500/30' : 'border-blue-800'}
       `}>
         <div className="relative flex justify-center items-center">
           {colorShift === 0 ? (
@@ -90,9 +83,9 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
         </div>
 
         {/* Tipos */}
-        <div className="absolute bottom-3 left-3 flex gap-1 flex-wrap">
-          {pokemon.types.map((type, i) => (
-            <span key={i} className={`px-2 py-1 rounded text-xs font-bold text-white ${getTypeColor(type)} shadow-lg shadow-gray-900/30`}>
+        <div className="absolute bottom-3 left-3 flex flex-wrap gap-1">
+          {pokemon.types.map((type) => (
+            <span key={type} className={`rounded px-2 py-1 text-xs font-semibold text-white ${getTypeColor(type)}`}>
               {getTypeName(type)}
             </span>
           ))}
@@ -101,16 +94,14 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
 
       {/* Barra */}
       <div className="mb-6">
-        <h3 className="flex items-center gap-1 text-sm font-bold text-slate-300 uppercase tracking-wide">
+        <h3 className="mb-2 flex items-center gap-1 text-sm font-medium text-blue-300">
           {currentLabel}
           {!hasRealPalette && isSuperShiny && (
-            <span className="normal-case">
-              <Tooltip text="Solo uno de estos colores será el real al capturar" position="top">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
-                </svg>
-              </Tooltip>
-            </span>
+            <Tooltip text="Solo uno de estos colores será el real al capturar" position="top">
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
+              </svg>
+            </Tooltip>
           )}
         </h3>
         <input
@@ -119,44 +110,41 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
           max={maxSlider}
           value={sliderValue}
           onChange={(e) => setSliderValue(Number(e.target.value))}
-          className="w-full h-2 bg-blue-900 rounded-lg appearance-none cursor-pointer"
+          aria-label="Variante de color"
+          aria-valuetext={currentLabel}
+          className="h-2 w-full cursor-pointer appearance-none rounded-lg bg-blue-950"
         />
       </div>
 
       {/* Botones de Formas */}
       {variants && variants.length > 0 && (
         <div className="space-y-3">
-          <h3 className="text-sm font-bold text-slate-300 uppercase tracking-wide">
+          <h3 className="text-sm font-medium text-blue-300">
             Formas
           </h3>
           <div className="flex flex-wrap gap-2">
             <button
+              type="button"
               onClick={handleBaseForm}
-              className={`
-                px-4 py-2 rounded-xl text-sm font-bold
-                ${selectedForm === 'base' || !selectedForm
-                  ? 'bg-blue-600 text-white shadow-lg shadow-blue-900/50'
-                  : 'bg-slate-700 text-slate-300 hover:bg-slate-600 border-2 border-slate-600'
-                }
-              `}
+              aria-pressed={isBaseForm}
+              className={formButtonClass(isBaseForm)}
             >
               {basePokemon.form}
             </button>
-            {variants.map(variant => (
-              <button
-                key={variant.id}
-                onClick={() => handleFormChange(variant)}
-                className={`
-                  px-4 py-2 rounded-xl text-sm font-bold
-                  ${selectedForm?.id === variant.id
-                    ? 'bg-blue-600 text-white shadow-lg shadow-blue-900/50'
-                    : 'bg-slate-700 text-slate-300 hover:bg-slate-600 border-2 border-slate-600'
-                  }
-                `}
-              >
-                {variant.form}
-              </button>
-            ))}
+            {variants.map(variant => {
+              const isActive = selectedForm?.id === variant.id;
+              return (
+                <button
+                  key={variant.id}
+                  type="button"
+                  onClick={() => handleFormChange(variant)}
+                  aria-pressed={isActive}
+                  className={formButtonClass(isActive)}
+                >
+                  {variant.form}
+                </button>
+              );
+            })}
           </div>
         </div>
       )}
