@@ -7,7 +7,7 @@ import AutoScrollTop from '../autoScrollTop/AutoScrollTop';
 import { getTypeColor, getTypeName } from "../../utils/typeHelpers";
 
 const MovimientosSection = ({ pokemon }) => {
-  const [openSection, setOpenSection] = useState('null');
+  const [openSection, setOpenSection] = useState(null);
 
   const toggleSection = (section) => {
     setOpenSection(prev => prev === section ? null : section);
@@ -66,11 +66,11 @@ const MovimientosSection = ({ pokemon }) => {
       <div className="hidden lg:grid lg:grid-cols-3 gap-6">
 
         {/* Columna 1: Movimientos por Nivel */}
-        <div className="bg-slate-800 rounded-xl overflow-hidden">
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-3">
-            <h3 className="text-white font-bold text-sm flex items-center justify-between">
+        <div className="rounded-xl overflow-hidden">
+          <div className="bg-blue-700 px-4 py-3">
+            <h3 className="text-blue-100 font-bold text-sm flex items-center justify-between">
               <span>Por Nivel</span>
-              <span className="bg-white/20 px-2 py-1 rounded-full text-xs">
+              <span className="bg-blue-900 px-2 py-1 rounded-full text-xs">
                 {pokemonMoves.levelUpMoves.length}
               </span>
             </h3>
@@ -82,14 +82,14 @@ const MovimientosSection = ({ pokemon }) => {
                 return (
                   <div
                     key={index}
-                    className="px-3 py-2 rounded-lg bg-slate-700 hover:bg-slate-600 transition-colors"
+                    className="bg-blue-950/50 px-3 py-2 rounded-lg bg-blue-900 hover:bg-blue-800 transition-colors"
                   >
                     <div className="flex items-center justify-between gap-3">
                       <div className="flex-1 min-w-0">
-                        <div className="font-semibold text-sm text-slate-100 capitalize truncate">
+                        <div className="font-semibold text-sm text-blue-100 capitalize truncate">
                           {getMoveName(item.move)}
                         </div>
-                        <div className="text-xs text-slate-400">
+                        <div className="text-xs text-blue-300">
                           Nivel {item.level}
                         </div>
                       </div>
@@ -103,7 +103,7 @@ const MovimientosSection = ({ pokemon }) => {
                 );
               })
             ) : (
-              <div className="py-8 text-center text-slate-400 text-sm">
+              <div className="py-8 text-center text-white text-sm">
                 No aprende movimientos por nivel
               </div>
             )}
@@ -111,13 +111,13 @@ const MovimientosSection = ({ pokemon }) => {
         </div>
 
         {/* Columna 2: Movimientos por MT */}
-        <div className="bg-slate-800 rounded-xl">
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-3 rounded-t-xl">
-            <h3 className="text-white font-bold text-sm flex items-center justify-between">
+        <div className="rounded-xl overflow-hidden">
+          <div className="bg-blue-700 px-4 py-3 rounded-t-xl">
+            <h3 className="text-blue-100 font-bold text-sm flex items-center justify-between">
               <span className="flex items-center gap-2">
                 Por MT
               </span>
-              <span className="bg-white/20 px-2 py-1 rounded-full text-xs">
+              <span className="bg-blue-900 px-2 py-1 rounded-full text-xs">
                 {mtMoves.length}
               </span>
             </h3>
@@ -129,14 +129,14 @@ const MovimientosSection = ({ pokemon }) => {
                 return (
                   <div
                     key={index}
-                    className="px-3 py-2 rounded-lg bg-slate-700 hover:bg-slate-600 transition-colors"
+                    className="bg-blue-950/50 px-3 py-2 rounded-lg bg-blue-900 hover:bg-blue-800 transition-colors"
                   >
                     <div className="flex items-center justify-between gap-3">
                       <div className="flex-1 min-w-0">
-                        <div className="font-semibold text-sm text-slate-100 capitalize truncate">
+                        <div className="font-semibold text-sm text-blue-100 capitalize truncate">
                           {getMoveName(item.move)}
                         </div>
-                        <div className="text-xs text-slate-400">
+                        <div className="text-xs text-blue-300">
                           MT{item.mtNumber}
                         </div>
                       </div>
@@ -150,7 +150,7 @@ const MovimientosSection = ({ pokemon }) => {
                 );
               })
             ) : (
-              <div className="py-8 text-center text-slate-400 text-sm">
+              <div className="py-8 text-center text-white text-sm">
                 No aprende movimientos por MT
               </div>
             )}
@@ -158,18 +158,13 @@ const MovimientosSection = ({ pokemon }) => {
         </div>
 
         {/* Columna 3: Movimientos Huevo */}
-        <div className="bg-slate-800 rounded-xl">
-          <div className="bg-gradient-to-r from-blue-600 to-blue-700 px-4 py-3 rounded-t-xl">
-            <h3 className="text-white font-bold text-sm flex items-center justify-between">
+        <div className="rounded-xl overflow-hidden">
+          <div className="bg-blue-700 px-4 py-3 rounded-t-xl">
+            <h3 className="text-blue-100 font-bold text-sm flex items-center justify-between">
               <span className="flex items-center gap-2">
                 Movimientos Huevo
-                <Tooltip text="Movimientos disponibles en el Dojo de Ciudad Azafrán. Requiere una Escama Corazón." position="left">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-                    <path fillRule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clipRule="evenodd" />
-                  </svg>
-                </Tooltip>
               </span>
-              <span className="bg-white/20 px-2 py-1 rounded-full text-xs">
+              <span className="bg-blue-900 px-2 py-1 rounded-full text-xs">
                 {sortedEggMoves.length}
               </span>
             </h3>
@@ -181,10 +176,10 @@ const MovimientosSection = ({ pokemon }) => {
                 return (
                   <div
                     key={index}
-                    className="px-3 py-2 rounded-lg bg-slate-700 hover:bg-slate-600 transition-colors"
+                    className="bg-blue-950/50 px-3 py-2 rounded-lg bg-blue-900 hover:bg-blue-800 transition-colors"
                   >
                     <div className="flex items-center justify-between gap-3">
-                      <div className="font-semibold text-sm text-slate-100 capitalize flex-1 min-w-0 truncate">
+                      <div className="font-semibold text-sm text-blue-100 capitalize flex-1 min-w-0 truncate">
                         {getMoveName(move)}
                       </div>
                       {moveData?.type && (
@@ -197,7 +192,7 @@ const MovimientosSection = ({ pokemon }) => {
                 );
               })
             ) : (
-              <div className="py-8 text-center text-slate-400 text-sm">
+              <div className="py-8 text-center text-white text-sm">
                 Sin movimientos huevo
               </div>
             )}
@@ -209,10 +204,10 @@ const MovimientosSection = ({ pokemon }) => {
       <div className="lg:hidden space-y-4">
 
         {/* Movimientos por Nivel */}
-        <div className="rounded-xl overflow-hidden bg-slate-800">
+        <div className="rounded-xl overflow-hidden">
           <button
             onClick={() => toggleSection('levelUp')}
-            className="w-full px-4 py-3 bg-gradient-to-r from-blue-600 to-blue-700 flex justify-between items-center text-white"
+            className="w-full px-4 py-3 bg-blue-700 flex justify-between items-center text-blue-100"
           >
             <span className="font-bold text-sm">Por Nivel ({pokemonMoves.levelUpMoves.length})</span>
             <svg
@@ -229,13 +224,13 @@ const MovimientosSection = ({ pokemon }) => {
               {pokemonMoves.levelUpMoves.map((item, index) => {
                 const moveData = getMoveData(item.move);
                 return (
-                  <div key={index} className="px-3 py-2 rounded-lg bg-slate-700">
+                  <div key={index} className="px-3 py-2 rounded-lg bg-blue-950/50">
                     <div className="flex items-center justify-between gap-3">
                       <div className="flex-1 min-w-0">
-                        <div className="font-semibold text-sm text-slate-100 capitalize truncate">
+                        <div className="font-semibold text-sm text-blue-100 capitalize truncate">
                           {getMoveName(item.move)}
                         </div>
-                        <div className="text-xs text-slate-400">Nivel {item.level}</div>
+                        <div className="text-xs text-blue-300">Nivel {item.level}</div>
                       </div>
                       {moveData?.type && (
                         <span className={`px-2 py-1 rounded text-xs font-bold text-white ${getTypeColor(moveData.type)} flex-shrink-0`}>
@@ -251,10 +246,10 @@ const MovimientosSection = ({ pokemon }) => {
         </div>
 
         {/* Movimientos por MT */}
-        <div className="rounded-xl bg-slate-800">
+        <div className="rounded-xl overflow-hidden">
           <button
             onClick={() => toggleSection('mt')}
-            className={`w-full px-4 py-3 bg-gradient-to-r from-blue-600 to-blue-700 flex justify-between items-center text-white ${openSection === 'mt' ? 'rounded-t-xl' : 'rounded-xl'
+            className={`w-full px-4 py-3 bg-blue-700 flex justify-between items-center text-blue-100 ${openSection === 'mt' ? 'rounded-t-xl' : 'rounded-xl'
               }`}
           >
             <span className="font-bold text-sm flex items-center gap-2">
@@ -274,13 +269,13 @@ const MovimientosSection = ({ pokemon }) => {
               {mtMoves.map((item, index) => {
                 const moveData = getMoveData(item.move);
                 return (
-                  <div key={index} className="px-3 py-2 rounded-lg bg-slate-700">
+                  <div key={index} className="px-3 py-2 rounded-lg bg-blue-950/50">
                     <div className="flex items-center justify-between gap-3">
                       <div className="flex-1 min-w-0">
-                        <div className="font-semibold text-sm text-slate-100 capitalize truncate">
+                        <div className="font-semibold text-sm text-blue-100 capitalize truncate">
                           {getMoveName(item.move)}
                         </div>
-                        <div className="text-xs text-slate-400">MT{item.mtNumber}</div>
+                        <div className="text-xs text-blue-300">MT{item.mtNumber}</div>
                       </div>
                       {moveData?.type && (
                         <span className={`px-2 py-1 rounded text-xs font-bold text-white ${getTypeColor(moveData.type)} flex-shrink-0`}>
@@ -297,10 +292,10 @@ const MovimientosSection = ({ pokemon }) => {
 
         {/* Movimientos Huevo */}
         {sortedEggMoves && sortedEggMoves.length > 0 && (
-          <div className="rounded-xl overflow-hidden bg-slate-800">
+          <div className="rounded-xl overflow-hidden">
             <button
               onClick={() => toggleSection('egg')}
-              className="w-full px-4 py-3 bg-gradient-to-r from-blue-600 to-blue-700 flex justify-between items-center text-white"
+              className="w-full px-4 py-3 bg-blue-700 flex justify-between items-center text-blue-100"
             >
               <span className="font-bold text-sm">Movimientos Huevo ({sortedEggMoves.length})</span>
               <svg
@@ -317,9 +312,9 @@ const MovimientosSection = ({ pokemon }) => {
                 {sortedEggMoves.map((move, index) => {
                   const moveData = getMoveData(move);
                   return (
-                    <div key={index} className="px-3 py-2 rounded-lg bg-slate-700">
+                    <div key={index} className="px-3 py-2 rounded-lg bg-blue-950/50">
                       <div className="flex items-center justify-between gap-3">
-                        <div className="font-semibold text-sm text-slate-100 capitalize flex-1 min-w-0 truncate">
+                        <div className="font-semibold text-sm text-blue-100 capitalize flex-1 min-w-0 truncate">
                           {getMoveName(move)}
                         </div>
                         {moveData?.type && (
