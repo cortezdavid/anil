@@ -33,7 +33,7 @@ const Items = () => {
 
   // Función para obtener color según rareza
   const getRarityColor = (rarity) => {
-    return rarity === 'Común' ? 'bg-green-600' : 'bg-blue-600';
+    return rarity === 'Común' ? 'bg-green-600' : 'bg-blue-700';
   };
 
   // Combinar datos de objetos del mapa y ordenar alfabéticamente
@@ -127,11 +127,11 @@ const Items = () => {
   }, [hasMore, visibleCount]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-gray-900">
+    <div className="min-h-screen bg-blue-950 text-blue-100">
       <div className="max-w-7xl mx-auto px-4 py-8">
 
         {/* Título */}
-        <h1 className="text-4xl font-black text-slate-100 mb-6 uppercase tracking-wider drop-shadow-sm">
+        <h1 className="text-4xl font-bold mb-6">
           Objetos
         </h1>
 
@@ -142,9 +142,9 @@ const Items = () => {
               setActiveTab('map');
               setSearch('');
             }}
-            className={`flex-1 px-6 py-3 rounded-xl font-black transition-all duration-200 ${activeTab === 'map'
-                ? 'bg-blue-600 text-white shadow-xl'
-                : 'bg-slate-800 text-slate-300 hover:bg-slate-700 border border-slate-700'
+            className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-colors ${activeTab === 'map'
+                ? 'bg-blue-700 text-blue-100'
+                : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50 border border-blue-800'
               }`}
           >
             Objetos del Mapa
@@ -154,9 +154,9 @@ const Items = () => {
               setActiveTab('pokemon');
               setSearch('');
             }}
-            className={`flex-1 px-6 py-3 rounded-xl font-black transition-all duration-200 ${activeTab === 'pokemon'
-                ? 'bg-blue-600 text-white shadow-xl'
-                : 'bg-slate-800 text-slate-300 hover:bg-slate-700 border border-slate-700'
+            className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-colors ${activeTab === 'pokemon'
+                ? 'bg-blue-700 text-blue-100'
+                : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50 border border-blue-800'
               }`}
           >
             Objetos de Pokémon
@@ -165,8 +165,8 @@ const Items = () => {
 
         {/* Nota informativa */}
         {activeTab === 'map' && (
-          <div className="bg-blue-900/20 border border-blue-600/30 rounded-xl p-4 mb-8">
-            <p className="text-slate-300 leading-relaxed">
+          <div className="bg-blue-950/50 border border-blue-800 rounded-xl p-4 mb-8">
+            <p className="leading-relaxed">
               Nota: Algunos objetos pueden repetirse en distintas ubicaciones, en esos casos, solo se muestra la primera aparición.
               No se incluyen objetos de uso común como pokéballs, repelentes, medicamentos y otros objetos similares.
             </p>
@@ -174,8 +174,8 @@ const Items = () => {
         )}
 
         {activeTab === 'pokemon' && (
-          <div className="bg-blue-900/20 border border-blue-600/30 rounded-xl p-4 mb-8">
-            <p className="text-slate-300 leading-relaxed">
+          <div className="bg-blue-950/50 border border-blue-800 rounded-xl p-4 mb-8">
+            <p className="leading-relaxed">
               Nota: No se incluyeron los Pokémon que no aparecen de forma salvaje en el mapa. La rareza indica la probabilidad de que el Pokémon lleve el objeto.
             </p>
           </div>
@@ -197,17 +197,31 @@ const Items = () => {
               placeholder={activeTab === 'map' ? 'Buscar por nombre o ubicación...' : 'Buscar por objeto o Pokémon...'}
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="w-full px-4 py-3 pr-12 text-slate-100 bg-slate-800 rounded-lg shadow-lg font-medium 
-                border-none outline-none focus:outline-none focus:border-none focus:ring-0 placeholder:text-slate-500"
+              className="w-full px-4 py-3 pr-12 text-blue-100 bg-blue-900 rounded-lg font-medium outline-none
+                placeholder:text-blue-300/60
+                [&::-webkit-search-cancel-button]:appearance-none"
             />
-            <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
-              <svg className="h-5 w-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
+            <div className="absolute inset-y-0 right-0 pr-3 flex items-center">
+              {search ? (
+                <button
+                  type="button"
+                  onClick={() => setSearch("")}
+                  aria-label="Borrar búsqueda"
+                  className="p-1 rounded-full text-blue-300 hover:text-blue-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100"
+                >
+                  <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              ) : (
+                <svg className="h-5 w-5 text-blue-300 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              )}
             </div>
           </div>
           {search && (
-            <p className="text-center mt-2 text-sm text-blue-400 font-semibold">
+            <p className="text-center mt-2 text-sm text-blue-300 font-medium">
               {currentList.length} resultado{currentList.length !== 1 ? 's' : ''} encontrado{currentList.length !== 1 ? 's' : ''}
             </p>
           )}
@@ -215,32 +229,31 @@ const Items = () => {
 
         {/* Grid de items */}
         {currentList.length === 0 ? (
-          <div className="text-center py-12">
-            <div className="text-4xl mb-3">🔍</div>
-            <p className="text-slate-400 font-semibold">No se encontraron resultados para "{search}"</p>
-          </div>
+          <p className="text-center py-12 text-blue-300 font-medium">
+            No se encontraron resultados para "{search}"
+          </p>
         ) : (
           <>
-            {/* OBJETOS DEL MAPA - ESTILOS ORIGINALES */}
+            {/* OBJETOS DEL MAPA */}
             {activeTab === 'map' && (
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {visibleList.map((item) => (
                   <div
                     key={item.id}
-                    className="bg-slate-800 rounded-lg shadow-lg shadow-gray-900/30 border border-slate-700 overflow-hidden hover:shadow-blue-900/20 transition-all duration-200"
+                    className="bg-blue-900 border border-blue-800 rounded-lg overflow-hidden transition-shadow hover:shadow-lg hover:shadow-blue-900/40"
                   >
                     {/* Layout horizontal: Imagen ubicación + Info */}
                     <div className="flex items-start gap-4 p-4 pb-3">
 
                       {/* Imagen de ubicación */}
-                      <div className="flex-shrink-0 w-[100px] h-[100px] bg-slate-900 rounded-lg overflow-hidden flex items-center justify-center">
+                      <div className="flex-shrink-0 w-[100px] h-[100px] bg-blue-950 rounded-lg overflow-hidden flex items-center justify-center">
                         <img
                           src={`/images/items/ubicacion/${item.name}.jpg`}
                           alt={`Ubicación ${item.nameES}`}
                           className="w-[100px] h-[100px] object-contain"
                           onError={(e) => {
                             e.target.style.display = 'none';
-                            e.target.parentElement.innerHTML = '<div class="text-slate-600 text-xs">Sin imagen</div>';
+                            e.target.parentElement.innerHTML = '<div class="text-blue-300 text-xs">Sin imagen</div>';
                           }}
                         />
                       </div>
@@ -260,17 +273,16 @@ const Items = () => {
                         </div>
 
                         {/* Descripción */}
-                        <p className="text-xs text-slate-300 leading-relaxed mb-2 line-clamp-3">
+                        <p className="text-xs leading-relaxed mb-2 line-clamp-3">
                           {item.description}
                         </p>
                       </div>
                     </div>
 
-                    {/* Ubicación - Ancho completo */}
+                    {/* Ubicación - Ancho completo (sin el ícono de mapa) */}
                     <div className="px-4 pb-4">
-                      <div className="flex items-center gap-1 text-xs font-semibold text-blue-300 bg-blue-900/30 px-2 py-1.5 rounded border border-blue-700/50">
-                        <span>🗺️</span>
-                        <span className="truncate">{item.location}</span>
+                      <div className="text-xs font-medium text-blue-300 bg-blue-950/50 px-2 py-1.5 rounded border border-blue-800 truncate">
+                        {item.location}
                       </div>
                     </div>
                   </div>
@@ -284,7 +296,7 @@ const Items = () => {
                 {visibleList.map((item) => (
                   <div
                     key={item.id}
-                    className="bg-slate-800 rounded-lg shadow-lg shadow-gray-900/30 border border-slate-700 overflow-hidden hover:shadow-blue-900/20 transition-all duration-200"
+                    className="bg-blue-900 border border-blue-800 rounded-lg overflow-hidden transition-shadow hover:shadow-lg hover:shadow-blue-900/40"
                   >
                     {/* Header con icono y nombre del objeto */}
                     <div className="p-4 pb-3">
@@ -303,7 +315,7 @@ const Items = () => {
                       </div>
 
                       {/* Descripción */}
-                      <p className="text-xs text-slate-300 leading-relaxed mb-2 line-clamp-3">
+                      <p className="text-xs text-blue-300 leading-relaxed mb-2 line-clamp-3">
                         {item.itemDescription}
                       </p>
                     </div>
@@ -311,10 +323,10 @@ const Items = () => {
                     {/* Footer con Pokémon y rareza */}
                     <div className="px-4 pb-4">
                       <div className="flex items-center justify-between gap-2">
-                        <div className="flex items-center gap-1 text-xs font-semibold text-blue-300 bg-blue-900/30 px-2 py-1.5 rounded border border-blue-700/50 flex-1 min-w-0">
-                          <span className="truncate">{item.pokemonName}</span>
+                        <div className="text-xs font-medium text-blue-300 bg-blue-950/50 px-2 py-1.5 rounded border border-blue-800 flex-1 min-w-0 truncate">
+                          {item.pokemonName}
                         </div>
-                        <span className={`${getRarityColor(item.rarity)} text-white text-xs font-bold px-2 py-1 rounded flex-shrink-0`}>
+                        <span className={`${getRarityColor(item.rarity)} text-white text-xs font-semibold px-2 py-1 rounded flex-shrink-0`}>
                           {item.rarity}
                         </span>
                       </div>
@@ -327,8 +339,8 @@ const Items = () => {
             {/* Sentinel para cargar más */}
             {hasMore && (
               <div ref={loadMoreRef} className="mt-8 flex flex-col items-center gap-3">
-                <div className="inline-block animate-spin rounded-full h-6 w-6 border-3 border-blue-500 border-t-transparent"></div>
-                <p className="text-slate-500 text-sm">
+                <div className="inline-block animate-spin rounded-full h-6 w-6 border-3 border-blue-300 border-t-transparent"></div>
+                <p className="text-blue-300 text-sm">
                   Mostrando {visibleCount} de {currentList.length}
                 </p>
               </div>
