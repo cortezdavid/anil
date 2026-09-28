@@ -12,7 +12,7 @@ const PokemonBaseStats = ({ pokemon }) => {
 
   return (
     <div className="max-w-4xl mx-auto">
-      <div className="bg-slate-800 rounded-2xl p-6">
+      <div className="rounded-2xl p-6">
         <div className="space-y-4">
           {stats.map((stat, index) => (
             <div key={index} className="grid grid-cols-[100px_50px_1fr] gap-4 items-center">
@@ -23,7 +23,7 @@ const PokemonBaseStats = ({ pokemon }) => {
                 {stat.value}
               </span>
               <div className="relative">
-                <div className="bg-slate-700 rounded-full h-4 overflow-hidden">
+                <div className="bg-blue-950 rounded-full h-4 overflow-hidden">
                   <div
                     className={`${stat.color} h-full rounded-full transition-all duration-500 ease-out flex items-center justify-end pr-2`}
                     style={{ width: `${Math.min((stat.value / 255) * 100, 100)}%` }}
@@ -40,11 +40,11 @@ const PokemonBaseStats = ({ pokemon }) => {
               <span className="text-base font-black text-slate-100 text-right">
                 Total
               </span>
-              <span className="text-base font-black text-blue-400 text-center">
+              <span className="text-base font-black text--400 text-center">
                 {total}
               </span>
               <div className="relative">
-                <div className="bg-slate-700 rounded-full h-5 overflow-hidden">
+                <div className="bg-blue-950 rounded-full h-5 overflow-hidden">
                   <div
                     className="bg-gradient-to-r from-blue-500 to-purple-600 h-full rounded-full transition-all duration-700 ease-out flex items-center justify-end pr-2"
                     style={{ width: `${Math.min((total / 720) * 100, 100)}%` }}
