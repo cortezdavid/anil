@@ -12,29 +12,25 @@ const DonProdigio = () => {
   });
 
   const [search, setSearch] = useState("");
-  const [suggestions, setSuggestions] = useState([]);
   const [selectedPokemon, setSelectedPokemon] = useState(null);
+  // 'give': tengo este Pokémon y lo doy → veo qué puedo recibir
+  // 'receive': quiero este Pokémon → veo qué podría dar para recibirlo
+  const [mode, setMode] = useState('give');
 
-  const handleChange = (e) => {
-    const value = e.target.value;
-    setSearch(value);
-
-    if (value.length > 0) {
-      const filtered = pokemonesData.pokemones
-        .filter(p => p.name.toLowerCase().includes(value.toLowerCase()))
-        .slice(0, 10);
-      setSuggestions(filtered);
-    } else {
-      setSuggestions([]);
-    }
-  };
+  const term = search.trim().toLowerCase();
+  const suggestions = term
+    ? pokemonesData.pokemones
+        .filter(p => p.name.toLowerCase().includes(term))
+        .slice(0, 10)
+    : [];
 
   const handleClick = (pokemon) => {
     setSelectedPokemon(pokemon);
     setSearch("");
-    setSuggestions([]);
-    window.scrollTo({ top: 0, behavior: 'smooth' }); // ← Esta línea
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
+
+  const handleClear = () => setSearch("");
 
   const handleKeyDown = (e) => {
     if (e.key === 'Enter' && suggestions.length > 0) {
@@ -49,32 +45,60 @@ const DonProdigio = () => {
     return hp + attack + defense + specialAttack + specialDefense + speed;
   };
 
-  // Buscar pokémon similares (±10%) - ordenados por aparición en JSON
+  // Buscar pokémon dentro del ±10% - ordenados por aparición en JSON
   const similarPokemon = useMemo(() => {
     if (!selectedPokemon) return [];
 
     const selectedTotal = getTotalStats(selectedPokemon);
-    const tenPercent = selectedTotal * 0.1;
-    const minRange = selectedTotal - tenPercent;
-    const maxRange = selectedTotal + tenPercent;
+
+    // Modo "doy este Pokémon": el resultado debe estar dentro del ±10% del elegido
+    // Modo "quiero este Pokémon": es la relación inversa, el rango queda más ancho
+    const [minRange, maxRange] = mode === 'give'
+      ? [selectedTotal * 0.9, selectedTotal * 1.1]
+      : [selectedTotal / 1.1, selectedTotal / 0.9];
 
     return pokemonesData.pokemones
       .filter(pokemon => {
         const total = getTotalStats(pokemon);
         return total >= minRange && total <= maxRange && pokemon.id !== selectedPokemon.id;
       });
-  }, [selectedPokemon]);
+  }, [selectedPokemon, mode]);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-gray-900">
+    <div className="min-h-screen bg-blue-950 text-blue-100">
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <h1 className="text-4xl font-black text-slate-100 mb-6 uppercase tracking-wider drop-shadow-sm">
+        <h1 className="text-4xl font-bold mb-6">
           Don Prodigio
         </h1>
 
-        <div className="bg-blue-900/20 border border-blue-600/30 rounded-xl p-4 mb-8">
-          <p className="text-slate-300 leading-relaxed">
-            Nota: No es compatible con el modo Random. Acá no están incluidas las formas alternativas de los Pokémon para los intercambios.</p>
+        <div className="bg-blue-950/50 border border-blue-800 rounded-xl p-4 mb-8">
+          <p className="leading-relaxed">
+            Nota: No es compatible con el modo Random. Acá no están incluidas las formas alternativas de los Pokémon para los intercambios.
+          </p>
+        </div>
+
+        {/* Modo: tengo este Pokémon / quiero este Pokémon */}
+        <div className="flex gap-4 mb-6">
+          <button
+            type="button"
+            onClick={() => setMode('give')}
+            className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-colors ${mode === 'give'
+              ? 'bg-blue-700 text-blue-100'
+              : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50 border border-blue-800'
+              }`}
+          >
+            Tengo este Pokémon
+          </button>
+          <button
+            type="button"
+            onClick={() => setMode('receive')}
+            className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-colors ${mode === 'receive'
+              ? 'bg-blue-700 text-blue-100'
+              : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50 border border-blue-800'
+              }`}
+          >
+            Quiero este Pokémon
+          </button>
         </div>
 
         {/* Buscador */}
@@ -90,46 +114,62 @@ const DonProdigio = () => {
               autoCapitalize="off"
               spellCheck="false"
               data-form-type="other"
-              placeholder="Buscar Pokémon para dar..."
+              placeholder={mode === 'give' ? "Buscar Pokémon para dar..." : "Buscar el Pokémon que quieres..."}
               value={search}
-              onChange={handleChange}
+              onChange={(e) => setSearch(e.target.value)}
               onKeyDown={handleKeyDown}
-              className="w-full px-4 py-3 pr-12 text-slate-100 bg-slate-800 rounded-lg shadow-lg font-medium 
-                border-none outline-none focus:outline-none focus:border-none focus:ring-0 placeholder:text-slate-500"
+              className="w-full px-4 py-3 pr-12 text-blue-100 bg-blue-900 rounded-lg font-medium outline-none
+                placeholder:text-blue-300/60
+                [&::-webkit-search-cancel-button]:appearance-none"
             />
-            <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
-              <svg className="h-5 w-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
+            <div className="absolute inset-y-0 right-0 pr-3 flex items-center">
+              {search ? (
+                <button
+                  type="button"
+                  onClick={handleClear}
+                  aria-label="Borrar búsqueda"
+                  className="p-1 rounded-full text-blue-300 hover:text-blue-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100"
+                >
+                  <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              ) : (
+                <svg className="h-5 w-5 text-blue-300 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              )}
             </div>
 
             {/* Sugerencias */}
-            {suggestions.length > 0 && (
-              <div className="absolute z-50 w-full mt-2 bg-slate-800 rounded-lg shadow-2xl max-h-80 overflow-y-auto border border-slate-700">
-                <ul className="py-2">
-                  {suggestions.map(pokemon => (
-                    <li
-                      key={pokemon.id}
-                      onClick={() => handleClick(pokemon)}
-                      className="px-4 py-2 hover:bg-slate-700 cursor-pointer transition-colors duration-150 flex items-center justify-between"
-                    >
-                      <span className="text-slate-200 font-semibold capitalize">
-                        {pokemon.name}
-                      </span>
-                      <div className="w-16 h-16 overflow-hidden flex-shrink-0">
-                        <img
-                          src={`/images/icons/${pokemon.id}.png`}
-                          alt={pokemon.name}
-                          loading="lazy"
-                          className="w-32 h-16 object-cover object-left"
-                          onError={(e) => {
-                            e.target.style.display = 'none';
-                          }}
-                        />
-                      </div>
-                    </li>
-                  ))}
-                </ul>
+            {term && (
+              <div className="absolute z-50 w-full mt-2 max-h-80 overflow-y-auto rounded-lg border border-blue-800 bg-blue-900 shadow-2xl">
+                {suggestions.length > 0 ? (
+                  <ul className="py-2">
+                    {suggestions.map(pokemon => (
+                      <li key={pokemon.id}>
+                        <button
+                          type="button"
+                          onClick={() => handleClick(pokemon)}
+                          className="w-full flex items-center justify-between gap-3 px-4 py-2 text-left hover:bg-blue-800/50 transition-colors duration-150"
+                        >
+                          <span className="font-semibold capitalize">{pokemon.name}</span>
+                          <span className="w-16 h-16 overflow-hidden flex-shrink-0">
+                            <img
+                              src={`/images/icons/${pokemon.id}.png`}
+                              alt=""
+                              loading="lazy"
+                              className="w-32 h-16 object-cover object-left"
+                              onError={(e) => { e.target.style.display = 'none'; }}
+                            />
+                          </span>
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="px-4 py-3 text-blue-300">No hay ningún Pokémon con ese nombre.</p>
+                )}
               </div>
             )}
           </div>
@@ -139,11 +179,11 @@ const DonProdigio = () => {
         {selectedPokemon ? (
           <div className="space-y-6">
             {/* Info del Pokémon seleccionado */}
-            <div className="bg-slate-800 rounded-xl shadow-lg p-6 border border-slate-700">
+            <div className="bg-blue-900 border border-blue-800 rounded-xl p-6">
               <div className="flex flex-col md:flex-row gap-6">
                 {/* Sprite del Pokémon */}
                 <div className="flex justify-center md:justify-start">
-                  <div className="bg-slate-900 rounded-lg p-4 border border-slate-700">
+                  <div className="bg-blue-950 rounded-lg p-4 border border-blue-800">
                     <PokemonStaticSprite
                       img={selectedPokemon.image}
                       size={128}
@@ -153,10 +193,10 @@ const DonProdigio = () => {
 
                 {/* Información */}
                 <div className="flex-1">
-                  <h2 className="text-2xl font-black text-slate-100 mb-4">
+                  <h2 className="text-2xl font-semibold mb-4">
                     {selectedPokemon.name}
                   </h2>
-                  <div className="text-slate-300 space-y-2">
+                  <div className="space-y-2">
                     <div className="mt-4 text-sm grid grid-cols-2 gap-2">
                       <p><strong>HP:</strong> {selectedPokemon.baseStats.hp}</p>
                       <p><strong>Ataque:</strong> {selectedPokemon.baseStats.attack}</p>
@@ -166,8 +206,8 @@ const DonProdigio = () => {
                       <p><strong>Velocidad:</strong> {selectedPokemon.baseStats.speed}</p>
                     </div>
                     <p className="text-lg">
-                      <strong className="text-slate-100">Estadística Total:</strong>{' '}
-                      <span className="font-black text-blue-400">
+                      <strong>Estadística Total:</strong>{' '}
+                      <span className="font-bold text-blue-300">
                         {getTotalStats(selectedPokemon)}
                       </span>
                     </p>
@@ -177,50 +217,50 @@ const DonProdigio = () => {
             </div>
 
             {/* Pokémon similares */}
-            <div className="bg-slate-800 rounded-xl shadow-lg p-6 border border-slate-700">
-              <h3 className="text-xl font-black text-slate-100 mb-4">
-                {similarPokemon.length} Pokémon posibles que puedes recibir a cambio de {selectedPokemon.name}
+            <div className="bg-blue-900 border border-blue-800 rounded-xl p-6">
+              <h3 className="text-xl font-semibold mb-4">
+                {mode === 'give'
+                  ? `${similarPokemon.length} Pokémon posibles que puedes recibir a cambio de ${selectedPokemon.name}`
+                  : `${similarPokemon.length} Pokémon posibles que podrías dar para recibir a ${selectedPokemon.name}`}
               </h3>
 
               {similarPokemon.length > 0 ? (
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-8 gap-4">
                   {similarPokemon.map(pokemon => (
-                    <div
+                    <button
                       key={pokemon.id}
-                      className="bg-slate-700 rounded-lg p-3 flex flex-col items-center hover:bg-slate-600 transition-colors cursor-pointer"
+                      type="button"
                       onClick={() => handleClick(pokemon)}
+                      className="bg-blue-950/50 border border-blue-800 rounded-lg p-3 flex flex-col items-center hover:bg-blue-800/50 transition-colors"
                     >
-                      <div className="w-16 h-16 overflow-hidden flex-shrink-0 mb-2">
+                      <span className="w-16 h-16 overflow-hidden flex-shrink-0 mb-2">
                         <img
                           src={`/images/icons/${pokemon.id}.png`}
-                          alt={pokemon.name}
+                          alt=""
                           loading="lazy"
                           className="w-32 h-16 object-cover object-left"
-                          onError={(e) => {
-                            e.target.style.display = 'none';
-                          }}
+                          onError={(e) => { e.target.style.display = 'none'; }}
                         />
-                      </div>
-                      <span className="text-slate-200 font-semibold text-sm text-center">
+                      </span>
+                      <span className="font-semibold text-sm text-center capitalize">
                         {pokemon.name}
                       </span>
-                    </div>
+                    </button>
                   ))}
                 </div>
               ) : (
-                <p className="text-slate-400 text-center py-4">
+                <p className="text-blue-300 text-center py-4">
                   No se encontraron Pokémon similares en este rango
                 </p>
               )}
             </div>
           </div>
         ) : (
-          <div className="text-center py-12">
-            <div className="text-4xl mb-3">🔍</div>
-            <p className="text-slate-400 font-semibold">
-              Busca un pokémon que quieres intercambiar
-            </p>
-          </div>
+          <p className="text-center py-12 text-blue-300 font-medium">
+            {mode === 'give'
+              ? 'Busca un pokémon que quieres intercambiar'
+              : 'Busca el pokémon que quieres recibir'}
+          </p>
         )}
 
         <AutoScrollTop />
