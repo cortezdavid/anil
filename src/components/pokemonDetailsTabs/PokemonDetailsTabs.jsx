@@ -10,96 +10,76 @@ const PokemonDetailsTabs = ({ pokemon, activeTab, setActiveTab }) => {
   const hasMega = Boolean(pokemon?.MegaStore);
   const tabs = [
     { id: "caracteristicas", label: "Características" },
-    {
-      id: "ubicacion",
-      label: hasMega ? "Megapiedra" : "Ubicación",
-    },
+    { id: "ubicacion", label: hasMega ? "Megapiedra" : "Ubicación" },
     { id: "evolucion", label: "Evolución" },
     { id: "estadisticas", label: "Estadísticas" },
     { id: "efectividad", label: "Efectividad" },
     { id: "movimientos", label: "Movimientos" },
   ];
 
-  // Ref para acceder al contenedor de pestañas
   const tabsContainerRef = useRef(null);
   const activeTabRef = useRef(null);
 
-  // Efecto: centrar la pestaña activa automáticamente
+  // Centra la pestaña activa dentro de la barra, sin mover el scroll de la página
+  // (scrollIntoView también puede desplazar la página en vertical)
   useEffect(() => {
-    if (activeTabRef.current && tabsContainerRef.current) {
-      activeTabRef.current.scrollIntoView({
-        behavior: "smooth",
-        inline: "center",
-        block: "nearest",
-      });
-    }
+    const container = tabsContainerRef.current;
+    const tab = activeTabRef.current;
+    if (!container || !tab) return;
+    container.scrollTo({
+      left: tab.offsetLeft - (container.clientWidth - tab.offsetWidth) / 2,
+      behavior: "smooth",
+    });
   }, [activeTab]);
 
   return (
-    <div className="bg-slate-800 rounded-2xl shadow-lg shadow-gray-900/30 overflow-hidden border border-slate-700">
-
-      {/* TABS HEADER */}
-      <div className="relative">
-        <div
-          ref={tabsContainerRef}
-          className="flex border-b border-slate-600 bg-slate-900/50 overflow-x-auto scroll-smooth
-            [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
-        >
-          {tabs.map((tab) => (
+    <div className="overflow-hidden rounded-2xl border border-blue-800 bg-blue-900 text-blue-100">
+      {/* Pestañas (el contenedor es relative para calcular offsetLeft) */}
+      <div
+        ref={tabsContainerRef}
+        role="tablist"
+        aria-label="Información del Pokémon"
+        className="relative flex overflow-x-auto border-b border-blue-800
+          [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
+      >
+        {tabs.map((tab) => {
+          const isActive = activeTab === tab.id;
+          return (
             <button
               key={tab.id}
-              ref={activeTab === tab.id ? activeTabRef : null}
+              ref={isActive ? activeTabRef : null}
+              type="button"
+              role="tab"
+              id={`tab-${tab.id}`}
+              aria-selected={isActive}
+              aria-controls="panel-pokemon"
               onClick={() => setActiveTab(tab.id)}
-              className={`flex-1 min-w-[120px] px-4 py-3 text-sm font-semibold transition-all duration-200 whitespace-nowrap
-                ${activeTab === tab.id
-                  ? "bg-blue-600 text-white shadow-lg shadow-blue-900/50"
-                  : "bg-slate-700 text-slate-300 hover:bg-slate-600"
-                }
-              `}
+              className={`min-w-[120px] flex-1 whitespace-nowrap px-4 py-3 text-sm font-medium transition-colors
+  focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-blue-100
+  ${isActive
+                  ? "bg-blue-700 text-blue-100"
+                  : "text-blue-300 hover:bg-blue-800/50 hover:text-blue-100"
+                }`}
             >
               {tab.label}
             </button>
-          ))}
-        </div>
+          );
+        })}
       </div>
 
-      {/* TAB CONTENT */}
-      <div className="p-6">
-        {activeTab === "caracteristicas" && (
-          <div className="space-y-6">
-            <PokemonInformation pokemon={pokemon} />
-          </div>
-        )}
-
-        {activeTab === "ubicacion" && (
-          <div>
-            <PokemonRoute pokemon={pokemon} />
-          </div>
-        )}
-
-        {activeTab === "evolucion" && (
-          <div>
-            <PokemonEvolution pokemon={pokemon} />
-          </div>
-        )}
-
-        {activeTab === "estadisticas" && (
-          <div>
-            <PokemonBaseStats pokemon={pokemon} />
-          </div>
-        )}
-        {activeTab === "efectividad" && (
-          <div>
-            <PokemonEffectiveness pokemon={pokemon} />
-          </div>
-        )}
-
-        {activeTab === "movimientos" && (
-          // <div className="text-slate-400 text-center py-8">
-          //   <div className="text-xl font-semibold mb-2">Próximamente...</div>
-          // </div>
-          <MovimientosSection pokemon={pokemon} />
-        )}
+      {/* Contenido */}
+      <div
+        role="tabpanel"
+        id="panel-pokemon"
+        aria-labelledby={`tab-${activeTab}`}
+        className="p-4 sm:p-6"
+      >
+        {activeTab === "caracteristicas" && <PokemonInformation pokemon={pokemon} />}
+        {activeTab === "ubicacion" && <PokemonRoute pokemon={pokemon} />}
+        {activeTab === "evolucion" && <PokemonEvolution pokemon={pokemon} />}
+        {activeTab === "estadisticas" && <PokemonBaseStats pokemon={pokemon} />}
+        {activeTab === "efectividad" && <PokemonEffectiveness pokemon={pokemon} />}
+        {activeTab === "movimientos" && <MovimientosSection pokemon={pokemon} />}
       </div>
     </div>
   );
