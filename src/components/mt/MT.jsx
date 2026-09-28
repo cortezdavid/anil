@@ -16,16 +16,10 @@ const MT = () => {
 
   const mts = mtData.mt;
   const moves = movesData.moves;
-  const [openMT, setOpenMT] = useState(null);
   const [search, setSearch] = useState("");
+  const [selectedId, setSelectedId] = useState(null);
 
-  const getMoveData = (moveId) => {
-    return moves.find(m => m.id === moveId);
-  };
-
-  const toggleMT = (mtId) => {
-    setOpenMT(openMT === mtId ? null : mtId);
-  };
+  const getMoveData = (moveId) => moves.find(m => m.id === moveId);
 
   // Filtrar MTs según búsqueda
   const filteredMTs = mts.filter(mt => {
@@ -40,28 +34,15 @@ const MT = () => {
     );
   });
 
+  const selectedMT = mts.find(mt => mt.id === selectedId);
+  const selectedMove = selectedMT ? getMoveData(selectedMT.move) : null;
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-gray-900">
+    <div className="min-h-screen bg-blue-950 text-blue-100">
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <h1 className="text-4xl font-black text-slate-100 mb-6 uppercase tracking-wider drop-shadow-sm">
+        <h1 className="text-4xl font-bold mb-6">
           Máquinas Técnicas
         </h1>
-
-        {/* alert */}
-        {/* <div className="max-w-7xl mx-auto px-4 mb-6">
-          <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded-r-lg shadow-sm">
-            <div className="flex items-start">
-              <div className="ml-3">
-                <p className="text-sm font-medium text-yellow-800">
-                  ⚠️¡Aviso importante!
-                </p>
-                <p className="text-sm font-medium text-yellow-700 mt-1">
-                  Ahora estamos en guianil.pages.dev (ya estas! no necesitas redireccionar) . Posiblemente será la dirección principal y, si esto sucede, la versión anterior (guianil.vercel.app) dejará de estar disponible.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> */}
 
         {/* Buscador */}
         <div className="mb-6">
@@ -79,131 +60,140 @@ const MT = () => {
               placeholder="Buscar por nombre, MT o ubicación..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
-              className="w-full px-4 py-3 pr-12 text-slate-100 bg-slate-800 rounded-lg shadow-lg font-medium 
-             border-none outline-none focus:outline-none focus:border-none focus:ring-0 placeholder:text-slate-500"           />
-            <div className="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none">
-              <svg className="h-5 w-5 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
+              className="w-full px-4 py-3 pr-12 text-lg text-blue-100 bg-blue-900 rounded-lg font-medium outline-none
+             placeholder:text-blue-300/60 
+             [&::-webkit-search-cancel-button]:appearance-none"/>
+            <div className="absolute inset-y-0 right-0 pr-3 flex items-center">
+              {search ? (
+                <button
+                  type="button"
+                  onClick={() => setSearch("")}
+                  aria-label="Borrar búsqueda"
+                  className="p-1 rounded-full text-blue-300 hover:text-blue-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100"
+                >
+                  <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              ) : (
+                <svg className="h-5 w-5 text-blue-300 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+              )}
             </div>
           </div>
           {search && (
-            <p className="text-center mt-2 text-sm text-blue-400 font-semibold">
+            <p className="text-center mt-2 text-sm text-blue-300 font-medium">
               {filteredMTs.length} resultado{filteredMTs.length !== 1 ? 's' : ''} encontrado{filteredMTs.length !== 1 ? 's' : ''}
             </p>
           )}
         </div>
 
-        <div className="space-y-4">
-          {filteredMTs.length === 0 ? (
-            <div className="text-center py-12">
-              <div className="text-4xl mb-3">🔍</div>
-              <p className="text-slate-400 font-semibold">No se encontraron resultados para "{search}"</p>
-            </div>
-          ) : (
-            filteredMTs.map(mt => {
+        {/* Lista: queda fija en su lugar, no se empuja al abrir un detalle */}
+        {filteredMTs.length === 0 ? (
+          <p className="text-center py-12 text-blue-300 font-medium">
+            No se encontraron resultados para "{search}"
+          </p>
+        ) : (
+          <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            {filteredMTs.map(mt => {
               const moveData = getMoveData(mt.move);
               if (!moveData) return null;
 
-              const isOpen = openMT === mt.id;
-
               return (
-                <div key={mt.id} className="bg-slate-800 rounded-xl shadow-lg shadow-gray-900/30 overflow-hidden">
-                  {/* Header clickeable */}
+                <li key={mt.id}>
                   <button
-                    onClick={() => toggleMT(mt.id)}
-                    className="w-full p-4 flex items-center justify-between hover:bg-slate-700 transition-colors duration-200"
+                    type="button"
+                    onClick={() => setSelectedId(mt.id)}
+                    className="w-full flex items-center gap-3 rounded-lg bg-blue-900 px-4 py-3 text-left hover:bg-blue-800/50 transition-colors cursor-pointer"
                   >
-                    <div className="flex items-center space-x-4">
-                      {/* ID de la MT */}
-                      <div className="bg-blue-600 text-white font-black px-4 py-2 rounded-lg shadow-md">
-                        {mt.id}
-                      </div>
-
-                      {/* Nombre del movimiento */}
-                      <div className="text-left">
-                        <div className="font-black text-lg text-slate-100">{moveData.name}</div>
-                        <div className="text-sm text-slate-400">{mt.route}</div>
-                      </div>
-                    </div>
-
-                    {/* Tipo y flecha */}
-                    <div className="flex items-center space-x-3">
-                      <span className={`px-3 py-1 rounded-full text-xs font-bold text-white ${getTypeColor(moveData.type)}`}>
-                        {getTypeName(moveData.type)}
-                      </span>
-                      <svg
-                        className={`w-6 h-6 text-blue-400 transform transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                      </svg>
-                    </div>
+                    <span className="shrink-0 rounded-md bg-blue-700 px-2.5 py-1 text-xs font-bold text-blue-100">
+                      {mt.id}
+                    </span>
+                    <span className="min-w-0 flex-1">
+                      <span className="block font-semibold truncate">{moveData.name}</span>
+                      <span className="block text-sm text-blue-300 truncate">{mt.route}</span>
+                    </span>
+                    <span className={`shrink-0 px-2 py-1 rounded text-xs font-semibold text-white ${getTypeColor(moveData.type)}`}>
+                      {getTypeName(moveData.type)}
+                    </span>
                   </button>
-
-                  {/* Contenido expandible */}
-                  {isOpen && (
-                    <div className="bg-gradient-to-br from-slate-700 via-slate-750 to-slate-800 p-6">
-                      <div className="grid md:grid-cols-2 gap-6">
-                        {/* Imagen */}
-                        <div className="bg-slate-800/80 backdrop-blur rounded-lg p-4 shadow-md border border-slate-700">
-                          <img
-                            src={mt.img}
-                            alt={`Ubicación ${mt.id}`}
-                            className="w-full h-auto rounded-lg shadow-lg"
-                          />
-                        </div>
-
-                        {/* Información del movimiento */}
-                        <div className="space-y-4">
-                          {/* Descripción */}
-                          <div className="bg-slate-800/80 backdrop-blur rounded-lg p-4 shadow border border-slate-700">
-                            <p className="text-slate-300 font-medium leading-relaxed">
-                              {moveData.description}
-                            </p>
-                          </div>
-
-                          {/* Stats en lista vertical */}
-                          <div className="bg-slate-800/80 backdrop-blur rounded-lg p-4 shadow border border-slate-700">
-                            <div className="space-y-3">
-                              <div className="flex items-center justify-between pb-3 border-b border-slate-600">
-                                <div className="flex items-center space-x-2">
-                                  <span className="text-sm font-semibold text-slate-300">Categoría</span>
-                                </div>
-                                <span className="text-sm font-black text-slate-100">{moveData.category}</span>
-                              </div>
-
-                              <div className="flex items-center justify-between pb-3 border-b border-slate-600">
-                                <span className="text-sm font-semibold text-slate-300">Poder</span>
-                                <span className="text-xl font-black text-slate-100">
-                                  {moveData.power ? moveData.power : '-'}
-                                </span>
-                              </div>
-
-                              <div className="flex items-center justify-between pb-3 border-b border-slate-600">
-                                <span className="text-sm font-semibold text-slate-300">Precisión</span>
-                                <span className="text-xl font-black text-slate-100">
-                                  {typeof moveData.accuracy === 'number' ? `${moveData.accuracy}%` : '-'}
-                                </span>
-                              </div>
-
-                              <div className="flex items-center justify-between">
-                                <span className="text-sm font-semibold text-slate-300">PP</span>
-                                <span className="text-xl font-black text-slate-100">{moveData.pp}</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  )}
-                </div>
+                </li>
               );
-            })
-          )}
-        </div>
+            })}
+          </ul>
+        )}
+
+        {/* Detalle: se abre encima de todo, la lista de atrás no se mueve */}
+        {selectedMT && selectedMove && (
+          <div
+            role="dialog"
+            aria-modal="true"
+            aria-label={`Detalle de ${selectedMT.id}`}
+            className="fixed inset-0 z-50 flex items-end justify-center bg-blue-950/80 p-0 sm:items-center sm:p-4"
+            onClick={() => setSelectedId(null)}
+          >
+            <div
+              className="max-h-[90vh] w-full max-w-2xl overflow-y-auto rounded-t-2xl border border-blue-800 bg-blue-900 p-6 sm:rounded-2xl"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="flex items-start justify-between gap-3 mb-4">
+                <h2 className="text-2xl font-semibold">{selectedMT.id} {selectedMove.name}</h2>
+                <button
+                  type="button"
+                  onClick={() => setSelectedId(null)}
+                  aria-label="Cerrar"
+                  className="shrink-0 rounded-full p-1.5 text-blue-300 hover:bg-blue-800 hover:text-blue-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100"
+                >
+                  <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
+
+              <span className={`inline-block mb-4 px-3 py-1 rounded-full text-xs font-semibold text-white ${getTypeColor(selectedMove.type)}`}>
+                {getTypeName(selectedMove.type)}
+              </span>
+
+              <div className="grid md:grid-cols-[3fr_2fr] gap-6">
+                {/* Imagen (470x350), aprox. 60% del ancho */}
+                <img
+                  src={selectedMT.img}
+                  alt={`Ubicación ${selectedMT.id}`}
+                  width={470}
+                  height={350}
+                  className="w-full h-auto rounded-lg border border-blue-800"
+                />
+
+                <div className="space-y-4">
+                  <p className="leading-relaxed">{selectedMove.description}</p>
+
+                  <dl className="space-y-3">
+                    <div className="flex items-center justify-between pb-3 border-b border-blue-800">
+                      <dt className="text-sm text-blue-300">Categoría</dt>
+                      <dd className="text-sm font-semibold">{selectedMove.category}</dd>
+                    </div>
+                    <div className="flex items-center justify-between pb-3 border-b border-blue-800">
+                      <dt className="text-sm text-blue-300">Poder</dt>
+                      <dd className="text-xl font-semibold">{selectedMove.power ? selectedMove.power : '-'}</dd>
+                    </div>
+                    <div className="flex items-center justify-between pb-3 border-b border-blue-800">
+                      <dt className="text-sm text-blue-300">Precisión</dt>
+                      <dd className="text-xl font-semibold">
+                        {typeof selectedMove.accuracy === 'number' ? `${selectedMove.accuracy}%` : '-'}
+                      </dd>
+                    </div>
+                    <div className="flex items-center justify-between">
+                      <dt className="text-sm text-blue-300">PP</dt>
+                      <dd className="text-xl font-semibold">{selectedMove.pp}</dd>
+                    </div>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
         <AutoScrollTop />
       </div>
     </div>
