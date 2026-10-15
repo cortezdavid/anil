@@ -168,7 +168,8 @@
           "species": "RATICATE_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "RATICATE1",
@@ -216,7 +217,8 @@
           "species": "RATICATE_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "BLASTOISE1",
@@ -390,7 +392,8 @@
           "species": "PIKACHU_17",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "PIKACHU17",
@@ -465,7 +468,8 @@
       "physicalData": {
         "height": 0.7,
         "weight": 21
-      }
+      },
+      "superShinyPalette": 4
     },
     {
       "id": "RAICHU2",
@@ -572,7 +576,8 @@
           "species": "SANDSLASH_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "SANDSLASH1",
@@ -625,7 +630,8 @@
           "species": "SANDSLASH_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "VULPIX1",
@@ -677,7 +683,8 @@
           "species": "NINETALES_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "NINETALES1",
@@ -732,7 +739,8 @@
           "species": "NINETALES_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 3
     },
     {
       "id": "DIGLETT1",
@@ -780,7 +788,8 @@
           "species": "DUGTRIO_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "DUGTRIO1",
@@ -828,7 +837,8 @@
           "species": "DUGTRIO_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 4
     },
     {
       "id": "MEOWTH1",
@@ -875,7 +885,8 @@
           "species": "PERSIAN_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "MEOWTH2",
@@ -922,7 +933,8 @@
           "species": "PERRSERKER",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "PERSIAN1",
@@ -969,7 +981,8 @@
           "species": "PERSIAN_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "ALAKAZAM1",
@@ -1133,7 +1146,8 @@
           "species": "GOLEM_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "GRAVELER1",
@@ -1195,7 +1209,8 @@
           "species": "GOLEM_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "GOLEM1",
@@ -1259,7 +1274,8 @@
           "species": "GOLEM_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "PONYTA1",
@@ -1304,7 +1320,8 @@
           "species": "RAPIDASH_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "RAPIDASH1",
@@ -1360,7 +1377,8 @@
           "species": "RAPIDASH_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "SLOWPOKE1",
@@ -1408,7 +1426,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "SLOWBRO1",
@@ -1467,7 +1486,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "SLOWBRO2",
@@ -1544,7 +1564,8 @@
           "species": "SIRFETCHD",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 4
     },
     {
       "id": "GRIMER1",
@@ -1600,7 +1621,8 @@
           "species": "MUK_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "MUK1",
@@ -1648,7 +1670,8 @@
           "species": "MUK_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "GENGAR1",
@@ -1765,7 +1788,8 @@
           "species": "ELECTRODE_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "ELECTRODE1",
@@ -1812,7 +1836,8 @@
           "species": "ELECTRODE_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "EXEGGUTOR1",
@@ -1853,7 +1878,8 @@
       "physicalData": {
         "height": 10.9,
         "weight": 415.6
-      }
+      },
+      "superShinyPalette": 6
     },
     {
       "id": "MAROWAK1",
@@ -1895,7 +1921,8 @@
       "physicalData": {
         "height": 1,
         "weight": 34
-      }
+      },
+      "superShinyPalette": 6
     },
     {
       "id": "WEEZING1",
@@ -1937,7 +1964,8 @@
       "physicalData": {
         "height": 3,
         "weight": 16
-      }
+      },
+      "superShinyPalette": 6
     },
     {
       "id": "KANGASKHAN1",
@@ -3924,6 +3952,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 6,
       "pokedex": "Su configuración genética le permite mutar y adaptarse enseguida a cualquier medio."
     },
     {
@@ -4300,7 +4329,8 @@
           "species": "MRRIME",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "ARTICUNO1",
@@ -4338,7 +4368,8 @@
       "physicalData": {
         "height": 1.7,
         "weight": 50.9
-      }
+      },
+      "superShinyPalette": 5
     },
     {
       "id": "MOLTRES1",
@@ -4376,7 +4407,8 @@
       "physicalData": {
         "height": 2,
         "weight": 66
-      }
+      },
+      "superShinyPalette": 5
     },
     {
       "id": "ZAPDOS1",
@@ -4414,7 +4446,8 @@
       "physicalData": {
         "height": 1.6,
         "weight": 58.2
-      }
+      },
+      "superShinyPalette": 4
     },
     {
       "id": "SLOWKING1",
@@ -4465,7 +4498,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "CORSOLA1",
@@ -4511,7 +4545,8 @@
           "species": "CURSOLA",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "ZIGZAGOON1",
@@ -4565,7 +4600,8 @@
           "species": "OBSTAGOON",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 4
     },
     {
       "id": "LINOONE1",
@@ -4627,7 +4663,8 @@
           "species": "OBSTAGOON",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "CASTFORM_1",
@@ -4663,7 +4700,8 @@
       "physicalData": {
         "height": 0.3,
         "weight": 0.8
-      }
+      },
+      "superShinyPalette": 6
     },
     {
       "id": "CASTFORM_2",
@@ -4699,7 +4737,8 @@
       "physicalData": {
         "height": 0.3,
         "weight": 0.8
-      }
+      },
+      "superShinyPalette": 7
     },
     {
       "id": "CASTFORM_3",
@@ -4735,7 +4774,8 @@
       "physicalData": {
         "height": 0.3,
         "weight": 0.8
-      }
+      },
+      "superShinyPalette": 8
     },
     {
       "id": "ROTOM1",
@@ -4765,7 +4805,8 @@
       "physicalData": {
         "height": 0.3,
         "weight": 0.3
-      }
+      },
+      "superShinyPalette": 10
     },
     {
       "id": "ROTOM2",
@@ -4795,7 +4836,8 @@
       "physicalData": {
         "height": 0.3,
         "weight": 0.3
-      }
+      },
+      "superShinyPalette": 3
     },
     {
       "id": "ROTOM3",
@@ -4825,7 +4867,8 @@
       "physicalData": {
         "height": 0.3,
         "weight": 0.3
-      }
+      },
+      "superShinyPalette": 5
     },
     {
       "id": "ROTOM4",
@@ -4855,7 +4898,8 @@
       "physicalData": {
         "height": 0.3,
         "weight": 0.3
-      }
+      },
+      "superShinyPalette": 6
     },
     {
       "id": "ROTOM5",
@@ -4885,7 +4929,8 @@
       "physicalData": {
         "height": 0.3,
         "weight": 0.3
-      }
+      },
+      "superShinyPalette": 7
     },
     {
       "id": "SHAYMIN1",
@@ -4914,7 +4959,8 @@
       "physicalData": {
         "height": 0.4,
         "weight": 5.2
-      }
+      },
+      "superShinyPalette": 6
     },
     {
       "id": "DARUMAKA2",
@@ -4958,7 +5004,8 @@
           "species": "DARMANITAN_2",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "DARMANITAN2",
@@ -4990,7 +5037,8 @@
       "physicalData": {
         "height": 1.3,
         "weight": 92.9
-      }
+      },
+      "superShinyPalette": 8
     },
     {
       "id": "DARMANITAN1",
@@ -5036,7 +5084,8 @@
           "species": "DARMANITAN_2",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "DARMANITAN3",
@@ -5068,7 +5117,8 @@
       "physicalData": {
         "height": 1.7,
         "weight": 120
-      }
+      },
+      "superShinyPalette": 10
     },
     {
       "id": "YAMASK1",
@@ -5112,7 +5162,8 @@
           "species": "RUNERIGUS",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "STUNFISK",
@@ -5142,7 +5193,8 @@
       "physicalData": {
         "height": 0.7,
         "weight": 20.5
-      }
+      },
+      "superShinyPalette": 9
     },
     {
       "id": "AEGISLASH1",
@@ -5202,7 +5254,8 @@
           "species": "AEGISLASH_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "LYCANROC1",
@@ -5257,7 +5310,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "LYCANROC2",
@@ -5308,7 +5362,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "TOXTRICITY1",
@@ -5356,7 +5411,8 @@
           "species": "TOXTRICITY_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "TOXTRICITY2",
@@ -5433,7 +5489,8 @@
           "species": "ARCANINE_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "ARCANINE1",
@@ -5481,7 +5538,8 @@
           "species": "ARCANINE_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 4
     },
     {
       "id": "TAUROS1",
@@ -5512,7 +5570,8 @@
       "physicalData": {
         "height": 1.4,
         "weight": 115
-      }
+      },
+      "superShinyPalette": 10
     },
     {
       "id": "LILLIGANT1",
@@ -5546,7 +5605,8 @@
       "physicalData": {
         "height": 1.2,
         "weight": 19.2
-      }
+      },
+      "superShinyPalette": 8
     },
     {
       "id": "SNEASEL1",
@@ -5594,7 +5654,8 @@
           "species": "SNEASLER",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "AVALUGG1",
@@ -5628,7 +5689,8 @@
       "physicalData": {
         "height": 1.4,
         "weight": 262.4
-      }
+      },
+      "superShinyPalette": 9
     },
     {
       "id": "DECIDUEYE1",
@@ -5668,7 +5730,8 @@
       "physicalData": {
         "height": 1.6,
         "weight": 7.0
-      }
+      },
+      "superShinyPalette": 7
     },
     {
       "id": "WOOPER1",
@@ -5724,7 +5787,8 @@
           "species": "CLODSIRE",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "QWILFISH1",
@@ -5770,7 +5834,8 @@
           "species": "OVERQWIL",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "GIMMIGHOUL1",
@@ -5819,7 +5884,8 @@
           "species": "GHOLDENGO",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 6
     },
     {
       "id": "PALAFIN1",
@@ -5846,7 +5912,8 @@
       "physicalData": {
         "height": 1.8,
         "weight": 97.4
-      }
+      },
+      "superShinyPalette": 3
     },
     {
       "id": "URSALUNA1",
@@ -5877,7 +5944,8 @@
       "physicalData": {
         "height": 2.7,
         "weight": 333.0
-      }
+      },
+      "superShinyPalette": 4
     },
     {
       "id": "SLIGGOO1",
@@ -5925,7 +5993,8 @@
           "species": "GOODRA_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 8
     },
     {
       "id": "GOODRA1",
@@ -5973,7 +6042,8 @@
           "species": "GOODRA_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 4
     },
     {
       "id": "BRAVIARY1",
@@ -6007,7 +6077,8 @@
       "physicalData": {
         "height": 1.7,
         "weight": 43.4
-      }
+      },
+      "superShinyPalette": 7
     },
     {
       "id": "ZORUA1",
@@ -6049,7 +6120,8 @@
           "species": "ZOROARK_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "ZOROARK1",
@@ -6093,7 +6165,8 @@
           "species": "ZOROARK_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 7
     },
     {
       "id": "SAMUROTT1",
@@ -6154,7 +6227,8 @@
           "species": "SAMUROTT_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "TYPHLOSION1",
@@ -6215,7 +6289,8 @@
           "species": "TYPHLOSION_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 10
     },
     {
       "id": "TAUROS2",
@@ -6247,7 +6322,8 @@
       "physicalData": {
         "height": 1.4,
         "weight": 85.0
-      }
+      },
+      "superShinyPalette": 4
     },
     {
       "id": "TAUROS3",
@@ -6279,7 +6355,8 @@
       "physicalData": {
         "height": 1.4,
         "weight": 110.0
-      }
+      },
+      "superShinyPalette": 5
     },
     {
       "id": "WISHIWASHI1",
@@ -6306,7 +6383,8 @@
       "physicalData": {
         "height": 8.2,
         "weight": 78.6
-      }
+      },
+      "superShinyPalette": 6
     },
     {
       "id": "FURFROU7",
@@ -6334,7 +6412,8 @@
       "physicalData": {
         "height": 1.2,
         "weight": 28
-      }
+      },
+      "superShinyPalette": 7
     },
     {
       "id": "FURFROU1",
@@ -6362,7 +6441,8 @@
       "physicalData": {
         "height": 1.2,
         "weight": 28
-      }
+      },
+      "superShinyPalette": 8
     },
     {
       "id": "FURFROU2",
@@ -6390,7 +6470,8 @@
       "physicalData": {
         "height": 1.2,
         "weight": 28
-      }
+      },
+      "superShinyPalette": 9
     },
     {
       "id": "FURFROU3",
@@ -6418,7 +6499,8 @@
       "physicalData": {
         "height": 1.2,
         "weight": 28
-      }
+      },
+      "superShinyPalette": 10
     },
     {
       "id": "FURFROU4",
@@ -6446,7 +6528,8 @@
       "physicalData": {
         "height": 1.2,
         "weight": 28
-      }
+      },
+      "superShinyPalette": 3
     },
     {
       "id": "FURFROU9",
@@ -6474,7 +6557,8 @@
       "physicalData": {
         "height": 1.2,
         "weight": 28
-      }
+      },
+      "superShinyPalette": 9
     },
     {
       "id": "FURFROU5",
@@ -6502,7 +6586,8 @@
       "physicalData": {
         "height": 1.2,
         "weight": 28
-      }
+      },
+      "superShinyPalette": 5
     },
     {
       "id": "FURFROU8",
@@ -6530,7 +6615,8 @@
       "physicalData": {
         "height": 1.2,
         "weight": 28
-      }
+      },
+      "superShinyPalette": 8
     },
     {
       "id": "FURFROU6",
@@ -6558,7 +6644,8 @@
       "physicalData": {
         "height": 1.2,
         "weight": 28
-      }
+      },
+      "superShinyPalette": 6
     },
     {
       "id": "MEOWSTIC1",
@@ -6663,7 +6750,8 @@
       "physicalData": {
         "height": 1.7,
         "weight": 60.8
-      }
+      },
+      "superShinyPalette": 8
     },
     {
       "id": "DEOXYS2",
@@ -6692,7 +6780,8 @@
       "physicalData": {
         "height": 1.7,
         "weight": 60.8
-      }
+      },
+      "superShinyPalette": 9
     },
     {
       "id": "DEOXYS3",
@@ -6721,7 +6810,8 @@
       "physicalData": {
         "height": 1.7,
         "weight": 60.8
-      }
+      },
+      "superShinyPalette": 10
     },
     {
       "id": "GROUDON1",
@@ -6810,7 +6900,8 @@
       "physicalData": {
         "height": 3,
         "weight": 61
-      }
+      },
+      "superShinyPalette": 9
     },
     {
       "id": "LANDORUS1",
@@ -6840,7 +6931,8 @@
       "physicalData": {
         "height": 1.3,
         "weight": 68
-      }
+      },
+      "superShinyPalette": 8
     },
     {
       "id": "TORNADUS1",
@@ -6869,7 +6961,8 @@
       "physicalData": {
         "height": 1.4,
         "weight": 63
-      }
+      },
+      "superShinyPalette": 9
     },
     {
       "id": "ENAMORUS1",
@@ -6902,7 +6995,8 @@
       "physicalData": {
         "height": 1.8,
         "weight": 48
-      }
+      },
+      "superShinyPalette": 10
     },
     {
       "id": "HOOPA1",
@@ -6932,7 +7026,8 @@
       "physicalData": {
         "height": 6.5,
         "weight": 490.0
-      }
+      },
+      "superShinyPalette": 5
     },
     {
       "id": "CALYREX1",
@@ -6962,7 +7057,8 @@
       "physicalData": {
         "height": 2.4,
         "weight": 809.1
-      }
+      },
+      "superShinyPalette": 5
     },
     {
       "id": "CALYREX2",
@@ -6992,7 +7088,8 @@
       "physicalData": {
         "height": 2.4,
         "weight": 53.6
-      }
+      },
+      "superShinyPalette": 6
     },
     {
       "id": "GIRATINA1",
@@ -7055,7 +7152,8 @@
       "physicalData": {
         "height": 7.0,
         "weight": 848.7
-      }
+      },
+      "superShinyPalette": 6
     },
     {
       "id": "PALKIA1",
@@ -7088,7 +7186,8 @@
       "physicalData": {
         "height": 6.3,
         "weight": 659.0
-      }
+      },
+      "superShinyPalette": 8
     },
     {
       "id": "OGERPON1",
@@ -7118,7 +7217,8 @@
       "physicalData": {
         "height": 1.2,
         "weight": 39.8
-      }
+      },
+      "superShinyPalette": 7
     },
     {
       "id": "OGERPON2",
@@ -7148,7 +7248,8 @@
       "physicalData": {
         "height": 1.2,
         "weight": 39.8
-      }
+      },
+      "superShinyPalette": 8
     },
     {
       "id": "OGERPON3",
@@ -7178,7 +7279,8 @@
       "physicalData": {
         "height": 1.2,
         "weight": 39.8
-      }
+      },
+      "superShinyPalette": 9
     },
     {
       "id": "ZAMAZENTA1",
@@ -7206,7 +7308,8 @@
       "physicalData": {
         "height": 2.9,
         "weight": 785.0
-      }
+      },
+      "superShinyPalette": 5
     },
     {
       "id": "ZACIAN1",
@@ -7234,7 +7337,8 @@
       "physicalData": {
         "height": 2.8,
         "weight": 355.0
-      }
+      },
+      "superShinyPalette": 5
     },
     {
       "id": "MINIOR7",
@@ -7264,7 +7368,8 @@
       "physicalData": {
         "height": 0.3,
         "weight": 40
-      }
+      },
+      "superShinyPalette": 7
     },
     {
       "id": "EISCUE1",
@@ -7293,7 +7398,8 @@
       "physicalData": {
         "height": 1.4,
         "weight": 89
-      }
+      },
+      "superShinyPalette": 7
     },
     {
       "id": "INDEEDEE1",
@@ -7324,7 +7430,8 @@
       "physicalData": {
         "height": 0.9,
         "weight": 28
-      }
+      },
+      "superShinyPalette": 3
     },
     {
       "id": "OINKOLOGNE1",
@@ -7371,7 +7478,8 @@
           "species": "OINKOLOGNE_1",
           "evolvesTo": null
         }
-      ]
+      ],
+      "superShinyPalette": 9
     },
     {
       "id": "KYUREM2",
@@ -7401,7 +7509,8 @@
       "physicalData": {
         "height": 3.3,
         "weight": 325
-      }
+      },
+      "superShinyPalette": 5
     },
     {
       "id": "KYUREM1",
@@ -7431,7 +7540,8 @@
       "physicalData": {
         "height": 3.6,
         "weight": 325
-      }
+      },
+      "superShinyPalette": 4
     },
     {
       "id": "ZYGARDE1",
@@ -7461,7 +7571,8 @@
       "physicalData": {
         "height": 1.2,
         "weight": 33.5
-      }
+      },
+      "superShinyPalette": 10
     },
     {
       "id": "ZYGARDE2",
@@ -7489,7 +7600,8 @@
       "physicalData": {
         "height": 4.5,
         "weight": 610.0
-      }
+      },
+      "superShinyPalette": 3
     },
     {
       "id": "ZYGARDE4",
@@ -7550,7 +7662,8 @@
       "physicalData": {
         "height": 3.8,
         "weight": 460.0
-      }
+      },
+      "superShinyPalette": 6
     },
     {
       "id": "NECROZMA2",
@@ -7580,7 +7693,8 @@
       "physicalData": {
         "height": 4.2,
         "weight": 350.0
-      }
+      },
+      "superShinyPalette": 7
     },
     {
       "id": "URSHIFU1",
@@ -7627,7 +7741,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 5
     },
     {
       "id": "CLEFABLE1",
@@ -8196,6 +8311,7 @@
         "height": 0.2,
         "weight": 0.9
       },
+      "superShinyPalette": 4,
       "pokedex": "Hoy en día, la flor que lleva ya no se ve en la naturaleza. Se cree que alberga un temible poder."
     },
     {
@@ -8645,6 +8761,7 @@
           ]
         }
       ],
+      "superShinyPalette": 6,
       "pokedex": "Cuando Burmy evolucionó, su caparazón pasó a formar parte de este Pokémon. Los materiales que encuentra pasan a formar parte de su cuerpo."
     },
     {
@@ -8693,6 +8810,7 @@
           ]
         }
       ],
+      "superShinyPalette": 7,
       "pokedex": "Cuando Burmy evolucionó, su caparazón pasó a formar parte de este Pokémon. Los materiales que encuentra pasan a formar parte de su cuerpo."
     },
     {
@@ -8735,6 +8853,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 8,
       "pokedex": "Las almas errantes de este mundo se introducen en su cuerpo e inician así su viaje al más allá."
     },
     {
@@ -8777,6 +8896,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 9,
       "pokedex": "Se atribuye su gran tamaño al hecho de haber vivido en un lugar donde no escaseaban las almas errantes."
     },
     {
@@ -8819,6 +8939,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 10,
       "pokedex": "Se atribuye su enorme tamaño al hecho de haber vivido en un lugar donde abundaban las almas errantes."
     },
     {
@@ -8861,6 +8982,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 5,
       "pokedex": "Se dice que los espeluznantes alaridos que emite bien entrada la noche son los lamentos de almas en pena desde el más allá."
     },
     {
@@ -8903,6 +9025,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 6,
       "pokedex": "Los Gourgeist Tamaño Grande se hacen pasar por adultos para tomar a los niños de la mano y llevárselos al otro mundo."
     },
     {
@@ -8945,6 +9068,7 @@
           "evolvesTo": null
         }
       ],
+      "superShinyPalette": 7,
       "pokedex": "Los Gourgeist tamaño Extragrande se llevan a cualquiera al otro mundo, pues nadie puede resistir su fuerza."
     },
     {
@@ -8973,6 +9097,7 @@
         "height": 0.6,
         "weight": 3.4
       },
+      "superShinyPalette": 6,
       "pokedex": "Crea una carga eléctrica al frotar sus plumas. Baila hacia sus enemigos y les lanza impactantes golpes eléctricos."
     },
     {
@@ -9001,6 +9126,7 @@
         "height": 0.6,
         "weight": 3.4
       },
+      "superShinyPalette": 7,
       "pokedex": "Este Oricorio se relaja balanceándose suavemente. Esto aumenta su energía psíquica, que luego dispara a sus enemigos."
     },
     {
@@ -9029,6 +9155,7 @@
         "height": 0.6,
         "weight": 3.4
       },
+      "superShinyPalette": 8,
       "pokedex": "Convoca a los muertos con su danza de ensueño. De su malicia extrae poder para maldecir a sus enemigos."
     },
     {
@@ -9058,6 +9185,7 @@
         "height": 0.6,
         "weight": 6.5
       },
+      "superShinyPalette": 9,
       "pokedex": "Se han creado innumerables canciones inspiradas en las melodías que emite Meloetta."
     },
     {
@@ -9085,6 +9213,7 @@
         "height": 0.3,
         "weight": 16
       },
+      "superShinyPalette": 7,
       "pokedex": "Cuando presiente peligro, se prepara para combatir formando un caparazón de cristales muy resistente mediante la teracristalización."
     },
     {
@@ -9115,6 +9244,7 @@
         "height": 1,
         "weight": 18
       },
+      "superShinyPalette": 7,
       "pokedex": "Los Basculin con la raya roja y aquellos con la raya azul se llevan fatal, pero algunos tienden a agruparse."
     },
     {
@@ -9145,6 +9275,7 @@
         "height": 1,
         "weight": 18
       },
+      "superShinyPalette": 8,
       "pokedex": "Los Basculin con la raya roja y aquellos con la raya azul se llevan fatal, pero algunos tienden a agruparse."
     },
     {
@@ -9194,7 +9325,8 @@
             }
           ]
         }
-      ]
+      ],
+      "superShinyPalette": 8
     }
   ]
 }

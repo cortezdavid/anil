@@ -4,7 +4,6 @@ import ShinyPokemonCard from "./ShinyPokemonCard";
 import { getTypeColor, getTypeName } from "../../utils/typeHelpers";
 import Tooltip from '../tooltip/Tooltip';
 
-// Botones de formas (base, mega, regionales...): misma clase para todos
 const formButtonClass = (isActive) => `rounded-lg border px-4 py-2 text-sm font-medium transition-colors
   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100
   ${isActive
@@ -22,7 +21,6 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
 
   const hasRealPalette = pokemon.superShinyPalette != null;
 
-  // Pasos reales cuando ya está configurado
   const buildSteps = () => {
     const steps = [
       { label: 'Normal', colorShift: 0 },
@@ -42,10 +40,9 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
   const steps = buildSteps();
   const maxSlider = hasRealPalette ? steps.length - 1 : 10;
 
-  // El colorShift real depende del modo
   const getColorShift = () => {
-    if (!hasRealPalette) return sliderValue;         // modo posibles: directo
-    return steps[sliderValue]?.colorShift ?? 0;      // modo real: desde steps
+    if (!hasRealPalette) return sliderValue;
+    return steps[sliderValue]?.colorShift ?? 0; 
   };
 
   const colorShift = getColorShift();
