@@ -26,7 +26,7 @@ const LoginForm = ({ onLogin }) => {
 
   return (
     <div className="mb-8">
-      <div className="bg-blue-900 border border-blue-800 rounded-xl p-6">
+      <div className="bg-blue-900 rounded-xl p-6">
         <h2 className="text-xl font-semibold mb-4">
           Únete a la conversación
         </h2>
@@ -44,7 +44,7 @@ const LoginForm = ({ onLogin }) => {
               onKeyDown={handleKeyDown}
               placeholder="Escribe tu nombre de usuario..."
               className="w-full px-4 py-3 text-blue-100 bg-blue-950 rounded-lg font-medium
-                       border border-blue-800 outline-none focus-visible:outline focus-visible:outline-2
+                       outline-none focus-visible:outline focus-visible:outline-2
                        focus-visible:outline-offset-2 focus-visible:outline-blue-100
                        placeholder:text-blue-300/60"
               maxLength="20"

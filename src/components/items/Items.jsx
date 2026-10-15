@@ -144,7 +144,7 @@ const Items = () => {
             }}
             className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-colors ${activeTab === 'map'
                 ? 'bg-blue-700 text-blue-100'
-                : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50 border border-blue-800'
+                : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50'
               }`}
           >
             Objetos del Mapa
@@ -156,7 +156,7 @@ const Items = () => {
             }}
             className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-colors ${activeTab === 'pokemon'
                 ? 'bg-blue-700 text-blue-100'
-                : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50 border border-blue-800'
+                : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50'
               }`}
           >
             Objetos de Pokémon
@@ -281,7 +281,7 @@ const Items = () => {
 
                     {/* Ubicación - Ancho completo (sin el ícono de mapa) */}
                     <div className="px-4 pb-4">
-                      <div className="text-xs font-medium text-blue-300 bg-blue-950/50 px-2 py-1.5 rounded border border-blue-800 truncate">
+                      <div className="text-xs font-medium text-blue-300 bg-blue-950/50 px-2 py-1.5 rounded">
                         {item.location}
                       </div>
                     </div>
@@ -323,7 +323,7 @@ const Items = () => {
                     {/* Footer con Pokémon y rareza */}
                     <div className="px-4 pb-4">
                       <div className="flex items-center justify-between gap-2">
-                        <div className="text-xs font-medium text-blue-300 bg-blue-950/50 px-2 py-1.5 rounded border border-blue-800 flex-1 min-w-0 truncate">
+                        <div className="text-xs font-medium text-blue-300 bg-blue-950/50 px-2 py-1.5 rounded flex-1 min-w-0">
                           {item.pokemonName}
                         </div>
                         <span className={`${getRarityColor(item.rarity)} text-white text-xs font-semibold px-2 py-1 rounded flex-shrink-0`}>

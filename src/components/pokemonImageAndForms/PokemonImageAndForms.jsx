@@ -4,11 +4,11 @@ import ShinyPokemonCard from "./ShinyPokemonCard";
 import { getTypeColor, getTypeName } from "../../utils/typeHelpers";
 import Tooltip from '../tooltip/Tooltip';
 
-const formButtonClass = (isActive) => `rounded-lg border px-4 py-2 text-sm font-medium transition-colors
+const formButtonClass = (isActive) => `rounded-lg px-4 py-2 text-sm font-medium transition-colors
   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100
   ${isActive
-    ? 'border-blue-700 bg-blue-700'
-    : 'border-blue-800 bg-blue-950 hover:bg-blue-700'
+    ? 'bg-blue-700'
+    : 'bg-blue-950 hover:bg-blue-700'
   }`;
 
 const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange, handleBaseForm, selectedForm, pokemonId }) => {

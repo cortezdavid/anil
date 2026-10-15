@@ -151,7 +151,7 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
   }
 
   return (
-    <div className="bg-blue-900 border border-blue-800 rounded-xl p-4">
+    <div className="bg-blue-900 rounded-xl p-4">
       {/* Comentario principal */}
       <div className="flex gap-3">
         <div className="w-10 h-10 rounded-full bg-blue-950 flex items-center justify-center text-blue-100 font-bold flex-shrink-0">
@@ -268,7 +268,7 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
                     {reply.username.charAt(0).toUpperCase()}
                   </div>
                   <div className="flex-1 min-w-0">
-                    <div className="bg-blue-950/50 border border-blue-800 rounded-lg p-3">
+                    <div className="bg-blue-950/50 rounded-lg p-3">
                       <div className="flex items-center justify-between mb-1">
                         <div className="flex items-center gap-2">
                           <span className="font-semibold text-xs">

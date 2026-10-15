@@ -169,15 +169,15 @@ const MT = () => {
                   <p className="leading-relaxed">{selectedMove.description}</p>
 
                   <dl className="space-y-3">
-                    <div className="flex items-center justify-between pb-3 border-b border-blue-800">
+                    <div className="flex items-center justify-between pb-3 border-b border-blue-950">
                       <dt className="text-sm text-blue-300">Categoría</dt>
                       <dd className="text-sm font-semibold">{selectedMove.category}</dd>
                     </div>
-                    <div className="flex items-center justify-between pb-3 border-b border-blue-800">
+                    <div className="flex items-center justify-between pb-3 border-b border-blue-950">
                       <dt className="text-sm text-blue-300">Poder</dt>
                       <dd className="text-xl font-semibold">{selectedMove.power ? selectedMove.power : '-'}</dd>
                     </div>
-                    <div className="flex items-center justify-between pb-3 border-b border-blue-800">
+                    <div className="flex items-center justify-between pb-3 border-b border-blue-950">
                       <dt className="text-sm text-blue-300">Precisión</dt>
                       <dd className="text-xl font-semibold">
                         {typeof selectedMove.accuracy === 'number' ? `${selectedMove.accuracy}%` : '-'}

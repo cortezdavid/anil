@@ -17,7 +17,7 @@ const PhotoP = () => {
   const trainerSpots = photos.filter(spot => spot.type === "trainer");
 
   const SpotCard = ({ spot, index }) => (
-    <div className="bg-blue-900 border border-blue-800 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-blue-900/40 transition-all duration-200">
+    <div className="bg-blue-900 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-blue-900/40 transition-all duration-200">
       <div className="relative">
         <img
           src={spot.img}
@@ -45,7 +45,7 @@ const PhotoP = () => {
           Puntos Fotográficos
         </h1>
 
-        <div className="bg-blue-900 border border-blue-800 rounded-xl p-4 mb-8 text-center">
+        <div className="bg-blue-900 rounded-xl p-4 mb-8 text-center">
           <span className="text-2xl font-semibold">
             Total de Fotografías: {photos.length}
           </span>

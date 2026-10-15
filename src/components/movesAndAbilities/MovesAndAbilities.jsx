@@ -82,7 +82,7 @@ const MovesAndAbilities = () => {
             }}
             className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-colors ${activeTab === 'moves'
               ? 'bg-blue-700 text-blue-100'
-              : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50 border border-blue-800'
+              : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50'
               }`}
           >
             Movimientos ({movesData.moves.length})
@@ -94,7 +94,7 @@ const MovesAndAbilities = () => {
             }}
             className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-colors ${activeTab === 'abilities'
               ? 'bg-blue-700 text-blue-100'
-              : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50 border border-blue-800'
+              : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50'
               }`}
           >
             Habilidades ({abilitiesData.abilities.length})
@@ -158,9 +158,9 @@ const MovesAndAbilities = () => {
                 <div
                   key={move.id}
                   onClick={() => setSelectedMove(move)}
-                  className="bg-blue-900 rounded-xl overflow-hidden border border-blue-800 hover:shadow-lg hover:shadow-blue-900/40 transition-all duration-200 cursor-pointer hover:scale-[1.02]"
+                  className="bg-blue-900 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-blue-900/40 transition-all duration-200 cursor-pointer hover:scale-[1.02]"
                 >
-                  <div className="p-4 bg-blue-950/50 border-b border-blue-800">
+                  <div className="p-4 bg-blue-950/50">
                     <div className="flex items-center justify-between mb-2">
                       <h3 className="font-semibold text-lg">{move.name}</h3>
                       <span className={`px-3 py-1 rounded-full text-xs font-semibold text-white ${getTypeColor(move.type)}`}>
@@ -211,9 +211,9 @@ const MovesAndAbilities = () => {
                 <div
                   key={ability.id}
                   onClick={() => setSelectedAbility(ability)}
-                  className="bg-blue-900 rounded-xl overflow-hidden border border-blue-800 hover:shadow-lg hover:shadow-blue-900/40 transition-all duration-200 cursor-pointer hover:scale-[1.02]"
+                  className="bg-blue-900 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-blue-900/40 transition-all duration-200 cursor-pointer hover:scale-[1.02]"
                 >
-                  <div className="p-4 bg-blue-950/50 border-b border-blue-800">
+                  <div className="p-4 bg-blue-950/50">
                     <h3 className="font-semibold text-lg">{ability.name}</h3>
                   </div>
                   <div className="p-4">

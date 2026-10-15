@@ -111,7 +111,6 @@ const PokemonCard = memo(({
 
 PokemonCard.displayName = 'PokemonCard';
 
-// Formatea el id del ícono ("PIKACHU1" -> "PIKACHU_1")
 const formatIconName = (name) => {
   if (!name) return '';
   return name.replace(/(\d+)$/, '_$1');
@@ -229,11 +228,6 @@ const TrainerSection = ({ title, trainers, selectedDifficulty, openTrainer, togg
   );
 };
 
-// Botón de un selector (inicial o dificultad). El color activo es semántico
-// (tipo del inicial o nivel de dificultad), no un acento del sitio.
-// Tailwind necesita ver el nombre completo de cada clase para generarla,
-// así que no se puede armar "bg-" + color + "-600" con una variable: se
-// listan las clases completas de cada color en este mapa.
 const SELECTOR_COLORS = {
   green: { active: 'bg-green-600 text-white', inactive: 'text-green-400' },
   blue: { active: 'bg-blue-600 text-white', inactive: 'text-blue-400' },
@@ -245,7 +239,7 @@ const SelectorButton = ({ active, color, onClick, children }) => {
   return (
     <button
       onClick={onClick}
-      className={`w-full sm:w-auto px-6 py-3 rounded-xl font-semibold transition-colors ${active ? activeClass : `bg-blue-900 border border-blue-800 hover:bg-blue-800/50 ${inactiveClass}`
+      className={`w-full sm:w-auto px-6 py-3 rounded-xl font-semibold transition-colors ${active ? activeClass : `bg-blue-900 hover:bg-blue-800/50 ${inactiveClass}`
         }`}
     >
       {children}

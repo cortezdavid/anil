@@ -82,7 +82,7 @@ const Raids = () => {
             return (
               <div
                 key={raid.id}
-                className="bg-blue-900 border border-blue-800 rounded-xl overflow-hidden"
+                className="bg-blue-900 rounded-xl overflow-hidden"
               >
                 {/* Header del raid — clickeable */}
                 <button

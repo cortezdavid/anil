@@ -137,7 +137,7 @@ const Chat = () => {
           <LoginForm onLogin={loginAnonymously} />
         ) : (
           <div className="mb-8">
-            <div className="bg-blue-900 border border-blue-800 rounded-xl p-6">
+            <div className="bg-blue-900 rounded-xl p-6">
               <div className="flex items-center gap-2 mb-3">
                 <div className="w-8 h-8 rounded-full bg-blue-950 flex items-center justify-center text-blue-100 font-bold text-sm">
                   {username.charAt(0).toUpperCase()}
@@ -152,7 +152,7 @@ const Chat = () => {
                   onKeyDown={handleKeyDown}
                   placeholder="Escribe un comentario..."
                   className="w-full px-4 py-3 text-blue-100 bg-blue-950 rounded-lg font-medium
-                           border border-blue-800 outline-none focus-visible:outline focus-visible:outline-2
+                           outline-none focus-visible:outline focus-visible:outline-2
                            focus-visible:outline-offset-2 focus-visible:outline-blue-100
                            placeholder:text-blue-300/60 resize-none"
                   rows="3"
@@ -172,7 +172,7 @@ const Chat = () => {
                   <button
                     onClick={handleSubmitComment}
                     disabled={!newComment.trim() || sending}
-                    className="px-6 py-2 bg-blue-700 hover:bg-blue-800 disabled:bg-blue-950 disabled:border disabled:border-blue-800 disabled:text-blue-300
+                    className="px-6 py-2 bg-blue-700 hover:bg-blue-800 disabled:bg-blue-950 disabled:text-blue-300
                              disabled:cursor-not-allowed text-blue-100 font-semibold rounded-lg
                              transition-colors duration-200"
                   >

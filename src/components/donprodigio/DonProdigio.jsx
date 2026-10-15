@@ -84,7 +84,7 @@ const DonProdigio = () => {
             onClick={() => setMode('give')}
             className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-colors ${mode === 'give'
               ? 'bg-blue-700 text-blue-100'
-              : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50 border border-blue-800'
+              : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50'
               }`}
           >
             Tengo este Pokémon
@@ -94,7 +94,7 @@ const DonProdigio = () => {
             onClick={() => setMode('receive')}
             className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-colors ${mode === 'receive'
               ? 'bg-blue-700 text-blue-100'
-              : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50 border border-blue-800'
+              : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50'
               }`}
           >
             Quiero este Pokémon
@@ -179,11 +179,11 @@ const DonProdigio = () => {
         {selectedPokemon ? (
           <div className="space-y-6">
             {/* Info del Pokémon seleccionado */}
-            <div className="bg-blue-900 border border-blue-800 rounded-xl p-6">
+            <div className="bg-blue-900 rounded-xl p-6">
               <div className="flex flex-col md:flex-row gap-6">
                 {/* Sprite del Pokémon */}
                 <div className="flex justify-center md:justify-start">
-                  <div className="bg-blue-950 rounded-lg p-4 border border-blue-800">
+                  <div className="bg-blue-950 rounded-lg p-4">
                     <PokemonStaticSprite
                       img={selectedPokemon.image}
                       size={128}
@@ -217,7 +217,7 @@ const DonProdigio = () => {
             </div>
 
             {/* Pokémon similares */}
-            <div className="bg-blue-900 border border-blue-800 rounded-xl p-6">
+            <div className="bg-blue-900 rounded-xl p-6">
               <h3 className="text-xl font-semibold mb-4">
                 {mode === 'give'
                   ? `${similarPokemon.length} Pokémon posibles que puedes recibir a cambio de ${selectedPokemon.name}`
@@ -231,7 +231,7 @@ const DonProdigio = () => {
                       key={pokemon.id}
                       type="button"
                       onClick={() => handleClick(pokemon)}
-                      className="bg-blue-950/50 border border-blue-800 rounded-lg p-3 flex flex-col items-center hover:bg-blue-800/50 transition-colors"
+                      className="bg-blue-950/50 rounded-lg p-3 flex flex-col items-center hover:bg-blue-800/50 transition-colors"
                     >
                       <span className="w-16 h-16 overflow-hidden flex-shrink-0 mb-2">
                         <img
