@@ -112744,6 +112744,1059 @@
       ]
     }
   },
+  "FURFROU1": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 0,
+          "move": "PLAYROUGH"
+        },
+        {
+          "level": 1,
+          "move": "TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "GROWL"
+        },
+        {
+          "level": 5,
+          "move": "SANDATTACK"
+        },
+        {
+          "level": 9,
+          "move": "BABYDOLLEYES"
+        },
+        {
+          "level": 12,
+          "move": "HEADBUTT"
+        },
+        {
+          "level": 15,
+          "move": "TAILWHIP"
+        },
+        {
+          "level": 22,
+          "move": "BITE"
+        },
+        {
+          "level": 27,
+          "move": "ODORSLEUTH"
+        },
+        {
+          "level": 33,
+          "move": "RETALIATE"
+        },
+        {
+          "level": 35,
+          "move": "TAKEDOWN"
+        },
+        {
+          "level": 38,
+          "move": "CHARM"
+        },
+        {
+          "level": 42,
+          "move": "SUCKERPUNCH"
+        },
+        {
+          "level": 48,
+          "move": "COTTONGUARD"
+        }
+      ],
+      "tutorMoves": [
+        "ATTRACT",
+        "CAPTIVATE",
+        "CHARGEBEAM",
+        "CONFIDE",
+        "DARKPULSE",
+        "DIG",
+        "DOUBLETEAM",
+        "ECHOEDVOICE",
+        "ENDEAVOR",
+        "ENDURE",
+        "FACADE",
+        "FLASH",
+        "FRUSTRATION",
+        "GIGAIMPACT",
+        "GRASSKNOT",
+        "HELPINGHAND",
+        "HIDDENPOWER",
+        "HYPERVOICE",
+        "IRONTAIL",
+        "LASTRESORT",
+        "MIMIC",
+        "NATURALGIFT",
+        "PROTECT",
+        "RAINDANCE",
+        "REST",
+        "RETALIATE",
+        "RETURN",
+        "ROAR",
+        "ROCKSMASH",
+        "ROLEPLAY",
+        "ROUND",
+        "SECRETPOWER",
+        "SLEEPTALK",
+        "SNARL",
+        "SNORE",
+        "SUBSTITUTE",
+        "SUNNYDAY",
+        "SURF",
+        "SWAGGER",
+        "THUNDERWAVE",
+        "TOXIC",
+        "UPROAR",
+        "UTURN",
+        "WILDCHARGE",
+        "WORKUP",
+        "ZENHEADBUTT"
+      ],
+      "eggMoves": [
+        "CAPTIVATE",
+        "MIMIC",
+        "REFRESH",
+        "ROLEPLAY",
+        "WORKUP"
+      ]
+    }
+  },
+  "FURFROU2": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 0,
+          "move": "ACROBATICS"
+        },
+        {
+          "level": 1,
+          "move": "TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "GROWL"
+        },
+        {
+          "level": 5,
+          "move": "SANDATTACK"
+        },
+        {
+          "level": 9,
+          "move": "BABYDOLLEYES"
+        },
+        {
+          "level": 12,
+          "move": "HEADBUTT"
+        },
+        {
+          "level": 15,
+          "move": "TAILWHIP"
+        },
+        {
+          "level": 22,
+          "move": "BITE"
+        },
+        {
+          "level": 27,
+          "move": "ODORSLEUTH"
+        },
+        {
+          "level": 33,
+          "move": "RETALIATE"
+        },
+        {
+          "level": 35,
+          "move": "TAKEDOWN"
+        },
+        {
+          "level": 38,
+          "move": "CHARM"
+        },
+        {
+          "level": 42,
+          "move": "SUCKERPUNCH"
+        },
+        {
+          "level": 48,
+          "move": "COTTONGUARD"
+        }
+      ],
+      "tutorMoves": [
+        "ATTRACT",
+        "CAPTIVATE",
+        "CHARGEBEAM",
+        "CONFIDE",
+        "DARKPULSE",
+        "DIG",
+        "DOUBLETEAM",
+        "ECHOEDVOICE",
+        "ENDEAVOR",
+        "ENDURE",
+        "FACADE",
+        "FLASH",
+        "FRUSTRATION",
+        "GIGAIMPACT",
+        "GRASSKNOT",
+        "HELPINGHAND",
+        "HIDDENPOWER",
+        "HYPERVOICE",
+        "IRONTAIL",
+        "LASTRESORT",
+        "MIMIC",
+        "NATURALGIFT",
+        "PROTECT",
+        "RAINDANCE",
+        "REST",
+        "RETALIATE",
+        "RETURN",
+        "ROAR",
+        "ROCKSMASH",
+        "ROLEPLAY",
+        "ROUND",
+        "SECRETPOWER",
+        "SLEEPTALK",
+        "SNARL",
+        "SNORE",
+        "SUBSTITUTE",
+        "SUNNYDAY",
+        "SURF",
+        "SWAGGER",
+        "THUNDERWAVE",
+        "TOXIC",
+        "UPROAR",
+        "UTURN",
+        "WILDCHARGE",
+        "WORKUP",
+        "ZENHEADBUTT"
+      ],
+      "eggMoves": [
+        "CAPTIVATE",
+        "MIMIC",
+        "REFRESH",
+        "ROLEPLAY",
+        "WORKUP"
+      ]
+    }
+  },
+  "FURFROU3": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 0,
+          "move": "ROCKSLIDE"
+        },
+        {
+          "level": 1,
+          "move": "TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "GROWL"
+        },
+        {
+          "level": 5,
+          "move": "SANDATTACK"
+        },
+        {
+          "level": 9,
+          "move": "BABYDOLLEYES"
+        },
+        {
+          "level": 12,
+          "move": "HEADBUTT"
+        },
+        {
+          "level": 15,
+          "move": "TAILWHIP"
+        },
+        {
+          "level": 22,
+          "move": "BITE"
+        },
+        {
+          "level": 27,
+          "move": "ODORSLEUTH"
+        },
+        {
+          "level": 33,
+          "move": "RETALIATE"
+        },
+        {
+          "level": 35,
+          "move": "TAKEDOWN"
+        },
+        {
+          "level": 38,
+          "move": "CHARM"
+        },
+        {
+          "level": 42,
+          "move": "SUCKERPUNCH"
+        },
+        {
+          "level": 48,
+          "move": "COTTONGUARD"
+        }
+      ],
+      "tutorMoves": [
+        "ATTRACT",
+        "CAPTIVATE",
+        "CHARGEBEAM",
+        "CONFIDE",
+        "DARKPULSE",
+        "DIG",
+        "DOUBLETEAM",
+        "ECHOEDVOICE",
+        "ENDEAVOR",
+        "ENDURE",
+        "FACADE",
+        "FLASH",
+        "FRUSTRATION",
+        "GIGAIMPACT",
+        "GRASSKNOT",
+        "HELPINGHAND",
+        "HIDDENPOWER",
+        "HYPERVOICE",
+        "IRONTAIL",
+        "LASTRESORT",
+        "MIMIC",
+        "NATURALGIFT",
+        "PROTECT",
+        "RAINDANCE",
+        "REST",
+        "RETALIATE",
+        "RETURN",
+        "ROAR",
+        "ROCKSMASH",
+        "ROLEPLAY",
+        "ROUND",
+        "SECRETPOWER",
+        "SLEEPTALK",
+        "SNARL",
+        "SNORE",
+        "SUBSTITUTE",
+        "SUNNYDAY",
+        "SURF",
+        "SWAGGER",
+        "THUNDERWAVE",
+        "TOXIC",
+        "UPROAR",
+        "UTURN",
+        "WILDCHARGE",
+        "WORKUP",
+        "ZENHEADBUTT"
+      ],
+      "eggMoves": [
+        "CAPTIVATE",
+        "MIMIC",
+        "REFRESH",
+        "ROLEPLAY",
+        "WORKUP"
+      ]
+    }
+  },
+  "FURFROU4": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 0,
+          "move": "WILDCHARGE"
+        },
+        {
+          "level": 1,
+          "move": "TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "GROWL"
+        },
+        {
+          "level": 5,
+          "move": "SANDATTACK"
+        },
+        {
+          "level": 9,
+          "move": "BABYDOLLEYES"
+        },
+        {
+          "level": 12,
+          "move": "HEADBUTT"
+        },
+        {
+          "level": 15,
+          "move": "TAILWHIP"
+        },
+        {
+          "level": 22,
+          "move": "BITE"
+        },
+        {
+          "level": 27,
+          "move": "ODORSLEUTH"
+        },
+        {
+          "level": 33,
+          "move": "RETALIATE"
+        },
+        {
+          "level": 35,
+          "move": "TAKEDOWN"
+        },
+        {
+          "level": 38,
+          "move": "CHARM"
+        },
+        {
+          "level": 42,
+          "move": "SUCKERPUNCH"
+        },
+        {
+          "level": 48,
+          "move": "COTTONGUARD"
+        }
+      ],
+      "tutorMoves": [
+        "ATTRACT",
+        "CAPTIVATE",
+        "CHARGEBEAM",
+        "CONFIDE",
+        "DARKPULSE",
+        "DIG",
+        "DOUBLETEAM",
+        "ECHOEDVOICE",
+        "ENDEAVOR",
+        "ENDURE",
+        "FACADE",
+        "FLASH",
+        "FRUSTRATION",
+        "GIGAIMPACT",
+        "GRASSKNOT",
+        "HELPINGHAND",
+        "HIDDENPOWER",
+        "HYPERVOICE",
+        "IRONTAIL",
+        "LASTRESORT",
+        "MIMIC",
+        "NATURALGIFT",
+        "PROTECT",
+        "RAINDANCE",
+        "REST",
+        "RETALIATE",
+        "RETURN",
+        "ROAR",
+        "ROCKSMASH",
+        "ROLEPLAY",
+        "ROUND",
+        "SECRETPOWER",
+        "SLEEPTALK",
+        "SNARL",
+        "SNORE",
+        "SUBSTITUTE",
+        "SUNNYDAY",
+        "SURF",
+        "SWAGGER",
+        "THUNDERWAVE",
+        "TOXIC",
+        "UPROAR",
+        "UTURN",
+        "WILDCHARGE",
+        "WORKUP",
+        "ZENHEADBUTT"
+      ],
+      "eggMoves": [
+        "CAPTIVATE",
+        "MIMIC",
+        "REFRESH",
+        "ROLEPLAY",
+        "WORKUP"
+      ]
+    }
+  },
+  "FURFROU5": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 0,
+          "move": "ZENHEADBUTT"
+        },
+        {
+          "level": 1,
+          "move": "TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "GROWL"
+        },
+        {
+          "level": 5,
+          "move": "SANDATTACK"
+        },
+        {
+          "level": 9,
+          "move": "BABYDOLLEYES"
+        },
+        {
+          "level": 12,
+          "move": "HEADBUTT"
+        },
+        {
+          "level": 15,
+          "move": "TAILWHIP"
+        },
+        {
+          "level": 22,
+          "move": "BITE"
+        },
+        {
+          "level": 27,
+          "move": "ODORSLEUTH"
+        },
+        {
+          "level": 33,
+          "move": "RETALIATE"
+        },
+        {
+          "level": 35,
+          "move": "TAKEDOWN"
+        },
+        {
+          "level": 38,
+          "move": "CHARM"
+        },
+        {
+          "level": 42,
+          "move": "SUCKERPUNCH"
+        },
+        {
+          "level": 48,
+          "move": "COTTONGUARD"
+        }
+      ],
+      "tutorMoves": [
+        "ATTRACT",
+        "CAPTIVATE",
+        "CHARGEBEAM",
+        "CONFIDE",
+        "DARKPULSE",
+        "DIG",
+        "DOUBLETEAM",
+        "ECHOEDVOICE",
+        "ENDEAVOR",
+        "ENDURE",
+        "FACADE",
+        "FLASH",
+        "FRUSTRATION",
+        "GIGAIMPACT",
+        "GRASSKNOT",
+        "HELPINGHAND",
+        "HIDDENPOWER",
+        "HYPERVOICE",
+        "IRONTAIL",
+        "LASTRESORT",
+        "MIMIC",
+        "NATURALGIFT",
+        "PROTECT",
+        "RAINDANCE",
+        "REST",
+        "RETALIATE",
+        "RETURN",
+        "ROAR",
+        "ROCKSMASH",
+        "ROLEPLAY",
+        "ROUND",
+        "SECRETPOWER",
+        "SLEEPTALK",
+        "SNARL",
+        "SNORE",
+        "SUBSTITUTE",
+        "SUNNYDAY",
+        "SURF",
+        "SWAGGER",
+        "THUNDERWAVE",
+        "TOXIC",
+        "UPROAR",
+        "UTURN",
+        "WILDCHARGE",
+        "WORKUP",
+        "ZENHEADBUTT"
+      ],
+      "eggMoves": [
+        "CAPTIVATE",
+        "MIMIC",
+        "REFRESH",
+        "ROLEPLAY",
+        "WORKUP"
+      ]
+    }
+  },
+  "FURFROU6": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 0,
+          "move": "SEEDBOMB"
+        },
+        {
+          "level": 1,
+          "move": "TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "GROWL"
+        },
+        {
+          "level": 5,
+          "move": "SANDATTACK"
+        },
+        {
+          "level": 9,
+          "move": "BABYDOLLEYES"
+        },
+        {
+          "level": 12,
+          "move": "HEADBUTT"
+        },
+        {
+          "level": 15,
+          "move": "TAILWHIP"
+        },
+        {
+          "level": 22,
+          "move": "BITE"
+        },
+        {
+          "level": 27,
+          "move": "ODORSLEUTH"
+        },
+        {
+          "level": 33,
+          "move": "RETALIATE"
+        },
+        {
+          "level": 35,
+          "move": "TAKEDOWN"
+        },
+        {
+          "level": 38,
+          "move": "CHARM"
+        },
+        {
+          "level": 42,
+          "move": "SUCKERPUNCH"
+        },
+        {
+          "level": 48,
+          "move": "COTTONGUARD"
+        }
+      ],
+      "tutorMoves": [
+        "ATTRACT",
+        "CAPTIVATE",
+        "CHARGEBEAM",
+        "CONFIDE",
+        "DARKPULSE",
+        "DIG",
+        "DOUBLETEAM",
+        "ECHOEDVOICE",
+        "ENDEAVOR",
+        "ENDURE",
+        "FACADE",
+        "FLASH",
+        "FRUSTRATION",
+        "GIGAIMPACT",
+        "GRASSKNOT",
+        "HELPINGHAND",
+        "HIDDENPOWER",
+        "HYPERVOICE",
+        "IRONTAIL",
+        "LASTRESORT",
+        "MIMIC",
+        "NATURALGIFT",
+        "PROTECT",
+        "RAINDANCE",
+        "REST",
+        "RETALIATE",
+        "RETURN",
+        "ROAR",
+        "ROCKSMASH",
+        "ROLEPLAY",
+        "ROUND",
+        "SECRETPOWER",
+        "SLEEPTALK",
+        "SNARL",
+        "SNORE",
+        "SUBSTITUTE",
+        "SUNNYDAY",
+        "SURF",
+        "SWAGGER",
+        "THUNDERWAVE",
+        "TOXIC",
+        "UPROAR",
+        "UTURN",
+        "WILDCHARGE",
+        "WORKUP",
+        "ZENHEADBUTT"
+      ],
+      "eggMoves": [
+        "CAPTIVATE",
+        "MIMIC",
+        "REFRESH",
+        "ROLEPLAY",
+        "WORKUP"
+      ]
+    }
+  },
+  "FURFROU7": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 0,
+          "move": "ICICLECRASH"
+        },
+        {
+          "level": 1,
+          "move": "TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "GROWL"
+        },
+        {
+          "level": 5,
+          "move": "SANDATTACK"
+        },
+        {
+          "level": 9,
+          "move": "BABYDOLLEYES"
+        },
+        {
+          "level": 12,
+          "move": "HEADBUTT"
+        },
+        {
+          "level": 15,
+          "move": "TAILWHIP"
+        },
+        {
+          "level": 22,
+          "move": "BITE"
+        },
+        {
+          "level": 27,
+          "move": "ODORSLEUTH"
+        },
+        {
+          "level": 33,
+          "move": "RETALIATE"
+        },
+        {
+          "level": 35,
+          "move": "TAKEDOWN"
+        },
+        {
+          "level": 38,
+          "move": "CHARM"
+        },
+        {
+          "level": 42,
+          "move": "SUCKERPUNCH"
+        },
+        {
+          "level": 48,
+          "move": "COTTONGUARD"
+        }
+      ],
+      "tutorMoves": [
+        "ATTRACT",
+        "CAPTIVATE",
+        "CHARGEBEAM",
+        "CONFIDE",
+        "DARKPULSE",
+        "DIG",
+        "DOUBLETEAM",
+        "ECHOEDVOICE",
+        "ENDEAVOR",
+        "ENDURE",
+        "FACADE",
+        "FLASH",
+        "FRUSTRATION",
+        "GIGAIMPACT",
+        "GRASSKNOT",
+        "HELPINGHAND",
+        "HIDDENPOWER",
+        "HYPERVOICE",
+        "IRONTAIL",
+        "LASTRESORT",
+        "MIMIC",
+        "NATURALGIFT",
+        "PROTECT",
+        "RAINDANCE",
+        "REST",
+        "RETALIATE",
+        "RETURN",
+        "ROAR",
+        "ROCKSMASH",
+        "ROLEPLAY",
+        "ROUND",
+        "SECRETPOWER",
+        "SLEEPTALK",
+        "SNARL",
+        "SNORE",
+        "SUBSTITUTE",
+        "SUNNYDAY",
+        "SURF",
+        "SWAGGER",
+        "THUNDERWAVE",
+        "TOXIC",
+        "UPROAR",
+        "UTURN",
+        "WILDCHARGE",
+        "WORKUP",
+        "ZENHEADBUTT"
+      ],
+      "eggMoves": [
+        "CAPTIVATE",
+        "MIMIC",
+        "REFRESH",
+        "ROLEPLAY",
+        "WORKUP"
+      ]
+    }
+  },
+  "FURFROU8": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 0,
+          "move": "FLAREBLITZ"
+        },
+        {
+          "level": 1,
+          "move": "TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "GROWL"
+        },
+        {
+          "level": 5,
+          "move": "SANDATTACK"
+        },
+        {
+          "level": 9,
+          "move": "BABYDOLLEYES"
+        },
+        {
+          "level": 12,
+          "move": "HEADBUTT"
+        },
+        {
+          "level": 15,
+          "move": "TAILWHIP"
+        },
+        {
+          "level": 22,
+          "move": "BITE"
+        },
+        {
+          "level": 27,
+          "move": "ODORSLEUTH"
+        },
+        {
+          "level": 33,
+          "move": "RETALIATE"
+        },
+        {
+          "level": 35,
+          "move": "TAKEDOWN"
+        },
+        {
+          "level": 38,
+          "move": "CHARM"
+        },
+        {
+          "level": 42,
+          "move": "SUCKERPUNCH"
+        },
+        {
+          "level": 48,
+          "move": "COTTONGUARD"
+        }
+      ],
+      "tutorMoves": [
+        "ATTRACT",
+        "CAPTIVATE",
+        "CHARGEBEAM",
+        "CONFIDE",
+        "DARKPULSE",
+        "DIG",
+        "DOUBLETEAM",
+        "ECHOEDVOICE",
+        "ENDEAVOR",
+        "ENDURE",
+        "FACADE",
+        "FLASH",
+        "FRUSTRATION",
+        "GIGAIMPACT",
+        "GRASSKNOT",
+        "HELPINGHAND",
+        "HIDDENPOWER",
+        "HYPERVOICE",
+        "IRONTAIL",
+        "LASTRESORT",
+        "MIMIC",
+        "NATURALGIFT",
+        "PROTECT",
+        "RAINDANCE",
+        "REST",
+        "RETALIATE",
+        "RETURN",
+        "ROAR",
+        "ROCKSMASH",
+        "ROLEPLAY",
+        "ROUND",
+        "SECRETPOWER",
+        "SLEEPTALK",
+        "SNARL",
+        "SNORE",
+        "SUBSTITUTE",
+        "SUNNYDAY",
+        "SURF",
+        "SWAGGER",
+        "THUNDERWAVE",
+        "TOXIC",
+        "UPROAR",
+        "UTURN",
+        "WILDCHARGE",
+        "WORKUP",
+        "ZENHEADBUTT"
+      ],
+      "eggMoves": [
+        "CAPTIVATE",
+        "MIMIC",
+        "REFRESH",
+        "ROLEPLAY",
+        "WORKUP"
+      ]
+    }
+  },
+  "FURFROU9": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 0,
+          "move": "AQUATAIL"
+        },
+        {
+          "level": 1,
+          "move": "TACKLE"
+        },
+        {
+          "level": 1,
+          "move": "GROWL"
+        },
+        {
+          "level": 5,
+          "move": "SANDATTACK"
+        },
+        {
+          "level": 9,
+          "move": "BABYDOLLEYES"
+        },
+        {
+          "level": 12,
+          "move": "HEADBUTT"
+        },
+        {
+          "level": 15,
+          "move": "TAILWHIP"
+        },
+        {
+          "level": 22,
+          "move": "BITE"
+        },
+        {
+          "level": 27,
+          "move": "ODORSLEUTH"
+        },
+        {
+          "level": 33,
+          "move": "RETALIATE"
+        },
+        {
+          "level": 35,
+          "move": "TAKEDOWN"
+        },
+        {
+          "level": 38,
+          "move": "CHARM"
+        },
+        {
+          "level": 42,
+          "move": "SUCKERPUNCH"
+        },
+        {
+          "level": 48,
+          "move": "COTTONGUARD"
+        }
+      ],
+      "tutorMoves": [
+        "ATTRACT",
+        "CAPTIVATE",
+        "CHARGEBEAM",
+        "CONFIDE",
+        "DARKPULSE",
+        "DIG",
+        "DOUBLETEAM",
+        "ECHOEDVOICE",
+        "ENDEAVOR",
+        "ENDURE",
+        "FACADE",
+        "FLASH",
+        "FRUSTRATION",
+        "GIGAIMPACT",
+        "GRASSKNOT",
+        "HELPINGHAND",
+        "HIDDENPOWER",
+        "HYPERVOICE",
+        "IRONTAIL",
+        "LASTRESORT",
+        "MIMIC",
+        "NATURALGIFT",
+        "PROTECT",
+        "RAINDANCE",
+        "REST",
+        "RETALIATE",
+        "RETURN",
+        "ROAR",
+        "ROCKSMASH",
+        "ROLEPLAY",
+        "ROUND",
+        "SECRETPOWER",
+        "SLEEPTALK",
+        "SNARL",
+        "SNORE",
+        "SUBSTITUTE",
+        "SUNNYDAY",
+        "SURF",
+        "SWAGGER",
+        "THUNDERWAVE",
+        "TOXIC",
+        "UPROAR",
+        "UTURN",
+        "WILDCHARGE",
+        "WORKUP",
+        "ZENHEADBUTT"
+      ],
+      "eggMoves": [
+        "CAPTIVATE",
+        "MIMIC",
+        "REFRESH",
+        "ROLEPLAY",
+        "WORKUP"
+      ]
+    }
+  },
   "ESPURR": {
     "moves": {
       "levelUpMoves": [
