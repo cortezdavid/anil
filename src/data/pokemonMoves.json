@@ -81316,6 +81316,676 @@
       ]
     }
   },
+  "ROTOM1": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 0,
+          "move": "OVERHEAT"
+        },
+        {
+          "level": 1,
+          "move": "ASTONISH"
+        },
+        {
+          "level": 1,
+          "move": "DOUBLETEAM"
+        },
+        {
+          "level": 5,
+          "move": "THUNDERSHOCK"
+        },
+        {
+          "level": 10,
+          "move": "CONFUSERAY"
+        },
+        {
+          "level": 15,
+          "move": "CHARGE"
+        },
+        {
+          "level": 20,
+          "move": "ELECTROBALL"
+        },
+        {
+          "level": 25,
+          "move": "THUNDERWAVE"
+        },
+        {
+          "level": 29,
+          "move": "OMINOUSWIND"
+        },
+        {
+          "level": 30,
+          "move": "SHOCKWAVE"
+        },
+        {
+          "level": 35,
+          "move": "HEX"
+        },
+        {
+          "level": 40,
+          "move": "SUBSTITUTE"
+        },
+        {
+          "level": 40,
+          "move": "RISINGVOLTAGE"
+        },
+        {
+          "level": 45,
+          "move": "TRICK"
+        },
+        {
+          "level": 50,
+          "move": "DISCHARGE"
+        },
+        {
+          "level": 55,
+          "move": "UPROAR"
+        }
+      ],
+      "tutorMoves": [
+        "ALLYSWITCH",
+        "CHARGE",
+        "CHARGEBEAM",
+        "CONFIDE",
+        "CONFUSERAY",
+        "DARKPULSE",
+        "DOUBLETEAM",
+        "DREAMEATER",
+        "EERIEIMPULSE",
+        "ELECTRICTERRAIN",
+        "ELECTROBALL",
+        "ELECTROWEB",
+        "ENDURE",
+        "FACADE",
+        "FLASH",
+        "FOULPLAY",
+        "FRUSTRATION",
+        "HELPINGHAND",
+        "HEX",
+        "HIDDENPOWER",
+        "HYPERVOICE",
+        "LIGHTSCREEN",
+        "MIMIC",
+        "MUDSLAP",
+        "NASTYPLOT",
+        "NATURALGIFT",
+        "NIGHTSHADE",
+        "OMINOUSWIND",
+        "PAINSPLIT",
+        "POLTERGEIST",
+        "PROTECT",
+        "PSYCHUP",
+        "RAINDANCE",
+        "REFLECT",
+        "REST",
+        "RETURN",
+        "RISINGVOLTAGE",
+        "ROUND",
+        "SECRETPOWER",
+        "SHADOWBALL",
+        "SHOCKWAVE",
+        "SIGNALBEAM",
+        "SLEEPTALK",
+        "SNATCH",
+        "SNORE",
+        "SPITE",
+        "STOREDPOWER",
+        "SUBSTITUTE",
+        "SUCKERPUNCH",
+        "SUNNYDAY",
+        "SWAGGER",
+        "SWIFT",
+        "TELEKINESIS",
+        "THIEF",
+        "THUNDER",
+        "THUNDERBOLT",
+        "THUNDERWAVE",
+        "TRICK",
+        "UPROAR",
+        "VOLTSWITCH",
+        "WILLOWISP",
+        "WORKUP"
+      ]
+    }
+  },
+  "ROTOM2": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 0,
+          "move": "HYDROPUMP"
+        },
+        {
+          "level": 1,
+          "move": "ASTONISH"
+        },
+        {
+          "level": 1,
+          "move": "DOUBLETEAM"
+        },
+        {
+          "level": 5,
+          "move": "THUNDERSHOCK"
+        },
+        {
+          "level": 10,
+          "move": "CONFUSERAY"
+        },
+        {
+          "level": 15,
+          "move": "CHARGE"
+        },
+        {
+          "level": 20,
+          "move": "ELECTROBALL"
+        },
+        {
+          "level": 25,
+          "move": "THUNDERWAVE"
+        },
+        {
+          "level": 29,
+          "move": "OMINOUSWIND"
+        },
+        {
+          "level": 30,
+          "move": "SHOCKWAVE"
+        },
+        {
+          "level": 35,
+          "move": "HEX"
+        },
+        {
+          "level": 40,
+          "move": "SUBSTITUTE"
+        },
+        {
+          "level": 40,
+          "move": "RISINGVOLTAGE"
+        },
+        {
+          "level": 45,
+          "move": "TRICK"
+        },
+        {
+          "level": 50,
+          "move": "DISCHARGE"
+        },
+        {
+          "level": 55,
+          "move": "UPROAR"
+        }
+      ],
+      "tutorMoves": [
+        "ALLYSWITCH",
+        "CHARGE",
+        "CHARGEBEAM",
+        "CONFIDE",
+        "CONFUSERAY",
+        "DARKPULSE",
+        "DOUBLETEAM",
+        "DREAMEATER",
+        "EERIEIMPULSE",
+        "ELECTRICTERRAIN",
+        "ELECTROBALL",
+        "ELECTROWEB",
+        "ENDURE",
+        "FACADE",
+        "FLASH",
+        "FOULPLAY",
+        "FRUSTRATION",
+        "HELPINGHAND",
+        "HEX",
+        "HIDDENPOWER",
+        "HYPERVOICE",
+        "LIGHTSCREEN",
+        "MIMIC",
+        "MUDSLAP",
+        "NASTYPLOT",
+        "NATURALGIFT",
+        "NIGHTSHADE",
+        "OMINOUSWIND",
+        "PAINSPLIT",
+        "POLTERGEIST",
+        "PROTECT",
+        "PSYCHUP",
+        "RAINDANCE",
+        "REFLECT",
+        "REST",
+        "RETURN",
+        "RISINGVOLTAGE",
+        "ROUND",
+        "SECRETPOWER",
+        "SHADOWBALL",
+        "SHOCKWAVE",
+        "SIGNALBEAM",
+        "SLEEPTALK",
+        "SNATCH",
+        "SNORE",
+        "SPITE",
+        "STOREDPOWER",
+        "SUBSTITUTE",
+        "SUCKERPUNCH",
+        "SUNNYDAY",
+        "SWAGGER",
+        "SWIFT",
+        "TELEKINESIS",
+        "THIEF",
+        "THUNDER",
+        "THUNDERBOLT",
+        "THUNDERWAVE",
+        "TRICK",
+        "UPROAR",
+        "VOLTSWITCH",
+        "WILLOWISP",
+        "WORKUP"
+      ]
+    }
+  },
+  "ROTOM3": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 0,
+          "move": "BLIZZARD"
+        },
+        {
+          "level": 1,
+          "move": "ASTONISH"
+        },
+        {
+          "level": 1,
+          "move": "DOUBLETEAM"
+        },
+        {
+          "level": 5,
+          "move": "THUNDERSHOCK"
+        },
+        {
+          "level": 10,
+          "move": "CONFUSERAY"
+        },
+        {
+          "level": 15,
+          "move": "CHARGE"
+        },
+        {
+          "level": 20,
+          "move": "ELECTROBALL"
+        },
+        {
+          "level": 25,
+          "move": "THUNDERWAVE"
+        },
+        {
+          "level": 29,
+          "move": "OMINOUSWIND"
+        },
+        {
+          "level": 30,
+          "move": "SHOCKWAVE"
+        },
+        {
+          "level": 35,
+          "move": "HEX"
+        },
+        {
+          "level": 40,
+          "move": "SUBSTITUTE"
+        },
+        {
+          "level": 40,
+          "move": "RISINGVOLTAGE"
+        },
+        {
+          "level": 45,
+          "move": "TRICK"
+        },
+        {
+          "level": 50,
+          "move": "DISCHARGE"
+        },
+        {
+          "level": 55,
+          "move": "UPROAR"
+        }
+      ],
+      "tutorMoves": [
+        "ALLYSWITCH",
+        "CHARGE",
+        "CHARGEBEAM",
+        "CONFIDE",
+        "CONFUSERAY",
+        "DARKPULSE",
+        "DOUBLETEAM",
+        "DREAMEATER",
+        "EERIEIMPULSE",
+        "ELECTRICTERRAIN",
+        "ELECTROBALL",
+        "ELECTROWEB",
+        "ENDURE",
+        "FACADE",
+        "FLASH",
+        "FOULPLAY",
+        "FRUSTRATION",
+        "HELPINGHAND",
+        "HEX",
+        "HIDDENPOWER",
+        "HYPERVOICE",
+        "LIGHTSCREEN",
+        "MIMIC",
+        "MUDSLAP",
+        "NASTYPLOT",
+        "NATURALGIFT",
+        "NIGHTSHADE",
+        "OMINOUSWIND",
+        "PAINSPLIT",
+        "POLTERGEIST",
+        "PROTECT",
+        "PSYCHUP",
+        "RAINDANCE",
+        "REFLECT",
+        "REST",
+        "RETURN",
+        "RISINGVOLTAGE",
+        "ROUND",
+        "SECRETPOWER",
+        "SHADOWBALL",
+        "SHOCKWAVE",
+        "SIGNALBEAM",
+        "SLEEPTALK",
+        "SNATCH",
+        "SNORE",
+        "SPITE",
+        "STOREDPOWER",
+        "SUBSTITUTE",
+        "SUCKERPUNCH",
+        "SUNNYDAY",
+        "SWAGGER",
+        "SWIFT",
+        "TELEKINESIS",
+        "THIEF",
+        "THUNDER",
+        "THUNDERBOLT",
+        "THUNDERWAVE",
+        "TRICK",
+        "UPROAR",
+        "VOLTSWITCH",
+        "WILLOWISP",
+        "WORKUP"
+      ]
+    }
+  },
+  "ROTOM4": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 0,
+          "move": "AIRSLASH"
+        },
+        {
+          "level": 1,
+          "move": "ASTONISH"
+        },
+        {
+          "level": 1,
+          "move": "DOUBLETEAM"
+        },
+        {
+          "level": 5,
+          "move": "THUNDERSHOCK"
+        },
+        {
+          "level": 10,
+          "move": "CONFUSERAY"
+        },
+        {
+          "level": 15,
+          "move": "CHARGE"
+        },
+        {
+          "level": 20,
+          "move": "ELECTROBALL"
+        },
+        {
+          "level": 25,
+          "move": "THUNDERWAVE"
+        },
+        {
+          "level": 29,
+          "move": "OMINOUSWIND"
+        },
+        {
+          "level": 30,
+          "move": "SHOCKWAVE"
+        },
+        {
+          "level": 35,
+          "move": "HEX"
+        },
+        {
+          "level": 40,
+          "move": "SUBSTITUTE"
+        },
+        {
+          "level": 40,
+          "move": "RISINGVOLTAGE"
+        },
+        {
+          "level": 45,
+          "move": "TRICK"
+        },
+        {
+          "level": 50,
+          "move": "DISCHARGE"
+        },
+        {
+          "level": 55,
+          "move": "UPROAR"
+        }
+      ],
+      "tutorMoves": [
+        "ALLYSWITCH",
+        "CHARGE",
+        "CHARGEBEAM",
+        "CONFIDE",
+        "CONFUSERAY",
+        "DARKPULSE",
+        "DOUBLETEAM",
+        "DREAMEATER",
+        "EERIEIMPULSE",
+        "ELECTRICTERRAIN",
+        "ELECTROBALL",
+        "ELECTROWEB",
+        "ENDURE",
+        "FACADE",
+        "FLASH",
+        "FOULPLAY",
+        "FRUSTRATION",
+        "HELPINGHAND",
+        "HEX",
+        "HIDDENPOWER",
+        "HYPERVOICE",
+        "LIGHTSCREEN",
+        "MIMIC",
+        "MUDSLAP",
+        "NASTYPLOT",
+        "NATURALGIFT",
+        "NIGHTSHADE",
+        "OMINOUSWIND",
+        "PAINSPLIT",
+        "POLTERGEIST",
+        "PROTECT",
+        "PSYCHUP",
+        "RAINDANCE",
+        "REFLECT",
+        "REST",
+        "RETURN",
+        "RISINGVOLTAGE",
+        "ROUND",
+        "SECRETPOWER",
+        "SHADOWBALL",
+        "SHOCKWAVE",
+        "SIGNALBEAM",
+        "SLEEPTALK",
+        "SNATCH",
+        "SNORE",
+        "SPITE",
+        "STOREDPOWER",
+        "SUBSTITUTE",
+        "SUCKERPUNCH",
+        "SUNNYDAY",
+        "SWAGGER",
+        "SWIFT",
+        "TELEKINESIS",
+        "THIEF",
+        "THUNDER",
+        "THUNDERBOLT",
+        "THUNDERWAVE",
+        "TRICK",
+        "UPROAR",
+        "VOLTSWITCH",
+        "WILLOWISP",
+        "WORKUP"
+      ]
+    }
+  },
+  "ROTOM5": {
+    "moves": {
+      "levelUpMoves": [
+        {
+          "level": 0,
+          "move": "LEAFSTORM"
+        },
+        {
+          "level": 1,
+          "move": "ASTONISH"
+        },
+        {
+          "level": 1,
+          "move": "DOUBLETEAM"
+        },
+        {
+          "level": 5,
+          "move": "THUNDERSHOCK"
+        },
+        {
+          "level": 10,
+          "move": "CONFUSERAY"
+        },
+        {
+          "level": 15,
+          "move": "CHARGE"
+        },
+        {
+          "level": 20,
+          "move": "ELECTROBALL"
+        },
+        {
+          "level": 25,
+          "move": "THUNDERWAVE"
+        },
+        {
+          "level": 29,
+          "move": "OMINOUSWIND"
+        },
+        {
+          "level": 30,
+          "move": "SHOCKWAVE"
+        },
+        {
+          "level": 35,
+          "move": "HEX"
+        },
+        {
+          "level": 40,
+          "move": "SUBSTITUTE"
+        },
+        {
+          "level": 40,
+          "move": "RISINGVOLTAGE"
+        },
+        {
+          "level": 45,
+          "move": "TRICK"
+        },
+        {
+          "level": 50,
+          "move": "DISCHARGE"
+        },
+        {
+          "level": 55,
+          "move": "UPROAR"
+        }
+      ],
+      "tutorMoves": [
+        "ALLYSWITCH",
+        "CHARGE",
+        "CHARGEBEAM",
+        "CONFIDE",
+        "CONFUSERAY",
+        "DARKPULSE",
+        "DOUBLETEAM",
+        "DREAMEATER",
+        "EERIEIMPULSE",
+        "ELECTRICTERRAIN",
+        "ELECTROBALL",
+        "ELECTROWEB",
+        "ENDURE",
+        "FACADE",
+        "FLASH",
+        "FOULPLAY",
+        "FRUSTRATION",
+        "HELPINGHAND",
+        "HEX",
+        "HIDDENPOWER",
+        "HYPERVOICE",
+        "LIGHTSCREEN",
+        "MIMIC",
+        "MUDSLAP",
+        "NASTYPLOT",
+        "NATURALGIFT",
+        "NIGHTSHADE",
+        "OMINOUSWIND",
+        "PAINSPLIT",
+        "POLTERGEIST",
+        "PROTECT",
+        "PSYCHUP",
+        "RAINDANCE",
+        "REFLECT",
+        "REST",
+        "RETURN",
+        "RISINGVOLTAGE",
+        "ROUND",
+        "SECRETPOWER",
+        "SHADOWBALL",
+        "SHOCKWAVE",
+        "SIGNALBEAM",
+        "SLEEPTALK",
+        "SNATCH",
+        "SNORE",
+        "SPITE",
+        "STOREDPOWER",
+        "SUBSTITUTE",
+        "SUCKERPUNCH",
+        "SUNNYDAY",
+        "SWAGGER",
+        "SWIFT",
+        "TELEKINESIS",
+        "THIEF",
+        "THUNDER",
+        "THUNDERBOLT",
+        "THUNDERWAVE",
+        "TRICK",
+        "UPROAR",
+        "VOLTSWITCH",
+        "WILLOWISP",
+        "WORKUP"
+      ]
+    }
+  },
   "UXIE": {
     "moves": {
       "levelUpMoves": [
