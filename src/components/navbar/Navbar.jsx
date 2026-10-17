@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
+import Tooltip from "../tooltip/Tooltip";
 
 const focusRing =
   "focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100";
@@ -107,6 +108,16 @@ const Navbar = () => {
             <NavLink to="/donprodigio" className={desktopLink}>
               Don Prodigio
             </NavLink>
+            <Tooltip text="Servicio externo. No está desarrollado ni administrado por esta web." position="bottom">
+              <a
+                href="https://fangamesbattles.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={desktopLink}
+              >
+                ShowdownAñil
+              </a>
+            </Tooltip>
             <NavLink to="/chat" className={desktopLink}>
               Foro
             </NavLink>
@@ -188,6 +199,18 @@ const Navbar = () => {
             <NavLink to="/donprodigio" onClick={() => setMobileMenuOpen(false)} className={mobileLink}>
               Don Prodigio
             </NavLink>
+            <a
+              href="https://fangamesbattles.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMobileMenuOpen(false)}
+              className={mobileLink}
+            >
+              <span className="block">ShowdownAñil</span>
+              <span className="block text-xs font-normal text-blue-300">
+                Sitio externo, no administrado por esta web
+              </span>
+            </a>
             <NavLink to="/chat" onClick={() => setMobileMenuOpen(false)} className={mobileLink}>
               Foro
             </NavLink>
