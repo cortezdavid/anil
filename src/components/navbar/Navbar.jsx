@@ -115,7 +115,7 @@ const Navbar = () => {
                 rel="noopener noreferrer"
                 className={desktopLink}
               >
-                ShowdownAñil
+                Showdown Añil
               </a>
             </Tooltip>
             <NavLink to="/chat" className={desktopLink}>
@@ -206,7 +206,7 @@ const Navbar = () => {
               onClick={() => setMobileMenuOpen(false)}
               className={mobileLink}
             >
-              <span className="block">ShowdownAñil</span>
+              <span className="block">Showdown Añil</span>
               <span className="block text-xs font-normal text-blue-300">
                 Sitio externo, no administrado por esta web
               </span>
