@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 
-const rowGrid = "grid grid-cols-[100px_50px_1fr] gap-4 items-center";
+const focusRing =
+  "focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100";
+
+const rowGrid = "grid grid-cols-[6.5rem_3rem_1fr] items-center gap-4";
 
 const PokemonBaseStats = ({ pokemon }) => {
   const hasOriginal = Boolean(pokemon.originalBaseStats);
@@ -26,77 +29,60 @@ const PokemonBaseStats = ({ pokemon }) => {
   const total = Object.values(activeStats).reduce((sum, stat) => sum + stat, 0);
 
   return (
-    <div className="max-w-4xl mx-auto">
-      <div className="rounded-2xl p-6">
-        <div className="space-y-4">
-          {stats.map((stat) => (
-            <div key={stat.label} className={rowGrid}>
-              <span className="text-sm font-bold text-slate-300 text-right">
-                {stat.label}
-              </span>
-              <span className="text-sm font-bold text-slate-100 text-center">
-                {stat.value}
-              </span>
-              <div className="relative">
-                <div className="bg-blue-950 rounded-full h-4 overflow-hidden">
-                  <div
-                    className={`${stat.color} h-full rounded-full transition-all duration-500 ease-out flex items-center justify-end pr-2`}
-                    style={{ width: `${Math.min((stat.value / 255) * 100, 100)}%` }}
-                  >
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
+    <div>
+      <h3 className="mb-2 px-3 text-lg font-bold">Estadísticas base</h3>
 
-          {/* Total */}
-          <div className="pt-4 mt-4 border-t-2 border-slate-600">
-            <div className={rowGrid}>
-              <span className="text-base font-black text-slate-100 text-right">
-                Total
-              </span>
-              <span className="text-base font-black text-blue-400 text-center">
-                {total}
-              </span>
-              <div className="relative">
-                <div className="bg-blue-950 rounded-full h-5 overflow-hidden">
-                  <div
-                    className="bg-gradient-to-r from-blue-500 to-purple-600 h-full rounded-full transition-all duration-700 ease-out flex items-center justify-end pr-2"
-                    style={{ width: `${Math.min((total / 720) * 100, 100)}%` }}
-                  >
-                  </div>
-                </div>
-              </div>
+      <ul className="space-y-1">
+        {stats.map((stat) => (
+          <li key={stat.label} className={`${rowGrid} px-3 py-1`}>
+            <span className="text-sm text-blue-300">{stat.label}</span>
+            <span className="text-right font-semibold tabular-nums">{stat.value}</span>
+            {/* La barra es decorativa: el valor ya está en texto */}
+            <div aria-hidden="true" className="h-3 overflow-hidden rounded-full bg-blue-900">
+              <div
+                className={`${stat.color} h-full rounded-full transition-all duration-500 ease-out`}
+                style={{ width: `${Math.min((stat.value / 255) * 100, 100)}%` }}
+              />
             </div>
+          </li>
+        ))}
+
+        {/* Total: más aire arriba para separarlo del resto */}
+        <li className={`${rowGrid} px-3 pb-2 pt-6`}>
+          <span className="font-bold">Total</span>
+          <span className="text-right font-bold tabular-nums">{total}</span>
+          <div aria-hidden="true" className="h-3 overflow-hidden rounded-full bg-blue-900">
+            <div
+              className="h-full rounded-full bg-blue-100 transition-all duration-700 ease-out"
+              style={{ width: `${Math.min((total / 720) * 100, 100)}%` }}
+            />
           </div>
+        </li>
+      </ul>
+
+      {hasOriginal && (
+        <div className="mt-6 flex items-center gap-3 px-3">
+          <span className={`text-sm font-medium ${view === 'game' ? 'text-blue-100' : 'text-blue-300'}`}>
+            Juego
+          </span>
+          <button
+            type="button"
+            role="switch"
+            aria-checked={view === 'original'}
+            aria-label="Mostrar estadísticas originales"
+            onClick={() => setView((v) => (v === 'game' ? 'original' : 'game'))}
+            className={`relative h-6 w-11 shrink-0 rounded-full border border-blue-800 bg-blue-900 transition-colors ${focusRing}`}
+          >
+            <span
+              className={`absolute left-0.5 top-0.5 h-5 w-5 rounded-full bg-blue-100 transition-transform duration-200
+                ${view === 'original' ? 'translate-x-5' : 'translate-x-0'}`}
+            />
+          </button>
+          <span className={`text-sm font-medium ${view === 'original' ? 'text-blue-100' : 'text-blue-300'}`}>
+            Original
+          </span>
         </div>
-
-        {hasOriginal && (
-          <div className="mt-6 pt-4 flex flex-col items-center gap-2">
-            <div className="flex items-center gap-3">
-              <span className={`text-sm font-medium ${view === 'game' ? 'text-slate-100' : 'text-slate-400'}`}>
-                juego
-              </span>
-              <button
-                type="button"
-                role="switch"
-                aria-checked={view === 'original'}
-                onClick={() => setView(v => (v === 'game' ? 'original' : 'game'))}
-                className="relative h-6 w-11 shrink-0 rounded-full border border-blue-800 bg-blue-950 transition-colors
-                           focus-visible:outline-offset-2 focus-visible:outline-blue-100"
-              >
-                <span
-                  className={`absolute top-0.5 left-0.5 h-5 w-5 rounded-full bg-blue-100 transition-transform duration-200
-                    ${view === 'original' ? 'translate-x-5' : 'translate-x-0'}`}
-                />
-              </button>
-              <span className={`text-sm font-medium ${view === 'original' ? 'text-slate-100' : 'text-slate-400'}`}>
-                Original
-              </span>
-            </div>
-          </div>
-        )}
-      </div>
+      )}
     </div>
   );
 };
