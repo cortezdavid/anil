@@ -33,13 +33,13 @@ const PokemonDetailsTabs = ({ pokemon, activeTab, setActiveTab }) => {
   }, [activeTab]);
 
   return (
-    <div className="overflow-hidden rounded-2xl border border-blue-800 bg-blue-900 text-blue-100">
-      {/* Pestañas (el contenedor es relative para calcular offsetLeft) */}
+    <div className="text-blue-100">
+      {/* Pestañas: una barra plana, separada del contenido por una línea */}
       <div
         ref={tabsContainerRef}
         role="tablist"
         aria-label="Información del Pokémon"
-        className="relative flex overflow-x-auto border-b border-blue-800
+        className="relative flex overflow-x-auto border-y border-blue-800
           [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
       >
         {tabs.map((tab) => {
@@ -55,10 +55,10 @@ const PokemonDetailsTabs = ({ pokemon, activeTab, setActiveTab }) => {
               aria-controls="panel-pokemon"
               onClick={() => setActiveTab(tab.id)}
               className={`min-w-[120px] flex-1 whitespace-nowrap px-4 py-3 text-sm font-medium transition-colors
-  focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-blue-100
-  ${isActive
-                  ? "bg-blue-700 text-blue-100"
-                  : "text-blue-300 hover:bg-blue-800/50 hover:text-blue-100"
+                focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-blue-100
+                ${isActive
+                  ? "bg-blue-900 text-blue-100"
+                  : "text-blue-300 hover:bg-blue-900/50 hover:text-blue-100"
                 }`}
             >
               {tab.label}
@@ -67,12 +67,12 @@ const PokemonDetailsTabs = ({ pokemon, activeTab, setActiveTab }) => {
         })}
       </div>
 
-      {/* Contenido */}
+      {/* Contenido, directamente sobre el fondo de la página */}
       <div
         role="tabpanel"
         id="panel-pokemon"
         aria-labelledby={`tab-${activeTab}`}
-        className="p-4 sm:p-6"
+        className="px-3 py-6"
       >
         {activeTab === "caracteristicas" && <PokemonInformation pokemon={pokemon} />}
         {activeTab === "ubicacion" && <PokemonRoute pokemon={pokemon} />}
