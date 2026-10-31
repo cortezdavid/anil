@@ -15,24 +15,34 @@ const requirementLabel = (requirement) =>
 
 // Tarjeta grande: sprite arriba centrado y nombre debajo (cadena horizontal de escritorio)
 const EvoCardLg = ({ species }) => (
-  <Link to={`/pokemon/${formatSpeciesName(species)}`} className="block h-full">
-    <div className="h-full min-w-[160px] rounded-xl bg-blue-950/50 p-6 text-center transition-colors hover:border-blue-300">
-      <div className="mx-auto mb-3 w-fit rounded-lg bg-blue-950 p-3">
+  <Link
+    to={`/pokemon/${formatSpeciesName(species)}`}
+    className="block h-full rounded-xl focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100"
+  >
+    <div className="group h-full min-w-[160px] rounded border border-blue-800 bg-blue-900 p-6 text-center transition-colors">
+      <div className="mx-auto mb-3 w-fit rounded-lg bg-blue-900 p-3">
         <PokemonFront img={`/images/pokemonFront/${species}.png`} scale={80} />
       </div>
-      <div className="text-lg font-semibold capitalize">{formatSpeciesName(species)}</div>
+      <div className="text-lg font-semibold capitalize underline-offset-4">
+        {formatSpeciesName(species)}
+      </div>
     </div>
   </Link>
 );
 
 // Tarjeta chica: sprite a la izquierda y nombre a la derecha (celular y ramas)
 const EvoCardSm = ({ species }) => (
-  <Link to={`/pokemon/${formatSpeciesName(species)}`} className="block h-full">
-    <div className="flex h-full items-center gap-3 rounded-xl bg-blue-950/50 p-3 transition-colors hover:border-blue-300">
-      <div className="shrink-0 rounded-lg bg-blue-950 p-2">
+  <Link
+    to={`/pokemon/${formatSpeciesName(species)}`}
+    className="block h-full rounded focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100"
+  >
+    <div className="group flex h-full items-center gap-3 rounded-xl border border-blue-800 bg-blue-900 p-3 transition-colors">
+      <div className="shrink-0 rounded-lg bg-blue-900 p-2">
         <PokemonFront img={`/images/pokemonFront/${species}.png`} scale={60} />
       </div>
-      <div className="text-sm font-semibold capitalize">{formatSpeciesName(species)}</div>
+      <div className="text-sm font-semibold capitalize underline-offset-4">
+        {formatSpeciesName(species)}
+      </div>
     </div>
   </Link>
 );
@@ -72,7 +82,7 @@ const PokemonEvolution = ({ pokemon }) => {
   if (!pokemon.evolutionChain || pokemon.evolutionChain.length === 0) {
     return (
       <div className="rounded-2xl p-10 text-center">
-        <p className="font-medium text-blue-300">Este Pokémon no tiene evoluciones</p>
+        <p className="font-medium">Este Pokémon no tiene evoluciones</p>
       </div>
     );
   }
