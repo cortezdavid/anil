@@ -1,7 +1,16 @@
 import { useEffect, useRef } from 'react';
 import { COLOR_PALETTES } from './colorPalettes';
 
-const ShinyPokemonCard = ({ pokemon }) => {
+const hue2rgb = (p, q, t) => {
+  if (t < 0) t += 1;
+  if (t > 1) t -= 1;
+  if (t < 1 / 6) return p + (q - p) * 6 * t;
+  if (t < 1 / 2) return q;
+  if (t < 2 / 3) return p + (q - p) * (2 / 3 - t) * 6;
+  return p;
+};
+
+const ShinyPokemonCard = ({ pokemon, size = 200, outline = 1, outlineColor = '#ffffff' }) => {
   const canvasRef = useRef(null);
   const animationRef = useRef(null);
   const currentFrameRef = useRef(0);
@@ -11,12 +20,6 @@ const ShinyPokemonCard = ({ pokemon }) => {
     currentFrameRef.current = 0;
 
     const colorShift = pokemon.colorShift || 0;
-    // const formIndex = pokemon.formIndex || 0;
-
-    // let pokemonId = pokemon.id;
-    // if (pokemon.forms && pokemon.forms[formIndex]) {
-    //   pokemonId = pokemon.forms[formIndex].id;
-    // }
 
     const src = colorShift === 0
       ? pokemon.image
@@ -32,35 +35,54 @@ const ShinyPokemonCard = ({ pokemon }) => {
       const canvas = canvasRef.current;
       if (!canvas) return;
 
-      const fixedSize = 200;
-      canvas.width = fixedSize;
-      canvas.height = fixedSize;
+      const pad = outline;
+      const lowW = frameWidth + pad * 2;
+      const lowH = frameHeight + pad * 2;
+      const pixelScale = size / frameWidth;
 
-      const ctx = canvas.getContext('2d', { willReadFrequently: true });
+      canvas.width = Math.round(lowW * pixelScale);
+      canvas.height = Math.round(lowH * pixelScale);
+
+      const ctx = canvas.getContext('2d');
       ctx.imageSmoothingEnabled = false;
+
+      const frameCanvas = document.createElement('canvas');
+      frameCanvas.width = frameWidth;
+      frameCanvas.height = frameHeight;
+      const frameCtx = frameCanvas.getContext('2d', { willReadFrequently: true });
+      frameCtx.imageSmoothingEnabled = false;
+
+      const sil = document.createElement('canvas');
+      sil.width = frameWidth;
+      sil.height = frameHeight;
+      const silCtx = sil.getContext('2d');
+
+      const low = document.createElement('canvas');
+      low.width = lowW;
+      low.height = lowH;
+      const lowCtx = low.getContext('2d');
+      lowCtx.imageSmoothingEnabled = false;
+
+      const offsets = [];
+      for (let dx = -outline; dx <= outline; dx++) {
+        for (let dy = -outline; dy <= outline; dy++) {
+          if (dx !== 0 || dy !== 0) offsets.push([dx, dy]);
+        }
+      }
 
       const palette = colorShift >= 2 ? COLOR_PALETTES[colorShift - 2] : null;
       const frameInterval = 100;
       let lastTime = 0;
 
-      const hue2rgb = (p, q, t) => {
-        if (t < 0) t += 1;
-        if (t > 1) t -= 1;
-        if (t < 1 / 6) return p + (q - p) * 6 * t;
-        if (t < 1 / 2) return q;
-        if (t < 2 / 3) return p + (q - p) * (2 / 3 - t) * 6;
-        return p;
-      };
-
       const animate = (currentTime) => {
         if (currentTime - lastTime >= frameInterval) {
           const sourceX = currentFrameRef.current * frameWidth;
 
-          ctx.clearRect(0, 0, fixedSize, fixedSize);
-          ctx.drawImage(img, sourceX, 0, frameWidth, frameHeight, 0, 0, fixedSize, fixedSize);
+          frameCtx.clearRect(0, 0, frameWidth, frameHeight);
+          frameCtx.drawImage(img, sourceX, 0, frameWidth, frameHeight, 0, 0, frameWidth, frameHeight);
 
           if (palette) {
-            const imageData = ctx.getImageData(0, 0, fixedSize, fixedSize);
+            const imageData = frameCtx.getImageData(0, 0, frameWidth, frameHeight);
             const data = imageData.data;
 
             for (let i = 0; i < data.length; i += 4) {
@@ -103,8 +125,26 @@ const ShinyPokemonCard = ({ pokemon }) => {
               }
             }
 
-            ctx.putImageData(imageData, 0, 0);
+            frameCtx.putImageData(imageData, 0, 0);
           }
+
+          lowCtx.clearRect(0, 0, lowW, lowH);
+          if (outline > 0) {
+            silCtx.clearRect(0, 0, frameWidth, frameHeight);
+            silCtx.globalCompositeOperation = 'source-over';
+            silCtx.drawImage(frameCanvas, 0, 0);
+            silCtx.globalCompositeOperation = 'source-in';
+            silCtx.fillStyle = outlineColor;
+            silCtx.fillRect(0, 0, frameWidth, frameHeight);
+
+            for (const [dx, dy] of offsets) {
+              lowCtx.drawImage(sil, pad + dx, pad + dy);
+            }
+          }
+          lowCtx.drawImage(frameCanvas, pad, pad);
+
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+          ctx.drawImage(low, 0, 0, lowW, lowH, 0, 0, canvas.width, canvas.height);
 
           currentFrameRef.current = (currentFrameRef.current + 1) % totalFrames;
           lastTime = currentTime;
@@ -116,14 +156,15 @@ const ShinyPokemonCard = ({ pokemon }) => {
       animationRef.current = requestAnimationFrame(animate);
     };
 
+    img.onerror = () => console.error('No se pudo cargar la imagen:', src);
     img.src = src;
 
     return () => {
       if (animationRef.current) cancelAnimationFrame(animationRef.current);
     };
-  }, [pokemon.id, pokemon.colorShift, pokemon.formIndex]);
+  }, [pokemon.id, pokemon.image, pokemon.colorShift, pokemon.formIndex, size, outline, outlineColor]);
 
-  return <canvas ref={canvasRef} />;
+  return <canvas ref={canvasRef} style={{ imageRendering: 'pixelated' }} />;
 };
 
 export default ShinyPokemonCard;

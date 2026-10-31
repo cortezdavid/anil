@@ -1,14 +1,15 @@
 import { useState, useEffect } from 'react';
 import PokemonFront from "../pokemonFront/PokemonFront";
 import ShinyPokemonCard from "./ShinyPokemonCard";
-import { getTypeColor, getTypeName } from "../../utils/typeHelpers";
+import CRTWarp from "../crtWarp/CRTWarp";
+import { getTypeColor, getTypeName, getTypeHex } from "../../utils/typeHelpers";
 import Tooltip from '../tooltip/Tooltip';
 
-const formButtonClass = (isActive) => `rounded-lg px-4 py-2 text-sm font-medium transition-colors
+const formButtonClass = (isActive) => `px-4 py-2 text-sm font-medium transition-colors
   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100
   ${isActive
     ? 'bg-blue-700'
-    : 'bg-blue-950 hover:bg-blue-700'
+    : 'bg-blue-900 hover:bg-blue-700'
   }`;
 
 const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange, handleBaseForm, selectedForm, pokemonId }) => {
@@ -42,7 +43,7 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
 
   const getColorShift = () => {
     if (!hasRealPalette) return sliderValue;
-    return steps[sliderValue]?.colorShift ?? 0; 
+    return steps[sliderValue]?.colorShift ?? 0;
   };
 
   const colorShift = getColorShift();
@@ -55,22 +56,58 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
   const isBaseForm = selectedForm === 'base' || !selectedForm;
 
   return (
-    <div className="h-fit rounded-2xl border border-blue-800 bg-blue-900 p-6 lg:sticky lg:top-8">
+    <div className="h-fit lg:sticky lg:top-8 lg:border-r lg:border-blue-800 lg:pr-6">
 
       {/* Nombre */}
       <h1 className="mb-6 text-center text-4xl font-bold capitalize">
         {pokemon.name}
       </h1>
 
-      {/* Imagen */}
+      {/* Imagen: el borde cambia de color según sea normal, shiny o super shiny */}
       <div className={`
-        relative mb-6 flex min-h-[280px] items-center justify-center
-        rounded-2xl border-4 bg-blue-950 p-8 transition-all duration-300
-        ${isSuperShiny ? 'border-purple-800 shadow-lg shadow-purple-800/30' : isShiny ? 'border-amber-400 shadow-lg shadow-amber-500/30' : 'border-blue-800'}
+        relative flex min-h-[280px] items-center justify-center overflow-hidden
+        rounded-xl border-4 bg-blue-900 p-8 transition-colors duration-300
+        ${isSuperShiny ? 'border-purple-800' : isShiny ? 'border-amber-400' : 'border-blue-800'}
       `}>
-        <div className="relative flex justify-center items-center">
+        {/* Fondo animado: decorativo, no recibe clics */}
+        <div aria-hidden="true" className="pointer-events-none absolute inset-0">
+          <CRTWarp
+            color={getTypeHex(pokemon.types[0])}
+            backgroundColor="#000000"
+            mask="aperture"
+            curvature={0.25}
+            persistence={0.4}
+            lightMode={false}
+            speed={0.5}
+            variation={0}
+            waveAmplitude={0.3}
+            waveFrequency={2.5}
+            levels={3}
+            columns={80}
+            corners={0}
+            scanlineStrength={0.6}
+            scanlineFrequency={200}
+            maskStrength={0.3}
+            bloom={1.5}
+            bloomRadius={1}
+            rgbShift={0.003}
+            noise={0.1}
+            flicker={0.15}
+            interference={0.2}
+            vignette={0.3}
+            brightness={1}
+            intro={false}
+            mouseReact={false}
+            mouseStrength={0.5}
+            changeOnClick={false}
+            dpr={1}
+            paused={false}
+          />
+        </div>
+
+        <div className="relative z-10 flex items-center justify-center">
           {colorShift === 0 ? (
-            <PokemonFront key={pokemon.image} img={pokemon.image} scale={200} />
+            <PokemonFront key={pokemon.image} img={pokemon.image} scale={200} outline={1} />
           ) : (
             <ShinyPokemonCard
               key={`${pokemon.image}-${colorShift}`}
@@ -80,7 +117,7 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
         </div>
 
         {/* Tipos */}
-        <div className="absolute bottom-3 left-3 flex flex-wrap gap-1">
+        <div className="absolute bottom-3 left-3 z-10 flex flex-wrap gap-1">
           {pokemon.types.map((type) => (
             <span key={type} className={`rounded px-2 py-1 text-xs font-semibold text-white ${getTypeColor(type)}`}>
               {getTypeName(type)}
@@ -90,8 +127,8 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
       </div>
 
       {/* Barra */}
-      <div className="mb-6">
-        <h3 className="mb-2 flex items-center gap-1 text-sm font-medium text-blue-300">
+      <div className="mt-6 border-blue-800 pt-1">
+        <h3 className={`mb-2 flex items-center gap-1 text-sm font-medium`}>
           {currentLabel}
           {!hasRealPalette && isSuperShiny && (
             <Tooltip text="Solo uno de estos colores será el real al capturar" position="top">
@@ -109,14 +146,14 @@ const PokemonImageAndForms = ({ pokemon, basePokemon, variants, handleFormChange
           onChange={(e) => setSliderValue(Number(e.target.value))}
           aria-label="Variante de color"
           aria-valuetext={currentLabel}
-          className="h-2 w-full cursor-pointer appearance-none rounded-lg bg-blue-950"
+          className="h-2 w-full cursor-pointer appearance-none bg-blue-900"
         />
       </div>
 
       {/* Botones de Formas */}
       {variants && variants.length > 0 && (
-        <div className="space-y-3">
-          <h3 className="text-sm font-medium text-blue-300">
+        <div className="mt-6 space-y-3 border-blue-800 pt-1">
+          <h3 className="text-sm font-medium">
             Formas
           </h3>
           <div className="flex flex-wrap gap-2">
