@@ -8,26 +8,26 @@ const PokemonInformation = ({ pokemon }) => {
   ];
 
   return (
-    <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
-      {/* Columna izquierda: descripción y datos físicos */}
-      <div className="space-y-6">
-        <section className="rounded-xl bg-blue-950/50 p-5">
-          <h3 className="mb-3 text-base font-semibold">Descripción</h3>
-          <p className="text-sm leading-relaxed">{pokemon.pokedex}</p>
+    <div>
+      {/* Descripción a la izquierda, datos físicos a la derecha, separados por una línea */}
+      <div className="grid gap-8 lg:grid-cols-[1fr_20rem] lg:gap-10">
+        <section>
+          <h3 className="mb-2 text-lg font-bold">Descripción</h3>
+          <p className="max-w-prose leading-relaxed">{pokemon.pokedex}</p>
         </section>
 
-        <section className="rounded-xl bg-blue-950/50 p-5">
-          <h3 className="mb-3 text-base font-semibold">Datos físicos</h3>
-          <dl className="grid grid-cols-2 gap-3 text-center">
-            <div className="rounded-lg bg-blue-900 p-4">
-              <dt className="mb-1 text-sm text-blue-300">Altura</dt>
+        <section className="lg:border-l lg:border-blue-800 lg:pl-10">
+          <h3 className="mb-2 text-lg font-bold">Datos físicos</h3>
+          <dl className="flex gap-10">
+            <div>
+              <dt className="text-sm text-blue-300">Altura</dt>
               <dd className="text-2xl font-semibold">
                 {pokemon.physicalData?.height}
                 <span className="ml-1 text-base font-medium text-blue-300">m</span>
               </dd>
             </div>
-            <div className="rounded-lg bg-blue-900 p-4">
-              <dt className="mb-1 text-sm text-blue-300">Peso</dt>
+            <div>
+              <dt className="text-sm text-blue-300">Peso</dt>
               <dd className="text-2xl font-semibold">
                 {pokemon.physicalData?.weight}
                 <span className="ml-1 text-base font-medium text-blue-300">kg</span>
@@ -37,22 +37,24 @@ const PokemonInformation = ({ pokemon }) => {
         </section>
       </div>
 
-      {/* Columna derecha: habilidades */}
-      <section className="rounded-xl bg-blue-950/50 p-5 lg:col-span-2">
-        <h3 className="mb-3 text-base font-semibold">Habilidades</h3>
-        <ul className="grid gap-3 md:grid-cols-2">
+      {/* Habilidades: una fila por habilidad, separadas por líneas */}
+      <section className="mt-10">
+        <h3 className="mb-2 text-lg font-bold">Habilidades</h3>
+        <ul>
           {abilities.map(({ id, hidden }) => {
             const ability = abilitiesData.abilities.find((a) => a.id === id);
             return (
               <li
                 key={`${hidden}-${id}`}
-                className="rounded-lg bg-blue-900 p-4"
+                className="grid gap-2 border-t border-blue-800 py-4 md:grid-cols-[14rem_1fr] md:gap-8"
               >
-                <div className="mb-2 flex items-start justify-between gap-3">
+                <div className="flex flex-wrap items-center gap-2 md:flex-col md:items-start">
                   <span className="font-semibold">{ability?.name ?? id}</span>
                   <span
-                    className={`whitespace-nowrap rounded-full px-3 py-1 text-xs font-medium ${
-                      hidden ? "bg-blue-100 text-blue-950" : "bg-blue-800 text-blue-100"
+                    className={`border px-2 py-0.5 text-xs font-medium ${
+                      hidden
+                        ? "border-amber-400/60 text-amber-300"
+                        : "border-blue-700 text-blue-300"
                     }`}
                   >
                     {hidden ? "Oculta" : "Normal"}
