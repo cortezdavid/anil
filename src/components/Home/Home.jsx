@@ -98,15 +98,20 @@ const Home = () => {
                 <div className="relative w-full">
                   <input
                     id="buscar-pokemon"
-                    type="text"
+                    name="buscar-pokemon"
+                    type="search"
+                    inputMode="search"
+                    enterKeyHint="search"
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
                     onKeyDown={(e) => e.key === "Escape" && setQuery("")}
                     placeholder="Bulbasaur, Pikachu..."
                     autoComplete="off"
+                    autoCorrect="off"
                     autoCapitalize="off"
                     spellCheck={false}
-                    className={`w-full outline-none rounded-lg bg-blue-900 px-4 py-3.5 text-lg text-blue-100 placeholder:text-blue-300/60 ${focusRing}`}
+                    data-form-type="other"
+                    className="w-full rounded-lg border border-blue-800 bg-blue-900 px-4 py-3.5 text-lg text-blue-100 outline-none placeholder:text-blue-300/60 [&::-webkit-search-cancel-button]:appearance-none"
                   />
 
                   {/* Sugerencias */}
