@@ -31,6 +31,7 @@ const BattleTower = () => {
   };
 
   const defeatedCount = Object.values(defeated).filter(Boolean).length;
+  const progress = trainers.length > 0 ? (defeatedCount / trainers.length) * 100 : 0;
 
   return (
     <div className="min-h-screen bg-blue-950 text-blue-100">
@@ -41,58 +42,62 @@ const BattleTower = () => {
           Torre Batalla
         </h1>
 
-        {/* Contador simple */}
-        <div className="bg-blue-900 border border-blue-800 rounded-xl p-4 mb-8 text-center">
-          <span className="text-2xl font-semibold">
+        {/* Contador con barra de progreso */}
+        <div className="mb-8">
+          <p aria-live="polite" className="font-semibold">
             Derrotados: {defeatedCount} / {trainers.length}
-          </span>
+          </p>
+          <div aria-hidden="true" className="mt-2 h-2 overflow-hidden rounded-full bg-blue-900">
+            <div
+              className="h-full rounded-full bg-blue-100 transition-all duration-500 ease-out"
+              style={{ width: `${progress}%` }}
+            />
+          </div>
         </div>
 
-        {/* Grid de entrenadores */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+        {/* Entrenadores: sin cajas, cada uno con una línea arriba que se pone verde al derrotarlo */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-x-4 gap-y-6">
           {trainers.map((trainer) => {
             const isDefeated = defeated[trainer.id] || false;
 
             return (
-              <div
+              <button
                 key={trainer.id}
+                type="button"
+                aria-pressed={isDefeated}
                 onClick={() => toggleDefeated(trainer.id)}
-                className={`relative bg-blue-900 rounded-xl p-4 cursor-pointer transition-all duration-200 border-2 ${isDefeated
-                  ? 'border-green-500 bg-green-900/30'
-                  : 'border-blue-800 hover:shadow-lg hover:shadow-blue-900/40'
+                className={`block w-full-2 px-2 pb-3 pt-3 rounded text-left transition-colors
+                  focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-blue-100
+                  ${isDefeated
+                    ? 'border-green-500'
+                    : 'border-blue-800 rounded hover:bg-blue-900'
                   }`}
               >
                 {/* Imagen del entrenador */}
-                <div className="relative mb-3">
+                <div className="relative overflow-hidden rounded-lg bg-blue-900">
                   <img
                     src={trainer.img}
-                    alt={trainer.name}
-                    className={`w-full h-auto rounded-lg ${isDefeated ? 'opacity-60' : ''}`}
+                    alt=""
+                    className={`block h-auto w-full object-cover ${isDefeated ? 'opacity-60' : ''}`}
                   />
 
                   {/* Checkmark overlay */}
                   {isDefeated && (
                     <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="bg-green-500 rounded-full p-3 shadow-xl">
-                        <svg className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <div className="bg-green-500 rounded-full p-3">
+                        <svg aria-hidden="true" className="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                         </svg>
                       </div>
                     </div>
                   )}
-                </div>
 
-                {/* Nombre */}
-                <h3 className={`text-center font-semibold text-sm ${isDefeated ? 'text-green-400 line-through' : 'text-blue-100'
-                  }`}>
-                  {trainer.name}
-                </h3>
-
-                {/* Badge de número */}
-                <div className="absolute top-2 left-2 bg-blue-700 text-blue-100 font-bold px-2 py-1 rounded-full text-xs">
-                  #{trainer.id}
+                  {/* Nombre: encima de la imagen, en un cuadro pegado al borde de abajo */}
+                  <span className={`absolute inset-x-0 bottom-0 bg-blue-950/85 px-4 py-3 text-sm font-semibold`}>
+                    {trainer.name}
+                  </span>
                 </div>
-              </div>
+              </button>
             );
           })}
         </div>
