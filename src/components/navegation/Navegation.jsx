@@ -1,10 +1,24 @@
 import { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 
+const focusRing =
+  "focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100";
+
+// Los tres botones de la fila (anterior, hoja de cambios y siguiente) comparten el mismo estilo.
+// py-[11px] + el borde de 1px lo dejan a la misma altura que el buscador (48px).
+const navButtonBase = `flex flex-1 items-center justify-center gap-2 rounded-lg border px-4 py-[11px] font-semibold transition-colors ${focusRing}`;
+const navButtonEnabled = "cursor-pointer border-blue-800 text-blue-100 hover:bg-blue-900";
+
 // Un solo campo de búsqueda, reutilizado para el layout móvil y el de escritorio
-// (solo cambia el ancho). Con la X para borrar, igual que en la búsqueda de MT.
-const SearchBox = ({ id, widthClass, search, suggestions, onChange, onKeyDown, onSelect, onClear }) => (
-  <div className={`relative ${widthClass}`}>
+// (solo cambia el ancho).
+const SearchBox = ({ id, widthClass, search, suggestions, onChange, onKeyDown, onSelect, onClear, onClose }) => (
+  <div
+    className={`relative ${widthClass}`}
+    // Las sugerencias se cierran cuando el foco sale de todo el buscador
+    onBlur={(e) => {
+      if (!e.currentTarget.contains(e.relatedTarget)) onClose();
+    }}
+  >
     <input
       id={id}
       name={id}
@@ -20,8 +34,8 @@ const SearchBox = ({ id, widthClass, search, suggestions, onChange, onKeyDown, o
       value={search}
       onChange={onChange}
       onKeyDown={onKeyDown}
-      className="w-full rounded-lg border border-blue-800 bg-blue-900 px-4 py-3 pr-12 font-medium text-blue-100
-        placeholder:text-blue-300/60 outline-none border-none
+      className="w-full rounded-lg bg-blue-900 px-4 py-3 pr-12 font-medium text-blue-100
+        placeholder:text-blue-300/60 outline-none
         [&::-webkit-search-cancel-button]:appearance-none"
     />
     <div className="absolute inset-y-0 right-0 flex items-center pr-3">
@@ -30,7 +44,7 @@ const SearchBox = ({ id, widthClass, search, suggestions, onChange, onKeyDown, o
           type="button"
           onClick={onClear}
           aria-label="Borrar búsqueda"
-          className="rounded-full p-1 text-blue-300 hover:text-blue-100 focus-visible:outline-offset-2 focus-visible:outline-blue-100"
+          className={`rounded-full p-1 text-blue-300 hover:text-blue-100 ${focusRing}`}
         >
           <svg className="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -43,9 +57,11 @@ const SearchBox = ({ id, widthClass, search, suggestions, onChange, onKeyDown, o
       )}
     </div>
 
-    {/* Sugerencias */}
     {suggestions.length > 0 && (
-      <div className="absolute z-50 mt-2 max-h-80 w-full overflow-y-auto rounded-lg border border-blue-800 bg-blue-900 shadow-xl">
+      <div
+        className="absolute z-50 mt-2 max-h-80 w-full overflow-y-auto rounded-lg bg-blue-900 shadow-xl"
+        onMouseDown={(e) => e.preventDefault()}
+      >
         <ul className="py-2">
           {suggestions.map((pokemon) => (
             <li key={pokemon.id}>
@@ -84,10 +100,6 @@ const Navegation = ({ pokemones }) => {
     navigate(`/pokemon/${pokemonId.toLowerCase()}`);
   };
 
-  const handleDownload = () => {
-    window.open('https://docs.google.com/spreadsheets/d/1I4Y5EYuUkHs6uYxWz3Wfm4PpgADuoSp3/', '_blank');
-  };
-
   const [search, setSearch] = useState("");
   const [suggestions, setSuggestions] = useState([]);
 
@@ -116,9 +128,15 @@ const Navegation = ({ pokemones }) => {
     setSuggestions([]);
   };
 
+  // Cierra las sugerencias sin borrar lo escrito
+  const handleCloseSuggestions = () => setSuggestions([]);
+
   const handleKeyDown = (e) => {
     if (e.key === 'Enter' && suggestions.length > 0) {
       handleClick(suggestions[0]);
+    }
+    if (e.key === 'Escape') {
+      handleClear();
     }
   };
 
@@ -135,34 +153,38 @@ const Navegation = ({ pokemones }) => {
           onKeyDown={handleKeyDown}
           onSelect={handleClick}
           onClear={handleClear}
+          onClose={handleCloseSuggestions}
         />
       </div>
 
       {/* Layout de botones y buscador */}
       <div className="flex items-center justify-between gap-4">
-        {/* Botón anterior o descarga */}
+        {/* Botón anterior o, en el primer Pokémon, enlace a la hoja de cambios */}
         {prevPokemon ? (
           <button
             type="button"
             onClick={() => handleNavigation(prevPokemon.id)}
-            className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-blue-700 px-4 py-2 font-semibold text-blue-100 transition-colors hover:bg-blue-800 lg:w-40 lg:flex-none"
+            className={`${navButtonBase} ${navButtonEnabled} lg:w-40 lg:flex-none`}
           >
-            <svg className="h-5 w-5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg aria-hidden="true" className="h-5 w-5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
-            <span className="truncate">{prevPokemon.name}</span>
+            <span className="truncate capitalize">
+              {prevPokemon.name}
+            </span>
           </button>
         ) : (
-          <button
-            type="button"
-            onClick={handleDownload}
-            className="cursor-pointer flex flex-1 items-center justify-center gap-2 rounded-lg bg-blue-700 px-4 py-2 font-semibold text-blue-100 transition-colors hover:bg-blue-800 lg:flex-none"
+          <a
+            href="https://docs.google.com/spreadsheets/d/1I4Y5EYuUkHs6uYxWz3Wfm4PpgADuoSp3/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`${navButtonBase} ${navButtonEnabled} lg:flex-none`}
           >
-            <svg className="h-5 w-5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg aria-hidden="true" className="h-5 w-5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
             </svg>
             <span className="whitespace-nowrap">Ver cambios de estadísticas y tipos</span>
-          </button>
+          </a>
         )}
 
         {/* Buscador en el centro (solo desktop) */}
@@ -176,6 +198,7 @@ const Navegation = ({ pokemones }) => {
             onKeyDown={handleKeyDown}
             onSelect={handleClick}
             onClear={handleClear}
+            onClose={handleCloseSuggestions}
           />
         </div>
 
@@ -184,14 +207,17 @@ const Navegation = ({ pokemones }) => {
           type="button"
           onClick={() => nextPokemon && handleNavigation(nextPokemon.id)}
           disabled={!nextPokemon}
-          className={`flex flex-1 items-center justify-center gap-2 rounded-lg px-4 py-2 font-semibold transition-colors lg:w-40 lg:flex-none
-            ${nextPokemon
-              ? 'bg-blue-700 text-blue-100 hover:bg-blue-800'
-              : 'border border-blue-800 text-blue-300 cursor-not-allowed'
+          className={`${navButtonBase} lg:w-40 lg:flex-none ${nextPokemon
+            ? navButtonEnabled
+            : 'cursor-not-allowed border-blue-900 text-blue-300/50'
             }`}
         >
-          {nextPokemon && <span className="truncate">{nextPokemon.name}</span>}
-          <svg className="h-5 w-5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          {nextPokemon && (
+            <span className="truncate capitalize">
+              {nextPokemon.name}
+            </span>
+          )}
+          <svg aria-hidden="true" className="h-5 w-5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>
         </button>
