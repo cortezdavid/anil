@@ -45,7 +45,6 @@ const ExternalLink = ({ href, children }) => (
     className={`underline decoration-blue-800 underline-offset-4 hover:decoration-blue-100 ${focusRing}`}
   >
     {children}
-    <span className="sr-only"> (se abre en una pestaña nueva)</span>
   </a>
 );
 
