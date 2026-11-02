@@ -1,42 +1,98 @@
-import { useState } from "react";
+import { useState, useRef, useEffect, useLayoutEffect } from "react";
+import { createPortal } from "react-dom";
+
+const GAP = 8;
+const MARGIN = 8;
+
+const OPPOSITE = { top: "bottom", bottom: "top", left: "right", right: "left" };
 
 const Tooltip = ({ text, children, position = "top" }) => {
   const [show, setShow] = useState(false);
+  const [coords, setCoords] = useState(null);
+  const triggerRef = useRef(null);
+  const tipRef = useRef(null);
+
+  useLayoutEffect(() => {
+    if (!show) {
+      setCoords(null);
+      return;
+    }
+    const trigger = triggerRef.current;
+    const tip = tipRef.current;
+    if (!trigger || !tip) return;
+
+    const t = trigger.getBoundingClientRect();
+    const w = tip.offsetWidth;
+    const h = tip.offsetHeight;
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+
+    const fits = {
+      top: t.top - GAP - h >= MARGIN,
+      bottom: t.bottom + GAP + h <= vh - MARGIN,
+      left: t.left - GAP - w >= MARGIN,
+      right: t.right + GAP + w <= vw - MARGIN,
+    };
+    const side = !fits[position] && fits[OPPOSITE[position]] ? OPPOSITE[position] : position;
+
+    let top;
+    let left;
+    if (side === "top") {
+      top = t.top - GAP - h;
+      left = t.left + t.width / 2 - w / 2;
+    } else if (side === "bottom") {
+      top = t.bottom + GAP;
+      left = t.left + t.width / 2 - w / 2;
+    } else if (side === "left") {
+      top = t.top + t.height / 2 - h / 2;
+      left = t.left - GAP - w;
+    } else {
+      top = t.top + t.height / 2 - h / 2;
+      left = t.right + GAP;
+    }
+
+    left = Math.min(Math.max(left, MARGIN), vw - w - MARGIN);
+    top = Math.min(Math.max(top, MARGIN), vh - h - MARGIN);
+    setCoords({ top, left });
+  }, [show, position, text]);
+
+  useEffect(() => {
+    if (!show) return;
+    const hide = () => setShow(false);
+    window.addEventListener("scroll", hide, true);
+    return () => window.removeEventListener("scroll", hide, true);
+  }, [show]);
 
   if (!text) return children;
 
-  const positionClasses = {
-    top: "bottom-full left-1/2 -translate-x-1/2 mb-2",
-    bottom: "top-full left-1/2 -translate-x-1/2 mt-2",
-    left: "right-full top-1/2 -translate-y-1/2 mr-2",
-    right: "left-full top-1/2 -translate-y-1/2 ml-2"
-  };
-
-  const arrowClasses = {
-    top: "top-full left-1/2 -translate-x-1/2 border-l-transparent border-r-transparent border-b-transparent border-t-blue-900",
-    bottom: "bottom-full left-1/2 -translate-x-1/2 border-l-transparent border-r-transparent border-t-transparent border-b-blue-900",
-    left: "left-full top-1/2 -translate-y-1/2 border-t-transparent border-b-transparent border-r-transparent border-l-blue-900",
-    right: "right-full top-1/2 -translate-y-1/2 border-t-transparent border-b-transparent border-l-transparent border-r-blue-900"
-  };
-
   return (
-    <div 
+    <span
+      ref={triggerRef}
       className="relative inline-block"
       onMouseEnter={() => setShow(true)}
       onMouseLeave={() => setShow(false)}
+      onFocus={() => setShow(true)}
+      onBlur={() => setShow(false)}
     >
       {children}
-      
-      {show && (
-        <div className={`absolute z-50 ${positionClasses[position]} pointer-events-none`}>
-          <div className="bg-blue-800 text-white text-xs rounded-lg px-3 py-2 shadow-xl w-64 leading-normal">
+
+      {show &&
+        createPortal(
+          <div
+            ref={tipRef}
+            role="tooltip"
+            style={{
+              top: coords?.top ?? 0,
+              left: coords?.left ?? 0,
+              visibility: coords ? "visible" : "hidden",
+            }}
+            className="pointer-events-none fixed z-[100] w-64 max-w-[calc(100vw-16px)] rounded-lg border border-blue-700 bg-blue-800 px-3 py-2 text-xs leading-normal text-white"
+          >
             {text}
-          </div>
-          {/* Flecha */}
-          <div className={`absolute w-0 h-0 border-4 ${arrowClasses[position]}`}></div>
-        </div>
-      )}
-    </div>
+          </div>,
+          document.body
+        )}
+    </span>
   );
 };
 
