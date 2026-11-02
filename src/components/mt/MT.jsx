@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import mtData from "../../data/MT.json";
 import movesData from "../../data/moves.json";
 import AutoScrollTop from "../autoScrollTop/AutoScrollTop";
@@ -20,6 +20,18 @@ const MT = () => {
   const [selectedId, setSelectedId] = useState(null);
 
   const getMoveData = (moveId) => moves.find(m => m.id === moveId);
+
+  // Con el modal abierto: Escape lo cierra y la página de atrás no hace scroll
+  useEffect(() => {
+    if (!selectedId) return;
+    const handleEsc = (e) => e.key === 'Escape' && setSelectedId(null);
+    window.addEventListener('keydown', handleEsc);
+    document.body.style.overflow = 'hidden';
+    return () => {
+      window.removeEventListener('keydown', handleEsc);
+      document.body.style.overflow = 'unset';
+    };
+  }, [selectedId]);
 
   // Filtrar MTs según búsqueda
   const filteredMTs = mts.filter(mt => {
@@ -89,25 +101,24 @@ const MT = () => {
           )}
         </div>
 
-        {/* Lista: queda fija en su lugar, no se empuja al abrir un detalle */}
+        {/* Lista plana: una fila por MT, separadas por líneas */}
         {filteredMTs.length === 0 ? (
           <p className="text-center py-12 text-blue-300 font-medium">
             No se encontraron resultados para "{search}"
           </p>
         ) : (
-          <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+          <ul className="grid gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
             {filteredMTs.map(mt => {
               const moveData = getMoveData(mt.move);
-              if (!moveData) return null;
 
               return (
-                <li key={mt.id}>
+                <li key={mt.id} className="border-b border-blue-800">
                   <button
                     type="button"
                     onClick={() => setSelectedId(mt.id)}
-                    className="w-full flex items-center gap-3 rounded-lg bg-blue-900 px-4 py-3 text-left hover:bg-blue-800/50 transition-colors cursor-pointer"
+                    className="w-full flex items-center gap-3 px-3 py-3 text-left outline-none hover:bg-blue-900 transition-colors cursor-pointer"
                   >
-                    <span className="shrink-0 rounded-md bg-blue-700 px-2.5 py-1 text-xs font-bold text-blue-100">
+                    <span className="min-w-[3.5rem] shrink-0 text-sm font-bold tabular-nums">
                       {mt.id}
                     </span>
                     <span className="min-w-0 flex-1">
@@ -134,7 +145,7 @@ const MT = () => {
             onClick={() => setSelectedId(null)}
           >
             <div
-              className="max-h-[90vh] w-full max-w-2xl overflow-y-auto rounded-t-2xl border border-blue-800 bg-blue-900 p-6 sm:rounded-2xl"
+              className="max-h-[90vh] w-full max-w-2xl overflow-y-auto rounded border border-blue-800 bg-blue-900 p-6"
               onClick={(e) => e.stopPropagation()}
             >
               <div className="flex items-start justify-between gap-3 mb-4">
@@ -143,7 +154,7 @@ const MT = () => {
                   type="button"
                   onClick={() => setSelectedId(null)}
                   aria-label="Cerrar"
-                  className="shrink-0 rounded-full p-1.5 text-blue-300 hover:bg-blue-800 hover:text-blue-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100"
+                  className="text-blue-100 hover:bg-blue-800 rounded-lg p-2 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100"
                 >
                   <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -151,7 +162,7 @@ const MT = () => {
                 </button>
               </div>
 
-              <span className={`inline-block mb-4 px-3 py-1 rounded-full text-xs font-semibold text-white ${getTypeColor(selectedMove.type)}`}>
+              <span className={`inline-block mb-4 px-3 py-1 rounded text-xs font-semibold text-white ${getTypeColor(selectedMove.type)}`}>
                 {getTypeName(selectedMove.type)}
               </span>
 
