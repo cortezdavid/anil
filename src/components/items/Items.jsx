@@ -50,7 +50,7 @@ const Items = () => {
       .sort((a, b) => a.nameES.localeCompare(b.nameES));
   }, []);
 
-  // Procesar objetos de Pokémon - una card por cada objeto
+  // Procesar objetos de Pokémon - una fila por cada objeto
   const pokemonItemsFlattened = useMemo(() => {
     const flattened = [];
     pokemonItemsData.forEach(pkmnItem => {
@@ -135,50 +135,54 @@ const Items = () => {
           Objetos
         </h1>
 
-        {/* Pestañas */}
-        <div className="flex gap-4 mb-6">
+        {/* Pestañas: barra plana separada por líneas */}
+        <div className="mb-6 flex border-y border-blue-800">
           <button
+            type="button"
+            aria-pressed={activeTab === 'map'}
             onClick={() => {
               setActiveTab('map');
               setSearch('');
             }}
-            className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-colors ${activeTab === 'map'
-                ? 'bg-blue-700 text-blue-100'
-                : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50'
+            className={`flex-1 px-6 py-3 font-semibold transition-colors
+              focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-blue-100
+              ${activeTab === 'map'
+                ? 'bg-blue-900 text-blue-100'
+                : 'text-blue-300 hover:bg-blue-900/50 hover:text-blue-100'
               }`}
           >
             Objetos del Mapa
           </button>
           <button
+            type="button"
+            aria-pressed={activeTab === 'pokemon'}
             onClick={() => {
               setActiveTab('pokemon');
               setSearch('');
             }}
-            className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-colors ${activeTab === 'pokemon'
-                ? 'bg-blue-700 text-blue-100'
-                : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50'
+            className={`flex-1 px-6 py-3 font-semibold transition-colors
+              focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-blue-100
+              ${activeTab === 'pokemon'
+                ? 'bg-blue-900 text-blue-100'
+                : 'text-blue-300 hover:bg-blue-900/50 hover:text-blue-100'
               }`}
           >
             Objetos de Pokémon
           </button>
         </div>
 
-        {/* Nota informativa */}
+        {/* Nota informativa: un texto con una línea a la izquierda, sin caja */}
         {activeTab === 'map' && (
-          <div className="bg-blue-950/50 border border-blue-800 rounded-xl p-4 mb-8">
-            <p className="leading-relaxed">
-              Nota: Algunos objetos pueden repetirse en distintas ubicaciones, en esos casos, solo se muestra la primera aparición.
-              No se incluyen objetos de uso común como pokéballs, repelentes, medicamentos y otros objetos similares.
-            </p>
-          </div>
+          <p className="mb-8 border-l-2 border-blue-700 pl-4 leading-relaxed">
+            Nota: Algunos objetos pueden repetirse en distintas ubicaciones, en esos casos, solo se muestra la primera aparición.
+            No se incluyen objetos de uso común como pokéballs, repelentes, medicamentos y otros objetos similares.
+          </p>
         )}
 
         {activeTab === 'pokemon' && (
-          <div className="bg-blue-950/50 border border-blue-800 rounded-xl p-4 mb-8">
-            <p className="leading-relaxed">
-              Nota: No se incluyeron los Pokémon que no aparecen de forma salvaje en el mapa. La rareza indica la probabilidad de que el Pokémon lleve el objeto.
-            </p>
-          </div>
+          <p className="mb-8 border-l-2 border-blue-700 pl-4 leading-relaxed">
+            Nota: No se incluyeron los Pokémon que no aparecen de forma salvaje en el mapa. La rareza indica la probabilidad de que el Pokémon lleve el objeto.
+          </p>
         )}
 
         {/* Buscador */}
@@ -227,113 +231,89 @@ const Items = () => {
           )}
         </div>
 
-        {/* Grid de items */}
+        {/* Lista de items */}
         {currentList.length === 0 ? (
           <p className="text-center py-12 text-blue-300 font-medium">
             No se encontraron resultados para "{search}"
           </p>
         ) : (
           <>
-            {/* OBJETOS DEL MAPA */}
+            {/* OBJETOS DEL MAPA: una fila por objeto, separadas por líneas */}
             {activeTab === 'map' && (
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              <ul className="grid gap-x-8 md:grid-cols-2 xl:grid-cols-3">
                 {visibleList.map((item) => (
-                  <div
-                    key={item.id}
-                    className="bg-blue-900 border border-blue-800 rounded-lg overflow-hidden transition-shadow hover:shadow-lg hover:shadow-blue-900/40"
-                  >
-                    {/* Layout horizontal: Imagen ubicación + Info */}
-                    <div className="flex items-start gap-4 p-4 pb-3">
+                  <li key={item.id} className="flex items-start gap-4 border-b border-blue-800 py-4">
 
-                      {/* Imagen de ubicación */}
-                      <div className="flex-shrink-0 w-[100px] h-[100px] bg-blue-950 rounded-lg overflow-hidden flex items-center justify-center">
-                        <img
-                          src={`/images/items/ubicacion/${item.name}.jpg`}
-                          alt={`Ubicación ${item.nameES}`}
-                          className="w-[100px] h-[100px] object-contain"
-                          onError={(e) => {
-                            e.target.style.display = 'none';
-                            e.target.parentElement.innerHTML = '<div class="text-blue-300 text-xs">Sin imagen</div>';
-                          }}
-                        />
-                      </div>
-
-                      {/* Info del item */}
-                      <div className="flex-1 min-w-0">
-                        {/* Nombre e ícono */}
-                        <div className="flex items-start gap-2 mb-2">
-                          <img
-                            src={item.img}
-                            alt={item.nameES}
-                            className="w-10 h-10 object-contain flex-shrink-0"
-                          />
-                          <h3 className="font-black text-slate-100 text-sm leading-tight">
-                            {item.nameES}
-                          </h3>
-                        </div>
-
-                        {/* Descripción */}
-                        <p className="text-xs leading-relaxed mb-2 line-clamp-3">
-                          {item.description}
-                        </p>
-                      </div>
+                    {/* Imagen de ubicación */}
+                    <div className="flex-shrink-0 w-[100px] h-[100px] bg-blue-900 rounded-lg overflow-hidden flex items-center justify-center">
+                      <img
+                        src={`/images/items/ubicacion/${item.name}.jpg`}
+                        alt={`Ubicación ${item.nameES}`}
+                        className="w-[100px] h-[100px] object-contain"
+                        onError={(e) => {
+                          e.target.style.display = 'none';
+                          e.target.parentElement.innerHTML = '<div class="text-blue-300 text-xs">Sin imagen</div>';
+                        }}
+                      />
                     </div>
 
-                    {/* Ubicación - Ancho completo (sin el ícono de mapa) */}
-                    <div className="px-4 pb-4">
-                      <div className="text-xs font-medium text-blue-300 bg-blue-950/50 px-2 py-1.5 rounded">
-                        {item.location}
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            )}
-
-            {/* OBJETOS DE POKÉMON */}
-            {activeTab === 'pokemon' && (
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
-                {visibleList.map((item) => (
-                  <div
-                    key={item.id}
-                    className="bg-blue-900 border border-blue-800 rounded-lg overflow-hidden transition-shadow hover:shadow-lg hover:shadow-blue-900/40"
-                  >
-                    {/* Header con icono y nombre del objeto */}
-                    <div className="p-4 pb-3">
-                      <div className="flex items-start gap-2 mb-2">
+                    {/* Info del item */}
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2">
                         <img
-                          src={item.itemImg}
-                          alt={item.itemNameES}
-                          className="w-12 h-12 object-contain flex-shrink-0"
-                          onError={(e) => {
-                            e.target.style.display = 'none';
-                          }}
+                          src={item.img}
+                          alt=""
+                          className="w-8 h-8 object-contain flex-shrink-0"
                         />
-                        <h3 className="font-black text-slate-100 text-sm leading-tight">
-                          {item.itemNameES}
+                        <h3 className="font-semibold leading-tight">
+                          {item.nameES}
                         </h3>
                       </div>
-
-                      {/* Descripción */}
-                      <p className="text-xs text-blue-300 leading-relaxed mb-2 line-clamp-3">
-                        {item.itemDescription}
+                      <p className="mt-2 text-sm leading-relaxed line-clamp-3">
+                        {item.description}
+                      </p>
+                      <p className="mt-2 text-sm font-medium text-amber-400">
+                        {item.location}
                       </p>
                     </div>
+                  </li>
+                ))}
+              </ul>
+            )}
 
-                    {/* Footer con Pokémon y rareza */}
-                    <div className="px-4 pb-4">
-                      <div className="flex items-center justify-between gap-2">
-                        <div className="text-xs font-medium text-blue-300 bg-blue-950/50 px-2 py-1.5 rounded flex-1 min-w-0">
+            {/* OBJETOS DE POKÉMON: una fila por objeto */}
+            {activeTab === 'pokemon' && (
+              <ul className="grid gap-x-8 md:grid-cols-3 xl:grid-cols-4">
+                {visibleList.map((item) => (
+                  <li key={item.id} className="flex items-start gap-3 border-b border-blue-800 py-4">
+                    <img
+                      src={item.itemImg}
+                      alt=""
+                      className="w-12 h-12 object-contain flex-shrink-0"
+                      onError={(e) => {
+                        e.target.style.display = 'none';
+                      }}
+                    />
+
+                    <div className="flex-1 min-w-0">
+                      <h3 className="font-semibold leading-tight">
+                        {item.itemNameES}
+                      </h3>
+                      <p className="mt-1 text-sm leading-relaxed line-clamp-3">
+                        {item.itemDescription}
+                      </p>
+                      <div className="mt-2 flex items-center justify-between gap-2">
+                        <span className="min-w-0 truncate text-sm font-medium text-amber-400">
                           {item.pokemonName}
-                        </div>
+                        </span>
                         <span className={`${getRarityColor(item.rarity)} text-white text-xs font-semibold px-2 py-1 rounded flex-shrink-0`}>
                           {item.rarity}
                         </span>
                       </div>
                     </div>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
             )}
 
             {/* Sentinel para cargar más */}
