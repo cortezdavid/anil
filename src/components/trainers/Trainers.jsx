@@ -123,11 +123,9 @@ const TrainerSection = ({ title, trainers, selectedDifficulty, openTrainer, togg
 
   return (
     <div className="mb-12">
-      <div className="bg-blue-700 rounded-xl p-6 mb-6">
-        <h2 className="text-3xl font-semibold text-center">
-          {title}
-        </h2>
-      </div>
+      <h2 className="mb-6 border-b border-blue-800 pb-3 text-2xl font-bold">
+        {title}
+      </h2>
 
       <div className="space-y-4">
         {trainers.map((trainer) => {
@@ -238,9 +236,12 @@ const SelectorButton = ({ active, color, onClick, children }) => {
   const { active: activeClass, inactive: inactiveClass } = SELECTOR_COLORS[color];
   return (
     <button
+      type="button"
+      aria-pressed={active}
       onClick={onClick}
-      className={`w-full sm:w-auto px-6 py-3 rounded-xl font-semibold transition-colors ${active ? activeClass : `bg-blue-900 hover:bg-blue-800/50 ${inactiveClass}`
-        }`}
+      className={`flex-1 px-4 py-3 font-semibold transition-colors 
+                focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-blue-100
+        ${active ? activeClass : `${inactiveClass} hover:bg-blue-900/50`}`}
     >
       {children}
     </button>
@@ -336,13 +337,13 @@ const Trainers = () => {
         </h1>
 
         {/* Selectores en una fila */}
-        <div className="mb-8 grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="mb-8 grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Selector de inicial */}
           <div>
             <h2 className="text-xl font-semibold text-center mb-4">
               Elige tu inicial
             </h2>
-            <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+            <div className="flex border-y border-blue-800">
               <SelectorButton active={selectedStarter === "ground"} color="green" onClick={() => setSelectedStarter("ground")}>
                 Planta
               </SelectorButton>
@@ -360,7 +361,7 @@ const Trainers = () => {
             <h2 className="text-xl font-semibold text-center mb-4">
               Elige la dificultad
             </h2>
-            <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+            <div className="flex border-y border-blue-800">
               <SelectorButton active={selectedDifficulty === "easy"} color="green" onClick={() => setSelectedDifficulty("easy")}>
                 Clásico
               </SelectorButton>
