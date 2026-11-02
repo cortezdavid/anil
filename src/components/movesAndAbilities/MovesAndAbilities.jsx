@@ -73,28 +73,36 @@ const MovesAndAbilities = () => {
           Movimientos y Habilidades
         </h1>
 
-        {/* Pestañas */}
-        <div className="flex gap-4 mb-6">
+        {/* Pestañas: barra plana separada por líneas */}
+        <div className="mb-6 flex border-y border-blue-800">
           <button
+            type="button"
+            aria-pressed={activeTab === 'moves'}
             onClick={() => {
               setActiveTab('moves');
               setSearch('');
             }}
-            className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-colors ${activeTab === 'moves'
-              ? 'bg-blue-700 text-blue-100'
-              : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50'
+            className={`flex-1 px-6 py-3 font-semibold transition-colors
+              focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-blue-100
+              ${activeTab === 'moves'
+                ? 'bg-blue-900 text-blue-100'
+                : 'text-blue-300 hover:bg-blue-900/50 hover:text-blue-100'
               }`}
           >
             Movimientos ({movesData.moves.length})
           </button>
           <button
+            type="button"
+            aria-pressed={activeTab === 'abilities'}
             onClick={() => {
               setActiveTab('abilities');
               setSearch('');
             }}
-            className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-colors ${activeTab === 'abilities'
-              ? 'bg-blue-700 text-blue-100'
-              : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50'
+            className={`flex-1 px-6 py-3 font-semibold transition-colors
+              focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-blue-100
+              ${activeTab === 'abilities'
+                ? 'bg-blue-900 text-blue-100'
+                : 'text-blue-300 hover:bg-blue-900/50 hover:text-blue-100'
               }`}
           >
             Habilidades ({abilitiesData.abilities.length})
@@ -158,12 +166,12 @@ const MovesAndAbilities = () => {
                 <div
                   key={move.id}
                   onClick={() => setSelectedMove(move)}
-                  className="bg-blue-900 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-blue-900/40 transition-all duration-200 cursor-pointer hover:scale-[1.02]"
+                  className="bg-blue-900 rounded overflow-hidden hover:shadow-lg hover:shadow-blue-900/40 transition-all duration-200 cursor-pointer hover:scale-[1.02]"
                 >
                   <div className="p-4 bg-blue-950/50">
                     <div className="flex items-center justify-between mb-2">
                       <h3 className="font-semibold text-lg">{move.name}</h3>
-                      <span className={`px-3 py-1 rounded-full text-xs font-semibold text-white ${getTypeColor(move.type)}`}>
+                      <span className={`px-3 py-1 rounded text-xs font-semibold text-white ${getTypeColor(move.type)}`}>
                         {getTypeName(move.type)}
                       </span>
                     </div>
@@ -211,7 +219,7 @@ const MovesAndAbilities = () => {
                 <div
                   key={ability.id}
                   onClick={() => setSelectedAbility(ability)}
-                  className="bg-blue-900 rounded-xl overflow-hidden hover:shadow-lg hover:shadow-blue-900/40 transition-all duration-200 cursor-pointer hover:scale-[1.02]"
+                  className="bg-blue-900 rounded overflow-hidden hover:shadow-lg hover:shadow-blue-900/40 transition-all duration-200 cursor-pointer hover:scale-[1.02]"
                 >
                   <div className="p-4 bg-blue-950/50">
                     <h3 className="font-semibold text-lg">{ability.name}</h3>
