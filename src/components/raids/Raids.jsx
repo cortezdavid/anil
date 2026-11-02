@@ -29,32 +29,6 @@ const Raids = () => {
     return new Map(pokemones.pokemones.map(poke => [poke.id, poke]));
   }, []);
 
-  // El tinte del header sigue el tipo del nido (dato funcional, como los
-  // chips de tipo en el resto del sitio), no es un color de marca.
-  const getTypeStyle = (type) => {
-    const styles = {
-      FIRE: { border: 'border-red-500/40', headerBg: 'bg-red-500/15', badge: 'bg-red-500' },
-      WATER: { border: 'border-blue-500/40', headerBg: 'bg-blue-500/15', badge: 'bg-blue-500' },
-      GRASS: { border: 'border-green-500/40', headerBg: 'bg-green-500/15', badge: 'bg-green-500' },
-      ELECTRIC: { border: 'border-yellow-400/40', headerBg: 'bg-yellow-400/15', badge: 'bg-yellow-400' },
-      PSYCHIC: { border: 'border-pink-500/40', headerBg: 'bg-pink-500/15', badge: 'bg-pink-500' },
-      ICE: { border: 'border-cyan-400/40', headerBg: 'bg-cyan-400/15', badge: 'bg-cyan-400' },
-      DRAGON: { border: 'border-indigo-500/40', headerBg: 'bg-indigo-500/15', badge: 'bg-indigo-600' },
-      DARK: { border: 'border-gray-600/40', headerBg: 'bg-gray-700/30', badge: 'bg-gray-800' },
-      FAIRY: { border: 'border-pink-300/40', headerBg: 'bg-pink-300/15', badge: 'bg-pink-400' },
-      FIGHTING: { border: 'border-red-700/40', headerBg: 'bg-red-700/15', badge: 'bg-red-700' },
-      POISON: { border: 'border-purple-600/40', headerBg: 'bg-purple-600/15', badge: 'bg-purple-600' },
-      GROUND: { border: 'border-yellow-600/40', headerBg: 'bg-yellow-600/15', badge: 'bg-yellow-600' },
-      FLYING: { border: 'border-indigo-400/40', headerBg: 'bg-indigo-400/15', badge: 'bg-indigo-400' },
-      BUG: { border: 'border-lime-600/40', headerBg: 'bg-lime-600/15', badge: 'bg-lime-600' },
-      ROCK: { border: 'border-amber-700/40', headerBg: 'bg-amber-700/15', badge: 'bg-yellow-800' },
-      GHOST: { border: 'border-purple-700/40', headerBg: 'bg-purple-900/25', badge: 'bg-purple-800' },
-      STEEL: { border: 'border-slate-500/40', headerBg: 'bg-slate-500/15', badge: 'bg-slate-500' },
-      NORMAL: { border: 'border-gray-400/40', headerBg: 'bg-gray-400/15', badge: 'bg-gray-400' },
-    };
-    return styles[type.toUpperCase()] || { border: 'border-blue-800', headerBg: 'bg-blue-900/40', badge: 'bg-blue-700' };
-  };
-
   const getItemData = (itemId) => {
     return itemsMap.get(itemId);
   };
@@ -73,114 +47,105 @@ const Raids = () => {
           Nidos
         </h1>
 
-        {/* Lista de raids */}
-        <div className="space-y-6">
+        {/* Lista de nidos: filas separadas por líneas, como los enlaces del Home */}
+        <div className="space-y-4">
           {raids.raids.map((raid) => {
-            const typeStyle = getTypeStyle(raid.type);
             const isOpen = openRaid === raid.id;
 
             return (
-              <div
+              <section
                 key={raid.id}
-                className="bg-blue-900 rounded-xl overflow-hidden"
+                className={`overflow-hidden rounded-xl border bg-blue-950 transition-colors ${isOpen ? 'border-blue-700' : 'border-blue-800'}`}
               >
-                {/* Header del raid — clickeable */}
+                {/* Encabezado clickeable: queda resaltado mientras está abierto */}
                 <button
+                  type="button"
                   onClick={() => toggleRaid(raid.id)}
-                  className={`w-full ${typeStyle.headerBg} border-b ${typeStyle.border} px-6 py-4 hover:brightness-110 transition-all duration-200`}
+                  aria-expanded={isOpen}
+                  className={`flex w-full flex-wrap items-center justify-between gap-3 p-4 text-left transition-colors duration-200
+                    focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-blue-100
+                    ${isOpen ? 'bg-blue-800/50' : 'hover:bg-blue-800/50'}`}
                 >
-                  <div className="flex items-center justify-between flex-wrap gap-3">
-                    <div className="flex items-center gap-3">
-                      <span className={`px-4 py-2 rounded-lg text-sm font-semibold text-white ${getTypeColor(raid.type)}`}>
-                        {getTypeName(raid.type)}
-                      </span>
-                      <span className="text-white font-semibold text-lg">
-                        Nivel {raid.nivel}
-                      </span>
-                    </div>
-                    <div className="flex items-center gap-3 text-white">
-                      <div className="flex items-center gap-2">
-                        <svg className="w-4 h-4 text-white/70 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                        </svg>
-                        <span className="font-medium">{raid.location}</span>
-                      </div>
-                      <svg
-                        className={`w-6 h-6 text-white/70 transform transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                      </svg>
-                    </div>
-                  </div>
+                  <span className="flex items-center gap-3">
+                    <span className={`rounded px-3 py-1 text-sm font-semibold text-white ${getTypeColor(raid.type)}`}>
+                      {getTypeName(raid.type)}
+                    </span>
+                    <span className="text-lg font-semibold">
+                      Nivel {raid.nivel}
+                    </span>
+                  </span>
+                  <span className="flex items-center gap-3">
+                    <span className="font-medium">{raid.location}</span>
+                    <svg
+                      aria-hidden="true"
+                      className={`w-6 h-6 transform transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </span>
                 </button>
 
-                {/* Contenido expandible */}
+                {/* Contenido expandible, directamente sobre el fondo */}
                 {isOpen && (
-                  <div className="p-6 space-y-6">
+                  <div className="space-y-8 border-t border-blue-800 p-6">
 
                     {/* Pokémon disponibles */}
                     <div>
-                      <h3 className="text-lg font-semibold mb-4">
+                      <h3 className="mb-4 text-lg font-bold">
                         Posibles Pokémon
                       </h3>
-                      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
+                      <ul className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5">
                         {raid.pokemon.map((pokemonId, index) => (
-                          <div
-                            key={index}
-                            className="p-3 flex flex-col items-center"
-                          >
-                            <div className="w-full aspect-square bg-blue-950/50 rounded-lg mb-2 flex items-center justify-center overflow-hidden">
+                          <li key={index} className="text-center">
+                            <div className="flex aspect-square w-full items-center justify-center overflow-hidden rounded-lg bg-blue-900">
                               <PokemonStaticSprite
                                 img={`/images/pokemonFront/${pokemonId}.png`}
                                 scale={140}
                               />
                             </div>
-                            <span className="text-sm font-semibold text-center">
+                            <span className="mt-2 block text-sm font-semibold">
                               {getPokemonName(pokemonId)}
                             </span>
-                          </div>
+                          </li>
                         ))}
-                      </div>
+                      </ul>
                     </div>
 
-                    {/* Mejoras de stats */}
+                    {/* Mejoras de stats: una franja con líneas arriba y abajo */}
                     <div>
-                      <h3 className="text-lg font-semibold mb-3">
+                      <h3 className="mb-4 text-lg font-bold">
                         Mejoras
                       </h3>
-                      <div className="bg-blue-950/50 border border-blue-800 rounded-lg p-4">
-                        <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 text-sm">
-                          <div className="flex items-center gap-2">
-                            <span className="text-blue-300">Ataque:</span>
-                            <span className="text-red-400 font-bold">+{raid.information.ataque}</span>
-                          </div>
-                          <div className="flex items-center gap-2">
-                            <span className="text-blue-300">Defensa:</span>
-                            <span className="text-blue-400 font-bold">+{raid.information.defensa}</span>
-                          </div>
-                          <div className="flex items-center gap-2">
-                            <span className="text-blue-300">At. Esp:</span>
-                            <span className="text-purple-400 font-bold">+{raid.information.atEspecial}</span>
-                          </div>
-                          <div className="flex items-center gap-2">
-                            <span className="text-blue-300">Def. Esp:</span>
-                            <span className="text-green-400 font-bold">+{raid.information.deEspecial}</span>
-                          </div>
-                          <div className="flex items-center gap-2">
-                            <span className="text-blue-300">Velocidad:</span>
-                            <span className="text-yellow-400 font-bold">+{raid.information.velocidad}</span>
-                          </div>
+                      <dl className="grid grid-cols-2 gap-4 border-y border-blue-800 py-2 sm:grid-cols-5">
+                        <div>
+                          <dt className="text-sm">Ataque</dt>
+                          <dd className="text-xl font-semibold">+{raid.information.ataque}</dd>
                         </div>
-                      </div>
+                        <div>
+                          <dt className="text-sm ">Defensa</dt>
+                          <dd className="text-xl font-semibold">+{raid.information.defensa}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-sm ">At. Esp</dt>
+                          <dd className="text-xl font-semibold">+{raid.information.atEspecial}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-sm">Def. Esp</dt>
+                          <dd className="text-xl font-semibold">+{raid.information.deEspecial}</dd>
+                        </div>
+                        <div>
+                          <dt className="text-sm">Velocidad</dt>
+                          <dd className="text-xl font-semibold">+{raid.information.velocidad}</dd>
+                        </div>
+                      </dl>
                     </div>
 
                     {/* Objetos recompensa */}
                     <div>
-                      <h3 className="text-lg font-semibold mb-4 flex items-center gap-2">
+                      <h3 className="mb-4 flex items-center gap-2 text-lg font-bold">
                         Posibles Recompensas
                         <Tooltip text="Existe la posibilidad de que falte algún objeto." position="right">
                           <svg className="w-4 h-4 text-blue-300" fill="currentColor" viewBox="0 0 20 20">
@@ -188,37 +153,35 @@ const Raids = () => {
                           </svg>
                         </Tooltip>
                       </h3>
-                      <div className="bg-blue-950/50 border border-blue-800 rounded-lg p-3">
-                        <div className="flex flex-wrap gap-2">
-                          {raid.objetos.map((objetoId, index) => {
-                            const itemData = getItemData(objetoId);
-                            return (
-                              <div
-                                key={index}
-                                className="flex items-center gap-2 bg-blue-900 px-3 py-2 rounded-lg border border-blue-800"
-                              >
-                                <img
-                                  src={`/images/items/${objetoId}.png`}
-                                  alt={itemData?.name || objetoId}
-                                  className="w-8 h-8 object-contain"
-                                  onError={(e) => {
-                                    e.target.style.display = 'none';
-                                  }}
-                                />
-                                <span className="text-sm font-medium cursor-help">
-                                  <Tooltip text={itemData?.description} position="top">
-                                    {itemData?.name || objetoId}
-                                  </Tooltip>
-                                </span>
-                              </div>
-                            );
-                          })}
-                        </div>
-                      </div>
+                      <ul className="grid gap-x-8 sm:grid-cols-3 lg:grid-cols-4">
+                        {raid.objetos.map((objetoId, index) => {
+                          const itemData = getItemData(objetoId);
+                          return (
+                            <li
+                              key={index}
+                              className="flex items-center gap-3 border-b border-blue-800 py-2"
+                            >
+                              <img
+                                src={`/images/items/${objetoId}.png`}
+                                alt=""
+                                className="w-8 h-8 object-contain"
+                                onError={(e) => {
+                                  e.target.style.display = 'none';
+                                }}
+                              />
+                              <span className="text-sm font-medium cursor-help">
+                                <Tooltip text={itemData?.description} position="top">
+                                  {itemData?.name || objetoId}
+                                </Tooltip>
+                              </span>
+                            </li>
+                          );
+                        })}
+                      </ul>
                     </div>
                   </div>
                 )}
-              </div>
+              </section>
             );
           })}
         </div>
