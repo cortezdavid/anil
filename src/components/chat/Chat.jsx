@@ -124,70 +124,69 @@ const Chat = () => {
             Chat
           </h1>
 
-          <div className="bg-blue-950/50 border border-blue-800 rounded-xl p-4">
-            <p className="leading-relaxed">
-              Este es un espacio para hacer preguntas sobre el juego, reportar errores de la página,
-              sugerir mejoras,
-              o simplemente compartir tus experiencias.
-            </p>
-          </div>
+          {/* Nota: un texto con una línea a la izquierda, sin caja */}
+          <p className="border-l-2 border-blue-700 pl-4 leading-relaxed">
+            Este es un espacio para hacer preguntas sobre el juego, reportar errores de la página,
+            sugerir mejoras,
+            o simplemente compartir tus experiencias.
+          </p>
         </div>
 
         {!isAuthenticated ? (
           <LoginForm onLogin={loginAnonymously} />
         ) : (
-          <div className="mb-8">
-            <div className="bg-blue-900 rounded-xl p-6">
-              <div className="flex items-center gap-2 mb-3">
-                <div className="w-8 h-8 rounded-full bg-blue-950 flex items-center justify-center text-blue-100 font-bold text-sm">
-                  {username.charAt(0).toUpperCase()}
-                </div>
-                <span className="font-semibold">{username}</span>
+          /* Escribir un comentario: sin caja, delimitado por dos líneas */
+          <div className="mb-8 py-6">
+            <div className="flex items-center gap-2 mb-3">
+              <div className="w-8 h-8 rounded-full bg-blue-900 flex items-center justify-center text-blue-100 font-bold text-sm">
+                {username.charAt(0).toUpperCase()}
               </div>
+              <span className="font-semibold">{username}</span>
+            </div>
 
-              <div>
-                <textarea
-                  value={newComment}
-                  onChange={(e) => setNewComment(e.target.value)}
-                  onKeyDown={handleKeyDown}
-                  placeholder="Escribe un comentario..."
-                  className="w-full px-4 py-3 text-blue-100 bg-blue-950 rounded-lg font-medium
-                           outline-none focus-visible:outline focus-visible:outline-2
-                           focus-visible:outline-offset-2 focus-visible:outline-blue-100
-                           placeholder:text-blue-300/60 resize-none"
-                  rows="3"
-                  maxLength="1000"
-                  disabled={sending}
-                  autoComplete="off"
-                  autoCorrect="off"
-                  autoCapitalize="off"
-                  spellCheck="false"
-                  data-form-type="other"
-                />
+            <div>
+              <textarea
+                value={newComment}
+                onChange={(e) => setNewComment(e.target.value)}
+                onKeyDown={handleKeyDown}
+                aria-label="Escribe un comentario"
+                placeholder="Escribe un comentario..."
+                className="w-full px-4 py-3 text-blue-100 bg-blue-900 rounded font-medium
+                         outline-none focus-visible:outline focus-visible:outline-2
+                         focus-visible:outline-offset-2 focus-visible:outline-blue-100
+                         placeholder:text-blue-300/60 resize-none"
+                rows="3"
+                maxLength="1000"
+                disabled={sending}
+                autoComplete="off"
+                autoCorrect="off"
+                autoCapitalize="off"
+                spellCheck="false"
+                data-form-type="other"
+              />
 
-                <div className="flex justify-between items-center mt-3">
-                  <span className="text-xs text-blue-300">
-                    {newComment.length}/1000 caracteres
-                  </span>
-                  <button
-                    onClick={handleSubmitComment}
-                    disabled={!newComment.trim() || sending}
-                    className="px-6 py-2 bg-blue-700 hover:bg-blue-800 disabled:bg-blue-950 disabled:text-blue-300
-                             disabled:cursor-not-allowed text-blue-100 font-semibold rounded-lg
-                             transition-colors duration-200"
-                  >
-                    {sending ? 'Enviando...' : 'Enviar'}
-                  </button>
-                </div>
+              <div className="flex justify-between items-center mt-3">
+                <span className="text-xs text-blue-300">
+                  {newComment.length}/1000 caracteres
+                </span>
+                <button
+                  type="button"
+                  onClick={handleSubmitComment}
+                  disabled={!newComment.trim() || sending}
+                  className="px-6 py-2 bg-blue-700 hover:bg-blue-800 disabled:bg-blue-900 disabled:text-blue-300
+                           disabled:cursor-not-allowed text-blue-100 font-semibold rounded
+                           transition-colors duration-200
+                           focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100"
+                >
+                  {sending ? 'Enviando...' : 'Enviar'}
+                </button>
               </div>
             </div>
           </div>
         )}
 
         {loadingComments ? (
-          <div className="text-center py-12 bg-blue-900 border border-blue-800 rounded-xl">
-            <div className="text-blue-300">Cargando comentarios...</div>
-          </div>
+          <p className="py-12 text-center text-blue-300">Cargando comentarios...</p>
         ) : comments.length === 0 ? null : (
           <div className="space-y-4">
             {comments.map(comment => (

@@ -12,6 +12,9 @@ import {
 } from 'firebase/firestore';
 import toast from 'react-hot-toast';
 
+const focusRing =
+  "focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100";
+
 const CommentItem = ({ comment, currentUser, currentUsername }) => {
   const [showReplyBox, setShowReplyBox] = useState(false);
   const [replyText, setReplyText] = useState('');
@@ -144,17 +147,17 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
 
   if (deleting) {
     return (
-      <div className="bg-blue-900/50 border border-blue-800 rounded-xl p-4">
-        <div className="text-center text-blue-300 text-sm">Eliminando comentario...</div>
+      <div className="rounded-xl border border-blue-800 p-4 text-center text-sm text-blue-300">
+        Eliminando comentario...
       </div>
     );
   }
 
   return (
-    <div className="bg-blue-900 rounded-xl p-4">
+    <article className="rounded border border-blue-800 bg-blue-950 p-4">
       {/* Comentario principal */}
       <div className="flex gap-3">
-        <div className="w-10 h-10 rounded-full bg-blue-950 flex items-center justify-center text-blue-100 font-bold flex-shrink-0">
+        <div className="w-10 h-10 rounded-full bg-blue-900 flex items-center justify-center text-blue-100 font-bold flex-shrink-0">
           {comment.username.charAt(0).toUpperCase()}
         </div>
 
@@ -176,8 +179,9 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
           <div className="flex items-center gap-4 mt-3">
             {currentUser && (
               <button
+                type="button"
                 onClick={() => setShowReplyBox(!showReplyBox)}
-                className="text-blue-300 hover:text-blue-100 text-xs font-semibold transition-colors"
+                className={`rounded text-blue-300 hover:text-blue-100 text-xs font-semibold transition-colors ${focusRing}`}
               >
                 Responder
               </button>
@@ -185,8 +189,9 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
 
             {isOwner && (
               <button
+                type="button"
                 onClick={handleDeleteComment}
-                className="text-red-400 hover:text-red-300 text-xs font-semibold transition-colors ml-auto"
+                className={`rounded text-red-400 hover:text-red-300 text-xs font-semibold transition-colors ml-auto ${focusRing}`}
               >
                 Eliminar
               </button>
@@ -199,7 +204,7 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
       {showReplyBox && currentUser && (
         <div className="mt-4 ml-12 pl-4 border-l-2 border-blue-800">
           <div className="flex items-start gap-2">
-            <div className="w-8 h-8 rounded-full bg-blue-700 flex items-center justify-center text-blue-100 font-bold text-xs flex-shrink-0">
+            <div className="w-8 h-8 rounded-full bg-blue-900 flex items-center justify-center text-blue-100 font-bold text-xs flex-shrink-0">
               {currentUsername.charAt(0).toUpperCase()}
             </div>
             <div className="flex-1">
@@ -207,9 +212,10 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
                 value={replyText}
                 onChange={(e) => setReplyText(e.target.value)}
                 onKeyDown={handleKeyDown}
+                aria-label={`Responder a ${comment.username}`}
                 placeholder={`Responder a ${comment.username}...`}
-                className="w-full px-3 py-2 text-blue-100 bg-blue-950 rounded-lg text-sm font-medium
-                         border border-blue-800 outline-none focus-visible:outline focus-visible:outline-2
+                className="w-full px-3 py-2 text-blue-100 bg-blue-900 rounded-lg text-sm font-medium
+                         outline-none focus-visible:outline focus-visible:outline-2
                          focus-visible:outline-offset-2 focus-visible:outline-blue-100
                          placeholder:text-blue-300/60 resize-none"
                 rows="2"
@@ -227,20 +233,22 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
                 </span>
                 <div className="flex gap-2">
                   <button
+                    type="button"
                     onClick={() => {
                       setShowReplyBox(false);
                       setReplyText('');
                     }}
-                    className="px-3 py-1 text-blue-300 hover:text-blue-100 text-xs font-semibold transition-colors"
+                    className={`rounded px-3 py-1 text-blue-300 hover:text-blue-100 text-xs font-semibold transition-colors ${focusRing}`}
                   >
                     Cancelar
                   </button>
                   <button
+                    type="button"
                     onClick={handleSubmitReply}
                     disabled={!replyText.trim() || sending}
-                    className="px-4 py-1 bg-blue-700 hover:bg-blue-800 disabled:bg-blue-950 disabled:border disabled:border-blue-800 disabled:text-blue-300
+                    className={`px-4 py-1 bg-blue-700 hover:bg-blue-800 disabled:bg-blue-900 disabled:text-blue-300
                              disabled:cursor-not-allowed text-blue-100 text-xs font-bold rounded-lg
-                             transition-colors duration-200"
+                             transition-colors duration-200 ${focusRing}`}
                   >
                     {sending ? 'Enviando...' : 'Enviar'}
                   </button>
@@ -251,9 +259,9 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
         </div>
       )}
 
-      {/* Lista de respuestas */}
+      {/* Lista de respuestas: sin burbujas, con una línea a la izquierda */}
       {showReplies && (
-        <div className="mt-4 ml-12 pl-4 border-l-2 border-white/50 space-y-3">
+        <div className="mt-4 ml-12 pl-4 border-l-2 border-white/50 space-y-4">
           {loadingReplies ? (
             <div className="text-blue-300 text-xs">Cargando respuestas...</div>
           ) : replies.length === 0 ? (
@@ -264,33 +272,32 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
 
               return (
                 <div key={reply.id} className="flex gap-2">
-                  <div className="w-8 h-8 rounded-full bg-blue-950 flex items-center justify-center text-blue-100 font-bold text-xs flex-shrink-0">
+                  <div className="w-8 h-8 rounded-full bg-blue-900 flex items-center justify-center text-blue-100 font-bold text-xs flex-shrink-0">
                     {reply.username.charAt(0).toUpperCase()}
                   </div>
                   <div className="flex-1 min-w-0">
-                    <div className="bg-blue-950/50 rounded-lg p-3">
-                      <div className="flex items-center justify-between mb-1">
-                        <div className="flex items-center gap-2">
-                          <span className="font-semibold text-xs">
-                            {reply.username}
-                          </span>
-                          <span className="text-blue-300 text-xs">
-                            {formatDate(reply.timestamp)}
-                          </span>
-                        </div>
-                        {isReplyOwner && (
-                          <button
-                            onClick={() => handleDeleteReply(reply.id)}
-                            className="text-red-400 hover:text-red-300 text-xs font-semibold transition-colors"
-                          >
-                            Eliminar
-                          </button>
-                        )}
+                    <div className="flex items-center justify-between mb-1">
+                      <div className="flex items-center gap-2">
+                        <span className="font-semibold text-xs">
+                          {reply.username}
+                        </span>
+                        <span className="text-blue-300 text-xs">
+                          {formatDate(reply.timestamp)}
+                        </span>
                       </div>
-                      <p className="text-xs leading-relaxed whitespace-pre-wrap break-words">
-                        {reply.text}
-                      </p>
+                      {isReplyOwner && (
+                        <button
+                          type="button"
+                          onClick={() => handleDeleteReply(reply.id)}
+                          className={`rounded text-red-400 hover:text-red-300 text-xs font-semibold transition-colors ${focusRing}`}
+                        >
+                          Eliminar
+                        </button>
+                      )}
                     </div>
+                    <p className="text-xs leading-relaxed whitespace-pre-wrap break-words border-b border-blue-800 pb-2">
+                      {reply.text}
+                    </p>
                   </div>
                 </div>
               );
@@ -298,7 +305,7 @@ const CommentItem = ({ comment, currentUser, currentUsername }) => {
           )}
         </div>
       )}
-    </div>
+    </article>
   );
 };
 

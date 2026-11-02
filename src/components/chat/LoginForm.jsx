@@ -25,55 +25,54 @@ const LoginForm = ({ onLogin }) => {
   };
 
   return (
-    <div className="mb-8">
-      <div className="bg-blue-900 rounded-xl p-6">
-        <h2 className="text-xl font-semibold mb-4">
-          Únete a la conversación
-        </h2>
+    <div className="mb-8 border-y border-blue-800 py-6">
+      <h2 className="text-xl font-semibold mb-4">
+        Únete a la conversación
+      </h2>
 
-        <p className="text-sm mb-4">
-          Para comentar, elige un nombre de usuario. No necesitas registrarte ni proporcionar un email.
-        </p>
+      <p className="text-sm mb-4">
+        Para comentar, elige un nombre de usuario. No necesitas registrarte ni proporcionar un email.
+      </p>
 
-        <div className="space-y-4">
-          <div>
-            <input
-              type="text"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-              onKeyDown={handleKeyDown}
-              placeholder="Escribe tu nombre de usuario..."
-              className="w-full px-4 py-3 text-blue-100 bg-blue-950 rounded-lg font-medium
-                       outline-none focus-visible:outline focus-visible:outline-2
-                       focus-visible:outline-offset-2 focus-visible:outline-blue-100
-                       placeholder:text-blue-300/60"
-              maxLength="20"
-              disabled={loading}
-            />
-            <p className="text-xs text-blue-300 mt-1">
-              Mínimo 3 caracteres, máximo 20
-            </p>
-          </div>
-
-          {error && (
-            <div className="bg-red-950/50 border border-red-800 rounded-lg p-3">
-              <p className="text-red-400 text-sm font-semibold">
-                {error}
-              </p>
-            </div>
-          )}
-
-          <button
-            onClick={handleLogin}
-            disabled={username.trim().length < 3 || loading}
-            className="w-full px-6 py-3 bg-blue-700 hover:bg-blue-800 disabled:bg-blue-950 disabled:border disabled:border-blue-800 disabled:text-blue-300
-                     disabled:cursor-not-allowed text-blue-100 font-semibold rounded-lg
-                     transition-colors duration-200"
-          >
-            {loading ? 'Entrando...' : 'Ingresar'}
-          </button>
-
+      <div className="space-y-4">
+        <div>
+          <input
+            type="text"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+            onKeyDown={handleKeyDown}
+            aria-label="Nombre de usuario"
+            placeholder="Escribe tu nombre de usuario..."
+            className="w-full px-4 py-3 text-blue-100 bg-blue-900 rounded-lg font-medium
+                     outline-none focus-visible:outline focus-visible:outline-2
+                     focus-visible:outline-offset-2 focus-visible:outline-blue-100
+                     placeholder:text-blue-300/60"
+            maxLength="20"
+            disabled={loading}
+          />
+          <p className="text-xs text-blue-300 mt-1">
+            Mínimo 3 caracteres, máximo 20
+          </p>
         </div>
+
+        {/* Error: una línea roja a la izquierda, sin caja */}
+        {error && (
+          <p role="alert" className="border-l-2 border-red-500 pl-3 text-red-400 text-sm font-semibold">
+            {error}
+          </p>
+        )}
+
+        <button
+          type="button"
+          onClick={handleLogin}
+          disabled={username.trim().length < 3 || loading}
+          className="w-full px-6 py-3 bg-blue-700 hover:bg-blue-800 disabled:bg-blue-900 disabled:text-blue-300
+                   disabled:cursor-not-allowed text-blue-100 font-semibold rounded-lg
+                   transition-colors duration-200
+                   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100"
+        >
+          {loading ? 'Entrando...' : 'Ingresar'}
+        </button>
       </div>
     </div>
   );
