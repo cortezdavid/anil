@@ -71,30 +71,35 @@ const DonProdigio = () => {
           Don Prodigio
         </h1>
 
-        <div className="bg-blue-950/50 border border-blue-800 rounded-xl p-4 mb-8">
-          <p className="leading-relaxed">
-            Nota: No es compatible con el modo Random. Acá no están incluidas las formas alternativas de los Pokémon para los intercambios.
-          </p>
-        </div>
+        {/* Nota: un texto con una línea a la izquierda, sin caja */}
+        <p className="mb-8 border-l-2 border-blue-700 pl-4 leading-relaxed">
+          Nota: No es compatible con el modo Random. Acá no están incluidas las formas alternativas de los Pokémon para los intercambios.
+        </p>
 
-        {/* Modo: tengo este Pokémon / quiero este Pokémon */}
-        <div className="flex gap-4 mb-6">
+        {/* Modo: tengo este Pokémon / quiero este Pokémon (barra plana separada por líneas) */}
+        <div className="mb-6 flex border-y border-blue-800">
           <button
             type="button"
+            aria-pressed={mode === 'give'}
             onClick={() => setMode('give')}
-            className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-colors ${mode === 'give'
-              ? 'bg-blue-700 text-blue-100'
-              : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50'
+            className={`flex-1 px-6 py-3 font-semibold transition-colors
+              focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-blue-100
+              ${mode === 'give'
+                ? 'bg-blue-900 text-blue-100'
+                : 'text-blue-300 hover:bg-blue-900/50 hover:text-blue-100'
               }`}
           >
             Tengo este Pokémon
           </button>
           <button
             type="button"
+            aria-pressed={mode === 'receive'}
             onClick={() => setMode('receive')}
-            className={`flex-1 px-6 py-3 rounded-xl font-semibold transition-colors ${mode === 'receive'
-              ? 'bg-blue-700 text-blue-100'
-              : 'bg-blue-900 text-blue-300 hover:bg-blue-800/50'
+            className={`flex-1 px-6 py-3 font-semibold transition-colors
+              focus-visible:outline focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-blue-100
+              ${mode === 'receive'
+                ? 'bg-blue-900 text-blue-100'
+                : 'text-blue-300 hover:bg-blue-900/50 hover:text-blue-100'
               }`}
           >
             Quiero este Pokémon
@@ -102,7 +107,7 @@ const DonProdigio = () => {
         </div>
 
         {/* Buscador */}
-        <div className="mb-6">
+        <div className="mb-8">
           <div className="relative mx-auto">
             <input
               id="pokemon-search"
@@ -177,48 +182,60 @@ const DonProdigio = () => {
 
         {/* Resultado seleccionado */}
         {selectedPokemon ? (
-          <div className="space-y-6">
-            {/* Info del Pokémon seleccionado */}
-            <div className="bg-blue-900 rounded-xl p-6">
-              <div className="flex flex-col md:flex-row gap-6">
-                {/* Sprite del Pokémon */}
-                <div className="flex justify-center md:justify-start">
-                  <div className="bg-blue-950 rounded-lg p-4">
-                    <PokemonStaticSprite
-                      img={selectedPokemon.image}
-                      size={128}
-                    />
-                  </div>
-                </div>
-
-                {/* Información */}
-                <div className="flex-1">
-                  <h2 className="text-2xl font-semibold mb-4">
-                    {selectedPokemon.name}
-                  </h2>
-                  <div className="space-y-2">
-                    <div className="mt-4 text-sm grid grid-cols-2 gap-2">
-                      <p><strong>HP:</strong> {selectedPokemon.baseStats.hp}</p>
-                      <p><strong>Ataque:</strong> {selectedPokemon.baseStats.attack}</p>
-                      <p><strong>Defensa:</strong> {selectedPokemon.baseStats.defense}</p>
-                      <p><strong>Ataque Esp.:</strong> {selectedPokemon.baseStats.specialAttack}</p>
-                      <p><strong>Defensa Esp.:</strong> {selectedPokemon.baseStats.specialDefense}</p>
-                      <p><strong>Velocidad:</strong> {selectedPokemon.baseStats.speed}</p>
-                    </div>
-                    <p className="text-lg">
-                      <strong>Estadística Total:</strong>{' '}
-                      <span className="font-bold text-blue-300">
-                        {getTotalStats(selectedPokemon)}
-                      </span>
-                    </p>
-                  </div>
+          <div className="space-y-10">
+            {/* Pokémon elegido: sprite a la izquierda, estadísticas a la derecha */}
+            <section className="flex flex-col gap-6 md:flex-row md:items-start">
+              <div className="flex justify-center md:justify-start">
+                <div className="rounded-lg bg-blue-900 p-4">
+                  <PokemonStaticSprite
+                    img={selectedPokemon.image}
+                    size={128}
+                  />
                 </div>
               </div>
-            </div>
+
+              <div className="flex-1">
+                <h2 className="mb-4 text-2xl font-semibold">
+                  {selectedPokemon.name}
+                </h2>
+
+                <dl className="grid grid-cols-3 gap-4 border-y border-blue-800 py-4 lg:grid-cols-6">
+                  <div>
+                    <dt className="text-sm">HP</dt>
+                    <dd className="text-xl font-semibold">{selectedPokemon.baseStats.hp}</dd>
+                  </div>
+                  <div>
+                    <dt className="text-sm">Ataque</dt>
+                    <dd className="text-xl font-semibold">{selectedPokemon.baseStats.attack}</dd>
+                  </div>
+                  <div>
+                    <dt className="text-sm ">Defensa</dt>
+                    <dd className="text-xl font-semibold">{selectedPokemon.baseStats.defense}</dd>
+                  </div>
+                  <div>
+                    <dt className="text-sm">Ataque Esp.</dt>
+                    <dd className="text-xl font-semibold">{selectedPokemon.baseStats.specialAttack}</dd>
+                  </div>
+                  <div>
+                    <dt className="text-sm">Defensa Esp.</dt>
+                    <dd className="text-xl font-semibold">{selectedPokemon.baseStats.specialDefense}</dd>
+                  </div>
+                  <div>
+                    <dt className="text-sm ">Velocidad</dt>
+                    <dd className="text-xl font-semibold">{selectedPokemon.baseStats.speed}</dd>
+                  </div>
+                </dl>
+
+                <p className="mt-4 border-blue-700">
+                  <span className="block text-sm font-medium">Estadística Total</span>
+                  <span className="block text-3xl font-bold">{getTotalStats(selectedPokemon)}</span>
+                </p>
+              </div>
+            </section>
 
             {/* Pokémon similares */}
-            <div className="bg-blue-900 rounded-xl p-6">
-              <h3 className="text-xl font-semibold mb-4">
+            <section>
+              <h3 className="mb-4 border-b border-blue-800 pb-3 text-xl font-bold">
                 {mode === 'give'
                   ? `${similarPokemon.length} Pokémon posibles que puedes recibir a cambio de ${selectedPokemon.name}`
                   : `${similarPokemon.length} Pokémon posibles que podrías dar para recibir a ${selectedPokemon.name}`}
@@ -231,7 +248,8 @@ const DonProdigio = () => {
                       key={pokemon.id}
                       type="button"
                       onClick={() => handleClick(pokemon)}
-                      className="bg-blue-950/50 rounded-lg p-3 flex flex-col items-center hover:bg-blue-800/50 transition-colors"
+                      className="bg-blue-900 rounded-lg p-3 flex flex-col items-center hover:bg-blue-800 transition-colors
+                        focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-100"
                     >
                       <span className="w-16 h-16 overflow-hidden flex-shrink-0 mb-2">
                         <img
@@ -253,7 +271,7 @@ const DonProdigio = () => {
                   No se encontraron Pokémon similares en este rango
                 </p>
               )}
-            </div>
+            </section>
           </div>
         ) : (
           <p className="text-center py-12 text-blue-300 font-medium">
